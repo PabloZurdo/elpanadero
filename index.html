@@ -10,6 +10,18 @@
 <link rel="icon" type="image/png" sizes="32x32" href="publi/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" href="favicon.ico" sizes="any">
+<meta name="description" content="El periódico independiente de Alcalá de Guadaíra.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="El Panadero">
+<meta property="og:title" content="El Panadero | Noticias de Alcalá de Guadaíra">
+<meta property="og:description" content="El periódico independiente de Alcalá de Guadaíra.">
+<meta property="og:url" content="https://elpanadero.es/">
+<meta property="og:image" content="https://elpanadero.es/publi/logo-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://elpanadero.es/publi/logo-og.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:wght@400;700;900&family=Libre+Franklin:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
@@ -793,7 +805,7 @@ function applySeo(a) {
   setMeta("property", "og:title", a ? s.title : full);
   setMeta("property", "og:description", s.desc);
   setMeta("property", "og:url", s.url);
-  setMeta("property", "og:image", a && a.foto ? `${SITE}/fotos/${a.foto}` : `${SITE}/logo.jpg`);
+  setMeta("property", "og:image", a && a.foto ? `${SITE}/fotos/${a.foto}` : `${SITE}/publi/logo-og.jpg`);
   setMeta("name", "twitter:card", "summary_large_image");
   if (a) { setMeta("property", "article:published_time", s.date + `T${a.hora || "08:00"}:00+01:00`); setMeta("property", "article:section", SECTIONS.find(x => x[0] === a.sec)[1]); }
   let c = document.head.querySelector('link[rel="canonical"]');
@@ -803,7 +815,7 @@ function applySeo(a) {
   if (!ld) { ld = document.createElement("script"); ld.type = "application/ld+json"; ld.id = "ld-json"; document.head.appendChild(ld); }
   ld.textContent = JSON.stringify(a ? {
     "@context": "https://schema.org", "@type": a.sec === "opinion" ? "OpinionNewsArticle" : "NewsArticle",
-    headline: a.title, description: s.desc, image: [a.foto ? `${SITE}/fotos/${a.foto}` : `${SITE}/logo.jpg`],
+    headline: a.title, description: s.desc, image: [a.foto ? `${SITE}/fotos/${a.foto}` : `${SITE}/publi/logo-og.jpg`],
     abstract: (a.claves || []).join(" "), isBasedOn: a.fuente_url || undefined, wordCount: a.body.join(" ").replace(/<[^>]+>/g, "").split(/\s+/).length,
     datePublished: s.date + `T${a.hora || "08:00"}:00+01:00`, dateModified: a.actualizada ? `${String(a.actualizada).slice(0, 16)}:00+01:00` : s.date + `T${a.hora || "08:00"}:00+01:00`,
     articleSection: SECTIONS.find(x => x[0] === a.sec)[1], keywords: s.tags.join(", "),
