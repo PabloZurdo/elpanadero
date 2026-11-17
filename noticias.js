@@ -14,10 +14,24 @@ window.EP = {
    "hasta": "2026-11-18"
   },
   {
+   "cuando": "Mié 18 nov, 19.30",
+   "que": "Presentación del lienzo restaurado del Cristo de los Desamparados (Ciclo de Conservación Preventiva)",
+   "donde": "Lugar pendiente de confirmar",
+   "noticia": "amargura-exposicion-cristo-desamparados-18-noviembre",
+   "hasta": "2026-11-18"
+  },
+  {
    "cuando": "Jue 19 nov",
    "que": "Conferencia «Trasplantes, el gran milagro de la generosidad», con testimonios de donantes y trasplantados",
    "donde": "Hermandad de Jesús",
    "noticia": "cautivo-soberano-poder-toma-posesion-juntas",
+   "hasta": "2026-11-19"
+  },
+  {
+   "cuando": "Jue 19 nov, 9.30",
+   "que": "Última jornada sobre diabetes para vecinos",
+   "donde": "Centro Cívico Silos-Zacatín",
+   "noticia": "jornadas-diabetes-federacion-al-guadaira-19-noviembre",
    "hasta": "2026-11-19"
   },
   {
@@ -32,6 +46,13 @@ window.EP = {
    "que": "Jornada gratuita «Ejercicio para la prevención de caídas en la persona mayor»",
    "donde": "Centro Cívico Silos-Zacatín",
    "noticia": "jornadas-prevencion-caidas-mayores-13-20-noviembre",
+   "hasta": "2026-11-20"
+  },
+  {
+   "cuando": "20 nov, 9.30",
+   "que": "XII Jornada por la Infancia de Paz y Bien",
+   "donde": "Polideportivo Distrito Sur",
+   "noticia": "jornada-infancia-xii-paz-y-bien-20-noviembre",
    "hasta": "2026-11-20"
   },
   {
@@ -91,6 +112,13 @@ window.EP = {
    "hasta": "2026-11-22"
   },
   {
+   "cuando": "19-22 nov",
+   "que": "Triduo y función de Cristo Rey con Jesús Cautivo",
+   "donde": "Parroquia de San Sebastián",
+   "noticia": "cautivo-triduo-cristo-rey-19-22-noviembre",
+   "hasta": "2026-11-22"
+  },
+  {
    "cuando": "Hasta 27 nov",
    "que": "Plazo de candidaturas para la concesión del Hotel Oromana",
    "donde": "Plataforma de Contratación del Sector Público",
@@ -131,6 +159,20 @@ window.EP = {
    "donde": "CD Colombicultura Hienipa, avenida de Portugal",
    "noticia": "concurso-exposicion-palomas-raza-hienipa-25-29-noviembre",
    "hasta": "2026-11-29"
+  },
+  {
+   "cuando": "Vie 4 dic, 20.30",
+   "que": "Día de la Bandera: reconocimientos y concierto de Alba Molina (5 €)",
+   "donde": "Auditorio Riberas del Guadaíra",
+   "noticia": "paseo-matematico-al-andalus-dia-bandera-alba-molina",
+   "hasta": "2026-12-04"
+  },
+  {
+   "cuando": "Sáb 5 dic, 11.00",
+   "que": "Ruta de Blas Infante (reserva en el portal municipal)",
+   "donde": "Alcalá de Guadaíra",
+   "noticia": "paseo-matematico-al-andalus-dia-bandera-alba-molina",
+   "hasta": "2026-12-05"
   },
   {
    "cuando": "9 dic",
@@ -184,17 +226,425 @@ window.EP = {
  ],
  "noticias": [
   {
+   "id": "mes-del-pan-2026-record-3000-participantes",
+   "sec": "economia",
+   "kicker": "Turismo",
+   "iso": "2026-11-17",
+   "hora": "22:27",
+   "src": "Ayuntamiento de Alcalá de Guadaíra (Facebook)",
+   "fuente_url": "https://www.facebook.com/1605699894935684/posts/1606842541488086",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El Mes del Pan supera por primera vez los 3.000 participantes, un 59,3 % más que en 2025",
+   "sub": "El Ayuntamiento atribuye a la programación de los sábados de octubre un aumento del consumo en la hostelería y el comercio, sin detallar todavía la cifra exacta",
+   "caption": "Gráfico con el número de participantes y el crecimiento del Mes del Pan 2026.",
+   "foto": "mes-del-pan-2026-record-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El Mes del Pan de Alcalá de Guadaíra ha superado en 2026 los 3.000 participantes por primera vez, según el Ayuntamiento.",
+    "La participación ha crecido un 59,3 % respecto a la edición de 2025.",
+    "Las actividades se concentraron en los sábados de octubre.",
+    "El Ayuntamiento no ha detallado la cifra exacta de asistentes ni el coste del programa."
+   ],
+   "body": [
+    "El Mes del Pan de Alcalá de Guadaíra ha superado este año por primera vez los 3.000 participantes, un 59,3 % más que en la edición de 2025. Lo ha comunicado el Ayuntamiento en su perfil de Facebook este martes 17 de noviembre, tras cerrar el balance de la programación celebrada durante los sábados de octubre.",
+    "Según la publicación municipal, el programa «llenó Alcalá» todos los sábados del mes. El Ayuntamiento sostiene que la cita ha generado «dinamismo económico» y consumo en la hostelería y el comercio de la ciudad, y que contribuye a situar el turismo como «un sector productivo en crecimiento» para el municipio.",
+    "## Un récord sin cifra exacta",
+    "El anuncio habla de «más de 3.000 participantes», pero el Ayuntamiento no ha dado en su comunicación la cifra exacta, ni cuántas actividades se programaron, cuántas plazas había disponibles o cuál ha sido el coste de la campaña. Tampoco ha aportado datos que permitan medir el gasto en los negocios locales, más allá de la valoración del propio gobierno municipal.",
+    "## El pan como reclamo",
+    "El Mes del Pan gira en torno a la tradición panadera de Alcalá, que durante siglos abasteció de pan a Sevilla, un papel que la Universidad Pablo de Olavide ha estudiado en sus trabajos sobre los panaderos alcalareños del siglo XVII.",
+    "El oficio sigue teniendo peso en el empleo local: a finales de octubre se conocieron <a href='#convenio-panaderia-tablas-salariales'>las nuevas tablas salariales del convenio de panadería de Sevilla</a> para 2026, que fijan lo que cobran los trabajadores del sector en la provincia.",
+    "<span class='howto'><b>Mes del Pan 2026.</b> Celebrado los sábados de octubre en Alcalá de Guadaíra. Participantes: más de 3.000, según el Ayuntamiento (+59,3 % sobre 2025). Información de próximas ediciones: web y redes del Ayuntamiento.</span>"
+   ],
+   "seo": [
+    "mes-del-pan-alcala-record-participantes-2026",
+    "Mes del Pan de Alcalá: récord de más de 3.000 participantes",
+    "El Mes del Pan de Alcalá de Guadaíra supera por primera vez los 3.000 participantes en 2026, un 59,3 % más que el año pasado, según el Ayuntamiento.",
+    [
+     "Mes del Pan",
+     "Ayuntamiento de Alcalá de Guadaíra",
+     "turismo",
+     "pan de Alcalá",
+     "hostelería",
+     "comercio local"
+    ]
+   ]
+  },
+  {
+   "id": "atropello-mortal-autobus-cabeza-hermosa",
+   "sec": "sucesos",
+   "kicker": "Sucesos",
+   "iso": "2026-11-17",
+   "hora": "22:27",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=r6oOtDHZnHU&t=1s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Muere un peatón atropellado por un autobús en la urbanización Cabeza Hermosa",
+   "sub": "La víctima quedó atrapada en una zanja de difícil acceso y los bomberos tuvieron que intervenir para llegar hasta ella; la investigación deberá aclarar cómo ocurrió",
+   "caption": "Imagen de archivo de El Panadero.",
+   "foto": "generica-sucesos.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Un peatón murió en la tarde del lunes 16 de noviembre tras ser atropellado por un autobús en la urbanización Cabeza Hermosa, en Alcalá de Guadaíra.",
+    "El accidente ocurrió poco después de las 19.00 en la calle Cuchipanda.",
+    "La víctima quedó atrapada en una zanja de difícil acceso y los bomberos tuvieron que intervenir para llegar hasta ella.",
+    "No han trascendido la identidad de la víctima ni las circunstancias del atropello."
+   ],
+   "body": [
+    "Un peatón murió en la tarde del lunes 16 de noviembre tras ser atropellado por un autobús en la urbanización Cabeza Hermosa, en Alcalá de Guadaíra. El accidente se produjo poco después de las 19.00 en la calle Cuchipanda, y la víctima quedó atrapada en una zanja de difícil acceso, según la información facilitada por los servicios de emergencias.",
+    "Ante la gravedad del aviso, la sala coordinadora de emergencias activó un dispositivo en el que participaron agentes de Tráfico de la Guardia Civil, la Policía Local, el Centro de Emergencias Sanitarias 061 y los bomberos. La intervención de estos últimos fue necesaria para acceder a la zona en la que se encontraba la persona atropellada.",
+    "Fuentes de los bomberos confirmaron que la víctima había fallecido en el mismo lugar del accidente.",
+    "## Sin datos sobre las causas",
+    "Por el momento no han trascendido la identidad ni la edad de la víctima, ni tampoco detalles sobre cómo se produjo el atropello ni sobre el autobús implicado. La investigación deberá esclarecer las causas del accidente.",
+    "El Panadero ampliará esta información cuando las autoridades faciliten nuevos datos sobre las circunstancias del accidente."
+   ],
+   "seo": [
+    "atropello-mortal-autobus-cabeza-hermosa-alcala",
+    "Muere un peatón atropellado por un autobús en Alcalá",
+    "Un peatón muere atropellado por un autobús en la urbanización Cabeza Hermosa de Alcalá de Guadaíra; quedó atrapado en una zanja de difícil acceso.",
+    [
+     "Cabeza Hermosa",
+     "atropello",
+     "Guardia Civil de Tráfico",
+     "Policía Local de Alcalá",
+     "Emergencias 112",
+     "bomberos"
+    ]
+   ]
+  },
+  {
+   "id": "jornada-infancia-xii-paz-y-bien-20-noviembre",
+   "sec": "alcala",
+   "kicker": "Infancia",
+   "iso": "2026-11-17",
+   "hora": "22:27",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=r6oOtDHZnHU",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La XII Jornada por la Infancia reúne el viernes 20 a cientos de escolares en el Polideportivo Distrito Sur",
+   "sub": "La Asociación Paz y Bien organiza la cita con el Ayuntamiento bajo el lema «Ninguna historia crece sola, necesita una red de apoyos»",
+   "caption": "Imagen de archivo de El Panadero.",
+   "foto": "generica-alcala.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La Asociación Paz y Bien celebra el viernes 20 de noviembre la XII Jornada por la Infancia en el Polideportivo Distrito Sur, de 9.30 a 13.30.",
+    "El lema de este año es «Ninguna historia crece sola, necesita una red de apoyos».",
+    "El Ayuntamiento habla de más de 350 menores participantes; la organización cifró en más de 250 los escolares de cinco centros educativos.",
+    "La jornada coincide con el Día Mundial de los Derechos de la Infancia."
+   ],
+   "body": [
+    "La Asociación Paz y Bien celebrará el viernes 20 de noviembre la XII Jornada por la Infancia de Alcalá de Guadaíra, una cita con talleres, actividades culturales y deporte en el Polideportivo Distrito Sur, de 9.30 a 13.30. La jornada coincide con el Día Mundial de los Derechos de la Infancia y este año lleva por lema «Ninguna historia crece sola, necesita una red de apoyos».",
+    "La organizan Paz y Bien y el Ayuntamiento con la colaboración de la Fundación Azvi. Se presentó este martes 17 de noviembre en el Complejo Social San Buenaventura, la instalación de la asociación en Alcalá, con el presidente de Paz y Bien, Israel Montes; la delegada municipal de Servicios Sociales, Rocío Bastida, y la directora de la Fundación Azvi, Pilar Kraan.",
+    "## Cuántos niños participan",
+    "Las cifras de participación no coinciden. El Ayuntamiento ha informado en sus redes de que tomarán parte «más de 350 menores». Desde la organización, en cambio, se habló en la presentación de «más de 250 escolares» de cinco centros educativos del municipio, cuyo compromiso calificaron de «fundamental» para la jornada.",
+    "Los participantes irán pasando por distintas actividades en las que se trabajarán aspectos que la entidad considera claves en esa red de apoyo: la protección, la identidad, el crecimiento, la familia, la seguridad y los sueños propios. Paz y Bien quiere poner el acento en el acompañamiento del entorno para que los niños y adolescentes crezcan «en condiciones de igualdad».",
+    "## Una cita con doce ediciones",
+    "La jornada forma parte de las acciones de sensibilización y defensa de los derechos de la infancia que impulsa Paz y Bien, entidad que trabaja con niños y adolescentes en situación de protección. En la presentación, sus responsables recordaron la frase del pedagogo José Antonio Marina según la cual «para educar a un niño hace falta la tribu entera».",
+    "La asociación es también una de las entidades que participan en <a href='#mesa-capacidades-diez-anos-gala'>la Mesa de las Capacidades</a>, que este mes ha cumplido diez años de trabajo por la inclusión en Alcalá.",
+    "<span class='howto'><b>XII Jornada por la Infancia.</b> Viernes 20 de noviembre, de 9.30 a 13.30. Polideportivo Distrito Sur. Organizan: Asociación Paz y Bien y Ayuntamiento de Alcalá de Guadaíra, con la Fundación Azvi. Dirigida a escolares de centros educativos del municipio.</span>"
+   ],
+   "seo": [
+    "jornada-infancia-paz-y-bien-alcala-2026",
+    "XII Jornada por la Infancia en Alcalá el viernes 20",
+    "Paz y Bien y el Ayuntamiento celebran el 20 de noviembre la XII Jornada por la Infancia en el Polideportivo Distrito Sur de Alcalá con escolares.",
+    [
+     "Asociación Paz y Bien",
+     "Jornada por la Infancia",
+     "Polideportivo Distrito Sur",
+     "Fundación Azvi",
+     "derechos de la infancia",
+     "Rocío Bastida"
+    ]
+   ]
+  },
+  {
+   "id": "arbolado-colegios-115-arboles-16-centros",
+   "sec": "alcala",
+   "kicker": "Medio ambiente",
+   "iso": "2026-11-17",
+   "hora": "22:27",
+   "src": "Ayuntamiento de Alcalá de Guadaíra (Facebook)",
+   "fuente_url": "https://www.facebook.com/1605699894935684/posts/1606877998151207",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El Ayuntamiento plantará 115 árboles en 16 colegios públicos para dar sombra a los patios",
+   "sub": "Medio Ambiente presenta el proyecto como una forma de recuperar arbolado perdido, en plena polémica por las talas en el entorno del Castillo",
+   "caption": "Gráfico con las cifras del proyecto de plantación de árboles en colegios públicos de Alcalá.",
+   "foto": "arbolado-colegios-115-arboles-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "La Delegación de Medio Ambiente de Alcalá de Guadaíra ha elaborado un proyecto para plantar 115 árboles en 16 colegios públicos de la ciudad.",
+    "El objetivo, según el Ayuntamiento, es dar sombra a los patios y mejorar el bienestar del alumnado.",
+    "El Ayuntamiento no ha detallado en su anuncio qué colegios, qué especies, el coste ni el calendario de plantación.",
+    "Vox denunció esta semana la tala de árboles en el entorno del Castillo y pide reponerlos con ejemplares de mayor porte."
+   ],
+   "body": [
+    "El Ayuntamiento de Alcalá de Guadaíra plantará 115 árboles en 16 colegios públicos de la ciudad para dar sombra a sus patios. Lo ha anunciado este martes 17 de noviembre en su perfil de Facebook, donde explica que la Delegación de Medio Ambiente ha elaborado el proyecto para «recuperar el arbolado perdido» y ampliar la masa forestal en los centros escolares.",
+    "Según la publicación municipal, la plantación busca proporcionar sombra en los patios para mejorar esos espacios y el bienestar de los niños y niñas que los usan a diario. La media sale a algo más de siete árboles por colegio.",
+    "## Lo que falta por concretar",
+    "El anuncio no detalla qué colegios recibirán los árboles, qué especies se plantarán, cuánto costará la actuación ni cuándo empezarán los trabajos. Tampoco precisa si el proyecto se ejecutará con medios municipales o mediante un contrato.",
+    "## En plena polémica por las talas",
+    "El anuncio llega en medio de la controversia por la retirada de árboles en el entorno del Castillo y del santuario de la Virgen del Águila. Vox ha denunciado <a href='#vox-tala-arboles-castillo-ayuntamiento-88-ejemplares'>la tala de ejemplares en esa zona</a> y su portavoz municipal, Pedro Navarro, responsabiliza a la alcaldesa, Ana Isabel Jiménez, y a la delegada de Medio Ambiente, Luisa Campos.",
+    "En declaraciones a El Panadero, Navarro sostuvo que en el lugar «faltan 15 árboles sanos» y que, según le han trasladado los vecinos, en todo el entorno se han cortado 35. También criticó el estado de los naranjos de la plaza del Cabildo y de las palmeras de la plazuela y de la plaza del Duque durante las obras. Vox reclama que el Ayuntamiento haga público el inventario técnico que justifica las talas y que reponga los árboles con ejemplares de mayor porte, porque considera que los jóvenes no compensan la pérdida.",
+    "Según los datos que facilitó el Ayuntamiento cuando Vox presentó su denuncia, en esa zona se han retirado 18 árboles en distintos momentos, la mayoría por roturas o caídas causadas por fenómenos meteorológicos; el inventario municipal cuenta hoy 88 árboles en el entorno, 40 de ellos plantados en los últimos años, y el gobierno local prevé un proyecto de revegetación cuando terminen los trabajos pendientes.",
+    "<span class='howto'><b>Plantación en colegios.</b> 115 árboles en 16 colegios públicos de Alcalá de Guadaíra. Promotor: Delegación de Medio Ambiente del Ayuntamiento. Centros, especies, coste y fechas: pendientes de detallar.</span>"
+   ],
+   "seo": [
+    "arboles-colegios-publicos-alcala-115",
+    "Alcalá plantará 115 árboles en 16 colegios públicos",
+    "El Ayuntamiento de Alcalá de Guadaíra plantará 115 árboles en 16 colegios públicos para dar sombra a los patios, en plena polémica por las talas.",
+    [
+     "arbolado",
+     "colegios públicos",
+     "Delegación de Medio Ambiente",
+     "Luisa Campos",
+     "Vox Alcalá",
+     "patios escolares"
+    ]
+   ]
+  },
+  {
+   "id": "paseo-matematico-al-andalus-dia-bandera-alba-molina",
+   "sec": "cultura",
+   "kicker": "Día de la Bandera",
+   "iso": "2026-11-17",
+   "hora": "22:27",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=r6oOtDHZnHU",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La Casa de la Cultura abre «Paseo matemático al-Ándalus» y Alba Molina cerrará el Día de la Bandera",
+   "sub": "La exposición de la Fundación Descubre podrá verse hasta el 8 de diciembre; el concierto del 4 de diciembre en el Auditorio tiene entradas a 5 euros",
+   "caption": "Calendario de la programación municipal por el Día de la Bandera de Andalucía en Alcalá.",
+   "foto": "dia-bandera-2026-programa-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "La Casa de la Cultura de Alcalá de Guadaíra acoge desde el lunes 16 de noviembre hasta el 8 de diciembre la exposición «Paseo matemático al-Ándalus».",
+    "La muestra, de la Fundación Descubre y la Junta de Andalucía, tiene 24 paneles sobre la ciencia en la arquitectura andalusí.",
+    "Alba Molina dará un concierto el viernes 4 de diciembre en el Auditorio Riberas del Guadaíra, con entradas a 5 euros.",
+    "El programa incluye el documental «Ellas en la ciudad» el 3 de diciembre y la ruta de Blas Infante el 5 de diciembre."
+   ],
+   "body": [
+    "La Casa de la Cultura de Alcalá de Guadaíra acoge desde el lunes 16 de noviembre la exposición itinerante «Paseo matemático al-Ándalus», un proyecto de la Fundación Descubre y la Junta de Andalucía que explica la arquitectura monumental andalusí desde la ciencia. Es el primer acto de la programación municipal por el Día de la Bandera de Andalucía, que culminará el 4 de diciembre con un concierto de Alba Molina.",
+    "La muestra puede visitarse hasta el 8 de diciembre en el salón Talavera y en el patio de la Casa de la Cultura. Está formada por 24 paneles que recorren edificios como el Alcázar de Sevilla, la Mezquita de Córdoba y la Alhambra de Granada para explicar conceptos como la simetría, la proporción, la jerarquía y el orden.",
+    "La exposición analiza también las influencias entre el arte andalusí y el mudéjar cristiano, y cómo se transmitieron formas, técnicas constructivas y motivos decorativos a lo largo del tiempo. La Fundación Descubre es una entidad sin ánimo de lucro promovida por la Junta de Andalucía que trabaja desde 2010 para acercar la ciencia a la comunidad educativa y a la ciudadanía.",
+    "## Documental, concierto y ruta",
+    "El programa municipal sigue el jueves 3 de diciembre, a las 18.00, con la proyección en la Casa de la Cultura del documental «Ellas en la ciudad», dirigido por la arquitecta y urbanista sevillana Reyes Gallego. La película cuenta la historia de mujeres que lucharon desde los barrios populares de Sevilla por servicios como colegios, institutos, centros de salud o parques.",
+    "El viernes 4 de diciembre, Día de la Bandera, el Auditorio Riberas del Guadaíra acogerá a partir de las 20.30 la entrega de los reconocimientos de la jornada y, a continuación, el concierto de Alba Molina, acompañada por el músico alcalareño Álvaro Gandul. Las entradas cuestan 5 euros y están a la venta en el portal de entradas del Ayuntamiento.",
+    "La programación terminará el sábado 5 de diciembre, a las 11.00, con la ruta de Blas Infante por las calles de Alcalá. La ciudad se ha sumado este año a esta ruta turística, que reúne a una decena de municipios vinculados con la figura de Blas Infante o con la construcción política y cultural de la autonomía andaluza. Las reservas se hacen en el portal municipal.",
+    "La fecha recuerda las manifestaciones del 4 de diciembre de 1977, cuando cientos de miles de andaluces salieron a la calle para reclamar la autonomía.",
+    "<span class='howto'><b>Programa del Día de la Bandera en Alcalá.</b> Exposición «Paseo matemático al-Ándalus»: Casa de la Cultura, del 16 de noviembre al 8 de diciembre. Documental «Ellas en la ciudad»: jueves 3 de diciembre, 18.00, Casa de la Cultura. Reconocimientos y concierto de Alba Molina con Álvaro Gandul: viernes 4 de diciembre, 20.30, Auditorio Riberas del Guadaíra; 5 euros. Ruta de Blas Infante: sábado 5 de diciembre, 11.00; reserva en el portal municipal.</span>"
+   ],
+   "seo": [
+    "paseo-matematico-al-andalus-alba-molina-alcala",
+    "Alcalá: Paseo matemático al-Ándalus y Alba Molina",
+    "La Casa de la Cultura de Alcalá acoge hasta el 8 de diciembre «Paseo matemático al-Ándalus» y Alba Molina actuará el 4 por el Día de la Bandera.",
+    [
+     "Día de la Bandera de Andalucía",
+     "Fundación Descubre",
+     "Casa de la Cultura de Alcalá",
+     "Alba Molina",
+     "Álvaro Gandul",
+     "Blas Infante",
+     "Auditorio Riberas del Guadaíra"
+    ]
+   ]
+  },
+  {
+   "id": "jornadas-diabetes-federacion-al-guadaira-19-noviembre",
+   "sec": "alcala",
+   "kicker": "Salud",
+   "iso": "2026-11-17",
+   "hora": "22:27",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=r6oOtDHZnHU",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Las jornadas sobre diabetes en los barrios terminan el jueves 19 en el Centro Cívico Silos-Zacatín",
+   "sub": "El Centro de Salud Don Paulino García Donas y la Federación de Asociaciones de Vecinos Al-Guadaíra acercan a los vecinos consejos de prevención y autocuidado",
+   "caption": "Imagen de archivo de El Panadero.",
+   "foto": "generica-alcala.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Las jornadas sobre diabetes que se celebran en noviembre en Alcalá de Guadaíra terminan el jueves 19 a las 9.30 en el Centro Cívico Silos-Zacatín.",
+    "Las organizan el Área de Gestión Sanitaria Sur de Sevilla y el Centro de Salud Don Paulino García Donas, con la Federación Local de Asociaciones de Vecinos Al-Guadaíra y el Ayuntamiento.",
+    "Ya se han celebrado sesiones los días 9, 12 y 16 de noviembre.",
+    "Están abiertas a personas con diabetes, a sus familiares y a cualquier vecino interesado."
+   ],
+   "body": [
+    "Las jornadas sobre diabetes que se celebran este mes en los barrios de Alcalá de Guadaíra terminan el jueves 19 de noviembre con una última sesión a las 9.30 en el Centro Cívico Silos-Zacatín, sede de la Federación Local de Asociaciones de Vecinos Al-Guadaíra. El objetivo es acercar a los vecinos información sobre la prevención, el diagnóstico precoz y el control de la enfermedad.",
+    "La iniciativa la organizan el Área de Gestión Sanitaria Sur de Sevilla y el Centro de Salud Don Paulino García Donas, con la colaboración de la Federación Al-Guadaíra y del Ayuntamiento. Antes de la sesión de cierre se celebraron encuentros los días 9, 12 y 16 de noviembre, en torno al Día Mundial de la Diabetes, que fue el sábado 14.",
+    "## Autocuidado y hábitos saludables",
+    "En las sesiones, los profesionales sanitarios resuelven dudas y dan pautas para mejorar la alimentación, incorporar hábitos saludables y entender la importancia del control de la enfermedad. La diabetes es una enfermedad crónica que afecta a la regulación de la glucosa en la sangre y exige un seguimiento continuado para evitar complicaciones.",
+    "Uno de los sanitarios participantes explicó a El Panadero que la enfermedad afecta a «uno de cada ocho pacientes» y que en la consulta conviven pacientes «volcados en su autocuidado» con otros que lo están menos. Por eso, señaló, las sesiones intentan acercar esos conocimientos también a quienes acaban de recibir el diagnóstico, para que aprendan a cuidarse, que considera «una de las partes más importantes» del tratamiento. La atención primaria, con sus equipos de médicos y enfermeros, es la que hace el seguimiento habitual de estos pacientes.",
+    "## Una asociación por reactivar",
+    "Entre los asistentes también hay quien plantea que la experiencia no se quede aquí. Uno de los participantes recordó a El Panadero que Alcalá tiene una asociación de personas con diabetes que lleva tiempo sin actividad y expresó su intención de reactivarla, con el apoyo de los profesionales sanitarios, y de que haya nuevas sesiones en el futuro.",
+    "Las jornadas están abiertas tanto a personas con diabetes como a sus familiares y a cualquier vecino que quiera conocer mejor la enfermedad y sus factores de riesgo.",
+    "<span class='howto'><b>Última jornada sobre diabetes.</b> Jueves 19 de noviembre, 9.30. Centro Cívico Silos-Zacatín (sede de la Federación de Asociaciones de Vecinos Al-Guadaíra). Abierta a pacientes, familiares y vecinos.</span>"
+   ],
+   "seo": [
+    "jornadas-diabetes-alcala-silos-zacatin",
+    "Jornadas sobre diabetes en Alcalá: cierre el jueves 19",
+    "La última jornada sobre diabetes para vecinos de Alcalá de Guadaíra será el jueves 19 de noviembre a las 9.30 en el Centro Cívico Silos-Zacatín.",
+    [
+     "diabetes",
+     "Centro de Salud Don Paulino García Donas",
+     "Federación Al-Guadaíra",
+     "Área de Gestión Sanitaria Sur de Sevilla",
+     "Centro Cívico Silos-Zacatín",
+     "salud"
+    ]
+   ]
+  },
+  {
+   "id": "amargura-exposicion-cristo-desamparados-18-noviembre",
+   "sec": "hermandades",
+   "kicker": "Patrimonio",
+   "iso": "2026-11-17",
+   "hora": "22:27",
+   "src": "Hermandad de la Amargura (Facebook)",
+   "fuente_url": "https://www.facebook.com/1491046389785408/posts/1492289582994422",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La presentación del lienzo restaurado del Cristo de los Desamparados, aplazada por el luto, será el miércoles 18",
+   "sub": "La Hermandad de la Amargura anuncia para las 19.30 la exposición y la conferencia del Ciclo de Conservación Preventiva del Consejo de Hermandades",
+   "caption": "Una sala de exposiciones del Museo de Alcalá de Guadaíra, donde estaba prevista la presentación aplazada, en una imagen de archivo.",
+   "foto": "museo-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La exposición y la conferencia sobre el lienzo restaurado del Santísimo Cristo de los Desamparados se celebran el miércoles 18 de noviembre a las 19.30.",
+    "El acto, aplazado a finales de octubre por el luto oficial tras el accidente de Urda, forma parte del Ciclo de Conservación Preventiva del Consejo de Hermandades.",
+    "La pintura pertenece al patrimonio de la Hermandad de la Amargura.",
+    "La hermandad habla de una exposición dedicada «entre otras obras» a su lienzo, sin detallar el resto ni el lugar."
+   ],
+   "body": [
+    "La Hermandad de la Amargura de Alcalá de Guadaíra ha anunciado que el miércoles 18 de noviembre, a las 19.30, se inaugurará la exposición y se celebrará la conferencia dedicada, entre otras obras, al lienzo restaurado del Santísimo Cristo de los Desamparados, una pintura de su patrimonio. Lo ha comunicado la hermandad en su perfil de Facebook este martes 17.",
+    "El acto forma parte del Ciclo de Conservación Preventiva del Patrimonio que organiza el Consejo General de Hermandades y Cofradías de Alcalá, y llega después de su aplazamiento a finales de octubre.",
+    "## Aplazado por el luto",
+    "La presentación estaba prevista para el jueves 29 de octubre en el Museo de la Ciudad, pero el Consejo la suspendió por los tres días de <a href='#consejo-suspende-exposicion-pinturas-restauradas'>luto oficial decretado tras el accidente ferroviario de Urda</a> (Toledo). Entonces, el acto incluía la exposición de dos pinturas restauradas, el «Cristo de los Desamparados» de la Amargura y el «Santo Cristo de Burgos» de la parroquia de San Sebastián, y una conferencia sobre su intervención.",
+    "Esa conferencia iba a correr a cargo del conservador de obras de arte Alejandro Redondo, vicepresidente del Consejo y autor de la restauración, y de su equipo: Victoria Fernández Espejo, José Ángel del Valle Serrano y el historiador del arte Enrique Ruiz Portillo. En la nueva convocatoria, la hermandad no precisa el lugar ni enumera el resto de obras que se mostrarán.",
+    "## Un ciclo sobre cómo cuidar el patrimonio",
+    "El ciclo, que organizan el Consejo de Hermandades y el Ayuntamiento, busca que las cofradías aprendan a conservar sus bienes antes de tener que restaurarlos. En una de sus sesiones de octubre, el restaurador <a href='#pedro-manzano-conservacion-preventiva'>Pedro Manzano pidió a las hermandades de Alcalá cuidar cómo manipulan su patrimonio</a>. Redondo, por su parte, defendió entonces que cada hermandad tenga un responsable de conservación preventiva.",
+    "La Amargura vive además un año de proyectos patrimoniales: prepara para la próxima Cuaresma <a href='#amargura-retablo-cristo-amor'>la primera fase de su nuevo retablo</a>.",
+    "<span class='howto'><b>Presentación del lienzo restaurado del Cristo de los Desamparados.</b> Miércoles 18 de noviembre, 19.30. Exposición y conferencia del Ciclo de Conservación Preventiva del Consejo General de Hermandades y Cofradías de Alcalá de Guadaíra. Lugar: pendiente de confirmar por la organización.</span>"
+   ],
+   "seo": [
+    "cristo-desamparados-lienzo-restaurado-amargura-alcala",
+    "Lienzo restaurado del Cristo de los Desamparados, el 18",
+    "La Hermandad de la Amargura presenta el miércoles 18 en Alcalá el lienzo restaurado del Cristo de los Desamparados, aplazado por el luto de Urda.",
+    [
+     "Hermandad de la Amargura",
+     "Cristo de los Desamparados",
+     "Consejo de Hermandades de Alcalá",
+     "conservación preventiva",
+     "Alejandro Redondo",
+     "restauración"
+    ]
+   ]
+  },
+  {
+   "id": "cautivo-triduo-cristo-rey-19-22-noviembre",
+   "sec": "hermandades",
+   "kicker": "Cultos",
+   "iso": "2026-11-17",
+   "hora": "22:27",
+   "src": "Hermandad Servita de Jesús Cautivo (Facebook)",
+   "fuente_url": "https://www.facebook.com/1160162549992960/posts/1161589559850259",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El Cautivo presidirá el altar mayor de San Sebastián en el triduo de Cristo Rey, del 19 al 22 de noviembre",
+   "sub": "La Hermandad Servita celebra sus primeros cultos con la nueva junta de gobierno de José David Cobos; la función del domingo será a las 11.00",
+   "caption": "Imagen de archivo de El Panadero.",
+   "foto": "generica-hermandades.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La Hermandad Servita de Jesús Cautivo celebra los días 19, 20 y 21 de noviembre, a las 20.00, un triduo por la festividad de Cristo Rey del Universo.",
+    "Nuestro Padre Jesús Cautivo y Rescatado presidirá el altar mayor de la parroquia de San Sebastián.",
+    "La función solemne será el domingo 22 de noviembre a las 11.00, con el Coro de Nuestra Señora del Dulce Nombre de María.",
+    "Son los primeros cultos tras la toma de posesión, el 14 de noviembre, de la junta de gobierno de José David Cobos."
+   ],
+   "body": [
+    "La Hermandad Servita de Jesús Cautivo de Alcalá de Guadaíra celebrará los días 19, 20 y 21 de noviembre, a las 20.00, un solemne triduo con motivo de la festividad de Cristo Rey del Universo, en el que Nuestro Padre Jesús Cautivo y Rescatado presidirá el altar mayor de la parroquia de San Sebastián. Lo ha anunciado la hermandad en su perfil de Facebook.",
+    "Los cultos terminarán el domingo 22 de noviembre, a las 11.00, con la función solemne en honor a Cristo Rey, presidida por la misma imagen. La música correrá a cargo del Coro de Nuestra Señora del Dulce Nombre de María. La hermandad invita a sus hermanos y a los fieles a participar.",
+    "## Primeros cultos de la nueva junta",
+    "Será el primer gran culto de la hermandad tras el relevo en su gobierno. El sábado 14 de noviembre tomó posesión, tras la misa de las 20.00 en su capilla, la nueva junta de gobierno encabezada por el hermano mayor José David Cobos Martínez, en un acto al que asistió el párroco y director espiritual, Álvaro Montilla González.",
+    "Cobos ganó el cabildo de elecciones del 25 de octubre frente a la candidatura de Juan Carlos Navarro, lo que supone una renovación completa de la junta, como contó este periódico al informar de <a href='#cautivo-soberano-poder-toma-posesion-juntas'>las tomas de posesión del Cautivo y del Soberano Poder</a>. La hermandad ha agradecido la presencia en el acto del vicepresidente del Consejo General de Hermandades y Cofradías, Alejandro Redondo.",
+    "La Hermandad Servita da culto a Nuestro Padre Jesús Cautivo y Rescatado, María Santísima de los Dolores y Nuestra Señora de la Esperanza, y hace estación de penitencia el Miércoles Santo, que en 2027 será el 24 de marzo.",
+    "<span class='howto'><b>Cultos de Cristo Rey del Universo.</b> Triduo: 19, 20 y 21 de noviembre, 20.00. Función solemne: domingo 22 de noviembre, 11.00. Parroquia de San Sebastián, Alcalá de Guadaíra. Música: Coro de Nuestra Señora del Dulce Nombre de María.</span>"
+   ],
+   "seo": [
+    "cautivo-triduo-cristo-rey-san-sebastian-alcala",
+    "El Cautivo, en el triduo de Cristo Rey de San Sebastián",
+    "La Hermandad Servita de Jesús Cautivo de Alcalá celebra del 19 al 22 de noviembre el triduo y la función de Cristo Rey en la parroquia de San Sebastián.",
+    [
+     "Hermandad del Cautivo",
+     "Jesús Cautivo y Rescatado",
+     "parroquia de San Sebastián",
+     "Cristo Rey",
+     "José David Cobos",
+     "cultos"
+    ]
+   ]
+  },
+  {
+   "id": "tenis-oromana-subcampeonas-andalucia-dobles-sub13",
+   "sec": "deportes",
+   "kicker": "Tenis",
+   "iso": "2026-11-17",
+   "hora": "22:27",
+   "src": "Alcalá+Deporte",
+   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8438/irene-torres-y-claudia-gavira-subcampeonas-de-andalucia-de-dobles-sub-13",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Irene Torres y Claudia Gavira, del Club de Tenis Oromana, subcampeonas de Andalucía de dobles sub-13",
+   "sub": "Las dos jugadoras alcalareñas llegaron a la final del Campeonato de Andalucía disputado en Córdoba",
+   "caption": "Imagen de archivo de El Panadero.",
+   "foto": "generica-deportes.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Irene Torres Gómez y Claudia Gavira Pecino, del Club de Tenis Oromana, son subcampeonas de Andalucía de dobles en la categoría sub-13.",
+    "El campeonato se disputó en Córdoba.",
+    "El club alcalareño acoge esta semana el XVI Senior International Champion MT200."
+   ],
+   "body": [
+    "Las tenistas Irene Torres Gómez y Claudia Gavira Pecino, jugadoras del Club de Tenis Oromana de Alcalá de Guadaíra, se han proclamado subcampeonas de Andalucía de dobles en la categoría sub-13, en el campeonato autonómico disputado en Córdoba. Lo ha informado Alcalá+Deporte, el portal deportivo del Ayuntamiento, este martes 17 de noviembre.",
+    "La pareja alcalareña alcanzó la final del torneo y se hizo con el segundo puesto de Andalucía en su categoría. El portal municipal destaca el resultado como un reconocimiento al trabajo de cantera que desarrolla el club de Oromana.",
+    "## Una semana intensa en Oromana",
+    "El éxito llega en una semana de mucha actividad para el Club de Tenis Oromana, que acoge del 16 al 21 de noviembre <a href='#tenis-senior-mt200-oromana-noviembre'>el XVI Senior International Champion MT200</a>, una prueba del circuito internacional de veteranos de la Federación Internacional de Tenis (ITF).",
+    "El club dedicó además la jornada de menores del XXII Torneo Ciudad de Alcalá a la Cabalgata de Reyes Magos, según ha agradecido la propia Cabalgata en su perfil de Facebook.",
+    "El tenis de base suma así otro resultado a una temporada de buenos datos para el deporte femenino alcalareño, después de que <a href='#cp-aguila-femenino-campeon-espana-petanca-2026'>el equipo femenino del C.P. Águila se proclamara campeón de España de petanca</a> y de que <a href='#milu-luchas-olimpicas-subcampeon-liga-iberdrola-2026'>el Club de Luchas Olímpicas Milu cerrara la temporada como subcampeón de la Liga Iberdrola</a>."
+   ],
+   "seo": [
+    "tenis-oromana-subcampeonas-andalucia-dobles-sub13",
+    "Tenis Oromana: subcampeonas de Andalucía sub-13 de dobles",
+    "Irene Torres y Claudia Gavira, del Club de Tenis Oromana de Alcalá de Guadaíra, logran el subcampeonato de Andalucía de dobles sub-13 en Córdoba.",
+    [
+     "Club de Tenis Oromana",
+     "tenis",
+     "Campeonato de Andalucía",
+     "sub-13",
+     "deporte femenino",
+     "Alcalá+Deporte"
+    ]
+   ]
+  },
+  {
    "id": "medina-de-haro-mobiliario-equipamiento-adjudicado",
    "sec": "alcala",
    "kicker": "Equipamientos",
    "iso": "2026-11-17",
    "hora": "07:30",
-   "src": "Ayuntamiento de Alcalá de Guadaíra (Facebook)",
-   "fuente_url": "https://www.facebook.com/1605699894935684/posts/1605947988244208",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=NopNuWU4Rvw",
    "firma": "Redacción El Panadero",
    "elaboracion": "ia",
    "title": "El Ayuntamiento adjudica el mobiliario del Centro Cívico Medina de Haro, último trámite antes de abrirlo",
-   "sub": "El edificio del Distrito Este, ya rehabilitado, tendrá uso administrativo y social; el gobierno municipal no ha dado todavía fecha de apertura",
+   "sub": "El suministro, adjudicado por algo más de 67.000 euros, completa un proyecto de casi dos millones cofinanciado con fondos Next Generation; el gobierno municipal no ha dado todavía fecha de apertura",
    "caption": "Responsables municipales revisan la documentación del equipamiento.",
    "foto": "medina-de-haro-mobiliario-of.jpg",
    "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
@@ -202,7 +652,7 @@ window.EP = {
     "El Ayuntamiento de Alcalá de Guadaíra ha adjudicado el mobiliario y el equipamiento del nuevo Centro Cívico Medina de Haro, en el Distrito Este.",
     "La Junta de Gobierno Local trató el equipamiento del centro en su sesión del viernes 13 de noviembre.",
     "El edificio, ya rehabilitado y recepcionado, tendrá uso administrativo y social dentro del plan municipal de descentralización de servicios.",
-    "El Ayuntamiento no ha detallado el importe, las empresas adjudicatarias ni la fecha de apertura."
+    "La adjudicación asciende a algo más de 67.000 euros, según el gobierno municipal, que no ha fijado todavía la fecha de apertura."
    ],
    "body": [
     "El Ayuntamiento de Alcalá de Guadaíra ha adjudicado el mobiliario y el equipamiento del nuevo Centro Cívico Medina de Haro, el equipamiento del Distrito Este que acaba de terminar sus obras de rehabilitación integral. Lo ha anunciado el propio Ayuntamiento en sus perfiles de Facebook e Instagram este lunes 16 de noviembre.",
@@ -210,7 +660,8 @@ window.EP = {
     "El asunto pasó por la Junta de Gobierno Local del viernes 13 de noviembre. La alcaldesa, Ana Isabel Jiménez, incluyó en su resumen de esa sesión, publicado en su perfil de Instagram, el «equipamiento del nuevo Distrito Este, Centro Cívico Medina de Haro», junto a otros acuerdos como el servicio de comidas a domicilio y el mantenimiento del Centro Deportivo Distrito Sur.",
     "## El último paso para abrir",
     "El mobiliario era lo único que faltaba. A finales de octubre, el gobierno municipal explicó que el Centro Cívico Medina de Haro ya estaba recepcionado y que solo quedaba equiparlo para abrirlo, como recogió este periódico al repasar <a href='#obras-la-mina-tunel-plazos'>el calendario de las obras municipales</a>.",
-    "El Ayuntamiento no ha detallado en su anuncio el importe de la adjudicación, las empresas que suministrarán el mobiliario ni el plazo de entrega, y tampoco ha fijado todavía la fecha de inauguración del centro.",
+    "La portavoz del gobierno municipal precisó al dar cuenta de los acuerdos de la Junta de Gobierno Local que el suministro se ha adjudicado por algo más de 67.000 euros e incluye mobiliario para puestos de trabajo y aulas de formación, además de elementos de ajardinamiento para el interior y el exterior del edificio. Esta compra completa un proyecto global de casi dos millones de euros cofinanciado con fondos europeos Next Generation.",
+    "Según explicó, el centro y la nueva Jefatura de la Policía Local abrirán «en breve», con atención a la ciudadanía, registro y espacios para formación y actividades, aunque el Ayuntamiento no ha fijado todavía la fecha de inauguración ni ha detallado las empresas adjudicatarias.",
     "## Un entorno en obras",
     "El centro cívico forma parte de una transformación más amplia de esta zona del Distrito Este. En el mismo entorno se construye la nueva Jefatura de la Policía Local, que el gobierno municipal prevé poner en servicio en el primer trimestre de 2027. La plaza junto al centro estrenó además una nueva área de juegos infantiles dentro del plan municipal de renovación de parques, el mismo que ahora llega a <a href='#juegos-la-paz-211000-euros-cuatro-meses'>la barriada de La Paz</a>.",
     "La Jefatura de Medina de Haro figura entre las inversiones que el gobierno municipal quiere terminar con el <a href='#presupuestos-2027-aportaciones-grupos'>presupuesto de 2027</a>, el último del mandato.",
@@ -219,7 +670,7 @@ window.EP = {
    "seo": [
     "centro-civico-medina-de-haro-mobiliario-adjudicado",
     "Centro Cívico Medina de Haro: adjudicado el mobiliario",
-    "Alcalá de Guadaíra adjudica el mobiliario y el equipamiento del Centro Cívico Medina de Haro, en el Distrito Este, todavía sin fecha de apertura.",
+    "Alcalá de Guadaíra adjudica por algo más de 67.000 euros el mobiliario del Centro Cívico Medina de Haro, en el Distrito Este, aún sin fecha de apertura.",
     [
      "Centro Cívico Medina de Haro",
      "Distrito Este",
@@ -228,7 +679,8 @@ window.EP = {
      "equipamientos municipales",
      "descentralización"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-17T22:27"
   },
   {
    "id": "adelante-andalucia-vivienda-protegida-solar-santa-lucia",
