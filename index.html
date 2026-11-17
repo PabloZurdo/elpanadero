@@ -1,0 +1,1171 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>El Panadero</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" type="image/svg+xml" href="publi/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="publi/favicon-32.png">
+<link rel="apple-touch-icon" href="publi/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:wght@400;700;900&family=Libre+Franklin:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+<!-- Diseño: sistema «El Panadero Design System» (Claude Design), portada de papel v3 y páginas v2. CSS copiado de styles.css + kit.css; los añadidos de producción van al final. -->
+<style>
+/* El Panadero colour tokens — values copied verbatim from el-panadero/index.html :root */
+:root{
+  /* base */
+  --paper:#ffffff;
+  --band:#f4f3ef;
+  --ink:#141414;
+  --muted:#5d5c57;
+  --rule:#dddbd4;
+  --kicker:#1d4f91;
+  --crust:#a8641e;
+  --photo:#e8e2d4;
+  --photo-line:#ddd5c3;
+  --notice:#fff6e3;
+  --alert:#b3261e;
+  --on-accent:#ffffff;
+  --scrim:rgba(0,0,0,.55);
+
+  /* semantic aliases */
+  --surface-page:var(--paper);
+  --surface-band:var(--band);
+  --surface-notice:var(--notice);
+  --surface-photo:var(--photo);
+  --text-body:var(--ink);
+  --text-muted:var(--muted);
+  --text-link:var(--kicker);
+  --text-kicker:var(--kicker); /* @kind color */
+  --accent-brand:var(--crust);
+  --border-rule:var(--rule);
+  --border-strong:var(--ink);
+  --focus-ring:var(--kicker);
+
+  /* Vivamóvil advertiser palette (ads only — fixed in both themes) */
+  --vm-green:#00573f;
+  --vm-green-deep:#0b3d2d;
+  --vm-lime:#94cc00;
+  --vm-lime-hover:#a9e400;
+  --vm-ink:#1f2a26;
+  --vm-cta-ink:#12301f;
+  --vm-soft:#d9f0a3;
+  --vm-soft-2:#e4f3c2;
+  --vm-border:#dfe7e3;
+}
+:root[data-theme="dark"]{
+  --paper:#131313;--band:#1b1b1a;--ink:#ecebe7;--muted:#a3a29c;--rule:#33322f;
+  --kicker:#86ade6;--crust:#d89a54;--photo:#2a2621;--photo-line:#332e27;--notice:#2a2316;
+  color-scheme:dark;
+}
+
+/* El Panadero type tokens — from el-panadero/index.html */
+:root{
+  --f-mast:"DM Serif Display","Times New Roman",serif; /* @kind font */
+  --f-serif:"Source Serif 4",Georgia,"Times New Roman",serif; /* @kind font */
+  --f-sans:"Libre Franklin","Helvetica Neue",Arial,sans-serif; /* @kind font */
+  --f-ad:"Lato","Libre Franklin",Arial,sans-serif; /* @kind font */
+  --f-mono:ui-monospace,Menlo,monospace; /* @kind font */
+
+  /* semantic */
+  --font-display:var(--f-mast);
+  --font-headline:var(--f-serif);
+  --font-body:var(--f-serif);
+  --font-ui:var(--f-sans);
+
+  /* scale (as used in source) */
+  --fs-body:16px; /* @kind other */
+  --lh-body:1.45; /* @kind other */
+  --fs-article:1.16rem; /* @kind other */
+  --lh-article:1.62; /* @kind other */
+  --fs-lead-h:clamp(1.8rem,3.6vw,2.75rem); /* @kind other */
+  --fs-article-h:clamp(1.9rem,4.6vw,2.9rem); /* @kind other */
+  --fs-section-h:clamp(2rem,5vw,2.8rem); /* @kind other */
+  --fs-side-h:1.3rem; /* @kind other */
+  --fs-row3-h:1.32rem; /* @kind other */
+  --fs-row4-h:1.12rem; /* @kind other */
+  --fs-band-h:1.9rem; /* @kind other */
+  --fs-sub:1rem; /* @kind other */
+  --fs-lead-sub:1.15rem; /* @kind other */
+  --fs-article-sub:1.22rem; /* @kind other */
+  --fs-kicker:12px; /* @kind other */
+  --fs-byline:12px; /* @kind other */
+  --fs-nav:13px; /* @kind other */
+  --fs-label:13px; /* @kind other */
+  --fs-caption:12.5px; /* @kind other */
+  --fs-credit:10.5px; /* @kind other */
+  --fs-ad-label:10px; /* @kind other */
+  --ls-kicker:.06em; /* @kind other */
+  --ls-label:.1em; /* @kind other */
+  --ls-tagline:.14em; /* @kind other */
+  --measure:66ch; /* @kind spacing */
+}
+
+/* Spacing, rules, radii, shadows — values copied from el-panadero/index.html */
+:root{
+  --wrap:1180px;
+  --article-w:720px;
+  --gutter:16px;
+  --gap-col:28px;
+  --gap-col-4:24px;
+  --gap-story:8px;
+  --gap-front:30px;
+  --pad-band:20px 22px 24px;
+
+  --rule-hair:1px solid var(--rule);
+  --rule-strong:1px solid var(--ink);
+  --rule-band:3px solid var(--crust);
+  --rule-box:3px solid var(--ink);
+  --nav-active:3px solid var(--crust);
+
+  --radius-none:0;
+  --radius-ad:2px;
+  --radius-pill:999px;
+  --radius-avatar:50%;
+
+  --shadow-ad:0 1px 2px rgba(0,0,0,.08);
+  --shadow-sticky:0 -4px 14px rgba(0,0,0,.12);
+
+  --ratio-photo:3/2; /* @kind other */
+}
+
+/* El Panadero component styles — ported 1:1 from el-panadero/index.html, classes prefixed ep- */
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-serif);font-size:16px;line-height:1.45;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--kicker)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--kicker);outline-offset:2px}
+.ep-wrap{max-width:1180px;margin:0 auto;padding-left:16px;padding-right:16px}
+
+/* aviso */
+.ep-notice{background:var(--notice);border-bottom:1px solid var(--rule);font-family:var(--f-sans);font-size:12.5px;color:var(--muted)}
+.ep-notice .ep-wrap{padding-block:8px}
+.ep-notice b{color:var(--ink);font-weight:600}
+
+/* cabecera */
+.ep-topbar{font-family:var(--f-sans);font-size:12px;color:var(--muted);border-bottom:1px solid var(--rule)}
+.ep-topbar .ep-wrap{display:flex;justify-content:space-between;gap:12px;padding-block:8px;flex-wrap:wrap}
+.ep-topbar .ep-loc{text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+.ep-masthead{text-align:center;padding-block:14px 10px}
+.ep-masthead .ep-wrap{display:flex;flex-direction:column;align-items:center;gap:6px}
+.ep-logo-img{display:block;width:min(560px,86vw);height:auto}
+/* cabecera: logo contenido, al estilo de El Mundo y El País */
+.ep-masthead .ep-logo-img{width:min(290px,60vw)}
+.ep-logo-img.dark{display:none}
+:root[data-theme="dark"] .ep-logo-img.light{display:none}
+:root[data-theme="dark"] .ep-logo-img.dark{display:block}
+.ep-nav{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);position:sticky;top:0;background:var(--paper);z-index:10}
+.ep-nav .ep-wrap{display:flex;gap:22px;overflow-x:auto;scrollbar-width:none}
+.ep-nav .ep-wrap::-webkit-scrollbar{display:none}
+.ep-nav a{font-family:var(--f-sans);font-size:13px;font-weight:600;white-space:nowrap;padding-block:11px;border-bottom:3px solid transparent;cursor:pointer}
+.ep-nav a:hover{color:var(--kicker)}
+.ep-nav a[aria-current="page"]{border-bottom-color:var(--crust)}
+
+/* piezas */
+.ep-kicker{font-family:var(--f-sans);font-size:12px;font-weight:700;color:var(--text-kicker,var(--kicker));text-transform:uppercase;letter-spacing:.06em}
+.ep-story{display:flex;flex-direction:column;gap:8px;min-width:0}
+.ep-story>a{display:flex;flex-direction:column;gap:8px;cursor:pointer}
+.ep-story h2,.ep-story h3{font-family:var(--f-serif);font-weight:700;margin:0;text-wrap:balance;letter-spacing:-.005em}
+.ep-story a:hover h2,.ep-story a:hover h3{color:var(--kicker)}
+.ep-story a:hover{color:inherit}
+.ep-story .ep-sub{color:var(--muted);font-size:1rem;margin:0}
+.ep-story.ep-v-lead h2{font-size:clamp(1.8rem,3.6vw,2.75rem);line-height:1.08}
+.ep-story.ep-v-lead .ep-sub{font-size:1.15rem}
+.ep-story.ep-v-side h3{font-size:1.3rem;line-height:1.18}
+.ep-story.ep-v-row3 h3{font-size:1.32rem;line-height:1.18}
+.ep-story.ep-v-row4 h3{font-size:1.12rem;line-height:1.2}
+.ep-story.ep-v-band h3{font-size:1.45rem;line-height:1.15}
+.ep-story.ep-v-band-small h3{font-size:1.2rem;line-height:1.15}
+.ep-story.ep-v-list h3{font-size:1.25rem;line-height:1.2}
+.ep-byline{font-family:var(--f-sans);font-size:12px;color:var(--muted)}
+.ep-byline b{color:var(--ink);font-weight:600}
+.ep-photo{position:relative;aspect-ratio:3/2;max-width:100%;background:var(--photo);display:flex;align-items:flex-end;overflow:hidden}
+.ep-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.ep-photo span{position:relative;font-family:var(--f-sans);font-size:10.5px;color:#fff;background:rgba(0,0,0,.55);padding:2px 6px;margin:0 0 0 auto;letter-spacing:.02em}
+.ep-photo.empty{background-image:repeating-linear-gradient(135deg,transparent 0 14px,var(--photo-line) 14px 15px)}
+.ep-label{font-family:var(--f-sans);font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin:0 0 12px}
+
+/* banda */
+.ep-band{background:var(--band);border-top:3px solid var(--crust)}
+.ep-band .ep-inner{padding:20px 22px 24px;display:flex;flex-direction:column;gap:16px}
+.ep-band-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ep-band-head h2{font-family:var(--f-mast);font-weight:400;font-size:1.9rem;margin:0}
+.ep-band-head h2 a:hover{color:var(--crust)}
+.ep-band-head p{font-family:var(--f-sans);font-size:13px;color:var(--muted);margin:0;max-width:52ch}
+.ep-band .ep-pair{display:grid;grid-template-columns:1.3fr 1fr;gap:26px}
+
+/* breves */
+.ep-breve{display:grid;grid-template-columns:74px 1fr;gap:14px;padding-block:12px;border-bottom:1px solid var(--rule)}
+.ep-breve:first-child{padding-top:0}
+.ep-breve time{font-family:var(--f-sans);font-size:12px;color:var(--muted);padding-top:3px}
+.ep-breve h3{font-family:var(--f-serif);font-size:1.08rem;line-height:1.25;margin:0 0 4px}
+.ep-breve a{cursor:pointer}
+.ep-breve a:hover h3{color:var(--kicker)}
+.ep-breve p{margin:0;color:var(--muted);font-size:.95rem}
+
+/* agenda */
+.ep-agenda{background:var(--band);padding:16px 18px 6px}
+.ep-agenda ul{list-style:none;margin:0;padding:0}
+.ep-agenda li{display:grid;grid-template-columns:96px 1fr;gap:12px;padding-block:10px;border-top:1px solid var(--rule);font-size:.93rem;line-height:1.35}
+.ep-agenda .when{font-family:var(--f-sans);font-size:12px;font-weight:700;color:var(--crust);text-transform:uppercase;letter-spacing:.03em;padding-top:2px}
+.ep-agenda .where{display:block;color:var(--muted);font-size:.85rem}
+
+/* opinión */
+.ep-av{width:44px;height:44px;border-radius:50%;background:var(--crust);color:#fff;display:grid;place-items:center;font-family:var(--f-serif);font-weight:700;flex:none}
+.ep-av.lg{width:54px;height:54px;font-size:1.3rem}
+.ep-opbox{border-top:3px solid var(--ink);padding-top:12px;display:flex;flex-direction:column;gap:10px}
+.ep-op{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
+.ep-op:hover{color:inherit}
+.ep-op h3{font-family:var(--f-serif);font-style:italic;font-size:1.15rem;line-height:1.2;margin:0 0 4px}
+.ep-op:hover h3{color:var(--kicker)}
+.ep-op .who{font-family:var(--f-sans);font-size:12.5px;color:var(--muted)}
+.ep-firma{display:flex;align-items:center;gap:12px;font-family:var(--f-sans)}
+.ep-firma b{display:block;font-size:15px;color:var(--ink)}
+.ep-firma span.cargo{font-size:13px;color:var(--muted)}
+.ep-fict{font-family:var(--f-sans);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#fff;background:#b3261e;padding:3px 8px;align-self:flex-start}
+
+/* sección */
+.ep-sec-head{border-bottom:1px solid var(--ink);padding-bottom:10px;display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ep-sec-head h1{font-family:var(--f-mast);font-weight:400;font-size:clamp(2rem,5vw,2.8rem);margin:0}
+.ep-sec-count{font-family:var(--f-sans);font-size:13px;color:var(--muted)}
+
+/* noticia */
+.ep-article{max-width:720px;margin:0 auto;padding-block:26px 56px;display:flex;flex-direction:column;gap:14px}
+.ep-back{font-family:var(--f-sans);font-size:13px;font-weight:600;color:var(--kicker);cursor:pointer;align-self:flex-start}
+.ep-article h1{font-family:var(--f-serif);font-weight:700;font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.ep-article.opinion h1{font-style:italic}
+.ep-article>.ep-sub{font-size:1.22rem;line-height:1.4;color:var(--muted);margin:0}
+.ep-meta{display:flex;flex-wrap:wrap;gap:6px 16px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding-block:10px;font-family:var(--f-sans);font-size:13px;color:var(--muted)}
+.ep-meta b{color:var(--ink)}
+.ep-figure{margin:6px 0 4px}
+.ep-figure figcaption{font-family:var(--f-sans);font-size:12.5px;color:var(--muted);padding-top:6px}
+.ep-body p{font-size:1.16rem;line-height:1.62;margin:0 0 1.05em;max-width:66ch}
+.ep-body.dropcap>p:first-child::first-letter{font-family:var(--f-mast);float:left;font-size:3.6em;line-height:.86;padding:4px 8px 0 0;color:var(--crust)}
+.ep-body a{color:var(--kicker);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+.ep-ladillo{font-family:var(--f-sans);font-size:1.12rem;font-weight:800;line-height:1.25;margin:1.5em 0 .55em;max-width:66ch}
+.ep-howto{font-family:var(--f-sans);font-size:.95rem;background:var(--band);border-left:3px solid var(--crust);padding:12px 16px;line-height:1.5;margin:0 0 1.05em;max-width:66ch}
+.ep-claves{background:var(--band);border-top:3px solid var(--ink);padding:14px 18px 4px;font-family:var(--f-sans)}
+.ep-claves .ep-label{margin-bottom:8px}
+.ep-claves ul{margin:0;padding:0 0 0 18px}
+.ep-claves li{font-size:.95rem;line-height:1.45;margin:0 0 10px}
+.ep-related{border-top:1px solid var(--ink);padding-top:14px;display:flex;flex-direction:column;gap:10px}
+.ep-related ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.ep-related li a{display:flex;flex-direction:column;gap:6px;cursor:pointer}
+.ep-related li a:hover{color:inherit}
+.ep-related li h3{font-size:1.02rem;line-height:1.25;margin:0;font-family:var(--f-serif)}
+.ep-related li a:hover h3{color:var(--kicker)}
+.ep-tags{display:flex;flex-wrap:wrap;gap:6px}
+.ep-tag{font-family:var(--f-sans);font-size:12px;font-weight:600;color:var(--kicker);border:1px solid var(--rule);padding:3px 9px;border-radius:999px}
+.ep-seo{border:1px solid var(--rule);background:var(--band);font-family:var(--f-sans);font-size:13.5px}
+.ep-seo summary{cursor:pointer;padding:10px 14px;font-weight:700}
+.ep-seo dl{margin:0;padding:0 14px 4px;display:grid;grid-template-columns:170px 1fr;gap:8px 14px}
+.ep-seo dt{color:var(--muted);font-weight:600;display:flex;gap:6px;flex-wrap:wrap;align-items:baseline}
+.ep-seo dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.ep-seo .mono{font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+.ep-seo .cnt{font-weight:500;font-variant-numeric:tabular-nums;color:var(--muted)}
+.ep-seo .cnt.over{color:#b3261e}
+.ep-serp{margin:12px 14px 14px;padding:12px 14px;background:var(--paper);border:1px solid var(--rule);display:flex;flex-direction:column;gap:3px;font-family:Arial,sans-serif}
+.ep-serp-site{font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.ep-serp-title{font-size:18px;color:var(--kicker);line-height:1.3}
+.ep-serp-desc{font-size:13.5px;color:var(--muted);line-height:1.45}
+
+/* pie */
+.ep-footer{border-top:1px solid var(--ink);font-family:var(--f-sans);font-size:12.5px;color:var(--muted)}
+.ep-footer .ep-wrap{padding-block:18px 30px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;align-items:center}
+.ep-footer .ep-logo-img{width:190px}
+.ep-footer .ia-note{flex-basis:100%;margin:2px 0 0;font-size:9px;line-height:1.3;opacity:.85}
+.ep-footer .ia-note a{text-decoration:underline;text-underline-offset:2px}
+
+/* v2: portada densa */
+.ep-masthead.compact{padding-block:14px 12px}
+.ep-masthead.compact .ep-logo-img{width:min(360px,72vw)}
+.ep-topbar .ep-right{display:flex;gap:14px;align-items:center}
+.ep-topbar .ep-right a{font-weight:600;color:var(--ink);cursor:pointer}
+.ep-topbar .ep-right a:hover{color:var(--kicker)}
+.ep-nav.double{border-top:3px double var(--ink)}
+.ep-today{border-bottom:1px solid var(--rule);font-family:var(--f-sans);font-size:13px}
+.ep-today .ep-wrap{display:flex;gap:14px;align-items:baseline;padding-block:9px;min-width:0}
+.ep-today .lbl{font-weight:800;text-transform:uppercase;letter-spacing:.1em;font-size:11px;color:var(--crust);flex:none}
+.ep-today ul{display:flex;list-style:none;margin:0;padding:0;overflow-x:auto;scrollbar-width:none;white-space:nowrap;min-width:0}
+.ep-today ul::-webkit-scrollbar{display:none}
+.ep-today li+li::before{content:"·";padding:0 10px;color:var(--muted)}
+.ep-today a{font-weight:600;cursor:pointer}
+.ep-blockhead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-top:2px solid var(--ink);padding-top:8px}
+.ep-blockhead h2{font-family:var(--f-mast);font-weight:400;font-size:1.6rem;line-height:1.1;margin:0}
+.ep-blockhead h2 a{cursor:pointer}
+.ep-blockhead .ep-more{font-family:var(--f-sans);font-size:12.5px;font-weight:600;color:var(--kicker);cursor:pointer;white-space:nowrap}
+.ep-hlist{list-style:none;margin:0;padding:0}
+.ep-hlist a{display:grid;grid-template-columns:22px 1fr;gap:10px;padding-block:10px;border-top:1px solid var(--rule);cursor:pointer}
+.ep-hlist a:hover{color:inherit}
+.ep-hlist .n{font-family:var(--f-mast);font-size:1.5rem;line-height:1;color:var(--crust)}
+.ep-hlist h3{font-family:var(--f-serif);font-size:1rem;line-height:1.25;font-weight:700;margin:0}
+.ep-hlist a:hover h3{color:var(--kicker)}
+.ep-hlist time{display:block;font-family:var(--f-sans);font-size:11.5px;color:var(--muted);margin-top:3px}
+.ep-story.ep-v-opening h2{font-size:clamp(2rem,3.4vw,2.6rem);line-height:1.06;letter-spacing:-.012em}
+.ep-story.ep-v-opening .ep-sub{font-size:1.15rem;line-height:1.4}
+.ep-story.ep-v-second h3{font-size:1.45rem;line-height:1.14}
+.ep-story.ep-v-compact h3{font-size:1.05rem;line-height:1.22}
+.ep-story.ep-v-compact .ep-sub{font-size:.93rem}
+.ep-despiece{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}
+.ep-despiece a{display:flex;gap:9px;align-items:baseline;font-family:var(--f-serif);font-weight:600;font-size:.98rem;line-height:1.3;cursor:pointer}
+.ep-despiece a::before{content:"";width:6px;height:6px;background:var(--crust);flex:none;transform:translateY(-2px)}
+.ep-ia{font-size:10px;font-weight:400;letter-spacing:.01em;color:var(--muted);opacity:.8;text-decoration:none;cursor:pointer;margin-left:7px;white-space:nowrap}
+.ep-ia:hover{color:var(--kicker);text-decoration:underline;text-underline-offset:3px}
+.ep-footer.full .ep-wrap{display:grid;grid-template-columns:1.3fr 2fr 1fr;gap:24px 40px;padding-block:28px 32px;align-items:start}
+.ep-footer.full .col{display:flex;flex-direction:column;gap:8px}
+.ep-footer.full .col h4{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);margin:0 0 2px}
+.ep-footer.full .secs{display:grid;grid-template-columns:repeat(3,auto);gap:6px 18px;justify-content:start}
+.ep-footer.full .col a{color:var(--ink);cursor:pointer}
+.ep-footer.full .col a:hover{color:var(--kicker)}
+.ep-footer.full .ia-note{grid-column:1/-1;font-size:12px;line-height:1.5;opacity:1;border-top:1px solid var(--rule);padding-top:14px;margin:0;max-width:90ch}
+@media (max-width:720px){
+  .ep-footer.full .ep-wrap{grid-template-columns:1fr}
+  .ep-footer.full .secs{grid-template-columns:repeat(2,auto)}
+
+  .ep-band .ep-pair,.ep-related ul{grid-template-columns:1fr}
+  .ep-band .ep-inner{padding:16px}
+  .ep-agenda li{grid-template-columns:84px 1fr}
+  .ep-breve{grid-template-columns:1fr;gap:4px}
+  .ep-seo dl{grid-template-columns:1fr;gap:2px}
+}
+
+/* Vivamóvil ad creatives — ported 1:1 from el-panadero/index.html. Same look in light and dark themes. */
+.ep-ad-slot{display:flex;flex-direction:column;align-items:center;gap:4px}
+.ep-ad-label{font-family:var(--f-sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.ep-ad-mega{display:flex;justify-content:center;background:var(--band);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding-block:10px}
+.vm{--vm-green:#00573f;--vm-lime:#94cc00;--vm-ink:#1f2a26;display:flex;text-decoration:none;color:var(--vm-ink);font-family:"Lato",var(--f-sans);overflow:hidden;max-width:100%;position:relative;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.vm:hover{color:var(--vm-ink)}
+.vm .logo-box{background:#fff;display:flex;align-items:center;justify-content:center}
+.vm .logo-box img{display:block;height:auto}
+.vm .cta{background:var(--vm-lime);color:#12301f;font-weight:900;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;display:inline-flex;align-items:center;justify-content:center}
+.vm .price{font-weight:900;line-height:.9;letter-spacing:-.02em}
+.vm .price small{font-size:.42em;font-weight:700;letter-spacing:0}
+.vm .fine{font-size:10px;opacity:.78;line-height:1.25}
+.vm:hover .cta{background:#a9e400}
+/* Formatos animados (motor en publi/animacion.js). El último fotograma de cada anuncio es el anuncio completo. */
+.vm .cta{position:relative;overflow:hidden}
+.vm-lb{width:970px;height:90px;background:var(--vm-green);color:#fff}
+.vm-lb:hover{color:#fff}
+.vm-lb .logo-box{width:190px;flex:none;position:relative;z-index:2}
+.vm-lb .logo-box img{width:170px}
+.vm-lb .msg{flex:1;position:relative;min-width:0}
+.vm-lb .ln{position:absolute;top:0;bottom:0;left:22px;right:16px;display:flex;flex-direction:column;justify-content:center;gap:3px}
+.vm-lb .ln b{font-size:19px;font-weight:900;line-height:1.05;white-space:nowrap}
+.vm-lb .ln.big b{font-size:25px}
+.vm-lb .ln>span{font-size:11.5px;color:#d9f0a3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vm-lb .ln.big>span{font-size:14px}
+.vm-lb .price{font-size:46px;color:var(--vm-lime);display:flex;align-items:center;padding-right:18px;font-variant-numeric:tabular-nums;position:relative;z-index:1}
+.vm-lb .cta{font-size:14px;padding:0 22px;z-index:1}
+.vm-lb::before{content:"";position:absolute;top:0;bottom:0;left:-30%;width:22%;background:linear-gradient(100deg,transparent,rgba(148,204,0,.22),transparent);transform:skewX(-20deg);pointer-events:none}
+.vm-lb.playing::before{animation:vmSweep 3.6s linear infinite}
+.vm-mb{width:320px;height:100px;background:var(--vm-green);color:#fff}
+.vm-mb:hover{color:#fff}
+.vm-mb .left{flex:1;display:flex;flex-direction:column;justify-content:center;padding:8px 12px;gap:6px;min-width:0}
+.vm-mb .left img{width:104px;background:#fff;padding:3px 5px;border-radius:2px}
+.vm-mb .lns{position:relative;height:31px}
+.vm-mb .lns b{position:absolute;left:0;right:0;top:0;font-size:14px;font-weight:900;line-height:1.1}
+.vm-mb .right{width:104px;background:var(--vm-lime);color:#12301f;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
+.vm-mb .right .price{font-size:30px;font-variant-numeric:tabular-nums}
+.vm-mb .right>span:last-child{font-size:10px;font-weight:900;text-transform:uppercase}
+.vm-mr{width:300px;height:250px;flex-direction:column;background:#fff;border:1px solid #dfe7e3}
+.vm-mr .logo-box{height:52px;border-bottom:4px solid var(--vm-lime);flex:none;position:relative;z-index:2}
+.vm-mr .logo-box img{width:140px}
+.vm-mr .body{flex:1;background:var(--vm-green);color:#fff;padding:14px 16px 12px;display:flex;flex-direction:column;gap:6px;position:relative;overflow:hidden}
+.vm-mr .eyebrow{font-size:11px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--vm-lime)}
+.vm-mr h4{margin:0;font-size:21px;font-weight:900;line-height:1.08}
+.vm-mr ul{margin:0;padding:0;list-style:none;font-size:12.5px;line-height:1.35;color:#e4f3c2}
+.vm-mr .row{margin-top:auto;display:flex;align-items:flex-end;justify-content:space-between;gap:8px}
+.vm-mr .price{font-size:38px;color:#fff;font-variant-numeric:tabular-nums}
+.vm-mr .cta{font-size:12px;padding:9px 12px;flex:none}
+.vm-mr .row .fine{flex:1;min-width:0}
+.vm-tv .body{background:#0b3d2d}
+.vm-tv .bgpic{position:absolute;inset:0;z-index:0;overflow:hidden}
+.vm-tv .bgpic img{width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;opacity:.42}
+.vm-tv .bgpic::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,87,63,.55) 0%,rgba(11,61,45,.25) 45%,rgba(11,61,45,.92) 100%)}
+.vm-tv .body>:not(.bgpic){position:relative;z-index:1}
+.vm-tv h4{text-shadow:0 1px 8px rgba(0,0,0,.35)}
+.vm-tv .chan{display:flex;gap:6px;flex-wrap:wrap}
+.vm-tv .chan span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);font-size:11px;font-weight:700;padding:3px 7px;border-radius:2px}
+.vm-tv .chan span.me{background:var(--vm-lime);border-color:var(--vm-lime);color:#12301f}
+.vm-friend .body{background:var(--vm-lime);color:#12301f}
+.vm-friend .eyebrow{color:var(--vm-green)}
+.vm-friend ul{color:#24412f}
+.vm-friend .big{font-size:54px;font-weight:900;line-height:.9;color:var(--vm-green)}
+.vm-friend .cta{background:var(--vm-green);color:#fff}
+.vmx.vm-friend .wipe{background:var(--vm-green)}
+.vm-friend .body{gap:4px}
+.vm-friend .big{font-size:50px}
+.vm-hp{width:300px;height:600px;flex-direction:column;background:var(--vm-green);color:#fff}
+.vm-hp:hover{color:#fff}
+.vm-hp .logo-box{height:80px;border-bottom:5px solid var(--vm-lime);flex:none;position:relative;z-index:2}
+.vm-hp .logo-box img{width:190px}
+.vm-hp .slides{flex:1;position:relative;min-height:0}
+.vm-hp .body{padding:22px 22px 18px;display:flex;flex-direction:column;gap:12px}
+.vm-hp .eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--vm-lime)}
+.vm-hp h4{margin:0;font-size:32px;font-weight:900;line-height:1.02}
+.vm-hp ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font-size:14px}
+.vm-hp li{display:flex;gap:8px;align-items:baseline}
+.vm-hp li::before{content:"";width:8px;height:8px;background:var(--vm-lime);flex:none;transform:translateY(-1px)}
+.vm-hp .price{font-size:72px;color:var(--vm-lime);margin-top:auto;font-variant-numeric:tabular-nums}
+.vm-hp .cta{font-size:15px;padding:14px}
+.vm-hp .office{font-size:12px;line-height:1.4;color:#d9f0a3;border-top:1px solid rgba(255,255,255,.2);padding-top:10px}
+.vm-hp .s-photo .pic{position:absolute;inset:0;overflow:hidden;background:#0b3d2d}
+.vm-hp .s-photo .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block}
+.vm-hp .s-photo .cap{position:absolute;left:0;right:0;bottom:0;padding:70px 22px 22px;display:flex;flex-direction:column;gap:8px;background:linear-gradient(180deg,rgba(11,61,45,0) 0%,rgba(11,61,45,.88) 38%,#0b3d2d 100%)}
+.vm-hp .s-photo h4{font-size:30px}
+.vm-hp .s-photo .price{margin-top:4px}
+.vm-an{width:320px;height:50px;background:var(--vm-green);color:#fff;align-items:stretch}
+.vm-an:hover{color:#fff}
+.vm-an .logo-box{width:92px;flex:none;position:relative;z-index:2}
+.vm-an .logo-box img{width:80px}
+.vm-an .msg{flex:1;position:relative;min-width:0}
+.vm-an .ln{position:absolute;top:0;bottom:0;left:8px;right:4px;display:flex;flex-direction:column;justify-content:center}
+.vm-an .ln b{font-size:13px;font-weight:900;line-height:1.05}
+.vm-an .ln>span{font-size:10px;color:#d9f0a3}
+.vm-an .ln.big b{font-size:14px;white-space:nowrap}
+.vm-an .cta{font-size:11px;padding:0 9px}
+.vm-sky{width:450px;height:1000px;flex-direction:column;background:var(--vm-green);color:#fff}
+.vm-sky:hover{color:#fff}
+.vm-sky .logo-box{height:120px;flex:none;border-bottom:10px solid var(--vm-lime);position:relative;z-index:2}
+.vm-sky .logo-box img{width:320px}
+.vm-sky .slides{flex:1;position:relative;min-height:0}
+.vm-sky .sl{background:var(--vm-green);color:#fff;display:flex;flex-direction:column}
+.vm-sky .pic{height:400px;flex:none;overflow:hidden;position:relative}
+.vm-sky .pic img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.vm-sky .txt{flex:1;padding:26px 32px 30px;display:flex;flex-direction:column;gap:12px;min-height:0}
+.vm-sky .eyebrow{font-size:22px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--vm-lime)}
+.vm-sky h4{margin:0;font-size:36px;font-weight:900;line-height:1.04}
+.vm-sky p{margin:0;font-size:20px;line-height:1.35;color:#e4f3c2}
+.vm-sky .price{font-size:92px;color:var(--vm-lime);margin-top:auto;font-variant-numeric:tabular-nums}
+.vm-sky .cta{font-size:22px;padding:18px 12px;flex:none}
+.vm-sky .sl.lime{background:var(--vm-lime);color:#12301f}
+.vm-sky .sl.lime .eyebrow{color:var(--vm-green)}
+.vm-sky .sl.lime p{color:#24412f}
+.vm-sky .sl.lime .cta{background:var(--vm-green);color:#fff}
+.vmx.vm-sky .sl.lime .wipe{background:var(--vm-green)}
+.vm-sky .sl.white{background:#fff;color:var(--vm-ink);box-shadow:inset 0 0 0 1px #dfe7e3}
+.vm-sky .sl.white .eyebrow{color:var(--vm-green)}
+.vm-sky .sl.white p{color:#3a4a43}
+.vm-sky .sl.white .price{color:var(--vm-green)}
+.vmx.vm-sky .sl.white .wipe{background:var(--vm-green)}
+
+/* Motor: diapositivas, fases, cortinilla, brillo del botón y movimiento lento de las fotos */
+.vmx .sl{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .6s ease,visibility 0s linear .6s}
+.vmx .sl.act{opacity:1;visibility:visible;transition:opacity .6s ease,visibility 0s}
+.vmx:not(.armed) .tmp{display:none}
+.vmx.armed .kx{opacity:0;transform:translateY(14px);transition:opacity .45s ease,transform .6s cubic-bezier(.2,.8,.2,1)}
+.vmx.armed .kx.l{transform:translateX(-26px)}
+.vmx.armed .kx.r{transform:translateX(26px)}
+.vmx.armed .kx.pop{transform:scale(.55);transition:opacity .3s ease,transform .55s cubic-bezier(.34,1.56,.64,1)}
+.vmx.armed .kx.fade{transform:none;transition:opacity 1.1s ease}
+.vmx.armed.kon1 .k1,.vmx.armed .kon1 .k1,.vmx.armed.kon2 .k2,.vmx.armed .kon2 .k2,.vmx.armed.kon3 .k3,.vmx.armed .kon3 .k3,.vmx.armed.kon4 .k4,.vmx.armed .kon4 .k4,.vmx.armed.kon5 .k5,.vmx.armed .kon5 .k5,.vmx.armed.kon6 .k6,.vmx.armed .kon6 .k6,.vmx.armed.kon7 .k7,.vmx.armed .kon7 .k7,.vmx.armed.kon8 .k8,.vmx.armed .kon8 .k8{opacity:1;transform:none}
+.vmx.armed.kon2 .ko2,.vmx.armed .kon2 .ko2,.vmx.armed.kon3 .ko3,.vmx.armed .kon3 .ko3,.vmx.armed.kon4 .ko4,.vmx.armed .kon4 .ko4,.vmx.armed.kon5 .ko5,.vmx.armed .kon5 .ko5,.vmx.armed.kon6 .ko6,.vmx.armed .kon6 .ko6{opacity:0;transform:translateY(-12px)}
+.vmx .wipe{position:absolute;inset:0;z-index:5;background:var(--vm-lime);transform:translateX(-101%);pointer-events:none}
+.vmx.armed.playing.kon1>.wipe,.vmx.armed.playing .kon1>.wipe{animation:vmWipe .7s cubic-bezier(.7,0,.3,1) both}
+.vmx.playing .cta::after{content:"";position:absolute;top:0;bottom:0;left:-60%;width:45%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.6),transparent);transform:skewX(-20deg);animation:vmShine 2.4s ease-in-out 1s infinite}
+.vmx:hover .cta::after{content:"";position:absolute;top:0;bottom:0;left:-60%;width:45%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.6),transparent);transform:skewX(-20deg);animation:vmShine .9s ease-in-out}
+.vmx.playing .kb img{animation:vmKB 9s ease-in-out infinite alternate}
+.vmx.done .kb img{animation:vmKB 9s ease-in-out infinite alternate;animation-play-state:paused}
+/* tarjetas a pantalla completa: logotipo y teléfono */
+.vmx .card{position:absolute;inset:0;z-index:8;display:flex;align-items:center;justify-content:center;gap:.35em;opacity:0;visibility:hidden;transform:scale(1.08);pointer-events:none;transition:opacity .35s ease,transform .5s ease,visibility 0s linear .35s}
+.vmx .card.cin{opacity:1;visibility:visible;transform:none;transition:opacity .35s ease,transform .7s cubic-bezier(.2,.8,.2,1),visibility 0s}
+.vmx .c-logo{background:#fff}
+.vmx .c-logo img{display:block;height:auto;width:80%}
+.vmx .c-tel{background:var(--vm-green);color:#fff;font-size:16px}
+.vmx .c-tel .ico{width:2.6em;height:2.6em;color:var(--vm-lime);flex:none}
+.vmx .c-tel .tx{display:flex;flex-direction:column;line-height:1}
+.vmx .c-tel .lbl{color:var(--vm-lime);font-weight:900;text-transform:uppercase;letter-spacing:.1em;font-size:.8em;margin-bottom:.25em}
+.vmx .c-tel .num{font-weight:900;font-size:2.6em;letter-spacing:-.01em;white-space:nowrap;font-variant-numeric:tabular-nums}
+.vmx.playing .c-tel.cin .ico{animation:vmRing .9s ease-in-out .3s 2}
+@keyframes vmRing{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-14deg)}40%,80%{transform:rotate(14deg)}}
+.vm-lb .c-logo img{width:auto;height:72px}
+.vm-lb .c-tel{font-size:20px;gap:.6em}
+.vm-lb .c-tel .tx{flex-direction:row;align-items:baseline;gap:.6em}
+.vm-lb .c-tel .lbl{font-size:1em;margin:0}
+.vm-mb .c-tel{font-size:12px}
+.vm-mb .c-logo img{width:72%}
+.vm-an .c-tel{font-size:9px}
+.vm-an .c-tel .ico{width:2.2em;height:2.2em}
+.vm-an .c-logo img{width:auto;height:40px}
+.vm-mr .c-tel{font-size:15px;flex-direction:column;gap:.6em;text-align:center}
+.vm-mr .c-tel .tx{align-items:center}
+:is(.vm-mr,.vm-hp,.vm-sky) .c-tel .lbl{font-size:1.05em;margin-bottom:.35em}
+:is(.vm-mr,.vm-hp,.vm-sky) .c-tel .ico{width:3.2em;height:3.2em}
+.vm-hp .c-tel{font-size:15.5px;flex-direction:column;gap:.8em}
+.vm-hp .c-tel .tx{align-items:center}
+.vm-sky .c-tel{font-size:17.5px;flex-direction:column;gap:.8em}
+.vm-sky .c-tel .tx{align-items:center}
+.vm-sky .c-logo img{width:84%}
+@keyframes vmWipe{0%{transform:translateX(-101%)}45%,55%{transform:translateX(0)}100%{transform:translateX(101%)}}
+@keyframes vmShine{0%{left:-60%}60%,100%{left:130%}}
+@keyframes vmSweep{0%{left:-30%}100%{left:120%}}
+@keyframes vmKB{0%{transform:scale(1)}100%{transform:scale(1.09) translate(-1.5%,-1%)}}
+@media (prefers-reduced-motion: reduce){.vmx,.vmx *,.vmx::before,.vmx *::after{animation:none!important;transition:none!important}}
+
+/* v2 portada: rejilla de diario de referencia */
+.front.v2{display:flex;flex-direction:column;gap:30px;padding-block:22px 48px}
+.opening{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,4fr) minmax(0,3fr);gap:0}
+.opening>div,.opening>aside{min-width:0;display:flex;flex-direction:column;gap:16px}
+.opening .col-a{padding-right:26px}
+.opening .col-b{border-left:1px solid var(--rule);padding-inline:26px}
+.opening .col-b>.ep-v-compact{border-top:1px solid var(--rule);padding-top:14px}
+.opening .col-c{border-left:1px solid var(--rule);padding-left:26px;gap:24px}
+.lower{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:36px;align-items:start}
+.blocks{display:flex;flex-direction:column;gap:34px;min-width:0}
+.block{display:flex;flex-direction:column;gap:16px}
+.block-grid{display:grid;grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr));gap:0}
+.block-grid.n2{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
+.block-grid.n3{grid-template-columns:minmax(0,2fr) repeat(2,minmax(0,1fr))}
+.block-grid>.ep-story{padding-inline:20px}
+.block-grid>.ep-story:first-child{padding-left:0}
+.block-grid>.ep-story:last-child{padding-right:0}
+.block-grid>.ep-story+.ep-story{border-left:1px solid var(--rule)}
+.breves-2{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+.breves-2 .ep-breve:first-child,.breves-2 .ep-breve:nth-child(2){padding-top:0}
+.rail{display:flex;flex-direction:column;gap:24px;position:sticky;top:64px;min-width:0}
+.art-layout{display:grid;grid-template-columns:minmax(0,720px) 300px;gap:56px;justify-content:center;align-items:start}
+.art-layout .ep-article{margin:0}
+.art-rail{padding-top:26px}
+.sec-lead .ep-v-lead{display:grid;grid-template-columns:1.4fr 1fr;gap:0 28px}
+.sec-lead .ep-v-lead>a{display:contents}
+.sec-lead .ep-v-lead .ep-photo{grid-row:1/span 5}
+.sec-lead .ep-v-lead h2{font-size:clamp(1.6rem,3vw,2.3rem);line-height:1.1}
+.sec-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;border-top:1px solid var(--ink);padding-top:20px}
+.full-bleed{margin-inline:-16px}
+.theme-toggle{font:600 12px var(--f-sans);color:var(--muted);background:none;border:1px solid var(--rule);padding:2px 8px;cursor:pointer;white-space:nowrap}
+@media (max-width:1100px){.opening{grid-template-columns:minmax(0,3fr) minmax(0,2fr)}.opening .col-c{grid-column:1/-1;border-left:0;padding-left:0;border-top:1px solid var(--ink);padding-top:18px;margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:28px}}
+@media (max-width:1000px){.only-desk{display:none!important}.lower,.art-layout{grid-template-columns:minmax(0,1fr)}.rail{position:static}.art-rail{padding-top:0}}
+@media (min-width:1001px){.only-mob{display:none!important}}
+@media (max-width:900px){.block-grid,.block-grid.n3{grid-template-columns:1fr 1fr}.block-grid>.ep-story:first-child{grid-column:1/-1;padding-right:0;padding-bottom:16px}.block-grid>.ep-story:nth-child(2){border-left:0;padding-left:0}.sec-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:720px){
+.opening,.opening .col-c{grid-template-columns:1fr;display:flex;flex-direction:column}
+.opening .col-a{padding-right:0}
+.opening .col-b{border-left:0;padding-inline:0;border-top:1px solid var(--rule);padding-top:18px;margin-top:18px}
+.block-grid,.block-grid.n2,.block-grid.n3,.breves-2,.sec-grid{grid-template-columns:1fr}
+.block-grid>.ep-story{padding-inline:0!important}
+.block-grid>.ep-story+.ep-story{border-left:0;border-top:1px solid var(--rule);padding-top:14px;margin-top:14px}
+.sec-lead .ep-v-lead{display:flex}.sec-lead .ep-v-lead>a{display:flex}}
+/* v3: portada de papel */
+.front.v3{display:flex;flex-direction:column;gap:30px;padding-block:20px 48px}
+.v3-top{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;align-items:start}
+.v3-lead{grid-column:span 4;display:flex;flex-direction:column;gap:16px;min-width:0}
+.v3-pic{display:block}
+.v3-lead .ep-story :is(h2,h3){font-family:var(--f-serif);font-weight:700;margin:0;text-wrap:balance}
+.v3-lead .ep-story .ep-sub{color:var(--muted);margin:0;text-wrap:pretty}
+/* 4 col: titular centrado, protagonista */
+.v3-top.s4 .ep-story{align-items:center;text-align:center;gap:10px}
+.v3-top.s4 .ep-story>a{align-items:center}
+.v3-top.s4 .v3-lead :is(h2,h3){font-size:clamp(3.2rem,6.4vw,5.6rem);line-height:.98;letter-spacing:-.022em;max-width:20ch}
+.v3-top.s4 .ep-sub{font-size:1.4rem;line-height:1.38;max-width:58ch}
+.v3-top.s4 .ep-despiece{flex-direction:row;flex-wrap:wrap;justify-content:center;gap:6px 26px;margin-top:4px}
+.v3-top.s4 .v3-lead{gap:20px}
+/* 2 y 3 col: satélites a los lados, principal en medio */
+.v3-top.s2{grid-template-columns:minmax(0,1fr) minmax(0,2fr) minmax(0,1fr)}
+.v3-top.s3{grid-template-columns:minmax(0,1fr) minmax(0,3fr) minmax(0,1fr)}
+.v3-top.s2,.v3-top.s3{align-items:stretch}
+.v3-top.s2 .v3-pic,.v3-top.s3 .v3-pic{display:flex;flex:1 1 auto;min-height:0}
+.v3-top.s2 .v3-pic .ep-photo,.v3-top.s3 .v3-pic .ep-photo{flex:1 1 auto;width:100%;aspect-ratio:auto!important}
+.v3-top.s2 .v3-pic .ep-photo{min-height:330px}
+.v3-top.s3 .v3-pic .ep-photo{min-height:390px}
+.v3-top.s2 .v3-lead,.v3-top.s3 .v3-lead{grid-column:auto;padding-inline:22px;gap:12px}
+.v3-top.s3 .v3-lead :is(h2,h3){font-size:clamp(2.1rem,3.2vw,2.8rem);line-height:1.05;letter-spacing:-.014em}
+.v3-top.s3 .ep-sub{font-size:1.15rem;line-height:1.4}
+.v3-top.s2 .v3-lead :is(h2,h3){font-size:clamp(1.8rem,2.6vw,2.3rem);line-height:1.07;letter-spacing:-.01em}
+.v3-top.s2 .ep-sub{font-size:1.08rem;line-height:1.4}
+.v3-top.s2 .ep-despiece,.v3-top.s3 .ep-despiece{gap:5px}
+.v3-sat{display:flex;flex-direction:column;justify-content:flex-start;gap:12px;min-width:0}
+.v3-sat.l{padding-right:22px;border-right:1px solid var(--rule)}
+.v3-sat.r{padding-left:22px;border-left:1px solid var(--rule)}
+.v3-sat>.ep-story+.ep-story{border-top:1px solid var(--rule);padding-top:12px}
+.v3-sat .ep-v-sat1 h3{font-size:1.5rem;line-height:1.1;letter-spacing:-.008em}
+.v3-sat .ep-v-sat1 .ep-sub{font-size:.95rem}
+.v3-sat .ep-v-compact h3{font-size:1.1rem;line-height:1.2}
+.v3-sat .ep-photo{margin-bottom:2px}
+.v3-top.s2 .v3-sat>.ep-story:has(.ep-photo),.v3-top.s3 .v3-sat>.ep-story:has(.ep-photo){flex:1 1 auto}
+.v3-top.s2 .v3-sat>.ep-story:has(.ep-photo)>a,.v3-top.s3 .v3-sat>.ep-story:has(.ep-photo)>a{flex:1 1 auto}
+.v3-top.s2 .v3-sat .ep-photo,.v3-top.s3 .v3-sat .ep-photo{flex:1 1 auto;aspect-ratio:auto;min-height:150px}
+/* filas y franjas con corondeles */
+.v3-row,.v3-band-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.v3-row{border-top:3px double var(--ink);padding-top:16px}
+.v3-row>.ep-story,.v3-band-grid>.ep-story{padding-inline:20px;min-width:0}
+.v3-row>.ep-story:first-child,.v3-band-grid>.ep-story:first-child{padding-left:0}
+.v3-row>.ep-story:last-child,.v3-band-grid>.ep-story:last-child{padding-right:0}
+.v3-row>.ep-story+.ep-story,.v3-band-grid>.ep-story+.ep-story{border-left:1px solid var(--rule)}
+.v3-band{display:flex;flex-direction:column;gap:16px}
+.v3-band-grid{grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr))}
+.v3-foot{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;border-top:1px solid var(--ink);padding-top:20px;align-items:start}
+.v3-last{display:flex;flex-direction:column;gap:22px}
+.v3-ears{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px}
+.v3-ears .ear{font-family:var(--f-sans);font-size:12px;color:var(--muted);line-height:1.4}
+.v3-ears .ear b{display:block;color:var(--ink);text-transform:uppercase;letter-spacing:.08em;font-size:11px}
+.v3-ears .ear.r{text-align:right}
+@media (max-width:900px){
+.v3-top,.v3-side.two{grid-template-columns:1fr}
+.v3-top .v3-lead{grid-column:auto!important;padding-inline:0!important;order:-1}
+.v3-sat.l,.v3-sat.r{border:0;padding:0;border-top:1px solid var(--rule);padding-top:14px;margin-top:16px}
+.v3-side,.v3-side.two{grid-column:auto}
+.v3-side,.v3-side-b{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:16px;margin-top:16px}
+.v3-side-a{padding-inline:0}
+.v3-row,.v3-band-grid{grid-template-columns:1fr 1fr;gap:16px 0}
+.v3-band-grid>.ep-story:first-child{grid-column:1/-1;padding-right:0}
+.v3-row>.ep-story:nth-child(3){border-left:0;padding-left:0}
+.v3-band-grid>.ep-story:nth-child(2){border-left:0;padding-left:0}
+.v3-foot{grid-template-columns:1fr}
+.v3-ears{grid-template-columns:1fr}.v3-ears .ear{display:none}}
+@media (max-width:600px){.v3-row,.v3-band-grid{grid-template-columns:1fr}.v3-row>.ep-story,.v3-band-grid>.ep-story{padding-inline:0!important;border-left:0!important}.v3-row>.ep-story+.ep-story,.v3-band-grid>.ep-story+.ep-story{border-top:1px solid var(--rule);padding-top:14px}}
+
+/* ===== Añadidos de producción (no están en el sistema de diseño) ===== */
+/* Safari en iPhone agranda solo el texto pequeño; así se respeta el tamaño del diseño */
+html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --paper:#131313;--band:#1b1b1a;--ink:#ecebe7;--muted:#a3a29c;--rule:#33322f;--kicker:#86ade6;--crust:#d89a54;--photo:#2a2621;--photo-line:#332e27;--notice:#2a2316;color-scheme:dark; }
+  :root:not([data-theme="light"]) .ep-logo-img.light { display:none; }
+  :root:not([data-theme="light"]) .ep-logo-img.dark { display:block; }
+}
+.ep-wrap { padding-left:max(var(--gutter), env(safe-area-inset-left, 0px)); padding-right:max(var(--gutter), env(safe-area-inset-right, 0px)); }
+.ep-nav { top:env(safe-area-inset-top, 0px); }
+.ep-sat1 h3 { font-size:1.5rem; line-height:1.1; letter-spacing:-.008em; }
+.v3-sat .ep-v-sat1 .ep-sub { font-size:.95rem; }
+.v3-lead .ep-story.ep-v-open2 h2, .v3-lead .ep-story.ep-v-open3 h2, .v3-lead .ep-story.ep-v-open4 h2 { line-height:1.05; }
+/* banner móvil justo después de la apertura (≤900) */
+.v3-top > .v3-ad { display:none; }
+@media (max-width:900px) {
+  .v3-top.s2, .v3-top.s3 { grid-template-columns:1fr; }
+  .v3-top > .v3-ad { display:flex; order:-1; grid-column:1 / -1; margin:18px calc(-1 * var(--gutter)) 0; }
+  .v3-top ~ .full-bleed { display:none; }
+  .v3-top.s2 .v3-pic .ep-photo, .v3-top.s3 .v3-pic .ep-photo { min-height:0; aspect-ratio:16/10 !important; }
+  .v3-top .v3-sat .ep-photo { aspect-ratio:3/2; min-height:0; }
+}
+@media (max-width:600px) { .v3-top.s4 .v3-lead :is(h2,h3) { font-size:clamp(2.1rem, 9vw, 3rem); } .v3-top.s4 .v3-pic .ep-photo { aspect-ratio:16/10 !important; } }
+/* laterales 450×1000 fijos, escalados al hueco libre */
+.skyrail { position:fixed; top:0; z-index:9; display:none; flex-direction:column; align-items:center; gap:4px; }
+.skyrail.on { display:flex; }
+.sky-wrap { overflow:hidden; position:relative; }
+.sky-wrap > .vm-sky { position:absolute; top:0; left:0; transform-origin:top left; }
+/* anclado móvil 320×50 */
+.ad-sticky { position:fixed; left:0; right:0; bottom:0; z-index:30; background:var(--paper); border-top:var(--rule-hair); box-shadow:var(--shadow-sticky); padding-top:6px; padding-bottom:calc(6px + env(safe-area-inset-bottom, 0px)); padding-left:max(var(--gutter), env(safe-area-inset-left, 0px)); padding-right:max(var(--gutter), env(safe-area-inset-right, 0px)); display:none; justify-content:center; }
+.ad-sticky .close { position:absolute; top:-26px; right:max(10px, env(safe-area-inset-right, 0px)); width:26px; height:26px; border:var(--rule-hair); border-bottom:0; background:var(--paper); color:var(--ink); font:700 16px/1 var(--f-sans); cursor:pointer; }
+.ad-sticky .ep-ad-label { position:absolute; left:max(var(--gutter), env(safe-area-inset-left, 0px)); top:-18px; background:var(--paper); padding:2px 6px; }
+@media (max-width:720px) { .ad-sticky.on { display:flex; } body { padding-bottom:calc(64px + env(safe-area-inset-bottom, 0px)); } }
+.ep-body .ep-ad-slot { margin:6px 0 22px; }
+.ep-errline a { color:var(--kicker); }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; scroll-behavior:auto !important; } }
+/* columna ancha (1.300 px) solo si caben los laterales a 160 px o más; si no, 1.180 */
+@media (min-width:1720px) { .ep-wrap { max-width:1300px; } }
+
+
+/* agenda en portada, a la manera de El Coriano */
+.v3-agenda{display:grid;grid-template-columns:minmax(0,1fr) 328px;border-top:1px solid var(--ink);padding-top:20px}
+.v3-agenda .ag-main{padding-right:28px;border-right:1px solid var(--rule);min-width:0}
+.v3-agenda .ag-side{padding-left:28px;display:flex;flex-direction:column;gap:24px}
+.ag3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;margin:0;padding:0}
+.ag3 li{padding:12px 18px 14px;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:4px;min-width:0}
+.ag3 li:nth-child(3n+1){padding-left:0}
+.ag3 li:nth-child(3n){padding-right:0}
+.ag3 li:not(:nth-child(3n+1)){border-left:1px solid var(--rule)}
+.ag3 .when{font-family:var(--f-sans);font-size:12px;font-weight:700;color:var(--crust);text-transform:uppercase;letter-spacing:.03em;font-variant-numeric:tabular-nums}
+.ag3 .que{font-family:var(--f-serif);font-size:17px;font-weight:700;line-height:1.22}
+.ag3 a.que:hover{color:var(--kicker)}
+.ag3 .where{font-family:var(--f-sans);font-size:13px;color:var(--muted)}
+.ag-more{margin-top:4px}
+.ag-more>summary{list-style:none;cursor:pointer;font-family:var(--f-sans);font-size:13px;font-weight:700;color:var(--kicker);padding:12px 0 4px}
+.ag-more>summary::-webkit-details-marker{display:none}
+.ag-more[open]>summary .mas{display:none}.ag-more:not([open])>summary .menos{display:none}
+.v3-foot.two{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
+@media (max-width:1000px){.v3-agenda{grid-template-columns:minmax(0,1fr)}.v3-agenda .ag-main{padding-right:0;border-right:0}.v3-agenda .ag-side{padding-left:0;margin-top:24px}}
+@media (max-width:900px){.v3-foot.two{grid-template-columns:1fr}}
+@media (max-width:720px){.ag3{grid-template-columns:minmax(0,1fr)}.ag3 li,.ag3 li:nth-child(3n+1),.ag3 li:nth-child(3n){padding-inline:0;border-left:0!important}}
+
+/* tiempo y farmacias de guardia (bajo la agenda) */
+:root{--wx-sun:#e3a21a;--wx-cloud:#cfd2d4;--wx-cloud-line:#9ea3a6;--wx-up:#b3261e;--wx-down:#1d4f91;--wx-cross:#0f8a5f}
+:root[data-theme="dark"]{--wx-cloud:#5b5d5f;--wx-cloud-line:#7b7e80;--wx-up:#f08a80;--wx-down:#86ade6;--wx-cross:#4cc492}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--wx-cloud:#5b5d5f;--wx-cloud-line:#7b7e80;--wx-up:#f08a80;--wx-down:#86ade6;--wx-cross:#4cc492}}
+.ag-util{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);border-top:1px solid var(--ink);margin-top:22px;padding-top:16px}
+.ag-util>section{min-width:0;display:flex;flex-direction:column;gap:12px}
+.ag-util>section:first-child{padding-right:24px}
+.ag-util>section+section{border-left:1px solid var(--rule);padding-left:24px}
+.ag-util .ep-label{margin:0}
+.ag-util .src{font-family:var(--f-sans);font-size:11.5px;color:var(--muted);margin-top:auto}
+.ag-util .src a{text-decoration:underline;text-underline-offset:2px}
+.wx-ico{display:block;flex:none}
+.wx-ico .sun{fill:var(--wx-sun)}.wx-ico .ray{stroke:var(--wx-sun);stroke-width:3.2;stroke-linecap:round}
+.wx-ico .cloud{fill:var(--wx-cloud);stroke:var(--wx-cloud-line);stroke-width:1.5}
+.wx-ico .drop{stroke:var(--kicker);stroke-width:3;stroke-linecap:round}
+.wx-ico .bolt{fill:var(--crust)}.wx-ico .fog{stroke:var(--wx-cloud-line);stroke-width:3;stroke-linecap:round}
+.wx-today{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;align-items:center}
+.wx-temps{display:flex;align-items:baseline;gap:10px;font-family:var(--f-mast)}
+.wx-temps .mx{font-size:46px;line-height:1}
+.wx-temps .mn{font-size:24px;color:var(--muted)}
+.wx-desc{font-family:var(--f-sans);font-size:13.5px;line-height:1.35}
+.wx-desc b{font-weight:700}
+.wx-trend{grid-column:1/-1;display:flex;align-items:center;gap:8px;font-family:var(--f-sans);font-size:13px;font-weight:600;background:var(--band);padding:7px 10px}
+.wx-trend.up{color:var(--wx-up)}.wx-trend.down{color:var(--wx-down)}.wx-trend.eq{color:var(--muted)}
+.wx-trend .th-fill{fill:currentColor}.wx-trend .th-line{stroke:currentColor;fill:none;stroke-width:2}
+.wx-days{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--rule)}
+.wx-days>div{display:flex;flex-direction:column;align-items:center;gap:3px;padding:10px 4px 2px;font-family:var(--f-sans);min-width:0}
+.wx-days>div+div{border-left:1px solid var(--rule)}
+.wx-days .d{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.wx-days .t{font-size:13px;font-weight:700}.wx-days .t span{color:var(--muted);font-weight:400}
+.wx-days .p{font-size:11px;color:var(--kicker);font-weight:600;min-height:14px}
+.fm-day{font-family:var(--f-sans);font-size:13px;color:var(--muted)}
+.fm-night{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;align-items:start;background:var(--band);border-left:3px solid var(--wx-cross);padding:10px 12px}
+.fm-night .when{grid-column:2;font-family:var(--f-sans);font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--wx-cross)}
+.fm-night svg{grid-row:1/span 3}
+.fm-night .n{font-family:var(--f-serif);font-weight:700;font-size:17px;line-height:1.22}
+.fm-night .x,.fm-list .x{font-family:var(--f-sans);font-size:13px;color:var(--muted)}
+.fm-tel{font-weight:700;color:var(--ink);white-space:nowrap}
+.fm-tel:hover{color:var(--kicker)}
+.fm-list{list-style:none;margin:0;padding:0}
+.fm-list li{padding:8px 0;border-top:1px solid var(--rule);display:flex;flex-direction:column;gap:1px}
+.fm-list .n{font-family:var(--f-serif);font-weight:700;font-size:15px;line-height:1.25}
+.fm-h{font-family:var(--f-sans);font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:2px 0 0}
+@media (max-width:720px){.ag-util{grid-template-columns:minmax(0,1fr)}.ag-util>section:first-child{padding-right:0}.ag-util>section+section{border-left:0;padding-left:0;border-top:1px solid var(--rule);margin-top:18px;padding-top:16px}}
+</style>
+</head>
+<body>
+<div class="ep-notice"><div class="ep-wrap"><b>Edición de pruebas.</b> Noticias de Alcalá de los últimos 30 días, elaboradas a partir de fuentes públicas.</div></div>
+<div class="ep-wrap v3-ears">
+  <span class="ear"><b>Alcalá de Guadaíra</b><span id="today2"></span></span>
+  <header class="ep-masthead"><div class="ep-wrap"><a href="#portada" aria-label="El Panadero, portada"><img class="ep-logo-img light" src="publi/logo-el-panadero-cabecera.svg" alt="El Panadero"><img class="ep-logo-img dark" src="publi/logo-el-panadero-oscuro-cabecera.svg" alt="El Panadero"></a></div></header>
+  <span class="ear r"><b>Edición digital</b>El periódico independiente de Alcalá</span>
+</div>
+<nav class="ep-nav double" aria-label="Secciones"><div class="ep-wrap" id="nav"></div></nav>
+<div class="ep-wrap" id="app"></div>
+<footer class="ep-footer full"><div class="ep-wrap">
+  <div class="col"><a href="#portada" aria-label="El Panadero, portada"><img class="ep-logo-img light" src="publi/logo-el-panadero.svg" alt="El Panadero"><img class="ep-logo-img dark" src="publi/logo-el-panadero-oscuro.svg" alt="El Panadero"></a><span>El periódico independiente de Alcalá · Viva Media Producciones</span></div>
+  <div class="col"><h4>Secciones</h4><div class="secs" id="foot-secs"></div></div>
+  <div class="col"><h4>El Panadero</h4><a href="#como-trabajamos">Cómo trabajamos</a><span>redaccion@elpanadero.es (pendiente)</span></div>
+  <p class="ia-note">El Panadero combina piezas de su redacción con textos elaborados con inteligencia artificial; estos últimos se identifican en la firma. <a href="#como-trabajamos">Cómo trabajamos</a></p>
+</div></footer>
+<div class="skyrail" id="sky-l" role="complementary" aria-label="Publicidad"></div>
+<div class="skyrail" id="sky-r" role="complementary" aria-label="Publicidad"></div>
+<div class="ad-sticky" id="ad-sticky" role="complementary" aria-label="Publicidad"></div>
+
+<script src="noticias.js"></script>
+<script src="publi/anuncios.js"></script>
+<script src="publi/animacion.js"></script>
+<script src="tiempo.js"></script>
+<script src="guardias.js"></script>
+<script>
+// Previa de la Mesa: si esta página se abre dentro de la Mesa, enseña las noticias que le pasa la Mesa.
+try{var P=window.parent&&window.parent!==window&&window.parent.EP_PREVIEW;if(P)window.EP=JSON.parse(JSON.stringify(P));}catch(e){}
+// Mesa de redacción: la dirección del periódico terminada en #mesa abre la mesa (mesa/mesa.js) en lugar de la portada.
+function abrirMesa(){if(window.__mesa)return;window.__mesa=1;setTimeout(function(){try{removeEventListener("resize",fitRails);removeEventListener("scroll",fitRails)}catch(e){}document.querySelectorAll('style,link[rel="stylesheet"]').forEach(function(e){e.remove()});document.body.className="";document.body.removeAttribute("style");document.body.innerHTML="";var s=document.createElement("script");s.src="mesa/mesa.js";document.body.appendChild(s)},0)}
+window.addEventListener("hashchange",function(){if(window.__mesa&&location.hash!=="#mesa")location.reload()});
+</script>
+<script>
+const SECTIONS = [
+  ["portada", "Portada"], ["alcala", "Alcalá"], ["sucesos", "Sucesos"], ["politica", "Política"], ["economia", "Economía y empleo"],
+  ["cultura", "Cultura y planes"], ["hermandades", "Hermandades"], ["deportes", "Deportes"], ["opinion", "Opinión"]
+];
+const EP = window.EP;
+const A = EP.noticias;
+const HOY = EP.meta.actualizado;
+const AGENDA = EP.agenda.filter(x => x.hasta >= HOY);
+const byId = Object.fromEntries(A.map(a => [a.id, a]));
+const SITE = "https://www.elpanadero.es";
+const SEO = {};
+const MESES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+A.forEach(a => { SEO[a.id] = [a.iso, ...a.seo]; const [y, m, d] = a.iso.split("-").map(Number); a.date = `${d} ${MESES[m - 1]} ${y}`; });
+const ORDER = A.map((a, i) => [a, i]).sort((x, y) => y[0].iso.localeCompare(x[0].iso) || x[1] - y[1]).map(x => x[0]);
+const seoOf = id => { const [date, slug, title, desc, tags] = SEO[id]; const sec = byId[id].sec; return { date, slug, title, desc, tags, url: `${SITE}/${sec}/${slug}` }; };
+const HOME_SEO = { title: "El Panadero | Noticias de Alcalá de Guadaíra", desc: "Diario digital de Alcalá de Guadaíra: actualidad local, política municipal, empleo, cultura, deportes y agenda de la ciudad.", url: SITE + "/" };
+const secName = id => SECTIONS.find(s => s[0] === id)[1];
+function setMeta(attr, key, val) {
+  let m = document.head.querySelector(`meta[${attr}="${key}"]`);
+  if (!m) { m = document.createElement("meta"); m.setAttribute(attr, key); document.head.appendChild(m); }
+  m.setAttribute("content", val);
+}
+function applySeo(a) {
+  const s = a ? seoOf(a.id) : HOME_SEO;
+  const full = a ? `${s.title} | El Panadero` : s.title;
+  document.title = full;
+  setMeta("name", "description", s.desc);
+  setMeta("name", "keywords", a ? s.tags.join(", ") : "Alcalá de Guadaíra, noticias, actualidad, Sevilla");
+  setMeta("name", "robots", "max-image-preview:large");
+  setMeta("property", "og:type", a ? "article" : "website");
+  setMeta("property", "og:site_name", "El Panadero");
+  setMeta("property", "og:locale", "es_ES");
+  setMeta("property", "og:title", a ? s.title : full);
+  setMeta("property", "og:description", s.desc);
+  setMeta("property", "og:url", s.url);
+  setMeta("property", "og:image", a && a.foto ? `${SITE}/fotos/${a.foto}` : `${SITE}/logo.jpg`);
+  setMeta("name", "twitter:card", "summary_large_image");
+  if (a) { setMeta("property", "article:published_time", s.date + `T${a.hora || "08:00"}:00+01:00`); setMeta("property", "article:section", SECTIONS.find(x => x[0] === a.sec)[1]); }
+  let c = document.head.querySelector('link[rel="canonical"]');
+  if (!c) { c = document.createElement("link"); c.rel = "canonical"; document.head.appendChild(c); }
+  c.href = s.url;
+  let ld = document.getElementById("ld-json");
+  if (!ld) { ld = document.createElement("script"); ld.type = "application/ld+json"; ld.id = "ld-json"; document.head.appendChild(ld); }
+  ld.textContent = JSON.stringify(a ? {
+    "@context": "https://schema.org", "@type": a.sec === "opinion" ? "OpinionNewsArticle" : "NewsArticle",
+    headline: a.title, description: s.desc, image: [a.foto ? `${SITE}/fotos/${a.foto}` : `${SITE}/logo.jpg`],
+    abstract: (a.claves || []).join(" "), isBasedOn: a.fuente_url || undefined, wordCount: a.body.join(" ").replace(/<[^>]+>/g, "").split(/\s+/).length,
+    datePublished: s.date + `T${a.hora || "08:00"}:00+01:00`, dateModified: a.actualizada ? `${String(a.actualizada).slice(0, 16)}:00+01:00` : s.date + `T${a.hora || "08:00"}:00+01:00`,
+    articleSection: SECTIONS.find(x => x[0] === a.sec)[1], keywords: s.tags.join(", "),
+    mainEntityOfPage: s.url, contentLocation: { "@type": "Place", name: "Alcalá de Guadaíra, Sevilla" },
+    author: a.autor ? { "@type": "Person", name: a.autor } : { "@type": "Organization", name: "Redacción El Panadero" },
+    publisher: { "@type": "NewsMediaOrganization", name: "El Panadero", url: SITE, logo: { "@type": "ImageObject", url: SITE + "/logo.jpg" } }
+  } : { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: "El Panadero", url: SITE, areaServed: "Alcalá de Guadaíra" }, null, 2);
+}
+
+// ===== componentes del sistema de diseño (versión HTML de los .jsx) =====
+const TOP = ["aira", "maria-campos", "villalba", "taekwondo", "tunel", "papelera", "zambra"];
+const pos = a => TOP.includes(a.id) ? "center 20%" : "center";
+const realPhoto = a => a.foto && !a.foto.startsWith("generica");
+const initials = n => (n || "").split(/\s+/).filter(w => w.length > 2).slice(0, 2).map(w => w[0]).join("").toUpperCase();
+const Photo = (a, { position, ratio, lazy = true } = {}) => `<div class="ep-photo${a.foto ? "" : " empty"}"${ratio ? ` style="aspect-ratio:${ratio}"` : ""}>${a.foto ? `<img src="${a.foto.startsWith("/") ? a.foto : "fotos/" + a.foto}" alt="${a.caption || a.title}"${lazy ? ' loading="lazy"' : ""} style="object-position:${position || pos(a)}${a.encuadre === "contain" ? ";object-fit:contain;background:#f4f3ef" : ""}">` : ""}</div>`;
+const credOf = a => !a.foto || a.foto.startsWith("generica") ? "" : ` · ${/^Gráfico/.test(a.fotocredito || "") ? a.fotocredito : "Foto: " + (a.fotocredito || a.src)}`;
+const OWN_SRC = "El Panadero";
+const extSrc = a => (a.src || "").split(/\s+y\s+|,\s*/).map(s => s.trim()).filter(s => s && s !== OWN_SRC).join(" y ");
+const ownSrc = a => (a.src || "").split(/\s+y\s+|,\s*/).map(s => s.trim()).includes(OWN_SRC);
+// Fecha y hora en la firma de la noticia: «30 oct 2026 · 08:45 h». Si hay campo actualizada (AAAA-MM-DDTHH:MM), «Actualización: 30 oct 2026 · 10:15 h».
+const fmtIso = iso => { const [y, m, d] = iso.split("-").map(Number); return `${d} ${MESES[m - 1]} ${y}`; };
+const whenOf = a => { if (a.actualizada) { const [d, t] = String(a.actualizada).split("T"); return `Actualización: ${fmtIso(d)}${t ? ` · ${t.slice(0, 5)} h` : ""}`; } return `${a.date}${a.hora ? ` · ${a.hora} h` : ""}`; };
+const Kicker = t => t ? `<span class="ep-kicker">${t}</span>` : "";
+// Portada y secciones: solo la firma, sin fecha (la fecha va dentro de la noticia)
+const Byline = a => `<span class="ep-byline"><b>${a.firma || a.autor || "Redacción El Panadero"}</b></span>`;
+const Despiece = rel => rel.length ? `<ul class="ep-despiece">${rel.map(r => `<li><a href="#${r.id}">${r.title}</a></li>`).join("")}</ul>` : "";
+// StoryCard: variant (lead, open2|3|4, opening, second, compact, sat1, row3, row4, band, band-small, list), photo, sub, related, photoLast
+function Card(a, { variant = "row3", photo = false, sub = false, related = [], photoLast = false, ratio, position, lazy } = {}) {
+  const H = variant === "lead" || variant.startsWith("open") ? "h2" : "h3";
+  const pic = photo ? Photo(a, { ratio, position, lazy }) : "";
+  return `<div class="ep-story ep-v-${variant}"><a href="#${a.id}">${photoLast ? "" : pic}${Kicker(a.kicker)}<${H}>${a.title}</${H}></a>${sub ? `<p class="ep-sub">${a.sub}</p>` : ""}${Byline(a)}${Despiece(related)}${photoLast && pic ? `<a href="#${a.id}">${pic}</a>` : ""}</div>`;
+}
+const SectionLabel = (t, style = "") => `<p class="ep-label"${style ? ` style="${style}"` : ""}>${t}</p>`;
+const HeadlineList = items => `<ol class="ep-hlist">${items.map((a, i) => `<li><a href="#${a.id}"><span class="n">${i + 1}</span><span><h3>${a.title}</h3>${a.kicker ? `<time>${a.kicker}</time>` : ""}</span></a></li>`).join("")}</ol>`;
+const Latest = (exclude = [], n = 5, title = "Lo último") => `<div>${SectionLabel(title, "margin-bottom:4px")}${HeadlineList(ORDER.filter(a => a.sec !== "opinion" && !exclude.includes(a.id)).slice(0, n))}</div>`;
+const OpinionBox = (items, { title = "Opinión", showSub = false } = {}) => `<aside class="ep-opbox">${title ? `<p class="ep-label"><a href="#opinion">${title}</a></p>` : ""}${items.map(o => `<a class="ep-op" href="#${o.id}"><span class="ep-av">${initials(o.autor)}</span><span><h3>${o.title}</h3>${showSub && o.sub ? `<p class="ep-sub" style="margin:4px 0;color:var(--muted)">${o.sub}</p>` : ""}<span class="who">${o.autor}${o.ficticia ? " · texto de prueba" : ""}</span></span></a>`).join("")}</aside>`;
+// ===== el tiempo (tiempo.js, AEMET) y farmacias de guardia (guardias.js, Colegio de Farmacéuticos) =====
+const TI = window.TIEMPO, GU = window.GUARDIAS;
+const isoLocal = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+const HOY_REAL = isoLocal(new Date());
+const DIAS_SEM = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+const dObj = iso => { const [y, m, d] = iso.split("-").map(Number); return new Date(y, m - 1, d); };
+const wxKind = c => { c = (c || "").toLowerCase(); if (/tormenta/.test(c)) return "storm"; if (/nieve/.test(c)) return "snow"; if (/lluvia|chubasco|llovizna/.test(c)) return "rain"; if (/niebla|bruma|calima/.test(c)) return "fog"; if (/cubierto|muy nuboso/.test(c)) return "cloud"; if (/despejado/.test(c)) return "sun"; return "partly"; };
+const SUN = (cx, cy, r) => { let rays = ""; for (let k = 0; k < 8; k++) { const a = k * Math.PI / 4, x1 = cx + Math.cos(a) * (r + 4), y1 = cy + Math.sin(a) * (r + 4), x2 = cx + Math.cos(a) * (r + 9), y2 = cy + Math.sin(a) * (r + 9); rays += `<line class="ray" x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}"/>`; } return rays + `<circle class="sun" cx="${cx}" cy="${cy}" r="${r}"/>`; };
+const CLOUD = (dx = 0, dy = 0) => `<path class="cloud" transform="translate(${dx} ${dy})" d="M18 46h28a10 10 0 0 0 1-20 14 14 0 0 0-27-4 11 11 0 0 0-2 24z"/>`;
+const wxIcon = (kind, size = 48) => {
+  const g = { sun: SUN(32, 32, 12),
+    partly: SUN(24, 22, 9) + CLOUD(4, 4),
+    cloud: CLOUD(-6, -6) + CLOUD(2, 2),
+    rain: CLOUD(0, -6) + [16, 28, 40].map(x => `<line class="drop" x1="${x + 4}" y1="46" x2="${x}" y2="56"/>`).join(""),
+    storm: CLOUD(0, -6) + `<polygon class="bolt" points="34,38 24,52 31,52 27,62 40,46 33,46 37,38"/>` + `<line class="drop" x1="20" y1="44" x2="16" y2="54"/><line class="drop" x1="48" y1="44" x2="44" y2="54"/>`,
+    snow: CLOUD(0, -6) + [18, 32, 46].map(x => `<circle class="sun" cx="${x}" cy="52" r="2.6"/>`).join(""),
+    fog: CLOUD(0, -10) + [42, 50, 58].map((y, i) => `<line class="fog" x1="${10 + i * 4}" y1="${y}" x2="${54 - i * 4}" y2="${y}"/>`).join("") }[kind];
+  return `<svg class="wx-ico" width="${size}" height="${size}" viewBox="0 0 64 64" aria-hidden="true">${g}</svg>`;
+};
+const THERMO = `<svg width="16" height="26" viewBox="0 0 16 26" aria-hidden="true"><rect class="th-line" x="5" y="1.5" width="6" height="16" rx="3"/><circle class="th-fill" cx="8" cy="20" r="5"/><rect class="th-fill" x="6.5" y="8" width="3" height="12"/></svg>`;
+const ARROW = up => `<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path class="th-fill" d="${up ? "M7 1 13 9H9v4H5V9H1z" : "M7 13 13 5H9V1H5v4H1z"}"/></svg>`;
+function Weather() {
+  if (!TI || !TI.dias) return "";
+  const i = TI.dias.findIndex(d => d.fecha >= HOY_REAL);
+  if (i < 0) return "";
+  const t = TI.dias[i], prev = TI.dias[i - 1], next = TI.dias.slice(i + 1, i + 5);
+  let trend = "";
+  if (prev) { const df = t.max - prev.max; trend = df >= 2 ? `<div class="wx-trend up">${THERMO}${ARROW(true)}Suben las temperaturas: ${df} grados más que ayer</div>` : df <= -2 ? `<div class="wx-trend down">${THERMO}${ARROW(false)}Bajan las temperaturas: ${-df} grados menos que ayer</div>` : `<div class="wx-trend eq">${THERMO}Temperaturas parecidas a las de ayer</div>`; }
+  const dia = dObj(t.fecha);
+  return `<section class="wx" aria-label="El tiempo en Alcalá"><p class="ep-label">El tiempo en Alcalá</p>
+    <div class="wx-today">${wxIcon(wxKind(t.cielo), 76)}<div><div class="wx-temps"><span class="mx">${t.max}°</span><span class="mn">${t.min}°</span></div>
+    <div class="wx-desc"><b>${t.fecha === HOY_REAL ? "Hoy" : DIAS_SEM[dia.getDay()][0].toUpperCase() + DIAS_SEM[dia.getDay()].slice(1)}:</b> ${t.cielo.toLowerCase()}${t.lluvia ? `. Probabilidad de lluvia: ${t.lluvia} %` : ""}</div></div>${trend}</div>
+    <div class="wx-days">${next.map(d => `<div><span class="d">${DIAS_SEM[dObj(d.fecha).getDay()].slice(0, 3)}</span>${wxIcon(wxKind(d.cielo), 36)}<span class="t">${d.max}° <span>${d.min}°</span></span><span class="p">${d.lluvia ? d.lluvia + " %" : ""}</span></div>`).join("")}</div>
+    <p class="src">Previsión de <a href="${TI.fuente_url}" target="_blank" rel="noopener">AEMET</a> para Alcalá de Guadaíra</p></section>`;
+}
+const CROSS = `<svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path fill="var(--wx-cross)" d="M10 1h10v9h9v10h-9v9H10v-9H1V10h9z"/></svg>`;
+const telLink = t => `<a class="fm-tel" href="tel:${t.replace(/\s/g, "")}">${t}</a>`;
+function Pharmacies() {
+  if (!GU || !GU.dias || !GU.dias[HOY_REAL]) return "";
+  const g = GU.dias[HOY_REAL], d = dObj(HOY_REAL);
+  const night = g.noche.map(f => `<span class="n">${f.dir}</span><span class="x">${f.titular} · ${telLink(f.tel)}</span>`).join("");
+  return `<section class="fm" aria-label="Farmacias de guardia"><p class="ep-label">Farmacias de guardia</p>
+    <span class="fm-day">Hoy, ${DIAS_SEM[d.getDay()]} ${d.getDate()}</span>
+    ${g.noche.length ? `<div class="fm-night">${CROSS}<span class="when">Noche · de ${GU.horario.noche}</span>${night}</div>` : ""}
+    ${g.dia.length ? `<p class="fm-h">De día · de ${GU.horario.dia}</p><ul class="fm-list">${g.dia.map(f => `<li><span class="n">${f.dir}</span><span class="x">${telLink(f.tel)}</span></li>`).join("")}</ul>` : ""}
+    <p class="src">Fuente: <a href="${GU.fuente_url}" target="_blank" rel="noopener">${GU.fuente}</a></p></section>`;
+}
+const Utilities = () => { const w = Weather(), f = Pharmacies(); return w || f ? `<div class="ag-util">${w}${f}</div>` : ""; };
+const AgItem = it => `<li><span class="when">${it.cuando}</span>${it.noticia && byId[it.noticia] ? `<a class="que" href="#${it.noticia}">${it.que}</a>` : `<span class="que">${it.que}</span>`}<span class="where">${it.donde}</span></li>`;
+const Agenda = () => { if (!AGENDA.length && !Utilities()) return ""; const first = AGENDA.slice(0, 9), rest = AGENDA.slice(9); return `<section class="v3-agenda"><div class="ag-main"><p class="ep-label">Agenda de Alcalá</p><ul class="ag3">${first.map(AgItem).join("")}</ul>${rest.length ? `<details class="ag-more"><summary><span class="mas">Ver toda la agenda (${AGENDA.length} citas)</span><span class="menos">Ver menos</span></summary><ul class="ag3">${rest.map(AgItem).join("")}</ul></details>` : ""}${Utilities()}</div><aside class="ag-side">${AD.halfpage()}${AD.tv("only-desk")}</aside></section>`; };
+const BlockHead = (id, title) => `<div class="ep-blockhead"><h2><a href="#${id}">${title}</a></h2><a class="ep-more" href="#${id}">Más de ${title} →</a></div>`;
+// Destacado de portada (sustituye a la banda «Pan de Alcalá»): una noticia de Alcalá con tinte social, cultural o patrimonial
+const Band = (a) => a ? `<section class="ep-band"><div class="ep-inner"><div class="ep-band-head"><h2><a href="#${a.id}">Destacado</a></h2><p>Una historia de Alcalá: su gente, su cultura y su patrimonio.</p></div><div class="sec-lead">${Card(a, { variant: "lead", photo: true, sub: true })}</div></div></section>` : "";
+const SectionHead = (title, count) => `<div class="ep-sec-head"><h1>${title}</h1>${count ? `<span class="ep-sec-count">${count}</span>` : ""}</div>`;
+// elaboracion: "ia" (por defecto: texto de IA sin revisión humana, lleva etiqueta), "ia_revisada" (IA con revisión y responsabilidad editorial humana) o "redaccion" (escrito por periodistas)
+const IA_LABEL = { ia: "Elaborado con IA", ia_revisada: "Elaborado con ayuda de IA" };
+const iaLink = a => { const t = IA_LABEL[a.elaboracion || "ia"]; return t ? `<a class="ep-ia" href="#como-trabajamos">${t}</a>` : ""; };
+
+// ===== publicidad (datos en publi/anuncios.js) =====
+const V = window.VMDATA, T = V.tarifas, PR = V.promos;
+const VM = V.fuente;
+const LOGO = "publi/logo-vivamovil.svg";
+const ad = (cls, inner, extra = "", attrs = "") => `<div class="ep-ad-slot ${extra}"><span class="ep-ad-label">Publicidad</span><a class="vm vmx ${cls}" href="${VM}" target="_blank" rel="sponsored noopener" aria-label="Anuncio de Vivamóvil"${attrs ? " " + attrs : ""}>${inner}</a></div>`;
+// precio con contador: cuenta desde 0 hasta la cifra de anuncios.js cuando entra en escena
+// el contador baja desde 50 hasta el precio; con precios de 50 € o más, el precio entra sin contador
+const PRICE_FROM = 50;
+const Price = (val, unit, cls = "") => { const n = parseFloat(String(val).replace(",", ".")); return `<span class="price ${cls}">${n < PRICE_FROM ? `<span class="cnt" data-from="${PRICE_FROM}" data-to="${val}">${val}</span>` : val}<small>${unit}</small></span>`; };
+// tarjetas a pantalla completa: logotipo al empezar cada pase y teléfono después del precio
+const PHONE_ICO = `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>`;
+const LogoCard = (tin = 0, tout = 1400) => `<span class="card c-logo" data-in="${tin}" data-out="${tout}" aria-hidden="true"><img src="${LOGO}" alt=""></span>`;
+const TelCard = (tin, tout = tin + 2000) => `<span class="card c-tel" data-in="${tin}" data-out="${tout}" aria-hidden="true">${PHONE_ICO}<span class="tx"><span class="lbl">Llama gratis</span><span class="num">${V.telefono}</span></span></span>`;
+const [EX1, EX2 = ""] = String(T.basica.extras).split(" · ");
+const AD = {
+  // 970×90 · tres mensajes que se relevan, precio con contador y botón con brillo; queda el anuncio completo
+  leaderboard: () => ad("vm-lb", `${LogoCard()}${TelCard(8400)}<span class="logo-box"><img src="${LOGO}" alt="Vivamóvil"></span>
+    <span class="msg"><span class="ln big kx l k1 ko3 tmp"><b>Fibra óptica de ${T.basica.fibra}</b><span>en Alcalá de Guadaíra</span></span>
+    <span class="ln big kx k3 ko5 tmp"><b>${EX1}</b>${EX2 ? `<span>${EX2}</span>` : ""}</span>
+    <span class="ln kx k5"><b>Fibra óptica de ${T.basica.fibra} en Alcalá</b><span>${T.basica.nombre} · ${T.basica.extras}</span></span></span>
+    ${Price(T.basica.precio, "€/mes", "kx pop k2")}<span class="cta kx r k4">Consulta cobertura</span>`, "only-desk", `data-steps="1500,2400,4600,5000,7200" data-dur="11800" data-loops="2"`),
+  // 320×100 · móvil
+  mobileTop: () => ad("vm-mb", `${LogoCard()}${TelCard(7400)}<span class="left"><img src="${LOGO}" alt="Vivamóvil"><span class="lns">
+    <b class="kx l k1 ko3 tmp">Fibra óptica de ${T.basica.fibra}</b><b class="kx k3 ko5 tmp">${EX2 || EX1}</b><b class="kx k5">Fibra ${T.basica.fibra} con alta gratis</b></span></span>
+    <span class="right">${Price(T.basica.precio, "€", "kx pop k2")}<span class="kx k4">al mes</span></span>`, "only-mob", `data-steps="1500,2200,4200,4500,6300" data-dur="10800" data-loops="2"`),
+  // 300×250 · Family: cortinilla, la lista entra punto a punto, precio con contador
+  family: (extra = "") => ad("vm-mr", `${LogoCard()}${TelCard(5100)}<span class="wipe"></span><span class="logo-box"><img src="${LOGO}" alt="Vivamóvil"></span>
+    <span class="body"><span class="eyebrow kx l k1">${T.family.nombre}</span><h4 class="kx k2">Todo en casa con una sola factura</h4>
+    <ul><li class="kx l k3">Fibra + ${T.family.tv}</li><li class="kx l k4">${T.family.lineas}</li><li class="kx l k5">${T.family.datos}</li></ul>
+    <span class="row">${Price(T.family.precio, "€/mes", "kx pop k6")}<span class="cta kx r k6">Lo quiero</span></span></span>`, extra, `data-steps="1750,2200,2700,2950,3200,3900" data-dur="8800" data-loops="2"`),
+  // 300×250 · TV local: foto de los presentadores al fondo con movimiento lento y canales que se encienden uno a uno
+  tv: (extra = "") => ad("vm-mr vm-tv", `${LogoCard()}${TelCard(5200)}<span class="wipe"></span><span class="logo-box"><img src="${LOGO}" alt="Vivamóvil"></span>
+    <span class="body"><span class="bgpic kb"><img src="publi/fotos-vm/presentadores.jpg" alt="" loading="lazy"></span>
+    <span class="eyebrow kx l k1">Televisión local</span><h4 class="kx k2">Mira MiGuadaíraTV solo con Vivamóvil</h4>
+    <span class="chan">${PR.canales_locales.map((c, i) => `<span class="kx pop k${3 + Math.min(i, 2)}${/Guada/.test(c) ? " me" : ""}">${c}</span>`).join("")}</span>
+    <span class="row"><span class="fine kx k6">Plenos, cofradías, deporte y toda la actualidad de Alcalá</span><span class="cta kx r k6">Contratar TV</span></span></span>`, extra, `data-steps="1750,2200,2800,3050,3300,4000" data-dur="8900" data-loops="2"`),
+  // 300×250 · Plan Amigo: el número de meses cuenta hacia arriba
+  friend: (extra = "") => ad("vm-mr vm-friend", `${LogoCard()}${TelCard(5100)}<span class="wipe"></span><span class="logo-box"><img src="${LOGO}" alt="Vivamóvil"></span>
+    <span class="body"><span class="eyebrow kx l k1">Plan Amigo</span><span class="big kx pop k2"><span class="cnt" data-to="${PR.amigo.total_meses}">${PR.amigo.total_meses}</span> meses</span><h4 class="kx k3">gratis por traer a un amigo</h4>
+    <ul><li class="kx l k4">${PR.amigo.meses_cliente} meses para ti y ${PR.amigo.meses_amigo} para él</li></ul>
+    <span class="row"><span class="fine kx k5">Consulta condiciones</span><span class="cta kx r k5">Infórmate</span></span></span>`, extra, `data-steps="1750,2200,2800,3300,3900" data-dur="8600" data-loops="2"`),
+  // 300×600 · Tándem: primero foto a pantalla (cambia de una pareja de fotos a otra) y luego la ficha completa
+  halfpage: () => ad("vm-hp", `${LogoCard()}${TelCard(10700)}<span class="logo-box"><img src="${LOGO}" alt="Vivamóvil"></span><span class="slides">
+    <span class="sl s-photo" data-steps="1550,2100,3200,3900" data-dur="6900">
+      <span class="pic kb"><img src="publi/fotos-vm/chico.jpg" alt="Cliente de Vivamóvil con su móvil" loading="lazy"><img class="kx fade k3" src="publi/fotos-vm/promo-amigo.jpg" alt="Dos clientes de Vivamóvil" loading="lazy"></span>
+      <span class="cap"><span class="eyebrow kx l k1">${T.tandem.nombre}</span><h4 class="kx k2">Fibra y dos móviles para la pareja</h4>${Price(T.tandem.precio, "€/mes", "kx pop k4")}</span></span>
+    <span class="sl body act" data-steps="200,500,900,1100,1300,1500,2100,2600" data-dur="7400">
+      <span class="eyebrow kx l k1">${T.tandem.nombre}</span><h4 class="kx k2">Fibra y dos móviles para la pareja</h4>
+      <ul><li class="kx l k3">${T.tandem.lineas}</li><li class="kx l k4">${T.tandem.datos}</li><li class="kx l k5">${T.tandem.tv}</li><li class="kx l k6">Alta y cuota de línea gratis</li></ul>
+      ${Price(T.tandem.precio, "€/mes", "kx pop k7")}<span class="cta kx k7">Llama gratis al ${V.telefono}</span>
+      <span class="office kx k8">Oficina de Alcalá: ${V.oficina_alcala}</span>
+      <span class="fine kx k8">${V.condiciones}</span></span></span>`, "only-desk", `data-loops="2" data-end="1"`),
+  mega: () => `<div class="ep-ad-mega">${AD.leaderboard()}${AD.mobileTop()}</div>`,
+  // 320×50 · barra anclada en móvil
+  sticky: () => `<a class="vm vmx vm-an" href="${VM}" target="_blank" rel="sponsored noopener" aria-label="Anuncio de Vivamóvil" data-steps="1500,4000,6400" data-dur="10600" data-loops="2">${LogoCard()}${TelCard(7300)}<span class="logo-box"><img src="${LOGO}" alt="Vivamóvil"></span>
+    <span class="msg"><span class="ln big kx l k1 ko2 tmp"><b>Fibra desde ${T.basica.precio} €/mes</b></span><span class="ln big kx k2 ko3 tmp"><b>Llama gratis</b><span>${V.telefono}</span></span>
+    <span class="ln kx k3"><b>Fibra desde ${T.basica.precio} €/mes</b><span>Llama gratis: ${V.telefono}</span></span></span><span class="cta">Ver</span></a>`
+};
+function mountStaticAds() {
+  const st = document.getElementById("ad-sticky");
+  let closed = false; try { closed = sessionStorage.getItem("vm-sticky") === "0"; } catch (e) {}
+  if (!closed) {
+    st.innerHTML = `<button class="close" type="button" aria-label="Cerrar anuncio">×</button><span class="ep-ad-label">Publicidad</span>${AD.sticky()}`;
+    st.classList.add("on");
+    if (window.VMAnim) VMAnim.scan(st);
+    st.querySelector(".close").addEventListener("click", () => { st.classList.remove("on"); st.innerHTML = ""; try { sessionStorage.setItem("vm-sticky", "0"); } catch (e) {} });
+  }
+}
+
+const Mega = () => `<div class="full-bleed">${AD.mega()}</div>`;
+
+// ===== portada de papel (FrontPageV3). Apertura a 2, 3 o 4 columnas =====
+// Prioridad: #portada-N o ?lead=N en la URL → meta.apertura en noticias.js → 2 columnas.
+function leadSpan(forced) {
+  const ok = n => [2, 3, 4].includes(Number(n));
+  const q = new URLSearchParams(location.search).get("lead");
+  if (ok(forced)) return Number(forced);
+  if (ok(q)) return Number(q);
+  if (ok(EP.meta.apertura)) return Number(EP.meta.apertura);
+  return 2;
+}
+function front(forced) {
+  const span = leadSpan(forced);
+  const used = new Set();
+  const take = (pred, n) => { const out = ORDER.filter(a => !used.has(a.id) && pred(a)).slice(0, n); out.forEach(a => used.add(a.id)); return out; };
+  const news = a => a.sec !== "opinion";
+  // Destacado: la pieza marcada con «destacado: true» (se reserva antes de montar la parte alta); si no hay, la más reciente de Alcalá, Cultura o Hermandades con foto propia que no esté ya en portada
+  const destM = ORDER.find(a => a.destacado && news(a));
+  if (destM) used.add(destM.id);
+  const [lead] = take(news, 1);
+  // Relacionadas: campo opcional «rel» (lista de ids; [] = ninguna). Sin campo, las dos más recientes de la misma sección.
+  const leadRel = Array.isArray(lead.rel) ? lead.rel.map(id => A.find(x => x.id === id)).filter(x => x && !used.has(x.id)).slice(0, 2) : take(a => news(a) && a.sec === lead.sec, 2);
+  leadRel.forEach(x => used.add(x.id));
+  const satL1 = span === 2 ? take(a => news(a) && realPhoto(a), 1) : [];
+  const satL = span < 4 ? satL1.concat(take(news, span === 2 ? 2 : 4)) : [];
+  const satPic = span < 4 ? take(a => news(a) && realPhoto(a), 1) : [];
+  const satR = span < 4 ? take(news, span === 2 ? 2 : 3).concat(satPic) : [];
+  const row = take(news, 4);
+  // Bloques de sección y «Lo último»: siempre las noticias más recientes de cada sección o del día.
+  // Solo se excluyen la apertura y sus relacionadas; pueden repetir piezas de la parte alta de la portada.
+  const heroIds = [lead.id, ...leadRel.map(a => a.id)];
+  const [dest] = destM ? [destM] : take(a => ["alcala", "cultura", "hermandades"].includes(a.sec) && realPhoto(a), 1);
+  const bandUsed = new Set(dest ? [...heroIds, dest.id] : heroIds);
+  const bands = [["economia", "Economía y empleo"], ["alcala", "Alcalá"], ["sucesos", "Sucesos"]].map(([id, n]) => { const l = ORDER.filter(a => a.sec === id && !bandUsed.has(a.id)).slice(0, 4); l.forEach(a => bandUsed.add(a.id)); return [id, n, l]; }).filter(b => b[2].length);
+  const ops = ORDER.filter(a => a.sec === "opinion");
+  const pic = `<a class="v3-pic" href="#${lead.id}">${Photo(lead, { position: "center 25%", ratio: span === 4 ? "21/9" : span === 3 ? "16/9" : "16/10", lazy: false })}</a>`;
+  const card = Card(lead, { variant: "open" + span, sub: true, related: leadRel });
+  return `<main class="front v3">
+    <section class="v3-top s${span}">
+      ${span < 4 ? `<div class="v3-sat l">${satL.map((a, i) => Card(a, { variant: i === 0 ? "sat1" : "compact", sub: i === 0, photo: satL1.includes(a) })).join("")}</div>` : ""}
+      <div class="v3-lead">${span === 4 ? card + pic : pic + card}</div>
+      <div class="ep-ad-mega v3-ad">${AD.mobileTop()}</div>
+      ${span < 4 ? `<div class="v3-sat r">${satR.map(a => Card(a, { variant: "compact", photo: satPic.includes(a), sub: span === 2 && !satPic.includes(a) })).join("")}</div>` : ""}
+    </section>
+    <section class="v3-row">${row.map(a => Card(a, { variant: "compact", sub: true })).join("")}</section>
+    ${Mega()}
+    ${Band(dest)}
+    ${bands.map(([id, n, list]) => `<section class="v3-band">${BlockHead(id, n)}<div class="v3-band-grid">${Card(list[0], { variant: "second", photo: true, sub: true })}${list.slice(1).map(a => Card(a, { variant: "compact", sub: true })).join("")}</div></section>`).join("")}
+    ${Agenda()}
+    <section class="v3-foot two">
+      ${OpinionBox(ops, { showSub: true })}
+      <div class="v3-last">${Latest(heroIds, 5)}${AD.friend()}</div>
+    </section>
+  </main>`;
+}
+
+// ===== sección (SectionPageV2) =====
+function section(sec) {
+  const name = secName(sec);
+  const list = ORDER.filter(a => a.sec === sec);
+  if (sec === "opinion") return `<main class="front v2">${SectionHead(name, list.length + (list.length === 1 ? " columna" : " columnas"))}<div style="max-width:var(--article-w)">${OpinionBox(list, { title: "", showSub: true })}</div></main>`;
+  const [first, ...more] = list;
+  return `<main class="front v2">
+    ${SectionHead(name, list.length + (list.length === 1 ? " noticia" : " noticias") + " · últimos 30 días")}
+    <div class="lower">
+      <div class="blocks">
+        ${first ? `<section class="sec-lead">${Card(first, { variant: "lead", photo: true, sub: true })}</section>` : ""}
+        ${more.length ? `<div class="sec-grid">${more.map(a => Card(a, { variant: "list", photo: true, sub: true })).join("")}</div>` : ""}
+      </div>
+      <aside class="rail">${Latest(list.map(a => a.id), 5, "Lo último en El Panadero")}${AD.tv()}</aside>
+    </div>
+  </main>`;
+}
+
+// ===== noticia (ArticlePageV2) =====
+function article(a) {
+  const rot = [AD.family, AD.tv, AD.friend][A.indexOf(a) % 3];
+  const li = a.body.findIndex(p => p.startsWith("## "));
+  const adAt = li > 1 ? li : 2;
+  const out = [];
+  a.body.forEach((p, i) => {
+    if (i === adAt) out.push(rot());
+    if (p.startsWith("## ")) out.push(`<h3 class="ep-ladillo">${p.slice(3)}</h3>`);
+    else if (p.startsWith("<span class='howto'>")) out.push(`<p class="ep-howto">${p.replace(/^<span class='howto'>|<\/span>$/g, "")}</p>`);
+    else out.push(`<p>${p}</p>`);
+  });
+  if (adAt >= a.body.length) out.push(rot());
+  const body = `<div class="ep-body dropcap">${out.join("")}</div>`;
+  const rail = `<aside class="rail art-rail">${Latest([a.id], 5)}${AD.family("only-desk")}</aside>`;
+  const s = seoOf(a.id);
+  const len = (t, max) => `<span class="cnt${t.length > max ? " over" : ""}">${t.length}/${max}</span>`;
+  const seo = `<div class="ep-tags" aria-label="Etiquetas">${s.tags.map(t => `<span class="ep-tag">${t}</span>`).join("")}</div>
+    <details class="ep-seo"><summary>Ficha SEO de esta noticia</summary><dl>
+      <dt>Título SEO ${len(s.title, 60)}</dt><dd>${s.title}</dd><dt>Meta descripción ${len(s.desc, 155)}</dt><dd>${s.desc}</dd>
+      <dt>URL</dt><dd class="mono">${s.url}</dd><dt>Palabras clave</dt><dd>${s.tags.join(", ")}</dd>
+      <dt>Marcado</dt><dd>${a.sec === "opinion" ? "OpinionNewsArticle" : "NewsArticle"} (schema.org), Open Graph y Twitter Card, URL canónica</dd></dl>
+      <div class="ep-serp" aria-label="Vista previa en Google"><span class="ep-serp-site">El Panadero · ${s.url.replace("https://", "").replace(/\//g, " › ")}</span><span class="ep-serp-title">${s.title} | El Panadero</span><span class="ep-serp-desc">${a.date} — ${s.desc}</span></div></details>`;
+  const ia = iaLink(a);
+  if (a.sec === "opinion") return `<div class="art-layout"><article class="ep-article opinion">
+    <a class="ep-back" href="#opinion">← Opinión</a>
+    ${a.ficticia ? `<span class="ep-fict">Texto de prueba · firma ficticia</span>` : ""}
+    ${Kicker(a.kicker)}<h1>${a.title}</h1><p class="ep-sub">${a.sub}</p>
+    <div class="ep-meta"><span class="ep-firma"><span class="ep-av lg">${initials(a.autor)}</span><span><b>${a.autor}</b><span class="cargo">${a.autor_cargo || ""}</span></span></span><span style="margin-left:auto;align-self:center">${whenOf(a)}${ia}</span></div>
+    ${body}${seo}
+  </article>${rail}</div><div style="margin-bottom:32px">${Mega()}</div>`;
+  const rel = ORDER.filter(x => x.id !== a.id && x.sec === a.sec).concat(ORDER.filter(x => x.id !== a.id && x.sec !== a.sec && x.sec !== "opinion")).slice(0, 3);
+  return `<div class="art-layout"><article class="ep-article">
+    <a class="ep-back" href="#${a.sec}">← ${secName(a.sec)}</a>
+    ${Kicker(a.kicker)}<h1>${a.title}</h1><p class="ep-sub">${a.sub}</p>
+    <div class="ep-meta"><span><b>${a.firma || "Redacción El Panadero"}</b></span><span>Alcalá de Guadaíra</span><span>${whenOf(a)}${ia}</span>${extSrc(a) ? `<span>Fuente: <b style="font-weight:600">${extSrc(a)}</b></span>` : ""}</div>
+    <figure class="ep-figure">${Photo(a, { lazy: false })}<figcaption>${a.caption || ""}${credOf(a)}</figcaption></figure>
+    ${(a.claves && a.claves.length) ? `<aside class="ep-claves" aria-label="Claves"><p class="ep-label">Claves</p><ul>${a.claves.map(c => `<li>${c}</li>`).join("")}</ul></aside>` : ""}
+    ${body}
+    <p class="ep-byline ep-errline">${a.fuente_url && !ownSrc(a) && extSrc(a) ? `Fuente original: <a href="${a.fuente_url}" target="_blank" rel="noopener">${extSrc(a)}</a> · ` : ""}¿Ha visto un error? <a href="mailto:redaccion@elpanadero.es">redaccion@elpanadero.es</a></p>
+    ${seo}
+    <div class="ep-related"><p class="ep-label" style="margin:0">Más en El Panadero</p><ul>${rel.map(r => `<li><a href="#${r.id}">${Kicker(r.kicker)}<h3>${r.title}</h3></a></li>`).join("")}</ul></div>
+  </article>${rail}</div><div style="margin-bottom:32px">${Mega()}</div>`;
+}
+function howWeWork() {
+  return `<article class="ep-article"><a class="ep-back" href="#portada">← Portada</a><h1>Cómo trabajamos</h1><div class="ep-body dropcap">
+    <p>En El Panadero conviven dos formas de trabajo. Los periodistas de Viva Media Producciones y MiGuadaíraTV escriben y firman sus propias piezas. Además, una parte de la información se elabora con ayuda de un sistema de inteligencia artificial a partir de fuentes públicas: notas oficiales y boletines, que se citan y enlazan en cada pieza. Cuando un hecho lo ha adelantado otro medio, primero se busca la nota o el documento oficial. Si no existe, solo se publica cuando al menos dos medios distintos lo han contado, y se redacta con información propia, sin copiar sus textos ni usar sus fotos. Lo que publica un solo medio y no se puede contrastar no se publica. Los reportajes de MiGuadaíraTV los hacen periodistas de Viva Media Producciones y son información propia del periódico.</p>
+    <p>Todos los textos siguen las mismas normas: no se inventan datos, nombres ni declaraciones; las valoraciones se atribuyen a quien las hace, y lo que no se ha podido comprobar se deja fuera o se indica.</p>
+    <p>Cada pieza dice en su firma cómo se ha hecho. «Elaborado con IA» significa que el texto lo ha generado un sistema de inteligencia artificial y se ha publicado sin revisión humana previa. «Elaborado con ayuda de IA» indica que un periodista lo ha revisado y comprobado antes de publicarlo. Las piezas sin indicación están escritas por la redacción. Así lo exige el artículo 50 del Reglamento europeo de Inteligencia Artificial.</p>
+    <p>Si detecta un error, escríbanos a redaccion@elpanadero.es y lo corregiremos.</p></div></article>`;
+}
+
+// laterales 450×1000: cada uno alterna sus dos ofertas (con su foto) durante 30 s y se para en la que toca en esta página
+const skySlide = (cls, photo, alt, inner, href = VM) => `<span class="sl ${cls}" data-href="${href}"><span class="wipe"></span><span class="pic kb"><img src="publi/fotos-vm/${photo}.jpg" alt="${alt}"></span><span class="txt">${inner}</span></span>`;
+const skyAd = (slides, end) => `<span class="ep-ad-label">Publicidad</span><div class="sky-wrap"><a class="vm vmx vm-sky" href="${VM}" target="_blank" rel="sponsored noopener" aria-label="Anuncio de Vivamóvil" data-steps="300,800,1300,1900,2600" data-dur="7200" data-loops="2" data-end="${end}">${LogoCard()}${TelCard(12200)}<span class="logo-box"><img src="${LOGO}" alt="Vivamóvil"></span><span class="slides">${slides.map((sl, i) => (i === 0 ? sl.replace('<span class="sl ', '<span data-steps="1600,2100,2600,3200,3900" data-dur="8400" class="sl ') : sl)).map((sl, i) => i === end ? sl.replace('class="sl ', 'class="sl act ') : sl).join("")}</span></a></div>`;
+const RAILS = {
+  left: [
+    () => skySlide("", "chico", "Cliente de Vivamóvil con su móvil", `<span class="eyebrow kx l k1">${T.tandem.nombre}</span><h4 class="kx k2">Fibra y dos móviles ilimitados</h4><p class="kx k3">${T.tandem.datos} y ${T.tandem.tv}</p>${Price(T.tandem.precio, "€/mes", "kx pop k4")}<span class="cta kx k5">Lo quiero</span>`, T.tandem.url),
+    () => skySlide("lime", "promo-amigo", "Dos clientes de Vivamóvil", `<span class="eyebrow kx l k1">Plan Amigo</span><h4 class="kx k2"><span class="cnt" data-to="${PR.amigo.total_meses}">${PR.amigo.total_meses}</span> meses gratis entre los dos</h4><p class="kx k3">Trae a un amigo: ${PR.amigo.meses_cliente} meses para ti y ${PR.amigo.meses_amigo} para él</p><span class="cta kx k5" style="margin-top:auto">Infórmate</span>`)
+  ],
+  right: [
+    () => skySlide("", "presentadores", "Presentadores de las teles locales de Vivamóvil", `<span class="eyebrow kx l k1">MiGuadaíraTV</span><h4 class="kx k2">La tele de Alcalá, solo en Vivamóvil</h4><p class="kx k3">Con ${T.family.nombre}: fibra, ${T.family.tv} y móviles ilimitados</p>${Price(T.family.precio, "€/mes", "kx pop k4")}<span class="cta kx k5">Ver tarifa</span>`, PR.miguadairatv_url),
+    () => skySlide("white", "xiaomi", "Productos Xiaomi", `<span class="eyebrow kx l k1">Regala Xiaomi</span><h4 class="kx k2">Un ${PR.xiaomi.descuento} de descuento para clientes</h4><p class="kx k3">Móviles, robots aspiradores, patinetes y más</p><span class="cta kx k5" style="margin-top:auto">Ver catálogo</span>`, PR.xiaomi.url)
+  ]
+};
+let railTurn = 0;
+function mountRails() {
+  const i = railTurn++ % 2;
+  document.getElementById("sky-l").innerHTML = skyAd(RAILS.left.map(f => f()), i);
+  document.getElementById("sky-r").innerHTML = skyAd(RAILS.right.map(f => f()), i);
+  fitRails();
+}
+const SKY_W = 450, SKY_H = 1000, GAP = 24;
+function fitRails() {
+  const vw = window.innerWidth, vh = window.innerHeight;
+  const COL = matchMedia("(min-width:1720px)").matches ? 1300 : 1180;
+  const side = (vw - COL) / 2 - GAP * 2;
+  const nav = document.querySelector(".ep-nav").getBoundingClientRect();
+  const top = Math.max(nav.bottom, 0) + 14;
+  const w = Math.min(SKY_W, side, (vh - top - 34) * SKY_W / SKY_H);
+  ["sky-l", "sky-r"].forEach(id => {
+    const el = document.getElementById(id);
+    if (w < 160) { el.classList.remove("on"); return; }
+    el.classList.add("on");
+    const s = w / SKY_W, wrap = el.querySelector(".sky-wrap"), ad = el.querySelector(".vm-sky");
+    wrap.style.width = w + "px"; wrap.style.height = SKY_H * s + "px";
+    ad.style.transform = `scale(${s})`;
+    el.style[id === "sky-l" ? "left" : "right"] = `calc(50% - ${COL / 2 + GAP}px - ${w}px)`;
+    el.style.top = top + "px";
+  });
+}
+window.addEventListener("resize", fitRails);
+window.addEventListener("scroll", fitRails, { passive: true });
+
+// ===== tema claro / oscuro =====
+const themeBtn = document.getElementById("theme");
+const isDark = () => { const t = document.documentElement.dataset.theme; return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+const paintTheme = () => { if (themeBtn) themeBtn.textContent = isDark() ? "Tema claro" : "Tema oscuro"; };
+try { const t = localStorage.getItem("ep-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+if (themeBtn) themeBtn.addEventListener("click", () => { const t = isDark() ? "light" : "dark"; document.documentElement.dataset.theme = t; try { localStorage.setItem("ep-theme", t); } catch (e) {} paintTheme(); });
+paintTheme();
+
+function render() {
+  /* La Mesa solo funciona dentro de Claude */
+  const h = (location.hash || "#portada").slice(1);
+  const app = document.getElementById("app");
+  let current = "portada";
+  if (h === "como-trabajamos") { app.innerHTML = howWeWork(); applySeo(null); document.title = "Cómo trabajamos | El Panadero"; }
+  else if (byId[h]) { app.innerHTML = article(byId[h]); current = byId[h].sec; applySeo(byId[h]); }
+  else if (SECTIONS.some(s => s[0] === h) && h !== "portada") { app.innerHTML = section(h); current = h; applySeo(null); document.title = secName(h) + " en Alcalá de Guadaíra | El Panadero"; }
+  else { const m = h.match(/^portada-([234])$/); app.innerHTML = front(m && m[1]); applySeo(null); }
+  document.getElementById("nav").innerHTML = SECTIONS.map(([id, n]) => `<a href="#${id}"${id === current ? ' aria-current="page"' : ""}>${n}</a>`).join("");
+  mountRails();
+  window.scrollTo(0, 0);
+  if (window.VMAnim) VMAnim.scan(document);
+}
+window.addEventListener("hashchange", render);
+const fecha = (() => { const [y, m, d] = HOY.split("-").map(Number); return new Date(y, m - 1, d).toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" }); })();
+if (document.getElementById("today")) document.getElementById("today").textContent = fecha;
+document.getElementById("today2").textContent = fecha;
+document.getElementById("foot-secs").innerHTML = SECTIONS.map(([id, n]) => `<a href="#${id}">${n}</a>`).join("");
+mountStaticAds();
+render();
+</script>
+</body>
+</html>
+
+</body></html>
