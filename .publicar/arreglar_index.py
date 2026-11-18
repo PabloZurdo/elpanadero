@@ -4,12 +4,17 @@
    el título, las etiquetas og: (vista previa de WhatsApp) y los iconos queden en
    el <head> real, que es donde los leen WhatsApp, Google y Safari.
 2. Desactiva el cargador de La Mesa, que solo funciona dentro de Claude.
+3. Añade a los scripts de datos (noticias.js, tiempo.js, guardias.js, publi/*.js)
+   una marca de versión con la fecha de la copia (?v=AAAAMMDDHHMM), para que el
+   navegador baje los datos nuevos en cada actualización y no use su copia guardada.
 
 Uso: python3 .publicar/arreglar_index.py index.html
 Sale con error (código 1) si no encuentra lo esperado, para no publicar algo roto.
 """
 import re
 import sys
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 ruta = sys.argv[1]
 s = open(ruta, encoding="utf-8").read()
@@ -37,5 +42,11 @@ if mesa in s:
 elif "La Mesa solo funciona dentro de Claude" not in s:
     sys.exit("No encuentro el cargador de La Mesa en index.html")
 
+# 3. Marca de versión en los scripts de datos
+marca = datetime.now(ZoneInfo("Europe/Madrid")).strftime("%Y%m%d%H%M")
+s, n = re.subn(r'(<script src=")((?:publi/)?[\w-]+\.js)(?:\?v=\d+)?(")', lambda x: x.group(1) + x.group(2) + "?v=" + marca + x.group(3), s)
+if not re.search(r'<script src="noticias\.js\?v=\d+"', s):
+    sys.exit("No encuentro el script de noticias.js en index.html")
+
 open(ruta, "w", encoding="utf-8").write(s)
-print("index.html preparado")
+print(f"index.html preparado ({n} scripts con versión {marca})")
