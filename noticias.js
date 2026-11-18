@@ -3,7 +3,7 @@ window.EP = {
   "actualizado": "2026-11-18",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia.",
-  "apertura": 2
+  "apertura": 3
  },
  "agenda": [
   {
@@ -42,6 +42,13 @@ window.EP = {
    "hasta": "2026-11-19"
   },
   {
+   "cuando": "Jue 19 nov, 18.30",
+   "que": "Puertas abiertas de flamenco: talleres de guitarra y baile",
+   "donde": "Centro San Miguel",
+   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
+   "hasta": "2026-11-19"
+  },
+  {
    "cuando": "20 nov",
    "que": "Segunda Jornada de Activación para el Empleo de RELANZA-T: «Marca personal, talento y oportunidades»",
    "donde": "Auditorio Riberas del Guadaíra",
@@ -60,6 +67,20 @@ window.EP = {
    "que": "XII Jornada por la Infancia de Paz y Bien",
    "donde": "Polideportivo Distrito Sur",
    "noticia": "jornada-infancia-xii-paz-y-bien-20-noviembre",
+   "hasta": "2026-11-20"
+  },
+  {
+   "cuando": "Vie 20 nov, 19.30",
+   "que": "Recital de poesía «Odisea a Poética», de Luis Brenes",
+   "donde": "Centro San Miguel",
+   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
+   "hasta": "2026-11-20"
+  },
+  {
+   "cuando": "Vie 20 nov, 21.00",
+   "que": "Concierto «Bondad: Candlelight» (nuevo horario)",
+   "donde": "Parroquia de San Agustín",
+   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
    "hasta": "2026-11-20"
   },
   {
@@ -98,6 +119,20 @@ window.EP = {
    "hasta": "2026-11-21"
   },
   {
+   "cuando": "Sáb 21 nov, 13.00",
+   "que": "Recital de cante de Elvira Ponce",
+   "donde": "Centro San Miguel",
+   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
+   "hasta": "2026-11-21"
+  },
+  {
+   "cuando": "Hasta sáb 21 nov",
+   "que": "XVI Senior International Champion MT200 de tenis",
+   "donde": "Club de Tenis Oromana",
+   "noticia": "tenis-oromana-irene-torres-finalista-babolat-senior-international",
+   "hasta": "2026-11-21"
+  },
+  {
    "cuando": "Hasta 22 nov",
    "que": "Pinturas restauradas del Cristo de Burgos y del Cristo de los Desamparados (presentación del 29 oct suspendida por el luto; sin nueva fecha)",
    "donde": "Museo de Alcalá, sala de Arte Religioso",
@@ -123,6 +158,13 @@ window.EP = {
    "que": "Triduo y función de Cristo Rey con Jesús Cautivo",
    "donde": "Parroquia de San Sebastián",
    "noticia": "cautivo-triduo-cristo-rey-19-22-noviembre",
+   "hasta": "2026-11-22"
+  },
+  {
+   "cuando": "Dom 22 nov, 18.00",
+   "que": "«Quieto Parao», Festival Internacional de Comedia del Arte",
+   "donde": "Centro San Miguel",
+   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
    "hasta": "2026-11-22"
   },
   {
@@ -224,6 +266,13 @@ window.EP = {
    "hasta": "2026-12-31"
   },
   {
+   "cuando": "5-7 mar 2027",
+   "que": "II Concurso de Doma Vaquera y Enganches Ciudad de Alcalá",
+   "donde": "Recinto ferial",
+   "noticia": "rocio-cartel-evento-ecuestre-2027-sicab",
+   "hasta": "2027-03-07"
+  },
+  {
    "cuando": "Hasta 30 sep 2027",
    "que": "Plazo de las ayudas de la Junta para eficiencia energética en viviendas",
    "donde": "Agencia Andaluza de la Energía, por vía telemática",
@@ -233,17 +282,291 @@ window.EP = {
  ],
  "noticias": [
   {
+   "id": "pleno-noviembre-led-vive-piscina-cabeza-hermosa",
+   "sec": "politica",
+   "kicker": "Pleno",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=vfa9QI5-D1o&t=0s",
+   "title": "El Pleno aprueba los préstamos para cambiar 7.800 farolas a LED y para las 107 viviendas de VIVE en Mar Mediterráneo",
+   "sub": "Salen adelante también el dinero para la piscina de verano de Cabeza Hermosa, con el voto en contra del PP y las críticas de Vox y Alcalá Nos Importa por la deuda",
+   "caption": "Concejales durante una sesión plenaria del Ayuntamiento de Alcalá de Guadaíra, en una imagen de archivo.",
+   "foto": "pleno-octubre-votaciones.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "El Pleno de Alcalá de Guadaíra aprobó el 17 de noviembre una operación de financiación con el IDAE para sustituir más de 7.800 luminarias del alumbrado público por tecnología LED.",
+    "También autorizó un préstamo de 11 millones de euros con una entidad bancaria para que VIVE Alcalá construya 107 viviendas protegidas en venta en la avenida Mar Mediterráneo.",
+    "El gobierno municipal aprobó un suplemento de crédito para la futura piscina de verano de Cabeza Hermosa.",
+    "PP, Vox y Alcalá Nos Importa criticaron el aumento de la deuda municipal; Andalucía Por Sí, socio de gobierno, respaldó los tres acuerdos."
+   ],
+   "body": [
+    "El Pleno del Ayuntamiento de Alcalá de Guadaíra aprobó el martes 17 de noviembre, en su sesión ordinaria, la financiación para sustituir más de 7.800 puntos de luz del alumbrado público por tecnología LED y un préstamo de 11 millones de euros para que la sociedad municipal VIVE Alcalá construya 107 viviendas protegidas en la avenida Mar Mediterráneo.",
+    "La sesión dio luz verde además a un suplemento de crédito para la futura piscina de verano de Cabeza Hermosa. La segunda teniente de alcaldesa y delegada de Hacienda, Mª Ángeles Ballesteros (PSOE), lo cifró en 1,2 millones de euros en declaraciones a El Panadero; Andalucía Por Sí se refirió a una modificación presupuestaria de un millón.",
+    "## Alumbrado LED con un crédito del IDAE",
+    "La renovación del alumbrado se pagará con un préstamo del Instituto para la Diversificación y Ahorro de la Energía (IDAE), dependiente del Ministerio. Según Ballesteros, el crédito es a interés cero, la sustitución estará terminada en nueve meses y el cambio ahorrará al Ayuntamiento un millón de euros al año en la factura eléctrica, con lo que el préstamo quedará amortizado a medio plazo. Andalucía Por Sí situó la operación en más de seis millones de euros.",
+    "La delegada explicó que las nuevas luminarias consumen menos y llevan sistemas que permiten localizar antes las averías de cada farola.",
+    "## Once millones para las viviendas de VIVE",
+    "El préstamo de 11 millones financiará las 107 viviendas protegidas en régimen de compraventa que VIVE Alcalá prevé en Mar Mediterráneo, las mismas que la sociedad <a href='#vive-sorteo-107-nuevas-promociones'>anunció que sorteará a principios de diciembre</a>. Según Ballesteros, el crédito hipotecario se subrogará a los compradores cuando asuman sus hipotecas. El gobierno sostiene que las viviendas irán destinadas sobre todo a jóvenes.",
+    "Sobre la piscina, la delegada recordó que la de verano de San Juan se ha quedado pequeña para una ciudad que ha crecido y que la zona norte reclamaba una instalación propia desde hace años.",
+    "## La oposición, contra el endeudamiento",
+    "El PP votó en contra de los dos préstamos. El concejal popular Esaú Pérez dijo no cuestionar las actuaciones sino el modelo de financiación. «¿Cómo es posible que el Ayuntamiento sea quien pida el préstamo, quien lo avala y quien se haga responsable de ese mismo préstamo en caso de impago?», planteó. Pérez defiende que sea el propio Ayuntamiento, y no una sociedad mercantil, el que promueva las viviendas.",
+    "La portavoz adjunta de Vox, Carmen Loscertales, afirmó que la deuda municipal supera ya los 50 millones de euros, el 64,60 % de los ingresos, y que con este préstamo la de VIVE llega a 20 millones «sin que haya de momento ni una vivienda construida». «Tenemos deuda, pero no tenemos vivienda», resumió. Vox criticó también que el suplemento para la piscina se haya reunido con partidas sin usar, algunas de hace más de 20 años.",
+    "El concejal de Alcalá Nos Importa, José Luis Roldán, calculó que los acuerdos elevarán la deuda hasta 58 millones de euros y reprochó que la piscina no figurase en el presupuesto. Andalucía Por Sí, socio del PSOE en el gobierno, respaldó los tres expedientes y sostuvo que la ciudad necesita más instalaciones como la piscina."
+   ],
+   "seo": [
+    "pleno-alcala-prestamos-led-vive-piscina",
+    "Pleno de Alcalá: préstamos para LED, VIVE y piscina",
+    "El Pleno de Alcalá de Guadaíra aprueba financiar 7.800 farolas LED, 11 millones para 107 viviendas de VIVE Alcalá y la nueva piscina de Cabeza Hermosa.",
+    [
+     "Pleno de Alcalá",
+     "VIVE Alcalá",
+     "alumbrado LED",
+     "IDAE",
+     "piscina Cabeza Hermosa",
+     "deuda municipal",
+     "Mar Mediterráneo"
+    ]
+   ],
+   "iso": "2026-11-18",
+   "hora": "22:28",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "pleno-noviembre-mociones-tomillar-protocolo-obras",
+   "sec": "politica",
+   "kicker": "Pleno",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=vfa9QI5-D1o&t=0s",
+   "title": "El Pleno rechaza convertir El Tomillar en hospital general y aprueba por unanimidad el protocolo del PP para reparar el entorno de las obras",
+   "sub": "El gobierno prefiere pedir a la Junta un hospital nuevo en suelo municipal; también salen adelante la moción ferroviaria de Alcalá Nos Importa y la propuesta de Manuel Araujo sobre la plantilla",
+   "caption": "Fachada del Hospital El Tomillar, en Alcalá de Guadaíra, en una imagen de archivo.",
+   "foto": "alcala-nos-importa-tomillar.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "El Pleno de Alcalá de Guadaíra rechazó el 17 de noviembre la moción de Alcalá Nos Importa para transformar el Hospital El Tomillar en un hospital general.",
+    "Se aprobó por unanimidad la propuesta del PP de un protocolo municipal para proteger y reparar el espacio público en las grandes obras.",
+    "También por unanimidad se declaró de interés público local a la Asociación Molinos del Guadaíra.",
+    "Las dos mociones de Vox, sobre actividades con menores y sobre una ruta fernandina, fueron rechazadas."
+   ],
+   "body": [
+    "El Pleno del Ayuntamiento de Alcalá de Guadaíra rechazó el martes 17 de noviembre la moción de Alcalá Nos Importa para transformar el Hospital El Tomillar en un hospital público general, y aprobó por unanimidad la propuesta del PP para crear un protocolo de protección y reparación del espacio público en las grandes obras.",
+    "La moción sobre El Tomillar, que el grupo <a href='#alcala-nos-importa-tomillar'>anunció en octubre</a>, pedía estudiar urgencias hospitalarias las 24 horas, una unidad de cuidados intensivos, maternidad, hospitalización general y nuevas especialidades. Su concejal, José Luis Roldán, explicó a El Panadero que no se trataba de evitar un cierre sino de ampliar el centro, que según sus datos ocupa 16.000 de los 46.000 metros cuadrados de una parcela de la Tesorería de la Seguridad Social.",
+    "## Dos modelos para la sanidad",
+    "La delegada de Hacienda y portavoz del gobierno, Mª Ángeles Ballesteros (PSOE), dijo que el gobierno quiere que la Junta de Andalucía siga invirtiendo en El Tomillar, pero que su objetivo es pedir la construcción de un nuevo hospital general para Alcalá y Los Alcores. Para ello, recordó, el Ayuntamiento ha ofrecido a la Junta un terreno municipal en el núcleo urbano.",
+    "El PP se abstuvo. El concejal popular Esaú Pérez sostuvo que cualquier decisión sobre una infraestructura sanitaria debe estudiarse en el sector sanitario y recordó que El Tomillar forma parte del Área de Gestión Sanitaria Sur. Roldán calificó esa postura de excusa para un asunto que considera «estrictamente político», y el PP replicó este miércoles en Facebook que el futuro del hospital deben decidirlo los profesionales sanitarios.",
+    "## Obras, molinos y plantilla",
+    "La propuesta del PP plantea conocer el estado del entorno antes de cada gran obra, fijar las obligaciones de la constructora y crear un órgano que vigile su cumplimiento. El partido puso como ejemplo la calle San Francisco tras las obras del aparcamiento de Nicolás Alpériz. Por unanimidad se declaró además de interés público local a la Asociación Molinos del Guadaíra.",
+    "Salió adelante la segunda moción de Alcalá Nos Importa, que pide garantías en la modernización de la línea Madrid-Sevilla y el esclarecimiento del accidente de Urda, en el que murió una vecina de Alcalá. Roldán lamentó que nadie interviniera en el debate. También se aprobó, con la abstención del gobierno, la propuesta del concejal no adscrito Manuel Araujo sobre la plantilla, en la que preguntó por la valoración de puestos pendiente desde 2022 y por unas 226 plazas de funcionario vacantes, según sus datos, en la relación de puestos de 2023.",
+    "## Las mociones de Vox",
+    "Vox pidió que el Ayuntamiento y los grupos no organicen actividades con menores en las que se difundan cuestiones políticas, tras criticar su portavoz, Pedro Navarro, que un ponente aludiera a su partido en las Jornadas de Memoria Democrática con escolares. El delegado de Memoria Democrática, Christopher Rivas (Andalucía Por Sí), defendió la actividad y sostuvo que la represión franquista «hay que contarla». La segunda moción, una ruta turística dedicada a Fernando III, también fue rechazada: Rivas argumentó que esa figura ya se trata en la ruta del Castillo, mientras el concejal de Vox Evaristo Téllez acusó al gobierno de rechazar sus propuestas por motivos ideológicos."
+   ],
+   "seo": [
+    "pleno-alcala-tomillar-hospital-general-mociones",
+    "Pleno de Alcalá rechaza el hospital general en El Tomillar",
+    "El Pleno de Alcalá de Guadaíra rechaza convertir El Tomillar en hospital general y aprueba el protocolo del PP para reparar el entorno de las obras.",
+    [
+     "Hospital El Tomillar",
+     "Pleno de Alcalá",
+     "Alcalá Nos Importa",
+     "PP Alcalá",
+     "Vox Alcalá",
+     "Asociación Molinos del Guadaíra",
+     "Manuel Araujo"
+    ]
+   ],
+   "iso": "2026-11-18",
+   "hora": "22:28",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "ross-conciertos-escolares-sheherazade-auditorio-riberas",
+   "sec": "cultura",
+   "kicker": "Música",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=vfa9QI5-D1o&t=0s",
+   "title": "La Sinfónica de Sevilla interpreta «Sheherazade» para escolares en el auditorio Riberas del Guadaíra hasta el viernes",
+   "sub": "Son tres conciertos didácticos del ciclo educativo de la ROSS, con narración de Ana Hernández Sanchiz y dirección de Alejandro Muñoz",
+   "caption": "Imagen de archivo de la sección de cultura de El Panadero.",
+   "foto": "generica-cultura.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La Real Orquesta Sinfónica de Sevilla ofrece entre el 18 y el 20 de noviembre tres conciertos escolares en el auditorio Riberas del Guadaíra de Alcalá.",
+    "El programa es «Sheherazade», de Nikolái Rimski-Kórsakov, con narración de Ana Hernández Sanchiz y dirección de Alejandro Muñoz.",
+    "Según el Ayuntamiento, unos 4.000 alumnos han pasado por estos conciertos educativos en las dos últimas temporadas."
+   ],
+   "body": [
+    "La Real Orquesta Sinfónica de Sevilla (ROSS) ofrece desde este miércoles 18 de noviembre y hasta el viernes 20 tres conciertos para escolares en el auditorio Riberas del Guadaíra, en Alcalá de Guadaíra, con «Sheherazade», la suite sinfónica de Nikolái Rimski-Kórsakov inspirada en los relatos de «Las mil y una noches».",
+    "Las sesiones forman parte del ciclo educativo con el que la orquesta acerca la música sinfónica a los alumnos. La narración corre a cargo de Ana Hernández Sanchiz y la dirección musical, de Alejandro Muñoz. La primera función se celebró este miércoles y las otras dos son el jueves 19 y el viernes 20.",
+    "## Una historia contada con la orquesta",
+    "El espectáculo combina la música con la narración y con ilustraciones proyectadas que funcionan como un musicograma: guían a los niños para que sigan la partitura y reconozcan a personajes como Simbad. Responsables del programa explicaron a El Panadero que la obra se presta a este formato porque Rimski-Kórsakov asigna a cada familia de instrumentos un personaje de la historia, lo que ayuda a los escolares a entender lo que escuchan.",
+    "Según el equipo de la orquesta, la idea es que la palabra y la imagen refuercen la audición, en lugar de ofrecer una animación como las que los niños ven a diario en casa. Los alumnos escuchan la música en directo y ven de cerca a los músicos y sus instrumentos.",
+    "## Cuatro mil alumnos en dos temporadas",
+    "El Ayuntamiento sostiene, en una nota publicada este miércoles, que la colaboración continuada con la ROSS ha convertido al auditorio en sede habitual de estos conciertos educativos, por los que han pasado unos 4.000 alumnos en las dos últimas temporadas. La alcaldesa, Ana Isabel Jiménez, destacó en sus redes que las funciones reúnen a escolares de toda la provincia y que el ciclo incluye también conciertos familiares.",
+    "<span class='howto'><b>Conciertos escolares de la ROSS.</b> «Sheherazade», de Rimski-Kórsakov. Auditorio Riberas del Guadaíra. Miércoles 18, jueves 19 y viernes 20 de noviembre. Funciones para grupos escolares.</span>"
+   ],
+   "seo": [
+    "ross-sheherazade-conciertos-escolares-auditorio-riberas",
+    "La ROSS lleva «Sheherazade» a escolares en Alcalá",
+    "La Real Orquesta Sinfónica de Sevilla ofrece del 18 al 20 de noviembre tres conciertos escolares de «Sheherazade» en el auditorio Riberas de Alcalá.",
+    [
+     "Real Orquesta Sinfónica de Sevilla",
+     "ROSS",
+     "auditorio Riberas del Guadaíra",
+     "conciertos escolares",
+     "Sheherazade",
+     "música clásica"
+    ]
+   ],
+   "iso": "2026-11-18",
+   "hora": "22:28",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "press-trip-diputacion-naturgy-pilatus-alcala",
+   "sec": "economia",
+   "kicker": "Industria",
+   "src": "Ayuntamiento de Alcalá de Guadaíra (Facebook)",
+   "fuente_url": "https://www.facebook.com/1605699894935684/posts/1607970251375315",
+   "title": "Periodistas latinoamericanos visitan Naturgy y Pilatus en Alcalá dentro de un viaje de prensa de la Diputación",
+   "sub": "El programa de Prodetur y SevillaCityOne reunió a una docena de informadores especializados de seis países para conocer la industria de la provincia",
+   "caption": "Imagen de archivo de la sección de economía de El Panadero.",
+   "foto": "generica-economia.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Una docena de periodistas especializados de seis países latinoamericanos ha visitado las empresas Naturgy y Pilatus en Alcalá de Guadaíra.",
+    "La visita forma parte de un programa de la Diputación de Sevilla organizado a través de Prodetur con la colaboración de SevillaCityOne.",
+    "El delegado de Desarrollo Económico, Pablo Chain, defiende que estos viajes de prensa ayudan a atraer inversión internacional."
+   ],
+   "body": [
+    "Una docena de periodistas especializados de Panamá, Argentina, Colombia, Perú, México y Venezuela ha visitado estos días las empresas Naturgy y Pilatus, instaladas en Alcalá de Guadaíra, dentro de un viaje de prensa de la Diputación de Sevilla para dar a conocer la industria de la provincia, según ha informado el Ayuntamiento en su perfil de Facebook.",
+    "El programa, titulado «Sevilla, polos de innovación industrial, transición energética y desarrollo urbano y otros sectores del sur de Europa», lo organiza la Diputación a través de Prodetur, su sociedad de promoción, con la colaboración de SevillaCityOne.",
+    "En Alcalá, la expedición conoció el centro de energías renovables de Naturgy y la planta de Pilatus, que el Ayuntamiento describe como una implantación reciente en la localidad. La nota municipal presenta a las dos empresas como ejemplos de innovación en los sectores energético y aeronáutico.",
+    "## La visión del Ayuntamiento",
+    "El delegado de Desarrollo Económico e Industria, Pablo Chain (PSOE), participó en las visitas a la ciudad. Según Chain, el viaje da visibilidad a «las oportunidades de negocio y desarrollo en Alcalá» en esos dos sectores. El delegado sostiene que estos viajes «son una herramienta útil para el sector» porque mostrar en medios especializados el potencial económico de la provincia «contribuye a atraer la inversión internacional».",
+    "El Ayuntamiento sitúa a Alcalá entre los principales polos industriales del área metropolitana de Sevilla por la combinación de industria, energía y suelo disponible para nuevos proyectos empresariales. La nota no detalla qué medios han participado en el viaje, cuántos días ha durado ni cuándo se publicarán los reportajes de los periodistas.",
+    "Los viajes de prensa de este tipo, conocidos como press trips, son una herramienta habitual de promoción turística y empresarial: las instituciones invitan a periodistas a conocer un territorio para que lo den a conocer en sus países."
+   ],
+   "seo": [
+    "press-trip-diputacion-naturgy-pilatus-alcala",
+    "Periodistas extranjeros visitan Naturgy y Pilatus en Alcalá",
+    "Una docena de periodistas de seis países latinoamericanos visita Naturgy y Pilatus en Alcalá de Guadaíra en un viaje de prensa de la Diputación.",
+    [
+     "Diputación de Sevilla",
+     "Prodetur",
+     "Naturgy",
+     "Pilatus",
+     "Pablo Chain",
+     "industria Alcalá"
+    ]
+   ],
+   "iso": "2026-11-18",
+   "hora": "22:28",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "tenis-oromana-irene-torres-finalista-babolat-senior-international",
+   "sec": "deportes",
+   "kicker": "Tenis",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=vfa9QI5-D1o",
+   "title": "Irene Torres, del Club de Tenis Oromana, finalista del Torneo Nacional Babolat mientras el club acoge el Senior International",
+   "sub": "El campeonato internacional para mayores de 30 años se disputa en las pistas de Oromana hasta el sábado 21 de noviembre",
+   "caption": "Cartel del XVI Senior International Champion MT200 del Club de Tenis Oromana.",
+   "foto": "tenis-senior-mt200-oromana-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
+   "encuadre": "contain",
+   "claves": [
+    "La tenista Irene Torres Gómez, del Club de Tenis Oromana, ha sido finalista de su categoría en el Torneo Nacional Babolat, con 22 jugadoras inscritas.",
+    "Es su segundo resultado destacado de la semana, tras el subcampeonato de Andalucía de dobles Sub-13 con Claudia Gavira.",
+    "El Club de Tenis Oromana acoge hasta el sábado 21 de noviembre el XVI Senior International Champion MT200, prueba del circuito de veteranos de la ITF."
+   ],
+   "body": [
+    "La tenista Irene Torres Gómez, del Club de Tenis Oromana de Alcalá de Guadaíra, ha sido finalista de su categoría en el Torneo Nacional Babolat, según ha informado este miércoles 18 de noviembre Alcalá+Deporte, el portal deportivo del Ayuntamiento. El cuadro reunió a 22 jugadoras inscritas, entre ellas tenistas de España, Rusia y China.",
+    "Torres se abrió paso hasta la final y terminó entre las dos mejores de su categoría. El portal municipal no ha detallado dónde se disputó el torneo ni el resultado del partido decisivo.",
+    "Es el segundo resultado destacado de la jugadora en pocos días: con su compañera de club Claudia Gavira fue <a href='#tenis-oromana-subcampeonas-andalucia-dobles-sub13'>subcampeona de Andalucía de dobles Sub-13</a> en el campeonato autonómico celebrado en Córdoba.",
+    "## Tenis internacional en Oromana",
+    "Mientras, el propio Club de Tenis Oromana es estos días escenario del XVI Senior International Champion MT200, que <a href='#tenis-senior-mt200-oromana-noviembre'>arrancó el lunes 16 de noviembre</a> y se prolonga hasta el sábado 21. Es una prueba del circuito internacional de veteranos de la Federación Internacional de Tenis (ITF), organizada por Senior Tennis Events, y reúne a jugadores de distintas nacionalidades en categorías que van de los 30 a los 85 años.",
+    "El campeonato incluye pruebas individuales y de dobles masculinos, femeninos y mixtos. Los partidos se juegan preferentemente por la mañana, para que los participantes puedan conocer por la tarde el Castillo, el centro histórico o el parque de Oromana. En ediciones anteriores participaron jugadores de Canadá, Suiza, Alemania, Portugal e Inglaterra. La organización invita a los aficionados y al público en general a acercarse al club para seguir los partidos.",
+    "<span class='howto'><b>XVI Senior International Champion MT200.</b> Club de Tenis Oromana, Alcalá de Guadaíra. Hasta el sábado 21 de noviembre, con partidos sobre todo por la mañana. Categorías de 30 a 85 años, individuales y dobles. La organización invita al público a asistir.</span>"
+   ],
+   "seo": [
+    "irene-torres-babolat-tenis-oromana-senior",
+    "Irene Torres, finalista del Babolat; Oromana acoge el Senior",
+    "Irene Torres, del Club de Tenis Oromana de Alcalá, finalista del Torneo Nacional Babolat; el club acoge el Senior International hasta el 21 de noviembre.",
+    [
+     "Club de Tenis Oromana",
+     "Irene Torres",
+     "Torneo Nacional Babolat",
+     "Senior International Champion MT200",
+     "tenis Alcalá",
+     "Alcalá+Deporte"
+    ]
+   ],
+   "iso": "2026-11-18",
+   "hora": "22:28",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
+   "sec": "cultura",
+   "kicker": "Agenda",
+   "src": "Ayuntamiento de Alcalá de Guadaíra (Facebook)",
+   "fuente_url": "https://www.facebook.com/1605699894935684/posts/1607795788059428",
+   "title": "El Centro San Miguel programa flamenco, poesía y un festival de comedia del arte del 18 al 22 de noviembre",
+   "sub": "Incluye puertas abiertas con la Peña El Arrabal, un recital de Elvira Ponce y la obra «Quieto Parao»; el concierto de la Bondad en San Agustín se retrasa a las 21.00",
+   "caption": "Imagen de archivo de la sección de cultura de El Panadero.",
+   "foto": "generica-cultura.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "El Centro San Miguel de Alcalá de Guadaíra acoge del 18 al 22 de noviembre talleres de flamenco, un recital de poesía, un recital de cante y un festival de comedia del arte.",
+    "Las actividades son de entrada libre hasta completar aforo; los talleres del festival de La Sala requieren inscripción gratuita.",
+    "El concierto «Bondad: Candlelight» del viernes 20 en la parroquia de San Agustín empezará a las 21.00 y no a las 20.00."
+   ],
+   "body": [
+    "El Centro San Miguel de Alcalá de Guadaíra programa del miércoles 18 al domingo 22 de noviembre jornadas de puertas abiertas de flamenco, un recital de poesía, otro de cante y un festival de comedia del arte, todo con entrada libre hasta completar aforo, según ha anunciado el Ayuntamiento en su perfil de Facebook.",
+    "La semana arranca con dos jornadas de puertas abiertas por el Día Mundial del Flamenco, de la mano de la Peña Flamenca El Arrabal, de 18.30 a 20.30. El miércoles 18 hay talleres de cante y baile, y el jueves 19, de guitarra y baile.",
+    "El viernes 20, a las 19.30, Luis Brenes presenta «Odisea a Poética», un recital de poesía en homenaje a Alcalá de Guadaíra. El sábado 21, a las 13.00, la cantaora Elvira Ponce ofrece un recital dentro del ciclo Otoño Flamenco en Sevilla, con la colaboración de la Peña El Arrabal.",
+    "## Comedia del arte con La Sala",
+    "La Asociación Cultural La Sala celebra el sábado 21 y el domingo 22 su Festival Internacional de Comedia del Arte. El sábado, de 17.00 a 20.30, habrá presentación, una entrevista abierta con los directores teatrales Michelle Salvatori y Luis Miguel Rodríguez, un taller de esta técnica teatral y una proyección. El domingo, a las 18.00, se representa «Quieto Parao». La inscripción es gratuita escribiendo a infolasalasevilla@gmail.com.",
+    "La comedia del arte es un género teatral nacido en Italia en el siglo XVI, basado en la improvisación y en personajes fijos con máscara.",
+    "## Cambio de hora en San Agustín",
+    "El Ayuntamiento ha avisado también de un cambio en el ciclo Alcalá EnClave de Música: el concierto «Bondad: Candlelight», de la Agrupación Musical Santísimo Cristo de la Bondad, en la parroquia de San Agustín, empezará el viernes 20 de noviembre a las 21.00, una hora más tarde de lo previsto.",
+    "<span class='howto'><b>Centro San Miguel.</b> Puertas abiertas de flamenco: 18 y 19 de noviembre, 18.30-20.30. «Odisea a Poética»: 20 de noviembre, 19.30. Elvira Ponce: 21 de noviembre, 13.00. Comedia del arte: 21 de noviembre, 17.00-20.30, y «Quieto Parao», 22 de noviembre, 18.00. Entrada libre hasta completar aforo. <b>Concierto de la Bondad:</b> viernes 20, 21.00, parroquia de San Agustín.</span>"
+   ],
+   "seo": [
+    "centro-san-miguel-flamenco-poesia-comedia-arte",
+    "Flamenco, poesía y comedia del arte en el Centro San Miguel",
+    "El Centro San Miguel de Alcalá de Guadaíra programa del 18 al 22 de noviembre flamenco, poesía y un festival de comedia del arte con entrada libre.",
+    [
+     "Centro San Miguel",
+     "Peña Flamenca El Arrabal",
+     "Elvira Ponce",
+     "comedia del arte",
+     "Asociación Cultural La Sala",
+     "Alcalá EnClave de Música"
+    ]
+   ],
+   "iso": "2026-11-18",
+   "hora": "22:28",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
    "id": "paz-vega-rueda-ana-no-alcala-angela-molina",
    "sec": "cultura",
    "kicker": "Cine",
    "iso": "2026-11-18",
    "hora": "07:24",
-   "src": "Ana Isabel Jiménez (Facebook)",
-   "fuente_url": "https://www.facebook.com/reel/1570381831520843/",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=vfa9QI5-D1o",
    "firma": "Redacción El Panadero",
    "elaboracion": "ia",
    "title": "Paz Vega rueda en Alcalá de Guadaíra «Ana no», su segunda película como directora, con Ángela Molina",
-   "sub": "El largometraje adapta una novela de Agustín Gómez Arcos sobre la represión de la dictadura y graba en la ribera del Guadaíra",
+   "sub": "El largometraje, una coproducción hispano-italiana con estreno previsto en 2027, adapta una novela de Agustín Gómez Arcos y graba en la ribera del Guadaíra",
    "caption": "La ribera del Guadaíra en el entorno de Oromana, durante otro rodaje celebrado en octubre, en una imagen de archivo.",
    "foto": "rodaje-pelicula-oromana-of.jpg",
    "fotocredito": "Instagram del Ayuntamiento de Alcalá de Guadaíra",
@@ -251,18 +574,18 @@ window.EP = {
     "Alcalá de Guadaíra es uno de los escenarios del rodaje de «Ana no», el segundo largometraje de Paz Vega como directora.",
     "La película adapta una novela del escritor almeriense Agustín Gómez Arcos sobre una generación que sufrió la represión de la dictadura.",
     "Ángela Molina protagoniza el filme, con Álvaro Morte, Rossy de Palma y Alessio Boni en el reparto.",
-    "Según la alcaldesa, Ana Isabel Jiménez, el rodaje muestra varios rincones de la ribera del Guadaíra."
+    "La película es una coproducción entre España e Italia y tiene previsto su estreno en salas en 2027."
    ],
    "body": [
-    "La actriz y directora sevillana Paz Vega rueda en Alcalá de Guadaíra parte de «Ana no», su segundo largometraje detrás de las cámaras, una adaptación de una novela del escritor Agustín Gómez Arcos protagonizada por Ángela Molina. Lo ha dado a conocer la alcaldesa, Ana Isabel Jiménez, en sus perfiles de Facebook e Instagram, con un vídeo grabado durante el rodaje.",
-    "Según la alcaldesa, la película «recupera la memoria de toda una generación que sufrió la represión de la dictadura y que supo responder a ella con dignidad». El reparto lo completan Álvaro Morte, Rossy de Palma y el actor italiano Alessio Boni.",
-    "Jiménez sostiene que la producción es «una magnífica oportunidad para proyectar la imagen de Alcalá», porque muestra «algunos de los rincones más especiales» de la ribera del Guadaíra. La alcaldesa no ha detallado en qué puntos concretos se ha grabado ni durante cuántos días se extiende el rodaje en el término municipal.",
+    "La actriz y directora sevillana Paz Vega rueda en Alcalá de Guadaíra parte de «Ana no», su segundo largometraje detrás de las cámaras, una coproducción entre España e Italia basada en una novela de Agustín Gómez Arcos y protagonizada por Ángela Molina, con estreno previsto en 2027.",
+    "La alcaldesa, Ana Isabel Jiménez, que ha visitado al equipo de producción, lo dio a conocer en sus perfiles de Facebook e Instagram. Según Jiménez, la película «recupera la memoria de toda una generación que sufrió la represión de la dictadura y que supo responder a ella con dignidad». El reparto lo completan Álvaro Morte, Rossy de Palma y el actor italiano Alessio Boni.",
+    "Jiménez sostiene que la producción es «una magnífica oportunidad para proyectar la imagen de Alcalá», porque muestra «algunos de los rincones más especiales» de la ribera del Guadaíra. La alcaldesa destacó también el trabajo de la Film Office municipal y su colaboración con Andalucía Film Commission para atraer rodajes. No se han detallado los puntos concretos de grabación ni cuántos días dura el rodaje en el término municipal.",
     "## Una novela del exilio",
     "Agustín Gómez Arcos, nacido en Enix (Almería) en 1933 y fallecido en París en 1998, desarrolló buena parte de su obra en Francia y en francés, después de exiliarse durante el franquismo. «Ana no» es el título con el que se conoce en español su novela «Ana non», publicada en 1977, la historia de una mujer mayor que emprende un viaje a pie a través de España en busca de su hijo, preso.",
     "Para Paz Vega, «Ana no» llega después de «Rita», el largometraje con el que debutó como directora. En la nueva película dirige a Ángela Molina, que encarna el papel principal.",
     "## Alcalá, escenario de rodajes",
     "No es la primera grabación de cine en la ciudad este otoño. A finales de octubre, otro equipo de cine trabajó junto a los molinos de la Aceña y del Algarrobo, en el parque de Oromana, con cortes intermitentes del paso en los senderos, como ya <a href='#rodaje-pelicula-oromana-molinos'>informó El Panadero</a>. El Ayuntamiento no ha precisado si se trataba de la misma producción.",
-    "La alcaldesa cerraba su publicación con la idea de que la ciudad sigue «sumando historias, cultura y cine». No se ha anunciado todavía la fecha de estreno de «Ana no»."
+    "La alcaldesa cerraba su publicación con la idea de que la ciudad sigue «sumando historias, cultura y cine». La historia aborda la posguerra a través del viaje de una mujer y trata la represión, la memoria y la dignidad de los vencidos."
    ],
    "seo": [
     "paz-vega-ana-no-rodaje-alcala-guadaira",
@@ -276,7 +599,8 @@ window.EP = {
      "Ana no",
      "Ribera del Guadaíra"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-18T22:28"
   },
   {
    "id": "rocio-cartel-evento-ecuestre-2027-sicab",
@@ -284,42 +608,46 @@ window.EP = {
    "kicker": "Rocío",
    "iso": "2026-11-18",
    "hora": "07:24",
-   "src": "Hermandad del Rocío de Alcalá de Guadaíra (Facebook)",
-   "fuente_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0sXm8oKXZo4T1nR8X8RiNdb8podHG1tRzWVAxWtmHMxMEKwoxnpomNQ4GY3cFwXC2l&id=61567806238125",
+   "src": "Alcalá+Deporte",
+   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8441/alcala-presenta-en-sicab-el-ii-concurso-de-doma-vaquera-y-enganches-ciudad-de-alcala",
    "firma": "Redacción El Panadero",
    "elaboracion": "ia",
-   "title": "La Hermandad del Rocío presenta este miércoles en SICAB el cartel de su Evento Ecuestre 2027",
-   "sub": "El acto será a las 12.00 en el stand El Molino del Salón Internacional del Caballo, en Sevilla",
-   "caption": "Cartel de la primera edición del concurso de doma vaquera de la Hermandad del Rocío, celebrada en marzo de 2026.",
+   "title": "La Hermandad del Rocío presenta en SICAB el II Concurso de Doma Vaquera y Enganches, del 5 al 7 de marzo de 2027",
+   "sub": "La cita, con pruebas puntuables para la Copa de Andalucía, se celebrará en el recinto ferial con la colaboración del Ayuntamiento; el cartel es obra de Bruno Halcón",
+   "caption": "Cartel de la primera edición del concurso de doma vaquera de la Hermandad del Rocío, celebrada en marzo de 2026, en una imagen de archivo.",
    "foto": "rocio-cartel-evento-ecuestre-2027-sicab-cartel-of.jpg",
    "fotocredito": "Facebook de la Hermandad del Rocío de Alcalá de Guadaíra",
    "claves": [
-    "La Hermandad del Rocío de Alcalá de Guadaíra presenta el miércoles 18 de noviembre el cartel anunciador de su Evento Ecuestre 2027.",
-    "La presentación será a las 12.00 en el stand El Molino del Salón Internacional del Caballo (SICAB).",
+    "La Hermandad del Rocío de Alcalá de Guadaíra presentó el 18 de noviembre en SICAB el cartel del II Concurso de Doma Vaquera y Enganches Ciudad de Alcalá.",
+    "El concurso se celebrará del 5 al 7 de marzo de 2027 en el recinto ferial, con pruebas de doma vaquera y de enganches puntuables para la Copa de Andalucía.",
     "La hermandad celebra el sábado 21 de noviembre su XLIII aniversario con misa y cena."
    ],
    "body": [
-    "La Hermandad de Nuestra Señora del Rocío de Alcalá de Guadaíra presenta este miércoles 18 de noviembre, a las 12.00, el cartel anunciador de su Evento Ecuestre 2027. El acto tendrá lugar en el stand El Molino del Salón Internacional del Caballo (SICAB), en Sevilla, según ha comunicado la propia hermandad en su perfil de Facebook.",
-    "En su comunicado oficial, la corporación confirma así una nueva edición de este evento ecuestre, que, según explica, vuelve a ser posible gracias al apoyo y la colaboración de quienes lo hacen realidad. La hermandad no ha adelantado todavía la fecha ni el lugar de la edición de 2027 ni el autor del cartel.",
+    "La Hermandad de Nuestra Señora del Rocío de Alcalá de Guadaíra presentó el miércoles 18 de noviembre en el Salón Internacional del Caballo (SICAB), en Sevilla, el cartel del II Concurso de Doma Vaquera y Enganches Ciudad de Alcalá, que se celebrará del 5 al 7 de marzo de 2027 en el recinto ferial, según Alcalá+Deporte.",
+    "La hermandad organiza el evento con la colaboración municipal. El programa incluye el Concurso de Doma Vaquera y el Concurso de Enganches de Obstáculos, los dos puntuables para la Copa de Andalucía, además de exhibiciones ecuestres, actividades formativas, espectáculos de volteo, desfiles de moda y actuaciones musicales.",
+    "En la presentación estuvieron la alcaldesa, Ana Isabel Jiménez; el delegado de Deportes, Pedro Gracia (PSOE); la delegada de Fiestas Mayores, Rocío Bastida (PSOE), y el hermano mayor de la Hermandad del Rocío, Salvador Ramos. El cartel anunciador es obra de Bruno Halcón, según publicó la alcaldesa en su perfil de Facebook.",
+    "Jiménez destacó, según el Ayuntamiento, la visibilidad y el impacto económico de una cita que, a su juicio, atrae miles de visitas a la ciudad, y agradeció a la hermandad la organización de un evento que aspira a superar la participación de su primera edición, celebrada en marzo de 2026.",
     "SICAB, el Salón Internacional del Caballo, es la feria dedicada al caballo de pura raza española que se celebra cada otoño en Sevilla y reúne a criadores, jinetes y aficionados.",
     "## Semana de aniversario",
     "La presentación llega en una semana señalada para la hermandad, con sede en la parroquia de San Agustín. El sábado 21 de noviembre celebra su XLIII aniversario con una misa a las 19.30 y una cena posterior en el Salón de Celebraciones Zambra, a las 21.00, en la que proclamará al pregonero de 2027, como <a href='#rocio-xliii-aniversario-pregonero-2027-nuevas-reglas'>ya anunció</a>.",
     "La corporación ha aprobado además en cabildo general extraordinario, celebrado el sábado 7 de noviembre, el proyecto de sus nuevas reglas, que adaptan su organización a las normas diocesanas de la Archidiócesis de Sevilla y que la hermandad elevará al Arzobispado para su aprobación definitiva.",
-    "<span class='howto'>Presentación del cartel del Evento Ecuestre 2027: miércoles 18 de noviembre, 12.00, stand El Molino, SICAB (Sevilla). Aniversario: sábado 21 de noviembre, misa a las 19.30 en San Agustín y cena a las 21.00 en el Salón Zambra.</span>"
+    "<span class='howto'><b>II Concurso de Doma Vaquera y Enganches Ciudad de Alcalá.</b> Del 5 al 7 de marzo de 2027, recinto ferial de Alcalá de Guadaíra. Organiza: Hermandad del Rocío, con la colaboración del Ayuntamiento. <b>Aniversario:</b> sábado 21 de noviembre, misa a las 19.30 en San Agustín y cena a las 21.00 en el Salón Zambra.</span>"
    ],
    "seo": [
-    "hermandad-rocio-alcala-cartel-evento-ecuestre-2027-sicab",
-    "Rocío de Alcalá presenta en SICAB su Evento Ecuestre 2027",
-    "La Hermandad del Rocío de Alcalá de Guadaíra presenta el 18 de noviembre en SICAB, a las 12.00, el cartel anunciador de su Evento Ecuestre de 2027.",
+    "rocio-alcala-concurso-doma-vaquera-enganches-2027",
+    "Doma Vaquera y Enganches en Alcalá: del 5 al 7 de marzo",
+    "La Hermandad del Rocío presenta en SICAB el II Concurso de Doma Vaquera y Enganches de Alcalá de Guadaíra, en el recinto ferial del 5 al 7 de marzo.",
     [
      "Hermandad del Rocío de Alcalá",
      "SICAB",
-     "Evento Ecuestre 2027",
-     "San Agustín",
-     "caballo"
+     "doma vaquera",
+     "Copa de Andalucía",
+     "recinto ferial",
+     "Bruno Halcón"
     ]
    ],
-   "encuadre": "contain"
+   "encuadre": "contain",
+   "actualizada": "2026-11-18T22:28"
   },
   {
    "id": "mes-del-pan-2026-record-3000-participantes",
@@ -462,32 +790,32 @@ window.EP = {
    "kicker": "Medio ambiente",
    "iso": "2026-11-17",
    "hora": "22:27",
-   "src": "Ayuntamiento de Alcalá de Guadaíra (Facebook)",
-   "fuente_url": "https://www.facebook.com/1605699894935684/posts/1606877998151207",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=vfa9QI5-D1o",
    "firma": "Redacción El Panadero",
    "elaboracion": "ia",
    "title": "El Ayuntamiento plantará 115 árboles en 16 colegios públicos para dar sombra a los patios",
-   "sub": "Medio Ambiente presenta el proyecto como una forma de recuperar arbolado perdido, en plena polémica por las talas en el entorno del Castillo",
+   "sub": "El proyecto, de 39.800 euros como máximo y en licitación, prevé almeces, moreras, jacarandas y algarrobos, y llega en plena polémica por las talas en el entorno del Castillo",
    "caption": "Gráfico con las cifras del proyecto de plantación de árboles en colegios públicos de Alcalá.",
    "foto": "arbolado-colegios-115-arboles-gfx.jpg",
    "fotocredito": "Gráfico El Panadero",
    "encuadre": "contain",
    "claves": [
-    "La Delegación de Medio Ambiente de Alcalá de Guadaíra ha elaborado un proyecto para plantar 115 árboles en 16 colegios públicos de la ciudad.",
-    "El objetivo, según el Ayuntamiento, es dar sombra a los patios y mejorar el bienestar del alumnado.",
-    "El Ayuntamiento no ha detallado en su anuncio qué colegios, qué especies, el coste ni el calendario de plantación.",
+    "La Delegación de Medio Ambiente de Alcalá de Guadaíra plantará 115 árboles en 16 colegios públicos de la ciudad.",
+    "El proyecto tiene un presupuesto máximo de 39.800 euros, está en licitación y se ejecutará en tres meses, con la previsión de terminar en marzo.",
+    "El colegio Antonio Machado recibirá 20 árboles, y Antonio Rodríguez Almodóvar, Oromana y Cervantes, 10 cada uno.",
     "Vox denunció esta semana la tala de árboles en el entorno del Castillo y pide reponerlos con ejemplares de mayor porte."
    ],
    "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra plantará 115 árboles en 16 colegios públicos de la ciudad para dar sombra a sus patios. Lo ha anunciado este martes 17 de noviembre en su perfil de Facebook, donde explica que la Delegación de Medio Ambiente ha elaborado el proyecto para «recuperar el arbolado perdido» y ampliar la masa forestal en los centros escolares.",
-    "Según la publicación municipal, la plantación busca proporcionar sombra en los patios para mejorar esos espacios y el bienestar de los niños y niñas que los usan a diario. La media sale a algo más de siete árboles por colegio.",
-    "## Lo que falta por concretar",
-    "El anuncio no detalla qué colegios recibirán los árboles, qué especies se plantarán, cuánto costará la actuación ni cuándo empezarán los trabajos. Tampoco precisa si el proyecto se ejecutará con medios municipales o mediante un contrato.",
+    "El Ayuntamiento de Alcalá de Guadaíra plantará 115 árboles en 16 colegios públicos de la ciudad para dar sombra a sus patios, con un presupuesto máximo de 39.800 euros. El proyecto de la Delegación de Medio Ambiente, anunciado el martes 17 de noviembre, está en licitación y tendrá un plazo de ejecución de tres meses una vez formalizado el contrato.",
+    "El gobierno municipal explicó a El Panadero que la previsión es que todos los colegios tengan los árboles plantados en primavera, hacia marzo. La plantación repone ejemplares perdidos, algunos por las danas de los últimos inviernos y otros que habían cumplido su ciclo, ocupa alcorques vacíos y crea nuevas zonas de sombra, sobre todo en los espacios de Infantil. Según el Ayuntamiento, el proyecto responde a las necesidades que plantearon los propios directores de los centros.",
+    "## Colegios y especies",
+    "El colegio Antonio Machado recibirá 20 árboles, y los centros Antonio Rodríguez Almodóvar, Oromana y Cervantes, 10 cada uno; el resto se repartirá entre otros 12 colegios. Se plantarán 63 almeces, 43 moreras sin fruto, seis jacarandas y tres algarrobos. Los trabajos incluyen la preparación del terreno, la plantación, los tutores y el primer riego. La actuación se suma al plan Alcalá + Verde, que prevé plantar más de 5.000 árboles entre 2024 y 2027 y que, según el Ayuntamiento, lleva ya 4.300.",
     "## En plena polémica por las talas",
     "El anuncio llega en medio de la controversia por la retirada de árboles en el entorno del Castillo y del santuario de la Virgen del Águila. Vox ha denunciado <a href='#vox-tala-arboles-castillo-ayuntamiento-88-ejemplares'>la tala de ejemplares en esa zona</a> y su portavoz municipal, Pedro Navarro, responsabiliza a la alcaldesa, Ana Isabel Jiménez, y a la delegada de Medio Ambiente, Luisa Campos.",
     "En declaraciones a El Panadero, Navarro sostuvo que en el lugar «faltan 15 árboles sanos» y que, según le han trasladado los vecinos, en todo el entorno se han cortado 35. También criticó el estado de los naranjos de la plaza del Cabildo y de las palmeras de la plazuela y de la plaza del Duque durante las obras. Vox reclama que el Ayuntamiento haga público el inventario técnico que justifica las talas y que reponga los árboles con ejemplares de mayor porte, porque considera que los jóvenes no compensan la pérdida.",
     "Según los datos que facilitó el Ayuntamiento cuando Vox presentó su denuncia, en esa zona se han retirado 18 árboles en distintos momentos, la mayoría por roturas o caídas causadas por fenómenos meteorológicos; el inventario municipal cuenta hoy 88 árboles en el entorno, 40 de ellos plantados en los últimos años, y el gobierno local prevé un proyecto de revegetación cuando terminen los trabajos pendientes.",
-    "<span class='howto'><b>Plantación en colegios.</b> 115 árboles en 16 colegios públicos de Alcalá de Guadaíra. Promotor: Delegación de Medio Ambiente del Ayuntamiento. Centros, especies, coste y fechas: pendientes de detallar.</span>"
+    "<span class='howto'><b>Plantación en colegios.</b> 115 árboles en 16 colegios públicos de Alcalá de Guadaíra. Presupuesto máximo: 39.800 euros. Estado: en licitación. Plazo: tres meses desde la formalización; previsión, marzo de 2027. Especies: almez, morera sin fruto, jacaranda y algarrobo.</span>"
    ],
    "seo": [
     "arboles-colegios-publicos-alcala-115",
@@ -501,7 +829,8 @@ window.EP = {
      "Vox Alcalá",
      "patios escolares"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-18T22:28"
   },
   {
    "id": "paseo-matematico-al-andalus-dia-bandera-alba-molina",
