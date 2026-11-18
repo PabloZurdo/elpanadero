@@ -290,9 +290,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "La Hermandad del Rocío presenta este miércoles en SICAB el cartel de su Evento Ecuestre 2027",
    "sub": "El acto será a las 12.00 en el stand El Molino del Salón Internacional del Caballo, en Sevilla",
-   "caption": "Imagen de archivo de la sección de hermandades de El Panadero.",
-   "foto": "generica-hermandades.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cartel de la primera edición del concurso de doma vaquera de la Hermandad del Rocío, celebrada en marzo de 2026.",
+   "foto": "rocio-cartel-evento-ecuestre-2027-sicab-cartel-of.jpg",
+   "fotocredito": "Facebook de la Hermandad del Rocío de Alcalá de Guadaíra",
    "claves": [
     "La Hermandad del Rocío de Alcalá de Guadaíra presenta el miércoles 18 de noviembre el cartel anunciador de su Evento Ecuestre 2027.",
     "La presentación será a las 12.00 en el stand El Molino del Salón Internacional del Caballo (SICAB).",
@@ -318,7 +318,8 @@ window.EP = {
      "San Agustín",
      "caballo"
     ]
-   ]
+   ],
+   "encuadre": "contain"
   },
   {
    "id": "mes-del-pan-2026-record-3000-participantes",
@@ -421,9 +422,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "La XII Jornada por la Infancia reúne el viernes 20 a cientos de escolares en el Polideportivo Distrito Sur",
    "sub": "La Asociación Paz y Bien organiza la cita con el Ayuntamiento bajo el lema «Ninguna historia crece sola, necesita una red de apoyos»",
-   "caption": "Imagen de archivo de El Panadero.",
-   "foto": "generica-alcala.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Presentación del cartel de la XII Jornada por la Infancia de la Asociación Paz y Bien.",
+   "foto": "jornada-infancia-xii-paz-y-bien-20-noviembre-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Asociación Paz y Bien celebra el viernes 20 de noviembre la XII Jornada por la Infancia en el Polideportivo Distrito Sur, de 9.30 a 13.30.",
     "El lema de este año es «Ninguna historia crece sola, necesita una red de apoyos».",
@@ -562,9 +563,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Las jornadas sobre diabetes en los barrios terminan el jueves 19 en el Centro Cívico Silos-Zacatín",
    "sub": "El Centro de Salud Don Paulino García Donas y la Federación de Asociaciones de Vecinos Al-Guadaíra acercan a los vecinos consejos de prevención y autocuidado",
-   "caption": "Imagen de archivo de El Panadero.",
-   "foto": "generica-alcala.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Profesionales sanitarias atienden a MiGuadaíraTV en la presentación de las jornadas sobre diabetes en los barrios.",
+   "foto": "jornadas-diabetes-federacion-al-guadaira-19-novi-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "Las jornadas sobre diabetes que se celebran en noviembre en Alcalá de Guadaíra terminan el jueves 19 a las 9.30 en el Centro Cívico Silos-Zacatín.",
     "Las organizan el Área de Gestión Sanitaria Sur de Sevilla y el Centro de Salud Don Paulino García Donas, con la Federación Local de Asociaciones de Vecinos Al-Guadaíra y el Ayuntamiento.",
@@ -654,9 +655,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "El Cautivo presidirá el altar mayor de San Sebastián en el triduo de Cristo Rey, del 19 al 22 de noviembre",
    "sub": "La Hermandad Servita celebra sus primeros cultos con la nueva junta de gobierno de José David Cobos; la función del domingo será a las 11.00",
-   "caption": "Imagen de archivo de El Panadero.",
-   "foto": "generica-hermandades.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cartel de los cultos de Cristo Rey de la Hermandad Servita, con Nuestro Padre Jesús Cautivo y Rescatado.",
+   "foto": "cautivo-triduo-cristo-rey-19-22-noviembre-cartel-of.jpg",
+   "fotocredito": "Facebook de la Hermandad Servita de Jesús Cautivo",
    "claves": [
     "La Hermandad Servita de Jesús Cautivo celebra los días 19, 20 y 21 de noviembre, a las 20.00, un triduo por la festividad de Cristo Rey del Universo.",
     "Nuestro Padre Jesús Cautivo y Rescatado presidirá el altar mayor de la parroquia de San Sebastián.",
@@ -684,7 +685,8 @@ window.EP = {
      "José David Cobos",
      "cultos"
     ]
-   ]
+   ],
+   "encuadre": "contain"
   },
   {
    "id": "tenis-oromana-subcampeonas-andalucia-dobles-sub13",
@@ -698,9 +700,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Irene Torres y Claudia Gavira, del Club de Tenis Oromana, subcampeonas de Andalucía de dobles sub-13",
    "sub": "Las dos jugadoras alcalareñas llegaron a la final del Campeonato de Andalucía disputado en Córdoba",
-   "caption": "Imagen de archivo de El Panadero.",
-   "foto": "generica-deportes.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Irene Torres y Claudia Gavira, del Club de Tenis Oromana, en el Campeonato de Andalucía.",
+   "foto": "tenis-oromana-subcampeonas-andalucia-dobles-sub1-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
    "claves": [
     "Irene Torres Gómez y Claudia Gavira Pecino, del Club de Tenis Oromana, son subcampeonas de Andalucía de dobles en la categoría sub-13.",
     "El campeonato se disputó en Córdoba.",
@@ -726,7 +728,8 @@ window.EP = {
      "deporte femenino",
      "Alcalá+Deporte"
     ]
-   ]
+   ],
+   "encuadre": "contain"
   },
   {
    "id": "medina-de-haro-mobiliario-equipamiento-adjudicado",
@@ -1452,9 +1455,9 @@ window.EP = {
    "fuente_url": "https://www.alcalamasdeporte.com/noticias/8432/alcala-de-guadaira-acogera-la-ii-prueba-de-la-copa-de-andalucia-de-escalada-de-bloque",
    "title": "Alcalá acoge el 21 y 22 de noviembre la segunda prueba de la Copa de Andalucía de Escalada de Bloque",
    "sub": "La competición se celebra en Wiseclimb, la organiza el CD Climbing Canyon con la federación andaluza y las inscripciones cierran el lunes 16 a las 23.59",
-   "caption": "Imagen de archivo.",
-   "foto": "generica-deportes.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cartel de la II prueba de la Copa de Andalucía de Escalada de Bloque en Alcalá.",
+   "foto": "copa-andalucia-escalada-bloque-wiseclimb-21-22-n-cartel-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
    "claves": [
     "Las instalaciones de Wiseclimb, en Alcalá, acogen el sábado 21 y el domingo 22 de noviembre la II Prueba de la Copa de Andalucía de Escalada de Bloque.",
     "Está abierta a todas las categorías, desde sub-9 hasta absoluta, y la organiza el CD Climbing Canyon junto a la FADMES.",
@@ -1483,7 +1486,8 @@ window.EP = {
      "CD Climbing Canyon"
     ]
    ],
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "encuadre": "contain"
   },
   {
    "id": "concurso-exposicion-palomas-raza-hienipa-25-29-noviembre",
@@ -1495,9 +1499,9 @@ window.EP = {
    "fuente_url": "https://www.alcalamasdeporte.com/noticias/8433/alcala-de-guadaira-acogera-el-xvii-concurso-exposicion-local-de-palomas-de-raza",
    "title": "El CD Hienipa organiza del 25 al 29 de noviembre el XVII Concurso-Exposición de Palomas de Raza",
    "sub": "Las aves podrán verse en las instalaciones de la avenida de Portugal el viernes 27, el sábado 28 y el domingo 29, día de la entrega de premios",
-   "caption": "Imagen de archivo.",
-   "foto": "generica-deportes.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cartel del XVII Concurso-Exposición Local de Palomas de Raza.",
+   "foto": "concurso-exposicion-palomas-raza-hienipa-25-29-n-cartel-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
    "claves": [
     "El Club Deportivo de Colombicultura Hienipa celebra del 25 al 29 de noviembre el XVII Concurso-Exposición Local de Palomas de Raza.",
     "La exposición abre al público el viernes 27 por la tarde, el sábado 28 en horario de mañana y tarde y el domingo 29 por la mañana.",
@@ -1524,7 +1528,8 @@ window.EP = {
      "avenida de Portugal"
     ]
    ],
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "encuadre": "contain"
   },
   {
    "id": "temporal-cierre-parques-instalaciones-deportivas-11-noviembre",
@@ -1534,9 +1539,9 @@ window.EP = {
    "fuente_url": "https://www.alcalamasdeporte.com/noticias/8431/aviso-meteorologico-|-cierre-de-instalaciones-deportivas",
    "title": "Alcalá cierra hoy sus parques todo el día y las instalaciones deportivas desde las 14.00 por el temporal",
    "sub": "El Ayuntamiento pide evitar los desplazamientos innecesarios entre las 16.00 y las 20.00 por las lluvias intensas y las fuertes rachas de viento",
-   "caption": "Imagen de archivo.",
-   "foto": "generica-alcala.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Aviso municipal de cierre de parques e instalaciones deportivas del 11 de noviembre.",
+   "foto": "temporal-cierre-parques-instalaciones-deportivas-cartel-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
    "claves": [
     "Los parques y jardines de Alcalá de Guadaíra permanecen cerrados durante todo el miércoles 11 de noviembre.",
     "Las instalaciones deportivas municipales, cubiertas y al aire libre, cierran desde las 14.00 hasta las 23.59.",
@@ -1566,7 +1571,8 @@ window.EP = {
    ],
    "iso": "2026-11-11",
    "hora": "10:35",
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "encuadre": "contain"
   },
   {
    "id": "bop-bases-ayudas-comercios-pai-edil",
@@ -1624,9 +1630,9 @@ window.EP = {
    "fuente_url": "https://www.alcalamasdeporte.com/noticias/8430/alcala-de-guadaira-impulsa-unas-jornadas-gratuitas-para-prevenir-las-caidas-en-las-personas-mayores",
    "title": "Dos jornadas gratuitas enseñarán a las personas mayores de Alcalá ejercicios para prevenir caídas",
    "sub": "Las sesiones serán el 13 de noviembre en el Centro Cívico Distrito Sur y el 20 en el de Silos-Zacatín, abiertas a toda la ciudadanía y sin inscripción",
-   "caption": "Imagen de archivo.",
-   "foto": "generica-alcala.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cartel de las jornadas de ejercicio para prevenir caídas en las personas mayores.",
+   "foto": "jornadas-prevencion-caidas-mayores-13-20-noviemb-cartel-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
    "claves": [
     "El Ayuntamiento organiza dos jornadas gratuitas sobre ejercicio físico para prevenir caídas en las personas mayores.",
     "La primera será el viernes 13 de noviembre a las 11.15 en el Centro Cívico Distrito Sur y la segunda, el viernes 20 a las 11.00 en el Centro Cívico Silos-Zacatín.",
@@ -1656,7 +1662,8 @@ window.EP = {
    ],
    "iso": "2026-11-11",
    "hora": "10:35",
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "encuadre": "contain"
   },
   {
    "id": "concurso-cancion-andaluza-iii-premios-4200-euros",
@@ -1789,9 +1796,9 @@ window.EP = {
    "fuente_url": "https://www.alcalamasdeporte.com/noticias/8429/el-cd-qalat-destaca-en-la-copa-diputacion-de-granada-de-kickboxing-con-siete-medallas",
    "title": "El CD Qalat vuelve de la Copa Diputación de Granada de Kickboxing con siete medallas",
    "sub": "Los cuatro deportistas del club alcalareño suman dos oros, cuatro platas y un bronce en las modalidades de Kick Light, Light Contact y K1 Light",
-   "caption": "Imagen de archivo.",
-   "foto": "generica-deportes.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Deportistas del CD Qalat con sus medallas de la Copa Diputación de Granada de Kickboxing.",
+   "foto": "cd-qalat-copa-diputacion-granada-kickboxing-siet-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
    "claves": [
     "El CD Qalat, club de Alcalá de Guadaíra, ha conseguido siete medallas en la Copa Diputación de Granada de Kickboxing: dos de oro, cuatro de plata y una de bronce.",
     "Jesús López ganó el oro en K1 Light y Adrián Sarria, el oro en Kick Light y el bronce en Light Contact.",
@@ -1820,7 +1827,8 @@ window.EP = {
    ],
    "iso": "2026-11-11",
    "hora": "10:35",
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "encuadre": "contain"
   },
   {
    "id": "ies-hienipa-ciclo-construccion-alcala",
@@ -1877,9 +1885,9 @@ window.EP = {
    "fuente_url": "https://www.alcaladeguadaira.es/noticias/9968/relanza-t-reune-a-mas-de-120-personas-en-la-primera-de-sus-cuatro-jornadas-de-activacion-para-el-empleo",
    "title": "RELANZA-T reúne a más de 120 personas en la primera de sus cuatro Jornadas de Activación para el Empleo",
    "sub": "La segunda cita será el 20 de noviembre en el Auditorio Riberas del Guadaíra, y habrá otras dos en febrero y marzo",
-   "caption": "El Auditorio Riberas del Guadaíra, sede de las Jornadas de Activación para el Empleo de RELANZA-T.",
-   "foto": "generica-economia.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Asistentes a la primera Jornada de Activación para el Empleo del programa RELANZA-T.",
+   "foto": "relanza-t-primera-jornada-activacion-empleo-of.jpg",
+   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
    "claves": [
     "Más de 120 personas participaron el 3 de noviembre en la primera Jornada de Activación para el Empleo de RELANZA-T, en el Auditorio Riberas del Guadaíra.",
     "El ciclo tiene cuatro jornadas: 3 de noviembre, 20 de noviembre, 10 de febrero y 12 de marzo.",
@@ -1965,9 +1973,9 @@ window.EP = {
    "fuente_url": "https://www.youtube.com/watch?v=v7p_hxeczsU&t=128s",
    "title": "El paro baja en octubre en Alcalá a 5.941 personas, un 11,8 % menos que hace un año",
    "sub": "La ciudad registra cinco parados menos que en septiembre y 798 menos que en octubre de 2025; las mujeres suman el 64 % del desempleo",
-   "caption": "Cifras de paro registrado de octubre de 2026 en Alcalá de Guadaíra.",
-   "foto": "generica-economia.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Viandantes junto a un comercio de Alcalá de Guadaíra, en una imagen de archivo.",
+   "foto": "paro-octubre-2026-alcala-5941-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "Alcalá de Guadaíra cerró octubre de 2026 con 5.941 personas paradas registradas, cinco menos que en septiembre (5.946).",
     "En un año el paro ha bajado en 798 personas, un 11,8 %, desde las 6.739 de octubre de 2025.",
@@ -2010,9 +2018,9 @@ window.EP = {
    "fuente_url": "https://www.alcaladeguadaira.es/noticias/9972/medio-ambiente-denuncia-danos-por-vandalismo-en-el-nuevo-sistema-de-iluminacion-del-camino-de-oromana",
    "title": "Medio Ambiente denuncia destrozos en las luces a ras de suelo del Camino de Oromana",
    "sub": "El Ayuntamiento ha dado traslado a la Policía Local para investigar la autoría y estudia instalar videovigilancia en el parque de ribera",
-   "caption": "Imagen de archivo del entorno del parque de ribera de Alcalá de Guadaíra.",
-   "foto": "generica-alcala.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Una de las balizas de iluminación dañadas en el Camino de Oromana.",
+   "foto": "oromana-vandalismo-iluminacion-camino-of.jpg",
+   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
    "claves": [
     "La Delegación de Medio Ambiente denuncia destrozos en varios báculos de luz a ras de suelo del sendero entre la Pasarela de San Juan y la Casa del Guarda.",
     "El Ayuntamiento ha trasladado a la Policía Local el informe de daños para que investigue la autoría y refuerce la vigilancia.",
@@ -2143,9 +2151,9 @@ window.EP = {
    "fuente_url": "https://www.youtube.com/watch?v=v7p_hxeczsU&t=1127s",
    "title": "La Cabalgata de Reyes comunica esta noche por sorpresa quiénes serán Melchor, Gaspar y Baltasar",
    "sub": "Los elegidos y la estrella de la ilusión conocerán la designación en sus casas; la asociación la hará pública después en sus redes sociales",
-   "caption": "Reyes Magos de la Cabalgata de Alcalá de Guadaíra, en una imagen de archivo.",
-   "foto": "generica-cultura.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Una carroza de la Cabalgata de Reyes Magos de Alcalá, en una imagen de archivo.",
+   "foto": "cabalgata-reyes-2027-designacion-sorpresa-reyes-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Asociación de la Cabalgata de Reyes de Alcalá comunica esta noche, miércoles 4 de noviembre, quiénes serán Melchor, Gaspar y Baltasar.",
     "Los elegidos no lo saben antes: la comitiva de la asociación va a sus domicilios para darles la noticia por sorpresa.",
