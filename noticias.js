@@ -1,11 +1,18 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-17",
+  "actualizado": "2026-11-18",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia.",
   "apertura": 2
  },
  "agenda": [
+  {
+   "cuando": "Mié 18 nov, 12.00",
+   "que": "Presentación del cartel del Evento Ecuestre 2027 de la Hermandad del Rocío",
+   "donde": "Stand El Molino, SICAB (Sevilla)",
+   "noticia": "rocio-cartel-evento-ecuestre-2027-sicab",
+   "hasta": "2026-11-18"
+  },
   {
    "cuando": "Hasta 18 nov",
    "que": "Plazo para los puestos de asesor jurídico y administrativo de VIVE Alcalá",
@@ -225,6 +232,94 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "id": "paz-vega-rueda-ana-no-alcala-angela-molina",
+   "sec": "cultura",
+   "kicker": "Cine",
+   "iso": "2026-11-18",
+   "hora": "07:24",
+   "src": "Ana Isabel Jiménez (Facebook)",
+   "fuente_url": "https://www.facebook.com/reel/1570381831520843/",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Paz Vega rueda en Alcalá de Guadaíra «Ana no», su segunda película como directora, con Ángela Molina",
+   "sub": "El largometraje adapta una novela de Agustín Gómez Arcos sobre la represión de la dictadura y graba en la ribera del Guadaíra",
+   "caption": "La ribera del Guadaíra en el entorno de Oromana, durante otro rodaje celebrado en octubre, en una imagen de archivo.",
+   "foto": "rodaje-pelicula-oromana-of.jpg",
+   "fotocredito": "Instagram del Ayuntamiento de Alcalá de Guadaíra",
+   "claves": [
+    "Alcalá de Guadaíra es uno de los escenarios del rodaje de «Ana no», el segundo largometraje de Paz Vega como directora.",
+    "La película adapta una novela del escritor almeriense Agustín Gómez Arcos sobre una generación que sufrió la represión de la dictadura.",
+    "Ángela Molina protagoniza el filme, con Álvaro Morte, Rossy de Palma y Alessio Boni en el reparto.",
+    "Según la alcaldesa, Ana Isabel Jiménez, el rodaje muestra varios rincones de la ribera del Guadaíra."
+   ],
+   "body": [
+    "La actriz y directora sevillana Paz Vega rueda en Alcalá de Guadaíra parte de «Ana no», su segundo largometraje detrás de las cámaras, una adaptación de una novela del escritor Agustín Gómez Arcos protagonizada por Ángela Molina. Lo ha dado a conocer la alcaldesa, Ana Isabel Jiménez, en sus perfiles de Facebook e Instagram, con un vídeo grabado durante el rodaje.",
+    "Según la alcaldesa, la película «recupera la memoria de toda una generación que sufrió la represión de la dictadura y que supo responder a ella con dignidad». El reparto lo completan Álvaro Morte, Rossy de Palma y el actor italiano Alessio Boni.",
+    "Jiménez sostiene que la producción es «una magnífica oportunidad para proyectar la imagen de Alcalá», porque muestra «algunos de los rincones más especiales» de la ribera del Guadaíra. La alcaldesa no ha detallado en qué puntos concretos se ha grabado ni durante cuántos días se extiende el rodaje en el término municipal.",
+    "## Una novela del exilio",
+    "Agustín Gómez Arcos, nacido en Enix (Almería) en 1933 y fallecido en París en 1998, desarrolló buena parte de su obra en Francia y en francés, después de exiliarse durante el franquismo. «Ana no» es el título con el que se conoce en español su novela «Ana non», publicada en 1977, la historia de una mujer mayor que emprende un viaje a pie a través de España en busca de su hijo, preso.",
+    "Para Paz Vega, «Ana no» llega después de «Rita», el largometraje con el que debutó como directora. En la nueva película dirige a Ángela Molina, que encarna el papel principal.",
+    "## Alcalá, escenario de rodajes",
+    "No es la primera grabación de cine en la ciudad este otoño. A finales de octubre, otro equipo de cine trabajó junto a los molinos de la Aceña y del Algarrobo, en el parque de Oromana, con cortes intermitentes del paso en los senderos, como ya <a href='#rodaje-pelicula-oromana-molinos'>informó El Panadero</a>. El Ayuntamiento no ha precisado si se trataba de la misma producción.",
+    "La alcaldesa cerraba su publicación con la idea de que la ciudad sigue «sumando historias, cultura y cine». No se ha anunciado todavía la fecha de estreno de «Ana no»."
+   ],
+   "seo": [
+    "paz-vega-ana-no-rodaje-alcala-guadaira",
+    "Paz Vega rueda «Ana no» en Alcalá con Ángela Molina",
+    "Paz Vega graba en Alcalá de Guadaíra «Ana no», su segunda película como directora, basada en una novela de Gómez Arcos y protagonizada por Ángela Molina.",
+    [
+     "Paz Vega",
+     "Ángela Molina",
+     "Agustín Gómez Arcos",
+     "rodaje de cine",
+     "Ana no",
+     "Ribera del Guadaíra"
+    ]
+   ]
+  },
+  {
+   "id": "rocio-cartel-evento-ecuestre-2027-sicab",
+   "sec": "hermandades",
+   "kicker": "Rocío",
+   "iso": "2026-11-18",
+   "hora": "07:24",
+   "src": "Hermandad del Rocío de Alcalá de Guadaíra (Facebook)",
+   "fuente_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0sXm8oKXZo4T1nR8X8RiNdb8podHG1tRzWVAxWtmHMxMEKwoxnpomNQ4GY3cFwXC2l&id=61567806238125",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La Hermandad del Rocío presenta este miércoles en SICAB el cartel de su Evento Ecuestre 2027",
+   "sub": "El acto será a las 12.00 en el stand El Molino del Salón Internacional del Caballo, en Sevilla",
+   "caption": "Imagen de archivo de la sección de hermandades de El Panadero.",
+   "foto": "generica-hermandades.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La Hermandad del Rocío de Alcalá de Guadaíra presenta el miércoles 18 de noviembre el cartel anunciador de su Evento Ecuestre 2027.",
+    "La presentación será a las 12.00 en el stand El Molino del Salón Internacional del Caballo (SICAB).",
+    "La hermandad celebra el sábado 21 de noviembre su XLIII aniversario con misa y cena."
+   ],
+   "body": [
+    "La Hermandad de Nuestra Señora del Rocío de Alcalá de Guadaíra presenta este miércoles 18 de noviembre, a las 12.00, el cartel anunciador de su Evento Ecuestre 2027. El acto tendrá lugar en el stand El Molino del Salón Internacional del Caballo (SICAB), en Sevilla, según ha comunicado la propia hermandad en su perfil de Facebook.",
+    "En su comunicado oficial, la corporación confirma así una nueva edición de este evento ecuestre, que, según explica, vuelve a ser posible gracias al apoyo y la colaboración de quienes lo hacen realidad. La hermandad no ha adelantado todavía la fecha ni el lugar de la edición de 2027 ni el autor del cartel.",
+    "SICAB, el Salón Internacional del Caballo, es la feria dedicada al caballo de pura raza española que se celebra cada otoño en Sevilla y reúne a criadores, jinetes y aficionados.",
+    "## Semana de aniversario",
+    "La presentación llega en una semana señalada para la hermandad, con sede en la parroquia de San Agustín. El sábado 21 de noviembre celebra su XLIII aniversario con una misa a las 19.30 y una cena posterior en el Salón de Celebraciones Zambra, a las 21.00, en la que proclamará al pregonero de 2027, como <a href='#rocio-xliii-aniversario-pregonero-2027-nuevas-reglas'>ya anunció</a>.",
+    "La corporación ha aprobado además en cabildo general extraordinario, celebrado el sábado 7 de noviembre, el proyecto de sus nuevas reglas, que adaptan su organización a las normas diocesanas de la Archidiócesis de Sevilla y que la hermandad elevará al Arzobispado para su aprobación definitiva.",
+    "<span class='howto'>Presentación del cartel del Evento Ecuestre 2027: miércoles 18 de noviembre, 12.00, stand El Molino, SICAB (Sevilla). Aniversario: sábado 21 de noviembre, misa a las 19.30 en San Agustín y cena a las 21.00 en el Salón Zambra.</span>"
+   ],
+   "seo": [
+    "hermandad-rocio-alcala-cartel-evento-ecuestre-2027-sicab",
+    "Rocío de Alcalá presenta en SICAB su Evento Ecuestre 2027",
+    "La Hermandad del Rocío de Alcalá de Guadaíra presenta el 18 de noviembre en SICAB, a las 12.00, el cartel anunciador de su Evento Ecuestre de 2027.",
+    [
+     "Hermandad del Rocío de Alcalá",
+     "SICAB",
+     "Evento Ecuestre 2027",
+     "San Agustín",
+     "caballo"
+    ]
+   ]
+  },
   {
    "id": "mes-del-pan-2026-record-3000-participantes",
    "sec": "economia",
