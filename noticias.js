@@ -1,32 +1,11 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-18",
+  "actualizado": "2026-11-19",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia.",
-  "apertura": 3
+  "apertura": 2
  },
  "agenda": [
-  {
-   "cuando": "Mié 18 nov, 12.00",
-   "que": "Presentación del cartel del Evento Ecuestre 2027 de la Hermandad del Rocío",
-   "donde": "Stand El Molino, SICAB (Sevilla)",
-   "noticia": "rocio-cartel-evento-ecuestre-2027-sicab",
-   "hasta": "2026-11-18"
-  },
-  {
-   "cuando": "Hasta 18 nov",
-   "que": "Plazo para los puestos de asesor jurídico y administrativo de VIVE Alcalá",
-   "donde": "Sede electrónica de VIVE Alcalá",
-   "noticia": "vive-alcala-plazas-asesor-administrativo",
-   "hasta": "2026-11-18"
-  },
-  {
-   "cuando": "Mié 18 nov, 19.30",
-   "que": "Presentación del lienzo restaurado del Cristo de los Desamparados (Ciclo de Conservación Preventiva)",
-   "donde": "Lugar pendiente de confirmar",
-   "noticia": "amargura-exposicion-cristo-desamparados-18-noviembre",
-   "hasta": "2026-11-18"
-  },
   {
    "cuando": "Jue 19 nov",
    "que": "Conferencia «Trasplantes, el gran milagro de la generosidad», con testimonios de donantes y trasplantados",
@@ -266,6 +245,20 @@ window.EP = {
    "hasta": "2026-12-31"
   },
   {
+   "cuando": "Dom 17 ene, 13.00",
+   "que": "Igualá del Santísimo Cristo del Perdón",
+   "donde": "Salones de la parroquia de la Inmaculada Concepción",
+   "noticia": "perdon-iguala-cristo-angustias-enero-2027",
+   "hasta": "2027-01-17"
+  },
+  {
+   "cuando": "Dom 24 ene, 13.00",
+   "que": "Igualá de Nuestra Señora de las Angustias (Hermandad del Perdón)",
+   "donde": "Salones de la parroquia de la Inmaculada Concepción",
+   "noticia": "perdon-iguala-cristo-angustias-enero-2027",
+   "hasta": "2027-01-24"
+  },
+  {
    "cuando": "5-7 mar 2027",
    "que": "II Concurso de Doma Vaquera y Enganches Ciudad de Alcalá",
    "donde": "Recinto ferial",
@@ -281,6 +274,184 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "iso": "2026-11-19",
+   "hora": "07:25",
+   "id": "emasesa-agua-regenerada-edar-ranilla-775000-m3",
+   "sec": "alcala",
+   "kicker": "Agua",
+   "src": "BOE",
+   "fuente_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37954",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Emasesa pide permiso para producir 775.000 metros cúbicos de agua regenerada al año en la depuradora de Ranilla",
+   "sub": "La Confederación Hidrográfica del Guadalquivir abre 30 días de información pública en el expediente, que el BOE sitúa en Alcalá de Guadaíra",
+   "caption": "Gráfico con el volumen anual de agua regenerada que solicita Emasesa para la depuradora de Ranilla.",
+   "foto": "emasesa-agua-regenerada-ranilla-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "Emasesa ha solicitado a la Confederación Hidrográfica del Guadalquivir autorización para producir y suministrar agua regenerada en la depuradora de Ranilla.",
+    "El volumen anual solicitado es de 775.000 metros cúbicos, según el anuncio publicado en el BOE el 18 de noviembre de 2026.",
+    "El agua se trataría con un proceso fisicoquímico, filtración por arena y cloración residual.",
+    "Las alegaciones se pueden presentar durante 30 días desde la publicación del anuncio."
+   ],
+   "body": [
+    "Emasesa, la Empresa Metropolitana de Abastecimiento y Saneamiento de Aguas de Sevilla, ha pedido a la Confederación Hidrográfica del Guadalquivir (CHG) autorización para producir y suministrar 775.000 metros cúbicos al año de agua regenerada en la depuradora de Ranilla, que el anuncio publicado en el BOE el 18 de noviembre sitúa en Alcalá de Guadaíra.",
+    "El agua regenerada es agua residual depurada que recibe un tratamiento adicional para poder reutilizarse en lugar de verterse al cauce. El anuncio del Boletín Oficial del Estado, firmado en Sevilla el 16 de octubre por la Comisaría de Aguas de la CHG, abre un periodo de información pública de 30 días contados desde su publicación en el <a href='https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37954'>BOE</a>.",
+    "## Cómo se trataría el agua",
+    "Según el anuncio, el agua saldría de la depuradora y pasaría por un tratamiento fisicoquímico, una filtración por arena y una cloración residual en laberinto antes de entregarse. El expediente, con la referencia ERA0015/SE-278/2025, incluye además un Plan de Gestión del Riesgo de Aguas Regeneradas, el documento que exige la normativa para controlar la calidad del agua según el uso al que se destine.",
+    "El volumen solicitado equivale a unos 2.100 metros cúbicos diarios de media. El anuncio fija el punto de cumplimiento, donde se comprobará la calidad del agua, en unas coordenadas concretas, pero no detalla para qué usos se suministrará ni quiénes serán los usuarios del agua regenerada.",
+    "La reutilización de aguas depuradas es una de las vías que contemplan las administraciones para reducir la presión sobre los embalses en periodos de sequía, porque permite destinar a riego, limpieza o usos industriales un agua que no procede de la red de abastecimiento.",
+    "## Quién puede alegar",
+    "Solo pueden presentar alegaciones quienes tengan la condición de interesados en el procedimiento. Para consultar la documentación, deben pedirlo expresamente a la Confederación antes de que termine el plazo, a través del Registro Electrónico Común, con el asunto «Solicitud acceso a documentación en fase de información pública», la referencia del expediente y sus datos de contacto.",
+    "<span class='howto'><b>Alegaciones al expediente ERA0015/SE-278/2025.</b> Plazo: 30 días desde el 18 de noviembre de 2026, fecha de publicación en el BOE. Dónde: Registro Electrónico Común, dirigido a la Comisaría de Aguas de la Confederación Hidrográfica del Guadalquivir; las personas físicas también pueden presentarlas en persona. Solo para quienes tengan la condición de interesados.</span>"
+   ],
+   "seo": [
+    "agua-regenerada-emasesa-edar-ranilla-alcala",
+    "Agua regenerada en Ranilla: Emasesa pide 775.000 m³",
+    "Emasesa solicita a la Confederación del Guadalquivir producir 775.000 m³ al año de agua regenerada en la EDAR de Ranilla, en Alcalá de Guadaíra.",
+    [
+     "Emasesa",
+     "EDAR de Ranilla",
+     "agua regenerada",
+     "Confederación Hidrográfica del Guadalquivir",
+     "BOE",
+     "reutilización de agua"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "07:25",
+   "id": "vox-tribuna-bomberos-san-rafael-autobus-hotel-oromana",
+   "sec": "politica",
+   "kicker": "La Tribuna",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=cx-PvKkOf5c&t=0s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Vox pide más medios para los bomberos y un autobús urbano para San Rafael tras un Pleno marcado por la deuda",
+   "sub": "Pedro Navarro y Carmen Loscertales cuestionan también la nueva licitación del Hotel Oromana y reclaman reactivar la comisión sobre el accidente de la Casa Ibarra",
+   "caption": "Imagen de archivo de la sección de política de El Panadero.",
+   "foto": "generica-politica.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Vox reclamó el 18 de noviembre, en el programa La Tribuna, más personal y medios materiales para el Servicio de Bomberos de Alcalá de Guadaíra.",
+    "El portavoz, Pedro Navarro, pidió un autobús urbano que conecte la barriada de San Rafael con el centro, aunque sea deficitario.",
+    "La concejala Carmen Loscertales criticó que VIVE Alcalá acumule cerca de 20 millones de deuda sin haber empezado ninguna vivienda.",
+    "El grupo pidió reactivar la comisión municipal sobre el accidente laboral de la Casa Ibarra."
+   ],
+   "body": [
+    "El grupo municipal de Vox en Alcalá de Guadaíra reclamó el miércoles 18 de noviembre más personal y medios para el Servicio de Bomberos y un autobús urbano para la barriada de San Rafael. Su portavoz, Pedro Navarro, y la concejala Carmen Loscertales repasaron en el programa La Tribuna el Pleno del día anterior y otros asuntos de la ciudad.",
+    "Loscertales volvió sobre el endeudamiento, el asunto que centró <a href='#pleno-noviembre-led-vive-piscina-cabeza-hermosa'>el Pleno de noviembre</a>. Vox no cuestiona el cambio del alumbrado a LED, dijo, pero sí que se financie con más deuda cuando el Ayuntamiento ya tuvo que aprobar un plan económico-financiero por incumplir la regla de gasto. Sobre VIVE Alcalá, sostuvo que la sociedad municipal se acerca a los 20 millones de euros de deuda sin haber empezado ninguna vivienda y aludió a un sobrecoste de casi 500.000 euros en la cimentación de una de sus promociones. En el Pleno, el gobierno defendió que el préstamo de las 107 viviendas se subrogará a los compradores.",
+    "## Bomberos y San Rafael",
+    "Sobre los bomberos, Loscertales afirmó que el colectivo lleva años pidiendo más efectivos y que la falta de plantilla obliga a pagar horas extra, que a su juicio se abonan con retraso, y provoca cansancio en el servicio. Es la misma reclamación que el <a href='#bomberos-alcala-sindicato-pide-mas-plantilla-oep-2027'>Sindicato Andaluz de Bomberos dirigió al Ayuntamiento a principios de noviembre</a>. El gobierno municipal ha anunciado nuevas plazas para 2027, sin concretar cuántas.",
+    "Navarro describió San Rafael como un barrio con carencias de alumbrado, limpieza y mobiliario urbano, con árboles caídos y una sede vecinal en mal estado. Trasladó además la petición de los vecinos de un autobús urbano diario que los conecte con el centro y con los servicios municipales. Según el portavoz, el gobierno argumenta que esa línea sería deficitaria; Vox sostiene que es un servicio público que debe prestarse igualmente.",
+    "## Obras, hotel y Casa Ibarra",
+    "El portavoz criticó los retrasos de las obras del centro y de Malas Mañanas, que atribuyó al calendario electoral, y se refirió de nuevo a la <a href='#vox-tala-arboles-castillo-ayuntamiento-88-ejemplares'>tala de árboles en el entorno del Castillo</a>. Loscertales dudó de que haya empresas interesadas en la <a href='#hotel-oromana-nueva-licitacion'>nueva licitación del Hotel Oromana</a> por el coste de las reformas exigidas; el delegado de Turismo, Christopher Rivas, ha defendido que los cambios en los pliegos fueron técnicos. El plazo para presentar candidaturas termina el 27 de noviembre.",
+    "Sobre el accidente laboral de la Casa Ibarra, en el que murieron dos personas, Loscertales pidió respetar las decisiones judiciales y reclamó que se reactive la comisión municipal creada para informar a los grupos, que según Vox lleva tiempo paralizada.",
+    "El programa incluyó preguntas de los demás grupos. La próxima semana participará el Partido Popular."
+   ],
+   "seo": [
+    "vox-alcala-bomberos-san-rafael-autobus-tribuna",
+    "Vox pide más bomberos y un autobús para San Rafael",
+    "Vox reclama en Alcalá de Guadaíra más medios para los bomberos, un autobús urbano para San Rafael y critica la deuda de VIVE tras el Pleno de noviembre.",
+    [
+     "Vox Alcalá",
+     "Pedro Navarro",
+     "Carmen Loscertales",
+     "bomberos",
+     "San Rafael",
+     "VIVE Alcalá",
+     "Hotel Oromana"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "07:25",
+   "id": "dulce-nombre-cartel-75-aniversario-jose-cabrera",
+   "sec": "hermandades",
+   "kicker": "Glorias",
+   "src": "Hermandad del Dulce Nombre (Facebook)",
+   "fuente_url": "https://www.facebook.com/1441239044763233/posts/1443133774573760",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "José Cabrera Lasso de la Vega pintará el cartel del 75 aniversario fundacional del Dulce Nombre",
+   "sub": "La Junta de Gobierno de la Hermandad de Caridad de Nuestra Señora del Dulce Nombre de María ha designado al cartelista de la efeméride",
+   "caption": "Imagen de archivo de la sección de hermandades de El Panadero.",
+   "foto": "generica-hermandades.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La Hermandad del Dulce Nombre de Alcalá de Guadaíra ha elegido a José Cabrera Lasso de la Vega como autor del cartel de su LXXV aniversario fundacional.",
+    "La designación la ha decidido la Junta de Gobierno y la ha comunicado la hermandad en Facebook el 18 de noviembre.",
+    "La hermandad no ha dado todavía la fecha de presentación del cartel ni el programa de la efeméride."
+   ],
+   "body": [
+    "La Hermandad de Caridad de Nuestra Señora del Dulce Nombre de María de Alcalá de Guadaíra ha designado a José Cabrera Lasso de la Vega como autor del cartel que anunciará su 75 aniversario fundacional. Lo ha comunicado la propia hermandad en su perfil de Facebook el miércoles 18 de noviembre.",
+    "Según la publicación, la decisión la ha tomado la Junta de Gobierno, que desea al cartelista acierto en el encargo y pide a su titular, Nuestra Señora del Dulce Nombre de María, que guíe su trabajo para anunciar la efeméride.",
+    "## Una efeméride por delante",
+    "La corporación no ha detallado aún cuándo se presentará el cartel ni qué actos prepara para conmemorar sus 75 años de historia.",
+    "La hermandad mantiene estas semanas su actividad habitual. Su coro, el de Nuestra Señora del Dulce Nombre de María, pondrá la música en los <a href='#cautivo-triduo-cristo-rey-19-22-noviembre'>cultos de Cristo Rey que la Hermandad del Cautivo celebra en San Sebastián</a> del 19 al 22 de noviembre. Además, la hermandad tiene prevista su zambomba para el 20 de diciembre, según recogió El Panadero en la información sobre <a href='#zambomba-rosario-salesianos-28-noviembre'>las zambombas de estas fechas</a>.",
+    "<span class='howto'><b>Hermandad del Dulce Nombre.</b> Cartelista del LXXV aniversario fundacional: José Cabrera Lasso de la Vega. Fecha de presentación del cartel: pendiente de anunciar por la hermandad.</span>"
+   ],
+   "seo": [
+    "dulce-nombre-cartel-75-aniversario-alcala",
+    "Dulce Nombre: cartelista del 75 aniversario en Alcalá",
+    "La Hermandad del Dulce Nombre de Alcalá de Guadaíra elige a José Cabrera Lasso de la Vega como autor del cartel de su 75 aniversario fundacional.",
+    [
+     "Hermandad del Dulce Nombre",
+     "José Cabrera Lasso de la Vega",
+     "75 aniversario",
+     "cartel",
+     "glorias de Alcalá"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "07:25",
+   "id": "perdon-iguala-cristo-angustias-enero-2027",
+   "sec": "hermandades",
+   "kicker": "Semana Santa",
+   "src": "Hermandad del Perdón (Facebook)",
+   "fuente_url": "https://www.facebook.com/1653440960158738/posts/1655725393263628",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El Perdón fija las igualás del Cristo y de la Virgen de las Angustias para el 17 y el 24 de enero",
+   "sub": "Las dos citas para los aspirantes a costaleros del Martes Santo serán a las 13.00 en los salones de la parroquia de la Inmaculada Concepción",
+   "caption": "Imagen de archivo de la sección de hermandades de El Panadero.",
+   "foto": "generica-hermandades.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La igualá del Santísimo Cristo del Perdón será el domingo 17 de enero de 2027 a las 13.00.",
+    "La de Nuestra Señora de las Angustias será el domingo 24 de enero de 2027, también a las 13.00.",
+    "Ambas se celebran en los salones de la parroquia de la Inmaculada Concepción, de cara al Martes Santo.",
+    "La hermandad pide a los aspirantes que acudan con el mismo calzado que usarán el día de la salida."
+   ],
+   "body": [
+    "La Hermandad del Perdón de Alcalá de Guadaíra celebrará el domingo 17 de enero de 2027 la igualá de los costaleros del Santísimo Cristo del Perdón y el domingo 24 la de Nuestra Señora de las Angustias, ambas a las 13.00 en los salones de la parroquia de la Inmaculada Concepción, según ha anunciado en Facebook.",
+    "La igualá es la reunión en la que el capataz mide a los costaleros y los coloca bajo el paso según su altura, para que el peso se reparta de forma pareja. Es el primer paso para formar las cuadrillas que llevarán los dos pasos de la hermandad el Martes Santo.",
+    "La hermandad ha publicado las dos convocatorias por separado este miércoles 18 de noviembre y pide a los aspirantes que acudan con el mismo calzado que vayan a llevar el día de la salida, porque la altura de cada costalero cambia según el zapato.",
+    "## Otras citas de la hermandad",
+    "Antes de las igualás, el Perdón tiene otras citas en el calendario. Su Grupo Joven ha abierto la inscripción para que <a href='#perdon-reyes-magos-visitan-casas-5-enero-2027'>los Reyes Magos visiten casas la noche del 5 de enero</a>.",
+    "<span class='howto'><b>Igualás de la Hermandad del Perdón.</b> Santísimo Cristo del Perdón: domingo 17 de enero de 2027, 13.00. Nuestra Señora de las Angustias: domingo 24 de enero de 2027, 13.00. Lugar: salones de la parroquia de la Inmaculada Concepción, Alcalá de Guadaíra. Los aspirantes deben llevar el calzado que usarán el Martes Santo.</span>"
+   ],
+   "seo": [
+    "perdon-iguala-costaleros-cristo-angustias-alcala",
+    "Igualás del Perdón en Alcalá: 17 y 24 de enero",
+    "La Hermandad del Perdón de Alcalá de Guadaíra convoca las igualás del Cristo del Perdón y de la Virgen de las Angustias el 17 y el 24 de enero de 2027.",
+    [
+     "Hermandad del Perdón",
+     "igualá",
+     "costaleros",
+     "Martes Santo",
+     "Nuestra Señora de las Angustias",
+     "Inmaculada Concepción"
+    ]
+   ]
+  },
   {
    "id": "pleno-noviembre-led-vive-piscina-cabeza-hermosa",
    "sec": "politica",
@@ -937,7 +1108,7 @@ window.EP = {
    "firma": "Redacción El Panadero",
    "elaboracion": "ia",
    "title": "La presentación del lienzo restaurado del Cristo de los Desamparados, aplazada por el luto, será el miércoles 18",
-   "sub": "La Hermandad de la Amargura anuncia para las 19.30 la exposición y la conferencia del Ciclo de Conservación Preventiva del Consejo de Hermandades",
+   "sub": "La exposición de las pinturas restauradas del Cristo de los Desamparados y del Santo Cristo de Burgos y la conferencia de Alejandro Redondo, en el Museo de la Ciudad",
    "caption": "Una sala de exposiciones del Museo de Alcalá de Guadaíra, donde estaba prevista la presentación aplazada, en una imagen de archivo.",
    "foto": "museo-tv.jpg",
    "fotocredito": "MiGuadaíraTV",
@@ -945,18 +1116,19 @@ window.EP = {
     "La exposición y la conferencia sobre el lienzo restaurado del Santísimo Cristo de los Desamparados se celebran el miércoles 18 de noviembre a las 19.30.",
     "El acto, aplazado a finales de octubre por el luto oficial tras el accidente de Urda, forma parte del Ciclo de Conservación Preventiva del Consejo de Hermandades.",
     "La pintura pertenece al patrimonio de la Hermandad de la Amargura.",
-    "La hermandad habla de una exposición dedicada «entre otras obras» a su lienzo, sin detallar el resto ni el lugar."
+    "El Consejo de Hermandades precisó que la exposición incluye también el «Santo Cristo de Burgos» y que la conferencia, a las 20.00, sería en el Museo de la Ciudad."
    ],
    "body": [
     "La Hermandad de la Amargura de Alcalá de Guadaíra ha anunciado que el miércoles 18 de noviembre, a las 19.30, se inaugurará la exposición y se celebrará la conferencia dedicada, entre otras obras, al lienzo restaurado del Santísimo Cristo de los Desamparados, una pintura de su patrimonio. Lo ha comunicado la hermandad en su perfil de Facebook este martes 17.",
     "El acto forma parte del Ciclo de Conservación Preventiva del Patrimonio que organiza el Consejo General de Hermandades y Cofradías de Alcalá, y llega después de su aplazamiento a finales de octubre.",
+    "El Consejo General de Hermandades y Cofradías completó el miércoles 18 en su perfil de Facebook los detalles del acto: a las 19.30 se inauguraba la exposición de la restauración de las pinturas «Santo Cristo de Burgos» y «Cristo de los Desamparados», y a las 20.00, en el Museo de la Ciudad, el vicepresidente del Consejo y conservador de obras de arte Alejandro Redondo y su equipo ofrecían una conferencia sobre el proceso de intervención.",
     "## Aplazado por el luto",
     "La presentación estaba prevista para el jueves 29 de octubre en el Museo de la Ciudad, pero el Consejo la suspendió por los tres días de <a href='#consejo-suspende-exposicion-pinturas-restauradas'>luto oficial decretado tras el accidente ferroviario de Urda</a> (Toledo). Entonces, el acto incluía la exposición de dos pinturas restauradas, el «Cristo de los Desamparados» de la Amargura y el «Santo Cristo de Burgos» de la parroquia de San Sebastián, y una conferencia sobre su intervención.",
-    "Esa conferencia iba a correr a cargo del conservador de obras de arte Alejandro Redondo, vicepresidente del Consejo y autor de la restauración, y de su equipo: Victoria Fernández Espejo, José Ángel del Valle Serrano y el historiador del arte Enrique Ruiz Portillo. En la nueva convocatoria, la hermandad no precisa el lugar ni enumera el resto de obras que se mostrarán.",
+    "Esa conferencia iba a correr a cargo del conservador de obras de arte Alejandro Redondo, vicepresidente del Consejo y autor de la restauración, y de su equipo: Victoria Fernández Espejo, José Ángel del Valle Serrano y el historiador del arte Enrique Ruiz Portillo.",
     "## Un ciclo sobre cómo cuidar el patrimonio",
     "El ciclo, que organizan el Consejo de Hermandades y el Ayuntamiento, busca que las cofradías aprendan a conservar sus bienes antes de tener que restaurarlos. En una de sus sesiones de octubre, el restaurador <a href='#pedro-manzano-conservacion-preventiva'>Pedro Manzano pidió a las hermandades de Alcalá cuidar cómo manipulan su patrimonio</a>. Redondo, por su parte, defendió entonces que cada hermandad tenga un responsable de conservación preventiva.",
     "La Amargura vive además un año de proyectos patrimoniales: prepara para la próxima Cuaresma <a href='#amargura-retablo-cristo-amor'>la primera fase de su nuevo retablo</a>.",
-    "<span class='howto'><b>Presentación del lienzo restaurado del Cristo de los Desamparados.</b> Miércoles 18 de noviembre, 19.30. Exposición y conferencia del Ciclo de Conservación Preventiva del Consejo General de Hermandades y Cofradías de Alcalá de Guadaíra. Lugar: pendiente de confirmar por la organización.</span>"
+    "<span class='howto'><b>Presentación de las pinturas restauradas del Cristo de los Desamparados y del Santo Cristo de Burgos.</b> Miércoles 18 de noviembre. Inauguración de la exposición, 19.30; conferencia de Alejandro Redondo y su equipo, 20.00, en el Museo de la Ciudad de Alcalá de Guadaíra. Ciclo de Conservación Preventiva del Consejo General de Hermandades y Cofradías.</span>"
    ],
    "seo": [
     "cristo-desamparados-lienzo-restaurado-amargura-alcala",
@@ -970,7 +1142,8 @@ window.EP = {
      "Alejandro Redondo",
      "restauración"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-19T07:25"
   },
   {
    "id": "cautivo-triduo-cristo-rey-19-22-noviembre",
