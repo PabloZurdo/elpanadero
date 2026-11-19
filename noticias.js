@@ -14,17 +14,17 @@ window.EP = {
    "hasta": "2026-11-19"
   },
   {
-   "cuando": "Jue 19 nov, 9.30",
-   "que": "Última jornada sobre diabetes para vecinos",
-   "donde": "Centro Cívico Silos-Zacatín",
-   "noticia": "jornadas-diabetes-federacion-al-guadaira-19-noviembre",
-   "hasta": "2026-11-19"
-  },
-  {
    "cuando": "Jue 19 nov, 18.30",
    "que": "Puertas abiertas de flamenco: talleres de guitarra y baile",
    "donde": "Centro San Miguel",
    "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
+   "hasta": "2026-11-19"
+  },
+  {
+   "cuando": "Jue 19 nov, 9.30",
+   "que": "Última jornada sobre diabetes para vecinos",
+   "donde": "Centro Cívico Silos-Zacatín",
+   "noticia": "jornadas-diabetes-federacion-al-guadaira-19-noviembre",
    "hasta": "2026-11-19"
   },
   {
@@ -49,6 +49,13 @@ window.EP = {
    "hasta": "2026-11-20"
   },
   {
+   "cuando": "Vie 20 nov, 17.00",
+   "que": "Última tarde de reparto de papeletas de beduino de la Cabalgata del Campo de las Beatas",
+   "donde": "Calle Rápida, 33",
+   "noticia": "cabalgatas-beduinos-campo-beatas-almuerzo-coronacion-reyesilos",
+   "hasta": "2026-11-20"
+  },
+  {
    "cuando": "Vie 20 nov, 19.30",
    "que": "Recital de poesía «Odisea a Poética», de Luis Brenes",
    "donde": "Centro San Miguel",
@@ -61,6 +68,20 @@ window.EP = {
    "donde": "Parroquia de San Agustín",
    "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
    "hasta": "2026-11-20"
+  },
+  {
+   "cuando": "Vie 20 nov, 21.00",
+   "que": "Concierto «Bondad: Candlelight» de la Agrupación Musical Santísimo Cristo de la Bondad (nuevo horario)",
+   "donde": "Parroquia de San Agustín",
+   "noticia": "borriquita-besamano-cristo-bondad-mantolin-cristo-rey",
+   "hasta": "2026-11-20"
+  },
+  {
+   "cuando": "16–21 nov",
+   "que": "XVI Senior International Champion MT200 de tenis",
+   "donde": "Club de Tenis Oromana",
+   "noticia": "tenis-senior-mt200-oromana-noviembre",
+   "hasta": "2026-11-21"
   },
   {
    "cuando": "21 nov",
@@ -77,20 +98,6 @@ window.EP = {
    "hasta": "2026-11-21"
   },
   {
-   "cuando": "21 nov, 9.30",
-   "que": "XIII Cross Escolar Solidario y II Carrera Solidaria",
-   "donde": "Pinares de Oromana",
-   "noticia": "cross-escolar-solidario-2026",
-   "hasta": "2026-11-21"
-  },
-  {
-   "cuando": "16–21 nov",
-   "que": "XVI Senior International Champion MT200 de tenis",
-   "donde": "Club de Tenis Oromana",
-   "noticia": "tenis-senior-mt200-oromana-noviembre",
-   "hasta": "2026-11-21"
-  },
-  {
    "cuando": "21 nov, 19.30",
    "que": "Misa del XLIII aniversario de la Hermandad del Rocío y, a las 21.00, cena con la proclamación del pregonero de 2027",
    "donde": "Parroquia de San Agustín y Salón Zambra",
@@ -98,10 +105,10 @@ window.EP = {
    "hasta": "2026-11-21"
   },
   {
-   "cuando": "Sáb 21 nov, 13.00",
-   "que": "Recital de cante de Elvira Ponce",
-   "donde": "Centro San Miguel",
-   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
+   "cuando": "21 nov, 9.30",
+   "que": "XIII Cross Escolar Solidario y II Carrera Solidaria",
+   "donde": "Pinares de Oromana",
+   "noticia": "cross-escolar-solidario-2026",
    "hasta": "2026-11-21"
   },
   {
@@ -112,10 +119,24 @@ window.EP = {
    "hasta": "2026-11-21"
   },
   {
-   "cuando": "Hasta 22 nov",
-   "que": "Pinturas restauradas del Cristo de Burgos y del Cristo de los Desamparados (presentación del 29 oct suspendida por el luto; sin nueva fecha)",
-   "donde": "Museo de Alcalá, sala de Arte Religioso",
-   "noticia": "consejo-suspende-exposicion-pinturas-restauradas",
+   "cuando": "Sáb 21 nov",
+   "que": "Presentación de la restauración del paso de San Juan Evangelista",
+   "donde": "Casa de hermandad de Jesús",
+   "noticia": "borriquita-besamano-cristo-bondad-mantolin-cristo-rey",
+   "hasta": "2026-11-21"
+  },
+  {
+   "cuando": "Sáb 21 nov, 13.00",
+   "que": "Recital de cante de Elvira Ponce",
+   "donde": "Centro San Miguel",
+   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
+   "hasta": "2026-11-21"
+  },
+  {
+   "cuando": "19-22 nov",
+   "que": "Triduo y función de Cristo Rey con Jesús Cautivo",
+   "donde": "Parroquia de San Sebastián",
+   "noticia": "cautivo-triduo-cristo-rey-19-22-noviembre",
    "hasta": "2026-11-22"
   },
   {
@@ -126,6 +147,20 @@ window.EP = {
    "hasta": "2026-11-22"
   },
   {
+   "cuando": "Dom 22 nov, 18.00",
+   "que": "«Quieto Parao», Festival Internacional de Comedia del Arte",
+   "donde": "Centro San Miguel",
+   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
+   "hasta": "2026-11-22"
+  },
+  {
+   "cuando": "Hasta 22 nov",
+   "que": "Pinturas restauradas del Cristo de Burgos y del Cristo de los Desamparados (presentación del 29 oct suspendida por el luto; sin nueva fecha)",
+   "donde": "Museo de Alcalá, sala de Arte Religioso",
+   "noticia": "consejo-suspende-exposicion-pinturas-restauradas",
+   "hasta": "2026-11-22"
+  },
+  {
    "cuando": "Sáb 21 y dom 22 nov",
    "que": "II Prueba de la Copa de Andalucía de Escalada de Bloque",
    "donde": "Wiseclimb",
@@ -133,17 +168,10 @@ window.EP = {
    "hasta": "2026-11-22"
   },
   {
-   "cuando": "19-22 nov",
-   "que": "Triduo y función de Cristo Rey con Jesús Cautivo",
-   "donde": "Parroquia de San Sebastián",
-   "noticia": "cautivo-triduo-cristo-rey-19-22-noviembre",
-   "hasta": "2026-11-22"
-  },
-  {
-   "cuando": "Dom 22 nov, 18.00",
-   "que": "«Quieto Parao», Festival Internacional de Comedia del Arte",
-   "donde": "Centro San Miguel",
-   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
+   "cuando": "Vie 20 a dom 22 nov",
+   "que": "Besamano del Cristo de la Bondad, con su nuevo mantolín",
+   "donde": "Hermandad de la Borriquita",
+   "noticia": "borriquita-besamano-cristo-bondad-mantolin-cristo-rey",
    "hasta": "2026-11-22"
   },
   {
@@ -154,17 +182,24 @@ window.EP = {
    "hasta": "2026-11-27"
   },
   {
-   "cuando": "Sáb 28 nov, 13.00",
-   "que": "IV Zambomba de la Hermandad del Rosario",
-   "donde": "Patio del Colegio Salesianos",
-   "noticia": "zambomba-rosario-salesianos-28-noviembre",
-   "hasta": "2026-11-28"
+   "cuando": "Vie 27 nov, 17.30",
+   "que": "Marcha sufragista de Transformando Entre Mujeres",
+   "donde": "Salida desde la avenida de la Constitución",
+   "noticia": "transformando-entre-mujeres-charla-violencia-vicaria-25n",
+   "hasta": "2026-11-27"
   },
   {
    "cuando": "7–28 nov",
    "que": "Flamenco, poesía, comedia y teatro en el Centro San Miguel",
    "donde": "Centro San Miguel",
    "noticia": "agenda-cultural-noviembre-2026",
+   "hasta": "2026-11-28"
+  },
+  {
+   "cuando": "Sáb 28 nov, 13.00",
+   "que": "IV Zambomba de la Hermandad del Rosario",
+   "donde": "Patio del Colegio Salesianos",
+   "noticia": "zambomba-rosario-salesianos-28-noviembre",
    "hasta": "2026-11-28"
   },
   {
@@ -274,6 +309,405 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "iso": "2026-11-19",
+   "hora": "22:34",
+   "id": "bomberos-alcala-denuncian-falta-plantilla-vehiculo-altura",
+   "sec": "alcala",
+   "kicker": "Bomberos",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=Yi3h2edvSD0&t=0s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Los bomberos de Alcalá piden nueve efectivos más y denuncian ocho meses de retraso en el pago de los refuerzos",
+   "sub": "La plantilla, con 31 bomberos operativos, reclama también un vehículo de altura, la segunda actividad para los mayores de 55 años y la reclasificación al grupo C1",
+   "caption": "Gráfico con los bomberos operativos del parque de Alcalá de Guadaíra y la plantilla mínima que reclaman.",
+   "foto": "bomberos-alcala-plantilla-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El Servicio de Bomberos de Alcalá de Guadaíra cuenta con 31 bomberos operativos, tres de ellos interinos, y la plantilla pide llegar al menos a 40.",
+    "Los bomberos aseguran que el Ayuntamiento les debe ocho meses de servicios de refuerzo y que el plan de pago acordado no se ha aplicado.",
+    "Según la plantilla, el parque lleva cerca de un año prácticamente sin vehículo de altura operativo.",
+    "Reclaman además la segunda actividad para los cinco compañeros mayores de 55 años y la reclasificación al grupo C1, prevista para marzo de 2027."
+   ],
+   "body": [
+    "Los bomberos de Alcalá de Guadaíra reclaman al Ayuntamiento al menos nueve efectivos más, el pago de ocho meses de servicios de refuerzo que, según aseguran, se les adeudan, y un vehículo de altura operativo. La plantilla expuso el jueves 19 de noviembre a El Panadero lo que considera un problema estructural del servicio.",
+    "El parque cuenta hoy con 31 bomberos operativos, de los cuales tres son interinos. «Nosotros mínimo estamos pidiendo 40 bomberos», explicó uno de sus integrantes. La plantilla presentó en 2024 un plan de empleo plurianual que tuviera en cuenta las jubilaciones y los pases a segunda actividad.",
+    "## Seis plazas en proceso",
+    "Según los bomberos, el Ayuntamiento ha habilitado seis plazas, que llevan un año en proceso y necesitarán otro año para resolverse. «Estamos hablando de mínimo año y medio para que esos bomberos estén operativos», señalan, y para entonces se habrán producido nuevas jubilaciones. El gobierno municipal cifró a finales de octubre en <a href='#policia-local-bomberos-plazas-tribuna'>cinco los bomberos que han entrado en 2026</a>.",
+    "El servicio funciona con un mínimo de siete bomberos por turno. Con la plantilla actual, afirman, es difícil cubrir vacaciones, permisos y fechas como la Navidad o el verano sin recurrir a horas extraordinarias.",
+    "Esas horas son el segundo frente. Los bomberos sostienen que acumulan ocho meses de deuda por los servicios de refuerzo y que el principio de acuerdo para un plan de pago no se ha llevado a efecto. El Pleno de octubre aprobó <a href='#horas-extra-pleno-reparo'>más de 1,2 millones de euros para pagar horas extraordinarias</a> del personal municipal.",
+    "## Vehículo de altura y segunda actividad",
+    "En cuanto a los medios, la plantilla explica que en noviembre de 2025 llegó al parque un vehículo de altura de 17 o 18 años que solo duró dos meses en servicio, y que desde entonces están prácticamente sin él. Hoy tardan unos cinco minutos en llegar a un incendio en el término municipal; si tiene que acudir un vehículo de Sanlúcar la Mayor o de Dos Hermanas, el tiempo sube a unos 15 minutos, advierten.",
+    "Piden también la segunda actividad, que permite a los bomberos mayores de 55 años pasar a funciones no operativas. En el parque hay cinco en esa situación. Y reclaman la reclasificación profesional al grupo C1, recogida en la modificación de la normativa andaluza de emergencias, que según la plantilla debe aplicarse antes de marzo de 2027 y sigue sin fecha.",
+    "Las reclamaciones coinciden con las que el <a href='#bomberos-alcala-sindicato-pide-mas-plantilla-oep-2027'>Sindicato Andaluz de Bomberos trasladó al Ayuntamiento a principios de noviembre</a> y con las que <a href='#vox-tribuna-bomberos-san-rafael-autobus-hotel-oromana'>Vox planteó el miércoles en el programa La Tribuna</a>. El Ayuntamiento no ha detallado cuántas plazas de bombero incluirá la oferta de empleo de 2027."
+   ],
+   "seo": [
+    "bomberos-alcala-plantilla-vehiculo-altura-horas-extra",
+    "Bomberos de Alcalá piden 9 efectivos y un vehículo de altura",
+    "Los bomberos de Alcalá de Guadaíra, con 31 efectivos, piden llegar a 40, cobrar ocho meses de refuerzos y recuperar un vehículo de altura operativo.",
+    [
+     "Bomberos de Alcalá",
+     "Ayuntamiento de Alcalá de Guadaíra",
+     "plantilla municipal",
+     "horas extraordinarias",
+     "vehículo de altura",
+     "segunda actividad"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "22:34",
+   "id": "decoalbero-premio-turismo-industrial-industria-viva-2026",
+   "sec": "economia",
+   "kicker": "Empresas",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=Yi3h2edvSD0&t=0s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Decoalbero, empresa de Alcalá, gana el Premio Turismo Industrial de la Diputación en «Industria Viva»",
+   "sub": "El galardón reconoce las visitas a sus instalaciones y a su cantera de albero e incluye su presencia en Fitur 2027 con la provincia de Sevilla",
+   "caption": "Imagen de archivo de la sección de Economía de El Panadero.",
+   "foto": "generica-economia.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Decoalbero, empresa de Alcalá de Guadaíra de los hermanos Salguero, ha recibido el XII Premio Turismo Industrial de la Provincia de Sevilla en la modalidad «Industria Viva».",
+    "El premio lo concede la Diputación de Sevilla y reconoce las visitas a sus instalaciones y a la cantera de albero.",
+    "Incluye la participación de la empresa en Fitur 2027 con la representación turística de la provincia, un vídeo promocional y una campaña en redes.",
+    "La otra distinción de esta edición, en patrimonio industrial, ha sido para la Torre del Agua de Los Palacios y Villafranca."
+   ],
+   "body": [
+    "Decoalbero, la empresa de Alcalá de Guadaíra de los hermanos Salguero, ha recibido esta semana el XII Premio Turismo Industrial de la Provincia de Sevilla en la modalidad «Industria Viva». Lo concede la Diputación de Sevilla, que en esta edición ha distinguido también, en patrimonio industrial, a la Torre del Agua de Los Palacios y Villafranca.",
+    "La modalidad «Industria Viva» reconoce, según el Ayuntamiento de Alcalá, la recuperación y puesta en valor de instalaciones, espacios y elementos vinculados a actividades económicas. En el caso de Decoalbero, el jurado ha tenido en cuenta las visitas que organiza a sus instalaciones y a la cantera de albero, donde el público puede conocer cómo se extrae y se trabaja este material.",
+    "## Fitur y promoción",
+    "El premio incluye promoción: la empresa participará en Fitur 2027, la feria internacional de turismo de Madrid, dentro de la representación turística de la provincia de Sevilla, y contará con un vídeo promocional y una campaña de difusión en redes sociales.",
+    "La alcaldesa, Ana Isabel Jiménez, acompañó a la empresa en la entrega. En su perfil de Facebook escribió que Decoalbero «lleva un pedacito de Alcalá allá donde va» y que ha creado un producto «que une nuestro albero con el espíritu emprendedor» de la ciudad. El albero, la tierra amarilla con la que se cubren paseos, jardines y plazas de toros, es una de las señas de identidad de Alcalá, que da nombre también a uno de sus institutos.",
+    "Los Premios Turismo Industrial forman parte de la estrategia de la Diputación, a través de su sociedad Prodetur, para promocionar las empresas de la provincia que abren sus puertas al público. La semana pasada, el programa «Al Día» ya mostró una de las visitas que Decoalbero organiza a la cantera para explicar el origen del albero.",
+    "Otras empresas instaladas en Alcalá han estado estos días en el escaparate de la Diputación: <a href='#press-trip-diputacion-naturgy-pilatus-alcala'>periodistas latinoamericanos visitaron Naturgy y Pilatus</a> dentro de un viaje de prensa organizado por Prodetur."
+   ],
+   "seo": [
+    "decoalbero-premio-turismo-industrial-industria-viva",
+    "Decoalbero gana el Premio Turismo Industrial de Diputación",
+    "Decoalbero, empresa de albero de Alcalá de Guadaíra, gana el XII Premio Turismo Industrial de la Diputación de Sevilla e irá a Fitur 2027 con la provincia.",
+    [
+     "Decoalbero",
+     "Diputación de Sevilla",
+     "Prodetur",
+     "turismo industrial",
+     "albero",
+     "Fitur 2027"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "22:34",
+   "id": "memorial-circulo-memoria-cementerio-san-mateo",
+   "sec": "alcala",
+   "kicker": "Memoria democrática",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=Yi3h2edvSD0&t=0s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Alcalá presenta el «Círculo de la Memoria», futuro memorial a las víctimas de la represión en San Mateo",
+   "sub": "El proyecto, presentado en las III Jornadas de Memoria Democrática, levanta círculos de hormigón, piedra y acero alrededor de un olivo",
+   "caption": "Imagen de archivo de la sección de Alcalá de El Panadero.",
+   "foto": "generica-alcala.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "El Ayuntamiento de Alcalá de Guadaíra presentó el miércoles 18 de noviembre el proyecto «Círculo de la Memoria», un memorial en el cementerio de San Mateo.",
+    "El espacio tendrá círculos concéntricos de hormigón, piedra y acero alrededor de un olivo de gran porte, en una zona del cementerio sin uso.",
+    "Estará dedicado a las víctimas de la represión cuyos restos se han localizado en las fosas de Alcalá en los últimos años.",
+    "La presentación abrió las III Jornadas de Memoria Democrática en el Auditorio Riberas del Guadaíra."
+   ],
+   "body": [
+    "El Ayuntamiento de Alcalá de Guadaíra presentó el miércoles 18 de noviembre el «Círculo de la Memoria», el proyecto del futuro memorial en el cementerio de San Mateo para recordar a las víctimas de la represión franquista. La presentación abrió las III Jornadas de Memoria Democrática en el Auditorio Riberas del Guadaíra.",
+    "El delegado de Identidad y Memoria Democrática, Christopher Rivas, explicó a El Panadero que Alcalá no tiene hasta hoy «un lugar físico» donde los familiares de las víctimas y de los represaliados puedan recordarlos. Era, dijo, una petición de la Asociación de Memoria de Alcalá desde hace años y uno de los objetivos de su delegación.",
+    "## Círculos alrededor de un olivo",
+    "El diseño plantea una estructura de círculos concéntricos de hormigón, piedra y acero cortén alrededor de un olivo de gran porte, como símbolo de paz. Se levantará en una zona del cementerio que ahora no tiene uso. Según Rivas, el proyecto está «prácticamente culminado» y se ha preparado con los técnicos de la delegación de Monumento Natural, Medio Ambiente y Sostenibilidad.",
+    "El memorial estará dedicado a las víctimas cuyos restos se han localizado en las fosas de Alcalá durante los trabajos de los últimos años. «Siempre hemos tenido presente que debería ser un espacio que inspirase tranquilidad, respeto y dignidad», afirmó el delegado. El Ayuntamiento no ha detallado el presupuesto ni el plazo de ejecución de la obra.",
+    "## El programa de las jornadas",
+    "La primera sesión siguió con un coloquio sobre las mujeres represaliadas durante el franquismo y la proyección del documental «Descarriadas, otro enfoque», centrado en el Patronato de Protección a la Mujer. Las jornadas continuaron el jueves 19 con el documental «Entre el pan y el olvido», impulsado por la delegación municipal de Memoria Democrática y presentado por su director, Pablo Coca, y un nuevo coloquio. El programa incluye también una conferencia sobre la represión en Sevilla a cargo del experto José María Márquez.",
+    "La Diputación de Sevilla abrió en octubre <a href='#memoria-democratica-subvenciones-diputacion'>un millón de euros en ayudas de memoria democrática para los ayuntamientos</a>, a las que Alcalá puede optar."
+   ],
+   "seo": [
+    "memorial-circulo-memoria-cementerio-san-mateo-alcala",
+    "Memorial «Círculo de la Memoria» en el cementerio de Alcalá",
+    "Alcalá de Guadaíra presenta el Círculo de la Memoria, un memorial en el cementerio de San Mateo para las víctimas de la represión halladas en sus fosas.",
+    [
+     "memoria democrática",
+     "cementerio de San Mateo",
+     "Christopher Rivas",
+     "Ayuntamiento de Alcalá de Guadaíra",
+     "represión franquista",
+     "fosas"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "22:34",
+   "id": "pena-solea-125-alumnos-institutos-dia-flamenco",
+   "sec": "cultura",
+   "kicker": "Flamenco",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=Yi3h2edvSD0&t=0s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La Peña Flamenca Soleá abre sus puertas a 125 alumnos de tres institutos de Alcalá por el Día del Flamenco",
+   "sub": "Los estudiantes escucharon una ponencia de Manolo Moreno y una muestra con el cante de Paco Morillo y la guitarra de Juan Manuel Flores",
+   "caption": "Imagen de archivo de la sección de Cultura de El Panadero.",
+   "foto": "generica-cultura.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La Peña Flamenca Soleá de Alcalá de Guadaíra recibió el jueves 19 de noviembre a 125 alumnos de tres institutos de la ciudad.",
+    "La jornada se organizó con motivo del Día Internacional del Flamenco, que se celebró el 16 de noviembre.",
+    "Incluyó una ponencia de Manolo Moreno y una muestra con el cante de Paco Morillo y la guitarra de Juan Manuel Flores."
+   ],
+   "body": [
+    "La Peña Flamenca Soleá de Alcalá de Guadaíra recibió la mañana del jueves 19 de noviembre a 125 alumnos de tres institutos de la ciudad, entre ellos el Al-Guadaíra y el Albero, en una jornada de puertas abiertas con motivo del Día Internacional del Flamenco, que se celebró el lunes 16.",
+    "Los estudiantes escucharon una ponencia de Manolo Moreno sobre el Día Internacional del Flamenco y asistieron después a una muestra en directo con el cante de Paco Morillo y la guitarra de Juan Manuel Flores.",
+    "La peña organiza esta actividad desde hace varios años para acercar el flamenco a los jóvenes. «Para nosotros es una alegría muy grande ver que la juventud viene aquí, a nuestra casa», explicó a El Panadero uno de sus responsables, que defendió el trabajo de las peñas «para que el flamenco no se olvide» y recordó el carácter andaluz de este arte y las aportaciones que ha recibido, en especial la del pueblo gitano.",
+    "## Flamenco en las aulas",
+    "Uno de los docentes que acompañó a los alumnos valoró la iniciativa porque, señaló, trabajar el flamenco en los centros educativos «es un poco complicado» y no siempre hay profesionales formados para impartirlo. Por eso considera útil llevar a los estudiantes a los lugares «donde el flamenco se vive».",
+    "La jornada combinó divulgación y música en directo para mostrar a los jóvenes los distintos estilos del flamenco, declarado Patrimonio Cultural Inmaterial de la Humanidad por la Unesco el 16 de noviembre de 2010, la fecha que da origen a su día internacional.",
+    "Alcalá celebró esa efeméride el domingo 15 con <a href='#dia-flamenco-auditorio-lleno-encuentro-penas-2026'>el Auditorio Riberas del Guadaíra lleno para ver a María Terremoto, Caracafé y El Petete</a>. Esta semana el flamenco sigue también en el Centro San Miguel, que <a href='#centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre'>programa talleres y un recital de Elvira Ponce</a> el sábado 21 a las 13.00."
+   ],
+   "seo": [
+    "pena-flamenca-solea-alumnos-institutos-dia-flamenco",
+    "Peña Soleá de Alcalá recibe a 125 alumnos por el flamenco",
+    "La Peña Flamenca Soleá de Alcalá de Guadaíra recibe a 125 alumnos de tres institutos con una ponencia y cante en directo por el Día del Flamenco.",
+    [
+     "Peña Flamenca Soleá",
+     "Día Internacional del Flamenco",
+     "institutos de Alcalá",
+     "Paco Morillo",
+     "Juan Manuel Flores",
+     "Manolo Moreno"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "22:34",
+   "id": "transformando-entre-mujeres-charla-violencia-vicaria-25n",
+   "sec": "alcala",
+   "kicker": "25N",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=Yi3h2edvSD0&t=0s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Transformando Entre Mujeres explica cómo detectar la violencia vicaria y convoca una marcha sufragista",
+   "sub": "La asociación alcalareña aconseja pedir asesoramiento en el 016 ante un caso y participará en la manifestación del 25N en Sevilla",
+   "caption": "Imagen de archivo de la sección de Alcalá de El Panadero.",
+   "foto": "generica-alcala.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La asociación Transformando Entre Mujeres celebró el miércoles 18 de noviembre en Alcalá de Guadaíra una charla para dar a conocer la violencia vicaria.",
+    "La ponente recomendó pedir asesoramiento en el 016 o en los teléfonos de atención a la mujer y a la infancia antes de actuar.",
+    "La asociación participará el 25 de noviembre en la manifestación del Movimiento Feminista en Sevilla y el viernes 27 organizará una marcha sufragista por Alcalá."
+   ],
+   "body": [
+    "La asociación Transformando Entre Mujeres celebró el miércoles 18 de noviembre en Alcalá de Guadaíra una charla para dar visibilidad a la violencia vicaria, la que utiliza a los hijos y las hijas para causar daño a sus madres. La actividad forma parte de su programación en torno al 25 de noviembre, Día Internacional de la Eliminación de la Violencia contra las Mujeres.",
+    "El objetivo, explicó la ponente a El Panadero, era sensibilizar sobre esta violencia y enseñar a detectarla y a actuar «de una forma que no sea dañina ni para la madre ni para el hijo». Según sus datos, en España se contabilizan unos 68 menores asesinados por violencia vicaria desde 2013, aunque subrayó que existen otras formas más sutiles, más difíciles de denunciar e igual de dañinas a largo plazo.",
+    "## Qué hacer ante un caso",
+    "Ante una sospecha, lo primero es asesorarse para no revictimizar al menor y proteger su seguridad y la de la madre. Ese asesoramiento se puede pedir en el 016 o en los teléfonos de atención a la mujer y a la infancia y la adolescencia. La ponente explicó que esta violencia genera en la mujer «incertidumbre, miedo, malestar y sobre todo control», y que es una forma de mantener la relación tras una ruptura.",
+    "La asociación ofrece además juegos coeducativos gratuitos a los centros escolares que los soliciten.",
+    "El programa municipal <a href='#alcala-actua-violencia-genero-25n-2026'>«Alcalá Actúa contra la Violencia de Género»</a> reúne estos días talleres, encuentros y teatro en torno a la misma fecha.",
+    "<span class='howto'><b>Próximas citas de Transformando Entre Mujeres.</b> Miércoles 25 de noviembre, 19.30: manifestación del Movimiento Feminista en Sevilla, desde la plaza de San Francisco; la asociación es una de las entidades organizadoras. Viernes 27 de noviembre, 17.30: marcha sufragista por Alcalá, con salida desde la avenida de la Constitución. Ayuda y asesoramiento: 016, gratuito y disponible las 24 horas.</span>"
+   ],
+   "seo": [
+    "violencia-vicaria-charla-transformando-entre-mujeres",
+    "Charla sobre violencia vicaria en Alcalá por el 25N",
+    "Transformando Entre Mujeres explica en Alcalá de Guadaíra cómo detectar la violencia vicaria y convoca una marcha sufragista para el 27 de noviembre.",
+    [
+     "Transformando Entre Mujeres",
+     "violencia vicaria",
+     "25N",
+     "violencia de género",
+     "016",
+     "marcha sufragista"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "22:34",
+   "id": "junta-electoral-pp-carteles-calle-arahal-campana-29n",
+   "sec": "politica",
+   "kicker": "Elecciones 29N",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=Yi3h2edvSD0&t=0s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La Junta Electoral obliga al PP de Alcalá a retirar carteles de las farolas de la calle Arahal, según el PSOE",
+   "sub": "Los socialistas sostienen que ese espacio no está entre los autorizados para la propaganda electoral de las generales del 29 de noviembre",
+   "caption": "Imagen de archivo de la sección de Política de El Panadero.",
+   "foto": "generica-politica.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Según el PSOE de Alcalá de Guadaíra, la Junta Electoral de Zona de Sevilla ha obligado al PP local a retirar los carteles que colocó en las farolas de la calle Arahal.",
+    "Los socialistas afirman que esa calle no figura entre los lugares autorizados, que el Ayuntamiento publicó en el BOP el 20 de octubre.",
+    "PSOE y PP intensifican esta semana sus actos en Alcalá ante las elecciones generales del domingo 29 de noviembre."
+   ],
+   "body": [
+    "La Junta Electoral de Zona de Sevilla ha obligado al PP de Alcalá de Guadaíra a retirar los carteles electorales que había colocado en las farolas de la calle Arahal, según informó el jueves 19 de noviembre el PSOE local en un comunicado. Los socialistas sostienen que ese espacio no está entre los autorizados para la propaganda de las elecciones generales del domingo 29 de noviembre.",
+    "En su nota, el PSOE recuerda que los lugares habilitados para colocar carteles los determinó el Ayuntamiento y se publicaron en el Boletín Oficial de la Provincia el 20 de octubre. Según los socialistas, cada formación tiene asignados espacios concretos, repartidos en función de los resultados de las anteriores elecciones y acordados en una reunión entre los partidos. El PSOE asegura que estará «vigilante» para que se respeten esas ubicaciones durante la campaña.",
+    "## Actos de campaña",
+    "La campaña ha llevado esta semana a Alcalá a candidatos del PSOE y del PP. El PSOE reunió el miércoles 18 en su sede a militantes y simpatizantes con la presencia de Francisco Toscano, candidato socialista al Congreso por Sevilla, de Carmen Castilla y de la alcaldesa y secretaria general del partido en la ciudad, Ana Isabel Jiménez.",
+    "Toscano pidió el voto a jóvenes, pensionistas, inquilinos y pequeños propietarios y acusó a la oposición de querer desmovilizar al electorado: «No es casual que pongan en cuestión el voto por correo», dijo. Jiménez defendió el modelo de su partido frente al que llamó «el retroceso» de los recortes y advirtió de un gobierno de la derecha con la ultraderecha. Los socialistas anunciaron presencia en plazas, barrios y domicilios hasta el día de la votación.",
+    "El PP, por su parte, recorrió el mismo miércoles la ciudad con Rafael Belmonte, su candidato al Congreso por Sevilla, según ha publicado en su perfil de Facebook. Los populares explican que siguen visitando Alcalá «barrio a barrio, calle a calle, negocio a negocio» para pedir el voto a Alberto Núñez Feijóo bajo el lema «El cambio necesario».",
+    "Las mesas electorales de la ciudad <a href='#mesas-electorales-sorteo-pleno-29-noviembre'>se sortearon en un pleno extraordinario el 30 de octubre</a>."
+   ],
+   "seo": [
+    "junta-electoral-pp-carteles-calle-arahal-alcala",
+    "Junta Electoral obliga al PP a quitar carteles en Alcalá",
+    "El PSOE de Alcalá de Guadaíra afirma que la Junta Electoral obliga al PP a retirar carteles de la calle Arahal, en plena campaña de las elecciones del 29N.",
+    [
+     "Junta Electoral de Zona de Sevilla",
+     "PP de Alcalá",
+     "PSOE de Alcalá",
+     "elecciones generales 29N",
+     "propaganda electoral",
+     "calle Arahal"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "22:34",
+   "id": "cabalgatas-beduinos-campo-beatas-almuerzo-coronacion-reyesilos",
+   "sec": "cultura",
+   "kicker": "Cabalgatas",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=Yi3h2edvSD0&t=0s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La Cabalgata del Campo de las Beatas reparte papeletas de beduino y ReyeSilos celebra su coronación",
+   "sub": "Salir de beduino en el cortejo cuesta 30 euros más una fianza de otros 30 que se devuelve al entregar el traje",
+   "caption": "Imagen de archivo de la sección de Cultura de El Panadero.",
+   "foto": "generica-cultura.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La Cabalgata de Reyes Magos del Campo de las Beatas entrega el jueves 19 y el viernes 20 de noviembre las papeletas de sitio para salir como beduino.",
+    "La papeleta cuesta 30 euros, más una fianza de 30 euros que se devuelve al entregar el traje.",
+    "La Cabalgata ReyeSilos celebra el sábado 21 de noviembre su almuerzo de coronación en la Hacienda Caridad."
+   ],
+   "body": [
+    "La Cabalgata de Reyes Magos del Campo de las Beatas, en Alcalá de Guadaíra, ha abierto el reparto de papeletas de sitio para quienes quieran formar parte de su cortejo como beduinos. La entrega se hace el jueves 19 y el viernes 20 de noviembre, de 17.00 a 19.30, en su local del número 33 de la calle Rápida.",
+    "La papeleta cuesta 30 euros, a los que se suma una fianza de otros 30 euros que la asociación devuelve cuando se entrega el traje después del desfile.",
+    "## ReyeSilos corona a sus Reyes",
+    "La Cabalgata ReyeSilos, la del barrio de Silos, celebra por su parte el sábado 21 de noviembre su tradicional almuerzo de coronación, que este año será en la Hacienda Caridad, según ha anunciado en su perfil de Facebook. La asociación atiende a sus socios todos los miércoles, de 18.00 a 20.00, en su sede de la calle Cabalgata ReyeSilos.",
+    "Las cabalgatas de barrio completan en Alcalá el desfile principal de la tarde del 5 de enero, el que organiza la Asociación de la Cabalgata de Reyes, que <a href='#cabalgata-reyes-2027-designacion-sorpresa-reyes-magos'>comunicó a principios de noviembre quiénes serán Melchor, Gaspar y Baltasar</a>. Esa asociación representa además el domingo 22 de noviembre <a href='#cenicienta-musical-solidario-cabalgata-22-noviembre'>un musical solidario de «La Cenicienta»</a> para recaudar fondos.",
+    "Otras entidades preparan también la noche de Reyes: el Grupo Joven de la Hermandad del Perdón <a href='#perdon-reyes-magos-visitan-casas-5-enero-2027'>organiza visitas de los Reyes Magos a domicilio</a> el 5 de enero.",
+    "<span class='howto'><b>Papeletas de beduino de la Cabalgata del Campo de las Beatas.</b> Jueves 19 y viernes 20 de noviembre, de 17.00 a 19.30. Local de la calle Rápida, 33. Precio: 30 euros más 30 euros de fianza, que se devuelven al entregar el traje.</span>"
+   ],
+   "seo": [
+    "cabalgata-campo-beatas-papeletas-beduino-reyesilos",
+    "Cabalgata del Campo de las Beatas: papeletas de beduino",
+    "La Cabalgata del Campo de las Beatas de Alcalá reparte papeletas de beduino por 30 euros y ReyeSilos celebra el sábado 21 su almuerzo de coronación.",
+    [
+     "Cabalgata del Campo de las Beatas",
+     "Cabalgata ReyeSilos",
+     "Reyes Magos 2027",
+     "beduinos",
+     "Silos",
+     "cabalgatas de Alcalá"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "22:34",
+   "id": "diogo-miguel-silva-titulo-mundial-k1-puerto-santa-maria",
+   "sec": "deportes",
+   "kicker": "Kickboxing",
+   "src": "Alcalá+Deporte",
+   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8442/diogo-miguel-silva-luchara-por-el-titulo-mundial-de-k1",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El alcalareño Diogo Miguel Silva disputa el domingo el título mundial de K1 ante el campeón, Fabio Loisi",
+   "sub": "El excampeón de Europa WAKO Pro, de 25 años, pelea en la velada CFNT de El Puerto de Santa María tras tres meses de preparación en Tailandia",
+   "caption": "Gráfico con el palmarés de Diogo Miguel Silva antes de su combate por el título mundial de K1.",
+   "foto": "diogo-silva-k1-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "Diogo Miguel Silva, deportista de Alcalá de Guadaíra de 25 años, disputa el domingo 22 de noviembre el título mundial de K1.",
+    "Su rival es el francés Fabio Loisi, actual campeón, en la velada CFNT de El Puerto de Santa María (Cádiz).",
+    "Silva suma cuatro campeonatos de España y seis de Andalucía amateur y el título europeo WAKO Pro."
+   ],
+   "body": [
+    "El alcalareño Diogo Miguel Silva disputará el domingo 22 de noviembre el título mundial de K1 frente al francés Fabio Loisi, actual campeón, en la velada CFNT que se celebra en El Puerto de Santa María (Cádiz). Lo ha anunciado Alcalá+Deporte, el portal deportivo del Ayuntamiento de Alcalá de Guadaíra.",
+    "El K1 es una modalidad del kickboxing que permite golpes de puño, pierna y rodilla. Silva, de 25 años, llega al combate con un palmarés que incluye cuatro campeonatos de España y seis de Andalucía en categoría amateur, el título europeo profesional de la WAKO, una de las principales federaciones internacionales de deportes de contacto, y combates en ONE Championship, una de las grandes ligas internacionales del sector.",
+    "## Preparación en Tailandia",
+    "El deportista ha pasado los últimos tres meses preparándose en Tailandia para este combate, que Alcalá+Deporte describe como uno de los mayores retos de su carrera.",
+    "Más allá del resultado del domingo, Silva busca el apoyo de empresas, entidades y patrocinadores que le permitan seguir con su preparación y su trayectoria internacional, según recoge el portal municipal.",
+    "Los deportes de combate alcalareños cierran un buen otoño: el <a href='#milu-luchas-olimpicas-subcampeon-liga-iberdrola-2026'>Club de Luchas Olímpicas Milu acabó la temporada como subcampeón de la Liga Iberdrola</a>.",
+    "<span class='howto'><b>Combate por el título mundial de K1.</b> Diogo Miguel Silva contra Fabio Loisi. Domingo 22 de noviembre, velada CFNT, El Puerto de Santa María (Cádiz). Las empresas interesadas en patrocinar al deportista pueden contactar a través de Alcalá+Deporte (info@alcalamasdeporte.com).</span>"
+   ],
+   "seo": [
+    "diogo-miguel-silva-titulo-mundial-k1",
+    "Diogo Miguel Silva, de Alcalá, pelea por el mundial de K1",
+    "El alcalareño Diogo Miguel Silva, excampeón de Europa WAKO Pro, disputa el 22 de noviembre el título mundial de K1 ante Fabio Loisi en El Puerto.",
+    [
+     "Diogo Miguel Silva",
+     "K1",
+     "kickboxing",
+     "Fabio Loisi",
+     "WAKO",
+     "deportistas de Alcalá"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-19",
+   "hora": "22:34",
+   "id": "borriquita-besamano-cristo-bondad-mantolin-cristo-rey",
+   "sec": "hermandades",
+   "kicker": "Cultos",
+   "src": "Hermandad de la Borriquita (Facebook)",
+   "fuente_url": "https://www.facebook.com/1767714672070448/posts/1772263474948901",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El Cristo de la Bondad estrena mantolín bordado en oro en su besamano de Cristo Rey, del 20 al 22 de noviembre",
+   "sub": "La pieza, bordada por Pepi Maya y diseñada por Rafael de Rueda, es una donación de hermanos y devotos de la Borriquita",
+   "caption": "Imagen de archivo de la sección de Hermandades de El Panadero.",
+   "foto": "generica-hermandades.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "El Santísimo Cristo de la Bondad de la Hermandad de la Borriquita de Alcalá de Guadaíra estará en besamano del viernes 20 al domingo 22 de noviembre.",
+    "La imagen estrena un mantolín bordado en oro por Pepi Maya y diseñado por Rafael de Rueda, donado por hermanos y devotos.",
+    "La Agrupación Musical Santísimo Cristo de la Bondad ofrece el viernes 20 a las 21.00 un concierto en la parroquia de San Agustín.",
+    "El fin de semana incluye además la presentación de la restauración del paso de San Juan de la Hermandad de Jesús, el sábado 21."
+   ],
+   "body": [
+    "La Hermandad de la Borriquita de Alcalá de Guadaíra expone en besamano al Santísimo Cristo de la Bondad del viernes 20 al domingo 22 de noviembre con motivo de la solemnidad de Jesucristo, Rey del Universo. La imagen estrena para la ocasión un mantolín bordado en oro, según ha publicado la hermandad en su perfil de Facebook.",
+    "El mantolín lo ha bordado Pepi Maya sobre un diseño de Rafael de Rueda y es una donación de hermanos y devotos de la cofradía. La Borriquita trabaja además en el patrimonio de su titular: en octubre <a href='#jesus-palio-socorro-borriquita-cristo-bondad'>estudiaba restaurar al Cristo de la Bondad</a>.",
+    "## Concierto de la Bondad",
+    "El mismo viernes 20, la Agrupación Musical Santísimo Cristo de la Bondad ofrece el concierto «Bondad: Candlelight» en la parroquia de San Agustín, dentro del ciclo municipal Alcalá EnClave de Música. El Ayuntamiento ha retrasado una hora su comienzo, que será a las 21.00 y no a las 20.00 como estaba previsto.",
+    "## Un fin de semana cofrade",
+    "No es la única cita del fin de semana. La Hermandad de Jesús presenta el sábado 21 la restauración del paso procesional de San Juan Evangelista, que quedará expuesto en su casa de hermandad. Ha recuperado también para el Adviento y la Navidad una antigua capa y una túnica de terciopelo con agremán de oro para la imagen del evangelista, según ha publicado en sus redes.",
+    "El Cautivo celebra hasta el sábado 21 <a href='#cautivo-triduo-cristo-rey-19-22-noviembre'>su triduo de Cristo Rey en San Sebastián</a>, a las 20.00. La Amargura convoca ese mismo sábado, a las 12.00, en su casa de hermandad una reunión informativa para los hermanos que quieran incorporarse como acólitos o monaguillos. Y la Divina Pastora celebra el viernes 20 su misa mensual, como cada tercer viernes de mes.",
+    "Fuera de Alcalá, la Hermandad del Águila mantiene hasta el miércoles 25 el manto de los devotos y la peana dorada, recién restaurados, en la muestra «Sevilla Fecit 2026» de la Casa Consistorial del Ayuntamiento de Sevilla. El Consejo General de Hermandades y Cofradías ha presentado, por su parte, su Foro de Formación 2026-2027, con una línea de formación cristiana y otra cultural y cofradiera.",
+    "<span class='howto'><b>Besamano del Cristo de la Bondad.</b> Del viernes 20 al domingo 22 de noviembre. <b>Concierto «Bondad: Candlelight».</b> Viernes 20, 21.00, parroquia de San Agustín. <b>Restauración del paso de San Juan.</b> Sábado 21, casa de hermandad de Jesús. <b>«Sevilla Fecit 2026».</b> Hasta el 25 de noviembre: de lunes a viernes, de 10.00 a 13.30 y de 17.00 a 20.00; sábados, de 10.00 a 13.30.</span>"
+   ],
+   "seo": [
+    "cristo-bondad-besamano-mantolin-borriquita-alcala",
+    "Besamano del Cristo de la Bondad con mantolín nuevo",
+    "El Cristo de la Bondad de la Borriquita de Alcalá estrena mantolín bordado en oro en su besamano de Cristo Rey, del 20 al 22 de noviembre de 2026.",
+    [
+     "Hermandad de la Borriquita",
+     "Cristo de la Bondad",
+     "besamano",
+     "Cristo Rey",
+     "Hermandad de Jesús",
+     "hermandades de Alcalá"
+    ]
+   ]
+  },
   {
    "iso": "2026-11-19",
    "hora": "07:25",
@@ -1107,19 +1541,20 @@ window.EP = {
    "fuente_url": "https://www.facebook.com/1491046389785408/posts/1492289582994422",
    "firma": "Redacción El Panadero",
    "elaboracion": "ia",
-   "title": "La presentación del lienzo restaurado del Cristo de los Desamparados, aplazada por el luto, será el miércoles 18",
-   "sub": "La exposición de las pinturas restauradas del Cristo de los Desamparados y del Santo Cristo de Burgos y la conferencia de Alejandro Redondo, en el Museo de la Ciudad",
+   "title": "El lienzo restaurado del Cristo de los Desamparados se expone en el Museo de la Ciudad hasta el domingo 22",
+   "sub": "Las pinturas restauradas del Cristo de los Desamparados y del Santo Cristo de Burgos se pueden ver en el Museo de la Ciudad hasta el domingo 22 de noviembre",
    "caption": "Una sala de exposiciones del Museo de Alcalá de Guadaíra, donde estaba prevista la presentación aplazada, en una imagen de archivo.",
    "foto": "museo-tv.jpg",
    "fotocredito": "MiGuadaíraTV",
    "claves": [
-    "La exposición y la conferencia sobre el lienzo restaurado del Santísimo Cristo de los Desamparados se celebran el miércoles 18 de noviembre a las 19.30.",
     "El acto, aplazado a finales de octubre por el luto oficial tras el accidente de Urda, forma parte del Ciclo de Conservación Preventiva del Consejo de Hermandades.",
     "La pintura pertenece al patrimonio de la Hermandad de la Amargura.",
-    "El Consejo de Hermandades precisó que la exposición incluye también el «Santo Cristo de Burgos» y que la conferencia, a las 20.00, sería en el Museo de la Ciudad."
+    "El Consejo de Hermandades precisó que la exposición incluye también el «Santo Cristo de Burgos» y que la conferencia, a las 20.00, sería en el Museo de la Ciudad.",
+    "Las dos pinturas restauradas se exponen en la sala de arte religioso del Museo de la Ciudad hasta el domingo 22 de noviembre."
    ],
    "body": [
-    "La Hermandad de la Amargura de Alcalá de Guadaíra ha anunciado que el miércoles 18 de noviembre, a las 19.30, se inaugurará la exposición y se celebrará la conferencia dedicada, entre otras obras, al lienzo restaurado del Santísimo Cristo de los Desamparados, una pintura de su patrimonio. Lo ha comunicado la hermandad en su perfil de Facebook este martes 17.",
+    "La Hermandad de la Amargura de Alcalá de Guadaíra anunció que el miércoles 18 de noviembre, a las 19.30, se inauguraría la exposición y se celebraría la conferencia dedicada, entre otras obras, al lienzo restaurado del Santísimo Cristo de los Desamparados, una pintura de su patrimonio. Lo ha comunicado la hermandad en su perfil de Facebook este martes 17.",
+    "La presentación se celebró finalmente el miércoles 18 en el Museo de la Ciudad, y las dos pinturas pueden visitarse en su sala de arte religioso hasta el domingo 22 de noviembre. El conservador Alejandro Redondo explicó a El Panadero que la tabla del Cristo de los Desamparados, procedente del antiguo cementerio de San Rafael y colocada después en la fachada de la parroquia de San Sebastián, exigió un trabajo «bastante meticuloso» sobre todo en el soporte, muy alterado. La hermandad la recuperó y la guarda desde hace unos años. Del Santo Cristo de Burgos, cubierto casi por completo de repintes y capas de barniz, destacó que la limpieza ha devuelto detalles como la llaga del pecho y la definición del rostro.",
     "El acto forma parte del Ciclo de Conservación Preventiva del Patrimonio que organiza el Consejo General de Hermandades y Cofradías de Alcalá, y llega después de su aplazamiento a finales de octubre.",
     "El Consejo General de Hermandades y Cofradías completó el miércoles 18 en su perfil de Facebook los detalles del acto: a las 19.30 se inauguraba la exposición de la restauración de las pinturas «Santo Cristo de Burgos» y «Cristo de los Desamparados», y a las 20.00, en el Museo de la Ciudad, el vicepresidente del Consejo y conservador de obras de arte Alejandro Redondo y su equipo ofrecían una conferencia sobre el proceso de intervención.",
     "## Aplazado por el luto",
@@ -1143,7 +1578,7 @@ window.EP = {
      "restauración"
     ]
    ],
-   "actualizada": "2026-11-19T07:25"
+   "actualizada": "2026-11-19T22:34"
   },
   {
    "id": "cautivo-triduo-cristo-rey-19-22-noviembre",
