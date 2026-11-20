@@ -1,32 +1,11 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-19",
+  "actualizado": "2026-11-20",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia.",
   "apertura": 2
  },
  "agenda": [
-  {
-   "cuando": "Jue 19 nov",
-   "que": "Conferencia «Trasplantes, el gran milagro de la generosidad», con testimonios de donantes y trasplantados",
-   "donde": "Hermandad de Jesús",
-   "noticia": "cautivo-soberano-poder-toma-posesion-juntas",
-   "hasta": "2026-11-19"
-  },
-  {
-   "cuando": "Jue 19 nov, 18.30",
-   "que": "Puertas abiertas de flamenco: talleres de guitarra y baile",
-   "donde": "Centro San Miguel",
-   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
-   "hasta": "2026-11-19"
-  },
-  {
-   "cuando": "Jue 19 nov, 9.30",
-   "que": "Última jornada sobre diabetes para vecinos",
-   "donde": "Centro Cívico Silos-Zacatín",
-   "noticia": "jornadas-diabetes-federacion-al-guadaira-19-noviembre",
-   "hasta": "2026-11-19"
-  },
   {
    "cuando": "20 nov",
    "que": "Segunda Jornada de Activación para el Empleo de RELANZA-T: «Marca personal, talento y oportunidades»",
@@ -310,6 +289,93 @@ window.EP = {
  ],
  "noticias": [
   {
+   "iso": "2026-11-20",
+   "hora": "07:25",
+   "id": "salario-minimo-2027-1286-euros-boe",
+   "sec": "economia",
+   "kicker": "Empleo",
+   "src": "BOE",
+   "fuente_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24189",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El salario mínimo subirá un 5,3 % en 2027 y quedará en 1.286 euros al mes",
+   "sub": "El BOE fija también un mínimo anual de 18.004 euros y 10,06 euros la hora para el empleo de hogar por horas",
+   "caption": "Gráfico con las nuevas cuantías del salario mínimo interprofesional para 2027.",
+   "foto": "salario-minimo-2027-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El salario mínimo interprofesional será de 1.286 euros al mes o 42,87 euros al día desde el 1 de enero de 2027, un 5,3 % más que en 2026.",
+    "Ningún trabajador a jornada completa podrá cobrar menos de 18.004 euros al año, el equivalente a 14 pagas de 1.286 euros.",
+    "Los eventuales de hasta 120 días cobrarán al menos 60,88 euros por jornada y el empleo de hogar por horas, 10,06 euros la hora.",
+    "Las ayudas autonómicas y municipales que usan el salario mínimo como referencia mantienen en 2027 la cuantía anterior, salvo que se decida lo contrario."
+   ],
+   "body": [
+    "El salario mínimo interprofesional (SMI) será de 1.286 euros al mes en 2027, un 5,3 % más que en 2026, según el Real Decreto 1013/2026, publicado el jueves 19 de noviembre en el Boletín Oficial del Estado (BOE). Desde el 1 de enero, la subida afecta a los trabajadores de Alcalá de Guadaíra que cobran el mínimo legal.",
+    "El Consejo de Ministros aprobó la norma el martes 17 de noviembre, a propuesta del Ministerio de Trabajo y Economía Social. Para los sueldos que se pagan por días, el mínimo queda en 42,87 euros por jornada. En cómputo anual, ningún trabajador a jornada completa podrá cobrar menos de 18.004 euros, el equivalente a 14 pagas de 1.286 euros.",
+    "## Eventuales y empleo de hogar",
+    "Los trabajadores con contratos temporales que no pasen de 120 días en la misma empresa cobrarán al menos 60,88 euros por jornada, una cantidad que ya incluye la parte proporcional de domingos, festivos y las dos pagas extraordinarias. Las empleadas y empleados de hogar que trabajan por horas en régimen externo tendrán un mínimo de 10,06 euros por hora efectivamente trabajada.",
+    "El salario mínimo se cuenta solo en dinero: el pago en especie no puede rebajarlo. Los sueldos que en su conjunto y en cómputo anual ya superan esa cantidad no cambian, porque el decreto permite compensar la subida con los complementos que el trabajador ya cobra.",
+    "## Ayudas que usan el SMI como referencia",
+    "El decreto no actualiza las normas autonómicas y municipales que usan el salario mínimo para fijar el nivel de renta de una ayuda o el acceso a un servicio público. En ellas seguirá valiendo durante 2027 la cuantía anterior, salvo que la Junta de Andalucía o el propio Ayuntamiento decidan aplicar la nueva. Lo mismo ocurre con los contratos privados que toman el SMI como referencia, salvo que las partes acuerden otra cosa.",
+    "Según el preámbulo de la norma, la subida tiene en cuenta el informe que presentó el 3 de noviembre la Comisión Asesora para el Análisis del Salario Mínimo Interprofesional y busca que el SMI alcance el 60 % del salario medio. En Alcalá, <a href='#paro-octubre-2026-alcala-5941'>el paro registrado bajó en octubre a 5.941 personas</a>.",
+    "<span class='howto'><b>Salario mínimo 2027.</b> 1.286 euros al mes o 42,87 euros al día. Mínimo anual: 18.004 euros. Eventuales de hasta 120 días: 60,88 euros por jornada. Empleo de hogar por horas: 10,06 euros la hora. En vigor del 1 de enero al 31 de diciembre de 2027. Texto completo en el <a href='https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24189'>BOE</a>.</span>"
+   ],
+   "seo": [
+    "salario-minimo-2027-1286-euros",
+    "Salario mínimo 2027: 1.286 euros al mes, un 5,3 % más",
+    "El BOE fija el salario mínimo de 2027 en 1.286 euros al mes y 18.004 al año. Qué cambia para trabajadores y empleo de hogar en Alcalá de Guadaíra.",
+    [
+     "salario mínimo interprofesional",
+     "SMI 2027",
+     "BOE",
+     "empleo de hogar",
+     "Ministerio de Trabajo",
+     "empleo Alcalá de Guadaíra"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-20",
+   "hora": "07:25",
+   "id": "amalia-borrero-libro-aceituneras-historias-contadas",
+   "sec": "cultura",
+   "kicker": "Libros",
+   "src": "Ana Isabel Jiménez (Facebook)",
+   "fuente_url": "https://www.facebook.com/1595493005932940/posts/1598745202274387",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Un libro de Amalia Borrero recoge los recuerdos de las mujeres de los almacenes de aceitunas de Alcalá",
+   "sub": "«Al hilo de los recuerdos» se incorpora a la colección municipal Historias contadas, según ha informado la alcaldesa en sus redes",
+   "caption": "Imagen de archivo de El Panadero.",
+   "foto": "generica-cultura.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "«Al hilo de los recuerdos», de Amalia Borrero, reúne historias de las mujeres que trabajaron en los almacenes de aceitunas de Alcalá de Guadaíra.",
+    "El libro se incorpora a la colección municipal Historias contadas, según ha publicado la alcaldesa, Ana Isabel Jiménez."
+   ],
+   "body": [
+    "«Al hilo de los recuerdos», un libro de Amalia Borrero, reúne las historias de las mujeres que trabajaron en los almacenes de aceitunas de Alcalá de Guadaíra. La obra se incorpora a la colección municipal Historias contadas, según ha publicado la alcaldesa, Ana Isabel Jiménez, en sus perfiles de Facebook e Instagram el jueves 19 de noviembre.",
+    "Según la alcaldesa, el libro recoge historias personales de mujeres que trabajaron en esos almacenes para sacar adelante a sus familias y que forman parte de la historia de la ciudad. Jiménez lo presenta como el retrato de una época que ayuda a entender la evolución de Alcalá y agradece a la autora su contribución a la memoria colectiva.",
+    "## Las aceituneras, en el centro",
+    "El trabajo de las aceituneras ha protagonizado otras actividades municipales este otoño. El ciclo «Paseando por Alcalá» abrió su edición el sábado 17 de octubre con una ruta dedicada a estas trabajadoras, en la que antiguas aceituneras contaron cómo lavaban, deshuesaban y rellenaban la aceituna en los almacenes.",
+    "La publicación de la alcaldesa no detalla dónde se puede conseguir el libro ni si habrá una presentación pública."
+   ],
+   "seo": [
+    "libro-amalia-borrero-aceituneras-alcala",
+    "Libro de Amalia Borrero sobre las aceituneras de Alcalá",
+    "«Al hilo de los recuerdos», de Amalia Borrero, recoge historias de las mujeres de los almacenes de aceitunas y entra en la colección Historias contadas.",
+    [
+     "Amalia Borrero",
+     "aceituneras",
+     "Historias contadas",
+     "memoria local",
+     "almacenes de aceitunas",
+     "libros"
+    ]
+   ]
+  },
+  {
    "iso": "2026-11-19",
    "hora": "22:34",
    "id": "bomberos-alcala-denuncian-falta-plantilla-vehiculo-altura",
@@ -430,7 +496,7 @@ window.EP = {
     "El memorial estará dedicado a las víctimas cuyos restos se han localizado en las fosas de Alcalá durante los trabajos de los últimos años. «Siempre hemos tenido presente que debería ser un espacio que inspirase tranquilidad, respeto y dignidad», afirmó el delegado. El Ayuntamiento no ha detallado el presupuesto ni el plazo de ejecución de la obra.",
     "## El programa de las jornadas",
     "La primera sesión siguió con un coloquio sobre las mujeres represaliadas durante el franquismo y la proyección del documental «Descarriadas, otro enfoque», centrado en el Patronato de Protección a la Mujer. Las jornadas continuaron el jueves 19 con el documental «Entre el pan y el olvido», impulsado por la delegación municipal de Memoria Democrática y presentado por su director, Pablo Coca, y un nuevo coloquio. El programa incluye también una conferencia sobre la represión en Sevilla a cargo del experto José María Márquez.",
-    "La Diputación de Sevilla abrió en octubre <a href='#memoria-democratica-subvenciones-diputacion'>un millón de euros en ayudas de memoria democrática para los ayuntamientos</a>, a las que Alcalá puede optar."
+    "La Diputación de Sevilla abrió en octubre un millón de euros en ayudas de memoria democrática para los ayuntamientos, a las que Alcalá puede optar."
    ],
    "seo": [
     "memorial-circulo-memoria-cementerio-san-mateo-alcala",
@@ -1562,7 +1628,7 @@ window.EP = {
     "Esa conferencia iba a correr a cargo del conservador de obras de arte Alejandro Redondo, vicepresidente del Consejo y autor de la restauración, y de su equipo: Victoria Fernández Espejo, José Ángel del Valle Serrano y el historiador del arte Enrique Ruiz Portillo.",
     "## Un ciclo sobre cómo cuidar el patrimonio",
     "El ciclo, que organizan el Consejo de Hermandades y el Ayuntamiento, busca que las cofradías aprendan a conservar sus bienes antes de tener que restaurarlos. En una de sus sesiones de octubre, el restaurador <a href='#pedro-manzano-conservacion-preventiva'>Pedro Manzano pidió a las hermandades de Alcalá cuidar cómo manipulan su patrimonio</a>. Redondo, por su parte, defendió entonces que cada hermandad tenga un responsable de conservación preventiva.",
-    "La Amargura vive además un año de proyectos patrimoniales: prepara para la próxima Cuaresma <a href='#amargura-retablo-cristo-amor'>la primera fase de su nuevo retablo</a>.",
+    "La Amargura vive además un año de proyectos patrimoniales: prepara para la próxima Cuaresma la primera fase de su nuevo retablo.",
     "<span class='howto'><b>Presentación de las pinturas restauradas del Cristo de los Desamparados y del Santo Cristo de Burgos.</b> Miércoles 18 de noviembre. Inauguración de la exposición, 19.30; conferencia de Alejandro Redondo y su equipo, 20.00, en el Museo de la Ciudad de Alcalá de Guadaíra. Ciclo de Conservación Preventiva del Consejo General de Hermandades y Cofradías.</span>"
    ],
    "seo": [
@@ -2838,7 +2904,7 @@ window.EP = {
     "Según la delegada de Empleo, Paula Fuster, la iniciativa busca complementar la formación del programa con herramientas y experiencias que ayuden a afrontar la búsqueda de empleo, reconocer capacidades y mejorar las oportunidades de incorporación al mercado laboral. El Ayuntamiento destaca el peso de las competencias transversales en los procesos de selección. Las jornadas también quieren favorecer el contacto entre participantes, empresas formadoras y entidades colaboradoras del proyecto.",
     "Las actividades se desarrollan sobre todo en el hall del Auditorio Riberas del Guadaíra, y algunos talleres usan aulas del recinto.",
     "## El proyecto RELANZA-T",
-    "RELANZA-T es el proyecto de empleabilidad del Ayuntamiento, que según el propio consistorio beneficia a 800 personas con más de 60 itinerarios formativos en profesiones de alta demanda laboral. Cuenta con una financiación aproximada de 5,7 millones de euros procedentes del Ministerio de Política Territorial, cofinanciados en un 85 % por el Fondo Social Europeo Plus (FSE+) y por el Ayuntamiento. El Panadero informó de la apertura de plazo de su <a href='#relanza-tercera-convocatoria'>tercera convocatoria de cursos</a>, que cerró el 30 de octubre.",
+    "RELANZA-T es el proyecto de empleabilidad del Ayuntamiento, que según el propio consistorio beneficia a 800 personas con más de 60 itinerarios formativos en profesiones de alta demanda laboral. Cuenta con una financiación aproximada de 5,7 millones de euros procedentes del Ministerio de Política Territorial, cofinanciados en un 85 % por el Fondo Social Europeo Plus (FSE+) y por el Ayuntamiento. El Panadero informó de la apertura de plazo de su tercera convocatoria de cursos, que cerró el 30 de octubre.",
     "<span class='howto'>Próximas jornadas: 20 de noviembre, «Marca personal, talento y oportunidades»; 10 de febrero, «Gestión emocional, resiliencia y autocuidado»; y 12 de marzo, «Empleo, networking y contacto con empresas». Todas cuentan con conferencias y talleres prácticos. El Ayuntamiento no ha detallado si las jornadas están abiertas a personas ajenas a los itinerarios.</span>"
    ],
    "seo": [
@@ -4346,7 +4412,7 @@ window.EP = {
     "## Dos alcalareños en Doñana",
     "Antequera no fue el único representante del club en la cita onubense. Fernando Morilla, también del Club CAPA, completó el recorrido de larga distancia y terminó la prueba.",
     "El campeonato dejó además un buen balance para el triatlón andaluz. Los deportistas de la comunidad sumaron 17 medallas en los Campeonatos de España de Triatlón de Larga Distancia y Aquabike disputados en el Desafío Doñana, según los datos de la Federación Andaluza de Triatlón.",
-    "El título se suma a otros resultados recientes del deporte de Alcalá, como la <a href='#yblanco-campeonato-espana'>clasificación del conjunto Juvenil Base del YBlanco para el Campeonato de España</a> de gimnasia rítmica.",
+    "El título se suma a otros resultados recientes del deporte de Alcalá, como la clasificación del conjunto Juvenil Base del YBlanco para el Campeonato de España de gimnasia rítmica.",
     "<span class='howto'>Próxima cita del Club CAPA en Alcalá: el club, junto al CC Los Alcores, organiza el <a href='#cross-escolar-solidario-2026'>XIII Cross Escolar Solidario y la II Carrera Solidaria</a> el sábado 21 de noviembre, con salida a las 9.30 en los Pinares de Oromana. La inscripción es un kilo de alimentos no perecederos y un donativo de 2 euros.</span>"
    ],
    "seo": [
@@ -4391,7 +4457,7 @@ window.EP = {
     "La suspensión de los festivales forma parte de una medida más amplia. Según ha comunicado el Ayuntamiento, quedan anulados todos los actos y actividades que organiza el Consistorio desde las 00.00 del jueves 29 hasta las 24.00 del sábado 31 de octubre, los tres días de <a href='#urda-sanchez-luto-oficial'>luto oficial decretados por el Gobierno de España</a>.",
     "## Cómo se devuelven las entradas",
     "Las entradas de los dos conciertos se reembolsarán por el mismo canal por el que se compraron, y cada comprador recibirá un correo electrónico de aviso. La Delegación de Cultura calcula que las devoluciones estarán completas en unas 96 horas, es decir, cuatro días. Si pasado ese plazo el dinero no ha llegado, el Ayuntamiento ha habilitado un teléfono y un correo electrónico para revisar cada caso.",
-    "El PrePanarraFest tenía en su cartel a LosPicy, Original Elías, Javi Torres y Óscar Herrera, con entradas a dos euros. El PanarraFest iba a reunir el sábado a Nebulossa y Ladilla Rusa, junto a Carmen Xía, Karmento y Tú Peleas Como Una Vaca. Para las dos noches, el Ayuntamiento había preparado <a href='#panarrafest-dispositivo'>un dispositivo de tráfico y aparcamiento</a> con cortes en la rotonda del Auditorio desde las 17.00.",
+    "El PrePanarraFest tenía en su cartel a LosPicy, Original Elías, Javi Torres y Óscar Herrera, con entradas a dos euros. El PanarraFest iba a reunir el sábado a Nebulossa y Ladilla Rusa, junto a Carmen Xía, Karmento y Tú Peleas Como Una Vaca. Para las dos noches, el Ayuntamiento había preparado un dispositivo de tráfico y aparcamiento con cortes en la rotonda del Auditorio desde las 17.00.",
     "En su nota, la Delegación de Cultura explica que ha tomado la decisión «por respeto al dolor de todo el país» y recuerda que la tragedia toca de cerca a la ciudad por la desaparición de un vecino, <a href='#policia-alcala-desaparecido-urda'>un policía nacional que viajaba en uno de los trenes</a>. El Ayuntamiento no ha anunciado si los festivales tendrán nueva fecha.",
     "## Otros actos aplazados",
     "La suspensión alcanza también a la noche de Halloween. El Ayuntamiento ha recordado este viernes en su perfil de Instagram que se ha cancelado el pasacalles que preparaba con la Asociación de Comerciantes Santa Lucía y que tampoco habrá las actividades de Halloween organizadas por la Casa de la Juventud. El luto oficial se extiende hasta las doce de la noche del sábado 31 de octubre.",
@@ -5529,7 +5595,7 @@ window.EP = {
     "La coordinadora provincial del Plan de Empleo de Cruz Roja Sevilla, Carmen de la Corte Granado, explicó que la organización repite en Alcalá por el número de empresas y el potencial laboral de la ciudad. «Algo que valoran mucho las empresas es que pueden ver cara a cara a los candidatos», señaló, y añadió que para los asistentes la ventaja es poder dar el currículum en mano.",
     "## La oficina de Cruz Roja",
     "Cruz Roja tiene en Alcalá una oficina local en la calle Barrio Obrero, 3, desde la que desarrolla programas de orientación y acompañamiento para personas que necesitan apoyo para mejorar su empleabilidad.",
-    "La feria coincide con otras iniciativas de empleo en marcha en la ciudad, como los cursos gratuitos de <a href='#relanza-tercera-convocatoria'>RELANZA-T</a> y la <a href='#plazas-empleo-asesor-juridico-mantenimiento'>convocatoria de dos plazas fijas en el Ayuntamiento</a>.",
+    "La feria coincide con otras iniciativas de empleo en marcha en la ciudad, como los cursos gratuitos de RELANZA-T y la <a href='#plazas-empleo-asesor-juridico-mantenimiento'>convocatoria de dos plazas fijas en el Ayuntamiento</a>.",
     "<span class='howto'>Cuándo: martes 10 de noviembre, de 9:30 a 14:00. Dónde: Caseta Municipal del recinto ferial de San Juan. Precio: entrada libre. Qué llevar: currículum impreso. Organiza: Cruz Roja, con el Ayuntamiento de Alcalá de Guadaíra.</span>"
    ],
    "seo": [
@@ -5692,7 +5758,7 @@ window.EP = {
     "El PP pide al portavoz andalucista, Christopher Rivas, que explique el cambio de postura."
    ],
    "body": [
-    "El Partido Popular de Alcalá de Guadaíra ha acusado a Andalucía Por Sí, socio del gobierno municipal, de cambiar de postura sobre el Reglamento Orgánico Municipal (ROM), la norma que regula el funcionamiento del Pleno. Los andalucistas votaron en contra de la <a href='#pleno-octubre-mociones'>propuesta del PP para revisarlo</a>, debatida en el último Pleno.",
+    "El Partido Popular de Alcalá de Guadaíra ha acusado a Andalucía Por Sí, socio del gobierno municipal, de cambiar de postura sobre el Reglamento Orgánico Municipal (ROM), la norma que regula el funcionamiento del Pleno. Los andalucistas votaron en contra de la propuesta del PP para revisarlo, debatida en el último Pleno.",
     "La presidenta local del PP y candidata a la alcaldía, Sandra González, considera contradictorio que la formación andalucista defendiera cambios en el reglamento cuando estaba en la oposición y ahora, desde el gobierno, rechace una iniciativa para modificarlo.",
     "## La comisión de 2023",
     "Los populares recuerdan que en febrero de 2023 Andalucía Por Sí votó a favor de crear una comisión especial para estudiar posibles mejoras del reglamento. Entre ellas figuraban nuevas fórmulas de participación ciudadana, como la figura del «concejal 26», que permitiría a vecinos y colectivos intervenir en las sesiones.",
@@ -5959,7 +6025,7 @@ window.EP = {
     "Entre los 25 y los 44 años la reducción ha sido mucho mayor: un 63,3 % en los hombres y un 56,3 % en las mujeres. En conjunto, los mayores de 45 años son el 57,3 % de los parados del municipio. Los menores de 25 años suman 605 parados, frente a 906 en 2016.",
     "Por sectores, los servicios reúnen 4.337 parados, el 72,9 % del total. La industria y la construcción son los que más han reducido su desempleo en diez años: la industria ha pasado de 1.230 a 456 parados y la construcción, de 1.007 a 387. Otros 636 parados no habían tenido un empleo anterior.",
     "El paro registrado cuenta a las personas inscritas como demandantes de empleo en las oficinas públicas. No es la tasa de paro de la Encuesta de Población Activa, que no se publica por municipios, y por sí solo no indica cuánto empleo nuevo se ha creado en Alcalá.",
-    "<span class='howto'>Los datos de octubre se publicarán a principios de noviembre. Quien busque trabajo o formación en Alcalá puede inscribirse hasta el 30 de octubre en la <a href='#relanza-tercera-convocatoria'>tercera convocatoria de cursos del programa RELANZA-T</a>. Datos de esta pieza: ficheros de paro registrado por municipios del SEPE, de enero de 2006 a septiembre de 2026.</span>"
+    "<span class='howto'>Los datos de octubre se publicarán a principios de noviembre. Quien busque trabajo o formación en Alcalá puede inscribirse hasta el 30 de octubre en la tercera convocatoria de cursos del programa RELANZA-T. Datos de esta pieza: ficheros de paro registrado por municipios del SEPE, de enero de 2006 a septiembre de 2026.</span>"
    ],
    "seo": [
     "paro-alcala-guadaira-diez-anos-sepe",
@@ -6381,7 +6447,7 @@ window.EP = {
     "El reparto tiene dos partes. El 60 % de la línea, 3,6 millones de euros, se divide a partes iguales: cada entidad beneficiaria recibe una cuantía fija de 33.644,86 euros. El 40 % restante, 2,4 millones, se distribuye según la población de cada municipio.",
     "La nota de la Diputación no detalla cuánto corresponde a cada municipio en la parte variable. Alcalá, con más de 75.000 habitantes, es el segundo municipio más poblado de los que pueden pedir la ayuda, por detrás de Dos Hermanas.",
     "El dinero sirve para pagar la contratación de actividades y espectáculos de artes escénicas, música, artes visuales, audiovisual y actividades literarias. La línea ha crecido: en 2024 la Diputación le dedicó <a href='https://www.dipusevilla.es/comunicacion/noticias/La-Diputacion-dispone-2M-para-apoyar-las-contrataciones-artisticas-de-las-entidades-locales-sevillanas-en-2024/'>dos millones de euros</a>, la tercera parte que ahora.",
-    "No es la única convocatoria de la Diputación a la que puede optar Alcalá: sigue abierta la de <a href='#memoria-democratica-subvenciones-diputacion'>un millón de euros para proyectos de memoria democrática</a>, que se publicó en el BOP el 20 de octubre.",
+    "No es la única convocatoria de la Diputación a la que puede optar Alcalá: sigue abierta la de un millón de euros para proyectos de memoria democrática, que se publicó en el BOP el 20 de octubre.",
     "<span class='howto'>Quién puede pedirla: los ayuntamientos de la provincia de Sevilla, salvo el de la capital, y las dos entidades locales autónomas (107 en total). Plazo: hasta el 12 de noviembre de 2026. Cuantía: 33.644,86 euros fijos por entidad más una parte según la población. Para qué: contratar artes escénicas, música, artes visuales, audiovisual y actividades literarias. Bases y extracto: Boletín Oficial de la Provincia de Sevilla.</span>"
    ],
    "seo": [
@@ -6824,7 +6890,7 @@ window.EP = {
    "body": [
     "El Pleno de Alcalá de Guadaíra aprobó por unanimidad el martes 20 de octubre el plan de choque contra la desigualdad y la fractura urbana que propuso el PP, y rechazó la moción de Alcalá Nos Importa para declarar a San Mateo alcalde perpetuo.",
     "## Desigualdad y reglamento",
-    "El PP defendió que la brecha entre alcalareños crece, con más vecinos en el umbral de la pobreza, y pidió crear una mesa sobre igualdad de oportunidades y medidas urbanas para que todos los barrios reciban los mismos servicios. El gobierno municipal votó a favor y se comprometió a estudiar medidas para reducir las diferencias entre zonas. La segunda moción del PP, para <a href='#pleno-octubre-mociones'>reformar el reglamento orgánico</a> y abrir preguntas de las asociaciones al gobierno, no contó con el apoyo del gobierno.",
+    "El PP defendió que la brecha entre alcalareños crece, con más vecinos en el umbral de la pobreza, y pidió crear una mesa sobre igualdad de oportunidades y medidas urbanas para que todos los barrios reciban los mismos servicios. El gobierno municipal votó a favor y se comprometió a estudiar medidas para reducir las diferencias entre zonas. La segunda moción del PP, para reformar el reglamento orgánico y abrir preguntas de las asociaciones al gobierno, no contó con el apoyo del gobierno.",
     "## Vivienda e inspección de calles",
     "Vox logró que se aprobara, con la abstención del gobierno, su propuesta de estudiar la demanda de vivienda y el suelo disponible en Alcalá. Su portavoz, Pedro José Navarro Sánchez, sostuvo que en la ciudad «no hay mercado de alquiler». La segunda moción, para reforzar la inspección de calles, aceras y alumbrado con un calendario por barrios, tampoco recibió el voto favorable del gobierno, que se abstuvo al entender que buena parte de esas medidas ya se aplican. Vox citó una farola caída durante tres años en la calle Artilleros que acabó sustituida por un macetero.",
     "## San Mateo y Jesús Nazareno",
@@ -7004,7 +7070,7 @@ window.EP = {
     "La adjudicación se hará por procedimiento abierto simplificado. La oferta económica vale el 65 % de la puntuación; la memoria técnica, el 25 %, y la ampliación del plazo de garantía, el 10 %. El plazo de ejecución es de seis meses y las ofertas se pueden presentar hasta el 4 de noviembre de 2026.",
     "Para concursar, las empresas deben acreditar trabajos similares en los últimos cinco años o una clasificación en el grupo C. También deben acreditar un volumen anual de negocio de al menos el 150 % del presupuesto de los lotes a los que se presenten. Las de nueva creación pueden sustituir la experiencia por un jefe de obra con diez años en la profesión y un encargado con cinco.",
     "## Sin nota municipal",
-    "El Ayuntamiento no ha difundido ninguna nota sobre la reforma ni ha explicado dónde se celebrarán las sesiones plenarias mientras duren los trabajos. En el salón actual se celebró el martes 20 de octubre el <a href='#pleno-octubre-mociones'>pleno ordinario de octubre</a>."
+    "El Ayuntamiento no ha difundido ninguna nota sobre la reforma ni ha explicado dónde se celebrarán las sesiones plenarias mientras duren los trabajos. En el salón actual se celebró el martes 20 de octubre el pleno ordinario de octubre."
    ],
    "seo": [
     "reforma-salon-plenos-ayuntamiento-alcala-licitacion",
@@ -7123,7 +7189,7 @@ window.EP = {
     "Según el PP, el deterioro afecta sobre todo a las personas mayores, a quienes tienen movilidad reducida o usan silla de ruedas y a las familias con carritos. El partido señala también que en varios alcorques no se han repuesto los árboles muertos.",
     "La formación pide al gobierno local, de PSOE y Andalucía Por Sí, que repare la solería, retire los obstáculos, reponga los árboles, arregle los alcorques y mejore la limpieza. Reclama además un plan de mantenimiento que evite que la avenida vuelva a este estado. González acusa al Ejecutivo de Ana Isabel Jiménez de hacer «simples lavados de cara».",
     "## Una queja que se repite",
-    "No es la primera iniciativa de la oposición sobre el estado de las calles en las últimas semanas. Vox llevó al pleno de octubre una propuesta para inspeccionar calles y aceras por barrios con un calendario público de arreglos, y el PP defendió en la misma sesión un <a href='#pleno-octubre-mociones'>plan de choque contra la desigualdad entre barrios</a>.",
+    "No es la primera iniciativa de la oposición sobre el estado de las calles en las últimas semanas. Vox llevó al pleno de octubre una propuesta para inspeccionar calles y aceras por barrios con un calendario público de arreglos, y el PP defendió en la misma sesión un plan de choque contra la desigualdad entre barrios.",
     "El PP no aporta en su nota mediciones ni un presupuesto de la actuación que reclama. La foto que acompaña su denuncia muestra baldosas levantadas por las raíces de un árbol junto al bordillo de la calzada."
    ],
    "seo": [
@@ -7175,574 +7241,6 @@ window.EP = {
      "Pino Montano",
      "sucesos Alcalá",
      "robo de vehículos"
-    ]
-   ]
-  },
-  {
-   "id": "torre-mocha-obras",
-   "sec": "cultura",
-   "kicker": "Patrimonio",
-   "iso": "2026-10-20",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=AHSk-8j9G3A&t=713s",
-   "title": "La Torre Mocha del Castillo se restaura con 249.000 euros y cuatro meses de obra",
-   "sub": "Los trabajos consolidan los muros, renuevan la cubierta del mirador y reconstruyen la escalera de la liza; el proyecto parte del estudio arqueológico de 2020",
-   "caption": "Técnicos y miembros de la corporación municipal, con casco y chaleco, durante la visita a las obras de la Torre Mocha",
-   "foto": "torre-mocha-obras.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra restaura la Torre Mocha del Castillo con una inversión de 249.000 euros y un plazo de cuatro meses, dentro del Plan Almena II (2019-2030).",
-    "El proyecto incorpora los resultados del estudio arqueológico previo, adjudicado en 2020, y cuenta con la autorización de la Comisión Provincial de Patrimonio.",
-    "Las obras empezaron en el verano de 2026 y el delegado de Patrimonio, Christopher Rivas, prevé que terminen a finales de año.",
-    "La intervención consolida los muros, renueva la cubierta del mirador y reconstruye la escalera que baja a la liza."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra restaura desde este verano la Torre Mocha, en el extremo oriental del Castillo, con una inversión de 249.000 euros y un plazo de ejecución de cuatro meses.",
-    "El proyecto parte del estudio arqueológico que el Ayuntamiento adjudicó en septiembre de 2020 a la empresa Inventia Estudios y Servicios, por 15.700 euros y dos meses de trabajo de campo, según la <a href='https://www.alcaladeguadaira.es/noticias/5916/el-espacio-de-la-torre-mocha-sera-objeto-de-obras-de-restauracion-e-investigacion-arqueologica'>nota municipal del 10 de septiembre de 2020</a>. Aquella nota ya preveía obras de consolidación, cerramiento, solado y techado, y la urbanización de los espacios del entorno.",
-    "## Del estudio a la obra",
-    "El proyecto de ejecución incorporó los resultados de aquella excavación y obtuvo la autorización de la Comisión Provincial de Patrimonio de la Junta de Andalucía. Las obras arrancaron a comienzos del verano: el 23 de julio, el Ayuntamiento informó de que habían empezado «hace algunas semanas». Según su <a href='https://www.alcaladeguadaira.es/noticias/9741/arrancan-las-obras-de-restauracion-de-la-torre-mocha-uno-de-los-espacios-mas-emblematicos-del-castillo'>nota de inicio</a>, la ejecuta una empresa especializada en conservación del patrimonio histórico.",
-    "El actual delegado de Cultura, Patrimonio y Museos, Christopher Rivas, celebró el inicio de los trabajos: «Tenemos que celebrar que por fin estemos llevando a cabo una intervención más de restauración». Rivas sitúa el final de los trabajos a finales de año y une esa fecha a otros tres compromisos para 2026 en el Castillo: la iluminación de las alcazabas, el entorno del Santuario y la apertura del Centro de Interpretación.",
-    "## Muros, cubierta y escaleras",
-    "La actuación principal consolida los muros históricos de tapial, mampostería, ladrillo y piedra. Se repararán grietas, se retirarán materiales incompatibles de intervenciones anteriores y solo se reconstruirán los puntos donde la pérdida de material comprometa la estabilidad. «Lo que nunca vamos a hacer va a ser cambiar absolutamente nada de lo que hay, no te puedes inventar nada», explicó a El Panadero uno de los restauradores, que recordó que la legislación de restauración obliga a conservar lo que existe.",
-    "En la parte alta de la torre, que se usa como mirador, se renovará la cubierta con una nueva impermeabilización, pendientes y recogida de pluviales para frenar las filtraciones. El patio y los recorridos interiores tendrán pavimentos con drenaje. La escalera del mirador conservará su forma con peldaños nuevos de piedra natural, y la que comunica con la liza se reconstruirá por su deterioro, con una barandilla de acero galvanizado.",
-    "La Torre Mocha vigilaba la puerta de Santa María, uno de los accesos de la villa medieval, y la documentación conservada sitúa en este espacio la sede del Concejo de Alcalá durante la Baja Edad Media. El sector tuvo una primera excavación en 1989.",
-    "## Una ruta guiada en noviembre",
-    "El espacio protagonizará el último recorrido de este año de «Paseando por Alcalá»: «Recuperando la alcazaba de la Torre Mocha», con Enrique L. Domínguez, el sábado 14 de noviembre.",
-    "<span class='howto'>Ruta «Recuperando la alcazaba de la Torre Mocha»: sábado 14 de noviembre, a las 11:30, con salida desde la Escuela Oficial de Idiomas, en la cuesta de Santa María del Águila. Gratuita y sin inscripción previa.</span>"
-   ],
-   "seo": [
-    "torre-mocha-restauracion-seis-anos-castillo-alcala",
-    "Torre Mocha: restauración de 249.000 euros en el Castillo",
-    "La restauración de la Torre Mocha del Castillo de Alcalá de Guadaíra cuesta 249.000 euros: consolida muros, renueva la cubierta y reconstruye escaleras.",
-    [
-     "Torre Mocha",
-     "Castillo de Alcalá",
-     "Plan Almena",
-     "Christopher Rivas",
-     "patrimonio",
-     "obras municipales"
-    ]
-   ]
-  },
-  {
-   "id": "vivienda-suplemento-5-millones",
-   "sec": "alcala",
-   "kicker": "Vivienda",
-   "iso": "2026-10-20",
-   "src": "BOP de Sevilla",
-   "fuente_url": "https://bopsevilla.dipusevilla.es/publica/buscador-anuncios/anuncio/Aprobacion-definitiva-del-expediente-de-modificacion-presupuestaria-num-11136-2026-mediante-suplemento-de-credito/",
-   "title": "Alcalá habilita 5 millones que tendrá que devolver a la Diputación para promover vivienda protegida en venta",
-   "sub": "Es un anticipo sin intereses, no una subvención: el Ayuntamiento lo anota como pasivo financiero y lo devuelve cuando se venden las viviendas",
-   "caption": "Gráfico del suplemento de crédito de 5 millones de euros aprobado por el Ayuntamiento de Alcalá de Guadaíra para vivienda pública protegida.",
-   "foto": "vivienda-suplemento-5-millones-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha aprobado definitivamente un suplemento de crédito de 5.000.000 de euros, publicado en el BOP de Sevilla del 20 de octubre de 2026.",
-    "El dinero procede de la línea de ayuda financiera de la Diputación para vivienda protegida en venta, que son anticipos reintegrables sin intereses.",
-    "Por eso el presupuesto municipal lo anota como pasivo financiero: es dinero que el Ayuntamiento tendrá que devolver.",
-    "La convocatoria de 2026 tenía 20 millones de euros para la provincia y admitió solicitudes hasta el 9 de octubre."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha aprobado de forma definitiva un suplemento de crédito de 5.000.000 de euros para acogerse a la ayuda financiera de la Diputación de Sevilla para promover vivienda pública protegida en venta a través de una sociedad mercantil municipal. Pese a su nombre, no es una subvención: es un anticipo sin intereses que el Ayuntamiento tendrá que devolver.",
-    "El expediente, número 11136/2026, lo aprobó de forma inicial el Pleno el 15 de septiembre. Estuvo en exposición pública del 22 de septiembre al 13 de octubre y, según el <a href='https://bopsevilla.dipusevilla.es/publica/buscador-anuncios/anuncio/Aprobacion-definitiva-del-expediente-de-modificacion-presupuestaria-num-11136-2026-mediante-suplemento-de-credito/'>anuncio publicado en el BOP</a> el 20 de octubre, no recibió ninguna reclamación, por lo que queda aprobado sin volver al Pleno.",
-    "## Un préstamo a coste cero",
-    "La Diputación define estas ayudas como anticipos financieros reintegrables sin intereses. En la primera convocatoria, de 2025, las bases obligaban a devolver todo lo recibido al vender las viviendas o, como tarde, a los 60 meses de la concesión, a los 12 meses de la licencia de primera ocupación o si la obra no empezaba en 18 meses desde el pago, según <a href='https://www.dipusevilla.es/comunicacion/noticias/Las-ayudas-financieras-de-la-Diputacion-para-la-construccion-de-vivienda-municipal-protegida-podran-solicitarse-hasta-el-3-de-noviembre/'>explicó la propia Diputación</a>. La garantía son los tributos que el Organismo Provincial de Asistencia Económica y Fiscal (OPAEF) recauda para cada municipio.",
-    "Eso explica cómo aparece el dinero en las cuentas municipales. El resumen del BOP anota los 5 millones como ingreso en el capítulo 9, pasivos financieros, donde se registran los préstamos y anticipos que hay que devolver, y como gasto en el capítulo 7, transferencias de capital, para pasarlos a la sociedad que haga la promoción.",
-    "La cifra coincide con el tope que las bases de 2025 fijaban para la línea de construcción y comercialización, que además limitaban cada anticipo al 200 % del anticipo ordinario neto anual que el OPAEF certifica al municipio.",
-    "## El plazo cerró el 9 de octubre",
-    "La convocatoria de 2026 se publicó en el BOP del 18 de junio, con 20 millones de euros para los municipios de menos de 200.000 habitantes, y admitió solicitudes hasta el 9 de octubre. La aprobación definitiva del suplemento se ha publicado once días después de ese cierre. El anuncio no aclara si el Ayuntamiento presentó ya la solicitud con la aprobación inicial ni qué promoción concreta recibirá el dinero.",
-    "La empresa pública de vivienda del Ayuntamiento, VIVE Alcalá, promueve 107 viviendas protegidas en venta en la avenida Mar Mediterráneo y 84 en alquiler en la Cornisa del Zacatín, según informó su Consejo de Administración a principios de octubre. Esta línea de la Diputación solo financia vivienda en venta.",
-    "<span class='howto'><b>Qué se ha aprobado.</b> Expediente 11136/2026 de suplemento de crédito, 5.000.000 de euros. Publicado en el BOP de Sevilla número 203, del 20 de octubre de 2026. Contra la aprobación definitiva cabe recurso contencioso-administrativo.</span>"
-   ],
-   "seo": [
-    "alcala-5-millones-anticipo-diputacion-vivienda-protegida",
-    "Alcalá: 5 millones a devolver para vivienda protegida",
-    "Alcalá de Guadaíra aprueba un suplemento de 5 millones para vivienda protegida en venta: es un anticipo sin intereses de la Diputación que deberá devolver.",
-    [
-     "vivienda protegida",
-     "VIVE Alcalá",
-     "Diputación de Sevilla",
-     "suplemento de crédito",
-     "OPAEF",
-     "presupuesto municipal"
-    ]
-   ]
-  },
-  {
-   "id": "abono-parking-pintores-paisajistas",
-   "sec": "alcala",
-   "kicker": "Aparcamiento",
-   "iso": "2026-10-20",
-   "src": "Ayuntamiento de Alcalá de Guadaíra",
-   "fuente_url": "https://www.alcaladeguadaira.es/noticias/9930/plazo-para-solicitar-el-abono-24-horas-del-aparcamiento-pintores-paisajistas-en-nicolas-alperiz",
-   "title": "El parking de Pintores Paisajistas reparte desde el jueves 22 sus 50 abonos de 24 horas por orden de llegada",
-   "sub": "Las solicitudes solo cuentan desde las 00.00 de ese día, lo que da ventaja a quien las presente por internet frente a quien vaya al Registro",
-   "caption": "Interior del aparcamiento subterráneo de la plaza Pintores Paisajistas, en Alcalá de Guadaíra.",
-   "foto": "abono-parking-pintores-paisajistas-of.jpg",
-   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra abre el jueves 22 de octubre de 2026, a las 00.00, el plazo para pedir uno de los 50 abonos de 24 horas del aparcamiento de Pintores Paisajistas.",
-    "Las plazas se adjudican por riguroso orden de solicitud; las peticiones anteriores a esa hora no cuentan y el resto queda en lista de espera.",
-    "El parking ha sido gratuito todo el verano mientras se probaba un nuevo control de accesos por lectura de matrículas, supervisado a distancia."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra abrirá el jueves 22 de octubre, a las 00.00, el plazo para solicitar el abono de 24 horas del aparcamiento municipal de la plaza Pintores Paisajistas, en la calle Nicolás Alpériz. Hay 50 plazas, que se repartirán por riguroso orden de presentación hasta completar el aforo, según el <a href='https://www.alcaladeguadaira.es/noticias/9930/plazo-para-solicitar-el-abono-24-horas-del-aparcamiento-pintores-paisajistas-en-nicolas-alperiz'>anuncio municipal del 19 de octubre</a>.",
-    "Las peticiones registradas antes de esa hora no se tendrán en cuenta, así que quien ya la haya enviado tendrá que repetirla. Las que lleguen con las 50 plazas ocupadas pasarán a una lista de espera.",
-    "## Internet a medianoche, el Registro por la mañana",
-    "La solicitud se tramita como Instancia General, por la Sede Electrónica o en el Registro General. Con un reparto por orden de llegada que empieza a medianoche, quien la presente por internet, con identificación electrónica, puede hacerlo en el primer minuto; quien dependa del Registro presencial no podrá entregarla hasta que abra esa mañana.",
-    "El anuncio no fija otro criterio de reparto, como vivir en el centro o no tener garaje, ni publica el precio del abono, la duración de la adjudicación o las tarifas que tendrá el aparcamiento al acabar la fase de pruebas.",
-    "## Gratuito durante el verano",
-    "El parking es subterráneo y está bajo la plaza Pintores Paisajistas, entre las calles Nicolás Alpériz y San Francisco. Estuvo cerrado del 20 al 24 de julio para instalar un control de accesos por reconocimiento de matrículas. Según la <a href='https://www.alcaladeguadaira.es/noticias/9723/obras-de-mejora-en-el-aparcamiento-subterraneo-pintores-paisajistas-para-la-implantacion-del-sistema-del-control-de-acceso'>nota municipal de aquellas obras</a>, el aparcamiento pasa a funcionar como una infraestructura «parcialmente asistida», con la supervisión y el control a distancia, y fue gratuito todo el verano mientras se probaba el sistema.",
-    "El Ayuntamiento enmarca esta obra en la modernización de sus aparcamientos públicos. En una zona del centro con poco aparcamiento en superficie, los 50 abonos de 24 horas son la única vía para tener una plaza fija en este parking.",
-    "<span class='howto'><b>Cómo pedirlo.</b> Desde el jueves 22 de octubre de 2026, a las 00.00. Trámite: Instancia General, en la Sede Electrónica del Ayuntamiento (ciudadalcala.sedelectronica.es) o en el Registro General. Plazas: 50, por orden de solicitud; el resto, a lista de espera. Las solicitudes anteriores a esa fecha no se tienen en cuenta.</span>"
-   ],
-   "seo": [
-    "abono-24-horas-parking-pintores-paisajistas",
-    "Abono 24 horas del parking Pintores Paisajistas",
-    "El aparcamiento de Pintores Paisajistas, en Alcalá de Guadaíra, reparte desde el 22 de octubre sus 50 abonos de 24 horas por estricto orden de solicitud.",
-    [
-     "Pintores Paisajistas",
-     "aparcamiento",
-     "Nicolás Alpériz",
-     "abono",
-     "Sede Electrónica",
-     "centro de Alcalá"
-    ]
-   ]
-  },
-  {
-   "id": "pymes-junta-75-millones",
-   "sec": "economia",
-   "kicker": "Ayudas",
-   "iso": "2026-10-20",
-   "src": "Junta de Andalucía",
-   "fuente_url": "https://www.juntadeandalucia.es/boja/2026/203/3",
-   "title": "La Junta suma 75 millones a las ayudas para pymes que se quedaron sin fondos en julio",
-   "sub": "El dinero se reparte entre las solicitudes ya presentadas, por orden de entrada; no se abre un nuevo plazo",
-   "caption": "Gráfico de la ampliación de las ayudas de la Junta de Andalucía para la competitividad de las pymes.",
-   "foto": "pymes-junta-75-millones-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "La Junta de Andalucía amplía en 75 millones de euros la línea de ayudas para proyectos de crecimiento y competitividad de las pymes, según el BOJA del 20 de octubre de 2026.",
-    "La convocatoria pasa de 201.063.078 euros a 276.063.078 euros.",
-    "El plazo se cerró el 8 de julio de 2026 por agotamiento del crédito y no se reabre.",
-    "El dinero nuevo atenderá, por orden de entrada, las solicitudes presentadas antes del cierre que cumplan los requisitos."
-   ],
-   "body": [
-    "La Junta de Andalucía ha ampliado en 75 millones de euros la línea de subvenciones para proyectos de crecimiento y mejora de la competitividad de las pymes, que se había quedado sin dinero en julio. La resolución, publicada este martes, 20 de octubre, en el Boletín Oficial de la Junta de Andalucía (BOJA), afecta a las empresas de Alcalá de Guadaíra que pidieron la ayuda a tiempo y aún esperan respuesta.",
-    "La Agencia Empresarial para la Transformación y el Desarrollo Económico (TRADE) convocó estas ayudas en julio de 2024, al amparo del Decreto 114/2024, con 201.063.078 euros. Son de concurrencia no competitiva: se conceden por orden de entrada a quienes cumplen los requisitos, hasta que se acaba el presupuesto.",
-    "## Cerrada desde julio",
-    "Eso es lo que ocurrió el 8 de julio de 2026, cuando la Junta declaró finalizado el plazo por agotamiento del crédito e inadmitió las solicitudes que llegaran después. Según la resolución, no había presupuesto suficiente para atender todas las peticiones recibidas hasta esa fecha.",
-    "El 27 de julio, una modificación presupuestaria de la Dirección General de Fondos Europeos añadió 75 millones a la línea. Con ese dinero, y con 40 millones que se han movido de una partida a otra de la misma convocatoria, la partida que financia las ayudas queda en 276.063.078 euros.",
-    "## Quién puede beneficiarse",
-    "La ampliación no abre un nuevo plazo. El dinero adicional se destinará solo a las solicitudes presentadas antes del cierre que cumplan las bases, siguiendo el orden en que entraron. La propia Junta advierte de que la ampliación no garantiza que se financien todos los expedientes pendientes.",
-    "Para Alcalá, con polígonos como La Red, Fridex o Venta la Liebre, la medida puede desbloquear proyectos de empresas locales que quedaron a la espera. El BOJA no detalla cuántas solicitudes hay pendientes ni de qué municipios.",
-    "El Ayuntamiento convocó a principios de octubre su propia línea de ayudas de hasta 5.000 euros para modernizar comercios y pymes.",
-    "<span class='howto'><b>Para las empresas con solicitud pendiente.</b> No hay que volver a presentarla. La Agencia TRADE resolverá por orden de entrada con el nuevo crédito. Resolución de 7 de octubre de 2026, BOJA número 203, del 20 de octubre.</span>"
-   ],
-   "seo": [
-    "junta-75-millones-ayudas-pymes-competitividad",
-    "La Junta suma 75 millones a las ayudas para pymes",
-    "La Junta de Andalucía amplía en 75 millones las ayudas a la competitividad de las pymes para atender solicitudes pendientes, también de Alcalá de Guadaíra.",
-    [
-     "ayudas a pymes",
-     "Junta de Andalucía",
-     "Agencia TRADE",
-     "BOJA",
-     "competitividad",
-     "empresas de Alcalá"
-    ]
-   ]
-  },
-  {
-   "id": "memoria-democratica-subvenciones-diputacion",
-   "sec": "alcala",
-   "kicker": "Memoria democrática",
-   "iso": "2026-10-20",
-   "src": "Diputación de Sevilla",
-   "fuente_url": "https://bopsevilla.dipusevilla.es/publica/buscador-anuncios/anuncio/Extracto-num-223101-de-las-bases-reguladoras-especificas-y-convocatoria-de-subvenciones-para-el-fomento-de-actuaciones-en-materia-de-Memoria-Historica-y-Democratica-dirigidas-a-los-ayuntamientos-de-l/",
-   "title": "La Diputación abre un millón de euros en ayudas de memoria democrática para los ayuntamientos",
-   "sub": "Los municipios de la provincia, salvo Sevilla capital, tienen 15 días hábiles para pedir fondos para exhumaciones, divulgación o retirada de símbolos",
-   "caption": "Gráfico de la convocatoria de la Diputación de Sevilla para proyectos municipales de memoria democrática.",
-   "foto": "memoria-democratica-subvenciones-diputacion-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "La Diputación de Sevilla convoca subvenciones de memoria histórica y democrática para los ayuntamientos de la provincia, salvo Sevilla capital, con un presupuesto máximo de 1.000.000 de euros.",
-    "Hay tres líneas: localización y dignificación de víctimas, divulgación histórica y conservación del patrimonio, y retirada de símbolos contrarios a la memoria democrática.",
-    "El plazo es de 15 días hábiles desde el día siguiente a la publicación del extracto en el BOP, el 20 de octubre de 2026.",
-    "El Ayuntamiento de Alcalá de Guadaíra puede concurrir; las ayudas se adjudican en concurrencia competitiva."
-   ],
-   "body": [
-    "La Diputación de Sevilla ha convocado subvenciones por un máximo de 1.000.000 de euros para que los ayuntamientos de la provincia, salvo Sevilla capital, financien proyectos de memoria histórica y democrática. El extracto se publicó este martes, 20 de octubre, en el Boletín Oficial de la Provincia (BOP), y el Ayuntamiento de Alcalá de Guadaíra es uno de los que pueden optar a ellas.",
-    "La convocatoria la aprobó el 15 de octubre el diputado delegado del Área de Cultura y Ciudadanía, Casimiro Fernández Linares. Las ayudas se reparten en concurrencia competitiva, es decir, comparando los proyectos presentados.",
-    "## Tres líneas",
-    "Los fondos sirven para recuperar, proteger y difundir la memoria democrática y para reconocer a quienes sufrieron persecución o violencia por razones políticas, ideológicas, religiosas, de orientación o de identidad sexual entre el 18 de julio de 1936 y la entrada en vigor de la Constitución de 1978. Se dividen en tres líneas: localización y dignificación de víctimas; divulgación histórica y conservación del patrimonio; y retirada de símbolos contrarios a la memoria democrática.",
-    "El plazo es de 15 días hábiles a partir del día siguiente a la publicación del extracto. Las bases completas y la documentación que debe acompañar a la solicitud se consultan en la Base de Datos Nacional de Subvenciones, con el código 935775.",
-    "## La memoria, en la agenda de Alcalá",
-    "La convocatoria coincide con la programación municipal. Alcalá celebra del 28 al 30 de octubre sus III Jornadas de Memoria Democrática, que organiza la Delegación de Memoria Democrática e Identidad Andaluza, con documentales, una exposición, conferencias y un homenaje a las víctimas de la represión. El programa incluye además la presentación del proyecto «Círculo de la Memoria», vinculado al memorial del cementerio de San Mateo.",
-    "<span class='howto'><b>Datos de la convocatoria.</b> Beneficiarios: ayuntamientos de la provincia de Sevilla, salvo Sevilla capital. Presupuesto: 1.000.000 de euros. Plazo: 15 días hábiles desde el día siguiente a la publicación en el BOP del 20 de octubre de 2026. Código BDNS: 935775.</span>"
-   ],
-   "seo": [
-    "diputacion-subvenciones-memoria-democratica-ayuntamientos",
-    "Un millón para memoria democrática en los municipios",
-    "La Diputación de Sevilla convoca un millón de euros en ayudas de memoria democrática a las que puede optar el Ayuntamiento de Alcalá de Guadaíra en 15 días",
-    [
-     "memoria democrática",
-     "Diputación de Sevilla",
-     "subvenciones",
-     "víctimas de la represión",
-     "BOP de Sevilla",
-     "Jornadas de Memoria Democrática"
-    ]
-   ]
-  },
-  {
-   "id": "yblanco-campeonato-espana",
-   "sec": "deportes",
-   "kicker": "Gimnasia rítmica",
-   "iso": "2026-10-20",
-   "src": "Alcalá+Deporte",
-   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8413/el-club-de-gimnasia-ritmica-yblanco-logra-una-historica-clasificacion-para-el-campeonato-de-espana",
-   "title": "El conjunto Juvenil Base del YBlanco, primer equipo del club que se clasifica para un Campeonato de España",
-   "sub": "Las gimnastas alcalareñas lograron el pase en el Control Base de Conjuntos con un montaje que estrenaban y apenas un mes de entrenamientos",
-   "caption": "Una cinta de gimnasia rítmica en movimiento. Imagen de recurso.",
-   "foto": "yblanco-campeonato-espana-stock.jpg",
-   "fotocredito": "Unsplash",
-   "claves": [
-    "El conjunto Juvenil Base del Club de Gimnasia Rítmica YBlanco, de Alcalá de Guadaíra, se ha clasificado para el Campeonato de España.",
-    "Es la primera vez en la historia del club que logra el pase a una competición de ámbito nacional.",
-    "La clasificación llegó en el Control Base de Conjuntos, en el que el equipo quedó entre los mejores conjuntos de Andalucía.",
-    "Según el club, el conjunto llevaba apenas un mes de preparación y estrenó montaje en esa competición."
-   ],
-   "body": [
-    "El conjunto Juvenil Base del Club de Gimnasia Rítmica YBlanco, de Alcalá de Guadaíra, se ha clasificado para el Campeonato de España. Es la primera vez que el club consigue llevar a uno de sus equipos a una competición de ámbito nacional, según el portal deportivo municipal Alcalá+Deporte.",
-    "El billete llegó en el Control Base de Conjuntos, la prueba andaluza en la que el equipo alcalareño se situó entre los mejores conjuntos de la comunidad. En esa misma competición, las gimnastas presentaron por primera vez su nuevo montaje.",
-    "## Un mes de entrenamientos",
-    "Lo que más destaca el club es el poco tiempo que tuvo el conjunto para prepararse: apenas un mes de entrenamientos con la nueva composición. El YBlanco, que se define como un club pequeño, atribuye el resultado al trabajo de las deportistas y de su equipo técnico.",
-    "Juvenil Base es una de las categorías de la gimnasia rítmica en conjuntos, la modalidad en la que varias gimnastas ejecutan a la vez un mismo ejercicio con música y, según el reglamento, con aparatos como la cinta, el aro o la pelota. En el Campeonato de España se medirán con conjuntos de otras comunidades autónomas.",
-    "El deporte base de Alcalá arrancó este curso con las Escuelas Deportivas Municipales con cerca de 4.000 niños y 19 modalidades.",
-    "Ni el club ni el portal municipal han detallado todavía la sede ni las fechas del campeonato nacional en el que debutará el conjunto."
-   ],
-   "seo": [
-    "yblanco-gimnasia-ritmica-campeonato-espana",
-    "El YBlanco de Alcalá, al Campeonato de España",
-    "El conjunto Juvenil Base del Club de Gimnasia Rítmica YBlanco, de Alcalá de Guadaíra, se clasifica por primera vez para un Campeonato de España.",
-    [
-     "YBlanco",
-     "gimnasia rítmica",
-     "Campeonato de España",
-     "Control Base de Conjuntos",
-     "deporte alcalareño",
-     "Alcalá+Deporte"
-    ]
-   ]
-  },
-  {
-   "id": "vox-recibo-agua-canon",
-   "sec": "politica",
-   "kicker": "Agua",
-   "iso": "2026-10-20",
-   "src": "El Panadero",
-   "title": "La subida del canon del agua que denuncia Vox está fijada desde 2016: 0,41 céntimos más por metro cúbico",
-   "sub": "Una orden de la Junta marcó en 2016 el canon de mejora de Emasesa año a año hasta 2028; en 2027 pasa de 0,2059 a 0,2100 euros por metro cúbico, sin IVA",
-   "caption": "Unas manos se lavan bajo el grifo, en imágenes de recurso.",
-   "foto": "vox-recibo-agua-canon-tv.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "Vox sostiene que el recibo del agua subirá en Alcalá de Guadaíra por un aumento del 2 % del canon de mejora, pese a la congelación anunciada de la tarifa.",
-    "El canon de mejora de Emasesa lo aprobó la Junta de Andalucía en una orden del 24 de octubre de 2016, con un importe fijado para cada año hasta 2028.",
-    "Para 2027 esa orden fija 0,2100 euros por metro cúbico sin IVA, frente a los 0,2059 de 2026: un 1,99 % más.",
-    "Con un consumo de 120 metros cúbicos al año, la diferencia es de 49 céntimos anuales antes de impuestos."
-   ],
-   "body": [
-    "El grupo municipal de Vox en Alcalá de Guadaíra sostiene que los vecinos pagarán más por el agua en 2027 pese a la congelación de las tarifas, por una subida del 2 % del canon de mejora. Vox acierta en que ese concepto sube, pero no es una decisión nueva: el importe de cada año lo fijó la Junta de Andalucía en una orden de octubre de 2016.",
-    "El portavoz municipal de Vox, Pedro Navarro, habla de un «sablazo encubierto» y acusa al gobierno local del PSOE de «disfrazar subidas». Sus reproches se dirigen a la alcaldesa, Ana Isabel Jiménez, a la que sitúa como consejera de Emasesa, la empresa metropolitana de aguas que da servicio a Alcalá: según Navarro, «calla y otorga» en lugar de frenar la subida. Vox pide una bajada real del recibo.",
-    "## Una tabla aprobada en 2016",
-    "El canon de mejora local de Emasesa se aprobó por <a href='https://www.juntadeandalucia.es/boja/2016/209/BOJA16-209-00006-18696-01_00101046.pdf'>orden de la Junta de 24 de octubre de 2016</a>, publicada en el BOJA número 209. Se aplica en Sevilla, Alcalá de Guadaíra y otros diez municipios del sistema de Emasesa, y la propia orden recoge en una tabla el importe de cada año, de 2016 a 2028.",
-    "Para 2026 fija 0,2059 euros por metro cúbico, sin IVA, y para 2027, 0,2100. La diferencia es de 0,0041 euros, un 1,99 %. La subida de 2027 es la misma que la de los años anteriores, en torno al 2 % anual, y estaba escrita desde hace diez años.",
-    "En el recibo de una vivienda que consuma 120 metros cúbicos al año, el canon pasará de 24,71 a 25,20 euros anuales sin impuestos: 49 céntimos más.",
-    "## Qué paga el canon",
-    "El dinero está reservado para las obras hidráulicas del anexo de la orden, que suman 192.450.747 euros sin IVA: colectores, interceptores y la ampliación y renovación de la red de abastecimiento, entre otras. El canon se cobra hasta 2028 incluido, o antes si se recupera el coste de esas obras.",
-    "Los importes los fija esa orden de la Junta, no el Consejo de Administración de Emasesa.",
-    "No es la primera iniciativa de Vox sobre servicios municipales en las últimas semanas: el grupo ha pedido también inspecciones por barrios y un calendario público para arreglar calles y aceras."
-   ],
-   "seo": [
-    "canon-mejora-emasesa-subida-2027-vox-alcala",
-    "Canon del agua: la subida que denuncia Vox es de 2016",
-    "El canon de Emasesa que según Vox sube el recibo del agua en Alcalá lo fijó la Junta en 2016: en 2027 pasa de 0,2059 a 0,2100 euros por metro cúbico.",
-    [
-     "canon de mejora",
-     "Emasesa",
-     "recibo del agua",
-     "Vox Alcalá",
-     "Junta de Andalucía",
-     "Ana Isabel Jiménez"
-    ]
-   ],
-   "fuente_url": "https://www.youtube.com/watch?v=OithM3Bzrik&t=686s"
-  },
-  {
-   "id": "cancer-mama-aecc-alcala",
-   "sec": "alcala",
-   "kicker": "Salud",
-   "iso": "2026-10-20",
-   "src": "Ayuntamiento de Alcalá de Guadaíra",
-   "fuente_url": "https://www.alcaladeguadaira.es/noticias/9928/apoyo-y-acompanamiento-institucional-y-emocional-para-las-mujeres-con-motivo-dia-del-cancer-de-mama",
-   "title": "La AECC de Alcalá sale a la calle Mairena en el Día Internacional contra el Cáncer de Mama",
-   "sub": "La asociación, con sede en el Centro de Servicios Sociales, atiende a mujeres con la enfermedad y a sus familias",
-   "caption": "Voluntarias de la Asociación Española Contra el Cáncer junto a la alcaldesa, Ana Isabel Jiménez, en la mesa informativa de la calle Mairena.",
-   "foto": "cancer-mama-aecc-alcala-of.jpg",
-   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "La Asociación Española Contra el Cáncer (AECC) instaló el lunes 19 de octubre de 2026 una mesa informativa en la calle Mairena de Alcalá de Guadaíra por el Día Internacional de la Lucha contra el Cáncer de Mama.",
-    "La alcaldesa, Ana Isabel Jiménez, visitó la mesa con las delegadas de Salud, Lidia Ballesteros, y de Servicios Sociales, Rocío Bastida.",
-    "La AECC tiene su sede en Alcalá en el edificio municipal del Centro de Servicios Sociales y ofrece apoyo a pacientes y a sus familiares."
-   ],
-   "body": [
-    "La Asociación Española Contra el Cáncer (AECC) instaló el lunes 19 de octubre una mesa informativa y de cuestación en la calle Mairena de Alcalá de Guadaíra con motivo del Día Internacional de la Lucha contra el Cáncer de Mama. La jornada, impulsada por la Organización Mundial de la Salud, busca concienciar sobre la importancia del diagnóstico precoz.",
-    "La alcaldesa, Ana Isabel Jiménez, visitó la mesa acompañada por la delegada de Salud, Lidia Ballesteros, y la de Servicios Sociales, Rocío Bastida. Jiménez insistió, según el Ayuntamiento, en la necesidad de visibilizar la enfermedad para favorecer la detección temprana y la investigación, y quiso trasladar a las mujeres afectadas que no están solas.",
-    "## Dónde está la AECC en Alcalá",
-    "La delegación local de la AECC tiene su sede en el edificio municipal del Centro de Servicios Sociales. Desde allí ofrece apoyo a las mujeres con cáncer de mama y también a sus familiares. El Ayuntamiento cede ese espacio y, según la alcaldesa, destina además subvenciones a la asociación.",
-    "Las mesas informativas y las huchas de la AECC estuvieron presentes durante el lunes en distintos puntos de la ciudad, según la propia alcaldesa en sus redes sociales.",
-    "La detección precoz es la principal recomendación de la jornada. Andalucía cuenta con un programa público de cribado de cáncer de mama que cita a las mujeres para mamografías periódicas a partir de una edad determinada; la información sobre el programa y las citas está disponible en los centros de salud.",
-    "<span class='howto'><b>Apoyo en Alcalá.</b> La AECC atiende en su sede del Centro de Servicios Sociales de Alcalá de Guadaíra a pacientes y familiares. La asociación tiene además un teléfono gratuito de atención las 24 horas, el 900 100 036.</span>"
-   ],
-   "seo": [
-    "aecc-alcala-dia-cancer-de-mama",
-    "La AECC de Alcalá, en el Día del Cáncer de Mama",
-    "La Asociación Española Contra el Cáncer instaló una mesa en la calle Mairena de Alcalá de Guadaíra por el Día Internacional contra el Cáncer de Mama.",
-    [
-     "AECC",
-     "cáncer de mama",
-     "calle Mairena",
-     "Centro de Servicios Sociales",
-     "detección precoz",
-     "Ana Isabel Jiménez"
-    ]
-   ]
-  },
-  {
-   "id": "pleno-octubre-mociones",
-   "sec": "politica",
-   "kicker": "Pleno",
-   "iso": "2026-10-20",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=AHSk-8j9G3A&t=156s",
-   "title": "El PP pide que las asociaciones puedan preguntar al gobierno de Alcalá en el Pleno y reciban respuesta pública",
-   "sub": "Las mociones de PP y Alcalá Nos Importa al pleno ordinario de este martes 20 incluyen un plan contra la desigualdad entre barrios y nombrar a San Mateo alcalde perpetuo",
-   "caption": "Una sesión plenaria del Ayuntamiento de Alcalá de Guadaíra, en una imagen de archivo",
-   "foto": "pleno-octubre-mociones.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El PP propone reformar el reglamento orgánico del Ayuntamiento para que las asociaciones inscritas puedan presentar ruegos, preguntas y propuestas con respuesta por escrito y pública.",
-    "Los populares piden también un boletín municipal electrónico con los acuerdos y resoluciones y órganos de participación por barrios.",
-    "Alcalá Nos Importa quiere nombrar a San Mateo Apóstol alcalde perpetuo y a Nuestro Padre Jesús Nazareno regidor perpetuo.",
-    "El mismo grupo pide una solución para quienes tienen 40 o más años cotizados y ven recortada su pensión al jubilarse anticipadamente."
-   ],
-   "body": [
-    "El Partido Popular quiere que las asociaciones de Alcalá de Guadaíra puedan preguntar directamente al gobierno municipal y que las respuestas se hagan públicas. Es una de las cuatro mociones que PP y Alcalá Nos Importa defienden este martes 20 de octubre en el pleno ordinario de octubre, junto a un plan contra la desigualdad entre barrios, dos títulos honoríficos y una reivindicación sobre las pensiones.",
-    "## Preguntas con respuesta por escrito",
-    "La primera moción del PP plantea modificar el reglamento orgánico y de funcionamiento del Ayuntamiento para reforzar la participación ciudadana, la transparencia y el control político. Pide que las asociaciones inscritas en el Registro Municipal de Entidades Ciudadanas puedan formular ruegos, preguntas y propuestas de interés municipal, que reciban respuesta por escrito y que esas contestaciones se publiquen.",
-    "La moción incluye órganos de participación por barrios, zonas o distritos y un boletín municipal electrónico que reúna los acuerdos del Pleno, las resoluciones relevantes, las convocatorias y otros anuncios. Para estudiar los cambios, propone una mesa de trabajo con los grupos municipales, la Secretaría General y los servicios técnicos.",
-    "La segunda iniciativa del PP se titula «Plan de choque contra la desigualdad y la fractura urbana en Alcalá» y lleva al Pleno el debate sobre las diferencias sociales y urbanas entre zonas de la ciudad.",
-    "## Dos títulos honoríficos",
-    "Alcalá Nos Importa propone reconocer a San Mateo Apóstol, patrón de la ciudad, como alcalde perpetuo y a Nuestro Padre Jesús Nazareno como regidor perpetuo de Alcalá. El grupo ha incorporado una propuesta transaccional para que ambos reciban el reconocimiento y no se plantee como una elección entre las dos figuras. La Virgen del Águila Coronada, patrona de Alcalá, ya tiene el título de alcaldesa perpetua.",
-    "## Las pensiones de las carreras largas",
-    "La segunda moción de Alcalá Nos Importa pide impulsar una solución para las personas con 40 o más años cotizados a las que se aplican coeficientes reductores cuando se jubilan anticipadamente. En septiembre el Congreso admitió a trámite una proposición de ley para eliminar esos coeficientes a este colectivo, pero la disolución de las Cortes tras el adelanto de las elecciones generales al 29 de noviembre interrumpió su tramitación.",
-    "## El resto del orden del día",
-    "Al mismo pleno lleva Vox sus propuestas para estudiar qué suelo municipal puede destinarse a vivienda y para inspeccionar calles y aceras por barrios. En la sesión se conocerán la posición del gobierno municipal y el resultado de las votaciones."
-   ],
-   "seo": [
-    "pleno-alcala-octubre-asociaciones-preguntas-pp",
-    "Pleno de Alcalá: el PP pide que las asociaciones pregunten",
-    "El PP pide en el pleno de octubre de Alcalá de Guadaíra que las asociaciones puedan preguntar al gobierno municipal y que las respuestas sean públicas.",
-    [
-     "Pleno municipal",
-     "Partido Popular",
-     "participación ciudadana",
-     "transparencia",
-     "Alcalá Nos Importa",
-     "San Mateo"
-    ]
-   ]
-  },
-  {
-   "id": "relanza-tercera-convocatoria",
-   "sec": "economia",
-   "kicker": "Empleo",
-   "iso": "2026-10-20",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=AHSk-8j9G3A&t=449s",
-   "title": "RELANZA-T abre hasta el 30 de octubre la inscripción en su tercera tanda de cursos para el empleo",
-   "sub": "La convocatoria ofrece itinerarios de cocina, administración, atención sociosanitaria, soldadura o climatización, con 15 plazas por curso",
-   "caption": "Un aula de formación del programa RELANZA-T en Alcalá de Guadaíra",
-   "foto": "relanza-tercera-convocatoria.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El plazo de solicitud de la tercera convocatoria de RELANZA-T está abierto del 19 al 30 de octubre.",
-    "Hay itinerarios formativos de distintos niveles, con 15 participantes por itinerario con carácter general.",
-    "Hay que tener al menos 16 años y estar inscrito como demandante de empleo al empezar la formación.",
-    "La solicitud se presenta preferentemente en la sede electrónica del Ayuntamiento o en los registros municipales."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha abierto el plazo para participar en la tercera convocatoria de RELANZA-T, su programa de formación para el empleo. Las solicitudes se pueden presentar desde el lunes 19 hasta el viernes 30 de octubre. El anuncio de la convocatoria se publicó en el Boletín Oficial de la Provincia (BOP) de Sevilla número 203, del 20 de octubre.",
-    "La convocatoria llega después de las sesiones informativas que la Delegación de Empleo celebró a comienzos de octubre para explicar los cursos y el proceso de selección.",
-    "## Qué cursos hay",
-    "La oferta incluye operaciones básicas de cocina, de pastelería y de restaurante y bar, servicios administrativos, publicación de páginas web, actividades de venta, gestión de residuos, atención sociosanitaria a personas en el domicilio y en instituciones sociales, teleasistencia, y climatización y mantenimiento de edificios, entre otras especialidades.",
-    "También hay itinerarios de soldadura, de montaje y mantenimiento de sistemas microinformáticos, de cuidados estéticos de manos y pies y de habilitación para la docencia en el sistema de formación profesional.",
-    "Los itinerarios tienen diferentes niveles. Con carácter general, cada uno admite a 15 participantes, aunque las condiciones de acceso varían según la especialidad y la formación previa que se exija.",
-    "## Quién puede apuntarse",
-    "Para participar hay que tener al menos 16 años, cumplir los requisitos de cada itinerario y estar inscrito como demandante de empleo cuando empiece la formación. Algunas especialidades se dirigen de forma prioritaria a personas de colectivos alejados del mercado laboral o a residentes en zonas concretas de la ciudad, que tendrán que acreditar su empadronamiento cuando corresponda.",
-    "RELANZA-T se dirige a personas en búsqueda activa de empleo y se desarrolla en varias convocatorias. La convocatoria se enmarca en el programa Éfeso del Fondo Social Europeo (FSE) para el periodo 2021-2027.",
-    "<span class='howto'>Plazo: del 19 al 30 de octubre. Dónde: preferentemente en la sede electrónica del Ayuntamiento de Alcalá de Guadaíra; también de forma presencial en el Registro Central, en las oficinas de atención ciudadana de los distritos Norte y Sur y en la Delegación de Formación y Empleo. Requisitos: 16 años cumplidos e inscripción como demandante de empleo al inicio del curso. Las especialidades, los requisitos de cada una y la documentación figuran en las bases oficiales de la tercera convocatoria.</span>"
-   ],
-   "seo": [
-    "relanza-t-tercera-convocatoria-cursos-empleo-alcala",
-    "RELANZA-T: cursos gratis para el empleo en Alcalá",
-    "La tercera convocatoria de RELANZA-T en Alcalá de Guadaíra admite solicitudes hasta el 30 de octubre: cocina, soldadura, climatización y más itinerarios.",
-    [
-     "RELANZA-T",
-     "formación para el empleo",
-     "cursos",
-     "Fondo Social Europeo",
-     "Delegación de Empleo",
-     "desempleo"
-    ]
-   ]
-  },
-  {
-   "id": "aceituneras-paseando",
-   "sec": "cultura",
-   "kicker": "Memoria",
-   "iso": "2026-10-20",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=AHSk-8j9G3A&t=1050s",
-   "title": "Las aceituneras de Alcalá cuentan su vida en los almacenes en el primer «Paseando por Alcalá»",
-   "sub": "Hasta 3.000 mujeres llegaron a trabajar en temporada en una veintena de almacenes; algunas empezaron con 13 años",
-   "caption": "Antiguas trabajadoras de los almacenes de aceitunas, con delantal, durante el paseo del sábado 17 de octubre",
-   "foto": "aceituneras-paseando.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "La primera ruta de «Paseando por Alcalá» recordó el sábado 17 de octubre a las mujeres que trabajaron en los almacenes de aceitunas.",
-    "En temporada llegaron a trabajar hasta 3.000 mujeres en una veintena de almacenes repartidos por la ciudad.",
-    "Antiguas aceituneras contaron sus recuerdos, con recreaciones teatrales dirigidas por Magdalena Alfaro.",
-    "La siguiente ruta, sobre los retablos de Alcalá, es el sábado 24 de octubre."
-   ],
-   "body": [
-    "El ciclo «Paseando por Alcalá» abrió el sábado 17 de octubre su edición de este otoño con un recorrido dedicado a las mujeres aceituneras de Alcalá de Guadaíra. Antiguas trabajadoras de los almacenes de aceitunas contaron sus recuerdos ante el público, en una ruta con recreaciones teatrales dirigidas por Magdalena Alfaro.",
-    "El paseo recorrió la zona en la que se levantaban los almacenes, entre la actual Casa de la Cultura y la biblioteca Editor José Manuel Lara, y repasó la historia laboral de la ciudad durante la primera mitad del siglo XX. En temporada, hasta 3.000 mujeres llegaron a trabajar en este sector, que contó con una veintena de almacenes. Muchas eran de Alcalá; otras llegaban de otros pueblos del sur de la provincia en busca de jornal.",
-    "## «Entré con 13 años»",
-    "Las protagonistas fueron las propias aceituneras. «Alcalá era rica en trabajo. La juventud trabajábamos en el almacén», recordó una de ellas, que estuvo diez años hasta que cerraron. Otra explicó que entró con 13 años para que su madre pudiera quedarse con sus dos hermanos pequeños: empezó recogiendo del suelo las aceitunas caídas con un gancho y después aprendió a deshuesar y a rellenar.",
-    "Una tercera también empezó con 13 años, en el almacén de Rafael Beca: «Entré a las seis de la mañana hasta las nueve de la noche; en febrero hacía un frío que pelaba y me gané 850 pesetas». Las mujeres lavaban, deshuesaban y rellenaban la aceituna, y la jornada recuperó también los vínculos entre compañeras. El recorrido terminó con canciones de la época.",
-    "Alfaro, Premio Ciudad de Alcalá 2026, explicó que la idea era «darle voz a las verdaderas protagonistas de la historia» a través de sus testimonios, su experiencia y sus anécdotas.",
-    "## Un ciclo de 25 años",
-    "El delegado de Identidad, Christopher Rivas, defendió el «justo y merecido protagonismo» de estas trabajadoras: «Los que somos de Alcalá de toda la vida tenemos abuela, tenemos madre o tenemos familiares que han sido aceituneras». Rivas recordó que el ciclo cumple 25 años, que no requiere inscripción y que cada otoño recorre distintos espacios para dar a conocer el patrimonio y la historia de la ciudad.",
-    "El programa, que presentó el Ayuntamiento a comienzos de octubre, tiene otras tres rutas gratuitas hasta el 14 de noviembre. La última estará dedicada a la alcazaba de la Torre Mocha, cuya <a href='#torre-mocha-obras'>restauración está en marcha</a>.",
-    "<span class='howto'>Próxima ruta: «Paseo por la historia de los retablos de Alcalá de Guadaíra», con Enrique Ruiz Portillo, el sábado 24 de octubre a las 11:30, con salida desde la capilla de los Salesianos. Gratuita y sin inscripción previa.</span>"
-   ],
-   "seo": [
-    "aceituneras-alcala-paseando-por-alcala-memoria",
-    "Las aceituneras de Alcalá, en «Paseando por Alcalá»",
-    "Antiguas aceituneras de Alcalá de Guadaíra relataron su trabajo en los almacenes, donde llegaron a emplearse 3.000 mujeres, en la primera ruta del ciclo.",
-    [
-     "Paseando por Alcalá",
-     "aceituneras",
-     "Magdalena Alfaro",
-     "memoria",
-     "Christopher Rivas",
-     "patrimonio"
-    ]
-   ]
-  },
-  {
-   "id": "amargura-retablo-cristo-amor",
-   "sec": "hermandades",
-   "kicker": "Amargura",
-   "iso": "2026-10-20",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=AbkBIaxTwQA&t=830s",
-   "title": "La Amargura estrenará en Cuaresma la primera fase de su retablo y al Cristo del Amor restaurado",
-   "sub": "La capilla de Ánimas está cerrada al culto por obras y la Virgen y San Juan reciben culto en la capilla sacramental",
-   "caption": "El Santísimo Cristo del Amor en su paso, en una imagen de archivo de la estación de penitencia",
-   "foto": "amargura-retablo-cristo-amor.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "La primera fase del retablo de la Hermandad de la Amargura, el banco y el sotobanco, estará terminada previsiblemente para la Cuaresma.",
-    "La capilla de Ánimas se cerró al culto el lunes 12 de octubre para pintarla y renovar su iluminación.",
-    "El Cristo del Amor, en restauración desde septiembre en el taller de Laura Pérez, volverá a finales de enero o principios de febrero.",
-    "El quinario al Cristo del Amor empieza el 5 de febrero."
-   ],
-   "body": [
-    "La Hermandad de la Amargura de Alcalá de Guadaíra, la cofradía del Jueves Santo, prevé tener para la Cuaresma la primera fase de su nuevo retablo y, a la vez, al Santísimo Cristo del Amor de vuelta tras su restauración. Así lo explicó su hermano mayor, Antonio Rivas Durán, en el programa Alcalá Cofrade.",
-    "## La capilla, en obras",
-    "La capilla de Ánimas, donde se instalará el retablo, se cerró al culto el lunes 12 de octubre, después de la misa de las 11:00. Nuestra Señora de la Amargura y San Juan se trasladaron a la capilla sacramental o del Sagrario, donde reciben culto de forma provisional. Allí empezarán la pintura de la capilla y su cúpula, la nueva iluminación, la decoración del arco de entrada y la instalación de cortinas ignífugas para preparar la llegada del retablo.",
-    "El proyecto, presentado en 2023 con un diseño de Francisco Javier Sánchez de los Reyes, está dividido en cuatro fases. La primera, el banco y el sotobanco, está terminada de talla y en fase de dorado. Según Rivas, en su última visita al taller los doradores le adelantaron que podrían darle «una sorpresa» con los plazos. Mientras tanto, el carpintero prepara la tercera fase y el tallista remata detalles de la segunda. Con el remate, el retablo medirá unos 6,5 metros de ancho y unos ocho metros y medio de alto.",
-    "## Cambio de dorador",
-    "La hermandad tuvo que cambiar de dorador. Según Rivas, el anterior no había calculado bien la mano de obra y, al ver la talla de la segunda fase, «ya no le salían los números», por lo que ambas partes rescindieron el contrato. El dorado lo hace ahora el taller de la familia Cotán. El hermano mayor admite que la subida del precio del oro, que se usa de 23 quilates, ha sido «un disparate» que no podían prever en 2023.",
-    "## El Cristo del Amor, en el taller",
-    "El crucificado se retiró del culto el 4 de septiembre y está en el estudio de la restauradora Laura Pérez, que con José María Leal se ocupa de la conservación del Cachorro de Sevilla. El cabildo aprobó la intervención en octubre de 2025, tras detectar suciedad acumulada por el polvo y el humo de la cera y grietas en los ensambles de la madera. La imagen no había tenido una intervención importante desde 1981.",
-    "Rivas asegura que la restauración no es invasiva y es reversible. Incluye la limpieza, la revisión de los ensambles y un nuevo sistema de anclaje a la cruz. Una comisión de la junta de gobierno hace el seguimiento y los restauradores han ofrecido un contrato de mantenimiento para revisar la imagen cada año.",
-    "La vuelta del Cristo está prevista para finales de enero o principios de febrero, antes del quinario, que empieza el 5 de febrero. La verbena de la Familia que la hermandad tenía convocada para el sábado 17 de octubre en la Plazuela para financiar estos proyectos se suspendió finalmente."
-   ],
-   "seo": [
-    "hermandad-amargura-alcala-retablo-cristo-del-amor-restauracion",
-    "La Amargura: retablo y Cristo del Amor para la Cuaresma",
-    "La Hermandad de la Amargura de Alcalá de Guadaíra prevé estrenar en Cuaresma la primera fase de su retablo y recuperar al Cristo del Amor restaurado.",
-    [
-     "Hermandad de la Amargura",
-     "Cristo del Amor",
-     "retablo",
-     "restauración",
-     "Jueves Santo",
-     "Antonio Rivas Durán"
-    ]
-   ]
-  },
-  {
-   "id": "panarrafest-dispositivo",
-   "sec": "cultura",
-   "kicker": "PanarraFest",
-   "iso": "2026-10-20",
-   "src": "El Panadero",
-   "title": "El PanarraFest cortará desde las 17:00 la rotonda del Auditorio: dónde aparcar y cómo llegar",
-   "sub": "El Ayuntamiento habilita zonas de aparcamiento según el origen de los asistentes y ocho carriles de control en la entrada",
-   "caption": "Público en un concierto nocturno. Imagen de recurso",
-   "foto": "panarrafest-dispositivo-stock.jpg",
-   "fotocredito": "Unsplash",
-   "claves": [
-    "La rotonda de acceso al Auditorio Riberas del Guadaíra se cortará al tráfico desde las 17:00 para el PanarraFest.",
-    "El aparcamiento junto al Auditorio queda reservado a personas con movilidad reducida acreditada.",
-    "Quienes lleguen desde Sevilla y Dos Hermanas pueden aparcar en la zona de Mar Mediterráneo; desde Utrera, Morón y Arahal, en San Francisco y el Tren de los Panaderos.",
-    "Habrá ocho carriles de control de acceso y el Ayuntamiento recomienda ir a pie."
-   ],
-   "body": [
-    "<span class='howto'>Actualización, 29 de octubre de 2026: el Ayuntamiento ha suspendido el PrePanarraFest del 30 de octubre y el PanarraFest del 31 por el luto oficial tras el accidente ferroviario de Urda. El dispositivo de tráfico descrito en esta noticia no se aplicará y las entradas se devolverán íntegras. <a href='#panarrafest-suspendido-luto-oficial'>Toda la información sobre la suspensión</a>.</span>",
-    "El Ayuntamiento de Alcalá de Guadaíra cortará al tráfico la rotonda de acceso al Auditorio Riberas del Guadaíra a partir de las 17:00 horas con motivo del PrePanarraFest, el viernes 30 de octubre, y del PanarraFest, el sábado 31. El aparcamiento junto al recinto quedará reservado a personas con movilidad reducida acreditada.",
-    "La Delegación de Cultura ha dado a conocer el dispositivo de tráfico y seguridad del festival, que se celebra en la explanada del Auditorio. El Ayuntamiento recomienda llegar con antelación y acudir a pie siempre que sea posible.",
-    "## Dónde aparcar",
-    "Para quienes vengan desde Sevilla y Dos Hermanas, la zona recomendada es la de Mar Mediterráneo: la avenida Mar Mediterráneo, con acceso por la salida 9 de la A-92; el aparcamiento del tranvía en el Zacatín, desde Mar Mediterráneo en dirección a Cabeza Hermosa, y la calle Cabalgata Reyes Silos.",
-    "Otra zona habilitada es el parque Puente Guardián del Castillo. Desde Sevilla se llega por la A-376 hasta la salida 8, para tomar después la A-392 y la A-8033.",
-    "Para el público de Utrera, Morón y Arahal, las zonas indicadas son San Francisco y el Tren de los Panaderos. Desde Morón y Arahal se accede por la salida de la A-92 hacia el Tren de los Panaderos, y desde Utrera, por la carretera de Alcalá a Utrera en dirección a San Francisco. Desde Sevilla y Dos Hermanas también se puede llegar a esta zona por la A-376 y la A-392.",
-    "## Ocho carriles en la entrada",
-    "Para agilizar la entrada y evitar aglomeraciones, el recinto tendrá ocho carriles de control de acceso. Contará también con personal de vigilancia y asistencia sanitaria, aseos repartidos por la explanada, vías de evacuación coordinadas y servicio de restauración hasta medianoche. La empresa municipal Aira Gestión Ambiental se encargará de un plan de limpieza antes, durante y después del festival.",
-    "## Horarios y cartel",
-    "Las puertas abrirán a las 18:00 horas las dos jornadas. El viernes, las actuaciones empiezan a las 19:00, con Original Elías, Javi Torres y LosPicy y Óscar Herrera. El sábado, la música arranca a las 19:30 con Nebulossa, Ladilla Rusa, Carmen Xía, Karmento y Tú Peleas Como Una Vaca, además de los DJ alcalareños Luis Jiménez y Josan Fame. En la presentación del festival se había anunciado la apertura del sábado a las 18:30 y el comienzo de la música a las 20:00.",
-    "<span class='howto'>Entradas: en la plataforma municipal de venta de entradas del Ayuntamiento. PrePanarraFest (viernes 30): 2 euros. PanarraFest (sábado 31): 10 euros. Corte de tráfico: rotonda de acceso al Auditorio, desde las 17:00. Aparcamientos: Mar Mediterráneo, Zacatín, Cabalgata Reyes Silos, Puente Guardián del Castillo, San Francisco y Tren de los Panaderos.</span>"
-   ],
-   "seo": [
-    "panarrafest-alcala-cortes-trafico-aparcamientos",
-    "PanarraFest: cortes de tráfico y dónde aparcar en Alcalá",
-    "El PanarraFest corta la rotonda del Auditorio Riberas del Guadaíra desde las 17:00 los días 30 y 31 de octubre. Aparcamientos, accesos y horarios.",
-    [
-     "PanarraFest",
-     "cortes de tráfico",
-     "aparcamientos",
-     "Auditorio Riberas del Guadaíra",
-     "Halloween",
-     "Aira"
     ]
    ]
   },
