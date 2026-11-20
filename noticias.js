@@ -285,9 +285,347 @@ window.EP = {
    "donde": "Agencia Andaluza de la Energía, por vía telemática",
    "noticia": "ayudas-eficiencia-energetica-junta",
    "hasta": "2027-09-30"
+  },
+  {
+   "cuando": "1 dic",
+   "que": "Charla del arcipreste José Antonio Martínez en el Foro de Formación del Consejo de Hermandades",
+   "donde": "Por confirmar",
+   "noticia": "jesus-paso-san-juan-cartel-semana-santa-foro-formacion",
+   "hasta": "2026-12-01"
+  },
+  {
+   "cuando": "30 dic",
+   "que": "Comienza el LXXV aniversario del Dulce Nombre con la presentación del cartel",
+   "donde": "Parroquia de San Sebastián",
+   "noticia": "dulce-nombre-75-aniversario-programa-2027",
+   "hasta": "2026-12-30"
   }
  ],
  "noticias": [
+  {
+   "iso": "2026-11-20",
+   "hora": "22:25",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "jornada-infancia-220-escolares-red-apoyos",
+   "sec": "alcala",
+   "kicker": "Infancia",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=P4Pent5fpSc&t=0s",
+   "title": "Más de 220 escolares de cinco colegios de Alcalá participan en la XII Jornada por la Infancia",
+   "sub": "Alumnos de quinto de Primaria rotaron por diez talleres sobre familia, entidades y administraciones bajo el lema «Ninguna historia crece sola»",
+   "caption": "Gráfico con las cifras de participación de la XII Jornada por la Infancia de Alcalá de Guadaíra.",
+   "foto": "jornada-infancia-220-escolares-red-apoyos-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "Más de 220 escolares de Alcalá de Guadaíra participaron el viernes 20 de noviembre en la XII Jornada por la Infancia.",
+    "Tomaron parte diez clases de quinto de Primaria de cinco colegios del municipio, que rotaron por diez talleres.",
+    "La organizan la Asociación Paz y Bien y el Ayuntamiento, con la Fundación Azvi, bajo el lema «Ninguna historia crece sola, necesita una red de apoyos».",
+    "La jornada terminó con una red simbólica hecha con cuerdas y la lectura de un manifiesto."
+   ],
+   "body": [
+    "Más de 220 escolares de Alcalá de Guadaíra participaron el viernes 20 de noviembre en la XII Jornada por la Infancia, organizada por la Asociación Paz y Bien y el Ayuntamiento con la Fundación Azvi. La cita, que coincide con el Día Mundial de los Derechos de la Infancia, giró este año en torno a las redes de apoyo que necesitan niños y niñas para crecer.",
+    "Participaron diez clases de quinto de Primaria de cinco centros educativos del municipio: los colegios Antonio Rodríguez Almodóvar, José Ramón, San Mateo, Manuel Alonso y Silos. Durante la mañana, los alumnos fueron rotando por diez talleres en los que trabajaron los distintos tipos de familia y de entorno doméstico y el papel que tienen las entidades sociales y las administraciones en la protección de la infancia.",
+    "La cifra final queda por debajo de las previsiones que se dieron en la presentación de la jornada, cuando el Ayuntamiento habló de más de 350 menores y la organización, de más de 250, como recogió El Panadero al <a href='#jornada-infancia-xii-paz-y-bien-20-noviembre'>anunciar la cita</a>. El Ayuntamiento cifra ahora la participación en «más de 220 menores», según ha informado en sus redes sociales.",
+    "## Una red con cuerdas",
+    "El lema de esta edición fue «Ninguna historia crece sola, necesita una red de apoyos». Los organizadores explicaron a El Panadero que el objetivo es visibilizar los derechos de la infancia y subrayar que el crecimiento de los menores no depende de una sola persona, sino de la familia, la escuela, las entidades y las administraciones.",
+    "La jornada terminó con la creación de una red simbólica que unió a todos los participantes mediante cuerdas elaboradas en los talleres, y con la lectura de un manifiesto. El texto recordó que todas las personas forman parte de la historia de los demás y que nadie crece solo.",
+    "Los organizadores señalaron que el interés de los centros educativos crece cada año y expresaron su deseo de contar en próximas ediciones con espacios más amplios para poder sumar más colegios.",
+    "## Quién colabora",
+    "Además de Paz y Bien, el Ayuntamiento y la Fundación Azvi, la jornada contó con la colaboración de la Peña Sevillista La Previa y de la empresa Eutronics, y con la participación de la Unidad de Atención a la Familia y a la Mujer (UFAM) de la Policía Nacional, según el Ayuntamiento.",
+    "Paz y Bien trabaja desde 1998 con menores en situación de protección a través de una red de recursos en las provincias de Sevilla y Huelva. La asociación forma parte también de <a href='#mesa-capacidades-diez-anos-gala'>la Mesa de las Capacidades</a> de Alcalá."
+   ],
+   "seo": [
+    "jornada-infancia-paz-y-bien-220-escolares-alcala",
+    "Jornada por la Infancia: 220 escolares en Alcalá",
+    "Más de 220 escolares de cinco colegios de Alcalá de Guadaíra participan el viernes en la XII Jornada por la Infancia de Paz y Bien y el Ayuntamiento.",
+    [
+     "Asociación Paz y Bien",
+     "Jornada por la Infancia",
+     "derechos de la infancia",
+     "Fundación Azvi",
+     "colegios de Alcalá",
+     "quinto de Primaria"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-20",
+   "hora": "22:25",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "dulce-nombre-75-aniversario-programa-2027",
+   "sec": "hermandades",
+   "kicker": "LXXV aniversario",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=8k0HRVsvKgg&t=0s",
+   "title": "El Dulce Nombre celebrará su 75 aniversario con cuatro salidas de la Virgen y una Semana de la Caridad",
+   "sub": "La efeméride arranca el 30 de diciembre con la presentación del cartel y tendrá su procesión extraordinaria el 11 de septiembre de 2027",
+   "caption": "Gráfico con las principales citas del LXXV aniversario fundacional de la Hermandad del Dulce Nombre.",
+   "foto": "dulce-nombre-75-aniversario-programa-2027-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "La Hermandad del Dulce Nombre de Alcalá de Guadaíra celebrará su 75 aniversario fundacional entre el 30 de diciembre de 2026 y el 30 de diciembre de 2027.",
+    "La Virgen saldrá cuatro veces, entre ellas en una procesión extraordinaria el sábado 11 de septiembre de 2027.",
+    "Del 5 al 11 de abril la hermandad organizará una Semana de la Caridad en cinco parroquias de la ciudad.",
+    "Ángel Gutiérrez Oliveros pronunciará el pregón del aniversario el domingo 5 de septiembre en el Teatro Gutiérrez de Alba."
+   ],
+   "body": [
+    "La Hermandad del Dulce Nombre de Alcalá de Guadaíra celebrará su 75 aniversario fundacional con un año de actos que empezará el 30 de diciembre de 2026 y terminará el 30 de diciembre de 2027. El programa incluye cuatro salidas de la Virgen, una Semana de la Caridad y una procesión extraordinaria en septiembre, según explicaron a El Panadero miembros de su Junta de Gobierno.",
+    "La hermandad nació en 1952. El aniversario arrancará el 30 de diciembre con la misa que su regla dedica a Manuel Pineda Calderón, figura clave en su historia, y con la presentación del cartel, obra de José Cabrera Lasso de la Vega, <a href='#dulce-nombre-cartel-75-aniversario-jose-cabrera'>designado esta semana</a>.",
+    "## De enero a mayo",
+    "El domingo 3 de enero, antes de la función del Dulce Nombre de Jesús, de las 20.00, habrá a las 18.30 una procesión infantil con el Niño Jesús, que portarán los grupos de catequesis en un pequeño paso. El domingo 7 de febrero, festividad de la Candelaria, la Virgen irá por un recorrido extraordinario hasta la plaza de la Almazara, donde se celebrará una misa a las 12.00.",
+    "Del lunes 5 al domingo 11 de abril tendrá lugar la Semana de la Caridad, que la hermandad presenta como la obra social del aniversario. Cada día estará dedicado a un tema, con un ponente, en una parroquia distinta. El sábado 10 habrá un festival de la juventud en la caseta municipal y el domingo 11, una misa con la Virgen en la Plazuela, a la que llegará en andas y de la que volverá en procesión con banda.",
+    "En mayo, el quinario contará cada día con un predicador distinto y la función principal la presidirá el obispo auxiliar, Teodoro León. La procesión ordinaria será el sábado 15 de mayo.",
+    "## Pregón y procesión extraordinaria",
+    "La Junta de Gobierno ha designado a Ángel Gutiérrez Oliveros pregonero del aniversario, según ha publicado la hermandad en su perfil de Facebook. El pregón será el domingo 5 de septiembre a las 12.30 en el Teatro Gutiérrez de Alba, con una banda que estrenará al menos una marcha nueva.",
+    "El triduo de septiembre lo predicarán los últimos párrocos de San Sebastián. El sábado 11 la Virgen saldrá en procesión extraordinaria, con un recorrido distinto del habitual que llegará al Ayuntamiento, y se recogerá ya el domingo 12, día de su onomástica, cuya función presidirá el arzobispo de Sevilla, José Ángel Saiz Meneses.",
+    "Octubre y noviembre se dedicarán a exposiciones, con una muestra en el Museo de las Hermandades, conferencias y conciertos. Según la hermandad, todos los actos extraordinarios se han acordado con el párroco y director espiritual, Álvaro Montilla.",
+    "<span class='howto'><b>LXXV aniversario del Dulce Nombre.</b> 30 de diciembre: inicio y cartel. 3 de enero, 18.30: procesión infantil. 7 de febrero, 12.00: misa en la plaza de la Almazara. 5-11 de abril: Semana de la Caridad. 15 de mayo: procesión. 5 de septiembre, 12.30: pregón en el Teatro Gutiérrez de Alba. 11 de septiembre: procesión extraordinaria.</span>"
+   ],
+   "seo": [
+    "dulce-nombre-75-aniversario-programa-alcala",
+    "Dulce Nombre: programa del 75 aniversario en Alcalá",
+    "La Hermandad del Dulce Nombre de Alcalá celebrará su 75 aniversario con cuatro salidas de la Virgen, una Semana de la Caridad y pregón en septiembre.",
+    [
+     "Hermandad del Dulce Nombre",
+     "75 aniversario",
+     "Ángel Gutiérrez Oliveros",
+     "San Sebastián",
+     "procesión extraordinaria",
+     "Semana de la Caridad"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-20",
+   "hora": "22:25",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "jesus-paso-san-juan-cartel-semana-santa-foro-formacion",
+   "sec": "hermandades",
+   "kicker": "Consejo de Hermandades",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=vaD8S9WO0R8&t=0s",
+   "title": "Jesús Nazareno abre el sábado su casa para mostrar el paso de San Juan restaurado",
+   "sub": "El Consejo de Hermandades avanza el cartel de la Semana Santa de Rafael Muñoz, dedicado a la cofradía, y presenta su Foro de Formación",
+   "caption": "Imagen genérica de la sección de hermandades.",
+   "foto": "generica-hermandades.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La Hermandad de Jesús Nazareno de Alcalá de Guadaíra muestra el sábado 21 de noviembre el paso de San Juan restaurado, de 10.30 a 13.30 y de 19.00 a 20.30.",
+    "El cartel de la Semana Santa que pinta Rafael Muñoz estará dedicado a la Hermandad de Jesús Nazareno.",
+    "El Foro de Formación del Consejo tendrá su primera charla el martes 1 de diciembre, a cargo del arcipreste José Antonio Martínez."
+   ],
+   "body": [
+    "La Hermandad de Jesús Nazareno de Alcalá de Guadaíra abrirá el sábado 21 de noviembre su casa de hermandad para mostrar el paso de San Juan tras su restauración. Las visitas serán de 10.30 a 13.30 y de 19.00 a 20.30, según ha publicado el Consejo General de Hermandades y Cofradías en su perfil de Facebook.",
+    "Habrá además visitas guiadas por el equipo de restauradores a las 12.30 y a las 19.30. La presentación forma parte del II Ciclo de Conservación Preventiva que organizan la Delegación de Patrimonio y el Consejo, y al que la hermandad se acogió para intervenir en este paso, como <a href='#jesus-palio-socorro-borriquita-cristo-bondad'>avanzó en octubre</a>.",
+    "El mismo ciclo presentó el miércoles 18 en el Museo de la Ciudad la restauración de las pinturas del Santo Cristo de Burgos y del <a href='#amargura-exposicion-cristo-desamparados-18-noviembre'>Cristo de los Desamparados</a>, ambas de la parroquia de San Sebastián. Durante la limpieza del Cristo de Burgos apareció una firma, hoy ilegible, y una fecha de comienzos del siglo XVIII, 1706 o 1709, según explicó a El Panadero el conservador Alejandro Redondo, vicepresidente del Consejo.",
+    "## El cartel, dedicado a Jesús",
+    "El Consejo ha conocido el avance de los trabajos del cartel de la próxima Semana Santa, que pinta Rafael Muñoz y que en esta edición estará dedicado a la Hermandad de Jesús Nazareno. El Consejo no ha dado todavía la fecha de presentación.",
+    "La hermandad celebró además el jueves 19 en su Salón de Cabildos una mesa redonda sobre la donación y el trasplante de órganos con el médico José Pérez Bernal, y ya tiene a la venta sus almanaques de pared y de sobremesa.",
+    "## Foro de Formación",
+    "El Consejo ha presentado también su Foro de Formación 2026-2027, con dos líneas: una de formación cristiana y otra cultural y cofrade. La primera charla será el martes 1 de diciembre, a cargo del arcipreste de la ciudad, José Antonio Martínez, sobre «el desafío de evangelizar hoy desde nuestras hermandades» a la luz de la visita del Papa a España. La segunda, el 26 de abril, la impartirá Álvaro Román Villalón. La línea cultural incluirá un ciclo de encuentros cofrades en enero, aún sin fechas.",
+    "<span class='howto'><b>Paso de San Juan restaurado.</b> Sábado 21 de noviembre. Casa de hermandad de Jesús Nazareno. Visitas de 10.30 a 13.30 y de 19.00 a 20.30. Visitas guiadas a las 12.30 y a las 19.30. Inscripción en el Foro de Formación: código QR en la web del Consejo de Hermandades.</span>"
+   ],
+   "seo": [
+    "jesus-nazareno-paso-san-juan-restaurado-alcala",
+    "Jesús Nazareno muestra el paso de San Juan restaurado",
+    "La Hermandad de Jesús Nazareno de Alcalá abre el sábado 21 su casa para ver el paso de San Juan restaurado; el cartel de Semana Santa le estará dedicado.",
+    [
+     "Hermandad de Jesús Nazareno",
+     "paso de San Juan",
+     "Consejo de Hermandades",
+     "Rafael Muñoz",
+     "cartel Semana Santa",
+     "conservación preventiva"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-20",
+   "hora": "22:25",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "centenaria-libro-historias-contadas-50-anos",
+   "sec": "cultura",
+   "kicker": "Patrimonio",
+   "destacado": true,
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=P4Pent5fpSc&t=0s",
+   "title": "La Centenaria, confitería de Alcalá fundada en 1860, ya tiene su libro en la colección Historias contadas",
+   "sub": "Antonio García Calderón presentó la obra en el Museo el mismo año en que la familia que la regenta cumple 50 años al frente",
+   "caption": "Imagen genérica de la sección de cultura.",
+   "foto": "generica-cultura.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Antonio García Calderón presentó el jueves 19 de noviembre en el Museo de Alcalá de Guadaíra un libro sobre la confitería La Centenaria.",
+    "La confitería se fundó en 1860 y el libro es el tercer volumen de la colección municipal Historias contadas.",
+    "En 2026 se cumplen 50 años desde que la familia que la regenta tomó las riendas del establecimiento, en 1976."
+   ],
+   "body": [
+    "La confitería La Centenaria, fundada en Alcalá de Guadaíra en 1860, ya tiene su propio libro. Antonio García Calderón presentó el jueves 19 de noviembre en el Museo de la ciudad esta publicación, que repasa la historia del establecimiento y es el tercer volumen de la colección municipal Historias contadas.",
+    "La colección, impulsada desde el Museo, busca recuperar episodios, personajes, negocios y tradiciones que ayudan a entender la historia de Alcalá, según ha informado el Ayuntamiento en sus redes sociales, que la define como una serie centrada en el patrimonio local inmaterial. A la misma colección se acaba de incorporar <a href='#amalia-borrero-libro-aceituneras-historias-contadas'>el libro de Amalia Borrero sobre las mujeres de los almacenes de aceitunas</a>.",
+    "## Medio siglo de la misma familia",
+    "La presentación coincide con un aniversario para la familia que regenta La Centenaria: en 2026 se cumplen 50 años desde que el padre tomó las riendas del negocio, en 1976. Bajo el lema «50 años custodiando un legado», la familia ha preparado un proyecto audiovisual que reúne fotografías y testimonios de familiares, trabajadores y clientes.",
+    "Uno de los hijos contó a El Panadero que llegó a la confitería siendo estudiante de instituto para echar un verano, tras un mal curso, y que medio siglo después sigue en el obrador. Otra integrante de la familia se incorporó más tarde, cuando la familia abrió un segundo punto de venta en Nueva Alcalá, hace unos 15 años.",
+    "La confitería tiene su sede en la calle Nuestra Señora del Águila. Entre sus productos más conocidos están las tortas de Alcalá y el tocino de cielo. Sus responsables explican que han incorporado rellenos y cremas al gusto actual, pero mantienen la base tradicional, como el bizcocho y el petisú, y lamentan que algunos pasteles antiguos ya no se elaboren porque no atraen al público joven.",
+    "Preguntados por el futuro, aseguran que La Centenaria seguirá abierta con el personal que trabaja hoy en el obrador.",
+    "El libro llega en pleno otoño de actividades sobre la tradición repostera y panadera de la ciudad, después de que <a href='#mes-del-pan-2026-record-3000-participantes'>el Mes del Pan superara por primera vez los 3.000 participantes</a>."
+   ],
+   "seo": [
+    "centenaria-confiteria-libro-historias-contadas",
+    "La Centenaria de Alcalá, en la colección Historias contadas",
+    "Antonio García Calderón presenta en el Museo de Alcalá el libro de La Centenaria, confitería de 1860, en el 50 aniversario de la familia que la regenta.",
+    [
+     "La Centenaria",
+     "confitería",
+     "Historias contadas",
+     "Museo de Alcalá",
+     "Antonio García Calderón",
+     "tortas de Alcalá"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-20",
+   "hora": "22:25",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "relanza-t-segunda-jornada-marca-personal",
+   "sec": "economia",
+   "kicker": "Empleo",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=P4Pent5fpSc&t=0s",
+   "title": "RELANZA-T reúne a más de un centenar de desempleados en su segunda jornada sobre marca personal",
+   "sub": "La empresa municipal de limpieza examina el sábado en el IES Cristóbal de Monroy a los aspirantes a 14 plazas fijas discontinuas",
+   "caption": "Gráfico con las cifras del proyecto de empleabilidad RELANZA-T del Ayuntamiento de Alcalá de Guadaíra.",
+   "foto": "relanza-t-segunda-jornada-marca-personal-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El Auditorio Riberas del Guadaíra acogió el viernes 20 de noviembre la segunda Jornada de Activación para el Empleo de RELANZA-T, con más de un centenar de participantes.",
+    "El proyecto beneficia a 800 personas con más de 60 itinerarios y una financiación aproximada de 5,7 millones de euros, según el Ayuntamiento.",
+    "Las próximas jornadas serán el 10 de febrero y el 12 de marzo.",
+    "El sábado 21 se examinan en el IES Cristóbal de Monroy los aspirantes a ocho plazas de oficial conductor y seis de operario especialista de la empresa municipal de limpieza."
+   ],
+   "body": [
+    "Más de un centenar de personas desempleadas participaron el viernes 20 de noviembre en el Auditorio Riberas del Guadaíra en la segunda Jornada de Activación para el Empleo del proyecto RELANZA-T, que impulsa el Ayuntamiento de Alcalá de Guadaíra. Bajo el título «Marca personal, talento y oportunidades», la sesión trabajó las habilidades personales que pueden ayudar a encontrar trabajo.",
+    "A través de conferencias y talleres prácticos, los participantes abordaron el autoconocimiento, la identificación de las propias capacidades, la confianza y la forma de presentar el perfil profesional ante las empresas. El objetivo, según la organización, es que cuenten con más recursos para afrontar entrevistas y procesos de selección.",
+    "La alcaldesa, Ana Isabel Jiménez, se dirigió a los asistentes para reconocer su esfuerzo. «Quiero reconocerlo como alcaldesa porque no solo es positivo para vosotros, sino que es positivo para vuestra ciudad», dijo. En sus redes sociales, Jiménez sostiene que los datos de empleo en Alcalá han mejorado.",
+    "## 800 participantes",
+    "RELANZA-T beneficia a 800 personas con más de 60 itinerarios en profesiones de alta demanda laboral en sus distintas convocatorias y cuenta con una financiación aproximada de 5,7 millones de euros, según ha informado el Ayuntamiento en sus redes sociales. La primera de las cuatro jornadas <a href='#relanza-t-primera-jornada-activacion-empleo'>reunió a más de 120 personas a primeros de mes</a>.",
+    "El ciclo continuará el 10 de febrero con una jornada sobre gestión emocional, resiliencia y autocuidado, y terminará el 12 de marzo con otra centrada en el empleo, el networking y el contacto directo con las empresas.",
+    "## Examen para 14 plazas",
+    "En paralelo, la empresa municipal encargada de la limpieza de las calles y la recogida de residuos examina el sábado 21 de noviembre, en el IES Cristóbal de Monroy, a los aspirantes a 14 puestos de trabajo: ocho plazas de oficial conductor y seis de operario especialista. Todas tienen carácter fijo discontinuo y se cubren por oposición libre, con un examen teórico y, después, una prueba práctica.",
+    "<span class='howto'><b>Próximas jornadas de RELANZA-T.</b> 10 de febrero: gestión emocional, resiliencia y autocuidado. 12 de marzo: empleo, networking y contacto con empresas. <b>Examen de la empresa municipal de limpieza:</b> sábado 21 de noviembre, IES Cristóbal de Monroy.</span>"
+   ],
+   "seo": [
+    "relanza-t-jornada-activacion-empleo-marca-personal",
+    "RELANZA-T: segunda jornada de empleo en Alcalá",
+    "Más de un centenar de desempleados participan en Alcalá en la segunda jornada de RELANZA-T, un proyecto de 800 plazas y unos 5,7 millones de euros.",
+    [
+     "RELANZA-T",
+     "empleo",
+     "Auditorio Riberas del Guadaíra",
+     "Ana Isabel Jiménez",
+     "oposiciones",
+     "IES Cristóbal de Monroy"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-20",
+   "hora": "22:25",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "campana-29n-adelante-tranvia-pp-moreno-vox-plazuela",
+   "sec": "politica",
+   "kicker": "Elecciones 29N",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=P4Pent5fpSc&t=0s",
+   "title": "Adelante Andalucía critica en Alcalá los retrasos del tranvía y el PP trae a Juanma Moreno el domingo",
+   "sub": "Vox reunió el viernes en La Plazuela a sus candidatos en la última semana de campaña antes de las generales del 29 de noviembre",
+   "caption": "Imagen genérica de la sección de política.",
+   "foto": "generica-politica.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Adelante Andalucía instaló el viernes 20 de noviembre una mesa informativa en Alcalá de Guadaíra y criticó los retrasos del tranvía.",
+    "La formación llevará al Parlamento andaluz el jueves 26 una propuesta para que Andalucía asuma competencias sobre los trenes de cercanías.",
+    "El PP celebra el domingo 22 a las 12.00 un acto con Juanma Moreno en Celebraciones Zambra.",
+    "Vox convocó el viernes 20 un encuentro con sus candidatos en La Plazuela."
+   ],
+   "body": [
+    "Adelante Andalucía instaló el viernes 20 de noviembre una mesa informativa en Alcalá de Guadaíra para presentar sus propuestas para las elecciones generales del domingo 29 de noviembre. Su candidato al Congreso, José Ignacio García, centró sus declaraciones en los retrasos del tranvía y en las competencias ferroviarias.",
+    "Desde la asamblea local de Adelante Andalucía se quejaron de que, casi 20 años después de que comenzara el proyecto, la ciudad sigue sin poder usar el tranvía, y cuestionaron que se hable de inauguraciones cuando todavía no funciona para los usuarios. La formación sostiene que el presidente de la Junta de Andalucía, Juanma Moreno, lo ha inaugurado «muchísimas veces» y que «nos están tomando el pelo».",
+    "La formación amplió la crítica al conjunto del transporte público. Considera insuficientes las conexiones de una ciudad del tamaño de Alcalá, dentro del municipio y con Sevilla y su área metropolitana, y citó también la falta de estación de autobuses y la carencia de vivienda. El partido ya <a href='#adelante-andalucia-tranvia-retraso-explicaciones'>pidió a la Junta una fecha definitiva para el tranvía</a> a principios de mes.",
+    "## Una propuesta en el Parlamento",
+    "Adelante Andalucía anunció que el jueves 26 de noviembre llevará al Parlamento de Andalucía una propuesta para que la comunidad asuma competencias sobre los trenes de cercanías y tenga más capacidad de decisión en su planificación y gestión. La formación recordó que el PP apoyó esa idea hace tres años y dijo que quiere ver si mantiene ese apoyo.",
+    "## Agenda del PP y de Vox",
+    "El PP celebrará el domingo 22 de noviembre a las 12.00 un acto de campaña con Juanma Moreno en Celebraciones Zambra, bajo el lema «El cambio necesario», según ha anunciado el PP de Alcalá en su perfil de Facebook.",
+    "Vox, por su parte, convocó el viernes 20 a las 19.00 en La Plazuela un encuentro con sus candidatos Reyes Romero y Fernando Rodríguez Galisteo, según publicó la formación en sus redes sociales.",
+    "El PSOE celebró esta semana su propio acto con candidatos y con la alcaldesa, Ana Isabel Jiménez, como recogió El Panadero en la información sobre <a href='#junta-electoral-pp-carteles-calle-arahal-campana-29n'>los carteles retirados por orden de la Junta Electoral</a>."
+   ],
+   "seo": [
+    "campana-29n-alcala-tranvia-adelante-pp-vox",
+    "Campaña del 29N en Alcalá: tranvía, PP y Vox",
+    "Adelante Andalucía critica en Alcalá de Guadaíra los retrasos del tranvía; el PP trae a Juanma Moreno el domingo 22 y Vox reúne a sus candidatos.",
+    [
+     "elecciones generales 29N",
+     "Adelante Andalucía",
+     "tranvía de Alcalá",
+     "PP de Alcalá",
+     "Vox Alcalá",
+     "Juanma Moreno"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-20",
+   "hora": "22:25",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "junta-gobierno-plan-estrategico-turismo-cipaem",
+   "sec": "politica",
+   "kicker": "Junta de Gobierno",
+   "src": "Ana Isabel Jiménez (Facebook)",
+   "fuente_url": "https://www.facebook.com/1595493005932940/posts/1599800155502225",
+   "title": "La Junta de Gobierno de Alcalá aprueba el Plan Estratégico de Turismo y el convenio del CIPAEM",
+   "sub": "También avanza la contratación del mantenimiento, la reparación y la limpieza de los vehículos municipales",
+   "caption": "Gráfico con los acuerdos de la Junta de Gobierno Local de Alcalá de Guadaíra del 20 de noviembre.",
+   "foto": "junta-gobierno-plan-estrategico-turismo-cipaem-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "La Junta de Gobierno Local de Alcalá de Guadaíra aprobó el viernes 20 de noviembre el Plan Estratégico de Turismo de la ciudad.",
+    "Aprobó también el convenio con la Diputación de Sevilla para las actuaciones del CIPAEM en el Teatro Gutiérrez de Alba y el Auditorio Riberas del Guadaíra.",
+    "La Junta avanzó además en la contratación del mantenimiento, la reparación y la limpieza de los vehículos municipales."
+   ],
+   "body": [
+    "La Junta de Gobierno Local de Alcalá de Guadaíra aprobó el viernes 20 de noviembre el Plan Estratégico de Turismo de la ciudad y el convenio con la Diputación de Sevilla para las actuaciones artísticas del CIPAEM, según ha publicado la alcaldesa, Ana Isabel Jiménez, en su perfil de Facebook.",
+    "Según la alcaldesa, el plan de turismo es una herramienta para impulsar una oferta turística integrada, dar más visibilidad a la ciudad y generar nuevas oportunidades de actividad económica. La publicación no detalla el contenido del plan, su presupuesto ni el periodo que abarca.",
+    "El documento llega en un otoño con varias citas ligadas a la promoción de la ciudad. La empresa alcalareña Decoalbero <a href='#decoalbero-premio-turismo-industrial-industria-viva-2026'>ganó esta semana el Premio Turismo Industrial de la Diputación</a> en la categoría «Industria Viva», y <a href='#mes-del-pan-2026-record-3000-participantes'>el Mes del Pan superó por primera vez los 3.000 participantes</a>.",
+    "## Artes escénicas y vehículos",
+    "El convenio con la Diputación permitirá programar en el Teatro Gutiérrez de Alba y en el Auditorio Riberas del Guadaíra actuaciones del CIPAEM, el circuito con el que la institución provincial lleva espectáculos de artes escénicas y música a los municipios de la provincia.",
+    "La Junta de Gobierno avanzó además en la contratación del servicio de mantenimiento, reparación, mecánica y limpieza de los vehículos municipales, que la alcaldesa considera fundamental para el funcionamiento de los servicios públicos. Jiménez no ha precisado el importe ni el plazo de ese contrato.",
+    "La Junta de Gobierno Local es el órgano que reúne cada semana a la alcaldesa y a los concejales del equipo de gobierno para aprobar expedientes de gestión ordinaria, como contratos, convenios y planes, que no tienen que pasar por el Pleno."
+   ],
+   "seo": [
+    "junta-gobierno-plan-estrategico-turismo-alcala",
+    "Alcalá aprueba su Plan Estratégico de Turismo",
+    "La Junta de Gobierno de Alcalá de Guadaíra aprueba el Plan Estratégico de Turismo, el convenio del CIPAEM y avanza el contrato de vehículos municipales.",
+    [
+     "Junta de Gobierno Local",
+     "Plan Estratégico de Turismo",
+     "CIPAEM",
+     "Diputación de Sevilla",
+     "Teatro Gutiérrez de Alba",
+     "Ana Isabel Jiménez"
+    ]
+   ]
+  },
   {
    "iso": "2026-11-20",
    "hora": "07:25",
@@ -616,11 +954,13 @@ window.EP = {
    "claves": [
     "Según el PSOE de Alcalá de Guadaíra, la Junta Electoral de Zona de Sevilla ha obligado al PP local a retirar los carteles que colocó en las farolas de la calle Arahal.",
     "Los socialistas afirman que esa calle no figura entre los lugares autorizados, que el Ayuntamiento publicó en el BOP el 20 de octubre.",
+    "El Ayuntamiento informó el 20 de noviembre de que ha cumplido la orden de la Junta Electoral y ha retirado la propaganda colocada en lugares no habilitados.",
     "PSOE y PP intensifican esta semana sus actos en Alcalá ante las elecciones generales del domingo 29 de noviembre."
    ],
    "body": [
     "La Junta Electoral de Zona de Sevilla ha obligado al PP de Alcalá de Guadaíra a retirar los carteles electorales que había colocado en las farolas de la calle Arahal, según informó el jueves 19 de noviembre el PSOE local en un comunicado. Los socialistas sostienen que ese espacio no está entre los autorizados para la propaganda de las elecciones generales del domingo 29 de noviembre.",
     "En su nota, el PSOE recuerda que los lugares habilitados para colocar carteles los determinó el Ayuntamiento y se publicaron en el Boletín Oficial de la Provincia el 20 de octubre. Según los socialistas, cada formación tiene asignados espacios concretos, repartidos en función de los resultados de las anteriores elecciones y acordados en una reunión entre los partidos. El PSOE asegura que estará «vigilante» para que se respeten esas ubicaciones durante la campaña.",
+    "El Ayuntamiento de Alcalá informó el viernes 20 de noviembre de que ha cumplido la orden de la Junta Electoral de Zona de Sevilla y ha retirado la propaganda electoral colocada en lugares no habilitados para ello, según <a href='https://www.alcaladeguadaira.es/noticias/10019/la-junta-electoral-de-zona-obliga-al-ayuntamiento-a-retirar-propaganda-electoral-colocada-en-lugares-que-no-estan-habilitados' target='_blank' rel='noopener'>su nota</a>. La nota municipal no detalla qué carteles ni de qué formaciones se han retirado.",
     "## Actos de campaña",
     "La campaña ha llevado esta semana a Alcalá a candidatos del PSOE y del PP. El PSOE reunió el miércoles 18 en su sede a militantes y simpatizantes con la presencia de Francisco Toscano, candidato socialista al Congreso por Sevilla, de Carmen Castilla y de la alcaldesa y secretaria general del partido en la ciudad, Ana Isabel Jiménez.",
     "Toscano pidió el voto a jóvenes, pensionistas, inquilinos y pequeños propietarios y acusó a la oposición de querer desmovilizar al electorado: «No es casual que pongan en cuestión el voto por correo», dijo. Jiménez defendió el modelo de su partido frente al que llamó «el retroceso» de los recortes y advirtió de un gobierno de la derecha con la ultraderecha. Los socialistas anunciaron presencia en plazas, barrios y domicilios hasta el día de la votación.",
@@ -639,7 +979,8 @@ window.EP = {
      "propaganda electoral",
      "calle Arahal"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-20T22:25"
   },
   {
    "iso": "2026-11-19",
@@ -659,13 +1000,13 @@ window.EP = {
    "claves": [
     "La Cabalgata de Reyes Magos del Campo de las Beatas entrega el jueves 19 y el viernes 20 de noviembre las papeletas de sitio para salir como beduino.",
     "La papeleta cuesta 30 euros, más una fianza de 30 euros que se devuelve al entregar el traje.",
-    "La Cabalgata ReyeSilos celebra el sábado 21 de noviembre su almuerzo de coronación en la Hacienda Caridad."
+    "La Cabalgata ReyeSilos celebra el sábado 21 de noviembre su almuerzo de coronación en la Hacienda Caridad, con David Martínez Naranjo, Álvaro Gómez García y Diego Puentes Cruz como Reyes Magos de 2027."
    ],
    "body": [
     "La Cabalgata de Reyes Magos del Campo de las Beatas, en Alcalá de Guadaíra, ha abierto el reparto de papeletas de sitio para quienes quieran formar parte de su cortejo como beduinos. La entrega se hace el jueves 19 y el viernes 20 de noviembre, de 17.00 a 19.30, en su local del número 33 de la calle Rápida.",
     "La papeleta cuesta 30 euros, a los que se suma una fianza de otros 30 euros que la asociación devuelve cuando se entrega el traje después del desfile.",
     "## ReyeSilos corona a sus Reyes",
-    "La Cabalgata ReyeSilos, la del barrio de Silos, celebra por su parte el sábado 21 de noviembre su tradicional almuerzo de coronación, que este año será en la Hacienda Caridad, según ha anunciado en su perfil de Facebook. La asociación atiende a sus socios todos los miércoles, de 18.00 a 20.00, en su sede de la calle Cabalgata ReyeSilos.",
+    "La Cabalgata ReyeSilos, la del barrio de Silos, celebra por su parte el sábado 21 de noviembre su tradicional almuerzo de coronación, que este año será en la Hacienda Caridad, según ha anunciado en su perfil de Facebook. Allí se reunirán los protagonistas del cortejo de 2027: David Martínez Naranjo será el rey Melchor; Álvaro Gómez García, Gaspar, y Diego Puentes Cruz, Baltasar. La Estrella de la Ilusión será Ángela Arana Sánchez. La asociación atiende a sus socios todos los miércoles, de 18.00 a 20.00, en su sede de la calle Cabalgata ReyeSilos.",
     "Las cabalgatas de barrio completan en Alcalá el desfile principal de la tarde del 5 de enero, el que organiza la Asociación de la Cabalgata de Reyes, que <a href='#cabalgata-reyes-2027-designacion-sorpresa-reyes-magos'>comunicó a principios de noviembre quiénes serán Melchor, Gaspar y Baltasar</a>. Esa asociación representa además el domingo 22 de noviembre <a href='#cenicienta-musical-solidario-cabalgata-22-noviembre'>un musical solidario de «La Cenicienta»</a> para recaudar fondos.",
     "Otras entidades preparan también la noche de Reyes: el Grupo Joven de la Hermandad del Perdón <a href='#perdon-reyes-magos-visitan-casas-5-enero-2027'>organiza visitas de los Reyes Magos a domicilio</a> el 5 de enero.",
     "<span class='howto'><b>Papeletas de beduino de la Cabalgata del Campo de las Beatas.</b> Jueves 19 y viernes 20 de noviembre, de 17.00 a 19.30. Local de la calle Rápida, 33. Precio: 30 euros más 30 euros de fianza, que se devuelven al entregar el traje.</span>"
@@ -682,7 +1023,8 @@ window.EP = {
      "Silos",
      "cabalgatas de Alcalá"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-20T22:25"
   },
   {
    "iso": "2026-11-19",
