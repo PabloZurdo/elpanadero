@@ -1,60 +1,11 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-20",
+  "actualizado": "2026-11-21",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia.",
   "apertura": 2
  },
  "agenda": [
-  {
-   "cuando": "20 nov",
-   "que": "Segunda Jornada de Activación para el Empleo de RELANZA-T: «Marca personal, talento y oportunidades»",
-   "donde": "Auditorio Riberas del Guadaíra",
-   "noticia": "relanza-t-primera-jornada-activacion-empleo",
-   "hasta": "2026-11-20"
-  },
-  {
-   "cuando": "20 nov, 11.00",
-   "que": "Jornada gratuita «Ejercicio para la prevención de caídas en la persona mayor»",
-   "donde": "Centro Cívico Silos-Zacatín",
-   "noticia": "jornadas-prevencion-caidas-mayores-13-20-noviembre",
-   "hasta": "2026-11-20"
-  },
-  {
-   "cuando": "20 nov, 9.30",
-   "que": "XII Jornada por la Infancia de Paz y Bien",
-   "donde": "Polideportivo Distrito Sur",
-   "noticia": "jornada-infancia-xii-paz-y-bien-20-noviembre",
-   "hasta": "2026-11-20"
-  },
-  {
-   "cuando": "Vie 20 nov, 17.00",
-   "que": "Última tarde de reparto de papeletas de beduino de la Cabalgata del Campo de las Beatas",
-   "donde": "Calle Rápida, 33",
-   "noticia": "cabalgatas-beduinos-campo-beatas-almuerzo-coronacion-reyesilos",
-   "hasta": "2026-11-20"
-  },
-  {
-   "cuando": "Vie 20 nov, 19.30",
-   "que": "Recital de poesía «Odisea a Poética», de Luis Brenes",
-   "donde": "Centro San Miguel",
-   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
-   "hasta": "2026-11-20"
-  },
-  {
-   "cuando": "Vie 20 nov, 21.00",
-   "que": "Concierto «Bondad: Candlelight» (nuevo horario)",
-   "donde": "Parroquia de San Agustín",
-   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
-   "hasta": "2026-11-20"
-  },
-  {
-   "cuando": "Vie 20 nov, 21.00",
-   "que": "Concierto «Bondad: Candlelight» de la Agrupación Musical Santísimo Cristo de la Bondad (nuevo horario)",
-   "donde": "Parroquia de San Agustín",
-   "noticia": "borriquita-besamano-cristo-bondad-mantolin-cristo-rey",
-   "hasta": "2026-11-20"
-  },
   {
    "cuando": "16–21 nov",
    "que": "XVI Senior International Champion MT200 de tenis",
@@ -203,6 +154,13 @@ window.EP = {
    "hasta": "2026-11-29"
   },
   {
+   "cuando": "1 dic",
+   "que": "Charla del arcipreste José Antonio Martínez en el Foro de Formación del Consejo de Hermandades",
+   "donde": "Por confirmar",
+   "noticia": "jesus-paso-san-juan-cartel-semana-santa-foro-formacion",
+   "hasta": "2026-12-01"
+  },
+  {
    "cuando": "Vie 4 dic, 20.30",
    "que": "Día de la Bandera: reconocimientos y concierto de Alba Molina (5 €)",
    "donde": "Auditorio Riberas del Guadaíra",
@@ -215,6 +173,13 @@ window.EP = {
    "donde": "Alcalá de Guadaíra",
    "noticia": "paseo-matematico-al-andalus-dia-bandera-alba-molina",
    "hasta": "2026-12-05"
+  },
+  {
+   "cuando": "8 dic, 17.30",
+   "que": "Inauguración del Belén del Dulce Nombre, con exaltación de la Navidad",
+   "donde": "Casa de hermandad del Dulce Nombre",
+   "noticia": "dulce-nombre-zambomba-antonio-canales-20-diciembre-belen",
+   "hasta": "2026-12-08"
   },
   {
    "cuando": "9 dic",
@@ -245,11 +210,25 @@ window.EP = {
    "hasta": "2026-12-20"
   },
   {
+   "cuando": "20 dic",
+   "que": "Primera zambomba del Dulce Nombre, con Antonio Canales (donativo 5 €)",
+   "donde": "Lugar por confirmar",
+   "noticia": "dulce-nombre-zambomba-antonio-canales-20-diciembre-belen",
+   "hasta": "2026-12-20"
+  },
+  {
    "cuando": "27 dic, 10.00",
    "que": "I San Silvestre Solidaria de Alcalá (5 km)",
    "donde": "Club de Tenis Oromana",
    "noticia": "san-silvestre-solidaria-alcala-27-diciembre-oromana",
    "hasta": "2026-12-27"
+  },
+  {
+   "cuando": "30 dic",
+   "que": "Comienza el LXXV aniversario del Dulce Nombre con la presentación del cartel",
+   "donde": "Parroquia de San Sebastián",
+   "noticia": "dulce-nombre-75-aniversario-programa-2027",
+   "hasta": "2026-12-30"
   },
   {
    "cuando": "Hasta 31 dic",
@@ -285,23 +264,100 @@ window.EP = {
    "donde": "Agencia Andaluza de la Energía, por vía telemática",
    "noticia": "ayudas-eficiencia-energetica-junta",
    "hasta": "2027-09-30"
-  },
-  {
-   "cuando": "1 dic",
-   "que": "Charla del arcipreste José Antonio Martínez en el Foro de Formación del Consejo de Hermandades",
-   "donde": "Por confirmar",
-   "noticia": "jesus-paso-san-juan-cartel-semana-santa-foro-formacion",
-   "hasta": "2026-12-01"
-  },
-  {
-   "cuando": "30 dic",
-   "que": "Comienza el LXXV aniversario del Dulce Nombre con la presentación del cartel",
-   "donde": "Parroquia de San Sebastián",
-   "noticia": "dulce-nombre-75-aniversario-programa-2027",
-   "hasta": "2026-12-30"
   }
  ],
  "noticias": [
+  {
+   "id": "cartel-cabalgata-reyes-2027-mariano-fernandez-goncer",
+   "sec": "cultura",
+   "kicker": "Cabalgata de Reyes",
+   "iso": "2026-11-21",
+   "hora": "07:24",
+   "src": "Cabalgata de Reyes Magos de Alcalá (Facebook)",
+   "fuente_url": "https://www.facebook.com/1852796172875241/posts/1858451555643036",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Mariano Fernández Goncer firma el cartel de la Cabalgata de Reyes de Alcalá de 2027",
+   "sub": "La obra muestra a niños recogiendo caramelos al paso de los Reyes Magos, con sus siluetas al fondo y una estrella sobre el camino",
+   "caption": "Gráfico con los datos del cartel de la Cabalgata de Reyes Magos de Alcalá de Guadaíra de 2027.",
+   "foto": "cartel-cabalgata-reyes-2027-mariano-fernandez-goncer-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El cartel de la Cabalgata de Reyes Magos de Alcalá de Guadaíra de 2027 es obra de Mariano Fernández Goncer.",
+    "La asociación lo dio a conocer el viernes 20 de noviembre en su perfil de Facebook.",
+    "La imagen muestra a niños recogiendo caramelos, con las siluetas de los tres Reyes, una estrella y una farola al fondo.",
+    "La cabalgata recorrerá Alcalá la tarde del martes 5 de enero de 2027."
+   ],
+   "body": [
+    "La Asociación de la Cabalgata de Reyes Magos de Alcalá de Guadaíra ha dado a conocer el cartel de su desfile de 2027, obra de Mariano Fernández Goncer. La entidad lo publicó en la noche del viernes 20 de noviembre en su perfil de Facebook, a mes y medio de la cabalgata, que recorrerá la ciudad la tarde del martes 5 de enero.",
+    "Según la descripción de la propia asociación, la imagen recoge una escena que reconoce cualquier vecino: niños pequeños recogiendo los caramelos que han dejado a su paso los Reyes Magos. Al fondo aparecen las siluetas de Melchor, Gaspar y Baltasar, una estrella que ilumina el camino y la luz cálida de una farola. La asociación la define como «una estampa llena de nostalgia y ternura» que transmite la Navidad «sin necesidad de mostrar demasiado».",
+    "En su publicación, la entidad agradece también a Bodega Góngora su colaboración con la cabalgata, que mantiene un año más. La Hermandad de San Mateo, de la que el autor es hermano, lo ha felicitado en sus redes junto a la asociación por una obra que, a juicio de la hermandad, «representa la ilusión de los niños».",
+    "## Las próximas citas de la cabalgata",
+    "El cartel llega después de que la asociación <a href='#cabalgata-reyes-2027-designacion-sorpresa-reyes-magos'>comunicara a principios de noviembre, con visitas por sorpresa a sus casas, quiénes serán Melchor, Gaspar y Baltasar</a>. Su siguiente cita es el domingo 22 de noviembre, cuando representa en el Auditorio Riberas del Guadaíra <a href='#cenicienta-musical-solidario-cabalgata-22-noviembre'>un musical solidario de «La Cenicienta»</a> para recaudar fondos para su obra social. Las entradas cuestan 15 euros y se venden en la plataforma Giglon y en la taquilla del auditorio el mismo día.",
+    "Las cabalgatas de barrio también avanzan en sus preparativos. La de Silos, ReyeSilos, celebra este sábado 21 de noviembre su almuerzo de coronación en la Hacienda La Caridad, y la del Campo de las Beatas <a href='#cabalgatas-beduinos-campo-beatas-almuerzo-coronacion-reyesilos'>repartió esta semana las papeletas de sitio para sus beduinos</a>. La asociación no ha detallado si el original del cartel se expondrá al público.",
+    "<span class='howto'><b>Cabalgata de Reyes Magos de Alcalá de Guadaíra 2027.</b> Desfile: tarde del martes 5 de enero de 2027. Cartel: obra de Mariano Fernández Goncer. Próxima cita: musical solidario «La Cenicienta», domingo 22 de noviembre, Auditorio Riberas del Guadaíra; entradas a 15 euros en Giglon y en taquilla.</span>"
+   ],
+   "seo": [
+    "cartel-cabalgata-reyes-alcala-2027-mariano-fernandez-goncer",
+    "Cartel de la Cabalgata de Reyes de Alcalá 2027",
+    "Mariano Fernández Goncer firma el cartel de la Cabalgata de Reyes Magos de Alcalá de Guadaíra de 2027: niños, caramelos y las siluetas de los Reyes.",
+    [
+     "Cabalgata de Reyes de Alcalá",
+     "Mariano Fernández Goncer",
+     "Reyes Magos 2027",
+     "Hermandad de San Mateo",
+     "Navidad en Alcalá",
+     "cartel"
+    ]
+   ]
+  },
+  {
+   "id": "dulce-nombre-zambomba-antonio-canales-20-diciembre-belen",
+   "sec": "hermandades",
+   "kicker": "Dulce Nombre",
+   "iso": "2026-11-21",
+   "hora": "07:24",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=bD3RUmxfiaE&t=0s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El Dulce Nombre celebrará el 20 de diciembre su primera zambomba con el artista flamenco Antonio Canales",
+   "sub": "La hermandad pide un donativo de 5 euros por entrada para un aforo de 600 personas e inaugurará su Belén el 8 de diciembre",
+   "caption": "Gráfico con las citas navideñas de la Hermandad del Dulce Nombre de Alcalá de Guadaíra.",
+   "foto": "dulce-nombre-zambomba-antonio-canales-belen-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "La Hermandad del Dulce Nombre celebrará su primera zambomba el domingo 20 de diciembre con Antonio Canales y su cuadro flamenco.",
+    "La entrada será un donativo de 5 euros y el aforo, de 600 personas.",
+    "El Belén de la hermandad se inaugurará el martes 8 de diciembre a las 17.30, con una exaltación de la Navidad de Santiago Cano González.",
+    "Los ingresos del merchandising, incluido el catálogo «Esencias de caridad», van a la bolsa de caridad."
+   ],
+   "body": [
+    "La Hermandad del Dulce Nombre de Alcalá de Guadaíra celebrará el domingo 20 de diciembre su primera zambomba, con la actuación del artista flamenco Antonio Canales y su cuadro flamenco. La entrada será un donativo de 5 euros y el aforo, de 600 personas, según explicaron a El Panadero miembros de su Junta de Gobierno en el programa Alcalá Cofrade.",
+    "La fecha, posterior a la de otras zambombas de la ciudad, la marcó la agenda del artista. Según el hermano mayor, Canales lleva años queriendo colaborar con la hermandad y el 20 de diciembre, el domingo anterior al sorteo de la Lotería de Navidad, era el único día que tenía libre. La hermandad asegura que la cita se celebrará aunque llueva, porque el espacio cuenta con dependencias cubiertas, aunque no detalló el lugar.",
+    "La zambomba servirá también para estrenar la nueva línea de ropa de la hermandad, con un logotipo diseñado por Antonio Jaén que acompañará todo 2027, año de su 75 aniversario fundacional. Los miembros de la junta acudirán uniformados con esa línea. La hermandad publicará en breve el cartel del evento con las empresas que colaboran.",
+    "## Un catálogo para la bolsa de caridad",
+    "Los ingresos del merchandising se destinan a la bolsa de caridad de la hermandad. El diputado de comunicación explicó que se ha añadido un catálogo solidario, «Esencias de caridad», con velas de Adviento, aromas para armarios y cajoneras y adornos para el árbol y la casa. Según la hermandad, las velas de Adviento fueron lo más vendido el año pasado y este año se ha triplicado el pedido. El catálogo está en sus redes sociales.",
+    "La hermandad inaugurará además su Belén el martes 8 de diciembre a las 17.30, con una exaltación de la Navidad a cargo del hermano Santiago Cano González y la actuación de su coro. Según el hermano mayor, el Belén tendrá este año «una peculiaridad muy especial» que no quiso adelantar.",
+    "Estas citas preceden al <a href='#dulce-nombre-75-aniversario-programa-2027'>programa del 75 aniversario</a>, que arrancará el 30 de diciembre con la presentación del cartel de José Cabrera Lasso de la Vega. Los miembros de la junta precisaron que la única salida extraordinaria de la Virgen será la del domingo 11 de abril: la de septiembre es la procesión de tercia que su regla 16 prevé cuando el 12 de septiembre, festividad del Dulce Nombre de María, cae en domingo, como ocurrirá en 2027.",
+    "<span class='howto'><b>Dulce Nombre, próximas citas.</b> Martes 8 de diciembre, 17.30: inauguración del Belén, con exaltación de la Navidad de Santiago Cano González. Domingo 20 de diciembre: primera zambomba, con Antonio Canales y su cuadro flamenco; donativo de 5 euros y aforo de 600 personas. Catálogo «Esencias de caridad»: en las redes sociales de la hermandad.</span>"
+   ],
+   "seo": [
+    "dulce-nombre-zambomba-antonio-canales-belen-alcala",
+    "Zambomba del Dulce Nombre con Antonio Canales en Alcalá",
+    "El Dulce Nombre de Alcalá de Guadaíra celebrará el 20 de diciembre su primera zambomba con Antonio Canales, con donativo de 5 euros y aforo de 600.",
+    [
+     "Hermandad del Dulce Nombre",
+     "Antonio Canales",
+     "zambomba",
+     "Belén",
+     "Navidad en Alcalá",
+     "75 aniversario"
+    ]
+   ]
+  },
   {
    "iso": "2026-11-20",
    "hora": "22:25",
@@ -361,19 +417,19 @@ window.EP = {
    "src": "El Panadero",
    "fuente_url": "https://www.youtube.com/watch?v=8k0HRVsvKgg&t=0s",
    "title": "El Dulce Nombre celebrará su 75 aniversario con cuatro salidas de la Virgen y una Semana de la Caridad",
-   "sub": "La efeméride arranca el 30 de diciembre con la presentación del cartel y tendrá su procesión extraordinaria el 11 de septiembre de 2027",
+   "sub": "La efeméride arranca el 30 de diciembre con la presentación del cartel e incluye una salida extraordinaria el 11 de abril y la procesión de tercia de septiembre",
    "caption": "Gráfico con las principales citas del LXXV aniversario fundacional de la Hermandad del Dulce Nombre.",
    "foto": "dulce-nombre-75-aniversario-programa-2027-gfx.jpg",
    "fotocredito": "Gráfico El Panadero",
    "encuadre": "contain",
    "claves": [
     "La Hermandad del Dulce Nombre de Alcalá de Guadaíra celebrará su 75 aniversario fundacional entre el 30 de diciembre de 2026 y el 30 de diciembre de 2027.",
-    "La Virgen saldrá cuatro veces, entre ellas en una procesión extraordinaria el sábado 11 de septiembre de 2027.",
+    "La Virgen saldrá cuatro veces; la única salida extraordinaria será la del domingo 11 de abril de 2027, y en septiembre hará la procesión de tercia que prevén sus reglas.",
     "Del 5 al 11 de abril la hermandad organizará una Semana de la Caridad en cinco parroquias de la ciudad.",
     "Ángel Gutiérrez Oliveros pronunciará el pregón del aniversario el domingo 5 de septiembre en el Teatro Gutiérrez de Alba."
    ],
    "body": [
-    "La Hermandad del Dulce Nombre de Alcalá de Guadaíra celebrará su 75 aniversario fundacional con un año de actos que empezará el 30 de diciembre de 2026 y terminará el 30 de diciembre de 2027. El programa incluye cuatro salidas de la Virgen, una Semana de la Caridad y una procesión extraordinaria en septiembre, según explicaron a El Panadero miembros de su Junta de Gobierno.",
+    "La Hermandad del Dulce Nombre de Alcalá de Guadaíra celebrará su 75 aniversario fundacional con un año de actos que empezará el 30 de diciembre de 2026 y terminará el 30 de diciembre de 2027. El programa incluye cuatro salidas de la Virgen, una Semana de la Caridad y una procesión extraordinaria en abril, según explicaron a El Panadero miembros de su Junta de Gobierno.",
     "La hermandad nació en 1952. El aniversario arrancará el 30 de diciembre con la misa que su regla dedica a Manuel Pineda Calderón, figura clave en su historia, y con la presentación del cartel, obra de José Cabrera Lasso de la Vega, <a href='#dulce-nombre-cartel-75-aniversario-jose-cabrera'>designado esta semana</a>.",
     "## De enero a mayo",
     "El domingo 3 de enero, antes de la función del Dulce Nombre de Jesús, de las 20.00, habrá a las 18.30 una procesión infantil con el Niño Jesús, que portarán los grupos de catequesis en un pequeño paso. El domingo 7 de febrero, festividad de la Candelaria, la Virgen irá por un recorrido extraordinario hasta la plaza de la Almazara, donde se celebrará una misa a las 12.00.",
@@ -381,9 +437,10 @@ window.EP = {
     "En mayo, el quinario contará cada día con un predicador distinto y la función principal la presidirá el obispo auxiliar, Teodoro León. La procesión ordinaria será el sábado 15 de mayo.",
     "## Pregón y procesión extraordinaria",
     "La Junta de Gobierno ha designado a Ángel Gutiérrez Oliveros pregonero del aniversario, según ha publicado la hermandad en su perfil de Facebook. El pregón será el domingo 5 de septiembre a las 12.30 en el Teatro Gutiérrez de Alba, con una banda que estrenará al menos una marcha nueva.",
-    "El triduo de septiembre lo predicarán los últimos párrocos de San Sebastián. El sábado 11 la Virgen saldrá en procesión extraordinaria, con un recorrido distinto del habitual que llegará al Ayuntamiento, y se recogerá ya el domingo 12, día de su onomástica, cuya función presidirá el arzobispo de Sevilla, José Ángel Saiz Meneses.",
+    "El triduo de septiembre lo predicarán los últimos párrocos de San Sebastián. Como el 12 de septiembre de 2027, festividad del Dulce Nombre de María, cae en domingo, la regla 16 de la hermandad prevé ese año una procesión de tercia, que no es técnicamente una salida extraordinaria, precisaron miembros de la junta. La hermandad ha pedido dispensa para adelantarla: la Virgen saldrá el sábado 11, con un recorrido distinto del habitual que llegará al Ayuntamiento, y se recogerá ya el domingo 12, cuya función presidirá el arzobispo de Sevilla, José Ángel Saiz Meneses. La única salida extraordinaria será la del domingo 11 de abril.",
     "Octubre y noviembre se dedicarán a exposiciones, con una muestra en el Museo de las Hermandades, conferencias y conciertos. Según la hermandad, todos los actos extraordinarios se han acordado con el párroco y director espiritual, Álvaro Montilla.",
-    "<span class='howto'><b>LXXV aniversario del Dulce Nombre.</b> 30 de diciembre: inicio y cartel. 3 de enero, 18.30: procesión infantil. 7 de febrero, 12.00: misa en la plaza de la Almazara. 5-11 de abril: Semana de la Caridad. 15 de mayo: procesión. 5 de septiembre, 12.30: pregón en el Teatro Gutiérrez de Alba. 11 de septiembre: procesión extraordinaria.</span>"
+    "La hermandad celebrará antes, el domingo 20 de diciembre, <a href='#dulce-nombre-zambomba-antonio-canales-20-diciembre-belen'>su primera zambomba, con Antonio Canales</a>.",
+    "<span class='howto'><b>LXXV aniversario del Dulce Nombre.</b> 30 de diciembre: inicio y cartel. 3 de enero, 18.30: procesión infantil. 7 de febrero, 12.00: misa en la plaza de la Almazara. 5-11 de abril: Semana de la Caridad. 15 de mayo: procesión. 5 de septiembre, 12.30: pregón en el Teatro Gutiérrez de Alba. 11 de septiembre: procesión de tercia.</span>"
    ],
    "seo": [
     "dulce-nombre-75-aniversario-programa-alcala",
@@ -397,7 +454,8 @@ window.EP = {
      "procesión extraordinaria",
      "Semana de la Caridad"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-21T07:24"
   },
   {
    "iso": "2026-11-20",
@@ -2330,7 +2388,7 @@ window.EP = {
     "El Ayuntamiento no ha detallado todavía el sistema con el que se ordenará a los solicitantes ni la fecha en la que se conocerán los adjudicatarios.",
     "## Cómo son las viviendas",
     "Las 84 viviendas se reparten en tres bloques en la calle Castillo de Marchenilla. Según VIVE Alcalá, todas tienen dos dormitorios, plaza de garaje y trastero, y se levantan con madera contralaminada, una técnica de construcción industrializada.",
-    "Las obras <a href='#zacatin-obras-84-viviendas-alquiler'>empezaron en octubre</a>, adjudicadas a BILBA Construcción e Infraestructuras por 12,2 millones de euros, con un plazo anunciado de 14 meses. La promoción tiene una inversión total de 15,9 millones, de los que la Diputación de Sevilla aporta 7,97 millones y los fondos europeos Next Generation EU, 3,79 millones. La financiación municipal del proyecto ha sido objeto de debate: Izquierda Alcalareña <a href='#vive-84-viviendas-financiacion-ia'>pidió un informe público</a> sobre cómo afecta a las cuentas del Ayuntamiento.",
+    "Las obras empezaron en octubre, adjudicadas a BILBA Construcción e Infraestructuras por 12,2 millones de euros, con un plazo anunciado de 14 meses. La promoción tiene una inversión total de 15,9 millones, de los que la Diputación de Sevilla aporta 7,97 millones y los fondos europeos Next Generation EU, 3,79 millones. La financiación municipal del proyecto ha sido objeto de debate: Izquierda Alcalareña <a href='#vive-84-viviendas-financiacion-ia'>pidió un informe público</a> sobre cómo afecta a las cuentas del Ayuntamiento.",
     "<span class='howto'><b>Cómo participar.</b> Si ya está inscrito en el Registro Municipal de Demandantes de Vivienda en modalidad de alquiler, participa directamente. Si no ha presentado la documentación, tiene hasta el 31 de diciembre. Inscripción: por vía telemática en la sede electrónica o con cita presencial en la oficina de VIVE Alcalá (plaza de la Plazuela, 10; teléfono 854 52 62 32). Más información en <a href='https://vivealcaladeguadaira.es/'>vivealcaladeguadaira.es</a>.</span>"
    ],
    "seo": [
@@ -5118,7 +5176,7 @@ window.EP = {
     "El delegado evitó dar una fecha de final: «Como toda obra pública, no nos atrevemos a dar plazos», dijo, aunque se marcó como objetivo terminar antes de final de año. En septiembre, el Ayuntamiento situó el final de la segunda fase de La Mina y la Plaza del Cabildo en el último trimestre de 2026. Los comercios de estas calles tendrán <a href='#ayudas-comercios-calles-obras'>ayudas de hasta el 100 % para modernizarse</a>.",
     "## Malasmañanas, Medina de Haro y la Jefatura",
     "En la calle Malasmañanas, ya en su tercera fase, los trabajos se centran en la rotonda que comunica con el colegio Antonio Machado, que tendrá una nueva zona ajardinada. Según Mora, la previsión es que la calle esté abierta por completo y la fase terminada antes de final de año. La plantación de árboles empezará en los próximos días, aprovechando la temporada de lluvias.",
-    "El Centro Cívico Medina de Haro, en el Distrito Este, ya está recepcionado y solo falta el mobiliario para abrirlo. El Ayuntamiento no ha fijado la fecha de inauguración. La nueva Jefatura de la Policía Local, en el mismo entorno, está muy avanzada y el gobierno prevé que empiece a dar servicio en el primer trimestre de 2027. Mora citó también los avances del <a href='#colector-la-nocla-pluviales'>colector de pluviales de La Nocla</a>.",
+    "El Centro Cívico Medina de Haro, en el Distrito Este, ya está recepcionado y solo falta el mobiliario para abrirlo. El Ayuntamiento no ha fijado la fecha de inauguración. La nueva Jefatura de la Policía Local, en el mismo entorno, está muy avanzada y el gobierno prevé que empiece a dar servicio en el primer trimestre de 2027. Mora citó también los avances del colector de pluviales de La Nocla.",
     "## El carril bici y el túnel",
     "El carril bici hacia la universidad ya está abierto, con la nueva pasarela sobre el Guadaíra, hasta el límite del término municipal de Alcalá. El tramo restante corresponde al Ayuntamiento de Dos Hermanas. Mientras lo ejecuta, Alcalá habilitará de forma provisional la margen derecha y un acceso bajo la explanada del canal, acordado con la universidad.",
     "Más tiempo tardará el túnel del antiguo tren de los panaderos, que conectará la zona de la biblioteca con el Auditorio. Ya tiene instalado el alumbrado, pero el Ayuntamiento no lo abrirá hasta colocar cámaras de videovigilancia y unas baterías que mantengan la luz en caso de apagón. «Hasta que no esté garantizada al 100 % esa seguridad, no vamos a poder abrir el túnel», afirmó Mora, que no dio fecha."
@@ -5334,7 +5392,7 @@ window.EP = {
     "## Dónde están las bases",
     "Los anuncios del BOP solo reproducen el apartado de plazos. El resto de las condiciones, como los requisitos de titulación, el tipo de contrato, el temario o el salario, figuran en las bases completas, que se consultan en la sede electrónica de VIVE Alcalá con el código seguro de verificación de cada documento. Las solicitudes que se presenten fuera de plazo o sin la forma prevista no se admitirán.",
     "## Una empresa en crecimiento",
-    "La convocatoria llega en pleno arranque de las primeras promociones de la empresa municipal. VIVE construye <a href='#zacatin-obras-84-viviendas-alquiler'>84 viviendas de alquiler asequible en la Cornisa del Zacatín</a>, cuyas obras empezaron en octubre, y prepara <a href='#vive-sorteo-107-nuevas-promociones'>el sorteo de 107 viviendas protegidas en venta en la avenida Mar Mediterráneo</a>, previsto para diciembre. Según el delegado de Urbanismo, Jesús Mora, la empresa trabaja además en los anteproyectos de unas 100 viviendas en Pablo VI y 600 en Cercadillo.",
+    "La convocatoria llega en pleno arranque de las primeras promociones de la empresa municipal. VIVE construye 84 viviendas de alquiler asequible en la Cornisa del Zacatín, cuyas obras empezaron en octubre, y prepara <a href='#vive-sorteo-107-nuevas-promociones'>el sorteo de 107 viviendas protegidas en venta en la avenida Mar Mediterráneo</a>, previsto para diciembre. Según el delegado de Urbanismo, Jesús Mora, la empresa trabaja además en los anteproyectos de unas 100 viviendas en Pablo VI y 600 en Cercadillo.",
     "El BOP del mismo día publica también las bases para cubrir, por concurso de méritos entre funcionarios de carrera del Ayuntamiento, la jefatura de la Sección de Mantenimiento de Edificios, un puesto de arquitectura técnica con un plazo de 15 días hábiles.",
     "<span class='howto'>Plazo: 20 días naturales desde el 30 de octubre, hasta el miércoles 18 de noviembre de 2026. Bases y solicitudes: sede electrónica de VIVE Alcalá (vivealcaladeguadaira.sedelectronica.es). Códigos de verificación de las bases: 79SRWNCQ7NHMLKM54WXXC9JK7 (asesor jurídico) y 3CYR5AZ293P6DN3AF7XNA3YQ6 (administrativo).</span>"
    ],
@@ -5802,7 +5860,7 @@ window.EP = {
    ],
    "body": [
     "Izquierda Alcalareña ha pedido al Ayuntamiento de Alcalá de Guadaíra un informe público que detalle cómo afectará a la deuda y a la estabilidad presupuestaria la financiación de las 84 viviendas de alquiler asequible que construye la empresa pública VIVE Alcalá en la Cornisa del Zacatín. La formación dice que apoya la promoción, pero no la fórmula para pagarla.",
-    "Las obras <a href='#zacatin-obras-84-viviendas-alquiler'>empezaron este mes</a>, adjudicadas a BILBA Construcción e Infraestructuras. La inversión total anunciada es de 15,9 millones de euros, con 7,97 millones de la Diputación de Sevilla y 3,79 millones de fondos europeos Next Generation EU.",
+    "Las obras empezaron este mes, adjudicadas a BILBA Construcción e Infraestructuras. La inversión total anunciada es de 15,9 millones de euros, con 7,97 millones de la Diputación de Sevilla y 3,79 millones de fondos europeos Next Generation EU.",
     "## Dos millones más de aportación municipal",
     "El principal reparo de Izquierda Alcalareña es el aumento de la aportación municipal, que según sus cálculos pasa de 5,7 millones de euros a más de 7,7 millones, algo más de dos millones adicionales. La formación recuerda que el Ayuntamiento está sometido a un plan económico-financiero y cita informes económicos municipales que, según su lectura, advierten de un margen de equilibrio presupuestario muy reducido.",
     "Esos informes, sostiene la formación, plantean la posibilidad de un nuevo incumplimiento si no se produce la inejecución de gasto prevista, es decir, si el Ayuntamiento acaba gastando más de lo que calcula que dejará sin ejecutar.",
@@ -6024,7 +6082,7 @@ window.EP = {
     "## La provincia también vende más",
     "En el conjunto de la provincia de Sevilla se vendieron 1.867 viviendas en agosto de 2026, un 5,18 % más que en agosto del año anterior, según los últimos datos publicados por la Diputación de Sevilla a partir de la estadística del Instituto Nacional de Estadística (INE).",
     "El número de operaciones y la evolución de los precios miden dos cosas distintas: cuántas viviendas cambian de dueño y cuánto cuesta a quien busca comprar.",
-    "La subida llega mientras el Ayuntamiento y su empresa pública VIVE Alcalá preparan nuevas promociones protegidas. VIVE sorteará a principios de diciembre <a href='#vive-sorteo-107-nuevas-promociones'>107 viviendas protegidas en venta</a> y ha empezado a construir <a href='#zacatin-obras-84-viviendas-alquiler'>84 viviendas de alquiler asequible</a> en el Zacatín, que se alquilarán por 350 euros al mes más garaje y trastero."
+    "La subida llega mientras el Ayuntamiento y su empresa pública VIVE Alcalá preparan nuevas promociones protegidas. VIVE sorteará a principios de diciembre <a href='#vive-sorteo-107-nuevas-promociones'>107 viviendas protegidas en venta</a> y ha empezado a construir 84 viviendas de alquiler asequible en el Zacatín, que se alquilarán por 350 euros al mes más garaje y trastero."
    ],
    "seo": [
     "precio-vivienda-alcala-compraventas-2026",
@@ -6913,7 +6971,7 @@ window.EP = {
     "El PP sostiene que en diez años no se ha construido ninguna vivienda protegida de iniciativa municipal y critica que VIVE sea una sociedad mercantil con gerente."
    ],
    "body": [
-    "La empresa pública VIVE Alcalá sorteará a principios de diciembre las 107 viviendas protegidas en venta de la avenida Mar Mediterráneo, en Alcalá de Guadaíra. Lo anunció la alcaldesa, Ana Isabel Jiménez, durante el <a href='#zacatin-obras-84-viviendas-alquiler'>inicio de las obras de las 84 viviendas de alquiler del Zacatín</a>, donde también avanzó otras 700 viviendas.",
+    "La empresa pública VIVE Alcalá sorteará a principios de diciembre las 107 viviendas protegidas en venta de la avenida Mar Mediterráneo, en Alcalá de Guadaíra. Lo anunció la alcaldesa, Ana Isabel Jiménez, durante el inicio de las obras de las 84 viviendas de alquiler del Zacatín, donde también avanzó otras 700 viviendas.",
     "«Estamos barajando principios de diciembre para poder tener ya todos los datos metidos en el registro y poder realizar ese sorteo», explicó Jiménez en declaraciones a El Panadero. El plazo de inscripción para esta promoción terminó el 31 de julio, aunque el registro sigue admitiendo solicitudes para otras promociones.",
     "La alcaldesa explicó que se sortean antes las viviendas en venta que las de alquiler, aunque el Zacatín ya está en obras, porque los adjudicatarios tendrán que ir pagando cuotas hasta el final de la construcción para después subrogarse en la hipoteca de la promoción. Cada vivienda de Mar Mediterráneo cuesta 115.000 euros, más 15.000 por el garaje y el trastero.",
     "## Monte Carmelo y Cercadillos",
@@ -7240,7 +7298,7 @@ window.EP = {
     "Araujo defendió además una moción sobre las trabajadoras del servicio de ayuda a domicilio, con contratos de 20 horas en jornada partida y sueldos de menos de 500 euros, según su relato, y pidió que el Ayuntamiento lo gestione directamente. El gobierno destacó que el nuevo contrato, recién adjudicado a otra empresa, tiene un presupuesto de 14 millones y prevé más de 750.000 horas de atención.",
     "## Ascensores y 107 viviendas",
     "El Pleno amplió los límites de gasto de las ayudas de VIVE Alcalá para instalar ascensores. A la primera convocatoria se han presentado tres proyectos, dos en Jardín de Alcalá y uno en Rabesa, con subvenciones del 60 % y el 80 %. La concejala de Vox Carmen Loscertales criticó el escaso número de solicitudes, que atribuye a la falta de información, y que la financiación se alargue hasta finales de 2028.",
-    "También se aprobó el estudio de detalle de la parcela de la avenida Mar Mediterráneo donde VIVE proyecta 107 viviendas en venta asequible, complemento de las <a href='#zacatin-obras-84-viviendas-alquiler'>84 de alquiler del Zacatín</a>. Vox expresó su temor a que la empresa municipal no llegue a construir y sirva para «eludir controles» y «colocar afines»."
+    "También se aprobó el estudio de detalle de la parcela de la avenida Mar Mediterráneo donde VIVE proyecta 107 viviendas en venta asequible, complemento de las 84 de alquiler del Zacatín. Vox expresó su temor a que la empresa municipal no llegue a construir y sirva para «eludir controles» y «colocar afines»."
    ],
    "seo": [
     "pleno-alcala-octubre-desigualdad-san-mateo-ascensores-vive",
@@ -7338,251 +7396,6 @@ window.EP = {
      "Auditorio Riberas del Guadaíra",
      "Teatro Gutiérrez de Alba",
      "asociaciones de Alcalá"
-    ]
-   ]
-  },
-  {
-   "id": "zacatin-obras-84-viviendas-alquiler",
-   "sec": "alcala",
-   "kicker": "Vivienda",
-   "iso": "2026-10-21",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OithM3Bzrik&t=150s",
-   "title": "Arrancan las 84 viviendas de alquiler del Zacatín, adjudicadas en enero a BILBA por 12,2 millones",
-   "sub": "La promoción de VIVE Alcalá cuesta 15,9 millones, con 7,97 de la Diputación y 3,79 de fondos europeos; el alquiler previsto es de 350 euros al mes",
-   "caption": "Representantes municipales y provinciales, en la parcela de la Cornisa del Zacatín junto a los paneles del proyecto de VIVE Alcalá.",
-   "foto": "zacatin-obras-alquiler-of.jpg",
-   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "VIVE Alcalá, la empresa pública de vivienda del Ayuntamiento de Alcalá de Guadaíra, ha empezado a construir 84 viviendas protegidas de alquiler en la Cornisa del Zacatín.",
-    "La promoción cuesta 15.949.064,74 euros: la Diputación de Sevilla aporta 7.974.532,23 y los fondos Next Generation EU, 3.791.025.",
-    "La obra la ejecuta BILBA Construcción e Infraestructuras, elegida el 19 de enero de 2026 entre tres ofertas por 12.191.154,13 euros, según el Diario Oficial de la UE.",
-    "La renta prevista es de 350 euros al mes, más garaje y trastero, y el plazo de obra anunciado es de 14 meses."
-   ],
-   "body": [
-    "La empresa pública VIVE Alcalá ha empezado a construir las 84 viviendas protegidas de alquiler asequible de la Cornisa del Zacatín, en la calle Castillo de Marchenilla de Alcalá de Guadaíra. La obra, adjudicada en enero a BILBA Construcción e Infraestructuras, tiene un plazo anunciado de 14 meses.",
-    "La alcaldesa, Ana Isabel Jiménez, y el presidente de la Diputación de Sevilla, Javier Fernández, visitaron la parcela el martes 20 de octubre. Según la <a href='https://www.alcaladeguadaira.es/noticias/9931/la-alcaldesa-de-alcala-y-el-presidente-de-la-diputacion-comprueban-el-inicio-de-las-obras-de-las-84-viviendas-de-alquiler-de-la-cornisa-del-zacatin'>nota del Ayuntamiento</a>, la promoción tiene una inversión total de 15.949.064,74 euros. La Diputación aporta 7.974.532,23 euros, prácticamente la mitad, y los fondos europeos Next Generation EU, 3.791.025 euros.",
-    "Entre las dos aportaciones suman 11.765.557,23 euros.",
-    "## Un contrato de 12,2 millones",
-    "El contrato salió por procedimiento abierto. El Consejo de Administración de VIVE eligió a BILBA el 19 de enero de 2026 entre tres ofertas y firmó con ella el 12 de febrero, por 12.191.154,13 euros, según el <a href='https://ted.europa.eu/en/notice/258274-2026/pdf'>anuncio de adjudicación publicado en el Diario Oficial de la Unión Europea</a>, que no aclara si esa cifra incluye el IVA. Además de la construcción con técnicas industrializadas, el contrato incluye el proyecto, la dirección de obra y la coordinación de seguridad y salud.",
-    "La misma empresa, con sede en Málaga, ganó la obra de las 107 viviendas protegidas en venta de la avenida Mar Mediterráneo. VIVE la eligió el 20 de marzo, también entre tres ofertas, y firmó el 15 de abril por 13.790.452,01 euros, según <a href='https://ted.europa.eu/en/notice/263088-2026/pdf'>su anuncio de adjudicación</a>. Entre los dos contratos, BILBA suma 25.981.606,14 euros en las promociones de vivienda pública de Alcalá.",
-    "## 350 euros al mes",
-    "La promoción del Zacatín tendrá tres edificios de 28 viviendas. Todas tendrán dos dormitorios, terraza privada, garaje y trastero, y la renta prevista es de 350 euros al mes, a la que se sumarán el garaje y el trastero.",
-    "El sistema industrializado permite fabricar en taller piezas como los baños mientras se prepara la parcela. Con 14 meses de plazo desde octubre, la obra terminaría a finales de 2027.",
-    "«Es un hito que marca un antes y un después, porque es la primera construcción, el primer proyecto que nace desde que pusimos en marcha VIVE como empresa pública municipal», afirmó la alcaldesa en declaraciones a El Panadero. Jiménez subrayó que el edificio seguirá siendo siempre de titularidad municipal y que lo gestionará VIVE.",
-    "A la visita asistieron también el primer teniente de alcaldesa, Jesús Mora; el director gerente de VIVE Alcalá, Ricardo Martínez, y el arquitecto autor del proyecto, Juan Rojas, del estudio Hombre de Piedra. A principios de octubre, el Consejo de Administración de VIVE aprobó ajustes en el proyecto para adaptarlo a los estudios del suelo.",
-    "El siguiente paso del programa municipal es el sorteo de las 107 viviendas en venta de la avenida Mar Mediterráneo, que la alcaldesa ha situado <a href='#vive-sorteo-107-nuevas-promociones'>a principios de diciembre</a>."
-   ],
-   "seo": [
-    "zacatin-84-viviendas-alquiler-obras-bilba-vive-alcala",
-    "Zacatín: arrancan las 84 viviendas de alquiler de Alcalá",
-    "VIVE Alcalá empieza las 84 viviendas de alquiler del Zacatín: 15,9 millones de inversión y una obra adjudicada a BILBA por 12,2 millones en enero.",
-    [
-     "VIVE Alcalá",
-     "Cornisa del Zacatín",
-     "vivienda protegida",
-     "alquiler asequible",
-     "BILBA",
-     "Diputación de Sevilla",
-     "Next Generation"
-    ]
-   ]
-  },
-  {
-   "id": "salon-plenos-reforma-licitacion",
-   "sec": "economia",
-   "kicker": "Contratos",
-   "iso": "2026-10-21",
-   "src": "El Panadero",
-   "title": "El Ayuntamiento licita por 242.728 euros la reforma del salón de plenos, 89.726 de ellos en mobiliario",
-   "sub": "La obra, en dos lotes y con seis meses de plazo, admite ofertas hasta el 4 de noviembre; el precio pesa un 65 % en la adjudicación",
-   "caption": "Fachada de la Casa Consistorial de Alcalá de Guadaíra, en la plaza del Duque, en una imagen de archivo.",
-   "foto": "salon-plenos-reforma-of.jpg",
-   "fotocredito": "CarlosVdeHabsburgo / Wikimedia Commons (CC BY-SA 4.0)",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra licita la reforma del salón de plenos de la Casa Consistorial por 242.728,90 euros con IVA, 200.602,40 sin impuestos.",
-    "El contrato tiene dos lotes: obra civil e instalaciones, por 153.002,56 euros, y mobiliario, por 89.726,34 euros.",
-    "Se adjudica por procedimiento abierto simplificado, con un plazo de ejecución de seis meses y ofertas hasta el 4 de noviembre de 2026."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha sacado a licitación la reforma del salón de plenos de la Casa Consistorial, en la plaza del Duque, por 242.728,90 euros con IVA, 200.602,40 euros sin impuestos. La Junta de Gobierno Local aprobó el expediente y el anuncio se publicó el 15 de octubre en el perfil del contratante.",
-    "El contrato se divide en dos lotes. El primero, de obra civil e instalaciones, tiene un presupuesto de 153.002,56 euros con IVA. El segundo, de mobiliario, alcanza los 89.726,34 euros, el 37 % del total. Las empresas pueden optar a uno o a los dos.",
-    "## Techos, suelos y climatización",
-    "Según la <a href='https://licitaciones.io/licitacion/licitacion-de-obras-reforma-salon-plenos-alcala-de-guadaira-ef5ffa20238c'>ficha de la licitación</a>, el expediente C-2025/085 incluye estructura de acero, pintura y revestimiento de paredes, falsos techos, suelos, instalación de aire acondicionado y muebles empotrados. Los códigos del contrato lo clasifican también como obra en un edificio de interés histórico o arquitectónico. El expediente lleva numeración de 2025.",
-    "La adjudicación se hará por procedimiento abierto simplificado. La oferta económica vale el 65 % de la puntuación; la memoria técnica, el 25 %, y la ampliación del plazo de garantía, el 10 %. El plazo de ejecución es de seis meses y las ofertas se pueden presentar hasta el 4 de noviembre de 2026.",
-    "Para concursar, las empresas deben acreditar trabajos similares en los últimos cinco años o una clasificación en el grupo C. También deben acreditar un volumen anual de negocio de al menos el 150 % del presupuesto de los lotes a los que se presenten. Las de nueva creación pueden sustituir la experiencia por un jefe de obra con diez años en la profesión y un encargado con cinco.",
-    "## Sin nota municipal",
-    "El Ayuntamiento no ha difundido ninguna nota sobre la reforma ni ha explicado dónde se celebrarán las sesiones plenarias mientras duren los trabajos. En el salón actual se celebró el martes 20 de octubre el pleno ordinario de octubre."
-   ],
-   "seo": [
-    "reforma-salon-plenos-ayuntamiento-alcala-licitacion",
-    "Salón de plenos de Alcalá: reforma de 242.728 euros",
-    "El Ayuntamiento de Alcalá de Guadaíra licita por 242.728 euros la reforma del salón de plenos, en dos lotes: obra e instalaciones y 89.726 de muebles.",
-    [
-     "salón de plenos",
-     "Casa Consistorial",
-     "contratos municipales",
-     "Junta de Gobierno Local",
-     "licitación",
-     "Ayuntamiento de Alcalá"
-    ]
-   ]
-  },
-  {
-   "id": "parque-multiaventura-oromana",
-   "sec": "alcala",
-   "kicker": "Turismo",
-   "iso": "2026-10-21",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OithM3Bzrik&t=1000s",
-   "title": "Alcalá tendrá un parque multiaventura en los Pinares de Oromana con 500.000 euros de la Diputación",
-   "sub": "Tirolinas, un circuito acrobático y unos 70 retos para 200 personas a la vez; el programa provincial da de plazo hasta marzo de 2028 para ejecutarlo",
-   "caption": "Un camino entre los pinos del parque de Oromana, en Alcalá de Guadaíra, en una imagen de archivo.",
-   "foto": "parque-multiaventura-oromana-of.jpg",
-   "fotocredito": "Descansatore / Wikimedia Commons (CC BY-SA 4.0)",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra prepara un parque multiaventura junto al parque infantil de los Pinares de Oromana.",
-    "Se financia con 500.000 euros del programa Más Sevilla Turístico 2026-27 de la Diputación de Sevilla, la cantidad máxima por municipio.",
-    "Tendrá tirolinas, un recorrido acrobático y unos 70 retos, con capacidad para 200 personas a la vez y hasta 30 puestos de trabajo, según la Delegación de Turismo.",
-    "Las bases del programa permiten ejecutar la obra hasta el 31 de marzo de 2028."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra instalará un parque multiaventura en los Pinares de Oromana, junto al parque infantil, con 500.000 euros del programa Más Sevilla Turístico 2026 de la Diputación de Sevilla. Tendrá tirolinas, un circuito acrobático y unos 70 retos en plena naturaleza.",
-    "El proyecto lo ha impulsado la Delegación municipal de Turismo tras varios meses de trabajo. Según explicaron desde la delegación en declaraciones a El Panadero, la instalación podrá acoger a 200 personas a la vez y crear hasta una treintena de puestos de trabajo. Los servicios municipales preparan ahora los trámites para ejecutarlo en los próximos meses.",
-    "## El máximo que permite el programa",
-    "Las <a href='https://bopsevilla.dipusevilla.es/export/sites/bop/.galleries/Documentos-Anuncios-en-PDF/firmado-1781218827538-final-1a015df9.pdf'>bases del programa Más Sevilla Turístico 2026-27</a>, publicadas en el BOP de Sevilla el 12 de junio, reparten hasta 20 millones de euros entre 2026 y 2027 para infraestructuras municipales de alojamiento turístico, áreas de autocaravanas y turismo activo. Cada ayuntamiento puede recibir como máximo 500.000 euros, la cantidad que se destina al parque de Oromana.",
-    "La Diputación paga la mitad en el momento de la concesión y la otra mitad en 2027, después de un informe de progreso que debe presentarse antes del 1 de febrero de ese año. Las obras pueden ejecutarse hasta el 31 de marzo de 2028, y el Ayuntamiento tiene después tres meses para justificar el gasto.",
-    "El parque se sumará a la oferta de turismo activo del Monumento Natural Riberas del Guadaíra, donde ya se organizan rutas y paseos en kayak por el río. En el mismo entorno, el Ayuntamiento licita la concesión del Hotel Oromana, que ha <a href='#hotel-oromana-nueva-licitacion'>vuelto a sacar a concurso</a> con plazo hasta el 27 de noviembre."
-   ],
-   "seo": [
-    "parque-multiaventura-pinares-oromana-alcala-diputacion",
-    "Parque multiaventura en Oromana: 500.000 euros",
-    "Alcalá de Guadaíra tendrá un parque multiaventura con tirolinas y 70 retos en los Pinares de Oromana, con 500.000 euros del programa Más Sevilla Turístico.",
-    [
-     "Pinares de Oromana",
-     "turismo activo",
-     "Más Sevilla Turístico",
-     "Diputación de Sevilla",
-     "Riberas del Guadaíra",
-     "parque multiaventura"
-    ]
-   ]
-  },
-  {
-   "id": "colector-la-nocla-pluviales",
-   "sec": "alcala",
-   "kicker": "Obras",
-   "iso": "2026-10-21",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OithM3Bzrik&t=420s",
-   "title": "Alcalá prolonga el colector de La Nocla para canalizar el agua de lluvia que corre al aire libre",
-   "sub": "La prolongación del colector llevará hasta el río Guadaíra las pluviales que hoy discurren por detrás de las casas de la calle Lavanda",
-   "caption": "La alcaldesa, Ana Isabel Jiménez, durante su visita a las obras del colector de La Nocla, con los tubos de hormigón al fondo.",
-   "foto": "colector-la-nocla-of.jpg",
-   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra prolonga el colector de aguas pluviales de la barriada La Nocla con una inversión de 262.254 euros.",
-    "La obra canalizará hasta el río Guadaíra el agua de lluvia que ahora corre a cielo abierto por detrás de varias viviendas de la calle Lavanda.",
-    "La ejecuta la Delegación de Hábitat Urbano, que dirige David Delgado."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra invierte 262.254 euros en prolongar el colector de aguas pluviales de la barriada La Nocla. La obra canalizará hasta el río Guadaíra el agua de lluvia que ahora corre a cielo abierto por la parte trasera de varias viviendas de la calle Lavanda.",
-    "La alcaldesa, Ana Isabel Jiménez, visitó los trabajos acompañada por el delegado municipal de Hábitat Urbano, David Delgado, cuya delegación ejecuta el proyecto. En la zona ya están acopiados los tubos de hormigón del nuevo colector, según se aprecia en las imágenes de la visita difundidas por el Ayuntamiento.",
-    "## Qué cambia para los vecinos",
-    "Hasta ahora, el agua de lluvia de esa zona discurre en superficie hasta el río. Con la prolongación, quedará conducida por la tubería hasta su desembocadura en el Guadaíra. Según la <a href='https://www.alcaladeguadaira.es/noticias/9922/la-alcaldesa-comprueba-las-obras-de-prolongacion-del-colector-en-la-barriada-la-nocla'>nota municipal</a>, la actuación responde a las prioridades del Ayuntamiento en infraestructuras urbanas y gestión de pluviales.",
-    "Delgado defendió que la correcta canalización de las pluviales es fundamental para gestionar mejor las infraestructuras hidráulicas y que se trata de actuaciones planificadas según las necesidades de cada zona. La alcaldesa la presentó como un paso más en la mejora de los servicios de los barrios.",
-    "El Ayuntamiento ya actuó sobre las pluviales en otro barrio con la reforma integral de la calle Malasmañanas, iniciada en noviembre de 2025, que incluye un nuevo colector y un presupuesto de más de 2,8 millones de euros y 12 meses de plazo, según anunció entonces."
-   ],
-   "seo": [
-    "colector-pluviales-la-nocla-calle-lavanda-alcala",
-    "Colector de La Nocla: 262.254 euros para las pluviales",
-    "Alcalá de Guadaíra prolonga con 262.254 euros el colector de pluviales de La Nocla para llevar al río el agua que corre por detrás de la calle Lavanda.",
-    [
-     "La Nocla",
-     "calle Lavanda",
-     "aguas pluviales",
-     "Hábitat Urbano",
-     "David Delgado",
-     "obras municipales"
-    ]
-   ]
-  },
-  {
-   "id": "pp-avenida-san-francisco",
-   "sec": "politica",
-   "kicker": "Barrios",
-   "iso": "2026-10-21",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OithM3Bzrik&t=590s",
-   "title": "El PP pide una reforma integral de la avenida de San Francisco por sus aceras rotas y alcorques vacíos",
-   "sub": "Sandra González reclama reparar la solería, reponer los árboles muertos, mejorar la limpieza y un plan de mantenimiento para la vía",
-   "caption": "Baldosas levantadas junto al alcorque de un árbol en la acera de la avenida de San Francisco, en una foto difundida por el PP.",
-   "foto": "pp-avenida-san-francisco-of.jpg",
-   "fotocredito": "PP de Alcalá de Guadaíra",
-   "claves": [
-    "El PP de Alcalá de Guadaíra pide al gobierno municipal de PSOE y Andalucía Por Sí una intervención urgente e integral en la avenida de San Francisco.",
-    "Denuncia baldosas levantadas o desaparecidas, obstáculos en las aceras, alcorques sin árboles y falta de limpieza.",
-    "Reclama además un plan de mantenimiento para que el deterioro no se repita."
-   ],
-   "body": [
-    "El Partido Popular de Alcalá de Guadaíra ha pedido al gobierno municipal una intervención urgente e integral en la avenida de San Francisco. Denuncia aceras con baldosas levantadas, rotas o desaparecidas, obstáculos para los peatones, alcorques vacíos y falta de limpieza en una de las principales vías de entrada y salida de la ciudad.",
-    "La presidenta del PP local y candidata a la alcaldía, Sandra González, atribuye el estado de la avenida a «años de abandono y falta de inversión municipal», según la <a href='https://www.ppalcala.es/pp-alcala-denuncia-abandono-avenida-san-francisco-gobierno-ana-isabel-jimenez-acerados-destrozados-problemas-accesibilidad-falta-limpieza/'>nota difundida por el partido</a> el martes 20 de octubre. Sostiene que «andar por una acera de Alcalá no puede convertirse en una yincana de obstáculos».",
-    "## Mayores, sillas de ruedas y carritos",
-    "Según el PP, el deterioro afecta sobre todo a las personas mayores, a quienes tienen movilidad reducida o usan silla de ruedas y a las familias con carritos. El partido señala también que en varios alcorques no se han repuesto los árboles muertos.",
-    "La formación pide al gobierno local, de PSOE y Andalucía Por Sí, que repare la solería, retire los obstáculos, reponga los árboles, arregle los alcorques y mejore la limpieza. Reclama además un plan de mantenimiento que evite que la avenida vuelva a este estado. González acusa al Ejecutivo de Ana Isabel Jiménez de hacer «simples lavados de cara».",
-    "## Una queja que se repite",
-    "No es la primera iniciativa de la oposición sobre el estado de las calles en las últimas semanas. Vox llevó al pleno de octubre una propuesta para inspeccionar calles y aceras por barrios con un calendario público de arreglos, y el PP defendió en la misma sesión un plan de choque contra la desigualdad entre barrios.",
-    "El PP no aporta en su nota mediciones ni un presupuesto de la actuación que reclama. La foto que acompaña su denuncia muestra baldosas levantadas por las raíces de un árbol junto al bordillo de la calzada."
-   ],
-   "seo": [
-    "pp-avenida-san-francisco-aceras-alcala",
-    "El PP pide reformar la avenida de San Francisco",
-    "El PP de Alcalá de Guadaíra denuncia aceras rotas, alcorques vacíos y falta de limpieza en la avenida de San Francisco y pide una reforma integral.",
-    [
-     "avenida de San Francisco",
-     "PP de Alcalá",
-     "Sandra González",
-     "accesibilidad",
-     "aceras",
-     "limpieza viaria"
-    ]
-   ]
-  },
-  {
-   "id": "coche-quemado-explanada-aguila",
-   "sec": "sucesos",
-   "kicker": "Sucesos",
-   "iso": "2026-10-21",
-   "src": "El Panadero",
-   "title": "Aparece calcinado en la explanada del Águila un coche robado usado en un intento de alunizaje en Sevilla",
-   "sub": "El Seat Ibiza se empotró de madrugada contra un bar de Pino Montano el domingo; no han trascendido detenciones",
-   "caption": "Un turismo calcinado en una explanada. Imagen de recurso.",
-   "foto": "coche-quemado-aguila-stock.jpg",
-   "fotocredito": "Unsplash",
-   "claves": [
-    "Un Seat Ibiza robado apareció quemado el martes 20 de octubre en la explanada del Águila, en Alcalá de Guadaíra.",
-    "El coche se había usado en la madrugada del domingo en un intento de robo por alunizaje en un bar del barrio sevillano de Pino Montano.",
-    "Su propietario había denunciado el robo y no han trascendido detenciones."
-   ],
-   "body": [
-    "Un Seat Ibiza robado apareció calcinado en la mañana del martes 20 de octubre en la explanada del Águila, junto al Santuario de Alcalá de Guadaíra. El coche se había usado la madrugada del domingo en un intento de robo por alunizaje contra un bar del barrio sevillano de Pino Montano.",
-    "Los autores empotraron el turismo contra el establecimiento en un intento de robo que no llegó a consumarse. Después trasladaron el vehículo hasta Alcalá, donde le prendieron fuego antes de huir. El coche había sido robado previamente y su propietario había presentado la denuncia.",
-    "Por el momento no han trascendido detenciones ni la identidad de los autores.",
-    "## Otro incendio de coches este mes",
-    "No es el primer vehículo que arde en Alcalá en octubre. El domingo 11, cuatro coches aparcados en la calle Rafael Beca resultaron dañados por un incendio; tres de ellos quedaron prácticamente calcinados.",
-    "Los robos de vehículos son uno de los delitos que más crecen en el municipio. Según el Balance de Criminalidad del Ministerio del Interior del primer semestre de 2026, las sustracciones de vehículos subieron un 29,8 % en Alcalá, de 57 a 74, mientras el total de infracciones penales bajaba un 0,6 %."
-   ],
-   "seo": [
-    "coche-quemado-explanada-aguila-alunizaje-alcala",
-    "Coche quemado en el Águila tras un alunizaje en Sevilla",
-    "Un Seat Ibiza robado y usado en un intento de alunizaje en un bar de Pino Montano apareció calcinado el martes en la explanada del Águila de Alcalá.",
-    [
-     "explanada del Águila",
-     "alunizaje",
-     "coche quemado",
-     "Pino Montano",
-     "sucesos Alcalá",
-     "robo de vehículos"
     ]
    ]
   },
