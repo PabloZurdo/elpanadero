@@ -279,9 +279,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Mariano Fernández Goncer firma el cartel de la Cabalgata de Reyes de Alcalá de 2027",
    "sub": "La obra muestra a niños recogiendo caramelos al paso de los Reyes Magos, con sus siluetas al fondo y una estrella sobre el camino",
-   "caption": "Gráfico con los datos del cartel de la Cabalgata de Reyes Magos de Alcalá de Guadaíra de 2027.",
-   "foto": "cartel-cabalgata-reyes-2027-mariano-fernandez-goncer-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
+   "caption": "Cartel de la Cabalgata de Reyes Magos de Alcalá de Guadaíra 2027.",
+   "foto": "cartel-cabalgata-reyes-2027-cartel-of.jpg",
+   "fotocredito": "Facebook de la Cabalgata de Reyes Magos de Alcalá",
    "encuadre": "contain",
    "claves": [
     "El cartel de la Cabalgata de Reyes Magos de Alcalá de Guadaíra de 2027 es obra de Mariano Fernández Goncer.",
@@ -324,10 +324,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "El Dulce Nombre celebrará el 20 de diciembre su primera zambomba con el artista flamenco Antonio Canales",
    "sub": "La hermandad pide un donativo de 5 euros por entrada para un aforo de 600 personas e inaugurará su Belén el 8 de diciembre",
-   "caption": "Gráfico con las citas navideñas de la Hermandad del Dulce Nombre de Alcalá de Guadaíra.",
-   "foto": "dulce-nombre-zambomba-antonio-canales-belen-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
+   "caption": "Representantes de la Hermandad del Dulce Nombre, durante la entrevista.",
+   "foto": "dulce-nombre-zambomba-entrevista-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Hermandad del Dulce Nombre celebrará su primera zambomba el domingo 20 de diciembre con Antonio Canales y su cuadro flamenco.",
     "La entrada será un donativo de 5 euros y el aforo, de 600 personas.",
@@ -370,10 +369,9 @@ window.EP = {
    "fuente_url": "https://www.youtube.com/watch?v=P4Pent5fpSc&t=0s",
    "title": "Más de 220 escolares de cinco colegios de Alcalá participan en la XII Jornada por la Infancia",
    "sub": "Alumnos de quinto de Primaria rotaron por diez talleres sobre familia, entidades y administraciones bajo el lema «Ninguna historia crece sola»",
-   "caption": "Gráfico con las cifras de participación de la XII Jornada por la Infancia de Alcalá de Guadaíra.",
-   "foto": "jornada-infancia-220-escolares-red-apoyos-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
+   "caption": "Escolares en la XII Jornada por la Infancia de Paz y Bien.",
+   "foto": "jornada-infancia-paz-y-bien-escolares-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "Más de 220 escolares de Alcalá de Guadaíra participaron el viernes 20 de noviembre en la XII Jornada por la Infancia.",
     "Tomaron parte diez clases de quinto de Primaria de cinco colegios del municipio, que rotaron por diez talleres.",
@@ -418,10 +416,9 @@ window.EP = {
    "fuente_url": "https://www.youtube.com/watch?v=8k0HRVsvKgg&t=0s",
    "title": "El Dulce Nombre celebrará su 75 aniversario con cuatro salidas de la Virgen y una Semana de la Caridad",
    "sub": "La efeméride arranca el 30 de diciembre con la presentación del cartel e incluye una salida extraordinaria el 11 de abril y la procesión de tercia de septiembre",
-   "caption": "Gráfico con las principales citas del LXXV aniversario fundacional de la Hermandad del Dulce Nombre.",
-   "foto": "dulce-nombre-75-aniversario-programa-2027-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
+   "caption": "Representantes del Dulce Nombre, junto al logotipo del 75 aniversario fundacional.",
+   "foto": "dulce-nombre-75-aniversario-logo-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Hermandad del Dulce Nombre de Alcalá de Guadaíra celebrará su 75 aniversario fundacional entre el 30 de diciembre de 2026 y el 30 de diciembre de 2027.",
     "La Virgen saldrá cuatro veces; la única salida extraordinaria será la del domingo 11 de abril de 2027, y en septiembre hará la procesión de tercia que prevén sus reglas.",
@@ -469,9 +466,9 @@ window.EP = {
    "fuente_url": "https://www.youtube.com/watch?v=vaD8S9WO0R8&t=0s",
    "title": "Jesús Nazareno abre el sábado su casa para mostrar el paso de San Juan restaurado",
    "sub": "El Consejo de Hermandades avanza el cartel de la Semana Santa de Rafael Muñoz, dedicado a la cofradía, y presenta su Foro de Formación",
-   "caption": "Imagen genérica de la sección de hermandades.",
-   "foto": "generica-hermandades.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "La imagen de San Juan en su paso, en una imagen de archivo.",
+   "foto": "jesus-paso-san-juan-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Hermandad de Jesús Nazareno de Alcalá de Guadaíra muestra el sábado 21 de noviembre el paso de San Juan restaurado, de 10.30 a 13.30 y de 19.00 a 20.30.",
     "El cartel de la Semana Santa que pinta Rafael Muñoz estará dedicado a la Hermandad de Jesús Nazareno.",
@@ -515,9 +512,9 @@ window.EP = {
    "fuente_url": "https://www.youtube.com/watch?v=P4Pent5fpSc&t=0s",
    "title": "La Centenaria, confitería de Alcalá fundada en 1860, ya tiene su libro en la colección Historias contadas",
    "sub": "Antonio García Calderón presentó la obra en el Museo el mismo año en que la familia que la regenta cumple 50 años al frente",
-   "caption": "Imagen genérica de la sección de cultura.",
-   "foto": "generica-cultura.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Entrevista sobre el libro de La Centenaria en la colección Historias contadas.",
+   "foto": "centenaria-historias-contadas-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "Antonio García Calderón presentó el jueves 19 de noviembre en el Museo de Alcalá de Guadaíra un libro sobre la confitería La Centenaria.",
     "La confitería se fundó en 1860 y el libro es el tercer volumen de la colección municipal Historias contadas.",
@@ -559,10 +556,10 @@ window.EP = {
    "fuente_url": "https://www.youtube.com/watch?v=P4Pent5fpSc&t=0s",
    "title": "RELANZA-T reúne a más de un centenar de desempleados en su segunda jornada sobre marca personal",
    "sub": "La empresa municipal de limpieza examina el sábado en el IES Cristóbal de Monroy a los aspirantes a 14 plazas fijas discontinuas",
-   "caption": "Gráfico con las cifras del proyecto de empleabilidad RELANZA-T del Ayuntamiento de Alcalá de Guadaíra.",
-   "foto": "relanza-t-segunda-jornada-marca-personal-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
+   "caption": "La alcaldesa, Ana Isabel Jiménez, en la jornada del programa RELANZA-T.",
+   "foto": "relanza-t-jornada-talento-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "encuadre": "center 30%",
    "claves": [
     "El Auditorio Riberas del Guadaíra acogió el viernes 20 de noviembre la segunda Jornada de Activación para el Empleo de RELANZA-T, con más de un centenar de participantes.",
     "El proyecto beneficia a 800 personas con más de 60 itinerarios y una financiación aproximada de 5,7 millones de euros, según el Ayuntamiento.",
@@ -606,9 +603,9 @@ window.EP = {
    "fuente_url": "https://www.youtube.com/watch?v=P4Pent5fpSc&t=0s",
    "title": "Adelante Andalucía critica en Alcalá los retrasos del tranvía y el PP trae a Juanma Moreno el domingo",
    "sub": "Vox reunió el viernes en La Plazuela a sus candidatos en la última semana de campaña antes de las generales del 29 de noviembre",
-   "caption": "Imagen genérica de la sección de política.",
-   "foto": "generica-politica.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Carpa de Adelante Andalucía en Alcalá de Guadaíra durante la campaña del 29N.",
+   "foto": "campana-29n-adelante-andalucia-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "Adelante Andalucía instaló el viernes 20 de noviembre una mesa informativa en Alcalá de Guadaíra y criticó los retrasos del tranvía.",
     "La formación llevará al Parlamento andaluz el jueves 26 una propuesta para que Andalucía asuma competencias sobre los trenes de cercanías.",
@@ -652,9 +649,9 @@ window.EP = {
    "fuente_url": "https://www.facebook.com/1595493005932940/posts/1599800155502225",
    "title": "La Junta de Gobierno de Alcalá aprueba el Plan Estratégico de Turismo y el convenio del CIPAEM",
    "sub": "También avanza la contratación del mantenimiento, la reparación y la limpieza de los vehículos municipales",
-   "caption": "Gráfico con los acuerdos de la Junta de Gobierno Local de Alcalá de Guadaíra del 20 de noviembre.",
-   "foto": "junta-gobierno-plan-estrategico-turismo-cipaem-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
+   "caption": "Resumen de los acuerdos de la Junta de Gobierno Local difundido por la alcaldesa.",
+   "foto": "junta-gobierno-plan-turismo-of.jpg",
+   "fotocredito": "Facebook de Ana Isabel Jiménez",
    "encuadre": "contain",
    "claves": [
     "La Junta de Gobierno Local de Alcalá de Guadaíra aprobó el viernes 20 de noviembre el Plan Estratégico de Turismo de la ciudad.",
@@ -743,9 +740,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Un libro de Amalia Borrero recoge los recuerdos de las mujeres de los almacenes de aceitunas de Alcalá",
    "sub": "«Al hilo de los recuerdos» se incorpora a la colección municipal Historias contadas, según ha informado la alcaldesa en sus redes",
-   "caption": "Imagen de archivo de El Panadero.",
-   "foto": "generica-cultura.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Amalia Borrero, con la alcaldesa, Ana Isabel Jiménez.",
+   "foto": "amalia-borrero-libro-aceituneras-of.jpg",
+   "fotocredito": "Facebook de Ana Isabel Jiménez",
    "claves": [
     "«Al hilo de los recuerdos», de Amalia Borrero, reúne historias de las mujeres que trabajaron en los almacenes de aceitunas de Alcalá de Guadaíra.",
     "El libro se incorpora a la colección municipal Historias contadas, según ha publicado la alcaldesa, Ana Isabel Jiménez."
@@ -783,10 +780,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Los bomberos de Alcalá piden nueve efectivos más y denuncian ocho meses de retraso en el pago de los refuerzos",
    "sub": "La plantilla, con 31 bomberos operativos, reclama también un vehículo de altura, la segunda actividad para los mayores de 55 años y la reclasificación al grupo C1",
-   "caption": "Gráfico con los bomberos operativos del parque de Alcalá de Guadaíra y la plantilla mínima que reclaman.",
-   "foto": "bomberos-alcala-plantilla-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
+   "caption": "Dos bomberos de Alcalá, ante el parque de bomberos.",
+   "foto": "bomberos-alcala-parque-plantilla-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "El Servicio de Bomberos de Alcalá de Guadaíra cuenta con 31 bomberos operativos, tres de ellos interinos, y la plantilla pide llegar al menos a 40.",
     "Los bomberos aseguran que el Ayuntamiento les debe ocho meses de servicios de refuerzo y que el plan de pago acordado no se ha aplicado.",
@@ -831,9 +827,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Decoalbero, empresa de Alcalá, gana el Premio Turismo Industrial de la Diputación en «Industria Viva»",
    "sub": "El galardón reconoce las visitas a sus instalaciones y a su cantera de albero e incluye su presencia en Fitur 2027 con la provincia de Sevilla",
-   "caption": "Imagen de archivo de la sección de Economía de El Panadero.",
-   "foto": "generica-economia.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Premiados en la gala «Industria Viva» de la Diputación de Sevilla.",
+   "foto": "decoalbero-premio-turismo-industrial-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "Decoalbero, empresa de Alcalá de Guadaíra de los hermanos Salguero, ha recibido el XII Premio Turismo Industrial de la Provincia de Sevilla en la modalidad «Industria Viva».",
     "El premio lo concede la Diputación de Sevilla y reconoce las visitas a sus instalaciones y a la cantera de albero.",
@@ -861,7 +857,8 @@ window.EP = {
      "albero",
      "Fitur 2027"
     ]
-   ]
+   ],
+   "encuadre": "contain"
   },
   {
    "iso": "2026-11-19",
@@ -875,9 +872,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Alcalá presenta el «Círculo de la Memoria», futuro memorial a las víctimas de la represión en San Mateo",
    "sub": "El proyecto, presentado en las III Jornadas de Memoria Democrática, levanta círculos de hormigón, piedra y acero alrededor de un olivo",
-   "caption": "Imagen de archivo de la sección de Alcalá de El Panadero.",
-   "foto": "generica-alcala.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Presentación del proyecto «Círculo de la Memoria».",
+   "foto": "memorial-circulo-memoria-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "El Ayuntamiento de Alcalá de Guadaíra presentó el miércoles 18 de noviembre el proyecto «Círculo de la Memoria», un memorial en el cementerio de San Mateo.",
     "El espacio tendrá círculos concéntricos de hormigón, piedra y acero alrededor de un olivo de gran porte, en una zona del cementerio sin uso.",
@@ -920,9 +917,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "La Peña Flamenca Soleá abre sus puertas a 125 alumnos de tres institutos de Alcalá por el Día del Flamenco",
    "sub": "Los estudiantes escucharon una ponencia de Manolo Moreno y una muestra con el cante de Paco Morillo y la guitarra de Juan Manuel Flores",
-   "caption": "Imagen de archivo de la sección de Cultura de El Panadero.",
-   "foto": "generica-cultura.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cante y guitarra ante el alumnado de los institutos en la Peña Flamenca Soleá.",
+   "foto": "pena-solea-dia-flamenco-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Peña Flamenca Soleá de Alcalá de Guadaíra recibió el jueves 19 de noviembre a 125 alumnos de tres institutos de la ciudad.",
     "La jornada se organizó con motivo del Día Internacional del Flamenco, que se celebró el 16 de noviembre.",
@@ -963,9 +960,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Transformando Entre Mujeres explica cómo detectar la violencia vicaria y convoca una marcha sufragista",
    "sub": "La asociación alcalareña aconseja pedir asesoramiento en el 016 ante un caso y participará en la manifestación del 25N en Sevilla",
-   "caption": "Imagen de archivo de la sección de Alcalá de El Panadero.",
-   "foto": "generica-alcala.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Una representante de Transformando Entre Mujeres, durante la entrevista.",
+   "foto": "transformando-entre-mujeres-25n-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La asociación Transformando Entre Mujeres celebró el miércoles 18 de noviembre en Alcalá de Guadaíra una charla para dar a conocer la violencia vicaria.",
     "La ponente recomendó pedir asesoramiento en el 016 o en los teléfonos de atención a la mujer y a la infancia antes de actuar.",
@@ -992,7 +989,8 @@ window.EP = {
      "016",
      "marcha sufragista"
     ]
-   ]
+   ],
+   "encuadre": "center 30%"
   },
   {
    "iso": "2026-11-19",
@@ -1006,9 +1004,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "La Junta Electoral obliga al PP de Alcalá a retirar carteles de las farolas de la calle Arahal, según el PSOE",
    "sub": "Los socialistas sostienen que ese espacio no está entre los autorizados para la propaganda electoral de las generales del 29 de noviembre",
-   "caption": "Imagen de archivo de la sección de Política de El Panadero.",
-   "foto": "generica-politica.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "La calle Arahal de Alcalá de Guadaíra.",
+   "foto": "calle-arahal-carteles-29n-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "Según el PSOE de Alcalá de Guadaíra, la Junta Electoral de Zona de Sevilla ha obligado al PP local a retirar los carteles que colocó en las farolas de la calle Arahal.",
     "Los socialistas afirman que esa calle no figura entre los lugares autorizados, que el Ayuntamiento publicó en el BOP el 20 de octubre.",
@@ -1052,9 +1050,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "La Cabalgata del Campo de las Beatas reparte papeletas de beduino y ReyeSilos celebra su coronación",
    "sub": "Salir de beduino en el cortejo cuesta 30 euros más una fianza de otros 30 que se devuelve al entregar el traje",
-   "caption": "Imagen de archivo de la sección de Cultura de El Panadero.",
-   "foto": "generica-cultura.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "La Cabalgata de Reyes Magos del Campo de las Beatas, en una imagen de archivo.",
+   "foto": "cabalgata-campo-beatas-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Cabalgata de Reyes Magos del Campo de las Beatas entrega el jueves 19 y el viernes 20 de noviembre las papeletas de sitio para salir como beduino.",
     "La papeleta cuesta 30 euros, más una fianza de 30 euros que se devuelve al entregar el traje.",
@@ -1096,10 +1094,10 @@ window.EP = {
    "elaboracion": "ia",
    "title": "El alcalareño Diogo Miguel Silva disputa el domingo el título mundial de K1 ante el campeón, Fabio Loisi",
    "sub": "El excampeón de Europa WAKO Pro, de 25 años, pelea en la velada CFNT de El Puerto de Santa María tras tres meses de preparación en Tailandia",
-   "caption": "Gráfico con el palmarés de Diogo Miguel Silva antes de su combate por el título mundial de K1.",
-   "foto": "diogo-silva-k1-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
+   "caption": "Diogo Miguel Silva, en una imagen de archivo.",
+   "foto": "diogo-silva-k1-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
+   "encuadre": "center 25%",
    "claves": [
     "Diogo Miguel Silva, deportista de Alcalá de Guadaíra de 25 años, disputa el domingo 22 de noviembre el título mundial de K1.",
     "Su rival es el francés Fabio Loisi, actual campeón, en la velada CFNT de El Puerto de Santa María (Cádiz).",
@@ -1140,9 +1138,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "El Cristo de la Bondad estrena mantolín bordado en oro en su besamano de Cristo Rey, del 20 al 22 de noviembre",
    "sub": "La pieza, bordada por Pepi Maya y diseñada por Rafael de Rueda, es una donación de hermanos y devotos de la Borriquita",
-   "caption": "Imagen de archivo de la sección de Hermandades de El Panadero.",
-   "foto": "generica-hermandades.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "El Cristo de la Bondad, en una imagen difundida por la Hermandad de la Borriquita.",
+   "foto": "borriquita-cristo-bondad-of.jpg",
+   "fotocredito": "Facebook de la Hermandad de la Borriquita",
    "claves": [
     "El Santísimo Cristo de la Bondad de la Hermandad de la Borriquita de Alcalá de Guadaíra estará en besamano del viernes 20 al domingo 22 de noviembre.",
     "La imagen estrena un mantolín bordado en oro por Pepi Maya y diseñado por Rafael de Rueda, donado por hermanos y devotos.",
@@ -1172,7 +1170,8 @@ window.EP = {
      "Hermandad de Jesús",
      "hermandades de Alcalá"
     ]
-   ]
+   ],
+   "encuadre": "center 20%"
   },
   {
    "iso": "2026-11-19",
@@ -1233,9 +1232,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Vox pide más medios para los bomberos y un autobús urbano para San Rafael tras un Pleno marcado por la deuda",
    "sub": "Pedro Navarro y Carmen Loscertales cuestionan también la nueva licitación del Hotel Oromana y reclaman reactivar la comisión sobre el accidente de la Casa Ibarra",
-   "caption": "Imagen de archivo de la sección de política de El Panadero.",
-   "foto": "generica-politica.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Un momento del programa La Tribuna con el grupo municipal de Vox.",
+   "foto": "vox-la-tribuna-18-noviembre-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "Vox reclamó el 18 de noviembre, en el programa La Tribuna, más personal y medios materiales para el Servicio de Bomberos de Alcalá de Guadaíra.",
     "El portavoz, Pedro Navarro, pidió un autobús urbano que conecte la barriada de San Rafael con el centro, aunque sea deficitario.",
@@ -1266,7 +1265,8 @@ window.EP = {
      "VIVE Alcalá",
      "Hotel Oromana"
     ]
-   ]
+   ],
+   "encuadre": "center 25%"
   },
   {
    "iso": "2026-11-19",
@@ -1280,9 +1280,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "José Cabrera Lasso de la Vega pintará el cartel del 75 aniversario fundacional del Dulce Nombre",
    "sub": "La Junta de Gobierno de la Hermandad de Caridad de Nuestra Señora del Dulce Nombre de María ha designado al cartelista de la efeméride",
-   "caption": "Imagen de archivo de la sección de hermandades de El Panadero.",
-   "foto": "generica-hermandades.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "José Cabrera Lasso de la Vega, autor del cartel del 75 aniversario fundacional del Dulce Nombre.",
+   "foto": "dulce-nombre-cartelista-75-aniversario-of.jpg",
+   "fotocredito": "Facebook de la Hermandad del Dulce Nombre",
    "claves": [
     "La Hermandad del Dulce Nombre de Alcalá de Guadaíra ha elegido a José Cabrera Lasso de la Vega como autor del cartel de su LXXV aniversario fundacional.",
     "La designación la ha decidido la Junta de Gobierno y la ha comunicado la hermandad en Facebook el 18 de noviembre.",
@@ -1307,7 +1307,8 @@ window.EP = {
      "cartel",
      "glorias de Alcalá"
     ]
-   ]
+   ],
+   "encuadre": "contain"
   },
   {
    "iso": "2026-11-19",
@@ -1321,9 +1322,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "El Perdón fija las igualás del Cristo y de la Virgen de las Angustias para el 17 y el 24 de enero",
    "sub": "Las dos citas para los aspirantes a costaleros del Martes Santo serán a las 13.00 en los salones de la parroquia de la Inmaculada Concepción",
-   "caption": "Imagen de archivo de la sección de hermandades de El Panadero.",
-   "foto": "generica-hermandades.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cartel de la igualá de costaleros del Santísimo Cristo del Perdón, el 17 de enero.",
+   "foto": "perdon-iguala-cristo-2027-cartel-of.jpg",
+   "fotocredito": "Facebook de la Hermandad del Perdón",
    "claves": [
     "La igualá del Santísimo Cristo del Perdón será el domingo 17 de enero de 2027 a las 13.00.",
     "La de Nuestra Señora de las Angustias será el domingo 24 de enero de 2027, también a las 13.00.",
@@ -1350,7 +1351,8 @@ window.EP = {
      "Nuestra Señora de las Angustias",
      "Inmaculada Concepción"
     ]
-   ]
+   ],
+   "encuadre": "contain"
   },
   {
    "id": "pleno-noviembre-led-vive-piscina-cabeza-hermosa",
@@ -1458,9 +1460,9 @@ window.EP = {
    "fuente_url": "https://www.youtube.com/watch?v=vfa9QI5-D1o&t=0s",
    "title": "La Sinfónica de Sevilla interpreta «Sheherazade» para escolares en el auditorio Riberas del Guadaíra hasta el viernes",
    "sub": "Son tres conciertos didácticos del ciclo educativo de la ROSS, con narración de Ana Hernández Sanchiz y dirección de Alejandro Muñoz",
-   "caption": "Imagen de archivo de la sección de cultura de El Panadero.",
-   "foto": "generica-cultura.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "La Sinfónica de Sevilla, en el concierto escolar del auditorio Riberas del Guadaíra.",
+   "foto": "ross-conciertos-escolares-riberas-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Real Orquesta Sinfónica de Sevilla ofrece entre el 18 y el 20 de noviembre tres conciertos escolares en el auditorio Riberas del Guadaíra de Alcalá.",
     "El programa es «Sheherazade», de Nikolái Rimski-Kórsakov, con narración de Ana Hernández Sanchiz y dirección de Alejandro Muñoz.",
@@ -1502,9 +1504,9 @@ window.EP = {
    "fuente_url": "https://www.facebook.com/1605699894935684/posts/1607970251375315",
    "title": "Periodistas latinoamericanos visitan Naturgy y Pilatus en Alcalá dentro de un viaje de prensa de la Diputación",
    "sub": "El programa de Prodetur y SevillaCityOne reunió a una docena de informadores especializados de seis países para conocer la industria de la provincia",
-   "caption": "Imagen de archivo de la sección de economía de El Panadero.",
-   "foto": "generica-economia.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Los periodistas latinoamericanos, ante la sede de Pilatus en Alcalá.",
+   "foto": "press-trip-pilatus-of.jpg",
+   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
    "claves": [
     "Una docena de periodistas especializados de seis países latinoamericanos ha visitado las empresas Naturgy y Pilatus en Alcalá de Guadaíra.",
     "La visita forma parte de un programa de la Diputación de Sevilla organizado a través de Prodetur con la colaboración de SevillaCityOne.",
@@ -1589,9 +1591,9 @@ window.EP = {
    "fuente_url": "https://www.facebook.com/1605699894935684/posts/1607795788059428",
    "title": "El Centro San Miguel programa flamenco, poesía y un festival de comedia del arte del 18 al 22 de noviembre",
    "sub": "Incluye puertas abiertas con la Peña El Arrabal, un recital de Elvira Ponce y la obra «Quieto Parao»; el concierto de la Bondad en San Agustín se retrasa a las 21.00",
-   "caption": "Imagen de archivo de la sección de cultura de El Panadero.",
-   "foto": "generica-cultura.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cartel de las jornadas de puertas abiertas del Centro San Miguel por el Día Mundial del Flamenco.",
+   "foto": "centro-san-miguel-flamenco-cartel-of.jpg",
+   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
    "claves": [
     "El Centro San Miguel de Alcalá de Guadaíra acoge del 18 al 22 de noviembre talleres de flamenco, un recital de poesía, un recital de cante y un festival de comedia del arte.",
     "Las actividades son de entrada libre hasta completar aforo; los talleres del festival de La Sala requieren inscripción gratuita.",
@@ -1624,7 +1626,8 @@ window.EP = {
    "iso": "2026-11-18",
    "hora": "22:28",
    "firma": "Redacción El Panadero",
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "encuadre": "contain"
   },
   {
    "id": "paz-vega-rueda-ana-no-alcala-angela-molina",
@@ -1732,10 +1735,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "El Mes del Pan supera por primera vez los 3.000 participantes, un 59,3 % más que en 2025",
    "sub": "El Ayuntamiento atribuye a la programación de los sábados de octubre un aumento del consumo en la hostelería y el comercio, sin detallar todavía la cifra exacta",
-   "caption": "Gráfico con el número de participantes y el crecimiento del Mes del Pan 2026.",
-   "foto": "mes-del-pan-2026-record-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
+   "caption": "Presentación del Mes del Pan 2026, en una imagen de archivo.",
+   "foto": "mes-del-pan-2026-of.jpg",
+   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
    "claves": [
     "El Mes del Pan de Alcalá de Guadaíra ha superado en 2026 los 3.000 participantes por primera vez, según el Ayuntamiento.",
     "La participación ha crecido un 59,3 % respecto a la edición de 2025.",
@@ -1867,10 +1869,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "El Ayuntamiento plantará 115 árboles en 16 colegios públicos para dar sombra a los patios",
    "sub": "El proyecto, de 39.800 euros como máximo y en licitación, prevé almeces, moreras, jacarandas y algarrobos, y llega en plena polémica por las talas en el entorno del Castillo",
-   "caption": "Gráfico con las cifras del proyecto de plantación de árboles en colegios públicos de Alcalá.",
-   "foto": "arbolado-colegios-115-arboles-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
+   "caption": "Presentación del proyecto de plantación de árboles en los centros escolares.",
+   "foto": "arbolado-colegios-presentacion-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Delegación de Medio Ambiente de Alcalá de Guadaíra plantará 115 árboles en 16 colegios públicos de la ciudad.",
     "El proyecto tiene un presupuesto máximo de 39.800 euros, está en licitación y se ejecutará en tres meses, con la previsión de terminar en marzo.",
@@ -1915,10 +1916,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "La Casa de la Cultura abre «Paseo matemático al-Ándalus» y Alba Molina cerrará el Día de la Bandera",
    "sub": "La exposición de la Fundación Descubre podrá verse hasta el 8 de diciembre; el concierto del 4 de diciembre en el Auditorio tiene entradas a 5 euros",
-   "caption": "Calendario de la programación municipal por el Día de la Bandera de Andalucía en Alcalá.",
-   "foto": "dia-bandera-2026-programa-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
+   "caption": "Paneles de la exposición sobre las matemáticas del legado andalusí.",
+   "foto": "paseo-matematico-al-andalus-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Casa de la Cultura de Alcalá de Guadaíra acoge desde el lunes 16 de noviembre hasta el 8 de diciembre la exposición «Paseo matemático al-Ándalus».",
     "La muestra, de la Fundación Descubre y la Junta de Andalucía, tiene 24 paneles sobre la ciencia en la arquitectura andalusí.",
@@ -2194,9 +2194,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Adelante Andalucía pide medidas sobre vivienda ante el solar de Santa Lucía donde se proyectaron cien VPO",
    "sub": "Luis de los Santos, candidato al Congreso por Sevilla, acusa a PP y PSOE de no frenar la especulación inmobiliaria",
-   "caption": "Imagen de archivo de la sección de política de El Panadero.",
-   "foto": "generica-politica.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Representantes de Adelante Andalucía, en Alcalá de Guadaíra.",
+   "foto": "adelante-andalucia-vivienda-santa-lucia-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
    "claves": [
     "Adelante Andalucía ha visitado en Alcalá de Guadaíra el solar vacío de la avenida de Santa Lucía, donde se proyectaron más de cien viviendas de protección oficial que nunca se construyeron.",
     "Su candidato al Congreso por Sevilla, Luis de los Santos, sostiene que ni el PP ni el PSOE han actuado contra la especulación inmobiliaria.",
@@ -2240,9 +2240,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "La Hermandad del Rocío celebra su 43 aniversario el sábado 21 y proclamará al pregonero de 2027",
    "sub": "La hermandad, que acaba de aprobar sus nuevas Reglas en cabildo, homenajeará en la cena a los hermanos que cumplen 25 años",
-   "caption": "Imagen de archivo de la sección de hermandades de El Panadero.",
-   "foto": "generica-hermandades.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cartel de la cena del XLIII aniversario de la Hermandad del Rocío.",
+   "foto": "rocio-xliii-aniversario-cena-cartel-of.jpg",
+   "fotocredito": "Facebook de la Hermandad del Rocío de Alcalá de Guadaíra",
    "claves": [
     "La Hermandad del Rocío de Alcalá de Guadaíra celebra el sábado 21 de noviembre su XLIII aniversario con una misa a las 19.30 en la parroquia de San Agustín.",
     "En la cena posterior, a las 21.00 en el Salón de Celebraciones Zambra, se proclamará al pregonero de la hermandad para 2027 y se reconocerá a los hermanos con 25 años de pertenencia.",
@@ -2270,7 +2270,8 @@ window.EP = {
      "Arzobispado de Sevilla",
      "aniversario"
     ]
-   ]
+   ],
+   "encuadre": "contain"
   },
   {
    "id": "juan-rodriguez-oromana-entrena-primer-equipo-betis",
@@ -2418,9 +2419,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "Alcalá arranca «Alcalá Actúa contra la Violencia de Género», su programa de actividades en torno al 25N",
    "sub": "Los talleres y actos se celebrarán sobre todo en el Centro de la Igualdad durante noviembre y diciembre; las entradas para el teatro se recogen allí y en la Casa de la Cultura",
-   "caption": "Gráfico con el programa municipal del 25N en Alcalá de Guadaíra y el teléfono 016 de atención a víctimas de violencia de género.",
-   "foto": "alcala-actua-violencia-genero-25n-2026-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
+   "caption": "Cartel del programa municipal «Alcalá actúa» contra la violencia de género.",
+   "foto": "alcala-actua-25n-programa-cartel-of.jpg",
+   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
    "encuadre": "contain",
    "claves": [
     "El Ayuntamiento de Alcalá de Guadaíra ha puesto en marcha el programa «Alcalá Actúa contra la Violencia de Género» con motivo del 25 de noviembre.",
