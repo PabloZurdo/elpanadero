@@ -268,6 +268,141 @@ window.EP = {
  ],
  "noticias": [
   {
+   "iso": "2026-11-21",
+   "hora": "21:52",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "concierto-bondad-candlelight-san-agustin-medio-millar",
+   "sec": "cultura",
+   "kicker": "Alcalá EnClave de Música",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10024/mas-de-medio-millar-de-espectadores-se-emocionan-con-la-musica-de-la-bondad-en-el-concierto-de-san-agustin",
+   "title": "Más de 500 personas llenan San Agustín en el concierto a la luz de las velas de la Bondad",
+   "sub": "El ciclo municipal Alcalá EnClave de Música sigue el 12 de diciembre en el Parque Centro y termina el 6 de marzo con un concierto conjunto de las dos bandas",
+   "caption": "Un momento del concierto «Bondad: Candlelight» en la parroquia de San Agustín, con miembros de la Agrupación Musical Cristo de la Bondad.",
+   "foto": "concierto-bondad-candlelight-san-agustin-of.jpg",
+   "fotocredito": "Facebook del Ayuntamiento de Alcalá de Guadaíra",
+   "claves": [
+    "Más de 500 espectadores asistieron en la parroquia de San Agustín de Alcalá de Guadaíra al concierto «Bondad: Candlelight» de la Agrupación Musical Santísimo Cristo de la Bondad, según el Ayuntamiento.",
+    "El concierto forma parte del ciclo municipal Alcalá EnClave de Música, que lleva a las dos formaciones musicales de la ciudad a distintos espacios.",
+    "Las próximas citas son el 12 de diciembre en el Parque Centro, con la Guadaíra Big Band; el 20 de febrero en el Centro San Miguel, y el 6 de marzo de 2027 en el Auditorio Riberas del Guadaíra."
+   ],
+   "body": [
+    "Más de medio millar de personas asistieron en la parroquia de San Agustín de Alcalá de Guadaíra al concierto «Bondad: Candlelight», que la Agrupación Musical Santísimo Cristo de la Bondad ofreció a la luz de las velas en la noche del viernes 20 de noviembre, según ha informado el Ayuntamiento. La cita forma parte del ciclo municipal Alcalá EnClave de Música.",
+    "El delegado de Turismo, Cultura, Patrimonio y Museos, Christopher Rivas, describió el concierto como un espectáculo «multisensorial» que unió la música, la acústica del templo y la iluminación de las velas. Rivas atribuyó la asistencia a la calidad del programa y agradeció la colaboración de la parroquia y de la Hermandad de la Borriquita, a la que pertenece la agrupación y que celebra estos días <a href='#borriquita-besamano-cristo-bondad-mantolin-cristo-rey'>el besamano del Cristo de la Bondad</a>.",
+    "## Un ciclo con las dos bandas de la ciudad",
+    "Alcalá EnClave de Música es una propuesta de la Delegación de Cultura para llevar la música a distintos lugares de la ciudad con las dos formaciones musicales alcalareñas: la Agrupación Musical Cristo de la Bondad y la Banda de Música de Alcalá, de la Asociación Musical Nuestra Señora del Águila. Según el Ayuntamiento, el ciclo ha permitido por primera vez conciertos conjuntos de las dos.",
+    "El programa ya había llevado al Castillo dos conciertos, uno de música andaluza y otro de bandas sonoras, y al Parque de Oromana un concierto nocturno de cámara con un cuarteto de saxofones de la Banda de Música.",
+    "## Próximas citas",
+    "El ciclo continuará el sábado 12 de diciembre en el Parque Centro con la actuación de la Guadaíra Big Band, de la Asociación Musical Nuestra Señora del Águila. El 20 de febrero se trasladará al Centro San Miguel, que acogerá el concierto «Bondad al piano» de la agrupación del Cristo de la Bondad.",
+    "La última cita será conjunta: el 6 de marzo de 2027, a las puertas de la Cuaresma, las dos formaciones ofrecerán un concierto de música procesional en el Auditorio Riberas del Guadaíra. El Ayuntamiento no ha detallado todavía los horarios ni si las próximas citas necesitarán entrada.",
+    "<span class='howto'><b>Alcalá EnClave de Música.</b> 12 de diciembre: Guadaíra Big Band en el Parque Centro. 20 de febrero: «Bondad al piano» en el Centro San Miguel. 6 de marzo de 2027: concierto conjunto de música procesional en el Auditorio Riberas del Guadaíra. Información en alcaladeguadaira.es.</span>"
+   ],
+   "seo": [
+    "concierto-bondad-candlelight-san-agustin-alcala",
+    "Concierto de la Bondad a la luz de las velas en Alcalá",
+    "Más de 500 personas asistieron en San Agustín al concierto a la luz de las velas de la Bondad, dentro del ciclo Alcalá EnClave de Música de Alcalá.",
+    [
+     "Agrupación Musical Cristo de la Bondad",
+     "Alcalá EnClave de Música",
+     "parroquia de San Agustín",
+     "Christopher Rivas",
+     "Banda de Música de Alcalá",
+     "Guadaíra Big Band"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-21",
+   "hora": "21:52",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "retirada-costillar-chicharron-carne-mechada-horneados-lora",
+   "sec": "alcala",
+   "kicker": "Seguridad alimentaria",
+   "src": "El Panadero",
+   "title": "Sanidad retira costillar, chicharrón y carne mechada de Horneados Lora vendidos en Alcalá",
+   "sub": "Los tres productos, envasados al vacío, se elaboraban en un obrador de Sevilla sin autorización sanitaria y llegaron también a comercios de la capital y de Dos Hermanas",
+   "caption": "Una pieza de carne envasada al vacío. Imagen de recurso.",
+   "foto": "retirada-productos-carnicos-horneados-lora-stock.jpg",
+   "fotocredito": "Unsplash",
+   "claves": [
+    "La Consejería de Presidencia, Sanidad y Emergencias de la Junta de Andalucía y el Ayuntamiento de Sevilla han retirado del mercado el costillar de cerdo, el chicharrón de Cádiz y la carne mechada de la marca Horneados Lora.",
+    "Los productos, listos para el consumo y envasados al vacío, se distribuyeron en establecimientos de Alcalá de Guadaíra, Dos Hermanas y Sevilla capital.",
+    "Sanidad recomienda no consumirlos y devolverlos al establecimiento donde se compraron."
+   ],
+   "body": [
+    "La Consejería de Presidencia, Sanidad y Emergencias de la Junta de Andalucía y el Ayuntamiento de Sevilla han retirado del mercado tres productos cárnicos de la marca Horneados Lora que se han vendido en comercios de Alcalá de Guadaíra: costillar de cerdo, chicharrón de Cádiz y carne mechada. Los tres se comercializaban envasados al vacío y listos para el consumo.",
+    "Según la información disponible, los productos se distribuyeron en establecimientos de Sevilla capital y de los municipios de Alcalá de Guadaíra y Dos Hermanas. Las autoridades sanitarias no han hecho pública la lista de comercios que los recibieron ni los lotes afectados.",
+    "## Un obrador sin autorización",
+    "La retirada se ha decidido después de comprobar que un comercio minorista de Sevilla capital elaboraba estos productos en un obrador que no tenía la autorización sanitaria obligatoria. De acuerdo con el informe de la inspección municipal de Sevilla, el local tampoco cumplía los requisitos exigidos para sus equipos e instalaciones y no tenía un sistema de autocontrol adecuado, el procedimiento con el que una empresa alimentaria vigila por sí misma los riesgos de lo que produce.",
+    "La actividad del obrador ha quedado suspendida. Las actuaciones sobre el establecimiento siguen abiertas a la espera de los resultados de los análisis de laboratorio.",
+    "Inspectores del Ayuntamiento de Sevilla y de la Consejería están comprobando que los establecimientos que recibieron los productos los han retirado de la venta.",
+    "## Qué hacer si se ha comprado",
+    "Sanidad recomienda a quienes tengan en casa alguno de estos tres productos de Horneados Lora que no los consuman y que los devuelvan en el establecimiento donde los compraron.",
+    "<span class='howto'><b>Productos retirados.</b> Marca Horneados Lora: costillar de cerdo, chicharrón de Cádiz y carne mechada, envasados al vacío y listos para el consumo. Qué hacer: no consumirlos y devolverlos en el comercio donde se compraron. Zonas de distribución: Alcalá de Guadaíra, Dos Hermanas y Sevilla capital.</span>"
+   ],
+   "seo": [
+    "retirada-costillar-chicharron-carne-mechada-horneados-lora-alcala",
+    "Retiran costillar, chicharrón y carne mechada en Alcalá",
+    "Sanidad retira costillar de cerdo, chicharrón de Cádiz y carne mechada de Horneados Lora, vendidos en Alcalá y elaborados en un obrador sin autorización.",
+    [
+     "Horneados Lora",
+     "alerta sanitaria",
+     "seguridad alimentaria",
+     "Junta de Andalucía",
+     "carne mechada",
+     "chicharrón de Cádiz",
+     "Dos Hermanas"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-21",
+   "hora": "21:52",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "pena-ajedrecistica-oromana-division-honor-marbella-2026",
+   "sec": "deportes",
+   "kicker": "Ajedrez",
+   "src": "Alcalá+Deporte",
+   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8444/la-pena-ajedrecistica-oromana-compite-en-el-campeonato-de-espana-de-division-de-honor",
+   "title": "La Peña Ajedrecística Oromana juega en Marbella el Campeonato de España de División de Honor",
+   "sub": "El club alcalareño compite hasta el 26 de noviembre como Oromana CEN Solutions, con cinco grandes maestros en su plantilla",
+   "caption": "Cartel de la Peña Ajedrecística Oromana con la plantilla del equipo Oromana CEN Solutions para el Campeonato de España de División de Honor.",
+   "foto": "pena-ajedrecistica-oromana-division-honor-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
+   "encuadre": "contain",
+   "claves": [
+    "La Peña Ajedrecística Oromana, de Alcalá de Guadaíra, disputa del 20 al 26 de noviembre en Marbella el Campeonato de España por Equipos de Clubes de División de Honor.",
+    "El equipo compite con el nombre de Oromana CEN Solutions y cuenta con cinco grandes maestros: Nodirbek Yakubboev, Parham Maghsoodloo, David Antón Guijarro, Benjamin Gledura y Alan Pichot.",
+    "El presidente del club, José Manuel Gómez Solís, es el delegado del equipo durante el campeonato."
+   ],
+   "body": [
+    "La Peña Ajedrecística Oromana, de Alcalá de Guadaíra, disputa desde el viernes 20 y hasta el jueves 26 de noviembre en Marbella (Málaga) el Campeonato de España por Equipos de Clubes de División de Honor, la máxima categoría del ajedrez español, según ha informado Alcalá+Deporte, el portal deportivo municipal.",
+    "El club compite con el nombre de Oromana CEN Solutions, por su patrocinador, y se enfrenta en esta fase a los mejores clubes del país. Para esta edición ha reforzado su plantilla con jugadores de nivel nacional e internacional.",
+    "## Cinco grandes maestros",
+    "El equipo alcalareño lo forman los grandes maestros Nodirbek Yakubboev, Parham Maghsoodloo, David Antón Guijarro, Benjamin Gledura y Alan Pichot; los maestros internacionales Sara Khadem e Ismael Alshameary Puente; el maestro FIDE Carlos J. Bernabéu López, y Juan Chacón Pérez.",
+    "El presidente de la Peña, José Manuel Gómez Solís, ejerce de delegado del equipo durante el campeonato. El club ha agradecido el apoyo de sus patrocinadores, en especial de CEN Solutions, al que atribuye que pueda competir con una plantilla de este nivel.",
+    "La de este año es una nueva participación de la Peña en la División de Honor, en la que, según Alcalá+Deporte, el club sigue consolidando su trayectoria deportiva.",
+    "El torneo coincide con otra cita de un deportista de la ciudad: el alcalareño Diogo Miguel Silva <a href='#diogo-miguel-silva-titulo-mundial-k1-puerto-santa-maria'>disputa el domingo 22 de noviembre el título mundial de K1</a> en El Puerto de Santa María.",
+    "<span class='howto'><b>Campeonato de España por Equipos de Clubes de División de Honor.</b> Del 20 al 26 de noviembre de 2026, en Marbella (Málaga). Equipo: Oromana CEN Solutions (Peña Ajedrecística Oromana, Alcalá de Guadaíra).</span>"
+   ],
+   "seo": [
+    "pena-ajedrecistica-oromana-division-honor-marbella",
+    "Peña Ajedrecística Oromana, en la División de Honor",
+    "La Peña Ajedrecística Oromana de Alcalá juega en Marbella hasta el 26 de noviembre el Campeonato de España de División de Honor con cinco grandes maestros.",
+    [
+     "Peña Ajedrecística Oromana",
+     "ajedrez",
+     "División de Honor",
+     "Campeonato de España por Equipos",
+     "Marbella",
+     "CEN Solutions"
+    ]
+   ]
+  },
+  {
    "id": "cartel-cabalgata-reyes-2027-mariano-fernandez-goncer",
    "sec": "cultura",
    "kicker": "Cabalgata de Reyes",
@@ -465,17 +600,20 @@ window.EP = {
    "src": "El Panadero",
    "fuente_url": "https://www.youtube.com/watch?v=vaD8S9WO0R8&t=0s",
    "title": "Jesús Nazareno abre el sábado su casa para mostrar el paso de San Juan restaurado",
-   "sub": "El Consejo de Hermandades avanza el cartel de la Semana Santa de Rafael Muñoz, dedicado a la cofradía, y presenta su Foro de Formación",
+   "sub": "La intervención, financiada en parte por el Ayuntamiento, la hicieron tres conservadores entre enero y julio; el cartel de la Semana Santa de Rafael Muñoz estará dedicado a la cofradía",
    "caption": "La imagen de San Juan en su paso, en una imagen de archivo.",
    "foto": "jesus-paso-san-juan-tv.jpg",
    "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Hermandad de Jesús Nazareno de Alcalá de Guadaíra muestra el sábado 21 de noviembre el paso de San Juan restaurado, de 10.30 a 13.30 y de 19.00 a 20.30.",
+    "La restauración, hecha entre enero y julio de 2026 por Jesús Manuel Lozano Muñoz, María de la Cruz Gabarro Bando y Pablo Tejero Cárdenas, la ha financiado en parte el Ayuntamiento.",
     "El cartel de la Semana Santa que pinta Rafael Muñoz estará dedicado a la Hermandad de Jesús Nazareno.",
     "El Foro de Formación del Consejo tendrá su primera charla el martes 1 de diciembre, a cargo del arcipreste José Antonio Martínez."
    ],
    "body": [
     "La Hermandad de Jesús Nazareno de Alcalá de Guadaíra abrirá el sábado 21 de noviembre su casa de hermandad para mostrar el paso de San Juan tras su restauración. Las visitas serán de 10.30 a 13.30 y de 19.00 a 20.30, según ha publicado el Consejo General de Hermandades y Cofradías en su perfil de Facebook.",
+    "La intervención integral de las andas de San Juan Evangelista se hizo entre enero y julio de 2026 y la ejecutaron los conservadores-restauradores Jesús Manuel Lozano Muñoz, María de la Cruz Gabarro Bando y Pablo Tejero Cárdenas, según ha detallado la propia hermandad en su perfil de Facebook. El Ayuntamiento de Alcalá de Guadaíra ha financiado parte del coste; la hermandad no ha precisado la cuantía. El paso se expone en el patio delantero de la casa de hermandad, en la calle Alcalá y Orti, 41.",
+    "La canastilla nació en las primeras décadas del siglo XX como paso de la Virgen, está vinculada a San Juan desde 1943 y en 1980 recibió la reforma neobarroca de Manuel Guzmán Bejarano, con su talla, cresterías, respiraderos y los cuatro ángeles de las esquinas. Según la hermandad, presentaba ataques de insectos xilófagos, grietas, pérdidas de dorado, cera, barnices oxidados y repintes. Los restauradores consolidaron la estructura, revisaron los anclajes, limpiaron, fijaron el dorado y reintegraron el color con oro, y recuperaron la policromía de los ángeles.",
     "Habrá además visitas guiadas por el equipo de restauradores a las 12.30 y a las 19.30. La presentación forma parte del II Ciclo de Conservación Preventiva que organizan la Delegación de Patrimonio y el Consejo, y al que la hermandad se acogió para intervenir en este paso, como <a href='#jesus-palio-socorro-borriquita-cristo-bondad'>avanzó en octubre</a>.",
     "El mismo ciclo presentó el miércoles 18 en el Museo de la Ciudad la restauración de las pinturas del Santo Cristo de Burgos y del <a href='#amargura-exposicion-cristo-desamparados-18-noviembre'>Cristo de los Desamparados</a>, ambas de la parroquia de San Sebastián. Durante la limpieza del Cristo de Burgos apareció una firma, hoy ilegible, y una fecha de comienzos del siglo XVIII, 1706 o 1709, según explicó a El Panadero el conservador Alejandro Redondo, vicepresidente del Consejo.",
     "## El cartel, dedicado a Jesús",
@@ -497,7 +635,8 @@ window.EP = {
      "cartel Semana Santa",
      "conservación preventiva"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-21T21:52"
   },
   {
    "iso": "2026-11-20",
@@ -1049,20 +1188,20 @@ window.EP = {
    "firma": "Redacción El Panadero",
    "elaboracion": "ia",
    "title": "La Cabalgata del Campo de las Beatas reparte papeletas de beduino y ReyeSilos celebra su coronación",
-   "sub": "Salir de beduino en el cortejo cuesta 30 euros más una fianza de otros 30 que se devuelve al entregar el traje",
+   "sub": "Salir de beduino en el cortejo cuesta 30 euros más una fianza; la Cabalgata ReyeSilos corona ya a sus Reyes Magos de 2027",
    "caption": "La Cabalgata de Reyes Magos del Campo de las Beatas, en una imagen de archivo.",
    "foto": "cabalgata-campo-beatas-tv.jpg",
    "fotocredito": "MiGuadaíraTV",
    "claves": [
     "La Cabalgata de Reyes Magos del Campo de las Beatas entrega el jueves 19 y el viernes 20 de noviembre las papeletas de sitio para salir como beduino.",
     "La papeleta cuesta 30 euros, más una fianza de 30 euros que se devuelve al entregar el traje.",
-    "La Cabalgata ReyeSilos celebra el sábado 21 de noviembre su almuerzo de coronación en la Hacienda Caridad, con David Martínez Naranjo, Álvaro Gómez García y Diego Puentes Cruz como Reyes Magos de 2027."
+    "La Cabalgata ReyeSilos coronó el sábado 21 de noviembre, con la asistencia de la alcaldesa, a David Martínez Naranjo, Álvaro Gómez García y Diego Fuentes Cruz como Reyes Magos de 2027, y a Ángela Harana Sánchez como Estrella de Oriente."
    ],
    "body": [
     "La Cabalgata de Reyes Magos del Campo de las Beatas, en Alcalá de Guadaíra, ha abierto el reparto de papeletas de sitio para quienes quieran formar parte de su cortejo como beduinos. La entrega se hace el jueves 19 y el viernes 20 de noviembre, de 17.00 a 19.30, en su local del número 33 de la calle Rápida.",
     "La papeleta cuesta 30 euros, a los que se suma una fianza de otros 30 euros que la asociación devuelve cuando se entrega el traje después del desfile.",
     "## ReyeSilos corona a sus Reyes",
-    "La Cabalgata ReyeSilos, la del barrio de Silos, celebra por su parte el sábado 21 de noviembre su tradicional almuerzo de coronación, que este año será en la Hacienda Caridad, según ha anunciado en su perfil de Facebook. Allí se reunirán los protagonistas del cortejo de 2027: David Martínez Naranjo será el rey Melchor; Álvaro Gómez García, Gaspar, y Diego Puentes Cruz, Baltasar. La Estrella de la Ilusión será Ángela Arana Sánchez. La asociación atiende a sus socios todos los miércoles, de 18.00 a 20.00, en su sede de la calle Cabalgata ReyeSilos.",
+    "La Cabalgata ReyeSilos, la del barrio de Silos, coronó el sábado 21 de noviembre a sus Reyes Magos y a su Estrella para 2027, en un acto en el que los monarcas salientes les entregaron las coronas, según ha informado el Ayuntamiento en sus redes sociales. Al acto asistieron representantes de la Corporación municipal, encabezados por la alcaldesa, Ana Isabel Jiménez. David Martínez Naranjo será el rey Melchor; Álvaro Gómez García, Gaspar, y Diego Fuentes Cruz, Baltasar. La Estrella de Oriente será Ángela Harana Sánchez. La asociación había anunciado que el almuerzo de coronación sería en la Hacienda Caridad, y atiende a sus socios todos los miércoles, de 18.00 a 20.00, en su sede de la calle Cabalgata ReyeSilos.",
     "Las cabalgatas de barrio completan en Alcalá el desfile principal de la tarde del 5 de enero, el que organiza la Asociación de la Cabalgata de Reyes, que <a href='#cabalgata-reyes-2027-designacion-sorpresa-reyes-magos'>comunicó a principios de noviembre quiénes serán Melchor, Gaspar y Baltasar</a>. Esa asociación representa además el domingo 22 de noviembre <a href='#cenicienta-musical-solidario-cabalgata-22-noviembre'>un musical solidario de «La Cenicienta»</a> para recaudar fondos.",
     "Otras entidades preparan también la noche de Reyes: el Grupo Joven de la Hermandad del Perdón <a href='#perdon-reyes-magos-visitan-casas-5-enero-2027'>organiza visitas de los Reyes Magos a domicilio</a> el 5 de enero.",
     "<span class='howto'><b>Papeletas de beduino de la Cabalgata del Campo de las Beatas.</b> Jueves 19 y viernes 20 de noviembre, de 17.00 a 19.30. Local de la calle Rápida, 33. Precio: 30 euros más 30 euros de fianza, que se devuelven al entregar el traje.</span>"
@@ -1080,7 +1219,7 @@ window.EP = {
      "cabalgatas de Alcalá"
     ]
    ],
-   "actualizada": "2026-11-20T22:25"
+   "actualizada": "2026-11-21T21:52"
   },
   {
    "iso": "2026-11-19",
