@@ -3,7 +3,7 @@ window.EP = {
   "actualizado": "2026-11-22",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia.",
-  "apertura": 2
+  "apertura": 3
  },
  "agenda": [
   {
@@ -210,6 +210,180 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "id": "diogo-miguel-silva-campeon-mundo-k1-fabio-loisi",
+   "sec": "deportes",
+   "kicker": "Deportes de contacto",
+   "iso": "2026-11-22",
+   "src": "Alcalá+Deporte",
+   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8445/diogo-miguel-silva-se-proclama-campeon-del-mundo-de-k1",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El alcalareño Diogo Miguel Silva se proclama campeón del mundo de K1 tras vencer a Fabio Loisi",
+   "sub": "El deportista del CD Qalat, de 25 años, ganó el título el domingo en la velada CFNT de El Puerto de Santa María",
+   "caption": "Diogo Miguel Silva, con el cinturón de campeón, sobre el ring de la velada CFNT en El Puerto de Santa María.",
+   "foto": "diogo-silva-campeon-mundo-k1-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
+   "claves": [
+    "Diogo Miguel Silva, deportista de Alcalá de Guadaíra, se proclamó campeón del mundo de K1 el domingo 22 de noviembre de 2026.",
+    "Ganó al francés Fabio Loisi, que defendía el título, en la velada CFNT de El Puerto de Santa María (Cádiz).",
+    "Silva, de 25 años y del CD Qalat, preparó el combate durante tres meses en Tailandia con su entrenador, Rafa Martínez."
+   ],
+   "body": [
+    "El alcalareño Diogo Miguel Silva se ha proclamado campeón del mundo de K1 al vencer al francés Fabio Loisi en la velada CFNT celebrada el domingo 22 de noviembre de 2026 en El Puerto de Santa María (Cádiz), según ha informado Alcalá+Deporte, el portal deportivo del Ayuntamiento de Alcalá de Guadaíra.",
+    "Loisi llegaba al combate como campeón vigente, y Silva aspiraba a quitarle el título en <a href='#diogo-miguel-silva-titulo-mundial-k1-puerto-santa-maria'>la pelea que el portal municipal anunció la semana pasada</a>. El K1 es una modalidad del kickboxing que permite golpear con los puños, las piernas y las rodillas.",
+    "## Tres meses en Tailandia",
+    "Silva, de 25 años, compite con el CD Qalat, de Alcalá, y lo entrena Rafa Martínez, a quien el portal municipal atribuye un papel fundamental en su carrera. Para este combate se preparó durante tres meses en Tailandia.",
+    "El título mundial se suma a un palmarés que ya incluía cuatro campeonatos de España y seis de Andalucía en categoría amateur. Como profesional, Silva había sido campeón de Europa de la WAKO, una de las principales federaciones internacionales de deportes de contacto, y había peleado en ONE Championship, una de las grandes ligas internacionales del sector. Antes del combate, el deportista había pedido el apoyo de empresas, entidades y patrocinadores para seguir con su preparación y su carrera internacional, según recogió el portal municipal.",
+    "El triunfo llega en un buen momento para el deporte alcalareño de competición. Esta misma semana, la Peña Ajedrecística Oromana disputa en Marbella <a href='#pena-ajedrecistica-oromana-division-honor-marbella-2026'>el Campeonato de España de División de Honor</a>, la máxima categoría del ajedrez nacional por equipos, que termina el jueves 26 de noviembre.",
+    "<span class='howto'><b>Diogo Miguel Silva.</b> 25 años. Club: CD Qalat (Alcalá de Guadaíra). Entrenador: Rafa Martínez. Título: campeón del mundo de K1, ganado el 22 de noviembre de 2026 ante Fabio Loisi en la velada CFNT de El Puerto de Santa María (Cádiz). Las empresas interesadas en patrocinar al deportista pueden escribir a Alcalá+Deporte (info@alcalamasdeporte.com).</span>"
+   ],
+   "seo": [
+    "diogo-miguel-silva-campeon-mundo-k1",
+    "Diogo Miguel Silva, campeón del mundo de K1",
+    "El alcalareño Diogo Miguel Silva gana el título mundial de K1 al vencer a Fabio Loisi en la velada CFNT de El Puerto de Santa María el 22 de noviembre.",
+    [
+     "Diogo Miguel Silva",
+     "K1",
+     "kickboxing",
+     "CD Qalat",
+     "Fabio Loisi",
+     "deportes de contacto"
+    ]
+   ],
+   "hora": "21:55"
+  },
+  {
+   "id": "moreno-mitin-pp-alcala-tranvia-2027-29n",
+   "sec": "politica",
+   "kicker": "Elecciones 29N",
+   "iso": "2026-11-22",
+   "src": "El Panadero",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Juanma Moreno sitúa en 2027 la puesta en servicio del tranvía en un mitin del PP en Alcalá",
+   "sub": "El presidente de la Junta cifró la obra en más de 300 millones y respaldó a Sandra González, candidata del PP a la Alcaldía",
+   "caption": "Asistentes al acto de campaña del PP celebrado el domingo 22 de noviembre en Alcalá de Guadaíra.",
+   "foto": "moreno-mitin-pp-alcala-29n-of.jpg",
+   "fotocredito": "Facebook del PP de Alcalá de Guadaíra",
+   "encuadre": "contain",
+   "claves": [
+    "Juanma Moreno, presidente de la Junta y del PP andaluz, afirmó el domingo 22 de noviembre en Alcalá de Guadaíra que el tranvía entrará en servicio en 2027.",
+    "Según Moreno, el proyecto supera los 300 millones de euros; responsabilizó de su paralización a los anteriores gobiernos socialistas de la Junta.",
+    "El acto, de cara a las elecciones generales del 29 de noviembre, contó con la candidata del PP a la Alcaldía, Sandra González, y los cabezas de lista Juan Bravo y Juan Ávila."
+   ],
+   "body": [
+    "El presidente de la Junta de Andalucía y del PP andaluz, Juanma Moreno, afirmó el domingo 22 de noviembre de 2026 en Alcalá de Guadaíra que el tranvía de la ciudad entrará en servicio en 2027. Lo dijo en un acto de campaña del PP para las elecciones generales del domingo 29 de noviembre, en Celebraciones Zambra.",
+    "El tranvía unirá Alcalá con el Metro de Sevilla en Montequinto. Moreno responsabilizó de la paralización del proyecto a los anteriores gobiernos socialistas de la Junta y aseguró que tuvo que negociar en Bruselas para recuperar los fondos europeos de la obra. Según sus cifras, la inversión total supera los 300 millones de euros.",
+    "La fecha llega en plena discusión sobre los retrasos de la obra. El <a href='#tranvia-presupuesto-junta-2027-25-millones'>proyecto de presupuestos de la Junta para 2027</a> reserva una partida para terminarla y ponerla en marcha, y Adelante Andalucía <a href='#campana-29n-adelante-tranvia-pp-moreno-vox-plazuela'>criticó el viernes en Alcalá</a> que se hable de inauguraciones de un tranvía que los vecinos todavía no pueden usar.",
+    "## Críticas al urbanismo municipal",
+    "Moreno defendió el potencial económico de Alcalá, que según dijo cuenta con más de 30 polígonos industriales y podría duplicar esa cifra. También criticó lo que considera desorden urbanístico en la ciudad, gobernada por el PSOE, y pidió apoyo para la candidata del PP a la Alcaldía y presidenta del partido en Alcalá, Sandra González.",
+    "En el acto participaron además los cabezas de lista del PP por la provincia de Sevilla al Congreso y al Senado, Juan Bravo y Juan Ávila, según ha publicado el PP de Alcalá en su perfil de Facebook. Moreno pidió a los asistentes que se movilicen para que Alberto Núñez Feijóo llegue a la Presidencia del Gobierno.",
+    "El mitin cierra la agenda del PP en Alcalá en el fin de semana, después de que el sábado la candidata local y varias candidatas al Congreso visitaran empresas y barrios. Vox y Adelante Andalucía también han hecho campaña esta semana en la ciudad.",
+    "<span class='howto'><b>Elecciones generales.</b> Domingo 29 de noviembre de 2026. La campaña electoral termina a las 00.00 del viernes 27 al sábado 28 de noviembre; el sábado 28 es jornada de reflexión.</span>"
+   ],
+   "seo": [
+    "juanma-moreno-tranvia-alcala-2027-mitin-pp",
+    "Moreno sitúa en 2027 el tranvía de Alcalá en un mitin",
+    "Juanma Moreno afirma en un acto del PP en Alcalá de Guadaíra que el tranvía entrará en servicio en 2027 y cifra en más de 300 millones la inversión.",
+    [
+     "Juanma Moreno",
+     "tranvía de Alcalá",
+     "PP de Alcalá",
+     "Sandra González",
+     "elecciones generales 29N",
+     "Junta de Andalucía"
+    ]
+   ],
+   "hora": "21:55"
+  },
+  {
+   "id": "homenaje-manuel-delgado-lianez-pena-betica-miguel-espina",
+   "sec": "alcala",
+   "kicker": "Asociaciones",
+   "iso": "2026-11-22",
+   "src": "Ayuntamiento de Alcalá de Guadaíra (Facebook)",
+   "fuente_url": "https://www.facebook.com/1605699894935684/posts/1612466754258998",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La Peña Bética Miguel Espina homenajea a Manuel Delgado Liánez tras más de 20 años al frente de la entidad",
+   "sub": "El acto, en La Harinera del Guadaíra, reunió a la alcaldesa, entidades deportivas y culturales y vecinos del Distrito Este",
+   "caption": "Manuel Delgado Liánez, en el centro, junto a la alcaldesa, Ana Isabel Jiménez, y representantes de la Peña Bética Miguel Espina y de la Corporación.",
+   "foto": "homenaje-manuel-delgado-lianez-pena-betica-of.jpg",
+   "fotocredito": "Facebook del Ayuntamiento de Alcalá de Guadaíra",
+   "claves": [
+    "La Peña Bética Miguel Espina de Alcalá de Guadaíra homenajeó el domingo 22 de noviembre a Manuel Delgado Liánez, su presidente durante más de dos décadas.",
+    "El acto se celebró en La Harinera del Guadaíra con la alcaldesa, Ana Isabel Jiménez, y el delegado de Deportes, Pedro Gracia.",
+    "Varias entidades, entre ellas la Federación de Peñas Béticas, entregaron recuerdos al homenajeado."
+   ],
+   "body": [
+    "La Peña Bética Miguel Espina de Alcalá de Guadaíra rindió homenaje el domingo 22 de noviembre de 2026 a Manuel Delgado Liánez, que la presidió durante más de 20 años. El acto se celebró en La Harinera del Guadaíra y el Ayuntamiento se sumó a él, según ha informado en su perfil de Facebook.",
+    "Asistieron la alcaldesa, Ana Isabel Jiménez, el delegado de Deportes, Pedro Gracia, y otros miembros de la Corporación municipal. Jiménez destacó, según la nota municipal, «su dedicación por más de dos décadas a una entidad que ha engrandecido» y su labor de cohesión social con los vecinos.",
+    "## Recuerdos de varias entidades",
+    "Junto a la junta directiva de la peña, varias entidades deportivas y culturales de la ciudad entregaron recuerdos al homenajeado. Entre ellas estaban la Federación de Peñas Béticas, el Club de Fútbol Estrella San Agustín, del que Delgado es socio, y la Hermandad de la Divina Pastora. También participó Juan Espina, hijo de Miguel Espina, el nombre que lleva la peña, además de vecinos y comerciantes del Distrito Este, donde el homenajeado ha desarrollado su actividad social.",
+    "Según el Ayuntamiento, Delgado ha llevado su afición al deporte, y sobre todo al fútbol, más allá de la peña: ha narrado partidos del CD Alcalá en la radio local, ha presentado informativos deportivos y ha colaborado con diarios deportivos y programas de televisión.",
+    "La alcaldesa aprovechó el acto para reivindicar el papel de las asociaciones en Alcalá. Según la nota municipal, pidió reflexionar sobre cómo sería la ciudad sin el trabajo, muchas veces discreto, de sus entidades, y agradeció a la peña su labor. Jiménez también dedicó el homenaje en sus redes sociales al conjunto del movimiento asociativo de la ciudad.",
+    "El homenaje llega en un fin de semana con otros actos de entidades locales, como la <a href='#cabalgatas-beduinos-campo-beatas-almuerzo-coronacion-reyesilos'>coronación de los Reyes Magos de la Cabalgata ReyeSilos</a> el sábado 21 de noviembre."
+   ],
+   "seo": [
+    "homenaje-manuel-delgado-lianez-pena-betica-miguel-espina",
+    "Homenaje a Manuel Delgado Liánez en la Peña Bética",
+    "La Peña Bética Miguel Espina de Alcalá de Guadaíra homenajea en La Harinera a Manuel Delgado Liánez, su presidente durante más de dos décadas.",
+    [
+     "Peña Bética Miguel Espina",
+     "Manuel Delgado Liánez",
+     "La Harinera del Guadaíra",
+     "asociaciones",
+     "Distrito Este",
+     "Ana Isabel Jiménez"
+    ]
+   ],
+   "hora": "21:55"
+  },
+  {
+   "id": "paseando-por-alcala-xxv-edicion-alcazaba-torre-mocha",
+   "sec": "cultura",
+   "kicker": "Patrimonio",
+   "iso": "2026-11-22",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/9996/el-ciclo-paseando-por-alcala-culmina-su-xxv-edicion-con-un-recorrido-por-la-alcazaba-de-la-torre-mocha",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "«Paseando por Alcalá» cierra su 25.ª edición con una visita a las obras de la alcazaba de la Torre Mocha",
+   "sub": "El arqueólogo Enrique L. Domínguez explicó la restauración de la torre y sus murallas, incluida en el Plan Almena II",
+   "caption": "El arqueólogo Enrique L. Domínguez, a la izquierda, durante la visita del ciclo «Paseando por Alcalá» a la zona del Castillo.",
+   "foto": "paseando-por-alcala-torre-mocha-of.jpg",
+   "fotocredito": "Facebook del Ayuntamiento de Alcalá de Guadaíra",
+   "claves": [
+    "El ciclo municipal «Paseando por Alcalá» cerró su 25.ª edición con una visita guiada a la alcazaba de la Torre Mocha, en la zona del Castillo.",
+    "La guio el arqueólogo Enrique L. Domínguez, que explicó las obras de conservación y restauración de la torre y su entorno.",
+    "Los trabajos forman parte del Plan Almena II (2019-2030) e incluyen la consolidación de la torre y la restauración de las murallas y el antemuro."
+   ],
+   "body": [
+    "El ciclo municipal de rutas guiadas «Paseando por Alcalá» ha cerrado su 25.ª edición con un recorrido por la alcazaba de la Torre Mocha, en la zona del Castillo de Alcalá de Guadaíra, según ha informado el Ayuntamiento. La visita, titulada «Recuperando la alcazaba de la Torre Mocha», la guio el arqueólogo Enrique L. Domínguez.",
+    "Los participantes conocieron el valor arqueológico de la alcazaba y las obras de conservación y restauración que se hacen en la torre y en su entorno dentro del Plan Almena II, que abarca de 2019 a 2030.",
+    "## Qué incluyen las obras",
+    "Según la explicación del arqueólogo que recoge la nota municipal, los trabajos consisten en la consolidación estructural de la Torre Mocha y su alcazaba, la restauración de los lienzos de muralla, la torre y el antemuro, y la adecuación de los espacios interiores del recinto. La actuación permitirá además recuperar la lectura histórica del entorno de la antigua Puerta de Santa María, uno de los principales accesos al recinto fortificado en la Edad Media.",
+    "El Ayuntamiento no ha detallado en la nota el presupuesto de estas obras ni la fecha prevista para terminarlas.",
+    "El delegado municipal de Cultura, Christopher Rivas, defendió que el patrimonio histórico es «una parte fundamental de nuestra identidad como ciudad» y que conocer los trabajos de recuperación ayuda a valorarlo. Rivas, cuya delegación organiza también el ciclo de conciertos <a href='#concierto-bondad-candlelight-san-agustin-medio-millar'>Alcalá EnClave de Música</a>, destacó la trayectoria de «Paseando por Alcalá».",
+    "El programa lleva más de dos décadas ofreciendo rutas guiadas por la historia, el patrimonio, la arquitectura, los personajes, los paisajes y las tradiciones de la ciudad, abiertas a vecinos y visitantes. Con esta visita termina la edición de este año.",
+    "<span class='howto'><b>Paseando por Alcalá.</b> Ciclo municipal de rutas guiadas de la Delegación de Cultura del Ayuntamiento de Alcalá de Guadaíra. La 25.ª edición terminó en noviembre de 2026 con la visita a la alcazaba de la Torre Mocha. Información en www.alcaladeguadaira.es.</span>"
+   ],
+   "seo": [
+    "paseando-por-alcala-alcazaba-torre-mocha",
+    "Paseando por Alcalá cierra en la Torre Mocha",
+    "El ciclo Paseando por Alcalá termina su 25.ª edición con una visita guiada a las obras de restauración de la alcazaba de la Torre Mocha, en el Castillo.",
+    [
+     "Paseando por Alcalá",
+     "Torre Mocha",
+     "Castillo de Alcalá",
+     "Plan Almena",
+     "patrimonio",
+     "Christopher Rivas"
+    ]
+   ],
+   "hora": "21:55"
+  },
   {
    "iso": "2026-11-22",
    "hora": "06:52",
