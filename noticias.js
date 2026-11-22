@@ -1,67 +1,11 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-21",
+  "actualizado": "2026-11-22",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia.",
   "apertura": 2
  },
  "agenda": [
-  {
-   "cuando": "16–21 nov",
-   "que": "XVI Senior International Champion MT200 de tenis",
-   "donde": "Club de Tenis Oromana",
-   "noticia": "tenis-senior-mt200-oromana-noviembre",
-   "hasta": "2026-11-21"
-  },
-  {
-   "cuando": "21 nov",
-   "que": "Survival Zombie Halloween (aplazado)",
-   "donde": "Centro comercial Los Alcores",
-   "noticia": "halloween-suspendido-survival-zombie-aplazado",
-   "hasta": "2026-11-21"
-  },
-  {
-   "cuando": "21 nov",
-   "que": "Puertas abiertas del paso restaurado de San Juan",
-   "donde": "Casa hermandad de Jesús Nazareno",
-   "noticia": "jesus-palio-socorro-borriquita-cristo-bondad",
-   "hasta": "2026-11-21"
-  },
-  {
-   "cuando": "21 nov, 19.30",
-   "que": "Misa del XLIII aniversario de la Hermandad del Rocío y, a las 21.00, cena con la proclamación del pregonero de 2027",
-   "donde": "Parroquia de San Agustín y Salón Zambra",
-   "noticia": "rocio-xliii-aniversario-pregonero-2027-nuevas-reglas",
-   "hasta": "2026-11-21"
-  },
-  {
-   "cuando": "21 nov, 9.30",
-   "que": "XIII Cross Escolar Solidario y II Carrera Solidaria",
-   "donde": "Pinares de Oromana",
-   "noticia": "cross-escolar-solidario-2026",
-   "hasta": "2026-11-21"
-  },
-  {
-   "cuando": "Hasta sáb 21 nov",
-   "que": "XVI Senior International Champion MT200 de tenis",
-   "donde": "Club de Tenis Oromana",
-   "noticia": "tenis-oromana-irene-torres-finalista-babolat-senior-international",
-   "hasta": "2026-11-21"
-  },
-  {
-   "cuando": "Sáb 21 nov",
-   "que": "Presentación de la restauración del paso de San Juan Evangelista",
-   "donde": "Casa de hermandad de Jesús",
-   "noticia": "borriquita-besamano-cristo-bondad-mantolin-cristo-rey",
-   "hasta": "2026-11-21"
-  },
-  {
-   "cuando": "Sáb 21 nov, 13.00",
-   "que": "Recital de cante de Elvira Ponce",
-   "donde": "Centro San Miguel",
-   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
-   "hasta": "2026-11-21"
-  },
   {
    "cuando": "19-22 nov",
    "que": "Triduo y función de Cristo Rey con Jesús Cautivo",
@@ -185,7 +129,6 @@ window.EP = {
    "cuando": "9 dic",
    "que": "Obra del grupo de teatro de la Asociación Alcalareña de Educación Especial",
    "donde": "Teatro Gutiérrez de Alba",
-   "noticia": "aaee-50-aniversario",
    "hasta": "2026-12-09"
   },
   {
@@ -267,6 +210,55 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "iso": "2026-11-22",
+   "hora": "06:52",
+   "id": "cristo-rey-2026-borriquita-procesion-eucaristica-san-agustin",
+   "sec": "hermandades",
+   "kicker": "Cristo Rey",
+   "src": "Hermandad de la Borriquita (Facebook)",
+   "fuente_url": "https://www.facebook.com/1767714672070448/posts/1775578311284084",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La Borriquita sale este domingo en procesión eucarística por San Agustín tras su función de Cristo Rey",
+   "sub": "La función empieza a las 12.00 y la Agrupación Musical del Cristo de la Bondad acompañará el cortejo; Jesús Nazareno luce la túnica de «los cristalitos», de 1856",
+   "caption": "Altar de cultos de la Hermandad de la Borriquita por la festividad de Cristo Rey.",
+   "foto": "cristo-rey-2026-borriquita-procesion-eucaristica-of.jpg",
+   "fotocredito": "Facebook de la Hermandad de la Borriquita",
+   "encuadre": "contain",
+   "claves": [
+    "La Hermandad de la Borriquita celebra el domingo 22 de noviembre, a las 12.00, su función solemne por la festividad de Jesucristo, Rey del Universo.",
+    "Al terminar, saldrá una procesión eucarística por los alrededores de la parroquia de San Agustín, con la Agrupación Musical Santísimo Cristo de la Bondad.",
+    "La Hermandad de Jesús viste a Nuestro Padre Jesús Nazareno con la túnica conocida como «la de los cristalitos», bordada en 1856 por Josefa Cano y María Dolores Moreno.",
+    "El pintor Ricardo Gil trabaja ya en el cartel de las Glorias, dedicado a la Inmaculada Concepción, según el Consejo de Hermandades."
+   ],
+   "body": [
+    "La Hermandad de la Borriquita de Alcalá de Guadaíra celebra este domingo 22 de noviembre, a las 12.00, su función solemne por la festividad de Jesucristo, Rey del Universo, y al terminar sacará una procesión eucarística por los alrededores de la parroquia de San Agustín, según ha publicado la hermandad en su perfil de Facebook.",
+    "La música del cortejo correrá a cargo de la Agrupación Musical Santísimo Cristo de la Bondad, que lleva el nombre de uno de los titulares de la cofradía. El domingo es además el último día del <a href='#borriquita-besamano-cristo-bondad-mantolin-cristo-rey'>besamano del Cristo de la Bondad</a>, que la hermandad abrió el viernes 20 y en el que la imagen estrena un mantolín bordado en oro.",
+    "## Las hermandades, de gala por Cristo Rey",
+    "La Hermandad de Jesús ha vestido para esta solemnidad a Nuestro Padre Jesús Nazareno con la túnica conocida como «la de los cristalitos», según ha informado en sus redes sociales. Es una pieza bordada en 1856 por Josefa Cano y María Dolores Moreno, que restauró en 2013 el taller de José Antonio Grande de León, el mismo que se ha encargado ahora de vestir la imagen. El Nazareno lleva también las antiguas potencias doradas de salida.",
+    "La misma hermandad mostró el sábado 21 en el patio de su casa de hermandad, en la calle Alcalá y Orti, <a href='#jesus-paso-san-juan-cartel-semana-santa-foro-formacion'>el paso de San Juan Evangelista ya restaurado</a>, con visitas guiadas de los restauradores.",
+    "La Hermandad Servita de Jesús Cautivo cierra también este domingo sus cultos a Cristo Rey en la parroquia de San Sebastián, donde terminó el sábado su triduo. La <a href='#cautivo-triduo-cristo-rey-19-22-noviembre'>función solemne estaba anunciada para las 11.00</a>.",
+    "## Cartel de las Glorias y lienzos restaurados",
+    "El Consejo General de Hermandades y Cofradías de Alcalá ha informado en su perfil de Facebook de que el pintor Ricardo Gil trabaja ya en el cartel de las Glorias, que estará dedicado a la Inmaculada Concepción, y de que el artista ha mostrado a la institución el avance de la obra.",
+    "Este domingo es también la última jornada para ver el lienzo restaurado del Cristo de los Desamparados, de la Hermandad de la Amargura. La hermandad asistió a la presentación de la intervención, dentro del II Ciclo de Conservación Preventiva del Patrimonio, en la que el conservador-restaurador Alejandro Redondo, vicepresidente del Consejo, explicó los trabajos, según ha publicado la Amargura en Facebook.",
+    "<span class='howto'><b>Domingo 22 de noviembre.</b> Función solemne de Cristo Rey de la Hermandad de la Borriquita a las 12.00 y, al terminar, procesión eucarística por los alrededores de la parroquia de San Agustín. Último día del besamano del Cristo de la Bondad y de la exposición del lienzo restaurado del Cristo de los Desamparados.</span>"
+   ],
+   "seo": [
+    "borriquita-procesion-eucaristica-cristo-rey-san-agustin",
+    "Cristo Rey en Alcalá: procesión eucarística de la Borriquita",
+    "La Borriquita celebra el 22 de noviembre su función de Cristo Rey a las 12.00 y una procesión eucarística por San Agustín, en Alcalá de Guadaíra.",
+    [
+     "Hermandad de la Borriquita",
+     "Cristo Rey",
+     "procesión eucarística",
+     "parroquia de San Agustín",
+     "Hermandad de Jesús",
+     "Consejo de Hermandades",
+     "cartel de las Glorias"
+    ]
+   ]
+  },
   {
    "iso": "2026-11-21",
    "hora": "21:52",
@@ -741,7 +733,7 @@ window.EP = {
    "src": "El Panadero",
    "fuente_url": "https://www.youtube.com/watch?v=P4Pent5fpSc&t=0s",
    "title": "Adelante Andalucía critica en Alcalá los retrasos del tranvía y el PP trae a Juanma Moreno el domingo",
-   "sub": "Vox reunió el viernes en La Plazuela a sus candidatos en la última semana de campaña antes de las generales del 29 de noviembre",
+   "sub": "Vox acusó el viernes en La Plazuela al PSOE de no hacer viviendas protegidas en nueve años y el PP recorrió el sábado empresas y barrios antes del acto del domingo",
    "caption": "Carpa de Adelante Andalucía en Alcalá de Guadaíra durante la campaña del 29N.",
    "foto": "campana-29n-adelante-andalucia-tv.jpg",
    "fotocredito": "MiGuadaíraTV",
@@ -749,7 +741,7 @@ window.EP = {
     "Adelante Andalucía instaló el viernes 20 de noviembre una mesa informativa en Alcalá de Guadaíra y criticó los retrasos del tranvía.",
     "La formación llevará al Parlamento andaluz el jueves 26 una propuesta para que Andalucía asuma competencias sobre los trenes de cercanías.",
     "El PP celebra el domingo 22 a las 12.00 un acto con Juanma Moreno en Celebraciones Zambra.",
-    "Vox convocó el viernes 20 un encuentro con sus candidatos en La Plazuela."
+    "Vox reunió el viernes 20 en La Plazuela a Reyes Romero, que acusó a los gobiernos socialistas de «nueve años y cero viviendas protegidas»."
    ],
    "body": [
     "Adelante Andalucía instaló el viernes 20 de noviembre una mesa informativa en Alcalá de Guadaíra para presentar sus propuestas para las elecciones generales del domingo 29 de noviembre. Su candidato al Congreso, José Ignacio García, centró sus declaraciones en los retrasos del tranvía y en las competencias ferroviarias.",
@@ -759,7 +751,9 @@ window.EP = {
     "Adelante Andalucía anunció que el jueves 26 de noviembre llevará al Parlamento de Andalucía una propuesta para que la comunidad asuma competencias sobre los trenes de cercanías y tenga más capacidad de decisión en su planificación y gestión. La formación recordó que el PP apoyó esa idea hace tres años y dijo que quiere ver si mantiene ese apoyo.",
     "## Agenda del PP y de Vox",
     "El PP celebrará el domingo 22 de noviembre a las 12.00 un acto de campaña con Juanma Moreno en Celebraciones Zambra, bajo el lema «El cambio necesario», según ha anunciado el PP de Alcalá en su perfil de Facebook.",
-    "Vox, por su parte, convocó el viernes 20 a las 19.00 en La Plazuela un encuentro con sus candidatos Reyes Romero y Fernando Rodríguez Galisteo, según publicó la formación en sus redes sociales.",
+    "El sábado 21, la candidata del PP a la Alcaldía, Sandra González García, visitó a las monjas clarisas y la empresa Aluminios Galisur con las números dos y seis de la lista popular al Congreso por Sevilla, Sol Cruz-Guzmán y Alicia Martínez, según ha publicado el PP de Alcalá en su perfil de Facebook. El partido hizo campaña también en la zona de Silos con Lourdes Fuster, número cuatro de la candidatura.",
+    "Vox reunió el viernes 20 en La Plazuela a sus candidatos Reyes Romero, cabeza de lista al Congreso por Sevilla, y Fernando Rodríguez Galisteo, número dos. Romero acusó a los gobiernos socialistas de mantener Alcalá en una «parálisis urbanística y residencial», resumió su balance en «nueve años y cero viviendas protegidas» y sostuvo que el acceso a la vivienda depende de la voluntad política del gobierno municipal. «En materia de vivienda, Alcalá tiene mucho que aprender de la gestión de Vox en Bormujos», afirmó.",
+    "El Ayuntamiento tiene abierto el proceso para adjudicar <a href='#zacatin-84-viviendas-alquiler-adjudicacion-31-diciembre'>84 viviendas protegidas de alquiler</a> que la empresa pública VIVE Alcalá construye en la Cornisa del Zacatín, y el Pleno aprobó el 17 de noviembre <a href='#pleno-noviembre-led-vive-piscina-cabeza-hermosa'>un préstamo de 11 millones de euros</a> para que la sociedad levante otras 107.",
     "El PSOE celebró esta semana su propio acto con candidatos y con la alcaldesa, Ana Isabel Jiménez, como recogió El Panadero en la información sobre <a href='#junta-electoral-pp-carteles-calle-arahal-campana-29n'>los carteles retirados por orden de la Junta Electoral</a>."
    ],
    "seo": [
@@ -772,9 +766,11 @@ window.EP = {
      "tranvía de Alcalá",
      "PP de Alcalá",
      "Vox Alcalá",
-     "Juanma Moreno"
+     "Juanma Moreno",
+     "vivienda protegida"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-22T06:52"
   },
   {
    "iso": "2026-11-20",
@@ -934,7 +930,7 @@ window.EP = {
     "## Seis plazas en proceso",
     "Según los bomberos, el Ayuntamiento ha habilitado seis plazas, que llevan un año en proceso y necesitarán otro año para resolverse. «Estamos hablando de mínimo año y medio para que esos bomberos estén operativos», señalan, y para entonces se habrán producido nuevas jubilaciones. El gobierno municipal cifró a finales de octubre en <a href='#policia-local-bomberos-plazas-tribuna'>cinco los bomberos que han entrado en 2026</a>.",
     "El servicio funciona con un mínimo de siete bomberos por turno. Con la plantilla actual, afirman, es difícil cubrir vacaciones, permisos y fechas como la Navidad o el verano sin recurrir a horas extraordinarias.",
-    "Esas horas son el segundo frente. Los bomberos sostienen que acumulan ocho meses de deuda por los servicios de refuerzo y que el principio de acuerdo para un plan de pago no se ha llevado a efecto. El Pleno de octubre aprobó <a href='#horas-extra-pleno-reparo'>más de 1,2 millones de euros para pagar horas extraordinarias</a> del personal municipal.",
+    "Esas horas son el segundo frente. Los bomberos sostienen que acumulan ocho meses de deuda por los servicios de refuerzo y que el principio de acuerdo para un plan de pago no se ha llevado a efecto. El Pleno de octubre aprobó más de 1,2 millones de euros para pagar horas extraordinarias del personal municipal.",
     "## Vehículo de altura y segunda actividad",
     "En cuanto a los medios, la plantilla explica que en noviembre de 2025 llegó al parque un vehículo de altura de 17 o 18 años que solo duró dos meses en servicio, y que desde entonces están prácticamente sin él. Hoy tardan unos cinco minutos en llegar a un incendio en el término municipal; si tiene que acudir un vehículo de Sanlúcar la Mayor o de Dos Hermanas, el tiempo sube a unos 15 minutos, advierten.",
     "Piden también la segunda actividad, que permite a los bomberos mayores de 55 años pasar a funciones no operativas. En el parque hay cinco en esa situación. Y reclaman la reclasificación profesional al grupo C1, recogida en la modificación de la normativa andaluza de emergencias, que según la plantilla debe aplicarse antes de marzo de 2027 y sigue sin fecha.",
@@ -4617,7 +4613,7 @@ window.EP = {
     "El Ayuntamiento de Alcalá de Guadaíra ha publicado en su agenda la programación cultural de noviembre, que reúne en el auditorio Riberas del Guadaíra a Joana Jiménez, Rancapino Chico y la gala de clausura del circuito Sevilla Flamenca. La oferta se reanuda tras el luto oficial por el accidente de Urda, que termina a las 24.00 horas del sábado 31 de octubre.",
     "El luto obligó a suspender todos los actos municipales del 29 al 31 de octubre, entre ellos <a href='#panarrafest-suspendido-luto-oficial'>el PanarraFest y el PrePanarraFest</a>, cuyas entradas se devuelven. La agenda de noviembre mantiene las fechas anunciadas para el resto del otoño.",
     "## Cinco citas en el auditorio",
-    "Abre el mes el viernes 6 de noviembre, a las 20.30 horas, «Homenaje al Soul», con Kike Baeza y The Soul Makers. Es un concierto solidario por el <a href='#aaee-50-aniversario'>50 aniversario de la Asociación Alcalareña de Educación Especial</a>, con entradas en la web municipal de venta.",
+    "Abre el mes el viernes 6 de noviembre, a las 20.30 horas, «Homenaje al Soul», con Kike Baeza y The Soul Makers. Es un concierto solidario por el 50 aniversario de la Asociación Alcalareña de Educación Especial, con entradas en la web municipal de venta.",
     "El viernes 13 de noviembre, a las 21.00 horas, la cantante Joana Jiménez presenta «Al compás de la Tercera Palabra». Según la ficha municipal, M. José Alcalá y Jesús Navarro actuarán antes del concierto principal. Las entradas se venden en entradas.alcaladeguadaira.es.",
     "El domingo 15 de noviembre, a las 13.00 horas, llega la gala de clausura del circuito Sevilla Flamenca, con María Terremoto, Emilio Caracafé, El Petete y Jóvenes de las 3000. La entrada es por invitación, que se reparte en el propio auditorio y en la Casa de la Cultura desde el 5 de noviembre, con un máximo de dos por persona.",
     "Para el público familiar, el domingo 22 de noviembre a las 12.00 horas se representa el musical «Cenicienta, la Leyenda», con entradas en giglon.com. El sábado 28 de noviembre, a las 20.00 horas, Alonso Núñez «Rancapino Chico» trae «El cante por Navidad», un repertorio de villancicos adaptados a palos flamencos, con Antonio Higuero a la guitarra. Las entradas también están en giglon.com.",
@@ -5233,7 +5229,7 @@ window.EP = {
     "La portavoz del grupo socialista y delegada de Hacienda, Ángeles Ballesteros, defendió en el programa La Tribuna del miércoles 28 que el gobierno municipal no ha subido «ningún impuesto, ninguna tasa» ni en este mandato ni en el anterior, y que en ese tiempo ha aplicado bonificaciones. Según Ballesteros, quien dude puede comprobarlo en el Boletín Oficial de la Provincia o en el portal de transparencia.",
     "La delegada argumentó que, si la estabilidad presupuestaria del Ayuntamiento estuviera en peligro, habría sido necesario subir los impuestos. También recordó que todos los grupos de la oposición votaron en contra de las ordenanzas fiscales que congelan el IBI, las tasas y los precios públicos.",
     "## Qué recogen las ordenanzas",
-    "Las <a href='#ordenanzas-fiscales-2027'>ordenanzas fiscales de 2027</a>, aprobadas en el Pleno de octubre, mantienen los tipos de los impuestos y tasas municipales. Según Ballesteros, incluyen cambios técnicos para adaptarlas a la normativa y a la jurisprudencia reciente y una nueva bonificación en la tasa por ocupación del dominio público para la construcción de viviendas protegidas, tanto de promoción pública como privada.",
+    "Las ordenanzas fiscales de 2027, aprobadas en el Pleno de octubre, mantienen los tipos de los impuestos y tasas municipales. Según Ballesteros, incluyen cambios técnicos para adaptarlas a la normativa y a la jurisprudencia reciente y una nueva bonificación en la tasa por ocupación del dominio público para la construcción de viviendas protegidas, tanto de promoción pública como privada.",
     "<span class='howto'>Las ordenanzas fiscales de 2027 están en exposición pública: cualquier vecino o entidad puede presentar reclamaciones en el <a href='#ordenanzas-2027-plazo-reclamaciones'>plazo de 30 días abierto tras su publicación en el BOP</a>.</span>"
    ],
    "seo": [
@@ -5635,7 +5631,7 @@ window.EP = {
     "En el parque de bomberos, los cinco nuevos efectivos han llegado con la oferta pública de empleo aprobada en 2026. La portavoz destacó también los procesos de promoción interna y el refuerzo de mandos superiores e intermedios en los dos cuerpos.",
     "## Vehículos nuevos",
     "Ballesteros se refirió además a la renovación de medios. El Servicio de Extinción de Incendios estrenó en octubre un camión ligero para las salidas por el casco urbano, que según la portavoz ha tardado un año en fabricarse para ajustarse a la normativa. La Policía Local, que incorporó coches nuevos con cámara frontal, cuenta con 16 vehículos entre turismos, furgonetas y todoterrenos, además de motocicletas, según sus datos.",
-    "La portavoz no detalló cuántos agentes ni cuántos bomberos tiene hoy la plantilla municipal. El Pleno aprobó este mes <a href='#horas-extra-pleno-reparo'>1,2 millones de euros para pagar horas extraordinarias</a> del personal municipal."
+    "La portavoz no detalló cuántos agentes ni cuántos bomberos tiene hoy la plantilla municipal. El Pleno aprobó este mes 1,2 millones de euros para pagar horas extraordinarias del personal municipal."
    ],
    "seo": [
     "plazas-policia-local-bomberos-alcala-plantilla",
@@ -5678,7 +5674,7 @@ window.EP = {
     "Pérez planteó qué está dispuesto a hacer el gobierno para que las cuentas del próximo año respondan a las necesidades de los vecinos, qué papel tendrán los grupos de la oposición para participar y proponer, y qué esfuerzo hará para ganarse su confianza.",
     "## La respuesta del gobierno",
     "Ballesteros afirmó que cada año, antes de la aprobación inicial del presupuesto, abre un periodo de aportaciones para los grupos. Según su versión, el año pasado todos lo declinaron, y el anterior el PP presentó propuestas, algunas de las cuales el gobierno incorporó.",
-    "La delegada sostuvo que en tres años no ha recibido de los grupos ninguna propuesta dirigida de forma directa al presupuesto, aunque reconoció que el gobierno ha cumplido varias de sus mociones y que eso tiene reflejo en las cuentas. A su juicio, la oposición declina participar para justificar su voto en contra, como hizo con <a href='#ordenanzas-fiscales-2027'>las ordenanzas fiscales de 2027</a>, que el gobierno presenta como una congelación de impuestos y tasas y que la oposición rechaza que lo sea.",
+    "La delegada sostuvo que en tres años no ha recibido de los grupos ninguna propuesta dirigida de forma directa al presupuesto, aunque reconoció que el gobierno ha cumplido varias de sus mociones y que eso tiene reflejo en las cuentas. A su juicio, la oposición declina participar para justificar su voto en contra, como hizo con las ordenanzas fiscales de 2027, que el gobierno presenta como una congelación de impuestos y tasas y que la oposición rechaza que lo sea.",
     "## Las cuentas del final del mandato",
     "Ballesteros explicó en el mismo programa que la Delegación de Hacienda ya trabaja en el presupuesto, el último del mandato 2023-2027. Según el gobierno, servirá para terminar las inversiones en marcha, entre ellas la calle La Mina, la plaza del Cabildo, la <a href='#obras-la-mina-tunel-plazos'>Jefatura de Policía Local en Medina de Haro</a>, la pista de atletismo de los Cercadillos y el carril bici, además de mantener los servicios municipales.",
     "La política fiscal del gobierno es uno de los asuntos de debate de este final de mandato. Vox, por ejemplo, ha calificado de «bulo» la congelación y <a href='#vox-congelacion-impuestos-2027'>reclama una bajada de impuestos</a>. El gobierno no ha dado todavía una fecha para presentar el proyecto de presupuesto de 2027 ni para abrir el plazo de aportaciones."
@@ -6305,7 +6301,7 @@ window.EP = {
     "Según el PP, revisar el ROM permitiría mejorar la transparencia, facilitar el control de la oposición y ampliar la participación de los vecinos. Por eso reclama al portavoz de Andalucía Por Sí, Christopher Rivas, que explique los motivos del cambio.",
     "El partido sostiene que la norma de funcionamiento del Ayuntamiento debe poder revisarse con independencia de quién gobierne y anuncia que mantendrá su propuesta para reforzar la participación y el control democrático.",
     "## El contexto",
-    "Andalucía Por Sí gobierna en Alcalá en coalición con el PSOE de la alcaldesa, Ana Isabel Jiménez. Rivas es responsable del Área de Identidad y delegado de Cultura en el gobierno municipal. La formación anunció este mes que <a href='#axsi-no-concurre-generales'>no se presentará a las elecciones generales</a>.",
+    "Andalucía Por Sí gobierna en Alcalá en coalición con el PSOE de la alcaldesa, Ana Isabel Jiménez. Rivas es responsable del Área de Identidad y delegado de Cultura en el gobierno municipal. La formación anunció este mes que no se presentará a las elecciones generales.",
     "La crítica del PP llega a siete meses de las elecciones municipales de mayo de 2027, para las que el partido ya ha presentado a Sandra González como candidata."
    ],
    "seo": [
@@ -6644,7 +6640,7 @@ window.EP = {
    ],
    "body": [
     "La Junta de Gobierno Local de Alcalá de Guadaíra aprobó el viernes 23 de octubre el nuevo contrato del servicio de ayuda a domicilio, por 15 millones de euros para los dos próximos años, y la licitación de las obras que deben terminar la Ronda Sur, una carretera que llevaba años parada por una tubería de agua.",
-    "Lo explicó la segunda teniente de alcaldesa y portavoz del gobierno municipal, Mª de los Ángeles Ballesteros Núñez (PSOE), en la rueda de prensa posterior. La Junta de Gobierno aprobó además la cesión de un terreno a la empresa municipal Aira Gestión Ambiental para el <a href='#punto-limpio-san-mateo'>punto limpio de San Mateo</a> y dio cuenta de la sanción por los <a href='#vertidos-pirotecnia-denunciado'>vertidos en La Pirotecnia</a>.",
+    "Lo explicó la segunda teniente de alcaldesa y portavoz del gobierno municipal, Mª de los Ángeles Ballesteros Núñez (PSOE), en la rueda de prensa posterior. La Junta de Gobierno aprobó además la cesión de un terreno a la empresa municipal Aira Gestión Ambiental para el punto limpio de San Mateo y dio cuenta de la sanción por los <a href='#vertidos-pirotecnia-denunciado'>vertidos en La Pirotecnia</a>.",
     "## Ayuda a domicilio: nueva empresa y las mismas trabajadoras",
     "El servicio atiende a más de mil usuarios, en su mayoría personas mayores o en situación de dependencia. Según Ballesteros, la adjudicataria es una empresa nueva, Arquisocial, y el contrato obliga a subrogar a las 400 trabajadoras que prestan hoy el servicio, es decir, a mantener sus contratos.",
     "La portavoz enumeró las mejoras que, según el gobierno, incluye el contrato: una subida del precio por hora que repercute en el salario, el paso a diez coordinadoras y una nueva distribución del servicio por zonas, que según explicó era una petición de la plantilla.",
@@ -6735,7 +6731,7 @@ window.EP = {
     "Los vecinos y las empresas de Alcalá de Guadaíra pueden reclamar desde esta semana contra las ordenanzas fiscales de 2027. El Boletín Oficial de la Provincia (BOP) de Sevilla publicó el martes 27 de octubre el acuerdo del Pleno que las aprobó de forma provisional y abrió un plazo de 30 días para examinar el expediente y presentar alegaciones.",
     "El Pleno votó la modificación el 20 de octubre, con el rechazo de la oposición, sobre el proyecto que la Junta de Gobierno Local había aprobado el 9 de octubre. El expediente incluye un informe técnico económico sobre la tasa por el servicio de extinción de incendios, una de las tasas que se revisan.",
     "## Qué se puede reclamar",
-    "Las ordenanzas mantienen los tipos de los impuestos y las tasas, pero cambian algunas reglas. Como <a href='#ordenanzas-fiscales-2027'>contó El Panadero</a>, en el impuesto sobre actividades económicas el Ayuntamiento tendrá seis meses en lugar de tres para resolver las bonificaciones y, si no contesta, se entenderán denegadas. Además, desaparece la exención de algunas tasas de ocupación de la vía pública que se aplicó en la pandemia, entre ellas la de veladores.",
+    "Las ordenanzas mantienen los tipos de los impuestos y las tasas, pero cambian algunas reglas. Como contó El Panadero, en el impuesto sobre actividades económicas el Ayuntamiento tendrá seis meses en lugar de tres para resolver las bonificaciones y, si no contesta, se entenderán denegadas. Además, desaparece la exención de algunas tasas de ocupación de la vía pública que se aplicó en la pandemia, entre ellas la de veladores.",
     "El Consejo Económico y Social de la ciudad <a href='#ces-ordenanzas-sin-dictamen'>se negó a dictaminar</a> las ordenanzas porque, según sus miembros, se le consultó cuando el gobierno ya había aprobado el proyecto.",
     "## Si nadie reclama, quedan aprobadas",
     "El anuncio, firmado el 21 de octubre por el secretario general del Ayuntamiento, recoge que las reclamaciones las resolverá la Corporación. Si no se presenta ninguna en el plazo, el acuerdo provisional se convertirá en definitivo sin necesidad de un nuevo acuerdo del Pleno. Si las hay, el Pleno tendrá que votarlas antes de aprobar el texto final.",
@@ -6860,7 +6856,7 @@ window.EP = {
     "El caso empezó con la denuncia de un vecino. La Delegación de Medio Ambiente, que dirige Luisa Campos, la trasladó a la Delegación de Gobernación, que dirige Pedro Gracia, y pidió un dispositivo de vigilancia y control en la zona para acabar con los vertidos. Tras ese operativo, los agentes localizaron al responsable.",
     "## Lo que no se sabe",
     "La identidad del responsable no se ha hecho pública.",
-    "Los aceites usados y otros líquidos de este tipo son residuos que deben entregarse en instalaciones autorizadas. En Alcalá, el punto limpio de San Juan, gestionado por la empresa municipal Aira, recibe más de 25.000 entradas al año, y el Ayuntamiento prepara <a href='#punto-limpio-san-mateo'>un segundo punto limpio en San Mateo</a>, con espacios específicos para residuos peligrosos. La alcaldesa, Ana Isabel Jiménez, presentó esa obra como parte de la lucha contra los vertidos ilegales en caminos, solares y junto a los contenedores.",
+    "Los aceites usados y otros líquidos de este tipo son residuos que deben entregarse en instalaciones autorizadas. En Alcalá, el punto limpio de San Juan, gestionado por la empresa municipal Aira, recibe más de 25.000 entradas al año, y el Ayuntamiento prepara un segundo punto limpio en San Mateo, con espacios específicos para residuos peligrosos. La alcaldesa, Ana Isabel Jiménez, presentó esa obra como parte de la lucha contra los vertidos ilegales en caminos, solares y junto a los contenedores.",
     "## No es un caso aislado",
     "La Policía Local investiga también otros vertidos ilegales en polígonos y caminos del término. A finales de septiembre tenía a doce personas y empresas investigadas por este tipo de hechos.",
     "<span class='howto'>Dónde dejar el aceite y los residuos peligrosos: punto limpio de San Juan, de la empresa municipal Aira, abierto también los sábados y los domingos. Aira recoge además muebles y enseres a domicilio de forma gratuita.</span>"
@@ -7023,7 +7019,7 @@ window.EP = {
    ],
    "body": [
     "El Consejo Económico y Social de Alcalá de Guadaíra acordó por unanimidad el martes 20 de octubre no emitir dictamen sobre las ordenanzas fiscales de 2027. El órgano consultivo, en el que se sientan los agentes sociales y económicos de la ciudad, sostiene que el gobierno municipal ha incumplido sus estatutos porque le pidió opinión cuando la Junta de Gobierno Local ya había aprobado el proyecto.",
-    "El acuerdo consta en un certificado firmado el 21 de octubre por el vicepresidente primero del Consejo, Carlos García Gandul. El mismo día 20 en que el Consejo se reunió, el Pleno municipal aprobó de forma provisional las <a href='#ordenanzas-fiscales-2027'>nuevas ordenanzas fiscales</a>, con los votos en contra de la oposición.",
+    "El acuerdo consta en un certificado firmado el 21 de octubre por el vicepresidente primero del Consejo, Carlos García Gandul. El mismo día 20 en que el Consejo se reunió, el Pleno municipal aprobó de forma provisional las nuevas ordenanzas fiscales, con los votos en contra de la oposición.",
     "## El calendario del expediente",
     "El certificado reconstruye el calendario. La Junta de Gobierno Local aprobó el proyecto de ordenanzas el 9 de octubre. Cuatro días después, el 13, la Delegación de Hacienda pidió el dictamen al Consejo y le envió la documentación. Ese mismo día hubo una reunión informativa con la delegada de Hacienda y el jefe del Servicio de Administración Tributaria. Una semana más tarde, el expediente ya estaba en el Pleno.",
     "Según el Consejo, esos pasos no bastan. Sus estatutos, aprobados por el Pleno el 21 de marzo de 2002 y publicados en el Boletín Oficial de la Provincia (BOP) el 13 de mayo de ese año, recogen en su artículo 12 que entre sus funciones está «emitir dictamen con carácter previo» sobre la política fiscal del municipio, las ordenanzas fiscales, los impuestos, las tasas y los precios públicos.",
@@ -7255,7 +7251,7 @@ window.EP = {
     "Las condiciones cambian según el tipo de solicitante y de instalación, así que el porcentaje no será el mismo para un particular que para un negocio. La Junta recomienda consultar las bases y comprobar qué actuaciones pueden acogerse antes de iniciar el trámite.",
     "## También para negocios y ayuntamientos",
     "La convocatoria incluye incentivos para autónomos, empresas y otros beneficiarios, y una línea para edificios públicos no residenciales. El Ayuntamiento de Alcalá podría optar a ella para sus propios edificios, aunque no ha informado de si lo hará.",
-    "Los comercios y autónomos de la ciudad tendrán además otra vía: las <a href='#ordenanzas-fiscales-2027'>ayudas municipales de 1.000 a 15.000 euros</a> cuyas bases aprobó el Pleno el 20 de octubre, que incluyen la eficiencia energética entre los gastos subvencionables y que todavía no están convocadas.",
+    "Los comercios y autónomos de la ciudad tendrán además otra vía: las ayudas municipales de 1.000 a 15.000 euros cuyas bases aprobó el Pleno el 20 de octubre, que incluyen la eficiencia energética entre los gastos subvencionables y que todavía no están convocadas.",
     "<span class='howto'>Plazo: del 22 de octubre de 2026 al 30 de septiembre de 2027, salvo que se agote antes el presupuesto. Cómo pedirla: por vía telemática, en la web de la Agencia Andaluza de la Energía. Requisito principal: la obra debe subir al menos una letra la calificación energética de la vivienda.</span>"
    ],
    "seo": [
@@ -7269,273 +7265,6 @@ window.EP = {
      "aerotermia",
      "autoconsumo solar",
      "Junta de Andalucía"
-    ]
-   ]
-  },
-  {
-   "id": "horas-extra-pleno-reparo",
-   "sec": "politica",
-   "kicker": "Presupuesto",
-   "iso": "2026-10-22",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=zZUpC7XEgVw&t=506s",
-   "title": "El Pleno aprueba 1,2 millones para pagar las horas extraordinarias del personal municipal",
-   "sub": "El gobierno de PSOE y AxSí lo vincula a la actividad de la ciudad y a las incidencias de la Policía Local; el PP no lo apoyó y afirma que el interventor informó en contra",
-   "caption": "Fachada de un edificio municipal de Alcalá de Guadaíra.",
-   "foto": "horas-extra-pleno-reparo.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El Pleno de Alcalá de Guadaíra aprobó el martes 20 de octubre un crédito extraordinario y un suplemento de crédito de más de 1,2 millones de euros para pagar gratificaciones por servicios extraordinarios del personal municipal.",
-    "El portavoz del PP, Esaú Pérez, afirma que el interventor municipal emitió dos informes contrarios a la modificación por su efecto en la regla de gasto.",
-    "Según Pérez, solo la parte salarial supera los 900.000 euros, sin contar las cotizaciones sociales.",
-    "El gobierno municipal defiende que esas horas responden a una ciudad con actividad constante y a incidencias que surgen durante el año en la Policía Local."
-   ],
-   "body": [
-    "El Pleno ordinario de octubre del Ayuntamiento de Alcalá de Guadaíra aprobó el martes 20 un crédito extraordinario y un suplemento de crédito de más de 1,2 millones de euros para pagar las horas extraordinarias de la plantilla municipal. El PP, que no apoyó el expediente, sostiene que el interventor municipal informó en contra.",
-    "La delegada de Hacienda, Mª de los Ángeles Ballesteros Núñez (PSOE), explicó en la sesión que la modificación presupuestaria permitirá abonar esas gratificaciones en la nómina de los funcionarios cuando termine la tramitación administrativa. El gobierno municipal de PSOE y Andalucía Por Sí, que suma 13 de los 25 concejales, sacó adelante el expediente con su mayoría.",
-    "## Dos informes de Intervención",
-    "El portavoz del PP, Esaú Pérez Jiménez, sostiene que la propuesta llegó al Pleno con «dos informes del señor interventor municipal» contrarios al acuerdo. Así lo explicó al día siguiente en el programa La Tribuna, donde justificó su voto: «¿Cómo voy a votar yo a favor de eso?». Según Pérez, la modificación compromete la regla de gasto en un momento en que el Ayuntamiento está sometido a un plan económico-financiero bajo la tutela de la Junta de Andalucía y del Ministerio de Hacienda.",
-    "Durante el debate, la oposición insistió en que el suplemento fue informado desfavorablemente por el interventor porque pone en riesgo la estabilidad presupuestaria y el cumplimiento de la regla de gasto. Ningún grupo se opuso a que los trabajadores cobren las horas hechas: las críticas se dirigieron a la planificación.",
-    "## Las dos posturas",
-    "Pérez cifra en más de 900.000 euros solo la parte retributiva, sin las cuotas a la Seguridad Social, y pregunta cómo se ha llegado a esa cantidad. Admite que en la Policía Local y en el servicio de extinción de incendios puede haber imprevistos, pero no en el personal del auditorio, cuya programación «sabemos con certeza desde hace tiempo». La oposición pidió reforzar las plantillas de Policía Local y Bomberos para depender menos de las horas extraordinarias.",
-    "El gobierno municipal defendió que estos servicios responden a las necesidades de una ciudad con actividad constante, con eventos y actuaciones que requieren a los trabajadores municipales, y que en la Policía Local las horas no se deben solo a actos programados, sino también a incidencias que surgen durante el año.",
-    "El Ayuntamiento tiene en marcha el proceso para cubrir cinco plazas de bombero: la lista provisional de admitidos se publicó en la sede electrónica el 16 de octubre. En la Policía Local, el gobierno presentó hace unos días nuevos vehículos.",
-    "## Exposición pública",
-    "La Ley de Haciendas Locales obliga a exponer los créditos extraordinarios y los suplementos de crédito durante 15 días hábiles tras su anuncio en el Boletín Oficial de la Provincia de Sevilla, plazo en el que cualquier vecino puede consultar el expediente y presentar reclamaciones."
-   ],
-   "seo": [
-    "horas-extra-ayuntamiento-alcala-suplemento-credito-interventor",
-    "Alcalá: 1,2 millones más para horas extra municipales",
-    "El Pleno de Alcalá de Guadaíra aprueba un suplemento de 1,2 millones para horas extra; el PP dice que el interventor emitió dos informes en contra.",
-    [
-     "horas extraordinarias",
-     "Ayuntamiento de Alcalá de Guadaíra",
-     "Intervención municipal",
-     "regla de gasto",
-     "Esaú Pérez",
-     "Policía Local",
-     "Bomberos"
-    ]
-   ]
-  },
-  {
-   "id": "punto-limpio-san-mateo",
-   "sec": "alcala",
-   "kicker": "Residuos",
-   "iso": "2026-10-22",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=zZUpC7XEgVw&t=1846s",
-   "title": "Alcalá tendrá un segundo punto limpio en San Mateo, detrás del cementerio, con una obra de 453.217 euros",
-   "sub": "La Junta de Gobierno cederá este viernes el solar a la empresa municipal Aira, que prevé tenerlo abierto en cuatro o cinco meses",
-   "caption": "La alcaldesa, Ana Isabel Jiménez, y responsables de Aira ante la infografía del futuro punto limpio de San Mateo.",
-   "foto": "punto-limpio-san-mateo.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "Alcalá de Guadaíra tendrá un segundo punto limpio en un solar municipal de San Mateo, detrás del cementerio, que complementará al de San Juan.",
-    "La obra costará 453.217 euros y tiene un plazo de ejecución de cinco meses, según el Ayuntamiento.",
-    "La Junta de Gobierno Local cederá el solar a la empresa municipal Aira Gestión Ambiental el viernes 23 de octubre.",
-    "El actual punto limpio de San Juan recibe entre 60 y 80 vehículos al día entre semana y hasta 120 los sábados."
-   ],
-   "body": [
-    "Alcalá de Guadaíra tendrá un segundo punto limpio municipal en San Mateo, en un solar del Ayuntamiento situado detrás del cementerio. La alcaldesa, Ana Isabel Jiménez (PSOE), presentó el miércoles 21 de octubre el proyecto en la sede de la empresa municipal Aira Gestión Ambiental. La obra costará 453.217 euros y tiene un plazo de cinco meses.",
-    "La Junta de Gobierno Local cederá el solar a Aira este viernes 23 de octubre. Entre la licitación y la construcción, la alcaldesa calcula que la instalación estará lista en un plazo de cuatro a cinco meses.",
-    "## Un complemento al de San Juan",
-    "El nuevo punto limpio dará servicio sobre todo a la zona norte de la ciudad, en el extremo opuesto al de San Juan, y a las empresas de los polígonos cercanos. «Hemos buscado una ubicación que no esté muy cerca de las viviendas, pero que esté en una zona cómoda y cercana al núcleo urbano», explicó Jiménez a El Panadero.",
-    "Según los datos de Aira que recoge la nota municipal, el punto limpio de San Juan recibe entre 60 y 80 vehículos diarios de lunes a viernes, entre 80 y 120 los sábados y de 50 a 70 los domingos: más de 25.000 entradas al año. Lo que más se deposita son escombros, muebles y enseres. El nuevo recibirá, según las previsiones municipales, unas 18.000 visitas al año y podrá gestionar 1.300 toneladas de residuos.",
-    "## Cómo será",
-    "La nota del Ayuntamiento atribuye a la instalación 1.431 metros cuadrados, aunque en la presentación la alcaldesa habló de un solar de unos 100. Tendrá cinco grandes contenedores de 30 metros cúbicos para voluminosos y otras fracciones, y otros 19 contenedores y arcones para la recogida selectiva, con espacios específicos para residuos peligrosos y aparatos eléctricos y electrónicos. El circuito interior será de sentido único y la descarga se hará a nivel, sin rampas ni escaleras. Contará con control de accesos, videovigilancia y alumbrado LED.",
-    "El horario será el mismo que el de San Juan, abierto también los sábados y los domingos. La alcaldesa enmarcó la obra en la lucha contra los vertidos ilegales en caminos, solares y junto a los contenedores, y recordó que Aira ya recoge muebles y enseres a domicilio de forma gratuita.",
-    "Aira, la empresa pública de limpieza y residuos creada por el Ayuntamiento, tiene abierta además hasta el 27 de octubre una convocatoria de 14 plazas fijas discontinuas.",
-    "<span class='howto'>Mientras se construye el nuevo, el punto limpio de San Juan sigue abierto todos los días. Aira recoge gratis muebles y enseres a domicilio; el servicio se pide por teléfono.</span>"
-   ],
-   "seo": [
-    "punto-limpio-san-mateo-alcala-aira",
-    "Segundo punto limpio en Alcalá: San Mateo, 453.217 €",
-    "Alcalá de Guadaíra tendrá un segundo punto limpio en San Mateo, detrás del cementerio: Aira lo construirá por 453.217 euros en unos cinco meses.",
-    [
-     "punto limpio",
-     "Aira Gestión Ambiental",
-     "San Mateo",
-     "residuos",
-     "Ana Isabel Jiménez",
-     "vertidos ilegales"
-    ]
-   ]
-  },
-  {
-   "id": "ordenanzas-fiscales-2027",
-   "sec": "economia",
-   "kicker": "Impuestos",
-   "iso": "2026-10-22",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=zZUpC7XEgVw&t=137s",
-   "title": "Las ordenanzas fiscales de 2027 congelan los tipos de impuestos y tasas en Alcalá",
-   "sub": "También cambian los plazos de las bonificaciones del IAE, y el Pleno aprueba ayudas de 1.000 a 15.000 euros para que comercios, pymes y autónomos inviertan",
-   "caption": "Veladores de una terraza en una calle peatonal del centro de Alcalá de Guadaíra.",
-   "foto": "ordenanzas-fiscales-2027.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El Pleno de Alcalá de Guadaíra aprobó provisionalmente el 20 de octubre la modificación de las ordenanzas fiscales para 2027, con los tipos de impuestos y tasas congelados.",
-    "En el impuesto sobre actividades económicas, el Ayuntamiento tendrá seis meses en lugar de tres para resolver las bonificaciones y, si no contesta, se entenderán denegadas.",
-    "Se elimina la exención de algunas tasas de ocupación de la vía pública aplicada durante la pandemia, entre ellas la de veladores.",
-    "Las nuevas ayudas municipales a la inversión irán de 1.000 a 15.000 euros y podrán cubrir hasta el 100 % del gasto."
-   ],
-   "body": [
-    "Alcalá de Guadaíra mantendrá en 2027 los tipos de sus impuestos y tasas. El Pleno aprobó el martes 20 de octubre, de forma provisional, las nuevas ordenanzas fiscales, que cambian también los plazos de algunas bonificaciones del impuesto sobre actividades económicas (IAE).",
-    "El gobierno municipal defiende que los impuestos y las tasas siguen congelados un año más y que se amplían las bonificaciones. La oposición sostiene que los cambios dificultan el acceso a ellas.",
-    "## Cambios en el IAE",
-    "En el IAE, el plazo para pedir la bonificación por inicio de actividad pasa de dos meses a un año, y la de creación de empleo podrá acreditarse con una declaración responsable en lugar de un certificado de la Tesorería General de la Seguridad Social. A cambio, el plazo para resolver estas solicitudes sube de tres a seis meses y, si el Ayuntamiento no contesta, la bonificación se entenderá denegada.",
-    "El portavoz del PP, Esaú Pérez Jiménez, recordó que la regla general de la Ley 39/2015 es el silencio positivo y avisó a la delegada de Hacienda, Mª de los Ángeles Ballesteros Núñez (PSOE), de que el cambio traerá recursos. «Usted no ha congelado los impuestos, usted ha congelado el tipo impositivo», afirmó después en el programa La Tribuna, donde calificó la medida de «forma encubierta» de aumentar la presión fiscal. Su grupo votó en contra.",
-    "## Veladores y bomberos",
-    "La modificación suprime la exención de determinadas tasas por ocupación de la vía pública que se aplicó durante la pandemia, entre ellas las de veladores, y cambia el procedimiento para liquidarlas y devolverlas. También revisa la tasa del servicio de extinción de incendios; según el gobierno municipal, porque una sentencia del Tribunal Supremo anuló varios artículos. Incorpora además una bonificación para las promociones de vivienda protegida, públicas y privadas.",
-    "La aprobación es provisional. El Boletín Oficial de la Provincia publicó el anuncio el 27 de octubre y abrió el <a href='#ordenanzas-2027-plazo-reclamaciones'>plazo de 30 días para presentar reclamaciones</a>.",
-    "## Ayudas a la inversión",
-    "En la misma sesión, el Pleno aprobó las bases de una línea de subvenciones para que pymes, comercios y autónomos inviertan en sus negocios, financiada con fondos europeos de la estrategia de desarrollo urbano de la ciudad. Las ayudas irán de 1.000 a 15.000 euros y podrán cubrir hasta el 100 % de la inversión: digitalización, comercio electrónico, eficiencia energética, cámaras frigoríficas, accesibilidad, fachadas, mobiliario o equipamiento. Valen gastos hechos desde octubre de 2025.",
-    "Los negocios situados en zonas con obras municipales largas, como la calle Nuestra Señora del Águila, la plaza del Cabildo o Malasmañanas, tendrán puntuación adicional. El PP apoyó ayudar a los comercios, pero criticó que estas subvenciones no compensen las pérdidas sufridas durante las obras: hace unos meses llevó al Pleno una propuesta de ayudas para pagar el alquiler y la cuota de autónomos mientras duraran los trabajos.",
-    "<span class='howto'>Las ayudas no están abiertas todavía: la convocatoria se publicará después de las bases. Podrán pedirlas pymes, comercios y autónomos de Alcalá, con importes de 1.000 a 15.000 euros por negocio.</span>"
-   ],
-   "seo": [
-    "ordenanzas-fiscales-2027-alcala-iae-silencio-negativo-ayudas-comercio",
-    "Ordenanzas 2027 de Alcalá: impuestos y tasas congelados",
-    "Alcalá de Guadaíra mantiene en 2027 los tipos de impuestos y tasas, cambia los plazos de las bonificaciones del IAE y aprueba ayudas para comercios.",
-    [
-     "ordenanzas fiscales",
-     "IAE",
-     "silencio administrativo",
-     "veladores",
-     "ayudas al comercio",
-     "Esaú Pérez",
-     "Mª Ángeles Ballesteros"
-    ]
-   ]
-  },
-  {
-   "id": "pleno-octubre-votaciones",
-   "sec": "politica",
-   "kicker": "Pleno",
-   "iso": "2026-10-22",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=zZUpC7XEgVw&t=690s",
-   "title": "El Pleno aprueba el plan contra la desigualdad entre barrios y rechaza a San Mateo como alcalde perpetuo",
-   "sub": "Solo tres comunidades de vecinos han pedido las ayudas de VIVE para instalar ascensores; Vox saca adelante su estudio sobre vivienda con la abstención del gobierno",
-   "caption": "Concejales durante una sesión en el salón de plenos del Ayuntamiento de Alcalá de Guadaíra.",
-   "foto": "pleno-octubre-votaciones.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El plan de choque contra la desigualdad entre barrios que propuso el PP salió adelante por unanimidad en el Pleno del 20 de octubre.",
-    "La propuesta de Alcalá Nos Importa para nombrar a San Mateo alcalde perpetuo y a Jesús Nazareno regidor perpetuo no consiguió el apoyo de los demás grupos.",
-    "La primera convocatoria de ayudas de VIVE para ascensores tiene tres proyectos, con subvenciones del 60 % y el 80 %.",
-    "El estudio de Vox sobre la demanda de vivienda se aprobó con la abstención del gobierno municipal."
-   ],
-   "body": [
-    "El Pleno de Alcalá de Guadaíra aprobó por unanimidad el martes 20 de octubre el plan de choque contra la desigualdad y la fractura urbana que propuso el PP, y rechazó la moción de Alcalá Nos Importa para declarar a San Mateo alcalde perpetuo.",
-    "## Desigualdad y reglamento",
-    "El PP defendió que la brecha entre alcalareños crece, con más vecinos en el umbral de la pobreza, y pidió crear una mesa sobre igualdad de oportunidades y medidas urbanas para que todos los barrios reciban los mismos servicios. El gobierno municipal votó a favor y se comprometió a estudiar medidas para reducir las diferencias entre zonas. La segunda moción del PP, para reformar el reglamento orgánico y abrir preguntas de las asociaciones al gobierno, no contó con el apoyo del gobierno.",
-    "## Vivienda e inspección de calles",
-    "Vox logró que se aprobara, con la abstención del gobierno, su propuesta de estudiar la demanda de vivienda y el suelo disponible en Alcalá. Su portavoz, Pedro José Navarro Sánchez, sostuvo que en la ciudad «no hay mercado de alquiler». La segunda moción, para reforzar la inspección de calles, aceras y alumbrado con un calendario por barrios, tampoco recibió el voto favorable del gobierno, que se abstuvo al entender que buena parte de esas medidas ya se aplican. Vox citó una farola caída durante tres años en la calle Artilleros que acabó sustituida por un macetero.",
-    "## San Mateo y Jesús Nazareno",
-    "Alcalá Nos Importa pidió reconocer a San Mateo como alcalde perpetuo y a Nuestro Padre Jesús Nazareno como regidor perpetuo. Su portavoz, José Luis Roldán Fernández, lamentó que PSOE, PP y Vox votaran «en bloque» en contra. El gobierno respondió que estos títulos deben tramitarse por la comisión del reglamento de honores y distinciones, que ya ha pedido informes sobre las solicitudes de las dos hermandades. El concejal no adscrito, Manuel Araujo Arnés, recordó que la Virgen del Águila ya es alcaldesa perpetua.",
-    "Araujo defendió además una moción sobre las trabajadoras del servicio de ayuda a domicilio, con contratos de 20 horas en jornada partida y sueldos de menos de 500 euros, según su relato, y pidió que el Ayuntamiento lo gestione directamente. El gobierno destacó que el nuevo contrato, recién adjudicado a otra empresa, tiene un presupuesto de 14 millones y prevé más de 750.000 horas de atención.",
-    "## Ascensores y 107 viviendas",
-    "El Pleno amplió los límites de gasto de las ayudas de VIVE Alcalá para instalar ascensores. A la primera convocatoria se han presentado tres proyectos, dos en Jardín de Alcalá y uno en Rabesa, con subvenciones del 60 % y el 80 %. La concejala de Vox Carmen Loscertales criticó el escaso número de solicitudes, que atribuye a la falta de información, y que la financiación se alargue hasta finales de 2028.",
-    "También se aprobó el estudio de detalle de la parcela de la avenida Mar Mediterráneo donde VIVE proyecta 107 viviendas en venta asequible, complemento de las 84 de alquiler del Zacatín. Vox expresó su temor a que la empresa municipal no llegue a construir y sirva para «eludir controles» y «colocar afines»."
-   ],
-   "seo": [
-    "pleno-alcala-octubre-desigualdad-san-mateo-ascensores-vive",
-    "Pleno de Alcalá: sí al plan de desigualdad, no a San Mateo",
-    "El Pleno de Alcalá de Guadaíra aprueba por unanimidad el plan contra la desigualdad y rechaza a San Mateo como alcalde perpetuo. Tres ascensores de VIVE.",
-    [
-     "Pleno municipal",
-     "desigualdad",
-     "San Mateo",
-     "VIVE Alcalá",
-     "ascensores",
-     "Vox Alcalá",
-     "Alcalá Nos Importa"
-    ]
-   ]
-  },
-  {
-   "id": "axsi-no-concurre-generales",
-   "sec": "politica",
-   "kicker": "Elecciones",
-   "iso": "2026-10-22",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=zZUpC7XEgVw&t=1665s",
-   "title": "Andalucía Por Sí, socio del gobierno de Alcalá, no se presentará a las generales del 29 de noviembre",
-   "sub": "Los andalucistas guardan sus fuerzas para las municipales de mayo de 2027, en las que Christopher Rivas aspira a la Alcaldía",
-   "caption": "Dirigentes de Andalucía Por Sí en un acto del partido, en una imagen de archivo.",
-   "foto": "axsi-no-concurre-generales.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "Andalucía Por Sí-Andalucistas no presentará candidatura a las elecciones generales del 29 de noviembre de 2026.",
-    "La coalición sostiene en un comunicado que es la opción que mejor sirve a los intereses de Andalucía.",
-    "El partido gobierna en Alcalá de Guadaíra con el PSOE y concurrirá a las municipales de mayo de 2027 con Christopher Rivas como candidato."
-   ],
-   "body": [
-    "Andalucía Por Sí-Andalucistas (AxSí), el partido que gobierna Alcalá de Guadaíra junto al PSOE, no se presentará a las elecciones generales del 29 de noviembre. La coalición lo anunció en un comunicado coincidiendo con la apertura, el miércoles 21 de octubre, del plazo para presentar candidaturas.",
-    "AxSí sostiene que no concurrir es la opción que mejor contribuye a los intereses del pueblo andaluz y que su ausencia no impide que una fuerza andalucista logre representación en el Congreso de los Diputados.",
-    "## Voz propia y voto «con conciencia andalucista»",
-    "La formación defiende que Andalucía necesita una voz propia en las instituciones del Estado y anima a votar «con conciencia andalucista», anteponiendo los intereses de la comunidad a cualquier otra motivación política. Subraya que la decisión no supone renunciar a su proyecto.",
-    "## La mirada, en las municipales",
-    "AxSí afirma que seguirá trabajando para presentar candidaturas en las elecciones municipales de mayo de 2027. En Alcalá, su candidato será el tercer teniente de alcaldesa y delegado de Cultura, Patrimonio, Museos y Turismo, Christopher Rivas Reina, proclamado por aclamación a finales de septiembre. El partido ya ha formado su comité electoral y un equipo de campaña de medio centenar de personas.",
-    "Los andalucistas tienen dos concejales en el Ayuntamiento, Rivas y Luisa Campos, quinta teniente de alcaldesa y delegada de Monumento Natural, Medio Ambiente y Sostenibilidad. Su apoyo da al PSOE de la alcaldesa, Ana Isabel Jiménez, la mayoría de 13 de los 25 concejales.",
-    "Las generales llegan tras el adelanto electoral anunciado el 5 de octubre. Alcalá vota en la circunscripción de Sevilla, que elige 12 diputados y cuatro senadores."
-   ],
-   "seo": [
-    "andalucia-por-si-no-concurre-elecciones-generales-29-noviembre",
-    "AxSí no se presentará a las generales del 29 de noviembre",
-    "Andalucía Por Sí, socio del PSOE en el gobierno de Alcalá de Guadaíra, no concurrirá a las generales del 29 de noviembre y se centra en las municipales.",
-    [
-     "Andalucía Por Sí",
-     "elecciones generales",
-     "Christopher Rivas",
-     "elecciones municipales 2027",
-     "andalucismo"
-    ]
-   ]
-  },
-  {
-   "id": "aaee-50-aniversario",
-   "sec": "alcala",
-   "kicker": "Asociaciones",
-   "iso": "2026-10-22",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=49T-DtLvV3s&t=5s",
-   "title": "La Asociación Alcalareña de Educación Especial abre este viernes su 50 aniversario con un programa en directo",
-   "sub": "La entidad, con unos 60 usuarios, prepara una actividad al mes hasta septiembre: un concierto de soul y góspel en noviembre y teatro en diciembre",
-   "caption": "Calendario de los primeros actos del 50 aniversario de la Asociación Alcalareña de Educación Especial.",
-   "foto": "aaee-50-aniversario-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "La Asociación Alcalareña de Educación Especial celebra sus 50 años con un acto al mes hasta septiembre de 2027.",
-    "El viernes 23 de octubre, a las 20.00, un programa especial en directo desde su sede en la avenida Princesa Sofía abre el aniversario, con entrada libre.",
-    "El 6 de noviembre habrá un concierto de soul y góspel en el Auditorio Riberas del Guadaíra y el 9 de diciembre, teatro en el Gutiérrez de Alba."
-   ],
-   "body": [
-    "La Asociación Alcalareña de Educación Especial cumple 50 años y abre la celebración el viernes 23 de octubre, a las 20.00, con un programa especial en directo desde el patio de su sede, en la avenida Princesa Sofía de Alcalá de Guadaíra. La entrada es libre hasta completar el aforo.",
-    "«Vamos a intentar contar 50 años en dos horas», explicó a El Panadero el secretario de la asociación, José Mancera, que lleva 33 años en ella. Llegó, cuenta, cuando nació su hijo, y entonces la entidad tenía ya 17 años de historia.",
-    "## Unos 60 usuarios",
-    "La asociación atiende hoy a unos 60 usuarios. La mayoría lleva en ella desde niños y ahora tiene entre 26 y 33 años. «Para ellos aquello es una familia. Van allí a trabajar, porque es una zona de trabajo, pero se encuentran prácticamente con sus hermanos», resume Mancera.",
-    "El acto del viernes repasará la historia de la entidad y el día a día de los usuarios, con reportajes grabados en el centro, y servirá para presentar el calendario del aniversario. El programa se emitirá en directo por la televisión local. Habrá barra solidaria con bebidas y montaditos y, al terminar el programa, música hasta medianoche.",
-    "## Un acto al mes",
-    "La asociación quiere organizar al menos una actividad cada mes hasta el cierre del aniversario. El 6 de noviembre ofrecerá un concierto de soul y música góspel en el Auditorio Riberas del Guadaíra. El 9 de diciembre, su grupo de teatro representará una obra en el Teatro Gutiérrez de Alba.",
-    "Prepara además una actividad deportiva inclusiva con la Delegación de Deportes, un concurso de relatos cortos sobre la discapacidad con una AMPA y algún acto en Semana Santa con la Hermandad del Soberano Poder, vecina de su sede. La Asociación de Carnaval también quiere organizar algo con ellos en febrero. El aniversario terminará en septiembre con una cena en la caseta municipal abierta a toda la ciudad.",
-    "Mancera ha invitado a otras entidades de Alcalá a proponer actividades. «Tendríamos que alegrarnos porque desapareciera, porque no hiciera falta. Pero como eso aún no lo hemos conseguido, tendremos que seguir celebrando cumpleaños», dice.",
-    "<span class='howto'>Programa especial del 50 aniversario: viernes 23 de octubre, 20.00, sede de la Asociación Alcalareña de Educación Especial (avenida Princesa Sofía). Entrada libre hasta completar el aforo. Concierto de soul y góspel: 6 de noviembre, Auditorio Riberas del Guadaíra.</span>"
-   ],
-   "seo": [
-    "asociacion-alcalarena-educacion-especial-50-aniversario",
-    "La Asociación de Educación Especial de Alcalá cumple 50 años",
-    "La Asociación Alcalareña de Educación Especial abre su 50 aniversario el 23 de octubre con un programa en directo en su sede y prepara un acto al mes.",
-    [
-     "Asociación Alcalareña de Educación Especial",
-     "discapacidad",
-     "50 aniversario",
-     "Auditorio Riberas del Guadaíra",
-     "Teatro Gutiérrez de Alba",
-     "asociaciones de Alcalá"
     ]
    ]
   },
