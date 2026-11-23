@@ -1,53 +1,11 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-22",
+  "actualizado": "2026-11-23",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia.",
-  "apertura": 3
+  "apertura": 2
  },
  "agenda": [
-  {
-   "cuando": "19-22 nov",
-   "que": "Triduo y función de Cristo Rey con Jesús Cautivo",
-   "donde": "Parroquia de San Sebastián",
-   "noticia": "cautivo-triduo-cristo-rey-19-22-noviembre",
-   "hasta": "2026-11-22"
-  },
-  {
-   "cuando": "Dom 22 nov, 12.00",
-   "que": "Musical «Cenicienta, la Leyenda»",
-   "donde": "Auditorio Riberas del Guadaíra",
-   "noticia": "agenda-cultural-noviembre-2026",
-   "hasta": "2026-11-22"
-  },
-  {
-   "cuando": "Dom 22 nov, 18.00",
-   "que": "«Quieto Parao», Festival Internacional de Comedia del Arte",
-   "donde": "Centro San Miguel",
-   "noticia": "centro-san-miguel-flamenco-poesia-comedia-arte-18-22-noviembre",
-   "hasta": "2026-11-22"
-  },
-  {
-   "cuando": "Hasta 22 nov",
-   "que": "Pinturas restauradas del Cristo de Burgos y del Cristo de los Desamparados (presentación del 29 oct suspendida por el luto; sin nueva fecha)",
-   "donde": "Museo de Alcalá, sala de Arte Religioso",
-   "noticia": "consejo-suspende-exposicion-pinturas-restauradas",
-   "hasta": "2026-11-22"
-  },
-  {
-   "cuando": "Sáb 21 y dom 22 nov",
-   "que": "II Prueba de la Copa de Andalucía de Escalada de Bloque",
-   "donde": "Wiseclimb",
-   "noticia": "copa-andalucia-escalada-bloque-wiseclimb-21-22-noviembre",
-   "hasta": "2026-11-22"
-  },
-  {
-   "cuando": "Vie 20 a dom 22 nov",
-   "que": "Besamano del Cristo de la Bondad, con su nuevo mantolín",
-   "donde": "Hermandad de la Borriquita",
-   "noticia": "borriquita-besamano-cristo-bondad-mantolin-cristo-rey",
-   "hasta": "2026-11-22"
-  },
   {
    "cuando": "Hasta 27 nov",
    "que": "Plazo de candidaturas para la concesión del Hotel Oromana",
@@ -205,11 +163,293 @@ window.EP = {
    "cuando": "Hasta 30 sep 2027",
    "que": "Plazo de las ayudas de la Junta para eficiencia energética en viviendas",
    "donde": "Agencia Andaluza de la Energía, por vía telemática",
-   "noticia": "ayudas-eficiencia-energetica-junta",
    "hasta": "2027-09-30"
   }
  ],
  "noticias": [
+  {
+   "id": "moreno-mitin-pp-alcala-tranvia-2027-29n",
+   "sec": "politica",
+   "kicker": "Elecciones 29N",
+   "iso": "2026-11-23",
+   "src": "El Panadero",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Juanma Moreno sitúa en 2027 la puesta en servicio del tranvía en un mitin del PP en Alcalá",
+   "sub": "El presidente de la Junta cifró la obra en más de 300 millones y respaldó a Sandra González, candidata del PP a la Alcaldía",
+   "caption": "Acto de campaña del PP con Juanma Moreno, el domingo 22 de noviembre en Alcalá de Guadaíra.",
+   "foto": "moreno-mitin-pp-alcala-29n-apaisada-of.jpg",
+   "fotocredito": "Facebook del PP de Alcalá de Guadaíra",
+   "claves": [
+    "Juanma Moreno, presidente de la Junta y del PP andaluz, afirmó el domingo 22 de noviembre en Alcalá de Guadaíra que el tranvía entrará en servicio en 2027.",
+    "Según Moreno, el proyecto supera los 300 millones de euros; responsabilizó de su paralización a los anteriores gobiernos socialistas de la Junta.",
+    "El acto, de cara a las elecciones generales del 29 de noviembre, contó con la candidata del PP a la Alcaldía, Sandra González, y los cabezas de lista Juan Bravo y Juan Ávila."
+   ],
+   "body": [
+    "El presidente de la Junta de Andalucía y del PP andaluz, Juanma Moreno, afirmó el domingo 22 de noviembre de 2026 en Alcalá de Guadaíra que el tranvía de la ciudad entrará en servicio en 2027. Lo dijo en un acto de campaña del PP para las elecciones generales del domingo 29 de noviembre, en Celebraciones Zambra.",
+    "El tranvía unirá Alcalá con el Metro de Sevilla en Montequinto. Moreno responsabilizó de la paralización del proyecto a los anteriores gobiernos socialistas de la Junta y aseguró que tuvo que negociar en Bruselas para recuperar los fondos europeos de la obra. Según sus cifras, la inversión total supera los 300 millones de euros.",
+    "La fecha llega en plena discusión sobre los retrasos de la obra. El <a href='#tranvia-presupuesto-junta-2027-25-millones'>proyecto de presupuestos de la Junta para 2027</a> reserva una partida para terminarla y ponerla en marcha, y Adelante Andalucía <a href='#campana-29n-adelante-tranvia-pp-moreno-vox-plazuela'>criticó el viernes en Alcalá</a> que se hable de inauguraciones de un tranvía que los vecinos todavía no pueden usar.",
+    "## Críticas al urbanismo municipal",
+    "Moreno defendió el potencial económico de Alcalá, que según dijo cuenta con más de 30 polígonos industriales y podría duplicar esa cifra. También criticó lo que considera desorden urbanístico en la ciudad, gobernada por el PSOE, y pidió apoyo para la candidata del PP a la Alcaldía y presidenta del partido en Alcalá, Sandra González.",
+    "En el acto participaron además los cabezas de lista del PP por la provincia de Sevilla al Congreso y al Senado, Juan Bravo y Juan Ávila, según ha publicado el PP de Alcalá en su perfil de Facebook. Moreno pidió a los asistentes que se movilicen para que Alberto Núñez Feijóo llegue a la Presidencia del Gobierno.",
+    "El mitin cierra la agenda del PP en Alcalá en el fin de semana, después de que el sábado la candidata local y varias candidatas al Congreso visitaran empresas y barrios. Vox y Adelante Andalucía también han hecho campaña esta semana en la ciudad.",
+    "<span class='howto'><b>Elecciones generales.</b> Domingo 29 de noviembre de 2026. La campaña electoral termina a las 00.00 del viernes 27 al sábado 28 de noviembre; el sábado 28 es jornada de reflexión.</span>"
+   ],
+   "seo": [
+    "juanma-moreno-tranvia-alcala-2027-mitin-pp",
+    "Moreno sitúa en 2027 el tranvía de Alcalá en un mitin",
+    "Juanma Moreno afirma en un acto del PP en Alcalá de Guadaíra que el tranvía entrará en servicio en 2027 y cifra en más de 300 millones la inversión.",
+    [
+     "Juanma Moreno",
+     "tranvía de Alcalá",
+     "PP de Alcalá",
+     "Sandra González",
+     "elecciones generales 29N",
+     "Junta de Andalucía"
+    ]
+   ],
+   "hora": "21:55"
+  },
+  {
+   "id": "alcala-generales-secciones-2016-2023",
+   "sec": "politica",
+   "kicker": "Elecciones",
+   "iso": "2026-11-23",
+   "hora": "07:40",
+   "src": "Ministerio del Interior",
+   "fuente_url": "https://infoelectoral.interior.gob.es/es/elecciones-celebradas/area-de-descargas/",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El PSOE ganó en Alcalá las cuatro últimas generales y el PP fue primero en 12 de sus 49 secciones en 2023",
+   "sub": "La participación de 2023 osciló entre el 81,9 % de la sección más votante y el 45,4 % de la que menos, según los resultados por mesa del Ministerio del Interior",
+   "caption": "Voto válido del PSOE, el PP y Vox en Alcalá de Guadaíra en las generales de 2016, abril de 2019, noviembre de 2019 y 2023. El PSOE fue primero en las cuatro.",
+   "foto": "alcala-generales-secciones-2016-2023-gfx2.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El PSOE fue el partido más votado en Alcalá de Guadaíra en las generales de 2016, abril de 2019, noviembre de 2019 y 2023.",
+    "En 2023 el PP fue primero en 12 de las 49 secciones censales del municipio, frente a 4 en las dos elecciones de 2019 y 13 en 2016.",
+    "La participación en Alcalá fue del 66,0 % en 2023, con un máximo del 81,9 % y un mínimo del 45,4 % según la sección.",
+    "Los datos salen de los resultados por mesa del Ministerio del Interior y no incluyen el voto de los residentes en el extranjero."
+   ],
+   "body": [
+    "El PSOE fue el partido más votado en Alcalá de Guadaíra en las cuatro elecciones generales celebradas entre 2016 y 2023, pero el mapa por secciones cambió. En julio de 2023 el PP fue primero en 12 de las 49 secciones censales, según los resultados por mesa del Ministerio del Interior analizados por El Panadero.",
+    "El análisis llega a seis días de las <a href='#mesas-electorales-sorteo-pleno-29-noviembre'>generales del domingo 29 de noviembre</a>. Una sección censal es la unidad mínima del censo electoral: agrupa a unos pocos miles de electores de unas calles concretas y vota en una o varias mesas. Alcalá tenía 47 secciones en 2016, 48 en las dos elecciones de 2019 y 49 en 2023.",
+    "## Cuatro generales en el conjunto de Alcalá",
+    "En 2016 el PSOE obtuvo el 32,5 % del voto válido en Alcalá, por delante del PP (25,1 %), la candidatura de Podemos e IU (22,3 %) y Ciudadanos (15,6 %). En abril de 2019 subió al 35,0 %, con Ciudadanos (18,1 %) como segunda fuerza. En noviembre de 2019 logró el 33,5 % y Vox fue segundo con el 19,6 %.",
+    "En 2023 el PSOE alcanzó el 36,1 %, su mejor resultado de las cuatro citas, y el PP pasó al 30,5 %, frente al 15,0 % de noviembre de 2019. Vox se quedó en el 15,5 % y Sumar, en el 14,4 %. Ciudadanos no se presentó.",
+    "## Dónde ganó cada partido",
+    "El PSOE fue primero en 32 secciones en 2016, en 43 en abril de 2019, en 42 en noviembre de 2019 y en 37 en 2023. El PP ganó en 13 en 2016, en cuatro en cada elección de 2019 y en 12 en 2023. Vox fue primero en una sección en abril de 2019 y en dos en noviembre de ese año.",
+    "El mejor porcentaje del PP en 2023 fue el 58,6 % de la sección del centro histórico que incluye la plaza de Cervantes, la plaza del Cabildo y la calle Alcalá y Orti. Casi igualó esa cifra, con el 58,4 %, la sección de las urbanizaciones Sevilla-Golf, Torrequinto y El Regidor, donde Vox obtuvo su mejor dato (28,0 %) y el PSOE, el peor (7,9 %). El mejor resultado del PSOE, el 57,3 %, fue en la sección de las calles Écija, Paradas y Morón de la Frontera.",
+    "## Diferencias de participación",
+    "En 2023 votaron 39.323 de los 59.569 electores residentes en Alcalá, el 66,0 %. La participación fue del 66,2 % en 2016, del 71,4 % en abril de 2019 y del 66,9 % en noviembre de 2019. Por secciones, en 2023 fue del 81,9 % en la de las calles Pino Blanco, Pino Real y Pino Piñonero, y del 45,4 % en la de la avenida de Salud Gutiérrez y las calles Pintor Luna Rubio y Maestro José Gandulfo.",
+    "Las cifras de participación se calculan sobre el censo de residentes en España y no incluyen el voto de los alcalareños que viven en el extranjero, que se cuenta aparte. Los límites de algunas secciones cambian entre elecciones, por lo que las comparaciones sección a sección entre años son aproximadas.",
+    "<span class='howto'>Datos: resultados por mesa de las elecciones generales de junio de 2016, abril de 2019, noviembre de 2019 y julio de 2023 (Ministerio del Interior, área de descargas de Infoelectoral). Las calles de cada sección salen del callejero del censo electoral del INE de julio de 2023. Porcentajes de voto sobre voto válido. Los colegios abren el domingo 29 de noviembre de 9.00 a 20.00. El Panadero publicará el lunes 30 los resultados del 29N en Alcalá.</span>"
+   ],
+   "seo": [
+    "voto-secciones-alcala-generales-psoe-pp",
+    "Voto por secciones en Alcalá: generales de 2016 a 2023",
+    "El PSOE ganó en Alcalá de Guadaíra las generales de 2016 a 2023 y el PP fue primero en 12 de sus 49 secciones censales en 2023, según Interior.",
+    [
+     "elecciones generales",
+     "secciones censales",
+     "participación electoral",
+     "PSOE",
+     "PP",
+     "Vox",
+     "Ministerio del Interior"
+    ]
+   ]
+  },
+  {
+   "id": "accidentes-trafico-alcala-2025-dgt",
+   "sec": "sucesos",
+   "kicker": "Tráfico",
+   "iso": "2026-11-23",
+   "hora": "07:40",
+   "src": "DGT",
+   "fuente_url": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Ficheros-de-microdatos-de-accidentes-con-victimas-2025/",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Alcalá registró 204 accidentes con víctimas en 2025, la cifra más alta desde 2016",
+   "sub": "Los siniestros subieron un 25,2 % en un año, frente al 4,2 % de la provincia, y la A-92 concentró 33, según los microdatos de la DGT",
+   "caption": "Accidentes de tráfico con víctimas en Alcalá de Guadaíra entre 2016 y 2025, según los microdatos de la DGT.",
+   "foto": "accidentes-trafico-alcala-2025-dgt-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "Alcalá de Guadaíra registró 204 accidentes de tráfico con víctimas en 2025, frente a 163 en 2024.",
+    "Es la cifra más alta de la serie de la DGT desde 2016; el máximo anterior eran los 169 accidentes de 2022.",
+    "Los accidentes de 2025 dejaron 296 víctimas: dos fallecidos, 22 heridos hospitalizados y 272 heridos no hospitalizados.",
+    "La A-92 sumó 33 accidentes con víctimas en el término municipal en 2025, frente a 18 en 2024."
+   ],
+   "body": [
+    "Alcalá de Guadaíra registró 204 accidentes de tráfico con víctimas en 2025, un 25,2 % más que los 163 de 2024 y la cifra más alta desde 2016, según los microdatos de la Dirección General de Tráfico (DGT) publicados en octubre de 2026. En la provincia de Sevilla la subida fue del 4,2 %.",
+    "Esos 204 accidentes dejaron 296 víctimas en el término municipal: dos personas fallecidas en los 30 días siguientes, 22 heridos que necesitaron hospitalización y 272 heridos leves. En 2024 hubo 221 víctimas, con dos fallecidos y 20 heridos hospitalizados.",
+    "## Más accidentes en ciudad y en carretera",
+    "De los 204 accidentes, 118 ocurrieron en vías urbanas y 86 en vías interurbanas. Los 86 interurbanos son el dato más alto de la serie: en 2016 fueron 59. La A-92 concentró 33 de ellos en 2025, frente a 18 el año anterior. Le siguieron la A-376 (ocho), la SE-40 (siete), la A-392 (seis) y la A-360 (seis).",
+    "Los dos fallecidos de 2025 murieron en accidentes en la A-92, en febrero y en mayo, en salidas de la vía. Entre 2016 y 2025 los accidentes en el término de Alcalá causaron 31 muertes, según la misma estadística.",
+    "Por tipo, los más frecuentes fueron las colisiones fronto-laterales (43), los alcances (35) y los atropellos a personas (25). Hubo además 19 caídas, una categoría que la DGT reserva sobre todo a motocicletas y bicicletas.",
+    "## Alcalá frente a sus vecinos",
+    "Dos Hermanas pasó de 172 accidentes con víctimas en 2024 a 263 en 2025. Utrera bajó de 103 a 85. La serie de Alcalá tuvo su mínimo en 2020, con 116 accidentes, el año de las restricciones de movilidad por la pandemia, y bajó de nuevo a 121 en 2023 antes de subir en los dos años siguientes.",
+    "La estadística de la DGT recoge los accidentes con al menos un herido o fallecido de los que informan la Guardia Civil y las policías locales. No incluye los choques con daños materiales. La cifra de un municipio depende de la vía donde ocurre el accidente, no del domicilio de los conductores, por lo que en Alcalá pesa el tráfico de paso por la A-92 y la SE-40. En 2025, 126 accidentes de la provincia figuran sin municipio asignado.",
+    "Los datos de 2026 no están aún publicados. En lo que va de año, El Panadero ha informado de sucesos como el <a href='#atropello-mortal-autobus-cabeza-hermosa'>atropello mortal en la urbanización Cabeza Hermosa</a>.",
+    "<span class='howto'>Datos: microdatos de accidentes con víctimas de la DGT, años 2016 a 2025 (el de 2025 se publicó el 20 de octubre de 2026). Fallecidos y heridos computados a 30 días. Accidente urbano o interurbano según la vía. La DGT publica cada otoño los microdatos del año anterior: los de 2026 saldrán previsiblemente en el otoño de 2027.</span>"
+   ],
+   "seo": [
+    "accidentes-trafico-alcala-2025-dgt-a92",
+    "Accidentes de tráfico en Alcalá: 204 con víctimas en 2025",
+    "Alcalá de Guadaíra tuvo 204 accidentes de tráfico con víctimas en 2025, un 25,2 % más que en 2024, con 33 en la A-92, según los microdatos de la DGT.",
+    [
+     "accidentes de tráfico",
+     "DGT",
+     "A-92",
+     "seguridad vial",
+     "SE-40",
+     "víctimas de tráfico"
+    ]
+   ]
+  },
+  {
+   "id": "sociedades-creadas-alcala-2026-borme",
+   "sec": "economia",
+   "kicker": "Empresas",
+   "iso": "2026-11-23",
+   "hora": "07:40",
+   "src": "BORME",
+   "fuente_url": "https://www.boe.es/diario_borme/",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Alcalá suma 168 sociedades nuevas en 2026, dos más que hace un año, y es el tercer municipio de Sevilla",
+   "sub": "La provincia crece un 10,8 % en constituciones de empresas hasta el 20 de noviembre; dos de cada tres sociedades alcalareñas nacen con 3.000 euros de capital o menos",
+   "caption": "Sociedades mercantiles constituidas por cada 10.000 habitantes en Alcalá de Guadaíra, Dos Hermanas, Utrera y la provincia de Sevilla en 2026.",
+   "foto": "sociedades-creadas-alcala-2026-borme-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El BORME publicó entre el 1 de enero y el 20 de noviembre de 2026 la constitución de 168 sociedades con domicilio en Alcalá de Guadaíra, frente a 166 en el mismo periodo de 2025.",
+    "Alcalá es el tercer municipio de la provincia de Sevilla por número de sociedades creadas, tras Sevilla (2.047) y Dos Hermanas (329).",
+    "En toda la provincia se constituyeron 4.669 sociedades, un 10,8 % más que en 2025.",
+    "Alcalá registra 21,7 sociedades nuevas por cada 10.000 habitantes, por debajo de la media provincial de 23,6."
+   ],
+   "body": [
+    "El Boletín Oficial del Registro Mercantil (BORME) publicó entre el 1 de enero y el 20 de noviembre de 2026 la constitución de 168 sociedades con domicilio social en Alcalá de Guadaíra, dos más que en el mismo periodo de 2025, según el recuento de El Panadero. La provincia de Sevilla creció un 10,8 %.",
+    "Con esas 168 sociedades, Alcalá es el tercer municipio de la provincia por número de empresas creadas, después de Sevilla (2.047) y Dos Hermanas (329), y por delante de Mairena del Aljarafe (163) y Utrera (135). En todo el territorio del Registro Mercantil de Sevilla se constituyeron 4.669 sociedades, frente a 4.215 en el mismo periodo del año anterior.",
+    "## Crecen menos que la provincia",
+    "El aumento de Alcalá, del 1,2 %, queda lejos del de sus vecinos. Dos Hermanas pasó de 299 a 329 sociedades nuevas (un 10,0 % más) y Utrera, de 106 a 135 (un 27,4 % más).",
+    "En relación con su población, Alcalá suma 21,7 sociedades nuevas por cada 10.000 habitantes, con el padrón del INE a 1 de enero de 2025. La media de la provincia es de 23,6. Dos Hermanas registra 23,1 y Utrera, 25,8.",
+    "## Pequeñas y sin un sector dominante",
+    "La mayoría de las sociedades alcalareñas nace con poco capital. De las 168, 111 declararon 3.000 euros o menos, dos de cada tres. Solo 16 superaron los 60.000 euros, y la mayor se constituyó con cinco millones. Desde la Ley 18/2022, de creación y crecimiento de empresas, una sociedad limitada puede constituirse con un euro, pero ninguna de las de Alcalá declaró menos de 3.000.",
+    "La construcción y la actividad inmobiliaria aparecen en el objeto social de 32 de las nuevas sociedades, frente a 51 en el mismo periodo de 2025. La hostelería figura en 18. Muchas empresas declaran varias actividades a la vez, por lo que estas cifras no suman el total.",
+    "El recuento no mide toda la actividad emprendedora: no incluye a los trabajadores autónomos, que no se inscriben en el Registro Mercantil, ni descuenta las sociedades que se disuelven. El domicilio social es el que figura en la escritura de constitución y no siempre coincide con el lugar donde la empresa trabaja. El Panadero informó este mes de las <a href='#bop-bases-ayudas-comercios-pai-edil'>bases de las ayudas europeas para que pymes y autónomos modernicen sus comercios</a>.",
+    "<span class='howto'>Datos: anuncios de constitución publicados en la sección primera del BORME (Registro Mercantil de Sevilla) del 1 de enero al 20 de noviembre de 2025 y de 2026, contados por el municipio del domicilio social. Población: padrón continuo del INE a 1 de enero de 2025. El BORME se publica cada día laborable; El Panadero actualizará el recuento con el año completo en enero.</span>"
+   ],
+   "seo": [
+    "sociedades-creadas-alcala-2026-borme",
+    "Sociedades creadas en Alcalá en 2026: 168 según el BORME",
+    "El BORME publicó hasta el 20 de noviembre 168 sociedades nuevas con domicilio en Alcalá de Guadaíra, dos más que en 2025; la provincia creció un 10,8 %.",
+    [
+     "creación de empresas",
+     "BORME",
+     "Registro Mercantil de Sevilla",
+     "sociedades limitadas",
+     "emprendimiento",
+     "Dos Hermanas"
+    ]
+   ]
+  },
+  {
+   "id": "bomberos-oposicion-cinco-plazas-primera-prueba-2-diciembre",
+   "sec": "economia",
+   "kicker": "Empleo público",
+   "iso": "2026-11-23",
+   "hora": "06:55",
+   "src": "BOP de Sevilla",
+   "fuente_url": "https://bopsevilla.dipusevilla.es/publica/buscador-anuncios/anuncio/Lista-definitiva-de-personas-admitidas-y-excluidas-y-fecha-de-comienzo-de-las-pruebas-de-la-convocatoria-para-la-provision-en-turno-libre-de-cinco-plazas-de-Bombero-vacantes-en-la-plantilla-de-pers/",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La oposición a cinco plazas de bombero de Alcalá arranca el 2 de diciembre con 409 aspirantes admitidos",
+   "sub": "El BOP publica la lista definitiva del proceso, con 11 excluidos, y cita a los opositores a la primera prueba a las 16.00 en el IES Albero",
+   "caption": "Datos de la convocatoria de cinco plazas de bombero del Ayuntamiento de Alcalá de Guadaíra.",
+   "foto": "bomberos-oposicion-cinco-plazas-primera-prueba-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El Ayuntamiento de Alcalá de Guadaíra ha aprobado la lista definitiva de su oposición a cinco plazas de bombero, de turno libre y de la oferta de empleo público de 2026.",
+    "Hay 409 aspirantes admitidos y 11 excluidos, diez de ellos por no acreditar seis meses como demandantes de empleo.",
+    "La primera prueba será el miércoles 2 de diciembre a las 16.00 en el IES Albero, en la avenida del Tren de los Panaderos.",
+    "La plantilla de bomberos reclama al menos nueve efectivos más para el parque de la ciudad."
+   ],
+   "body": [
+    "La oposición del Ayuntamiento de Alcalá de Guadaíra para cubrir cinco plazas de bombero empezará el miércoles 2 de diciembre, a las 16.00, con 409 aspirantes admitidos. El Boletín Oficial de la Provincia (BOP) de Sevilla publica este lunes 23 de noviembre la lista definitiva del proceso y la fecha, el lugar y la hora de la primera prueba.",
+    "Las plazas son de bombero o bombera, del subgrupo C1, para personal funcionario, y se cubren por turno libre dentro de la oferta de empleo público de 2026. La lista se aprobó por la resolución 5903/2026, del 12 de noviembre, según el <a href='https://bopsevilla.dipusevilla.es/publica/buscador-anuncios/anuncio/Lista-definitiva-de-personas-admitidas-y-excluidas-y-fecha-de-comienzo-de-las-pruebas-de-la-convocatoria-para-la-provision-en-turno-libre-de-cinco-plazas-de-Bombero-vacantes-en-la-plantilla-de-pers/'>anuncio del BOP</a>.",
+    "La primera prueba se celebrará en el Instituto de Educación Secundaria Albero, en el número 13 de la avenida del Tren de los Panaderos. El anuncio autoriza además a la presidencia del tribunal a convocar sus sesiones fuera de la jornada de trabajo.",
+    "## Once aspirantes excluidos",
+    "La lista definitiva deja fuera a 11 aspirantes. Diez no acreditaron seis meses de antigüedad como demandantes de empleo a la fecha en que la convocatoria se publicó en el Boletín Oficial del Estado, y uno no aportó el justificante de pago de la tasa. Las bases recogen también la exclusión por presentar la solicitud fuera de plazo, aunque en la lista definitiva nadie queda fuera por ese motivo.",
+    "El Ayuntamiento publica la misma relación en su tablón de anuncios y en el portal de transparencia, a través de la sede electrónica municipal.",
+    "## Una plantilla que pide refuerzos",
+    "La convocatoria llega en plena reclamación de los bomberos de la ciudad. La plantilla explicó el jueves 19 de noviembre a El Panadero que el parque cuenta con 31 bomberos operativos, tres de ellos interinos, y que <a href='#bomberos-alcala-denuncian-falta-plantilla-vehiculo-altura'>pide al menos nueve efectivos más</a>, además del pago de los servicios de refuerzo que asegura que se le adeudan. Según su versión, los procesos selectivos en marcha tardarán al menos año y medio en dar bomberos operativos.",
+    "El Sindicato Andaluz de Bomberos había pedido a principios de mes que <a href='#bomberos-alcala-sindicato-pide-mas-plantilla-oep-2027'>la oferta de empleo de 2027 aumente la plantilla</a>. Por parte del gobierno municipal, la delegada de Hacienda, Mª de los Ángeles Ballesteros, sostuvo a finales de octubre que el parque ha incorporado cinco bomberos en 2026 y que habrá <a href='#policia-local-bomberos-plazas-tribuna'>nuevas plazas de bombero en 2027</a>, sin concretar cuántas.",
+    "<span class='howto'><b>Oposición a bombero (cinco plazas, turno libre).</b> Primera prueba: miércoles 2 de diciembre de 2026, a las 16.00. Lugar: IES Albero, avenida del Tren de los Panaderos, 13, Alcalá de Guadaíra. Lista definitiva de admitidos y excluidos: BOP de Sevilla núm. 226, del 23 de noviembre, y sede electrónica del Ayuntamiento (ciudadalcala.sedelectronica.es).</span>"
+   ],
+   "seo": [
+    "oposicion-bombero-alcala-cinco-plazas-primera-prueba",
+    "Oposición a bombero en Alcalá: 1.ª prueba el 2 de diciembre",
+    "Alcalá de Guadaíra publica la lista definitiva de la oposición a cinco plazas de bombero: 409 admitidos y 1.ª prueba el 2 de diciembre en el IES Albero.",
+    [
+     "oposiciones",
+     "bomberos de Alcalá",
+     "empleo público",
+     "BOP de Sevilla",
+     "IES Albero",
+     "oferta de empleo público 2026"
+    ]
+   ]
+  },
+  {
+   "id": "cartel-reyesilos-2027-eliseo-leon-rodriguez",
+   "sec": "cultura",
+   "kicker": "Cabalgatas de Reyes",
+   "iso": "2026-11-23",
+   "hora": "06:55",
+   "src": "Cabalgata ReyeSilos (Facebook)",
+   "fuente_url": "https://www.facebook.com/1517510493848468/posts/1523577439908440",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Eliseo León Rodríguez firma el cartel de la Cabalgata ReyeSilos de 2027, un día después de la coronación",
+   "sub": "La obra, con el lema «Donde nace la ilusión, comienza la magia», presenta a los tres Reyes Magos sobre una estrella dorada",
+   "caption": "Cartel de la Cabalgata ReyeSilos de Alcalá de Guadaíra para 2027, obra de Eliseo León Rodríguez.",
+   "foto": "cartel-reyesilos-2027-eliseo-leon-of.jpg",
+   "fotocredito": "Facebook de la Cabalgata ReyeSilos",
+   "encuadre": "contain",
+   "claves": [
+    "La Cabalgata ReyeSilos, del barrio de Silos, ha presentado su cartel de 2027, obra de Eliseo León Rodríguez.",
+    "El cartel muestra a los tres Reyes Magos, cada uno en un color, alrededor de una estrella dorada, con el lema «Donde nace la ilusión, comienza la magia».",
+    "La asociación coronó el sábado 21 de noviembre en la Hacienda La Caridad a sus Reyes Magos y a su Estrella de 2027."
+   ],
+   "body": [
+    "La Cabalgata ReyeSilos, la del barrio de Silos de Alcalá de Guadaíra, ha presentado el cartel de su desfile de 2027, obra de Eliseo León Rodríguez. La asociación lo dio a conocer el domingo 22 de noviembre en su perfil de Facebook, un día después de coronar a los Reyes Magos y a la Estrella que saldrán en la cabalgata.",
+    "El cartel presenta a los tres Reyes Magos dibujados cada uno en un color, rojo, azul y verde, alrededor de una gran estrella dorada. El rey del centro, con turbante, abraza a un niño, y el de la derecha le tiende un pequeño regalo. En la parte superior se lee «Reyes Silos 2027» y, abajo, el lema «Donde nace la ilusión, comienza la magia». La asociación ha puesto la obra también como imagen de portada de su perfil.",
+    "## Coronación en la Hacienda La Caridad",
+    "La asociación coronó el sábado 21 de noviembre, en un almuerzo en la Hacienda La Caridad, a sus Reyes de 2027, que recibieron las coronas de los monarcas salientes, como <a href='#cabalgatas-beduinos-campo-beatas-almuerzo-coronacion-reyesilos'>adelantó El Panadero</a>. David Martínez Naranjo será Melchor; Álvaro Gómez García, Gaspar, y Diego Fuentes Cruz, Baltasar. Ángela Harana Sánchez será la Estrella de la Ilusión. Al acto asistieron miembros de la Corporación municipal, encabezados por la alcaldesa, Ana Isabel Jiménez, que agradeció el trabajo de la Asociación Reyes Magos Silos, según la nota del <a href='https://www.alcaladeguadaira.es/noticias/10025/la-coronacion-de-ssmm-los-reyes-magos-de-la-cabalgata-silos-adelanta-la-ilusion-navidena-en-alcala'>Ayuntamiento</a>.",
+    "Según el Ayuntamiento, Martínez Naranjo es licenciado en Historia del Arte y ha ocupado cargos directivos y de entrenador en clubes de fútbol base de Alcalá. Gómez García es empresario y pertenece a las hermandades del Perdón y del Rocío. Fuentes Cruz regenta un pequeño negocio en la calle Silos. La Estrella está vinculada a la cabalgata desde niña y es conocida en la Hermandad del Rosario.",
+    "La Hermandad de San Mateo ha informado en sus redes de que una representación suya acompañó a Gómez García, hermano de la corporación, en su coronación como Gaspar para el próximo 6 de enero.",
+    "La cabalgata del barrio se suma a la que organiza la Asociación de la Cabalgata de Reyes la tarde del 5 de enero, cuyo cartel, obra de Mariano Fernández Goncer, <a href='#cartel-cabalgata-reyes-2027-mariano-fernandez-goncer'>se presentó el viernes 20 de noviembre</a>."
+   ],
+   "seo": [
+    "cartel-cabalgata-reyesilos-2027-eliseo-leon",
+    "Cartel de la Cabalgata ReyeSilos 2027 en Alcalá",
+    "La Cabalgata ReyeSilos de Alcalá de Guadaíra presenta su cartel de 2027, obra de Eliseo León Rodríguez, tras coronar a sus Reyes Magos y a su Estrella.",
+    [
+     "Cabalgata ReyeSilos",
+     "barrio de Silos",
+     "Reyes Magos 2027",
+     "Eliseo León Rodríguez",
+     "cartel",
+     "Hacienda La Caridad"
+    ]
+   ]
+  },
   {
    "id": "diogo-miguel-silva-campeon-mundo-k1-fabio-loisi",
    "sec": "deportes",
@@ -249,50 +489,6 @@ window.EP = {
      "CD Qalat",
      "Fabio Loisi",
      "deportes de contacto"
-    ]
-   ],
-   "hora": "21:55"
-  },
-  {
-   "id": "moreno-mitin-pp-alcala-tranvia-2027-29n",
-   "sec": "politica",
-   "kicker": "Elecciones 29N",
-   "iso": "2026-11-22",
-   "src": "El Panadero",
-   "firma": "Redacción El Panadero",
-   "elaboracion": "ia",
-   "title": "Juanma Moreno sitúa en 2027 la puesta en servicio del tranvía en un mitin del PP en Alcalá",
-   "sub": "El presidente de la Junta cifró la obra en más de 300 millones y respaldó a Sandra González, candidata del PP a la Alcaldía",
-   "caption": "Asistentes al acto de campaña del PP celebrado el domingo 22 de noviembre en Alcalá de Guadaíra.",
-   "foto": "moreno-mitin-pp-alcala-29n-of.jpg",
-   "fotocredito": "Facebook del PP de Alcalá de Guadaíra",
-   "encuadre": "contain",
-   "claves": [
-    "Juanma Moreno, presidente de la Junta y del PP andaluz, afirmó el domingo 22 de noviembre en Alcalá de Guadaíra que el tranvía entrará en servicio en 2027.",
-    "Según Moreno, el proyecto supera los 300 millones de euros; responsabilizó de su paralización a los anteriores gobiernos socialistas de la Junta.",
-    "El acto, de cara a las elecciones generales del 29 de noviembre, contó con la candidata del PP a la Alcaldía, Sandra González, y los cabezas de lista Juan Bravo y Juan Ávila."
-   ],
-   "body": [
-    "El presidente de la Junta de Andalucía y del PP andaluz, Juanma Moreno, afirmó el domingo 22 de noviembre de 2026 en Alcalá de Guadaíra que el tranvía de la ciudad entrará en servicio en 2027. Lo dijo en un acto de campaña del PP para las elecciones generales del domingo 29 de noviembre, en Celebraciones Zambra.",
-    "El tranvía unirá Alcalá con el Metro de Sevilla en Montequinto. Moreno responsabilizó de la paralización del proyecto a los anteriores gobiernos socialistas de la Junta y aseguró que tuvo que negociar en Bruselas para recuperar los fondos europeos de la obra. Según sus cifras, la inversión total supera los 300 millones de euros.",
-    "La fecha llega en plena discusión sobre los retrasos de la obra. El <a href='#tranvia-presupuesto-junta-2027-25-millones'>proyecto de presupuestos de la Junta para 2027</a> reserva una partida para terminarla y ponerla en marcha, y Adelante Andalucía <a href='#campana-29n-adelante-tranvia-pp-moreno-vox-plazuela'>criticó el viernes en Alcalá</a> que se hable de inauguraciones de un tranvía que los vecinos todavía no pueden usar.",
-    "## Críticas al urbanismo municipal",
-    "Moreno defendió el potencial económico de Alcalá, que según dijo cuenta con más de 30 polígonos industriales y podría duplicar esa cifra. También criticó lo que considera desorden urbanístico en la ciudad, gobernada por el PSOE, y pidió apoyo para la candidata del PP a la Alcaldía y presidenta del partido en Alcalá, Sandra González.",
-    "En el acto participaron además los cabezas de lista del PP por la provincia de Sevilla al Congreso y al Senado, Juan Bravo y Juan Ávila, según ha publicado el PP de Alcalá en su perfil de Facebook. Moreno pidió a los asistentes que se movilicen para que Alberto Núñez Feijóo llegue a la Presidencia del Gobierno.",
-    "El mitin cierra la agenda del PP en Alcalá en el fin de semana, después de que el sábado la candidata local y varias candidatas al Congreso visitaran empresas y barrios. Vox y Adelante Andalucía también han hecho campaña esta semana en la ciudad.",
-    "<span class='howto'><b>Elecciones generales.</b> Domingo 29 de noviembre de 2026. La campaña electoral termina a las 00.00 del viernes 27 al sábado 28 de noviembre; el sábado 28 es jornada de reflexión.</span>"
-   ],
-   "seo": [
-    "juanma-moreno-tranvia-alcala-2027-mitin-pp",
-    "Moreno sitúa en 2027 el tranvía de Alcalá en un mitin",
-    "Juanma Moreno afirma en un acto del PP en Alcalá de Guadaíra que el tranvía entrará en servicio en 2027 y cifra en más de 300 millones la inversión.",
-    [
-     "Juanma Moreno",
-     "tranvía de Alcalá",
-     "PP de Alcalá",
-     "Sandra González",
-     "elecciones generales 29N",
-     "Junta de Andalucía"
     ]
    ],
    "hora": "21:55"
@@ -394,21 +590,21 @@ window.EP = {
    "fuente_url": "https://www.facebook.com/1767714672070448/posts/1775578311284084",
    "firma": "Redacción El Panadero",
    "elaboracion": "ia",
-   "title": "La Borriquita sale este domingo en procesión eucarística por San Agustín tras su función de Cristo Rey",
-   "sub": "La función empieza a las 12.00 y la Agrupación Musical del Cristo de la Bondad acompañará el cortejo; Jesús Nazareno luce la túnica de «los cristalitos», de 1856",
+   "title": "La Borriquita celebra su procesión eucarística por San Agustín tras su función de Cristo Rey",
+   "sub": "El grupo de metales de la Agrupación Musical del Cristo de la Bondad acompañó el cortejo; Jesús Nazareno luce la túnica de «los cristalitos», de 1856",
    "caption": "Altar de cultos de la Hermandad de la Borriquita por la festividad de Cristo Rey.",
    "foto": "cristo-rey-2026-borriquita-procesion-eucaristica-of.jpg",
    "fotocredito": "Facebook de la Hermandad de la Borriquita",
    "encuadre": "contain",
    "claves": [
-    "La Hermandad de la Borriquita celebra el domingo 22 de noviembre, a las 12.00, su función solemne por la festividad de Jesucristo, Rey del Universo.",
-    "Al terminar, saldrá una procesión eucarística por los alrededores de la parroquia de San Agustín, con la Agrupación Musical Santísimo Cristo de la Bondad.",
+    "La Hermandad de la Borriquita celebró el domingo 22 de noviembre su función solemne por la festividad de Jesucristo, Rey del Universo, en San Agustín.",
+    "Al terminar salió una procesión eucarística por los alrededores de la parroquia, con el grupo de metales de la Agrupación Musical Santísimo Cristo de la Bondad.",
     "La Hermandad de Jesús viste a Nuestro Padre Jesús Nazareno con la túnica conocida como «la de los cristalitos», bordada en 1856 por Josefa Cano y María Dolores Moreno.",
     "El pintor Ricardo Gil trabaja ya en el cartel de las Glorias, dedicado a la Inmaculada Concepción, según el Consejo de Hermandades."
    ],
    "body": [
-    "La Hermandad de la Borriquita de Alcalá de Guadaíra celebra este domingo 22 de noviembre, a las 12.00, su función solemne por la festividad de Jesucristo, Rey del Universo, y al terminar sacará una procesión eucarística por los alrededores de la parroquia de San Agustín, según ha publicado la hermandad en su perfil de Facebook.",
-    "La música del cortejo correrá a cargo de la Agrupación Musical Santísimo Cristo de la Bondad, que lleva el nombre de uno de los titulares de la cofradía. El domingo es además el último día del <a href='#borriquita-besamano-cristo-bondad-mantolin-cristo-rey'>besamano del Cristo de la Bondad</a>, que la hermandad abrió el viernes 20 y en el que la imagen estrena un mantolín bordado en oro.",
+    "La Hermandad de la Borriquita de Alcalá de Guadaíra celebró el domingo 22 de noviembre en la parroquia de San Agustín su función solemne por la festividad de Jesucristo, Rey del Universo, y al terminar la misa sacó una procesión eucarística por los alrededores del templo, según ha publicado la hermandad en su perfil de Facebook.",
+    "El cortejo lo acompañó el grupo de metales de la Agrupación Musical Santísimo Cristo de la Bondad, que lleva el nombre de uno de los titulares de la cofradía. La hermandad destaca que los cultos reunieron a una numerosa asistencia de hermanos y devotos. El domingo fue además el último día del <a href='#borriquita-besamano-cristo-bondad-mantolin-cristo-rey'>besamano del Cristo de la Bondad</a>, que la hermandad abrió el viernes 20 y en el que la imagen estrenó un mantolín bordado en oro.",
     "## Las hermandades, de gala por Cristo Rey",
     "La Hermandad de Jesús ha vestido para esta solemnidad a Nuestro Padre Jesús Nazareno con la túnica conocida como «la de los cristalitos», según ha informado en sus redes sociales. Es una pieza bordada en 1856 por Josefa Cano y María Dolores Moreno, que restauró en 2013 el taller de José Antonio Grande de León, el mismo que se ha encargado ahora de vestir la imagen. El Nazareno lleva también las antiguas potencias doradas de salida.",
     "La misma hermandad mostró el sábado 21 en el patio de su casa de hermandad, en la calle Alcalá y Orti, <a href='#jesus-paso-san-juan-cartel-semana-santa-foro-formacion'>el paso de San Juan Evangelista ya restaurado</a>, con visitas guiadas de los restauradores.",
@@ -416,12 +612,12 @@ window.EP = {
     "## Cartel de las Glorias y lienzos restaurados",
     "El Consejo General de Hermandades y Cofradías de Alcalá ha informado en su perfil de Facebook de que el pintor Ricardo Gil trabaja ya en el cartel de las Glorias, que estará dedicado a la Inmaculada Concepción, y de que el artista ha mostrado a la institución el avance de la obra.",
     "Este domingo es también la última jornada para ver el lienzo restaurado del Cristo de los Desamparados, de la Hermandad de la Amargura. La hermandad asistió a la presentación de la intervención, dentro del II Ciclo de Conservación Preventiva del Patrimonio, en la que el conservador-restaurador Alejandro Redondo, vicepresidente del Consejo, explicó los trabajos, según ha publicado la Amargura en Facebook.",
-    "<span class='howto'><b>Domingo 22 de noviembre.</b> Función solemne de Cristo Rey de la Hermandad de la Borriquita a las 12.00 y, al terminar, procesión eucarística por los alrededores de la parroquia de San Agustín. Último día del besamano del Cristo de la Bondad y de la exposición del lienzo restaurado del Cristo de los Desamparados.</span>"
+    "<span class='howto'><b>Cultos de Cristo Rey.</b> La Borriquita celebró su función y su procesión eucarística el domingo 22 de noviembre en la parroquia de San Agustín. Ese día terminaron también el besamano del Cristo de la Bondad y la exposición del lienzo restaurado del Cristo de los Desamparados.</span>"
    ],
    "seo": [
     "borriquita-procesion-eucaristica-cristo-rey-san-agustin",
     "Cristo Rey en Alcalá: procesión eucarística de la Borriquita",
-    "La Borriquita celebra el 22 de noviembre su función de Cristo Rey a las 12.00 y una procesión eucarística por San Agustín, en Alcalá de Guadaíra.",
+    "La Borriquita celebró el 22 de noviembre su función de Cristo Rey y una procesión eucarística por San Agustín, en Alcalá, con numerosos devotos.",
     [
      "Hermandad de la Borriquita",
      "Cristo Rey",
@@ -431,7 +627,8 @@ window.EP = {
      "Consejo de Hermandades",
      "cartel de las Glorias"
     ]
-   ]
+   ],
+   "actualizada": "2026-11-23T06:55"
   },
   {
    "iso": "2026-11-21",
@@ -780,7 +977,7 @@ window.EP = {
     "La Hermandad de Jesús Nazareno de Alcalá de Guadaíra abrirá el sábado 21 de noviembre su casa de hermandad para mostrar el paso de San Juan tras su restauración. Las visitas serán de 10.30 a 13.30 y de 19.00 a 20.30, según ha publicado el Consejo General de Hermandades y Cofradías en su perfil de Facebook.",
     "La intervención integral de las andas de San Juan Evangelista se hizo entre enero y julio de 2026 y la ejecutaron los conservadores-restauradores Jesús Manuel Lozano Muñoz, María de la Cruz Gabarro Bando y Pablo Tejero Cárdenas, según ha detallado la propia hermandad en su perfil de Facebook. El Ayuntamiento de Alcalá de Guadaíra ha financiado parte del coste; la hermandad no ha precisado la cuantía. El paso se expone en el patio delantero de la casa de hermandad, en la calle Alcalá y Orti, 41.",
     "La canastilla nació en las primeras décadas del siglo XX como paso de la Virgen, está vinculada a San Juan desde 1943 y en 1980 recibió la reforma neobarroca de Manuel Guzmán Bejarano, con su talla, cresterías, respiraderos y los cuatro ángeles de las esquinas. Según la hermandad, presentaba ataques de insectos xilófagos, grietas, pérdidas de dorado, cera, barnices oxidados y repintes. Los restauradores consolidaron la estructura, revisaron los anclajes, limpiaron, fijaron el dorado y reintegraron el color con oro, y recuperaron la policromía de los ángeles.",
-    "Habrá además visitas guiadas por el equipo de restauradores a las 12.30 y a las 19.30. La presentación forma parte del II Ciclo de Conservación Preventiva que organizan la Delegación de Patrimonio y el Consejo, y al que la hermandad se acogió para intervenir en este paso, como <a href='#jesus-palio-socorro-borriquita-cristo-bondad'>avanzó en octubre</a>.",
+    "Habrá además visitas guiadas por el equipo de restauradores a las 12.30 y a las 19.30. La presentación forma parte del II Ciclo de Conservación Preventiva que organizan la Delegación de Patrimonio y el Consejo, y al que la hermandad se acogió para intervenir en este paso, como avanzó en octubre.",
     "El mismo ciclo presentó el miércoles 18 en el Museo de la Ciudad la restauración de las pinturas del Santo Cristo de Burgos y del <a href='#amargura-exposicion-cristo-desamparados-18-noviembre'>Cristo de los Desamparados</a>, ambas de la parroquia de San Sebastián. Durante la limpieza del Cristo de Burgos apareció una firma, hoy ilegible, y una fecha de comienzos del siglo XVIII, 1706 o 1709, según explicó a El Panadero el conservador Alejandro Redondo, vicepresidente del Consejo.",
     "## El cartel, dedicado a Jesús",
     "El Consejo ha conocido el avance de los trabajos del cartel de la próxima Semana Santa, que pinta Rafael Muñoz y que en esta edición estará dedicado a la Hermandad de Jesús Nazareno. El Consejo no ha dado todavía la fecha de presentación.",
@@ -1458,7 +1655,7 @@ window.EP = {
    ],
    "body": [
     "La Hermandad de la Borriquita de Alcalá de Guadaíra expone en besamano al Santísimo Cristo de la Bondad del viernes 20 al domingo 22 de noviembre con motivo de la solemnidad de Jesucristo, Rey del Universo. La imagen estrena para la ocasión un mantolín bordado en oro, según ha publicado la hermandad en su perfil de Facebook.",
-    "El mantolín lo ha bordado Pepi Maya sobre un diseño de Rafael de Rueda y es una donación de hermanos y devotos de la cofradía. La Borriquita trabaja además en el patrimonio de su titular: en octubre <a href='#jesus-palio-socorro-borriquita-cristo-bondad'>estudiaba restaurar al Cristo de la Bondad</a>.",
+    "El mantolín lo ha bordado Pepi Maya sobre un diseño de Rafael de Rueda y es una donación de hermanos y devotos de la cofradía. La Borriquita trabaja además en el patrimonio de su titular: en octubre estudiaba restaurar al Cristo de la Bondad.",
     "## Concierto de la Bondad",
     "El mismo viernes 20, la Agrupación Musical Santísimo Cristo de la Bondad ofrece el concierto «Bondad: Candlelight» en la parroquia de San Agustín, dentro del ciclo municipal Alcalá EnClave de Música. El Ayuntamiento ha retrasado una hora su comienzo, que será a las 21.00 y no a las 20.00 como estaba previsto.",
     "## Un fin de semana cofrade",
@@ -1687,7 +1884,7 @@ window.EP = {
     "La renovación del alumbrado se pagará con un préstamo del Instituto para la Diversificación y Ahorro de la Energía (IDAE), dependiente del Ministerio. Según Ballesteros, el crédito es a interés cero, la sustitución estará terminada en nueve meses y el cambio ahorrará al Ayuntamiento un millón de euros al año en la factura eléctrica, con lo que el préstamo quedará amortizado a medio plazo. Andalucía Por Sí situó la operación en más de seis millones de euros.",
     "La delegada explicó que las nuevas luminarias consumen menos y llevan sistemas que permiten localizar antes las averías de cada farola.",
     "## Once millones para las viviendas de VIVE",
-    "El préstamo de 11 millones financiará las 107 viviendas protegidas en régimen de compraventa que VIVE Alcalá prevé en Mar Mediterráneo, las mismas que la sociedad <a href='#vive-sorteo-107-nuevas-promociones'>anunció que sorteará a principios de diciembre</a>. Según Ballesteros, el crédito hipotecario se subrogará a los compradores cuando asuman sus hipotecas. El gobierno sostiene que las viviendas irán destinadas sobre todo a jóvenes.",
+    "El préstamo de 11 millones financiará las 107 viviendas protegidas en régimen de compraventa que VIVE Alcalá prevé en Mar Mediterráneo, las mismas que la sociedad anunció que sorteará a principios de diciembre. Según Ballesteros, el crédito hipotecario se subrogará a los compradores cuando asuman sus hipotecas. El gobierno sostiene que las viviendas irán destinadas sobre todo a jóvenes.",
     "Sobre la piscina, la delegada recordó que la de verano de San Juan se ha quedado pequeña para una ciudad que ha crecido y que la zona norte reclamaba una instalación propia desde hace años.",
     "## La oposición, contra el endeudamiento",
     "El PP votó en contra de los dos préstamos. El concejal popular Esaú Pérez dijo no cuestionar las actuaciones sino el modelo de financiación. «¿Cómo es posible que el Ayuntamiento sea quien pida el préstamo, quien lo avala y quien se haga responsable de ese mismo préstamo en caso de impago?», planteó. Pérez defiende que sea el propio Ayuntamiento, y no una sociedad mercantil, el que promueva las viviendas.",
@@ -2519,7 +2716,7 @@ window.EP = {
     "Iza centró su intervención en la emancipación de los jóvenes y en los vecinos que, según la formación, se ven obligados a plantearse dejar sus municipios por el precio del alquiler. Adelante Andalucía pide que el derecho a la vivienda sea efectivo y que figure entre las prioridades de las administraciones. La visita se enmarca en su campaña, que el partido presenta con el lema «Coraje y esperanza».",
     "La formación no ha precisado quién promovía las viviendas previstas en el solar ni en qué año se proyectaron.",
     "## Qué hace el Ayuntamiento",
-    "El gobierno municipal tiene en marcha dos promociones públicas a través de la empresa VIVE Alcalá: las 84 viviendas de alquiler de la Cornisa del Zacatín, a 350 euros al mes, cuyo <a href='#zacatin-84-viviendas-alquiler-adjudicacion-31-diciembre'>proceso de adjudicación está abierto hasta el 31 de diciembre</a>, y las 107 viviendas protegidas en venta de la avenida Mar Mediterráneo, que <a href='#vive-sorteo-107-nuevas-promociones'>se sortearán próximamente</a>.",
+    "El gobierno municipal tiene en marcha dos promociones públicas a través de la empresa VIVE Alcalá: las 84 viviendas de alquiler de la Cornisa del Zacatín, a 350 euros al mes, cuyo <a href='#zacatin-84-viviendas-alquiler-adjudicacion-31-diciembre'>proceso de adjudicación está abierto hasta el 31 de diciembre</a>, y las 107 viviendas protegidas en venta de la avenida Mar Mediterráneo, que se sortearán próximamente.",
     "Begoña Iza ya llevó a la agenda de la formación otro asunto alcalareño este mes, cuando <a href='#adelante-andalucia-tranvia-retraso-explicaciones'>pidió a la Junta una fecha definitiva para el tranvía</a>.",
     "<span class='howto'><b>Elecciones generales.</b> Domingo 29 de noviembre. Los integrantes de las mesas electorales de Alcalá <a href='#mesas-electorales-sorteo-pleno-29-noviembre'>se sortearon en el pleno del 30 de octubre</a>.</span>"
    ],
@@ -4351,7 +4548,7 @@ window.EP = {
     "## Las obras, al 75 % en agosto",
     "La última actualización oficial del estado de los trabajos es del 28 de agosto. Ese día, el consejero de Fomento y Movilidad, Mario Muñoz-Atanet, <a href='https://www.juntadeandalucia.es/organismos/fomentoymovilidad/servicios/actualidad/noticias/detalle/681283.html'>visitó las obras y las situó en el 75 % de ejecución</a>. Se refería a los trabajos que faltan para poner la línea en servicio, que suman 178 millones de euros, cofinanciados con fondos europeos Feder y Next Generation.",
     "Según aquella nota, la catenaria estaba instalada casi por completo, los ramales técnicos de los talleres estaban terminados y el edificio principal, con el taller de mantenimiento y el puesto de control, tenía un estado de avance alto. La flota será de seis trenes. Las dos primeras unidades, guardadas en ese recinto, hicieron las primeras pruebas dinámicas en primavera.",
-    "La línea discurre <a href='https://www.juntadeandalucia.es/boja/2026/177/38.html'>entre la Universidad Pablo de Olavide y Montecarmelo</a>. La Junta recuerda que en 2019 ya se habían invertido 113 millones de euros y sostiene que entonces las obras estaban paralizadas y sin los fondos europeos necesarios para acabarlas. Una de las <a href='#vive-sorteo-107-nuevas-promociones'>próximas promociones de VIVE Alcalá</a>, la de Monte Carmelo, se prevé junto a una de sus paradas.",
+    "La línea discurre <a href='https://www.juntadeandalucia.es/boja/2026/177/38.html'>entre la Universidad Pablo de Olavide y Montecarmelo</a>. La Junta recuerda que en 2019 ya se habían invertido 113 millones de euros y sostiene que entonces las obras estaban paralizadas y sin los fondos europeos necesarios para acabarlas. Una de las próximas promociones de VIVE Alcalá, la de Monte Carmelo, se prevé junto a una de sus paradas.",
     "## Otras partidas de transporte",
     "En el mismo capítulo, la Consejería de Fomento y Movilidad asigna en la provincia 250 millones de euros a la Línea 3 Norte del Metro de Sevilla, más de 70 millones a mejorar la Línea 1, con la que enlazará el tranvía, y 14 millones al inicio de la primera fase del Área Logística de Majarabique.",
     "Las cifras son las del proyecto de ley, de modo que aún pueden cambiar en su tramitación. La Junta prevé que el Parlamento de Andalucía lo apruebe antes de que acabe el año, para que entre en vigor el 1 de enero de 2027."
@@ -5027,7 +5224,7 @@ window.EP = {
     "José David Cobos Martínez será el nuevo hermano mayor de la Hermandad de Nuestro Padre Jesús Cautivo de Alcalá de Guadaíra. Su candidatura ganó el cabildo de elecciones del domingo 25 de octubre con 335 votos, frente a los 252 de la encabezada por el hermano mayor saliente, Juan Carlos Navarro Huertas.",
     "Según los resultados difundidos por la propia hermandad, votaron 596 hermanos y hubo ocho papeletas en blanco. La diferencia entre las dos listas fue de 83 votos. La elección queda a expensas de la aprobación de la autoridad eclesiástica, y la junta de Cobos tendrá el gobierno de la cofradía durante los próximos cuatro años.",
     "La jornada transcurrió con una participación alta y, más allá de algún comentario fuera de lugar durante el escrutinio, las dos candidaturas pidieron respeto y no hubo incidentes. Hasta que se produzca el traspaso de poderes, la junta saliente sigue al frente: en estos días ha cambiado el atuendo de Nuestra Señora de la Esperanza y de María Santísima de los Dolores, que visten ya de luto para noviembre, el mes de los difuntos.",
-    "El cabildo cerraba un proceso con dos candidaturas que El Panadero ya <a href='#jesus-palio-socorro-borriquita-cristo-bondad'>anunció la semana pasada</a>. Cobos tiene previsto pasar por el programa Alcalá Cofrade cuando tome posesión para explicar su proyecto.",
+    "El cabildo cerraba un proceso con dos candidaturas que El Panadero ya anunció la semana pasada. Cobos tiene previsto pasar por el programa Alcalá Cofrade cuando tome posesión para explicar su proyecto.",
     "## El Soberano Poder vota el 7 de noviembre",
     "La próxima hermandad que pasa por las urnas es la del Soberano Poder, que celebra cabildo de elecciones el sábado 7 de noviembre. Antonio León Donoso presentó su candidatura el domingo 25 de octubre en la sede de la Asociación de Amigos de los Reyes Magos, la de la Cabalgata, con una junta que combina a hermanos con trayectoria en la cofradía del Miércoles Santo y a otros que se estrenan en el gobierno. Sustituirá a Jaime Otero, que deja el cargo tras cuatro años, como ya contó este periódico.",
     "Ese mismo sábado 7 la Hermandad del Rocío celebrará el encuentro «Vivencias del camino», que tenía previsto para el sábado 31 de octubre después de su misa de hermandad y que ha aplazado por el accidente ferroviario de Urda. En él, los hermanos repasarán las fotografías de la última romería y elegirán las del próximo boletín.",
@@ -5702,7 +5899,7 @@ window.EP = {
     "## Dónde están las bases",
     "Los anuncios del BOP solo reproducen el apartado de plazos. El resto de las condiciones, como los requisitos de titulación, el tipo de contrato, el temario o el salario, figuran en las bases completas, que se consultan en la sede electrónica de VIVE Alcalá con el código seguro de verificación de cada documento. Las solicitudes que se presenten fuera de plazo o sin la forma prevista no se admitirán.",
     "## Una empresa en crecimiento",
-    "La convocatoria llega en pleno arranque de las primeras promociones de la empresa municipal. VIVE construye 84 viviendas de alquiler asequible en la Cornisa del Zacatín, cuyas obras empezaron en octubre, y prepara <a href='#vive-sorteo-107-nuevas-promociones'>el sorteo de 107 viviendas protegidas en venta en la avenida Mar Mediterráneo</a>, previsto para diciembre. Según el delegado de Urbanismo, Jesús Mora, la empresa trabaja además en los anteproyectos de unas 100 viviendas en Pablo VI y 600 en Cercadillo.",
+    "La convocatoria llega en pleno arranque de las primeras promociones de la empresa municipal. VIVE construye 84 viviendas de alquiler asequible en la Cornisa del Zacatín, cuyas obras empezaron en octubre, y prepara el sorteo de 107 viviendas protegidas en venta en la avenida Mar Mediterráneo, previsto para diciembre. Según el delegado de Urbanismo, Jesús Mora, la empresa trabaja además en los anteproyectos de unas 100 viviendas en Pablo VI y 600 en Cercadillo.",
     "El BOP del mismo día publica también las bases para cubrir, por concurso de méritos entre funcionarios de carrera del Ayuntamiento, la jefatura de la Sección de Mantenimiento de Edificios, un puesto de arquitectura técnica con un plazo de 15 días hábiles.",
     "<span class='howto'>Plazo: 20 días naturales desde el 30 de octubre, hasta el miércoles 18 de noviembre de 2026. Bases y solicitudes: sede electrónica de VIVE Alcalá (vivealcaladeguadaira.sedelectronica.es). Códigos de verificación de las bases: 79SRWNCQ7NHMLKM54WXXC9JK7 (asesor jurídico) y 3CYR5AZ293P6DN3AF7XNA3YQ6 (administrativo).</span>"
    ],
@@ -6178,7 +6375,7 @@ window.EP = {
     "## La versión del Ayuntamiento",
     "El Ayuntamiento defiende que recurrir a la financiación europea permite evitar endeudamiento y ahorrar cerca de 4,9 millones de euros en costes financieros.",
     "Izquierda Alcalareña insiste en que no cuestiona la necesidad de construir vivienda pública en Alcalá, sino la forma elegida para financiarla y sus posibles consecuencias para las cuentas municipales.",
-    "Las 84 viviendas son de dos dormitorios y se alquilarán por 350 euros al mes más garaje y trastero, según el Ayuntamiento. Es una de las promociones con las que el gobierno municipal quiere ampliar el parque público, junto a las <a href='#vive-sorteo-107-nuevas-promociones'>107 viviendas protegidas en venta</a> que VIVE sorteará a principios de diciembre."
+    "Las 84 viviendas son de dos dormitorios y se alquilarán por 350 euros al mes más garaje y trastero, según el Ayuntamiento. Es una de las promociones con las que el gobierno municipal quiere ampliar el parque público, junto a las 107 viviendas protegidas en venta que VIVE sorteará a principios de diciembre."
    ],
    "seo": [
     "izquierda-alcalarena-vive-84-viviendas-financiacion",
@@ -6392,7 +6589,7 @@ window.EP = {
     "## La provincia también vende más",
     "En el conjunto de la provincia de Sevilla se vendieron 1.867 viviendas en agosto de 2026, un 5,18 % más que en agosto del año anterior, según los últimos datos publicados por la Diputación de Sevilla a partir de la estadística del Instituto Nacional de Estadística (INE).",
     "El número de operaciones y la evolución de los precios miden dos cosas distintas: cuántas viviendas cambian de dueño y cuánto cuesta a quien busca comprar.",
-    "La subida llega mientras el Ayuntamiento y su empresa pública VIVE Alcalá preparan nuevas promociones protegidas. VIVE sorteará a principios de diciembre <a href='#vive-sorteo-107-nuevas-promociones'>107 viviendas protegidas en venta</a> y ha empezado a construir 84 viviendas de alquiler asequible en el Zacatín, que se alquilarán por 350 euros al mes más garaje y trastero."
+    "La subida llega mientras el Ayuntamiento y su empresa pública VIVE Alcalá preparan nuevas promociones protegidas. VIVE sorteará a principios de diciembre 107 viviendas protegidas en venta y ha empezado a construir 84 viviendas de alquiler asequible en el Zacatín, que se alquilarán por 350 euros al mes más garaje y trastero."
    ],
    "seo": [
     "precio-vivienda-alcala-compraventas-2026",
@@ -6906,7 +7103,7 @@ window.EP = {
     "El Pleno votó la modificación el 20 de octubre, con el rechazo de la oposición, sobre el proyecto que la Junta de Gobierno Local había aprobado el 9 de octubre. El expediente incluye un informe técnico económico sobre la tasa por el servicio de extinción de incendios, una de las tasas que se revisan.",
     "## Qué se puede reclamar",
     "Las ordenanzas mantienen los tipos de los impuestos y las tasas, pero cambian algunas reglas. Como contó El Panadero, en el impuesto sobre actividades económicas el Ayuntamiento tendrá seis meses en lugar de tres para resolver las bonificaciones y, si no contesta, se entenderán denegadas. Además, desaparece la exención de algunas tasas de ocupación de la vía pública que se aplicó en la pandemia, entre ellas la de veladores.",
-    "El Consejo Económico y Social de la ciudad <a href='#ces-ordenanzas-sin-dictamen'>se negó a dictaminar</a> las ordenanzas porque, según sus miembros, se le consultó cuando el gobierno ya había aprobado el proyecto.",
+    "El Consejo Económico y Social de la ciudad se negó a dictaminar las ordenanzas porque, según sus miembros, se le consultó cuando el gobierno ya había aprobado el proyecto.",
     "## Si nadie reclama, quedan aprobadas",
     "El anuncio, firmado el 21 de octubre por el secretario general del Ayuntamiento, recoge que las reclamaciones las resolverá la Corporación. Si no se presenta ninguna en el plazo, el acuerdo provisional se convertirá en definitivo sin necesidad de un nuevo acuerdo del Pleno. Si las hay, el Pleno tendrá que votarlas antes de aprobar el texto final.",
     "El plazo se cuenta desde el día siguiente a la publicación del anuncio en el tablón municipal, en el BOP y en un diario de los de mayor difusión de la provincia, como exige la Ley Reguladora de las Haciendas Locales.",
@@ -7171,274 +7368,6 @@ window.EP = {
      "Ayuntamiento de Alcalá de Guadaíra",
      "cultura",
      "BOP de Sevilla"
-    ]
-   ]
-  },
-  {
-   "id": "ces-ordenanzas-sin-dictamen",
-   "sec": "politica",
-   "kicker": "Participación",
-   "iso": "2026-10-23",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=AVk0U-_O4TY&t=1008s",
-   "title": "El Consejo Económico y Social no dictamina las ordenanzas de 2027 al considerar que se le consultó tarde",
-   "sub": "El órgano consultivo sostiene por unanimidad que sus estatutos exigen un informe previo; Hacienda le pidió opinión el 13 de octubre, después de que la Junta de Gobierno aprobara el proyecto",
-   "caption": "Certificado del Consejo Económico y Social de Alcalá de Guadaíra con el acuerdo de no emitir dictamen sobre las ordenanzas fiscales de 2027.",
-   "foto": "ces-ordenanzas-sin-dictamen.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El Consejo Económico y Social de Alcalá de Guadaíra acordó por unanimidad el 20 de octubre de 2026 no emitir dictamen sobre las ordenanzas fiscales de 2027.",
-    "La Junta de Gobierno Local aprobó el proyecto el 9 de octubre y la Delegación de Hacienda pidió el dictamen el 13, siete días antes de que el Pleno lo aprobara.",
-    "Los estatutos del Consejo, aprobados por el Pleno en 2002, le encargan emitir dictamen «con carácter previo» sobre ordenanzas, impuestos, tasas y precios públicos."
-   ],
-   "body": [
-    "El Consejo Económico y Social de Alcalá de Guadaíra acordó por unanimidad el martes 20 de octubre no emitir dictamen sobre las ordenanzas fiscales de 2027. El órgano consultivo, en el que se sientan los agentes sociales y económicos de la ciudad, sostiene que el gobierno municipal ha incumplido sus estatutos porque le pidió opinión cuando la Junta de Gobierno Local ya había aprobado el proyecto.",
-    "El acuerdo consta en un certificado firmado el 21 de octubre por el vicepresidente primero del Consejo, Carlos García Gandul. El mismo día 20 en que el Consejo se reunió, el Pleno municipal aprobó de forma provisional las nuevas ordenanzas fiscales, con los votos en contra de la oposición.",
-    "## El calendario del expediente",
-    "El certificado reconstruye el calendario. La Junta de Gobierno Local aprobó el proyecto de ordenanzas el 9 de octubre. Cuatro días después, el 13, la Delegación de Hacienda pidió el dictamen al Consejo y le envió la documentación. Ese mismo día hubo una reunión informativa con la delegada de Hacienda y el jefe del Servicio de Administración Tributaria. Una semana más tarde, el expediente ya estaba en el Pleno.",
-    "Según el Consejo, esos pasos no bastan. Sus estatutos, aprobados por el Pleno el 21 de marzo de 2002 y publicados en el Boletín Oficial de la Provincia (BOP) el 13 de mayo de ese año, recogen en su artículo 12 que entre sus funciones está «emitir dictamen con carácter previo» sobre la política fiscal del municipio, las ordenanzas fiscales, los impuestos, las tasas y los precios públicos.",
-    "El Consejo «hace constar su malestar» con el equipo de gobierno por no cumplir lo establecido, considera que se le ha impedido desarrollar sus funciones consultivas y advierte de que esta forma de actuar supone una merma de la participación democrática de los agentes sociales y económicos en los asuntos de la ciudad.",
-    "## Lo que dice el gobierno",
-    "El Ayuntamiento presentó el 22 de octubre las ordenanzas en una <a href='https://www.alcaladeguadaira.es/noticias/9935/el-ayuntamiento-congela-un-ano-mas-todos-los-impuestos'>nota de prensa</a> en la que habla de «modificaciones exclusivamente técnicas» y destaca que el tipo del impuesto sobre bienes inmuebles (IBI) sigue en el 0,52, por debajo de la media provincial.",
-    "Las ordenanzas incluyen también cambios en el impuesto sobre actividades económicas: el Ayuntamiento tendrá seis meses para resolver las bonificaciones y, si no responde, se entenderán denegadas. La oposición criticó ese cambio en el Pleno.",
-    "La aprobación es provisional. El Boletín Oficial de la Provincia publicó el anuncio el 27 de octubre y abrió el <a href='#ordenanzas-2027-plazo-reclamaciones'>plazo de 30 días para presentar reclamaciones</a>."
-   ],
-   "seo": [
-    "consejo-economico-social-ordenanzas-fiscales-dictamen",
-    "Ordenanzas 2027: el Consejo Económico y Social no dictamina",
-    "El Consejo Económico y Social de Alcalá de Guadaíra no dictamina las ordenanzas de 2027 porque considera que se le pidió opinión con el proyecto aprobado.",
-    [
-     "Consejo Económico y Social",
-     "ordenanzas fiscales 2027",
-     "participación ciudadana",
-     "Delegación de Hacienda",
-     "Pleno municipal",
-     "impuestos municipales"
-    ]
-   ]
-  },
-  {
-   "id": "diamantino-garcia-obras-sin-fecha",
-   "sec": "alcala",
-   "kicker": "Obras",
-   "iso": "2026-10-23",
-   "src": "Ayuntamiento de Alcalá de Guadaíra",
-   "fuente_url": "https://www.alcaladeguadaira.es/noticias/9937/las-obras-del-centro-de-adultos-diamanto-garcia-continuan-con-la-fase-de-revestimiento-de-muros-e-instalaciones",
-   "title": "Las obras del Centro de Adultos Diamantino García llegan a la fase de revestimientos e instalaciones",
-   "sub": "La alcaldesa visitó la reforma, de más de 700.000 euros del Plan Sevilla 107; se anunció con un año de duración y el Ayuntamiento no ha dado nueva fecha de final",
-   "caption": "La alcaldesa, Ana Isabel Jiménez, durante su visita a las obras del Centro de Adultos Diamantino García el 22 de octubre.",
-   "foto": "diamantino-garcia-obras-of.jpg",
-   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "La reforma integral del Centro de Educación de Adultos Diamantino García, en Alcalá de Guadaíra, empezó en septiembre de 2025 con una duración estimada de un año.",
-    "En octubre de 2026 la obra está en fase de revestimiento de muros e instalaciones y en la estructura del pasillo que unirá los dos edificios.",
-    "La inversión supera los 700.000 euros del Plan Sevilla 107 de la Diputación de Sevilla.",
-    "Durante la obra, el Ayuntamiento trasladó en septiembre de 2025 a los alumnos del centro al IES Leonor de Guzmán."
-   ],
-   "body": [
-    "La reforma integral del Centro de Educación de Adultos Diamantino García de Alcalá de Guadaíra sigue en marcha un año después de empezar. La alcaldesa, Ana Isabel Jiménez, visitó los trabajos el jueves 22 de octubre: según el Ayuntamiento, están en fase de revestimiento de muros e instalaciones y en la estructura del pasillo que unirá los dos edificios.",
-    "El Ayuntamiento no ha dado una nueva fecha de final.",
-    "## Calendario de la obra",
-    "En octubre de 2024, el delegado de Hábitat Urbano, David Delgado, <a href='https://www.alcaladeguadaira.es/noticias/8233/la-reforma-integral-del-centro-de-adultos-diamantino-garcia-vera-la-luz-en-2025'>anunció</a> que el proyecto estaría listo a final de ese año, que la licitación llegaría en el primer semestre de 2025 y que las obras empezarían previsiblemente en verano de 2025.",
-    "Las máquinas entraron después. El 18 de septiembre de 2025, la alcaldesa <a href='https://www.alcaladeguadaira.es/noticias/8999/presentado-el-proyecto-de-reforma-integral--del-centro-de-adultos-diamantino-garcia'>presentó el proyecto</a> y anunció que la obra empezaría la semana siguiente, con una duración estimada de un año. «La intención es que las obras de las nuevas instalaciones finalicen en el último trimestre del año que viene», dijo entonces.",
-    "En abril de 2026, en otra <a href='https://www.alcaladeguadaira.es/noticias/9502/%E2%80%8Blas-obras-de-reforma-integral-del-centro-de-adultos-diamantino-garcia-avanzan-a-buen-ritmo'>visita</a>, el Ayuntamiento aseguró que los trabajos avanzaban «a buen ritmo» y que se trabajaba en las cubiertas, el saneamiento y la instalación eléctrica.",
-    "## 700.000 euros de la Diputación",
-    "La reforma cuesta más de 700.000 euros, con cargo al Plan Sevilla 107 de la Diputación de Sevilla, que suma 2,4 millones para Alcalá.",
-    "Cuando termine, el edificio, de más de 50 años, tendrá 593 metros cuadrados, cinco aulas, un salón de actos, despachos y un aforo de 225 personas. La obra incluye nuevas instalaciones de saneamiento y fontanería, cubiertas, carpintería, sistemas de seguridad, un nuevo cerramiento de la parcela y riego por goteo.",
-    "La alcaldesa defendió durante la visita que el centro será «un referente» de la enseñanza de adultos y que el diseño ha recogido las peticiones de alumnos y profesores. La reforma forma parte del Plan de Barrios del gobierno municipal.",
-    "Mientras dura la obra, los alumnos estudian fuera de su centro: en septiembre de 2025 el Ayuntamiento informó de que sus 150 alumnos cursarían el año en el IES Leonor de Guzmán."
-   ],
-   "seo": [
-    "reforma-centro-adultos-diamantino-garcia-retraso",
-    "Centro de Adultos Diamantino García: así van las obras",
-    "La reforma del Centro de Adultos Diamantino García de Alcalá está en fase de revestimientos e instalaciones, con más de 700.000 euros de la Diputación.",
-    [
-     "Centro de Adultos Diamantino García",
-     "Plan Sevilla 107",
-     "educación de adultos",
-     "David Delgado",
-     "Ana Isabel Jiménez",
-     "Plan de Barrios"
-    ]
-   ]
-  },
-  {
-   "id": "vive-sorteo-107-nuevas-promociones",
-   "sec": "alcala",
-   "kicker": "Vivienda",
-   "iso": "2026-10-23",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=AVk0U-_O4TY&t=646s",
-   "title": "VIVE Alcalá sorteará a principios de diciembre las 107 viviendas protegidas en venta de Mar Mediterráneo",
-   "sub": "La alcaldesa anuncia unas 100 viviendas en Monte Carmelo y 600 en Cercadillos; el PP pide «viviendas terminadas, no anunciadas» y cuestiona la empresa municipal",
-   "caption": "Visitantes junto a los paneles del proyecto en la parcela de la Cornisa del Zacatín, el martes 20 de octubre.",
-   "foto": "vive-sorteo-107-nuevas-promociones.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "VIVE Alcalá prevé sortear a principios de diciembre de 2026 las 107 viviendas protegidas en venta de la avenida Mar Mediterráneo, según la alcaldesa, Ana Isabel Jiménez.",
-    "El Ayuntamiento anuncia unas 100 viviendas en Monte Carmelo y 600 en Cercadillos, en dos fases de 300.",
-    "Para entrar en los sorteos hay que estar inscrito en el registro municipal de demandantes, no tener otra vivienda y llevar al menos tres años empadronado en Alcalá.",
-    "El PP sostiene que en diez años no se ha construido ninguna vivienda protegida de iniciativa municipal y critica que VIVE sea una sociedad mercantil con gerente."
-   ],
-   "body": [
-    "La empresa pública VIVE Alcalá sorteará a principios de diciembre las 107 viviendas protegidas en venta de la avenida Mar Mediterráneo, en Alcalá de Guadaíra. Lo anunció la alcaldesa, Ana Isabel Jiménez, durante el inicio de las obras de las 84 viviendas de alquiler del Zacatín, donde también avanzó otras 700 viviendas.",
-    "«Estamos barajando principios de diciembre para poder tener ya todos los datos metidos en el registro y poder realizar ese sorteo», explicó Jiménez en declaraciones a El Panadero. El plazo de inscripción para esta promoción terminó el 31 de julio, aunque el registro sigue admitiendo solicitudes para otras promociones.",
-    "La alcaldesa explicó que se sortean antes las viviendas en venta que las de alquiler, aunque el Zacatín ya está en obras, porque los adjudicatarios tendrán que ir pagando cuotas hasta el final de la construcción para después subrogarse en la hipoteca de la promoción. Cada vivienda de Mar Mediterráneo cuesta 115.000 euros, más 15.000 por el garaje y el trastero.",
-    "## Monte Carmelo y Cercadillos",
-    "Jiménez situó la siguiente promoción en Monte Carmelo: unas 100 viviendas en un solar entre Los Lirios y Pablo VI, junto a la parada del tranvía, cuya redacción de proyecto se prepara para licitar. A ellas sumó 600 en cuatro parcelas de Cercadillos, junto al estadio, que se licitarían en dos fases de 300.",
-    "Son las cifras que el Ayuntamiento ya daba a principios de octubre como proyectos en estudio. Todavía no hay plazos ni presupuesto.",
-    "La alcaldesa defendió que la vivienda protegida debe tener «un precio asequible» y se desmarcó de promociones de otros municipios que, dijo, llegan a 200.000 o 300.000 euros.",
-    "## La posición del PP",
-    "El portavoz del PP, Esaú Pérez, valoró en el programa La Tribuna que se amplíe la oferta de vivienda asequible, pero criticó la gestión municipal. «Lo que queremos son las viviendas terminadas, no anunciadas», afirmó. Según Pérez, en los últimos diez años no se ha construido en Alcalá ninguna vivienda protegida de iniciativa municipal.",
-    "Pérez también cuestionó el modelo: «¿Que era necesario montar una sociedad limitada mercantil capitalista para llevarla a cabo? Pues no». Tampoco ve necesario que tenga gerente y equipo directivo. VIVE se creó en 2024 con los votos de PSOE y Andalucía Por Sí.",
-    "<span class='howto'>Requisitos para los sorteos, según la alcaldesa: estar inscrito en el Registro Público Municipal de Demandantes de Vivienda Protegida, no tener otra vivienda en propiedad y llevar al menos tres años empadronado en Alcalá. Después se aplican los límites de renta de cada promoción.</span>"
-   ],
-   "seo": [
-    "vive-alcala-sorteo-107-viviendas-diciembre",
-    "Sorteo de las 107 viviendas de VIVE Alcalá en diciembre",
-    "VIVE Alcalá sorteará a principios de diciembre las 107 viviendas en venta de Mar Mediterráneo y anuncia 700 más en Monte Carmelo y Cercadillos.",
-    [
-     "VIVE Alcalá",
-     "vivienda protegida",
-     "avenida Mar Mediterráneo",
-     "Cercadillos",
-     "Monte Carmelo",
-     "Esaú Pérez",
-     "Ana Isabel Jiménez"
-    ]
-   ]
-  },
-  {
-   "id": "encuentro-espacios-productivos",
-   "sec": "economia",
-   "kicker": "Polígonos",
-   "iso": "2026-10-23",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=AVk0U-_O4TY&t=147s",
-   "title": "Alcalá reúne a un centenar de empresarios y técnicos para hablar de los problemas de los polígonos",
-   "sub": "El II Encuentro Provincial de Espacios Productivos, en La Procesadora, pide más asociacionismo en unas áreas industriales que los propios participantes ven descuidadas",
-   "caption": "Uno de los ponentes del II Encuentro Provincial de Espacios Productivos de Sevilla, en La Procesadora.",
-   "foto": "encuentro-espacios-productivos.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "Alcalá de Guadaíra acogió el jueves 22 de octubre de 2026 el II Encuentro Provincial de Espacios Productivos de Sevilla, en La Procesadora.",
-    "Lo organizaron Prodetur, el Ayuntamiento y la Confederación de Empresarios de Sevilla, con la colaboración de CEDAES y la Coordinadora Española de Polígonos Industriales.",
-    "La jornada reunió a un centenar de participantes y se centró en la gestión, la sostenibilidad, el urbanismo y la logística de los polígonos.",
-    "Los organizadores señalan la falta de cultura asociativa en las áreas industriales como uno de sus principales problemas."
-   ],
-   "body": [
-    "Alcalá de Guadaíra acogió el jueves 22 de octubre el II Encuentro Provincial de Espacios Productivos de Sevilla, una jornada sobre el estado y el futuro de los polígonos industriales celebrada en La Procesadora. Reunió a un centenar de empresarios, representantes de asociaciones, gestores públicos y privados y técnicos municipales.",
-    "La organizaron Prodetur, la sociedad de desarrollo de la Diputación de Sevilla; el Ayuntamiento y la Confederación de Empresarios de Sevilla, con la colaboración de la Confederación Española de Áreas Empresariales (CEDAES) y la Coordinadora Española de Polígonos Industriales (CEPE).",
-    "## «Traseros de las ciudades»",
-    "El punto de partida, según la <a href='https://www.alcaladeguadaira.es/noticias/9938/alcala-reune-al-tejido-empresarial-de-la-provincia-para-impulsar-la-colaboracion-y-la-competitividad-de-los-espacios-productivos'>nota del Ayuntamiento</a>, es la falta de una cultura asociativa consolidada en las áreas industriales, que les impide afrontar retos comunes y modernizar infraestructuras y servicios.",
-    "Algunos participantes lo dijeron con menos rodeos. Uno de los empresarios que intervino describió los polígonos como zonas que se consideran «traseros de las ciudades» y en las que cada empresa gestiona por su cuenta. Puso como ejemplo el polígono El Pino, que calificó de enorme y más antiguo que la propia democracia, y defendió que las empresas actúen en común a través de las entidades de conservación.",
-    "Alcalá cuenta con 21 parques empresariales, según el Ayuntamiento, y en la jornada se la presentó como el municipio con más suelo productivo de la provincia. Una conferencia inaugural y dos mesas técnicas abordaron la gestión eficiente, la sostenibilidad, las necesidades urbanísticas, la planificación legal y la logística.",
-    "## Lo que hace el Ayuntamiento",
-    "En la apertura, el delegado municipal de Desarrollo Económico e Industria, Pablo Chain, defendió los encuentros entre las distintas zonas industriales de la ciudad. Como ejemplo citó el proyecto Parques Empresariales Inteligentes, que ofrece servicios de cibervigilancia y apoyo a las empresas desde la incubación hasta la internacionalización.",
-    "El Ayuntamiento logró además este mes 1,68 millones de Red.es para aplicar inteligencia artificial y análisis de datos a sus polígonos y su comercio.",
-    "Los organizadores defendieron la colaboración entre administraciones y empresas como la vía para tener áreas industriales más modernas y competitivas."
-   ],
-   "seo": [
-    "encuentro-provincial-espacios-productivos-poligonos",
-    "Polígonos de Alcalá: encuentro provincial en La Procesadora",
-    "Alcalá de Guadaíra acogió el II Encuentro Provincial de Espacios Productivos, con un centenar de participantes y críticas al abandono de los polígonos.",
-    [
-     "polígonos industriales",
-     "La Procesadora",
-     "Prodetur",
-     "Confederación de Empresarios de Sevilla",
-     "Pablo Chain",
-     "polígono El Pino"
-    ]
-   ]
-  },
-  {
-   "id": "jesus-palio-socorro-borriquita-cristo-bondad",
-   "sec": "hermandades",
-   "kicker": "Cofradías",
-   "iso": "2026-10-23",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=Nmr0xHTRnB8&t=394s",
-   "title": "Jesús Nazareno prepara un nuevo palio para el Socorro y la Borriquita estudia restaurar al Cristo de la Bondad",
-   "sub": "Las dos cofradías llevarán sus proyectos a cabildo; el domingo 25 coinciden las funciones de sus titulares marianas, el Rosario de la Aurora y las elecciones del Cautivo",
-   "caption": "La Virgen del Socorro, en el altar de cultos de su triduo en la parroquia de Santiago.",
-   "foto": "jesus-palio-socorro-cultos.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "La Hermandad de Jesús Nazareno de Alcalá de Guadaíra tiene un proyecto de reforma del paso de palio de la Virgen del Socorro, diseñado por Francisco Abel Sánchez de los Reyes, que someterá a cabildo general.",
-    "El paso de San Juan de la Hermandad de Jesús saldrá restaurado en la próxima Semana Santa, con una parte importante del coste pagada por el Ayuntamiento, y se expondrá el 21 de noviembre.",
-    "La Hermandad de la Borriquita prevé llevar a su cabildo de enero la restauración del Cristo de la Bondad y de la burra de su misterio.",
-    "El domingo 25 de octubre la Hermandad del Cautivo elige hermano mayor entre dos candidaturas."
-   ],
-   "body": [
-    "La Hermandad de Nuestro Padre Jesús Nazareno de Alcalá de Guadaíra trabaja en una reforma integral del paso de palio de la Virgen del Socorro. Lo explicó su hermano mayor, Ángel Gutiérrez, en declaraciones a El Panadero en la parroquia de Santiago, donde la dolorosa preside desde el jueves 22 de octubre su triduo.",
-    "El diseño es de Francisco Abel Sánchez de los Reyes y ya está entregado. Gutiérrez explicó que el paso se redimensionará dentro de los límites de la puerta de Santiago, más estrecha de lo habitual, y que se conservarán piezas antiguas de calidad. Seguirá siendo un palio de malla, bordado por delante y por detrás. «Es un proyecto de mucho dinero», reconoció, por lo que se hará por fases y lo culminarán juntas de gobierno futuras.",
-    "El hermano mayor quiere que lo apruebe un cabildo general, aunque las reglas no lo exigen. No ha dado una cifra: los presupuestos de bordado, explicó, caducan pronto y dependen del precio del oro.",
-    "## San Juan, con ayuda municipal",
-    "El paso de San Juan saldrá completamente restaurado en la próxima Semana Santa. Su base es de finales del siglo XIX, cuando era el paso de la Virgen, y su parte artística es de Guzmán Bejarano. Gutiérrez agradeció al Ayuntamiento que haya pagado «una parte muy importante» del proyecto, sin precisar la cantidad. El paso se expondrá en la casa hermandad en una jornada de puertas abiertas el 21 de noviembre. Además, la hermandad se ha comprometido a terminar el año que viene las dos cartelas pendientes del paso de Jesús.",
-    "## La Borriquita mira al Cristo",
-    "El nuevo hermano mayor de la Borriquita, Alejandro Álvarez Gálvez, anunció que, si los informes llegan a tiempo, llevará al cabildo de enero la restauración del Santísimo Cristo de la Bondad y de la burra del misterio. No hay daños graves, precisó, pero la última intervención, de Juan Manuel Miñarro, tiene unos 25 años. La hermandad también prepara nuevas reglas adaptadas a las normas diocesanas de 2015.",
-    "## Un domingo cargado",
-    "El domingo 25 de octubre la Virgen del Socorro estará en besamanos con su función principal y la Virgen de la Oliva, titular de la Borriquita, cerrará su triduo con función solemne en San Agustín. A las 6.30, la Virgen del Rosario, de la hermandad salesiana, saldrá en Rosario de la Aurora, cantado por el coro de la Hermandad del Rocío.",
-    "Ese mismo día, la Hermandad del Cautivo celebra cabildo de elecciones con dos candidaturas, una de ellas encabezada por el actual hermano mayor, Juan Carlos Navarro. El 7 de noviembre votará el Soberano Poder, donde Antonio León Donoso encabeza una candidatura para suceder a Jaime Otero.",
-    "El sábado 24, las clarisas sacarán por la tarde la imagen de San Francisco por el año jubilar franciscano, con la Hermandad del Perdón. Rezarán en la rotonda del Panadero, donde estuvo el primitivo convento de San Francisco.",
-    "<span class='howto'>Domingo 25 de octubre: Rosario de la Aurora de la Virgen del Rosario, a las 6.30. Besamanos y función de la Virgen del Socorro en la parroquia de Santiago. Función de la Virgen de la Oliva en San Agustín. Sábado 21 de noviembre: puertas abiertas del paso de San Juan en la casa hermandad de Jesús.</span>"
-   ],
-   "seo": [
-    "hermandad-jesus-palio-socorro-borriquita-cristo-bondad",
-    "Nuevo palio para el Socorro y restauración en la Borriquita",
-    "La Hermandad de Jesús de Alcalá prepara un nuevo palio para la Virgen del Socorro y la Borriquita estudia restaurar a su Cristo de la Bondad.",
-    [
-     "Hermandad de Jesús Nazareno",
-     "Virgen del Socorro",
-     "Hermandad de la Borriquita",
-     "Cristo de la Bondad",
-     "Hermandad del Cautivo",
-     "Semana Santa de Alcalá"
-    ]
-   ]
-  },
-  {
-   "id": "ayudas-eficiencia-energetica-junta",
-   "sec": "economia",
-   "kicker": "Ayudas",
-   "iso": "2026-10-23",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=AVk0U-_O4TY&t=1140s",
-   "title": "Las ayudas de la Junta para ahorrar energía en casa cubren la mitad de la obra y se piden hasta 2027",
-   "sub": "La convocatoria, de más de 20 millones, también admite a autónomos, empresas y edificios públicos no residenciales como los de los ayuntamientos",
-   "caption": "Porcentaje de la inversión que cubren las ayudas de eficiencia energética de la Junta en viviendas.",
-   "foto": "ayudas-eficiencia-energetica-junta-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "La Agencia Andaluza de la Energía abrió el 22 de octubre de 2026 una convocatoria de más de 20 millones de euros para mejorar la eficiencia energética de viviendas y edificios.",
-    "En viviendas privadas la ayuda cubre el 50 % de la inversión y puede llegar al 65 % si se cumplen requisitos adicionales.",
-    "Las solicitudes se presentan por vía telemática hasta el 30 de septiembre de 2027 o hasta que se agote el dinero."
-   ],
-   "body": [
-    "Los vecinos de Alcalá de Guadaíra pueden pedir desde el jueves 22 de octubre las nuevas ayudas de la Junta de Andalucía para mejorar la eficiencia energética de sus viviendas. La convocatoria, gestionada por la Agencia Andaluza de la Energía, cuenta con más de 20 millones de euros cofinanciados con fondos europeos para toda Andalucía.",
-    "Las ayudas financian obras de aislamiento térmico, la renovación de la calefacción, la refrigeración y el agua caliente, la mejora de la iluminación y la instalación de energías renovables, como la solar fotovoltaica, la solar térmica o la aerotermia.",
-    "## Cuánto se cubre",
-    "En viviendas y edificios residenciales privados, la ayuda general cubre el 50 % de la inversión y puede subir hasta el 65 % si se cumplen requisitos adicionales. Para instalar equipos solares con almacenamiento, el incentivo para particulares llega al 55 %, con posibles incrementos.",
-    "Hay una condición clave: la actuación debe mejorar al menos una letra la calificación energética del inmueble y cumplir la reducción de consumo que fija la convocatoria. Por eso conviene revisar las bases antes de empezar la obra.",
-    "Las condiciones cambian según el tipo de solicitante y de instalación, así que el porcentaje no será el mismo para un particular que para un negocio. La Junta recomienda consultar las bases y comprobar qué actuaciones pueden acogerse antes de iniciar el trámite.",
-    "## También para negocios y ayuntamientos",
-    "La convocatoria incluye incentivos para autónomos, empresas y otros beneficiarios, y una línea para edificios públicos no residenciales. El Ayuntamiento de Alcalá podría optar a ella para sus propios edificios, aunque no ha informado de si lo hará.",
-    "Los comercios y autónomos de la ciudad tendrán además otra vía: las ayudas municipales de 1.000 a 15.000 euros cuyas bases aprobó el Pleno el 20 de octubre, que incluyen la eficiencia energética entre los gastos subvencionables y que todavía no están convocadas.",
-    "<span class='howto'>Plazo: del 22 de octubre de 2026 al 30 de septiembre de 2027, salvo que se agote antes el presupuesto. Cómo pedirla: por vía telemática, en la web de la Agencia Andaluza de la Energía. Requisito principal: la obra debe subir al menos una letra la calificación energética de la vivienda.</span>"
-   ],
-   "seo": [
-    "ayudas-eficiencia-energetica-viviendas-junta",
-    "Ayudas de la Junta para ahorrar energía en casa: el 50 %",
-    "Las ayudas de la Junta para la eficiencia energética de viviendas cubren el 50 % de la obra y se pueden pedir en Alcalá hasta el 30 de septiembre de 2027.",
-    [
-     "Agencia Andaluza de la Energía",
-     "eficiencia energética",
-     "ayudas vivienda",
-     "aerotermia",
-     "autoconsumo solar",
-     "Junta de Andalucía"
     ]
    ]
   },

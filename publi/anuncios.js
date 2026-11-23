@@ -1,5 +1,5 @@
 window.VMDATA = {
- "revisado": "2026-11-02",
+ "revisado": "2026-11-23",
  "fuente": "https://vivamovil.es/",
  "nota": "Datos de los anuncios de Vivamóvil en El Panadero. Los revisa cada lunes la tarea «Ofertas Vivamóvil». Los precios van con coma decimal, sin el símbolo €, IVA incluido.",
  "telefono": "900 833 051",
