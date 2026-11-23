@@ -211,6 +211,266 @@ window.EP = {
    "hora": "21:55"
   },
   {
+   "id": "documental-entre-el-pan-y-el-olvido-jornadas-memoria-democratica",
+   "sec": "cultura",
+   "kicker": "Memoria democrática",
+   "iso": "2026-11-23",
+   "hora": "21:53",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10030/el-documental-entre-el-pan-y-el-olvido-recupera-testimonios-reales-en-las-iii-jornadas-de-memoria-democratica-de-alcala",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "El documental «Entre el pan y el olvido» cierra en Alcalá las III Jornadas de Memoria Democrática",
+   "sub": "La película de Pablo Coca reúne testimonios de familias alcalareñas marcadas por la represión que siguió al golpe de julio de 1936",
+   "caption": "Imagen de archivo de la sección de cultura de El Panadero.",
+   "foto": "generica-cultura.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "El documental «Entre el pan y el olvido», del productor y director gaditano Pablo Coca, se proyectó en el Auditorio Riberas del Guadaíra en la última sesión de las III Jornadas de Memoria Democrática de Alcalá de Guadaíra.",
+    "La película reconstruye la historia de Alcalá desde la Segunda República hasta la represión posterior al golpe de 1936 con testimonios de vecinos y familias, imágenes de archivo y referencias a las exhumaciones de fosas.",
+    "Tras la proyección, el historiador José María García Márquez dio la conferencia «La represión franquista en Sevilla. El caso de Alcalá de Guadaíra».",
+    "Las jornadas, con el lema «Memoria, Democracia e Identidad», las organizan el Ayuntamiento y la Asociación de Memoria Histórica y Democrática Siglo XXI."
+   ],
+   "body": [
+    "El documental «Entre el pan y el olvido», del productor y director gaditano Pablo Coca, cerró las III Jornadas de Memoria Democrática de Alcalá de Guadaíra con una proyección en el Auditorio Riberas del Guadaíra, según ha informado el Ayuntamiento este lunes 23 de noviembre. La película recoge testimonios de vecinos y familias que vivieron el golpe de Estado de julio de 1936 en la ciudad.",
+    "Las jornadas, que este año llevan el lema «Memoria, Democracia e Identidad», las organizan el Ayuntamiento y la Asociación de Memoria Histórica y Democrática Siglo XXI. Según la nota municipal, su objetivo es preservar la memoria colectiva y fortalecer los valores democráticos. La edición de 2026 se abrió con la presentación del <a href='#memorial-circulo-memoria-cementerio-san-mateo'>«Círculo de la Memoria», el futuro memorial a las víctimas de la represión en el cementerio de San Mateo</a>.",
+    "## De las panaderías a las fosas",
+    "El relato del documental parte de la Alcalá de las panaderías, los hornos y los molinos y de los cambios sociales durante la Segunda República. A partir de ahí muestra cómo la violencia política, las detenciones y los asesinatos que siguieron al golpe alteraron la vida de la ciudad. Las voces de las familias se combinan con explicaciones históricas, imágenes de archivo y referencias a las investigaciones y a las exhumaciones de fosas.",
+    "Tras la proyección, el historiador José María García Márquez impartió la conferencia «La represión franquista en Sevilla. El caso de Alcalá de Guadaíra», con la colaboración de Vicente Pérez. La sesión terminó con un coloquio en el que participaron el propio cineasta y algunas de las personas que aparecen en el documental, entre ellas Francisco Falcón, Ana Jiménez y Manuela Genicio.",
+    "## Lo que dice la delegación",
+    "El responsable del Área de Identidad y delegado de Memoria Democrática, Christopher Rivas, sostiene que estas terceras jornadas mantienen el objetivo de recuperar y difundir la memoria histórica local, profundizar en el conocimiento de la represión franquista y abrir espacios de reflexión sobre los derechos humanos y las libertades. Según la nota municipal, su delegación seguirá impulsando actividades de divulgación e investigación.",
+    "El Ayuntamiento señala que, aunque las jornadas de 2026 han terminado, la colaboración con la Asociación de Memoria Histórica y Democrática Siglo XXI continúa. La nota no detalla qué actividades concretas se programarán a partir de ahora ni sus fechas.",
+    "<span class='howto'>Qué fue: proyección del documental «Entre el pan y el olvido» (dirección de Pablo Coca), conferencia de José María García Márquez y coloquio. Dónde: Auditorio Riberas del Guadaíra. Organizan: Ayuntamiento de Alcalá de Guadaíra (delegación de Memoria Democrática) y Asociación de Memoria Histórica y Democrática Siglo XXI. Fue la última sesión de las III Jornadas de Memoria Democrática.</span>"
+   ],
+   "seo": [
+    "documental-entre-pan-olvido-memoria-democratica-alcala",
+    "«Entre el pan y el olvido» cierra la memoria en Alcalá",
+    "El documental de Pablo Coca sobre la represión tras el golpe de 1936 en Alcalá de Guadaíra cerró las III Jornadas de Memoria Democrática en el Riberas.",
+    [
+     "Entre el pan y el olvido",
+     "Pablo Coca",
+     "memoria democrática",
+     "Christopher Rivas",
+     "José María García Márquez",
+     "Auditorio Riberas del Guadaíra"
+    ]
+   ]
+  },
+  {
+   "id": "ofrenda-inmaculada-2026-capilla-santo-entierro",
+   "sec": "hermandades",
+   "kicker": "Inmaculada",
+   "iso": "2026-11-23",
+   "hora": "21:53",
+   "src": "Consejo de Hermandades de Alcalá",
+   "fuente_url": "https://www.consejohermandadesalcala.es/2026/11/23/la-capilla-del-santo-entierro-acogera-la-ofrenda-a-la-inmaculada/",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La capilla del Santo Entierro acogerá este año la ofrenda floral de las hermandades a la Inmaculada",
+   "sub": "El Consejo de Hermandades lo propuso y la hermandad del Viernes Santo, que tendrá un papel especial en el acto, aceptó",
+   "caption": "Imagen de archivo de la sección de hermandades de El Panadero.",
+   "foto": "generica-hermandades.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La ofrenda de flores de las hermandades de Alcalá de Guadaíra a la Inmaculada se celebrará este año en la capilla del Santo Entierro, en la víspera de la festividad.",
+    "La sede la propuso la Junta Superior del Consejo de Hermandades y la Hermandad del Santo Entierro aceptó.",
+    "El altar estará presidido por la pintura de la Inmaculada de la capilla, obra del pintor alcalareño Manuel Márquez."
+   ],
+   "body": [
+    "La capilla del Santo Entierro será este año el templo de la ofrenda de flores que las hermandades de Alcalá de Guadaíra dedican a la Inmaculada en la víspera de su festividad, según ha anunciado el Consejo General de Hermandades y Cofradías este lunes 23 de noviembre en su web y en sus redes sociales.",
+    "La elección partió de una propuesta de la Junta Superior del Consejo, que la Hermandad del Santo Entierro aceptó, según la nota. En el acto participarán todas las hermandades alcalareñas, que ofrecerán flores y oraciones,, con una participación especial de la Hermandad del Santo Entierro.",
+    "## La Inmaculada de Manuel Márquez",
+    "El altar de la ofrenda estará presidido por la pintura de la Inmaculada que se conserva en la capilla, obra del pintor alcalareño Manuel Márquez, según el Consejo.",
+    "La festividad de la Inmaculada Concepción se celebra el 8 de diciembre, por lo que la ofrenda corresponde al lunes 7 de diciembre. El Consejo no ha detallado todavía la hora del acto ni el orden de participación de las hermandades.",
+    "La ofrenda llega en plena actividad de cultos de las hermandades de la ciudad en el final del año litúrgico, que este domingo 22 de noviembre incluyó la solemnidad de Cristo Rey, con la <a href='#cristo-rey-2026-borriquita-procesion-eucaristica-san-agustin'>procesión eucarística de la Borriquita por San Agustín</a>.",
+    "<span class='howto'>Qué: ofrenda de flores de las hermandades a la Inmaculada. Dónde: capilla del Santo Entierro. Cuándo: víspera de la Inmaculada (lunes 7 de diciembre); la hora no se ha anunciado. Participan: todas las hermandades de Alcalá, con especial participación de la Hermandad del Santo Entierro. Organiza: Consejo General de Hermandades y Cofradías de Alcalá de Guadaíra.</span>"
+   ],
+   "seo": [
+    "ofrenda-floral-inmaculada-capilla-santo-entierro-alcala",
+    "Ofrenda a la Inmaculada en el Santo Entierro de Alcalá",
+    "Las hermandades de Alcalá de Guadaíra harán su ofrenda floral a la Inmaculada en la capilla del Santo Entierro, ante la pintura de Manuel Márquez.",
+    [
+     "Inmaculada",
+     "Hermandad del Santo Entierro",
+     "Consejo de Hermandades",
+     "ofrenda floral",
+     "Manuel Márquez"
+    ]
+   ]
+  },
+  {
+   "id": "rescate-conductor-furgoneta-a92-km12-bomberos",
+   "sec": "sucesos",
+   "kicker": "Tráfico",
+   "iso": "2026-11-23",
+   "hora": "17:47",
+   "src": "El Panadero",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Los bomberos rescatan al conductor de una furgoneta que se salió de la A-92 en Alcalá",
+   "sub": "El hombre, único ocupante del vehículo, estaba semiinconsciente y en una posición que dificultaba sacarlo; el accidente no causó retenciones",
+   "caption": "Imagen de archivo de la sección de sucesos.",
+   "foto": "generica-sucesos.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Una furgoneta se salió de la A-92 en el kilómetro 12, sentido Sevilla, en el término de Alcalá de Guadaíra, la mañana del lunes 23 de noviembre.",
+    "El aviso llegó a las 9.13 a través del 112 Andalucía e informaba de una persona atrapada en el vehículo.",
+    "Bomberos de los parques de Alcalá y Mairena del Alcor liberaron al conductor, que viajaba solo y estaba semiinconsciente.",
+    "No se ha informado del estado del herido ni de las causas de la salida de vía."
+   ],
+   "body": [
+    "Los bomberos rescataron la mañana del lunes 23 de noviembre al conductor de una furgoneta que se salió de la autovía A-92 en el kilómetro 12, sentido Sevilla, dentro del término de Alcalá de Guadaíra. El hombre viajaba solo y estaba semiinconsciente cuando llegaron los equipos de emergencia.",
+    "El aviso entró a las 9.13 en el centro de coordinación del Consorcio de Prevención, Extinción de Incendios y Salvamento de la Provincia de Sevilla, a través del 112 Andalucía. La primera información alertaba de una furgoneta que había sufrido una salida de vía y de una persona atrapada en su interior.",
+    "Al lugar acudieron dotaciones de los parques de bomberos de Alcalá de Guadaíra y de Mairena del Alcor. El conductor estaba en una posición que complicaba sacarlo del vehículo. Los bomberos lo liberaron y facilitaron su evacuación. En el dispositivo participaron también la Policía Nacional y la Guardia Civil, y se avisó a los servicios de mantenimiento de carreteras.",
+    "## Sin cortes en la autovía",
+    "El accidente no provocó retenciones ni cortes de circulación en la A-92. Una vez terminado el rescate, las dotaciones regresaron a sus parques.",
+    "No se ha informado de la evolución del conductor, de si fue trasladado a un hospital ni de las circunstancias en que la furgoneta abandonó la calzada.",
+    "## La vía con más accidentes del término",
+    "La A-92 es la carretera que más accidentes con víctimas acumula en el término municipal. Según los microdatos de la Dirección General de Tráfico, <a href='#accidentes-trafico-alcala-2025-dgt'>Alcalá registró 204 accidentes con víctimas en 2025</a>, y 33 de ellos se produjeron en esta autovía, frente a 18 el año anterior. Los dos fallecidos en accidentes de tráfico de 2025 en el municipio murieron en la A-92, en sendas salidas de vía en febrero y mayo.",
+    "<span class='howto'><b>Si presencias un accidente.</b> Llama al 112, indica la carretera, el kilómetro y el sentido, y señaliza el vehículo con la baliza V-16 sin ponerte en peligro. No muevas a los heridos salvo riesgo inmediato.</span>"
+   ],
+   "seo": [
+    "rescate-conductor-furgoneta-a-92-alcala-bomberos",
+    "Rescate en la A-92: bomberos liberan a un conductor",
+    "Bomberos de Alcalá y Mairena del Alcor rescatan al conductor semiinconsciente de una furgoneta que se salió de la A-92 en el kilómetro 12, sentido Sevilla.",
+    [
+     "A-92",
+     "bomberos",
+     "accidente de tráfico",
+     "Mairena del Alcor",
+     "112 Andalucía",
+     "rescate"
+    ]
+   ]
+  },
+  {
+   "id": "plan-vertidos-ilegales-camaras-moviles-vigilancia",
+   "sec": "alcala",
+   "kicker": "Medio ambiente",
+   "iso": "2026-11-23",
+   "hora": "17:47",
+   "src": "El Panadero",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Alcalá comprará cámaras móviles para vigilar los puntos de vertidos ilegales",
+   "sub": "El plan municipal refuerza la vigilancia en polígonos, caminos, zonas rurales y espacios urbanos e incluye carteles sobre sanciones y campañas por los excrementos de perros",
+   "caption": "Imagen de archivo de la sección Alcalá.",
+   "foto": "generica-alcala.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "El Ayuntamiento de Alcalá de Guadaíra ha puesto en marcha un plan contra los vertidos ilegales que incluye la compra de cámaras móviles.",
+    "Participan las delegaciones de Urbanismo, Hábitat Urbano y Medio Ambiente, la Policía Local y la empresa municipal AIRA Gestión Ambiental.",
+    "La vigilancia se reforzará en polígonos industriales, caminos, zonas rurales y espacios urbanos, con atención a los puntos negros.",
+    "El Ayuntamiento no ha detallado cuántas cámaras comprará, su coste ni los plazos."
+   ],
+   "body": [
+    "El Ayuntamiento de Alcalá de Guadaíra ha puesto en marcha un plan de actuación contra los vertidos ilegales que incluye la compra de cámaras móviles para vigilar los lugares donde se producen vertidos. Las líneas del plan salieron de una reunión de coordinación encabezada por la alcaldesa, Ana Isabel Jiménez, cuyo contenido se conoció el lunes 23 de noviembre.",
+    "En el plan trabajan las delegaciones de Urbanismo, Hábitat Urbano y Medio Ambiente, la Policía Local y la empresa municipal AIRA Gestión Ambiental. Según el Ayuntamiento, el objetivo es detectar a quienes tiran residuos fuera de los lugares autorizados y sancionarlos.",
+    "## Dónde se vigilará",
+    "La vigilancia se reforzará en los polígonos industriales, en los caminos, en las zonas rurales y en los espacios urbanos, con un seguimiento específico de los puntos negros, los lugares donde los vertidos se repiten.",
+    "El plan prevé también la instalación de carteles que informen de las sanciones administrativas y de las posibles consecuencias penales de los vertidos, y campañas dirigidas a los dueños de perros para que recojan los excrementos de sus animales en la vía pública.",
+    "El Ayuntamiento no ha detallado cuántas cámaras comprará, cuánto costarán ni cuándo empezarán a funcionar.",
+    "## Casos recientes",
+    "En octubre, la Policía Local <a href='#vertidos-pirotecnia-denunciado'>identificó y denunció al autor de los vertidos de aceites y sustancias tóxicas en La Pirotecnia</a>, junto a una casa abandonada, tras la queja de un vecino. El responsable admitió los hechos y el Ayuntamiento le abrió un expediente sancionador. A finales de septiembre, la Policía Local tenía a doce personas y empresas investigadas por vertidos en polígonos y caminos del término.",
+    "<span class='howto'><b>Dónde dejar los residuos.</b> El punto limpio de San Juan, gestionado por AIRA, recibe aceites y otros residuos que no pueden ir al contenedor, y abre también los sábados y los domingos. AIRA retira además muebles y enseres a domicilio de forma gratuita.</span>"
+   ],
+   "seo": [
+    "plan-vertidos-ilegales-camaras-moviles-alcala",
+    "Vertidos ilegales: Alcalá tendrá cámaras móviles",
+    "El Ayuntamiento de Alcalá de Guadaíra comprará cámaras móviles y reforzará la vigilancia en polígonos, caminos y zonas rurales contra vertidos ilegales.",
+    [
+     "vertidos ilegales",
+     "Policía Local",
+     "AIRA Gestión Ambiental",
+     "Ana Isabel Jiménez",
+     "medio ambiente",
+     "puntos negros"
+    ]
+   ]
+  },
+  {
+   "id": "maria-pavon-oro-mejor-boxeadora-antequera",
+   "sec": "deportes",
+   "kicker": "Boxeo",
+   "iso": "2026-11-23",
+   "hora": "17:47",
+   "src": "Alcalá+Deporte",
+   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8446/la-alcalarena-maria-pavon-conquista-un-nuevo-oro-y-el-trofeo-a-la-mejor-boxeadora-en-antequera",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La alcalareña María Pavón gana el oro y el trofeo a la mejor boxeadora en Antequera",
+   "sub": "La deportista, de 11 años, se impuso en la categoría infantil femenina de un campeonato con unos 90 participantes de toda Andalucía y suma ya nueve oros",
+   "caption": "Imagen de archivo de la sección de deportes.",
+   "foto": "generica-deportes.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "La boxeadora alcalareña María Pavón Salguero, de 11 años, ganó la medalla de oro en la categoría infantil femenina del Campeonato de Boxeo Formas de Antequera.",
+    "También recibió el trofeo a la mejor boxeadora del campeonato, que reunió a unos 90 participantes de 5 a 14 años de varias provincias andaluzas.",
+    "Con este resultado acumula nueve medallas de oro y seis trofeos a la mejor boxeadora, según el portal deportivo municipal."
+   ],
+   "body": [
+    "La boxeadora alcalareña María Pavón Salguero, de 11 años, ha ganado la medalla de oro en la categoría infantil femenina del Campeonato de Boxeo Formas celebrado en Antequera (Málaga). Además, la organización le entregó el trofeo a la mejor boxeadora de la competición, según ha informado Alcalá+Deporte, el portal deportivo del Ayuntamiento de Alcalá de Guadaíra.",
+    "El campeonato reunió a unos 90 deportistas de entre 5 y 14 años llegados de distintas provincias andaluzas. María Pavón compite con el Carmonense Club Toro Boxing.",
+    "## Nueve oros",
+    "Con el de Antequera, la joven deportista suma nueve medallas de oro y seis trofeos a la mejor boxeadora en las competiciones en las que ha participado, según el mismo portal municipal, que no detalla en qué campeonatos los ha conseguido.",
+    "El resultado se suma a otros éxitos recientes de deportistas alcalareños en los deportes de contacto. Otro deportista alcalareño, el luchador Diogo Miguel Silva, <a href='#diogo-miguel-silva-campeon-mundo-k1-fabio-loisi'>se proclamó campeón del mundo de K1</a> en una velada celebrada en El Puerto de Santa María."
+   ],
+   "seo": [
+    "maria-pavon-oro-mejor-boxeadora-antequera",
+    "María Pavón, oro y mejor boxeadora en Antequera",
+    "La alcalareña María Pavón, de 11 años, gana el oro infantil femenino y el trofeo a la mejor boxeadora en el Campeonato de Boxeo Formas de Antequera.",
+    [
+     "María Pavón",
+     "boxeo",
+     "Antequera",
+     "Carmonense Club Toro Boxing",
+     "deporte base",
+     "Alcalá+Deporte"
+    ]
+   ]
+  },
+  {
+   "id": "copa-andalucia-escalada-bloque-wiseclimb-celebrada",
+   "sec": "deportes",
+   "kicker": "Escalada",
+   "iso": "2026-11-23",
+   "hora": "17:47",
+   "src": "Alcalá+Deporte",
+   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8447/alcala-de-guadaira-reune-a-la-escalada-andaluza-en-la-ii-prueba-de-la-copa-de-andalucia-de-bloque",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Wiseclimb reúne a la escalada andaluza en la segunda prueba de la Copa de Andalucía de Bloque",
+   "sub": "La competición se disputó el sábado 21 y el domingo 22 de noviembre en Alcalá, con categorías desde sub-9 hasta absoluta",
+   "caption": "Imagen de archivo de la sección de deportes.",
+   "foto": "generica-deportes.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Alcalá de Guadaíra acogió el 21 y el 22 de noviembre la II Prueba de la Copa de Andalucía de Escalada de Bloque, en las instalaciones de Wiseclimb.",
+    "La organizó el CD Climbing Canyon, bajo la supervisión de Emilio Acosta Granados, con la Federación Andaluza de Deportes de Montaña, Escalada y Senderismo (FADMES).",
+    "Compitieron escaladores de todas las categorías, de sub-9 a absoluta; no se han publicado los resultados ni el número de participantes."
+   ],
+   "body": [
+    "Las instalaciones de Wiseclimb, en Alcalá de Guadaíra, acogieron el sábado 21 y el domingo 22 de noviembre la segunda prueba de la Copa de Andalucía de Escalada de Bloque, con escaladores de todas las categorías, desde sub-9 hasta absoluta, según ha informado Alcalá+Deporte, el portal deportivo del Ayuntamiento.",
+    "La prueba la organizó el Club Deportivo Climbing Canyon, bajo la supervisión de Emilio Acosta Granados, junto con la Federación Andaluza de Deportes de Montaña, Escalada y Senderismo (FADMES).",
+    "## Una prueba puntuable",
+    "La escalada de bloque se practica en paredes de poca altura, sin cuerda y con colchonetas en el suelo. La Copa de Andalucía se compone de varias pruebas que suman puntos en una clasificación acumulada. Como se explicó al <a href='#copa-andalucia-escalada-bloque-wiseclimb-21-22-noviembre'>anunciar la cita de Alcalá</a>, solo los deportistas con licencia federativa anual de la FADMES o de la Federación Española de Deportes de Montaña y Escalada (FEDME) podían optar al podio y puntuar en la general. Quienes tenían una licencia de medio año o de un día pudieron competir, pero sin opción a podio ni a puntos.",
+    "Alcalá+Deporte no ha publicado el número de participantes ni las clasificaciones de la prueba. Tampoco ha detallado si hubo escaladores de clubes alcalareños entre los premiados."
+   ],
+   "seo": [
+    "copa-andalucia-escalada-bloque-alcala-wiseclimb",
+    "Copa de Andalucía de Escalada de Bloque en Alcalá",
+    "Wiseclimb, en Alcalá de Guadaíra, acogió el 21 y 22 de noviembre la II Prueba de la Copa de Andalucía de Escalada de Bloque, de sub-9 a absoluta.",
+    [
+     "escalada",
+     "Copa de Andalucía de Bloque",
+     "Wiseclimb",
+     "CD Climbing Canyon",
+     "FADMES",
+     "Emilio Acosta Granados"
+    ]
+   ]
+  },
+  {
    "id": "alcala-generales-secciones-2016-2023",
    "sec": "politica",
    "kicker": "Elecciones",
