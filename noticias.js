@@ -56,6 +56,13 @@ window.EP = {
    "hasta": "2026-11-29"
   },
   {
+   "cuando": "Dom 29 nov, 12.00",
+   "que": "Concierto de Santa Cecilia de la Asociación Musical Nuestra Señora del Águila (entrada, 5 euros)",
+   "donde": "Auditorio Riberas del Guadaíra",
+   "noticia": "concierto-santa-cecilia-auditorio-riberas-29-noviembre",
+   "hasta": "2026-11-29"
+  },
+  {
    "cuando": "Vie 27 a dom 29 nov",
    "que": "XVII Concurso-Exposición Local de Palomas de Raza",
    "donde": "CD Colombicultura Hienipa, avenida de Portugal",
@@ -174,6 +181,239 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "iso": "2026-11-24",
+   "hora": "21:54",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "temporada-plantaciones-1200-arboles-plaza-lima",
+   "sec": "alcala",
+   "kicker": "Medio ambiente",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10033/alcala-inicia-una-nueva-temporada-de-plantaciones-con-mas-de-1200-nuevos-arboles",
+   "title": "Alcalá arranca una temporada de plantaciones con más de 1.200 árboles nuevos",
+   "sub": "La campaña empezó con un abeto en la Plaza de Lima, pedido por los vecinos, y llegará a colegios, alcorques vacíos, el Monumento Natural y el futuro parque del Cerro de la Era",
+   "caption": "Gráfico con los árboles previstos en la nueva temporada de plantaciones y el objetivo del plan Alcalá Más Verde.",
+   "foto": "temporada-plantaciones-1200-arboles-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El Ayuntamiento de Alcalá de Guadaíra prevé plantar más de 1.200 árboles en la temporada que acaba de empezar.",
+    "La campaña arrancó con la plantación de un abeto en la zona central de la Plaza de Lima, una petición de los vecinos.",
+    "Incluye 115 árboles en 16 colegios públicos, reposición en alcorques vacíos y nuevas plantaciones en el Monumento Natural Riberas del Guadaíra.",
+    "Las actuaciones forman parte del Plan de Reforestación 2024-2027 «Alcalá Más Verde», que se fijó como meta 5.000 árboles y 10.000 arbustos."
+   ],
+   "body": [
+    "El Ayuntamiento de Alcalá de Guadaíra ha comenzado una nueva temporada de plantaciones en la que prevé incorporar más de 1.200 árboles en barrios, centros educativos, parques y espacios naturales del municipio. La campaña arrancó el martes 24 de noviembre con la plantación de un abeto en la Plaza de Lima.",
+    "El abeto se ha colocado en la zona central de la plaza. Según el Ayuntamiento, era una demanda que los vecinos de la zona trasladaban desde hacía tiempo, y la idea es que el árbol se convierta en un símbolo de ese espacio y pueda adornarse en las fiestas de Navidad.",
+    "La delegada de Monumento Natural, Medioambiente y Sostenibilidad, Luisa Campos, ha explicado que el objetivo de la campaña es «recuperar el arbolado que se ha perdido y llevar nuevos ejemplares a aquellos lugares donde hacen falta». Campos ha defendido que el aumento de la masa arbórea ayudará a reducir la temperatura en el entorno de cada ejemplar durante los veranos.",
+    "## Dónde se plantará",
+    "El programa reúne varias actuaciones. Una de ellas es la plantación de 115 árboles en 16 colegios públicos para crear sombra en los patios, un proyecto que El Panadero ya contó cuando el Ayuntamiento <a href='#arbolado-colegios-115-arboles-16-centros'>lo sacó a licitación</a> el 17 de noviembre.",
+    "También seguirá la reposición de árboles en alcorques vacíos de calles y espacios públicos y habrá nuevas plantaciones en el Monumento Natural Riberas del Guadaíra. La nota municipal cita además otras ubicaciones urbanas: la entrada al túnel, el carril bici, la calle Malasmañanas y el futuro <a href='#parque-cerro-de-la-era'>parque del Cerro de la Era</a>. El Ayuntamiento no ha detallado cuántos ejemplares irán a cada punto ni el presupuesto total de la temporada.",
+    "## El plan Alcalá Más Verde",
+    "Todas estas plantaciones se enmarcan en el Plan de Reforestación 2024-2027 «Alcalá Más Verde», que se marcó como objetivo plantar 5.000 árboles y 10.000 arbustos entre espacios urbanos, parques, colegios y enclaves naturales. Según los datos que el propio Ayuntamiento dio al cerrar la campaña 2025-2026, el plan sumaba entonces más de 4.200 árboles plantados desde 2024.",
+    "El Ayuntamiento trabaja además en el primer Plan Director del Arbolado de Alcalá, un documento técnico para conocer el estado de los árboles municipales, elegir las especies adecuadas para cada sitio y fijar criterios de conservación y mantenimiento. No hay fecha pública para su aprobación.",
+    "<span class='howto'>Qué es: nueva temporada de plantaciones de arbolado municipal. Cuántos: más de 1.200 árboles, según la previsión del Ayuntamiento. Dónde: 16 colegios públicos, alcorques vacíos, Monumento Natural Riberas del Guadaíra, entrada al túnel, carril bici, calle Malasmañanas y parque del Cerro de la Era, entre otros. Información: Delegación de Monumento Natural, Medioambiente y Sostenibilidad.</span>"
+   ],
+   "seo": [
+    "plantaciones-1200-arboles-alcala-mas-verde",
+    "Alcalá plantará más de 1.200 árboles esta temporada",
+    "El Ayuntamiento de Alcalá de Guadaíra inicia la temporada de plantaciones con más de 1.200 árboles en colegios, barrios y el Monumento Natural.",
+    [
+     "Alcalá Más Verde",
+     "arbolado",
+     "Luisa Campos",
+     "Plaza de Lima",
+     "Monumento Natural Riberas del Guadaíra",
+     "Cerro de la Era"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-24",
+   "hora": "21:54",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "parques-empresariales-euc-un-millon-venta-liebre-cabeza-hermosa",
+   "sec": "economia",
+   "kicker": "Industria",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10028/alcala-destina-a-la-conservacion-de-parques-empresariales-mas-de-un-millon-de-euros-a-traves-de-las-subvenciones-a-las-entidades-de-conservacion",
+   "title": "El Ayuntamiento destina más de un millón de euros a la conservación de los parques empresariales",
+   "sub": "Las ayudas financian obras como la mejora de viales y alumbrado en Venta la Liebre, de 220.000 euros, y las zonas verdes de Cabeza Hermosa",
+   "caption": "Gráfico con el coste de las obras en Venta la Liebre y Cabeza Hermosa y la aportación municipal (más de 160.000 y 90.000 euros).",
+   "foto": "parques-empresariales-euc-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "El Ayuntamiento de Alcalá de Guadaíra destina más de un millón de euros a la conservación de parques empresariales mediante subvenciones a las Entidades Urbanísticas de Conservación.",
+    "En Venta la Liebre se ejecuta una mejora de 220.000 euros, de los que el Ayuntamiento aporta más de 160.000.",
+    "En Cabeza Hermosa, la primera fase de mejoras cuesta 110.000 euros y la aportación municipal es de 90.000.",
+    "Las dos actuaciones están acogidas a la primera convocatoria de estas ayudas."
+   ],
+   "body": [
+    "El Ayuntamiento de Alcalá de Guadaíra destina más de un millón de euros a la conservación de sus parques empresariales a través de las convocatorias de subvenciones a las Entidades Urbanísticas de Conservación (EUC), que gestionan el mantenimiento de los polígonos. Lo ha informado este martes 24 de noviembre.",
+    "La alcaldesa, Ana Isabel Jiménez, recorrió las intervenciones con el delegado de Urbanismo y Planificación Estratégica, Jesús Mora, y el delegado de Desarrollo e Industria, Pablo Chain. Las EUC agrupan a los propietarios de cada polígono. Jiménez enmarcó estas ayudas en el Plan Estratégico Industrial «Alcalá, Corazón Industrial de Andalucía» y defendió la cooperación público-privada para mejorar los polígonos.",
+    "## Venta la Liebre y Cabeza Hermosa",
+    "La actuación de más importe es la del Parque Empresarial Venta la Liebre: 220.000 euros, de los que el Ayuntamiento aporta más de 160.000. Incluye limpieza y asfaltado de viales, pavimentos, bordillos, recogida de aguas y reparación de arquetas, además de un proyecto de alumbrado que sustituye luminarias y renueva acometidas, cuadros eléctricos y cableado. También se mejora la señalización vertical para ordenar la circulación.",
+    "En el Parque Cabeza Hermosa se desarrolla la primera fase de mejoras, con un coste de 110.000 euros, de los que el Ayuntamiento paga 90.000. Se centra en rehabilitar y rediseñar las zonas verdes para dar más sombra y abaratar su mantenimiento, e incluye infraestructuras de recogida y tratamiento de residuos.",
+    "Las dos obras están acogidas a la primera convocatoria de estas subvenciones. El Ayuntamiento no ha detallado a qué otras entidades y proyectos se reparte el resto del millón de euros.",
+    "## El modelo de las entidades de conservación",
+    "Pablo Chain explicó que la ordenanza municipal de las EUC busca que todas las zonas industriales de Alcalá se constituyan en entidades de conservación, porque, según el Ayuntamiento, dan más agilidad que las comunidades de propietarios en servicios como el alumbrado o los puntos limpios. Entre los proyectos que cita el gobierno municipal figuran también la videovigilancia, la gestión de emergencias y la regulación del tráfico en los polígonos.",
+    "Jesús Mora sostuvo que Alcalá es «un referente industrial» y que el objetivo es que los parques empresariales sean «espacios innovadores, competitivos y atractivos para nuevos inversores».",
+    "<span class='howto'>Qué son las EUC: entidades de los propietarios de un polígono que se ocupan de su conservación en colaboración con el Ayuntamiento. Ayuda municipal: más de un millón de euros en total, según el Ayuntamiento. Obras en marcha: Venta la Liebre (220.000 euros) y Cabeza Hermosa (110.000 euros, primera fase). Información: Delegación de Desarrollo e Industria.</span>"
+   ],
+   "seo": [
+    "parques-empresariales-entidades-conservacion-ayudas",
+    "Un millón para conservar los parques empresariales",
+    "Alcalá de Guadaíra destina más de un millón de euros a las entidades de conservación de polígonos, con obras en Venta la Liebre y Cabeza Hermosa.",
+    [
+     "Venta la Liebre",
+     "Cabeza Hermosa",
+     "Entidades Urbanísticas de Conservación",
+     "polígonos industriales",
+     "Ana Isabel Jiménez",
+     "Pablo Chain"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-24",
+   "hora": "21:54",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "estrella-san-agustin-utrera-b-rabesa-denuncia-incidentes",
+   "sec": "deportes",
+   "kicker": "Fútbol",
+   "src": "El Banquillo",
+   "fuente_url": "https://elbanquilloweb.com/2026/11/24/la-estrella-rechaza-las-acusaciones-del-cd-utrera-que-denuncia-insultos-racistas-en-rabesa/",
+   "title": "El CD Utrera denuncia agresiones e insultos racistas en Rabesa y la Estrella San Agustín lo niega",
+   "sub": "Los hechos ocurrieron al acabar el partido del domingo 22, que ganó el Utrera B por 1-2; los dos clubes llevarán su versión al Comité de Competición",
+   "caption": "Imagen de archivo de la sección de Deportes.",
+   "foto": "generica-deportes.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "El CD Utrera denuncia que jugadores de su equipo sénior B sufrieron agresiones e insultos racistas al acabar el partido del domingo 22 de noviembre en Rabesa.",
+    "La Estrella San Agustín reconoce un enfrentamiento entre jugadores de los dos equipos, pero niega que desde el club se profirieran insultos racistas.",
+    "Según el CD Utrera, intervinieron siete agentes de la Policía Local.",
+    "Ambos clubes llevarán la información de la que disponen al Comité de Competición."
+   ],
+   "body": [
+    "El CD Utrera ha denunciado que varios jugadores de su equipo sénior B sufrieron agresiones físicas e insultos racistas al terminar el partido que jugaron el domingo 22 de noviembre en el campo de Rabesa, en Alcalá de Guadaíra, ante la Estrella San Agustín, que rechaza las acusaciones. Ganó el Utrera B por 1-2, según El Banquillo.",
+    "## La versión del CD Utrera",
+    "En un comunicado, el CD Utrera sostiene que tras el pitido final se produjeron agresiones y vejaciones racistas contra algunos de sus futbolistas, hechos que califica de «intolerables». El club afirma que siete agentes de la Policía Local tuvieron que intervenir para frenar la situación y garantizar la seguridad de jugadores y cuerpo técnico, y agradece su actuación.",
+    "## La versión de la Estrella San Agustín",
+    "La Estrella San Agustín ha respondido con otro comunicado. Reconoce que, como recoge el acta arbitral, al acabar el partido hubo un enfrentamiento entre jugadores de los dos equipos, pero asegura que nadie de su club profirió insultos racistas. Según su relato, varios miembros de la directiva entraron en el terreno de juego solo para separar a los implicados y evitar que el incidente fuera a más, y cuando llegaron los agentes el enfrentamiento ya había terminado.",
+    "El club alcalareño expresa su rechazo a cualquier tipo de violencia y a todo comportamiento racista o discriminatorio, y subraya que esos valores deben estar presentes en el deporte, en especial en el fútbol base.",
+    "## Al Comité de Competición",
+    "Las dos entidades han anunciado que emprenderán acciones por la vía que corresponda y que entregarán al Comité de Competición toda la información de que disponen. Será ese órgano federativo el que valore el acta arbitral y los informes de las partes.",
+    "La Policía Local no ha informado públicamente sobre su intervención en el campo de Rabesa.",
+    "<span class='howto'>Qué pasó: incidentes al final del partido Estrella San Agustín - Utrera B (1-2), el domingo 22 de noviembre en el campo de Rabesa. Versiones: el CD Utrera denuncia agresiones e insultos racistas; la Estrella San Agustín reconoce un enfrentamiento y niega los insultos racistas. Próximo paso: Comité de Competición.</span>"
+   ],
+   "seo": [
+    "estrella-san-agustin-utrera-rabesa-incidentes",
+    "Utrera denuncia racismo en Rabesa; la Estrella lo niega",
+    "El CD Utrera denuncia agresiones e insultos racistas tras su partido en Rabesa ante la Estrella San Agustín, que lo niega. Irá al Comité de Competición.",
+    [
+     "Estrella San Agustín",
+     "CD Utrera",
+     "Rabesa",
+     "Comité de Competición",
+     "racismo en el fútbol",
+     "fútbol base"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-24",
+   "hora": "21:54",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "alvaro-dominguez-mingorance-campeon-andalucia-motocross-85",
+   "sec": "deportes",
+   "kicker": "Motocross",
+   "src": "Alcalá+Deporte",
+   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8449/alvaro-dominguez-mingorance-se-proclama-campeon-de-andalucia-de-motocross-2026",
+   "title": "Álvaro Domínguez Mingorance, campeón de Andalucía de Motocross en 85 cc con nueve victorias en diez carreras",
+   "sub": "El piloto alcalareño, de 13 años, se aseguró el título el domingo 22 de noviembre a falta de la última prueba, el 6 de diciembre en Sanlúcar de Barrameda",
+   "caption": "Imagen de archivo de la sección de Deportes.",
+   "foto": "generica-deportes.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "El alcalareño Álvaro Domínguez Mingorance se ha proclamado campeón de Andalucía de Motocross 2026 en la categoría de 85 cc.",
+    "Ganó la penúltima prueba el domingo 22 de noviembre y sumó los 50 puntos que le aseguraban el título.",
+    "Lleva nueve victorias en las diez carreras disputadas esta temporada.",
+    "El campeonato termina el 6 de diciembre en Sanlúcar de Barrameda (Cádiz)."
+   ],
+   "body": [
+    "El piloto alcalareño Álvaro Domínguez Mingorance, de 13 años, se proclamó el domingo 22 de noviembre campeón de Andalucía de Motocross 2026 en la categoría de 85 cc. Ganó la penúltima prueba del campeonato y se aseguró matemáticamente el título a falta de una carrera, según ha informado Alcalá+Deporte, el portal deportivo del Ayuntamiento de Alcalá de Guadaíra.",
+    "Domínguez Mingorance, que corre con la escudería Eduardo Castro, terminó primero en esa prueba y sumó los 50 puntos que necesitaba para que ningún rival pudiera alcanzarle en la clasificación general.",
+    "## Nueve de diez",
+    "El balance de su temporada es de nueve victorias en las diez carreras disputadas.",
+    "El campeonato autonómico se cerrará el domingo 6 de diciembre en Sanlúcar de Barrameda (Cádiz), donde el alcalareño correrá ya con el título asegurado.",
+    "## Un otoño de títulos",
+    "El de Domínguez Mingorance se suma a otros éxitos de deportistas de Alcalá en las últimas semanas. Diogo Miguel Silva <a href='#diogo-miguel-silva-campeon-mundo-k1-fabio-loisi'>se proclamó campeón del mundo de K1</a> y la joven boxeadora María Pavón <a href='#maria-pavon-oro-mejor-boxeadora-antequera'>ganó un nuevo oro y el trofeo a la mejor boxeadora</a> en Antequera.",
+    "Alcalá+Deporte no ha detallado en qué circuito se disputó la penúltima prueba ni la ventaja de puntos con la que el piloto llega a la última cita.",
+    "<span class='howto'>Campeonato de Andalucía de Motocross 2026, categoría 85 cc. Campeón: Álvaro Domínguez Mingorance (escudería Eduardo Castro). Balance: nueve victorias en diez carreras. Última prueba: domingo 6 de diciembre, en Sanlúcar de Barrameda (Cádiz).</span>"
+   ],
+   "seo": [
+    "alvaro-dominguez-mingorance-campeon-andalucia-motocross",
+    "Álvaro Domínguez, campeón andaluz de motocross 85 cc",
+    "El alcalareño Álvaro Domínguez Mingorance, de 13 años, gana el Campeonato de Andalucía de Motocross 2026 en 85 cc con nueve victorias en diez carreras.",
+    [
+     "Álvaro Domínguez Mingorance",
+     "motocross",
+     "Campeonato de Andalucía de Motocross",
+     "85 cc",
+     "escudería Eduardo Castro",
+     "deporte alcalareño"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-24",
+   "hora": "21:54",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "concierto-santa-cecilia-auditorio-riberas-29-noviembre",
+   "sec": "cultura",
+   "kicker": "Música",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10032/alcala-de-guadaira-celebra-este-domingo-el-concierto-de-santa-cecilia-una-espectacular-oportunidad-para-disfrutar-de-la-musica",
+   "title": "La Asociación Musical del Águila celebra Santa Cecilia el domingo 29 en el Auditorio Riberas del Guadaíra",
+   "sub": "Actuarán la Coral Polifónica, la Orquesta de Cámara Ciudad de Alcalá, la Banda Académica, la Banda de Música y el coro infantil de su escuela; la entrada cuesta 5 euros",
+   "caption": "Imagen de archivo de la sección de Cultura.",
+   "foto": "generica-cultura.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "El concierto de Santa Cecilia será el domingo 29 de noviembre, a las 12.00, en el Auditorio Riberas del Guadaíra.",
+    "Lo organiza la Asociación Musical Nuestra Señora del Águila con la Delegación de Cultura del Ayuntamiento.",
+    "Participan cuatro formaciones de la asociación y el coro infantil de su escuela de música.",
+    "Las entradas cuestan 5 euros y se venden en entradas.alcaladeguadaira.es."
+   ],
+   "body": [
+    "La Asociación Musical Nuestra Señora del Águila celebrará el domingo 29 de noviembre, a las 12.00, su tradicional concierto de Santa Cecilia, patrona de los músicos, en el Auditorio Riberas del Guadaíra de Alcalá de Guadaíra. Lo organiza junto a la Delegación de Cultura del Ayuntamiento y las entradas cuestan 5 euros.",
+    "Sobre el escenario estarán las formaciones de la asociación: la Coral Polifónica de Alcalá de Guadaíra, la Orquesta de Cámara Ciudad de Alcalá, la Banda Académica Nuestra Señora del Águila y la Banda de Música de Alcalá de Guadaíra. A ellas se sumará el coro infantil de la escuela de música.",
+    "Según la nota municipal, la banda tiene más de 160 años de trayectoria. El programa combinará piezas de las distintas agrupaciones; el Ayuntamiento no ha publicado el repertorio.",
+    "## Una semana de conciertos",
+    "El delegado de Cultura, Christopher Rivas, animó a los vecinos a acudir y destacó el trabajo musical y educativo de la asociación. El concierto llega en una semana con otras citas musicales en la ciudad: la final del XXXIII Concurso Nacional de Cante Flamenco «Soleá de Alcalá», prevista para el sábado 28 a las 21.00, según ha publicado el Ayuntamiento en sus redes sociales.",
+    "La Banda de Música de Alcalá ha sido noticia este mes por otros motivos: la hermandad de Los Estudiantes <a href='#estudiantes-banda-musica-alcala-fin-25-anos'>decidió prescindir de ella</a> tras 25 años acompañando su paso de palio.",
+    "<span class='howto'>Concierto de Santa Cecilia. Cuándo: domingo 29 de noviembre de 2026, a las 12.00. Dónde: Auditorio Riberas del Guadaíra. Precio: 5 euros. Entradas: entradas.alcaladeguadaira.es. Organiza: Asociación Musical Nuestra Señora del Águila, con la Delegación de Cultura.</span>"
+   ],
+   "seo": [
+    "concierto-santa-cecilia-auditorio-riberas",
+    "Concierto de Santa Cecilia en Alcalá: domingo 29",
+    "La Asociación Musical del Águila celebra Santa Cecilia el domingo 29 de noviembre a las 12.00 en el Auditorio Riberas del Guadaíra. Entradas, 5 euros.",
+    [
+     "Santa Cecilia",
+     "Asociación Musical Nuestra Señora del Águila",
+     "Banda de Música de Alcalá",
+     "Auditorio Riberas del Guadaíra",
+     "Coral Polifónica",
+     "Christopher Rivas"
+    ]
+   ]
+  },
   {
    "iso": "2026-11-24",
    "hora": "06:53",
