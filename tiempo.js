@@ -1,15 +1,8 @@
 window.TIEMPO = {
  "fuente": "AEMET",
  "fuente_url": "https://www.aemet.es/es/eltiempo/prediccion/municipios/alcala-de-guadaira-id41004",
- "elaborado": "2026-11-22T21:23:08",
+ "elaborado": "2026-11-23T21:05:09",
  "dias": [
-  {
-   "fecha": "2026-11-22",
-   "cielo": "Despejado",
-   "max": 20,
-   "min": 11,
-   "lluvia": 0
-  },
   {
    "fecha": "2026-11-23",
    "cielo": "Poco nuboso",
@@ -19,16 +12,16 @@ window.TIEMPO = {
   },
   {
    "fecha": "2026-11-24",
-   "cielo": "Cubierto con lluvia escasa",
+   "cielo": "Muy nuboso con lluvia",
    "max": 21,
    "min": 8,
-   "lluvia": 80
+   "lluvia": 95
   },
   {
    "fecha": "2026-11-25",
    "cielo": "Intervalos nubosos",
-   "max": 18,
-   "min": 8,
+   "max": 17,
+   "min": 9,
    "lluvia": 25
   },
   {
@@ -36,21 +29,28 @@ window.TIEMPO = {
    "cielo": "Intervalos nubosos",
    "max": 17,
    "min": 6,
-   "lluvia": 30
+   "lluvia": 15
   },
   {
    "fecha": "2026-11-27",
    "cielo": "Intervalos nubosos",
-   "max": 18,
+   "max": 17,
    "min": 5,
-   "lluvia": 30
+   "lluvia": 10
   },
   {
    "fecha": "2026-11-28",
+   "cielo": "Poco nuboso",
+   "max": 19,
+   "min": 6,
+   "lluvia": 0
+  },
+  {
+   "fecha": "2026-11-29",
    "cielo": "Intervalos nubosos",
    "max": 19,
    "min": 5,
-   "lluvia": 25
+   "lluvia": 10
   }
  ]
 };

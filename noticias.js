@@ -1,11 +1,18 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-23",
+  "actualizado": "2026-11-24",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia.",
   "apertura": 2
  },
  "agenda": [
+  {
+   "cuando": "Jue 26 nov",
+   "que": "Ponencia de los restauradores del paso de San Juan",
+   "donde": "Museo de Alcalá",
+   "noticia": "jesus-nazareno-ponencia-restauracion-paso-san-juan-museo",
+   "hasta": "2026-11-26"
+  },
   {
    "cuando": "Hasta 27 nov",
    "que": "Plazo de candidaturas para la concesión del Hotel Oromana",
@@ -167,6 +174,96 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "iso": "2026-11-24",
+   "hora": "06:53",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "jesus-mora-suplente-senado-psoe-sevilla-29n",
+   "sec": "politica",
+   "kicker": "Elecciones 29N",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=RO4Wfs0CSN4&t=0s",
+   "title": "Jesús Mora concurre al Senado como suplente de Rosario Andújar en la lista del PSOE por Sevilla",
+   "sub": "El primer teniente de alcaldesa explica que el cambio respecto a Antonio Gutiérrez Limones responde a la regla de listas cremallera del partido",
+   "caption": "Imagen de archivo de la sección de política.",
+   "foto": "generica-politica.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "Jesús Mora, primer teniente de alcaldesa de Alcalá de Guadaíra y delegado de Urbanismo, es suplente en la candidatura del PSOE al Senado por la provincia de Sevilla en las generales del 29 de noviembre.",
+    "Será suplente de Rosario Andújar, número uno de la lista socialista al Senado por Sevilla, y no de Antonio Gutiérrez Limones, como se había apuntado al principio.",
+    "Mora atribuye el ajuste a los estatutos del PSOE, que obligan a alternar hombre y mujer en las listas.",
+    "Defendió en una entrevista a El Panadero las propuestas de vivienda de su partido y citó las 84 viviendas en alquiler y las 107 en venta de la empresa municipal Vive Alcalá."
+   ],
+   "body": [
+    "Jesús Mora, primer teniente de alcaldesa de Alcalá de Guadaíra y delegado de Urbanismo, concurre a las generales del domingo 29 de noviembre como suplente de Rosario Andújar, que encabeza la lista del PSOE al Senado por la provincia de Sevilla. Lo explicó el lunes 23 en una entrevista a El Panadero.",
+    "En un primer momento se había apuntado que Mora sería suplente de Antonio Gutiérrez Limones, senador hasta ahora y también alcalareño, que vuelve a presentarse. Mora explicó que los estatutos del partido obligan a que las listas sean «cremallera», alternando hombre y mujer, y que la candidatura de Sevilla se ajustó para cumplir esa norma interna. Mora es además miembro de la ejecutiva provincial del PSOE.",
+    "Preguntado por qué supone para Alcalá tener uno o dos vecinos en el Senado, sostuvo que la ciudad, tercer municipio de la provincia, necesita representación en los centros de decisión «para traer inversiones» y mantener el diálogo con los ministerios. Citó también que la alcaldesa, Ana Isabel Jiménez, es vicepresidenta de la Diputación de Sevilla.",
+    "## Vivienda, el eje de su intervención",
+    "Como delegado de Urbanismo, Mora dedicó buena parte de la entrevista a la vivienda. Defendió los reales decretos que, según dijo, aprobó el jueves pasado la Diputación Permanente del Congreso y que prorrogan dos años los contratos de alquiler y limitan las subidas, y la propuesta de su partido de destinar el 1 % del PIB a vivienda pública. Puso como ejemplo local la empresa municipal Vive Alcalá, que según dijo tiene en marcha dos promociones: 84 viviendas en alquiler, ya en construcción, y 107 en régimen de compraventa.",
+    "Sobre la campaña, afirmó que su partido afronta la última semana «con optimismo» y que, si la participación ronda el 75 % en el conjunto de España, el PSOE volverá a gobernar. Como autocrítica, señaló que la política territorial del Gobierno «no se ha sabido comunicar», y, sobre las causas que afectan a antiguos miembros de su partido, sostuvo que el PSOE ha expulsado a todos los implicados.",
+    "La entrevista llega un día después de que el presidente de la Junta y del PP andaluz, Juanma Moreno, <a href='#moreno-mitin-pp-alcala-tranvia-2027-29n'>visitara Alcalá en un mitin de campaña</a> en el que situó en 2027 la puesta en servicio del tranvía. El PSOE ha ganado en Alcalá las cuatro últimas elecciones generales, como recoge el <a href='#alcala-generales-secciones-2016-2023'>análisis por secciones censales</a> que publicó El Panadero.",
+    "<span class='howto'><b>Elecciones generales.</b> Domingo 29 de noviembre de 2026. Se eligen diputados al Congreso y senadores. La provincia de Sevilla elige cuatro senadores; cada elector puede marcar hasta tres candidatos en la papeleta del Senado. Entrevista completa: informativo del lunes 23 de noviembre, en el vídeo enlazado como fuente.</span>"
+   ],
+   "seo": [
+    "jesus-mora-suplente-senado-psoe-sevilla",
+    "Jesús Mora, suplente al Senado por el PSOE de Sevilla",
+    "El primer teniente de alcaldesa de Alcalá, Jesús Mora, es suplente de Rosario Andújar en la lista del PSOE al Senado por Sevilla para el 29 de noviembre.",
+    [
+     "Jesús Mora",
+     "PSOE de Sevilla",
+     "Senado",
+     "Elecciones generales 2026",
+     "Rosario Andújar",
+     "Antonio Gutiérrez Limones",
+     "Vive Alcalá"
+    ]
+   ]
+  },
+  {
+   "iso": "2026-11-24",
+   "hora": "06:53",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "id": "jesus-nazareno-ponencia-restauracion-paso-san-juan-museo",
+   "sec": "hermandades",
+   "kicker": "Patrimonio cofrade",
+   "src": "Hermandad de Jesús Nazareno (Facebook)",
+   "fuente_url": "https://www.facebook.com/1550103000474694/posts/1558051433013184",
+   "title": "Los restauradores del paso de San Juan explicarán su trabajo el jueves en el Museo de Alcalá",
+   "sub": "La ponencia forma parte de las jornadas culturales de la Hermandad de Jesús Nazareno, que mostró las andas restauradas el sábado 21",
+   "caption": "Imagen de archivo de la sección de hermandades.",
+   "foto": "generica-hermandades.jpg",
+   "fotocredito": "Archivo El Panadero",
+   "claves": [
+    "El equipo que restauró el paso de San Juan Evangelista de la Hermandad de Jesús Nazareno dará una ponencia el jueves 26 de noviembre en el Museo de Alcalá de Guadaíra.",
+    "La restauración la hicieron entre enero y julio de 2026 Jesús Manuel Lozano Muñoz, María de la Cruz Gabarro Bando y Pablo Tejero Cárdenas, con financiación parcial del Ayuntamiento.",
+    "La hermandad no ha publicado la hora de la ponencia."
+   ],
+   "body": [
+    "El equipo de conservadores-restauradores que ha devuelto su aspecto original al paso de San Juan Evangelista de la Hermandad de Jesús Nazareno de Alcalá de Guadaíra explicará su trabajo en una ponencia el jueves 26 de noviembre en el Museo de Alcalá. Así lo ha anunciado la hermandad en su perfil de Facebook, dentro de sus jornadas culturales.",
+    "Según la hermandad, la cita servirá para conocer «de primera mano» el proceso al que se han sometido las andas. La cofradía no ha indicado la hora ni si hay que inscribirse para asistir.",
+    "La ponencia llega cinco días después de que la hermandad <a href='#jesus-paso-san-juan-cartel-semana-santa-foro-formacion'>abriera su casa de hermandad para mostrar el paso restaurado</a>, el sábado 21 de noviembre, con visitas guiadas por los propios restauradores.",
+    "## Seis meses de trabajo",
+    "La intervención se hizo entre enero y julio de 2026 y la firmaron Jesús Manuel Lozano Muñoz, María de la Cruz Gabarro Bando y Pablo Tejero Cárdenas. El Ayuntamiento de Alcalá ha financiado una parte del coste, cuya cuantía no se ha detallado. La hermandad se acogió para ello al II Ciclo de Conservación Preventiva que organizan la Delegación de Patrimonio y el Consejo General de Hermandades y Cofradías.",
+    "La canastilla nació en las primeras décadas del siglo XX como paso de la Virgen, está ligada a San Juan desde 1943 y recibió en 1980 la reforma neobarroca de Manuel Guzmán Bejarano. Según la hermandad, presentaba ataques de insectos xilófagos, grietas, pérdidas de dorado y barnices oxidados. Los restauradores consolidaron la estructura, limpiaron y fijaron el dorado y recuperaron la policromía de los cuatro ángeles de las esquinas.",
+    "El mismo ciclo llevó al Museo en octubre la conferencia del restaurador <a href='#pedro-manzano-conservacion-preventiva'>Pedro Manzano sobre la manipulación de las imágenes</a>, y el 18 de noviembre la presentación de dos pinturas restauradas de la parroquia de San Sebastián.",
+    "<span class='howto'><b>Ponencia sobre la restauración del paso de San Juan.</b> Jueves 26 de noviembre de 2026. Museo de Alcalá de Guadaíra. Organiza: Hermandad de Jesús Nazareno, dentro de sus jornadas culturales. Hora: pendiente de confirmar por la hermandad.</span>"
+   ],
+   "seo": [
+    "restauracion-paso-san-juan-jesus-nazareno-museo-alcala",
+    "Restauradores del paso de San Juan, en el Museo de Alcalá",
+    "El equipo que restauró el paso de San Juan de la Hermandad de Jesús Nazareno explica su trabajo el jueves 26 de noviembre en el Museo de Alcalá.",
+    [
+     "Hermandad de Jesús Nazareno",
+     "San Juan Evangelista",
+     "Museo de Alcalá",
+     "restauración",
+     "Conservación Preventiva",
+     "Semana Santa de Alcalá"
+    ]
+   ]
+  },
   {
    "id": "moreno-mitin-pp-alcala-tranvia-2027-29n",
    "sec": "politica",
@@ -7543,93 +7640,6 @@ window.EP = {
     ]
    ],
    "fuente_url": "https://www.youtube.com/watch?v=r6Tcwaf9mgU&t=944s"
-  },
-  {
-   "id": "camino-retama-prospeccion-sin-fecha",
-   "sec": "alcala",
-   "kicker": "Camino de la Retama",
-   "iso": "2026-10-24",
-   "src": "El Panadero",
-   "title": "Termina la prospección del camino de la Retama, cerrado desde febrero por un desprendimiento",
-   "sub": "El Ayuntamiento retirará las piedras en los próximos días y sostiene que Endesa debe reponer el talud; Izquierda Alcalareña pide los informes técnicos",
-   "caption": "Cronología del cierre del camino de la Retama, desde el desprendimiento de febrero hasta el final de la prospección, el 23 de octubre de 2026.",
-   "foto": "camino-retama-prospeccion-sin-fecha-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "El camino de la Retama, junto al río Guadaíra, está cerrado desde febrero de 2026 por un desprendimiento tras unas lluvias fuertes.",
-    "El Ayuntamiento de Alcalá de Guadaíra da por terminada la prospección del terreno, que empezó el 30 de septiembre, y prevé retirar las piedras del camino en los próximos días.",
-    "Según el gobierno municipal, Endesa, que soterraba redes eléctricas en ese tramo, debe reponer el camino y el talud.",
-    "Izquierda Alcalareña pide una inspección del terreno y los informes técnicos, y relaciona el derrumbe con la zanja de una línea de alta tensión."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha dado por terminados los trabajos de prospección del terreno en el camino de la Retama, el paseo junto al río Guadaíra que está cerrado desde febrero de 2026 por un desprendimiento. Prevé retirar en los próximos días las piedras que bloquean el paso, pero no ha fijado fecha para reabrirlo.",
-    "La prospección empezó el 30 de septiembre. Los trabajos se han coordinado entre la Delegación de Monumento Natural, Medio Ambiente y Sostenibilidad, que dirige la quinta teniente de alcaldesa, Luisa Campos (Andalucía Por Sí), la Delegación de Hábitat Urbano, que dirige David Delgado, y la compañía eléctrica Endesa.",
-    "## Endesa debe reponer el talud, según el Ayuntamiento",
-    "El desprendimiento se produjo tras un episodio de lluvias fuertes en el tramo donde Endesa ejecutaba obras para soterrar redes eléctricas. El gobierno municipal sostiene que la empresa es la responsable de esas obras y que le corresponde reponer el camino y el talud dañado. El papel del Ayuntamiento, según su versión, será supervisar que los trabajos devuelven al paraje sus condiciones de seguridad y de conservación ambiental.",
-    "Campos ha precisado que no se trata solo de despejar el camino: la reparación incluye reponer el talud por completo, instalar elementos de seguridad, replantar vegetación y volver a pavimentar el sendero. En una <a href='https://www.alcaladeguadaira.es/noticias/9838/el-ayuntamiento-trabaja-en-la-reparacion-de-los-danos-ocasionados-en-el-camino-de-la-retama'>nota anterior en su web</a>, el Ayuntamiento explicó que la empresa debía redactar primero un proyecto que revisarían los técnicos municipales y que tendría que aprobar el Consistorio.",
-    "Izquierda Alcalareña ha pedido a las delegaciones de Medio Ambiente y de Servicios Urbanos una inspección del terreno, del talud y del camino, además del proyecto de soterramiento y los estudios técnicos sobre los desprendimientos. Sostiene que el derrumbe puede estar relacionado, al menos en parte, con la zanja abierta para soterrar una línea de alta tensión en la zona arbolada entre el Puente Romano y el Puente del Dragón.",
-    "Izquierda Alcalareña pregunta también por qué la zanja se abrió en ese lado del camino y no en el contrario, junto al corte de piedra, qué estudios se hicieron antes y qué medidas se tomaron para proteger la estabilidad del terreno. La formación habla de unos dos años de cierre; el Ayuntamiento fecha el corte del paso en febrero de este año, tras el desprendimiento.",
-    "El cierre afecta también a la programación municipal. La entrada del camino, junto al puente de Carlos III, es el punto de salida de la ruta del sábado 7 de noviembre de «Paseando por Alcalá».",
-    "El siguiente paso anunciado es la retirada de las piedras. Después tendrá que llegar la reposición del talud por parte de Endesa."
-   ],
-   "seo": [
-    "camino-retama-cerrado-prospeccion-endesa-talud",
-    "Camino de la Retama: termina la prospección del talud",
-    "El Ayuntamiento de Alcalá da por terminada la prospección del camino de la Retama, cerrado desde febrero, y retirará las piedras en los próximos días.",
-    [
-     "Camino de la Retama",
-     "Río Guadaíra",
-     "Endesa",
-     "Luisa Campos",
-     "Izquierda Alcalareña",
-     "Monumento Natural",
-     "desprendimiento"
-    ]
-   ],
-   "fuente_url": "https://www.youtube.com/watch?v=r6Tcwaf9mgU&t=1006s"
-  },
-  {
-   "id": "diputacion-ayudas-contrataciones-artisticas",
-   "sec": "economia",
-   "kicker": "Subvenciones",
-   "iso": "2026-10-24",
-   "src": "Diputación de Sevilla",
-   "fuente_url": "https://www.dipusevilla.es/comunicacion/noticias/Abierto-el-plazo-para-que-los-ayuntamientos-sevillanos-soliciten-las-subvenciones-destinadas-a-contrataciones-artisticas/",
-   "title": "Alcalá tiene hasta el 12 de noviembre para pedir su parte de seis millones de la Diputación para espectáculos",
-   "sub": "Cada ayuntamiento recibe 33.644,86 euros fijos y otra cantidad según su población para contratar artes escénicas, música, artes visuales o actividades literarias",
-   "caption": "Reparto de los seis millones de euros de la Diputación de Sevilla para contrataciones artísticas municipales.",
-   "foto": "diputacion-ayudas-contrataciones-artisticas-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "La Diputación de Sevilla reparte seis millones de euros entre los ayuntamientos de la provincia, salvo el de la capital, para contratar espectáculos y actividades culturales.",
-    "El Ayuntamiento de Alcalá de Guadaíra es una de las 107 entidades locales que pueden pedir la ayuda, con un plazo que termina el 12 de noviembre de 2026.",
-    "Cada entidad recibe una parte fija de 33.644,86 euros y otra variable que depende de su población."
-   ],
-   "body": [
-    "La Diputación de Sevilla ha abierto el plazo para que los ayuntamientos de la provincia, salvo el de la capital, pidan su parte de una línea de seis millones de euros para contratar espectáculos y actividades culturales. El Ayuntamiento de Alcalá de Guadaíra es una de las 107 entidades locales que pueden solicitarla. El plazo termina el 12 de noviembre.",
-    "Según la Diputación, el plazo de 15 días hábiles empezó el 22 de octubre, después de que se publicara el extracto de la convocatoria en el Boletín Oficial de la Provincia (BOP). Las bases incluyen la relación de entidades que pueden acogerse: todos los ayuntamientos sevillanos excepto el de Sevilla y las dos entidades locales autónomas de la provincia.",
-    "## Cómo se reparte el dinero",
-    "El reparto tiene dos partes. El 60 % de la línea, 3,6 millones de euros, se divide a partes iguales: cada entidad beneficiaria recibe una cuantía fija de 33.644,86 euros. El 40 % restante, 2,4 millones, se distribuye según la población de cada municipio.",
-    "La nota de la Diputación no detalla cuánto corresponde a cada municipio en la parte variable. Alcalá, con más de 75.000 habitantes, es el segundo municipio más poblado de los que pueden pedir la ayuda, por detrás de Dos Hermanas.",
-    "El dinero sirve para pagar la contratación de actividades y espectáculos de artes escénicas, música, artes visuales, audiovisual y actividades literarias. La línea ha crecido: en 2024 la Diputación le dedicó <a href='https://www.dipusevilla.es/comunicacion/noticias/La-Diputacion-dispone-2M-para-apoyar-las-contrataciones-artisticas-de-las-entidades-locales-sevillanas-en-2024/'>dos millones de euros</a>, la tercera parte que ahora.",
-    "No es la única convocatoria de la Diputación a la que puede optar Alcalá: sigue abierta la de un millón de euros para proyectos de memoria democrática, que se publicó en el BOP el 20 de octubre.",
-    "<span class='howto'>Quién puede pedirla: los ayuntamientos de la provincia de Sevilla, salvo el de la capital, y las dos entidades locales autónomas (107 en total). Plazo: hasta el 12 de noviembre de 2026. Cuantía: 33.644,86 euros fijos por entidad más una parte según la población. Para qué: contratar artes escénicas, música, artes visuales, audiovisual y actividades literarias. Bases y extracto: Boletín Oficial de la Provincia de Sevilla.</span>"
-   ],
-   "seo": [
-    "diputacion-sevilla-ayudas-contrataciones-artisticas-ayuntamientos",
-    "Ayudas de la Diputación para espectáculos: plazo y cuantía",
-    "La Diputación de Sevilla reparte seis millones para que ayuntamientos como el de Alcalá contraten espectáculos; cada uno recibe 33.644,86 euros fijos.",
-    [
-     "Diputación de Sevilla",
-     "subvenciones",
-     "contrataciones artísticas",
-     "Ayuntamiento de Alcalá de Guadaíra",
-     "cultura",
-     "BOP de Sevilla"
-    ]
-   ]
   },
   {
    "id": "opinion-pan-relevo",
