@@ -1,6 +1,6 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-24",
+  "actualizado": "2026-11-25",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia. El destacado se renueva cada día en el turno de mañana (decisión de Pablo, 25/11/2026): solo una pieza lo lleva y meta.destacado_historial guarda los últimos para no repetirlos en 7 días.",
   "apertura": 2,
@@ -17,10 +17,17 @@ window.EP = {
  },
  "agenda": [
   {
-   "cuando": "Jue 26 nov",
-   "que": "Ponencia de los restauradores del paso de San Juan",
+   "cuando": "Jue 26 nov, 20.00",
+   "que": "Cierre del ciclo de conservación: retablo de la Inmaculada y paso de San Juan",
    "donde": "Museo de Alcalá",
    "noticia": "jesus-nazareno-ponencia-restauracion-paso-san-juan-museo",
+   "hasta": "2026-11-26"
+  },
+  {
+   "cuando": "Jue 26 nov, 14.00",
+   "que": "Fin del plazo para entregar el voto por correo",
+   "donde": "Oficinas de Correos",
+   "noticia": "voto-correo-plazo-ampliado-jueves-26-noviembre-29n",
    "hasta": "2026-11-26"
   },
   {
@@ -35,6 +42,13 @@ window.EP = {
    "que": "Marcha sufragista de Transformando Entre Mujeres",
    "donde": "Salida desde la avenida de la Constitución",
    "noticia": "transformando-entre-mujeres-charla-violencia-vicaria-25n",
+   "hasta": "2026-11-27"
+  },
+  {
+   "cuando": "Vie 27 nov, 18.00",
+   "que": "Teatro infantil «El Grinch»",
+   "donde": "Plaza de los Molinos",
+   "noticia": "cabalgata-reyes-2027-construccion-carrozas-taller-grinch",
    "hasta": "2026-11-27"
   },
   {
@@ -59,6 +73,20 @@ window.EP = {
    "hasta": "2026-11-28"
   },
   {
+   "cuando": "Sáb 28 nov, 16.30",
+   "que": "IV Zambomba del Rosario",
+   "donde": "Colegio Salesianos",
+   "noticia": "agenda-cofrade-triduo-angeles-zambomba-rosario-foro-consejo",
+   "hasta": "2026-11-28"
+  },
+  {
+   "cuando": "Sáb 28 nov, 21.00",
+   "que": "Gala del 33.º Concurso Nacional de Cante Flamenco",
+   "donde": "Peña Cultural Flamenca Soleá",
+   "noticia": "pena-solea-gala-33-concurso-nacional-cante-diego-benitez",
+   "hasta": "2026-11-28"
+  },
+  {
    "cuando": "29 nov",
    "que": "Elecciones generales",
    "donde": "Colegios electorales de Alcalá",
@@ -80,10 +108,24 @@ window.EP = {
    "hasta": "2026-11-29"
   },
   {
+   "cuando": "Dom 29 nov, 11.00",
+   "que": "Función y besamanos a la Madre de Dios de los Ángeles",
+   "donde": "Hermandad de la Tercera Palabra",
+   "noticia": "agenda-cofrade-triduo-angeles-zambomba-rosario-foro-consejo",
+   "hasta": "2026-11-29"
+  },
+  {
    "cuando": "1 dic",
    "que": "Charla del arcipreste José Antonio Martínez en el Foro de Formación del Consejo de Hermandades",
    "donde": "Por confirmar",
    "noticia": "jesus-paso-san-juan-cartel-semana-santa-foro-formacion",
+   "hasta": "2026-12-01"
+  },
+  {
+   "cuando": "Mar 1 dic",
+   "que": "Arranca el Foro de Formación del Consejo de Hermandades",
+   "donde": "Consejo de Hermandades",
+   "noticia": "agenda-cofrade-triduo-angeles-zambomba-rosario-foro-consejo",
    "hasta": "2026-12-01"
   },
   {
@@ -142,6 +184,13 @@ window.EP = {
    "hasta": "2026-12-20"
   },
   {
+   "cuando": "Hasta 24 dic",
+   "que": "Plazo de la plaza de oficial de primera de mantenimiento",
+   "donde": "Web municipal",
+   "noticia": "convocatoria-plaza-oficial-primera-mantenimiento-24-diciembre",
+   "hasta": "2026-12-24"
+  },
+  {
    "cuando": "27 dic, 10.00",
    "que": "I San Silvestre Solidaria de Alcalá (5 km)",
    "donde": "Club de Tenis Oromana",
@@ -191,6 +240,555 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "id": "25n-acto-institucional-centro-igualdad-marchas-escolares",
+   "sec": "alcala",
+   "kicker": "25N",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=kWkauvpYWE8&t=155s",
+   "title": "Alcalá pide implicación social contra la violencia machista en el 25N y reclama un juzgado específico",
+   "sub": "El acto institucional en el Centro de la Igualdad dio voz a alumnado de Secundaria y a la Asociación Alcalareña de Educación Especial, mientras los colegios marchaban hasta el Parque Centro",
+   "caption": "Alumnas del IES Cristóbal de Monroy, durante el acto institucional del 25N en el Centro de la Igualdad de Alcalá de Guadaíra.",
+   "foto": "25n-acto-institucional-centro-igualdad-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "El Ayuntamiento de Alcalá de Guadaíra celebró el miércoles 25 de noviembre el acto institucional del Día Internacional de la Eliminación de la Violencia contra las Mujeres en el Centro de la Igualdad.",
+    "La creadora de contenido Alba Guisado Olivares leyó el manifiesto; intervinieron alumnas del IES Cristóbal de Monroy y usuarios de la Asociación Alcalareña de Educación Especial.",
+    "La alcaldesa, Ana Isabel Jiménez, dijo que el Ayuntamiento está solicitando un juzgado específico de violencia de género en Alcalá.",
+    "Los centros educativos recorrieron la ciudad hasta el Parque Centro en la marcha escolar del 25N."
+   ],
+   "body": [
+    "El Ayuntamiento de Alcalá de Guadaíra conmemoró el miércoles 25 de noviembre el Día Internacional de la Eliminación de la Violencia contra las Mujeres con un acto institucional en el Centro de la Igualdad, en el que reclamó la implicación de toda la sociedad. Los colegios marcharon esa mañana hasta el Parque Centro.",
+    "El acto reunió a miembros de la corporación municipal y a vecinos. La lectura del manifiesto institucional corrió a cargo de Alba Guisado Olivares, creadora de contenido alcalareña que trabaja temas de concienciación social. El texto pide a toda la sociedad, «especialmente a los hombres y a los jóvenes», su máxima implicación contra la desigualdad y la violencia de género.",
+    "Alumnas del IES Cristóbal de Monroy hablaron de los celos y del control en las relaciones de pareja jóvenes, y usuarios de la Asociación Alcalareña de Educación Especial (AAEE) pusieron el foco en las mujeres con discapacidad. «Pedimos que ninguna mujer con o sin discapacidad tenga que vivir la violencia en silencio», dijeron en su intervención.",
+    "## Un juzgado específico",
+    "La alcaldesa, Ana Isabel Jiménez (PSOE), explicó a El Panadero que el Ayuntamiento trabaja con los juzgados, la Fiscalía y la Policía Nacional y que está solicitando «un juzgado específico de violencia de género en Alcalá». Según el Ayuntamiento, la alcaldesa insistió además en la prevención en el entorno digital, el más usado por los jóvenes. La delegada de Igualdad, Abril Castillo Sarmiento (PSOE), recordó la programación <a href='#alcala-actua-violencia-genero-25n-2026'>«Alcalá Actúa contra la Violencia de Género»</a>, financiada con fondos del Pacto de Estado.",
+    "Andalucía por Sí, por su parte, ha pedido con motivo del 25N reforzar las plantillas y los medios del Partido Judicial de Alcalá, de la Fiscalía especializada y de las unidades policiales del sistema VioGén, aplicar el Plan Municipal de Igualdad y dar una dotación estable al Centro Municipal de Información a la Mujer.",
+    "## La marcha de los colegios",
+    "En la marcha educativa, escolares de distintos centros confluyeron en el Parque Centro, donde interpretaron en lengua de signos el estribillo de la canción «Ni una más». El Ayuntamiento colabora con la cesión de camisetas.",
+    "Según la Delegación del Gobierno contra la Violencia de Género, con datos a 23 de noviembre, 47 mujeres han sido asesinadas en España por sus parejas o exparejas en 2026, 12 de ellas en Andalucía. Desde 2003 la cifra asciende a 1.388 en España y a 282 en Andalucía.",
+    "<span class='howto'>Ayuda: el teléfono 016 atiende a víctimas de violencia de género las 24 horas, es gratuito y no deja rastro en la factura. En Alcalá, el Centro Municipal de Información a la Mujer ofrece atención y asesoramiento. En una emergencia, 112.</span>"
+   ],
+   "seo": [
+    "25n-alcala-acto-institucional-centro-igualdad",
+    "25N en Alcalá: acto institucional y marcha escolar",
+    "Alcalá de Guadaíra conmemora el 25N en el Centro de la Igualdad, pide implicación social y reclama un juzgado de violencia de género para la ciudad.",
+    [
+     "25N",
+     "violencia de género",
+     "Centro de la Igualdad",
+     "Ana Isabel Jiménez",
+     "IES Cristóbal de Monroy",
+     "Asociación Alcalareña de Educación Especial"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "voto-correo-plazo-ampliado-jueves-26-noviembre-29n",
+   "sec": "politica",
+   "kicker": "Elecciones 29N",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=kWkauvpYWE8&t=1301s",
+   "title": "Los votantes por correo de Alcalá tienen hasta el jueves 26 a las 14.00 para entregar su voto",
+   "sub": "La Junta Electoral Central ha ampliado un día el plazo, que acababa este miércoles; solo afecta a quienes ya pidieron votar por correo",
+   "caption": "Oficina de Correos en Alcalá de Guadaíra.",
+   "foto": "voto-correo-plazo-jueves-26-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La Junta Electoral Central ha ampliado hasta el jueves 26 de noviembre el plazo para depositar el voto por correo de las generales del 29 de noviembre.",
+    "El sobre se entrega en persona en cualquier oficina de Correos, en su horario habitual y en todo caso antes de las 14.00.",
+    "La ampliación solo afecta a quienes solicitaron el voto por correo, cuyo plazo de solicitud terminó el 19 de noviembre."
+   ],
+   "body": [
+    "Los electores de Alcalá de Guadaíra que pidieron votar por correo en las elecciones generales del domingo 29 de noviembre tienen hasta el jueves 26, como máximo a las 14.00, para entregar su voto en una oficina de Correos. La Junta Electoral Central ha ampliado un día el plazo, que inicialmente terminaba el miércoles 25.",
+    "La medida solo afecta a quienes ya solicitaron esta modalidad y han recibido la documentación electoral en casa. El plazo para pedir el voto por correo terminó el 19 de noviembre, así que no es posible solicitarlo ahora.",
+    "## Cómo se entrega",
+    "El elector debe llevar personalmente a cualquier oficina postal el sobre con la documentación y acreditar su identidad con el DNI, el pasaporte o el permiso de conducir. La entrega se hace dentro del horario habitual de cada oficina y, en cualquier caso, antes de las dos de la tarde del jueves.",
+    "Si no puede acudir, puede autorizar a otra persona para que lo entregue en su nombre. Para ello hace falta una autorización firmada por el elector y copia de los documentos de identidad de los dos.",
+    "Correos trasladará después los sobres a las mesas electorales que correspondan, para que se cuenten el domingo junto al resto de papeletas.",
+    "En las generales de 2023, el voto por correo registró en toda España una demanda muy superior a la habitual por coincidir con el verano. En esta convocatoria de noviembre no se ha dado a conocer el número de solicitudes en Alcalá.",
+    "Para quien quiera contexto antes de votar, El Panadero publicó el 23 de noviembre <a href='#alcala-generales-secciones-2016-2023'>cómo votó la ciudad por secciones entre 2016 y 2023</a>.",
+    "<span class='howto'><b>Voto por correo, elecciones generales del 29N.</b> Último día para entregarlo: jueves 26 de noviembre, hasta las 14.00 como máximo. Dónde: cualquier oficina de Correos. Qué llevar: el sobre con la documentación y el DNI, pasaporte o permiso de conducir. Por otra persona: autorización firmada y copias de los documentos de ambos.</span>"
+   ],
+   "seo": [
+    "voto-correo-plazo-ampliado-jueves-26-noviembre",
+    "Voto por correo: plazo hasta el jueves 26 a las 14.00",
+    "La Junta Electoral Central amplía hasta el jueves 26 de noviembre, a las 14.00, el plazo para entregar en Correos el voto de las generales del 29N.",
+    [
+     "voto por correo",
+     "elecciones generales 29N",
+     "Junta Electoral Central",
+     "Correos",
+     "Alcalá de Guadaíra"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "clinicas-vivanta-oralis-cierre-pacientes-reclamar",
+   "sec": "alcala",
+   "kicker": "Consumo",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=kWkauvpYWE8&t=1142s",
+   "title": "Los pacientes de Vivanta en Alcalá pueden reclamar el dinero de los tratamientos que quedaron sin hacer",
+   "sub": "El grupo Aestes Dental, dueño de Vivanta y Oralis, está en liquidación; Consumo de la Junta explica cómo pedir la devolución y el historial clínico",
+   "caption": "Fachada de una clínica de Vivanta Dental.",
+   "foto": "clinicas-vivanta-oralis-cierre-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "El cierre de clínicas del grupo Aestes Dental, que opera con las marcas Vivanta y Oralis, afecta también a pacientes de Alcalá de Guadaíra, donde la cadena tiene un centro.",
+    "La compañía está en concurso de acreedores y en fase de liquidación.",
+    "Los afectados pueden reclamar a la administración concursal, FTI & Partners, la parte pagada de los tratamientos no realizados.",
+    "Quien financió el tratamiento con un crédito vinculado puede pedir a la financiera que suspenda los pagos, pero antes debe reclamar por escrito."
+   ],
+   "body": [
+    "Los pacientes de las clínicas dentales Vivanta y Oralis con tratamientos pagados o financiados a medias pueden reclamar la devolución proporcional de lo que no recibieron. El cierre de centros del grupo Aestes Dental, en concurso de acreedores y en fase de liquidación, afecta también a vecinos de Alcalá de Guadaíra, donde la cadena tiene una clínica.",
+    "La Dirección General de Consumo de la Junta de Andalucía ha detallado los pasos. El primero es reunir toda la documentación: contratos, presupuestos, facturas, justificantes de pago y cualquier papel que permita acreditar qué parte del tratamiento se hizo y cuál quedó pendiente.",
+    "## A quién reclamar",
+    "Las cantidades se comunican a la administración concursal, que gestiona FTI & Partners. El plazo ordinario para comunicar créditos ya ha terminado, pero Consumo aconseja enviar la documentación cuanto antes y preguntar si se admiten solicitudes fuera de plazo.",
+    "Los pacientes tienen derecho a pedir copia de su historia clínica: historial odontológico, radiografías, fotografías, pruebas diagnósticas e informes, además de información sobre lo hecho y lo pendiente. Se solicita en los formularios de las webs de Vivanta y Oralis.",
+    "## Si hay un crédito",
+    "Quien pagó con un crédito vinculado puede pedir a la entidad financiera que suspenda los pagos y devuelva lo correspondiente a los servicios no prestados. La Junta advierte de que, antes de dejar de pagar cuotas, hay que presentar una reclamación formal por escrito a la financiera, para evitar consecuencias por impago.",
+    "Ni el grupo ni la administración concursal han informado públicamente de cuántos pacientes de la clínica de Alcalá están afectados.",
+    "<span class='howto'><b>Afectados por Vivanta y Oralis.</b> 1) Reúna contratos, facturas y justificantes. 2) Comunique lo pagado y no recibido a la administración concursal (FTI & Partners). 3) Pida su historia clínica en los formularios de las webs de Vivanta y Oralis. 4) Si hay crédito vinculado, reclame por escrito a la financiera antes de dejar de pagar. Dudas: Oficina Municipal de Información al Consumidor (OMIC) del Ayuntamiento o el servicio gratuito Consumo Responde de la Junta.</span>"
+   ],
+   "seo": [
+    "vivanta-oralis-cierre-pacientes-reclamar-alcala",
+    "Vivanta y Oralis: cómo reclamar en Alcalá",
+    "Los pacientes de Vivanta y Oralis en Alcalá pueden reclamar lo pagado y no recibido tras la liquidación de Aestes Dental. Pasos que indica Consumo.",
+    [
+     "Vivanta",
+     "Oralis",
+     "Aestes Dental",
+     "consumo",
+     "OMIC",
+     "Consumo Responde"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "precio-vivienda-alcala-sube-18-5-por-ciento-tercer-trimestre",
+   "sec": "economia",
+   "kicker": "Vivienda",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=63vzr2jOBaw&t=141s",
+   "title": "El valor de la vivienda en Alcalá sube un 18,5 % en un año, la mayor subida del área metropolitana",
+   "sub": "El barómetro de Global Analytics del tercer trimestre sitúa a Alcalá por delante de Camas, Tomares, Castilleja de la Cuesta y Dos Hermanas",
+   "caption": "Viviendas en una calle de Alcalá de Guadaíra.",
+   "foto": "vivienda-precio-alcala-18-por-ciento-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "El valor residencial de Alcalá de Guadaíra subió un 18,5 % interanual en el tercer trimestre de 2026, según el barómetro de Global Analytics.",
+    "Es el mayor incremento del área metropolitana de Sevilla, donde el valor medio es de 1.872 euros por metro cuadrado, un 12,6 % más.",
+    "Idealista situaba en septiembre el precio anunciado en Alcalá en 1.704 euros por metro cuadrado, un 13,4 % más que un año antes.",
+    "El Ministerio de Vivienda daba un valor tasado de la vivienda libre de unos 1.701 euros por metro cuadrado en el segundo trimestre, un 17,6 % más."
+   ],
+   "body": [
+    "El valor de la vivienda en Alcalá de Guadaíra subió un 18,5 % entre el tercer trimestre de 2025 y el de 2026, el mayor incremento del área metropolitana de Sevilla. Así lo recoge el último barómetro del mercado residencial de Andalucía, elaborado por la consultora Global Analytics.",
+    "La subida de Alcalá supera a la de Camas, del 16,2 %, y a las de Tomares, Castilleja de la Cuesta y Dos Hermanas, todas por encima del 15 %. En el conjunto del área metropolitana el valor medio alcanza los 1.872 euros por metro cuadrado, con un crecimiento anual del 12,6 %. En Sevilla capital se sitúa en 2.740 euros, un 11,2 % más que hace un año.",
+    "## Otros indicadores",
+    "Otras fuentes apuntan en la misma dirección. El portal Idealista situaba en septiembre el precio de la vivienda anunciada en Alcalá en 1.704 euros por metro cuadrado, un 13,4 % más que un año antes. Por zonas, el centro registraba la mayor subida, del 24,9 %, y Pinar de Oromana la más moderada, del 3,7 %.",
+    "Los datos del Ministerio de Vivienda del segundo trimestre situaban el valor tasado de la vivienda libre en Alcalá en torno a 1.701 euros por metro cuadrado, con un aumento anual del 17,6 %.",
+    "Las tres fuentes miden cosas distintas: el barómetro estima el valor residencial, Idealista recoge lo que piden los vendedores en sus anuncios y el Ministerio, el valor de tasación. Por eso las cifras no coinciden, aunque todas reflejan una subida de dos dígitos.",
+    "## Debate en campaña",
+    "El dato ha entrado en la campaña. El PP de Alcalá ha publicado en su perfil de Facebook que la subida se debe a que no se ha construido vivienda pública en una década, una crítica al gobierno de Ana Isabel Jiménez (PSOE). El Ayuntamiento sostiene que proyectos como el de Los Cercadillos, con 600 viviendas protegidas, buscan facilitar el acceso a la vivienda.",
+    "El Panadero ya informó en octubre de la <a href='#vivienda-compraventas-precio-2026'>evolución de las compraventas y los precios en la ciudad</a>.",
+    "<span class='howto'>Datos: barómetro del mercado residencial de Andalucía de Global Analytics (tercer trimestre de 2026), Idealista (septiembre de 2026) y Ministerio de Vivienda (valor tasado, segundo trimestre de 2026).</span>"
+   ],
+   "seo": [
+    "precio-vivienda-alcala-sube-18-por-ciento",
+    "La vivienda en Alcalá sube un 18,5 % en un año",
+    "El valor de la vivienda en Alcalá de Guadaíra sube un 18,5 % interanual, la mayor subida del área metropolitana de Sevilla según Global Analytics.",
+    [
+     "precio de la vivienda",
+     "Global Analytics",
+     "Idealista",
+     "Ministerio de Vivienda",
+     "área metropolitana de Sevilla",
+     "Pinar de Oromana"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "contrato-comidas-domicilio-2-millones-58944-comidas",
+   "sec": "alcala",
+   "kicker": "Servicios sociales",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=63vzr2jOBaw&t=397s",
+   "title": "Alcalá adjudica por más de dos millones el servicio de comidas a domicilio para mayores y dependientes",
+   "sub": "El contrato, para cuatro años, prevé 58.944 comidas al año para usuarios de la ayuda a domicilio y menores de familias con pocos recursos",
+   "caption": "Preparación de menús en bandejas para el reparto a domicilio.",
+   "foto": "comidas-domicilio-contrato-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La Junta de Gobierno Local de Alcalá de Guadaíra ha adjudicado el servicio de comidas a domicilio por más de dos millones de euros para cuatro años.",
+    "El contrato prevé 58.944 comidas al año, con primer y segundo plato, pan y postre.",
+    "Va dirigido a mayores y dependientes del Servicio de Ayuda a Domicilio con esta prestación prescrita y a menores en riesgo de exclusión social.",
+    "El personal de reparto podrá avisar a los servicios sociales de incidencias que detecte en los domicilios."
+   ],
+   "body": [
+    "La Junta de Gobierno Local de Alcalá de Guadaíra ha adjudicado el servicio de comidas a domicilio vinculado a la ayuda a domicilio por un importe de más de dos millones de euros para los próximos cuatro años. El contrato prevé 58.944 comidas al año.",
+    "El servicio se dirige sobre todo a personas mayores y dependientes que son usuarias del Servicio de Ayuda a Domicilio y que tienen prescrita esta prestación. Incluye también a menores en riesgo de exclusión social de familias con escasos recursos económicos.",
+    "## Qué incluye",
+    "La empresa adjudicataria se encarga de elaborar, conservar, envasar, transportar y entregar las comidas en casa, con un sistema de línea refrigerada. Cada menú tendrá primer plato, segundo, pan y postre, preferentemente fruta fresca de temporada.",
+    "Según la teniente de alcaldesa de Cohesión Social y delegada de Servicios Sociales, Rocío Bastida (PSOE), los menús se adaptan a las necesidades y a las prescripciones médicas de cada usuario. La delegada explicó a El Panadero que la prestación facilita la vida a personas que no tienen movilidad o suficiente apoyo familiar.",
+    "El contrato incluye un seguimiento de los usuarios: el personal que reparte las comidas podrá comunicar a los servicios sociales las incidencias o situaciones de vulnerabilidad que detecte en los domicilios.",
+    "## Junto a la ayuda a domicilio",
+    "La adjudicación llega después de que la Junta de Gobierno diera luz verde al nuevo contrato del Servicio de Ayuda a Domicilio, de más de 15 millones de euros para dos años y que atiende a más de un millar de personas, según la misma delegación.",
+    "El Ayuntamiento no ha detallado en esta información qué empresa ha resultado adjudicataria ni cuándo empezará a prestar el servicio.",
+    "<span class='howto'><b>Comidas a domicilio.</b> Para quién: usuarios del Servicio de Ayuda a Domicilio con la prestación prescrita y menores en riesgo de exclusión. Cómo acceder: a través de los Servicios Sociales municipales. Contrato: más de 2 millones de euros, cuatro años, 58.944 comidas al año.</span>"
+   ],
+   "seo": [
+    "contrato-comidas-domicilio-alcala-mayores-dependientes",
+    "Comidas a domicilio en Alcalá: contrato de 2 millones",
+    "Alcalá adjudica por más de dos millones y cuatro años el servicio de comidas a domicilio: 58.944 comidas al año para mayores, dependientes y menores.",
+    [
+     "comidas a domicilio",
+     "Servicio de Ayuda a Domicilio",
+     "Servicios Sociales",
+     "Junta de Gobierno Local",
+     "mayores",
+     "dependencia"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "cercadillos-centro-deportivo-obras-50-por-ciento",
+   "sec": "deportes",
+   "kicker": "Instalaciones",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10034/las-obras-del-centro-deportivo-de-los-cercadillos-se-encuentran-al-50-de-su-ejecucion",
+   "title": "Las obras del Centro Deportivo Los Cercadillos llegan al 50 % con la pista de atletismo de ocho calles",
+   "sub": "El Ayuntamiento cifra la inversión en más de 7 millones; ahora se trabaja en el edificio principal y en un graderío de 531 asientos",
+   "caption": "La alcaldesa, Ana Isabel Jiménez, recorre las obras del Centro Deportivo Los Cercadillos junto a técnicos.",
+   "foto": "cercadillos-obras-50-por-ciento-of.jpg",
+   "fotocredito": "Facebook del Ayuntamiento de Alcalá de Guadaíra",
+   "claves": [
+    "Las obras del Centro Deportivo Los Cercadillos, en Alcalá de Guadaíra, están al 50 % de ejecución, según el Ayuntamiento.",
+    "La instalación tendrá una pista de atletismo de ocho calles y 400 metros de cuerda apta para competiciones oficiales.",
+    "El graderío tendrá 531 asientos, 18 adaptados, y el recinto 80 plazas de aparcamiento.",
+    "La inversión supera los 7 millones de euros, según la alcaldesa, Ana Isabel Jiménez."
+   ],
+   "body": [
+    "Las obras del Centro Deportivo Los Cercadillos, en Alcalá de Guadaíra, han alcanzado el 50 % de su ejecución, según ha informado el Ayuntamiento tras la visita de la alcaldesa, Ana Isabel Jiménez (PSOE), el miércoles 25 de noviembre. Los trabajos se centran ahora en el edificio principal y en el graderío.",
+    "La pieza central será una pista de atletismo de ocho calles y 400 metros de cuerda, con la que la ciudad podrá acoger competiciones oficiales. El proyecto incluye zonas para salto de longitud y triple, altura, pértiga y lanzamientos de peso y jabalina, además de una pista polifuncional en el espacio central para otros deportes.",
+    "## Graderío y edificio",
+    "El graderío tendrá 531 asientos, 18 de ellos adaptados a personas con movilidad reducida. La edificación, de 1.593 metros cuadrados, albergará vestuarios, gimnasio, zonas administrativas, consulta médica y espacio para los clubes. El recinto tendrá 80 plazas de aparcamiento, arbolado perimetral y una plaza pública nueva en la calle Hogaza, que se reurbaniza.",
+    "La alcaldesa cifró la inversión en más de 7 millones de euros y calificó el centro como «uno de los proyectos clave de este mandato». Según el Ayuntamiento, la instalación servirá al deporte federado y al deporte base, y también para actividades educativas.",
+    "## 600 viviendas protegidas",
+    "El centro deportivo será el eje de un nuevo ámbito urbano de 56.000 metros cuadrados de suelo municipal, fruto de un acuerdo entre el Ayuntamiento y la Fundación San Francisco de Paula. Allí se levantarán 600 viviendas, todas protegidas, según la información municipal.",
+    "El Ayuntamiento no ha precisado en esta información la fecha prevista de finalización de las obras ni la empresa que las ejecuta. Los Cercadillos ya apareció en el debate de las <a href='#presupuestos-2027-aportaciones-grupos'>aportaciones de los grupos al presupuesto de 2027</a>.",
+    "<span class='howto'><b>Centro Deportivo Los Cercadillos.</b> Estado: 50 % de ejecución (25 de noviembre de 2026). Inversión: más de 7 millones de euros. Equipamiento: pista de atletismo de ocho calles, pista polifuncional, graderío de 531 asientos, 80 plazas de aparcamiento.</span>"
+   ],
+   "seo": [
+    "centro-deportivo-cercadillos-obras-50-por-ciento",
+    "Los Cercadillos, al 50 %: pista de atletismo en Alcalá",
+    "Las obras del Centro Deportivo Los Cercadillos de Alcalá llegan al 50 %: pista de atletismo de ocho calles, graderío de 531 asientos y más de 7 millones.",
+    [
+     "Los Cercadillos",
+     "pista de atletismo",
+     "instalaciones deportivas",
+     "Ana Isabel Jiménez",
+     "Fundación San Francisco de Paula",
+     "vivienda protegida"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "permiso-nacimiento-20-semanas-boe-1-marzo-2027",
+   "sec": "economia",
+   "kicker": "Conciliación",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=kWkauvpYWE8&t=924s",
+   "title": "El permiso por nacimiento sube a 20 semanas por progenitor; la semana extra se podrá pedir desde marzo",
+   "sub": "Las familias monoparentales tendrán 34 semanas; la norma, publicada en el BOE, entra en vigor el jueves 26 de noviembre",
+   "caption": "Una mujer embarazada en su casa. Imagen de recurso.",
+   "foto": "permiso-nacimiento-20-semanas-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "El permiso por nacimiento y cuidado del menor pasa de 19 a 20 semanas por progenitor, retribuidas al 100 %.",
+    "Las familias monoparentales tendrán 34 semanas.",
+    "El real decreto-ley se publicó en el BOE el miércoles 25 de noviembre y entra en vigor el 26, pero la semana adicional solo podrá disfrutarse desde el 1 de marzo de 2027.",
+    "Seis semanas son obligatorias tras el parto, 11 se reparten en el primer año y tres pueden usarse hasta que el menor cumpla ocho años."
+   ],
+   "body": [
+    "El permiso por nacimiento y cuidado del menor pasa de 19 a 20 semanas para cada progenitor, retribuidas al 100 %, y alcanza las 34 semanas en las familias monoparentales. El real decreto-ley que lo regula se publicó el miércoles 25 de noviembre en el Boletín Oficial del Estado (BOE) y se aplica también en Alcalá de Guadaíra.",
+    "La norma entra en vigor el jueves 26 de noviembre, pero la semana adicional solo podrá solicitarse y disfrutarse a partir del 1 de marzo de 2027. Se aplicará a los nacimientos y demás situaciones que se produzcan desde la entrada en vigor.",
+    "## Cómo se reparte",
+    "De las 20 semanas, seis deben disfrutarse de forma obligatoria inmediatamente después del nacimiento. Otras 11 pueden distribuirse de manera flexible durante el primer año de vida del bebé. Las tres restantes se pueden usar de forma acumulada o por semanas hasta que el menor cumpla ocho años.",
+    "En las familias monoparentales, las 34 semanas se dividen en seis de descanso obligatorio, 22 durante el primer año y otras seis que pueden disfrutarse hasta los ocho años del menor.",
+    "## Adopción y acogimiento",
+    "La ampliación se aplica también a la adopción, la guarda con fines de adopción y el acogimiento. Los permisos son individuales e intransferibles: un progenitor no puede ceder sus semanas al otro.",
+    "El cambio supone una semana más respecto al permiso que estaba en vigor hasta ahora, de 19 semanas por progenitor.",
+    "<span class='howto'><b>Permiso por nacimiento y cuidado del menor.</b> Duración: 20 semanas por progenitor (34 en familias monoparentales), al 100 % del salario. Entrada en vigor: 26 de noviembre de 2026. Semana adicional: disfrutable desde el 1 de marzo de 2027. Reparto: 6 obligatorias tras el nacimiento, 11 en el primer año y 3 hasta los ocho años. La prestación se solicita a la Seguridad Social.</span>"
+   ],
+   "seo": [
+    "permiso-nacimiento-20-semanas-progenitor",
+    "Permiso por nacimiento: 20 semanas por progenitor",
+    "El permiso por nacimiento sube a 20 semanas por progenitor y 34 en familias monoparentales; la semana extra se podrá disfrutar desde el 1 de marzo de 2027.",
+    [
+     "permiso por nacimiento",
+     "BOE",
+     "conciliación",
+     "familias monoparentales",
+     "Seguridad Social",
+     "maternidad y paternidad"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "pena-solea-gala-33-concurso-nacional-cante-diego-benitez",
+   "sec": "cultura",
+   "kicker": "Flamenco",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=63vzr2jOBaw&t=672s",
+   "title": "La Peña Soleá entrega el sábado 28 los premios de su 33.º Concurso Nacional de Cante con el alcalareño Diego Benítez en la final",
+   "sub": "La jaenera Julia Moreno «La Debla» y el gaditano Pedro Cortés Cortés, ganadores; actúan también los cinco finalistas desde las 21.00",
+   "caption": "Un cantaor y un guitarrista en el escenario de la Peña Cultural Flamenca Soleá de Alcalá, en una imagen de archivo.",
+   "foto": "pena-solea-gala-concurso-cante-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La Peña Cultural Flamenca Soleá de Alcalá de Guadaíra celebra el sábado 28 de noviembre, a las 21.00, la gala de ganadores y finalistas de su 33.º Concurso Nacional de Cante Flamenco.",
+    "Julia Moreno «La Debla», de Jaén, recibe el premio Manolito el de María, y Pedro Cortés Cortés, de San Roque (Cádiz), el premio Soleá de Alcalá.",
+    "Entre los cinco finalistas está el cantaor alcalareño Diego Benítez."
+   ],
+   "body": [
+    "La Peña Cultural Flamenca Soleá de Alcalá de Guadaíra celebra el sábado 28 de noviembre, a las 21.00, la gala de ganadores y finalistas de su Concurso Nacional de Cante Flamenco, que llega a su 33.ª edición. En la final actuará el cantaor alcalareño Diego Benítez.",
+    "Los dos ganadores de este año son Julia Moreno, conocida como «La Debla», procedente de la provincia de Jaén, que recibirá el premio Manolito el de María, y Pedro Cortés Cortés, de San Roque (Cádiz), que se lleva el premio Soleá de Alcalá.",
+    "## Cinco finalistas",
+    "El premio Manolito el de María lleva el nombre de un cantaor alcalareño de referencia en la soleá de Alcalá, el estilo que también da nombre a la peña. El otro galardón, el premio Soleá de Alcalá, remite a ese mismo cante, uno de los más ligados a la historia flamenca de la ciudad y al que la peña dedica buena parte de su actividad.",
+    "Junto a ellos subirán al escenario los cinco finalistas: Iván Segura «El Chasquío», de Alicante; Susana Romero, de Vejer de la Frontera (Cádiz); Juan Ruiz «El Juana», de Sevilla; Stefano Molín «El Nani», de Huelva, y el alcalareño Diego Benítez.",
+    "El concurso reúne cada año a cantaores de distintas provincias y comunidades autónomas. Es una de las citas centrales del calendario de la peña, que mantiene una programación estable de cante y actividades de difusión.",
+    "## Una peña con escuela",
+    "La Soleá abrió sus puertas la semana pasada a <a href='#pena-solea-125-alumnos-institutos-dia-flamenco'>125 alumnos de tres institutos de Alcalá con motivo del Día del Flamenco</a>, una de sus actividades con centros educativos.",
+    "El fin de semana musical de la ciudad se completa el domingo 29 con el <a href='#concierto-santa-cecilia-auditorio-riberas-29-noviembre'>concierto de Santa Cecilia en el Auditorio Riberas del Guadaíra</a>.",
+    "<span class='howto'><b>Gala del 33.º Concurso Nacional de Cante Flamenco.</b> Sábado 28 de noviembre de 2026, a las 21.00. Organiza: Peña Cultural Flamenca Soleá de Alcalá. Ganadores: Julia Moreno «La Debla» (premio Manolito el de María) y Pedro Cortés Cortés (premio Soleá de Alcalá). La peña no ha detallado el precio de la entrada.</span>"
+   ],
+   "seo": [
+    "pena-solea-gala-concurso-nacional-cante-flamenco",
+    "Peña Soleá: gala del 33.º Concurso de Cante, el sábado 28",
+    "La Peña Soleá de Alcalá celebra el sábado 28 la gala de su 33.º Concurso Nacional de Cante Flamenco, con el alcalareño Diego Benítez entre los finalistas.",
+    [
+     "Peña Soleá",
+     "cante flamenco",
+     "Diego Benítez",
+     "concurso nacional de cante",
+     "La Debla",
+     "flamenco en Alcalá"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "cabalgata-reyes-2027-construccion-carrozas-taller-grinch",
+   "sec": "cultura",
+   "kicker": "Navidad",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=63vzr2jOBaw&t=815s",
+   "title": "La Cabalgata de Reyes de Alcalá construye más de una docena de carrozas nuevas para el 5 de enero",
+   "sub": "Diseñadores y carpinteros trabajan desde hace meses en el taller; habrá una carroza dedicada al Castillo y el viernes 27 sigue el ciclo de teatro infantil con «El Grinch»",
+   "caption": "Una carroza de la Cabalgata de Reyes en construcción en su taller.",
+   "foto": "cabalgata-carrozas-2027-taller-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La Cabalgata de Reyes Magos de Alcalá de Guadaíra estrena cada 5 de enero prácticamente todas sus carrozas: más de una docena de creaciones nuevas al año.",
+    "Solo se conservan los tronos de los Reyes Magos, que se actualizan.",
+    "Una de las carrozas de 2027 estará dedicada al Castillo de Alcalá.",
+    "El IX Ciclo de Teatro Infantil de la Cabalgata sigue el viernes 27 de noviembre con «El Grinch» en la plaza de los Molinos, con entrada gratuita."
+   ],
+   "body": [
+    "La Cabalgata de Reyes Magos de Alcalá de Guadaíra trabaja desde hace meses en la construcción de las carrozas que saldrán a la calle el 5 de enero de 2027. Como cada año, el cortejo estrenará prácticamente todas: son más de una docena de creaciones nuevas, que diseñadores y carpinteros levantan en su taller.",
+    "La única excepción son los tronos de los Reyes Magos, que se conservan de un año a otro y se someten a trabajos de actualización para mantenerlos en buen estado.",
+    "## Del boceto a la estructura",
+    "El proceso empieza mucho antes de la Navidad. Primero llega el diseño; después, la estructura, y por último los elementos decorativos y los acabados. «Esto es poner la obra en tres dimensiones», explicó a El Panadero uno de los diseñadores, que destacó el momento en que los niños suben a las carrozas y «le dan vida» al tema.",
+    "El mismo diseñador contó que le gusta cuidar la temática local y recordó que en ediciones anteriores el cortejo ha llevado versiones del tren de Alcalá, de los molinos y del Hotel Oromana. Para 2027 prepara una carroza dedicada al Castillo.",
+    "Los responsables del taller subrayan que la seguridad de las estructuras es una de sus prioridades, para que el cortejo salga a la calle con garantías.",
+    "## Teatro infantil",
+    "Mientras tanto, la Cabalgata mantiene su IX Ciclo de Teatro Infantil, según ha publicado en su perfil de Facebook. El viernes 27 de noviembre, a las 18.00, la compañía Pequeños Duendes representa «El Grinch» en la plaza de los Molinos. El sábado 12 de diciembre, a las 12.00, Teatro Divertido pondrá en escena «Cazadores de tesoros» en la calle Antonio Guerra Ojeda.",
+    "El cartel de la próxima salida ya se conoce: lo firma <a href='#cartel-cabalgata-reyes-2027-mariano-fernandez-goncer'>Mariano Fernández Goncer</a>.",
+    "<span class='howto'><b>Teatro infantil de la Cabalgata.</b> «El Grinch»: viernes 27 de noviembre, 18.00, plaza de los Molinos. «Cazadores de tesoros»: sábado 12 de diciembre, 12.00, calle Antonio Guerra Ojeda. Entrada gratuita, para todos los públicos. Cabalgata de Reyes: 5 de enero de 2027.</span>"
+   ],
+   "seo": [
+    "cabalgata-reyes-alcala-2027-carrozas-taller",
+    "Cabalgata de Alcalá: carrozas nuevas para 2027",
+    "La Cabalgata de Reyes de Alcalá construye más de una docena de carrozas nuevas para el 5 de enero, una dedicada al Castillo, y sigue su teatro infantil.",
+    [
+     "Cabalgata de Reyes Magos",
+     "carrozas",
+     "Navidad en Alcalá",
+     "teatro infantil",
+     "El Grinch",
+     "Castillo de Alcalá"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "agenda-cofrade-triduo-angeles-zambomba-rosario-foro-consejo",
+   "sec": "hermandades",
+   "kicker": "Agenda cofrade",
+   "src": "Hermandad de la Tercera Palabra (Facebook)",
+   "fuente_url": "https://www.facebook.com/reel/1653900296179934/",
+   "title": "La Madre de Dios de los Ángeles abre su triduo y el Consejo inicia el 1 de diciembre su Foro de Formación",
+   "sub": "La Tercera Palabra celebra la función y el besamanos el domingo 29; el Rosario organiza el sábado su IV Zambomba en los Salesianos",
+   "caption": "La Madre de Dios de los Ángeles, ataviada para los cultos en su honor.",
+   "foto": "tercera-palabra-madre-de-dios-angeles-triduo-of.jpg",
+   "fotocredito": "Facebook de la Hermandad de la Tercera Palabra",
+   "claves": [
+    "La Hermandad de la Tercera Palabra celebra el triduo a la Madre de Dios de los Ángeles los días 25, 26 y 27 de noviembre a las 20.30, y la función principal y el besamanos el domingo 29 a las 11.00.",
+    "La Hermandad del Rosario celebra el sábado 28 su IV Zambomba en el patio del Colegio Salesianos desde las 16.30.",
+    "El Consejo General de Hermandades y Cofradías abre el 1 de diciembre su Foro de Formación con una ponencia del arcipreste, José Antonio Martínez Jiménez."
+   ],
+   "body": [
+    "La Hermandad de la Tercera Palabra de Alcalá de Guadaíra celebra del miércoles 25 al viernes 27 de noviembre, a las 20.30, el triduo a la Madre de Dios de los Ángeles. La función principal será el domingo 29 a las 11.00 y terminará con devoto besamanos, según ha publicado la hermandad en su perfil de Facebook.",
+    "La cofradía ha abierto además un horario para fotógrafos y devotos que quieran fotografiar a la dolorosa: de 19.00 a 20.00 los días del triduo.",
+    "## Zambomba del Rosario",
+    "La Hermandad del Rosario, que ya <a href='#zambomba-rosario-salesianos-28-noviembre'>anunció a primeros de mes</a> su IV Zambomba en el patio del Colegio Salesianos el sábado 28 de noviembre, ha publicado en Facebook el orden de actuaciones. El programa empieza a las 16.30 con la zambomba de Juan Tejero; a las 18.30 actúa el grupo Flamenquito y a las 20.00, DJ Alejandroff. La hermandad vende también adornos navideños con sus titulares a beneficio de su bolsa de caridad, a 3 euros la unidad y 5 la pareja.",
+    "Ese mismo sábado, a las 17.30, la Hermandad de la Borriquita celebra su retiro de Adviento en la parroquia de San Agustín, dirigido por el párroco, José Antonio Martínez Jiménez.",
+    "## Foro de Formación",
+    "El Consejo General de Hermandades y Cofradías de Alcalá abre el martes 1 de diciembre su Foro de Formación con la ponencia «El desafío de evangelizar hoy desde nuestras Hermandades a la luz de la visita del Papa a España». La imparte José Antonio Martínez Jiménez, arcipreste de la ciudad y director espiritual del Consejo, según ha publicado este en Facebook. La inscripción se hace a través de un formulario en línea.",
+    "El jueves 26, el Consejo y el Ayuntamiento cierran en el Museo el ciclo de conservación del patrimonio con <a href='#jesus-nazareno-ponencia-restauracion-paso-san-juan-museo'>la presentación del retablo de la Inmaculada y del paso de San Juan</a>.",
+    "<span class='howto'><b>Agenda.</b> Triduo a la Madre de Dios de los Ángeles: 25, 26 y 27 de noviembre, 20.30; función y besamanos: domingo 29, 11.00. IV Zambomba del Rosario: sábado 28, desde las 16.30, Colegio Salesianos. Retiro de Adviento de la Borriquita: sábado 28, 17.30, San Agustín. Foro de Formación del Consejo: martes 1 de diciembre, inscripción en forms.gle/FMRBp1FkAi8b4gne8.</span>"
+   ],
+   "seo": [
+    "triduo-madre-de-dios-angeles-zambomba-rosario-foro-consejo",
+    "Agenda cofrade: triduo de los Ángeles y zambomba",
+    "La Tercera Palabra celebra el triduo a la Madre de Dios de los Ángeles, el Rosario su IV Zambomba y el Consejo abre el 1 de diciembre su Foro de Formación.",
+    [
+     "Hermandad de la Tercera Palabra",
+     "Madre de Dios de los Ángeles",
+     "Hermandad del Rosario",
+     "zambomba",
+     "Consejo de Hermandades",
+     "Foro de Formación"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "fica-black-friday-campana-comercio-local",
+   "sec": "economia",
+   "kicker": "Comercio",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=kWkauvpYWE8&t=1017s",
+   "title": "FICA llama a comprar en las tiendas de Alcalá durante el Black Friday",
+   "sub": "La federación de comerciantes lanza la campaña «Compra cerca, ahorra y apoya a nuestros comercios»",
+   "caption": "Una calle comercial del centro de Alcalá de Guadaíra.",
+   "foto": "fica-black-friday-comercio-calle-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La Federación de Industriales y Comerciantes de Alcalá (FICA) ha lanzado una campaña por el Black Friday para animar a comprar en los comercios de la ciudad.",
+    "El lema es «Compra cerca, ahorra y apoya a nuestros comercios».",
+    "FICA sostiene que el gasto en el comercio local mantiene negocios abiertos y empleo en Alcalá."
+   ],
+   "body": [
+    "La Federación de Industriales y Comerciantes de Alcalá (FICA) ha lanzado una campaña con motivo del Black Friday para animar a los vecinos de Alcalá de Guadaíra a aprovechar las ofertas y promociones de los negocios de la ciudad. El lema resume su mensaje: «Compra cerca, ahorra y apoya a nuestros comercios».",
+    "El Black Friday, que este año cae el viernes 28 de noviembre, se ha convertido en una de las semanas comerciales más importantes del año, con descuentos que muchos consumidores usan para adelantar las compras de Navidad. FICA, que lo ha difundido también en su perfil de Facebook, quiere que parte de ese gasto se quede en Alcalá.",
+    "## El argumento de los comerciantes",
+    "Según la federación, comprar en los establecimientos locales contribuye a mantener los negocios abiertos, sostener puestos de trabajo y la actividad de autónomos y pequeños empresarios que trabajan en la ciudad. FICA sostiene que ese dinero dinamiza la economía local, genera oportunidades para otros negocios y mantiene la vida en las calles y en los barrios.",
+    "La federación añade a esos argumentos las ventajas que atribuye al comercio de proximidad: el trato directo, la atención personalizada y el conocimiento que los comerciantes tienen de sus clientes.",
+    "FICA no ha detallado cuántos establecimientos participan con ofertas propias en la campaña ni si existe un distintivo para identificarlos.",
+    "## Antes de la campaña de Navidad",
+    "La campaña llega a las puertas de la temporada navideña, la de más ventas para el comercio. En los próximos días suelen sumarse las iniciativas de dinamización del centro y de los barrios que organizan el Ayuntamiento y las asociaciones de comerciantes.",
+    "<span class='howto'><b>Black Friday en Alcalá.</b> Viernes 28 de noviembre de 2026 (muchas tiendas amplían las ofertas a toda la semana). Campaña de FICA: «Compra cerca, ahorra y apoya a nuestros comercios». Consejo de consumo: compare el precio anterior del producto y guarde el tique para cambios y garantías.</span>"
+   ],
+   "seo": [
+    "fica-black-friday-comercio-local-alcala",
+    "FICA anima a comprar en Alcalá en el Black Friday",
+    "La Federación de Industriales y Comerciantes de Alcalá (FICA) lanza una campaña por el Black Friday para que los vecinos compren en el comercio local.",
+    [
+     "FICA",
+     "Black Friday",
+     "comercio local",
+     "comercio de proximidad",
+     "Federación de Industriales y Comerciantes de Alcalá"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "convocatoria-plaza-oficial-primera-mantenimiento-24-diciembre",
+   "sec": "economia",
+   "kicker": "Empleo público",
+   "src": "Ayuntamiento de Alcalá de Guadaíra (Facebook)",
+   "fuente_url": "https://www.facebook.com/1605699894935684/posts/1615814840590856",
+   "title": "El Ayuntamiento de Alcalá convoca una plaza fija de oficial de primera de mantenimiento hasta el 24 de diciembre",
+   "sub": "Es una plaza de personal laboral fijo por turno libre; la convocatoria salió en el BOE el 24 de noviembre y las bases están en la web municipal",
+   "caption": "Cartel municipal de la oferta de empleo público.",
+   "foto": "oficial-primera-mantenimiento-convocatoria-of.jpg",
+   "fotocredito": "Facebook del Ayuntamiento de Alcalá de Guadaíra",
+   "encuadre": "contain",
+   "claves": [
+    "El Ayuntamiento de Alcalá de Guadaíra convoca una plaza de personal laboral fijo, por turno libre, de oficial de primera de mantenimiento.",
+    "El plazo de solicitudes va del 25 de noviembre al 24 de diciembre de 2026.",
+    "El anuncio de la convocatoria se publicó en el BOE el 24 de noviembre; las bases y el formulario están en la plataforma municipal de convocatorias."
+   ],
+   "body": [
+    "El Ayuntamiento de Alcalá de Guadaíra ha abierto la convocatoria de una plaza en propiedad de personal laboral fijo, por turno libre, de oficial de primera de mantenimiento. Las solicitudes pueden presentarse entre el 25 de noviembre y el 24 de diciembre de 2026, según ha informado el Ayuntamiento en su perfil de Facebook.",
+    "El Boletín Oficial del Estado (BOE) publicó el martes 24 de noviembre el <a href='https://www.boe.es/boe/dias/2026/11/24/pdfs/BOE-A-2026-24668.pdf' target='_blank'>anuncio de la resolución de 18 de noviembre</a> por la que se convoca la plaza. Esa publicación es la que abre el plazo de presentación.",
+    "## Bases y solicitud",
+    "La convocatoria y las bases generales y específicas pueden consultarse en la web municipal, donde también está el formulario de inscripción, dentro de la plataforma de convocatorias del Ayuntamiento. Allí figuran los requisitos de titulación, el sistema de selección, las pruebas y la tasa de examen, que el Ayuntamiento no ha detallado en su anuncio.",
+    "Al ser turno libre, puede presentarse cualquier persona que cumpla los requisitos de las bases, no solo personal que ya trabaje en el Ayuntamiento.",
+    "## Otros procesos abiertos",
+    "La plaza se suma a otros procesos de empleo público en marcha en la ciudad: la oposición a cinco plazas de bombero <a href='#bomberos-oposicion-cinco-plazas-primera-prueba-2-diciembre'>arranca con su primera prueba el 2 de diciembre</a>.",
+    "<span class='howto'><b>Oficial de primera de mantenimiento (una plaza).</b> Tipo: personal laboral fijo, turno libre. Plazo: del 25 de noviembre al 24 de diciembre de 2026. Bases y formulario: web municipal, en alcalaguadaira.convoca.online. Anuncio: BOE de 24 de noviembre de 2026 (BOE-A-2026-24668).</span>"
+   ],
+   "seo": [
+    "plaza-oficial-primera-mantenimiento-ayuntamiento-alcala",
+    "Plaza de oficial de mantenimiento en Alcalá",
+    "El Ayuntamiento de Alcalá de Guadaíra convoca una plaza fija de oficial de primera de mantenimiento por turno libre; plazo hasta el 24 de diciembre.",
+    [
+     "empleo público",
+     "oferta de empleo",
+     "Ayuntamiento de Alcalá de Guadaíra",
+     "oposiciones",
+     "BOE"
+    ]
+   ],
+   "iso": "2026-11-25",
+   "hora": "22:09",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
   {
    "id": "nacimientos-defunciones-alcala-2025-ine",
    "sec": "alcala",
@@ -343,8 +941,8 @@ window.EP = {
    "id": "estrella-san-agustin-utrera-b-rabesa-denuncia-incidentes",
    "sec": "deportes",
    "kicker": "Fútbol",
-   "src": "El Banquillo",
-   "fuente_url": "https://elbanquilloweb.com/2026/11/24/la-estrella-rechaza-las-acusaciones-del-cd-utrera-que-denuncia-insultos-racistas-en-rabesa/",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=63vzr2jOBaw&t=1004s",
    "title": "El CD Utrera denuncia agresiones e insultos racistas en Rabesa y la Estrella San Agustín lo niega",
    "sub": "Los hechos ocurrieron al acabar el partido del domingo 22, que ganó el Utrera B por 1-2; los dos clubes llevarán su versión al Comité de Competición",
    "caption": "Campo de fútbol de Rabesa, en Alcalá de Guadaíra, en una imagen de archivo.",
@@ -357,11 +955,11 @@ window.EP = {
     "Ambos clubes llevarán la información de la que disponen al Comité de Competición."
    ],
    "body": [
-    "El CD Utrera ha denunciado que varios jugadores de su equipo sénior B sufrieron agresiones físicas e insultos racistas al terminar el partido que jugaron el domingo 22 de noviembre en el campo de Rabesa, en Alcalá de Guadaíra, ante la Estrella San Agustín, que rechaza las acusaciones. Ganó el Utrera B por 1-2, según El Banquillo.",
+    "El CD Utrera ha denunciado que varios jugadores de su equipo sénior B sufrieron agresiones físicas e insultos racistas al terminar el partido que jugaron el domingo 22 de noviembre en el campo de Rabesa, en Alcalá de Guadaíra, ante la Estrella San Agustín, que rechaza las acusaciones. El partido, del grupo primero de Segunda Andaluza sénior, lo ganó el Utrera B por 1-2.",
     "## La versión del CD Utrera",
-    "En un comunicado, el CD Utrera sostiene que tras el pitido final se produjeron agresiones y vejaciones racistas contra algunos de sus futbolistas, hechos que califica de «intolerables». El club afirma que siete agentes de la Policía Local tuvieron que intervenir para frenar la situación y garantizar la seguridad de jugadores y cuerpo técnico, y agradece su actuación.",
+    "En un comunicado, el CD Utrera sostiene que tras el pitido final se produjeron agresiones y vejaciones racistas contra algunos de sus futbolistas, hechos que califica de «intolerables». El club afirma que siete agentes de la Policía Local tuvieron que intervenir para frenar la situación y garantizar la seguridad de jugadores y cuerpo técnico, y agradece su actuación. Añade que sus servicios jurídicos reúnen el acta arbitral, partes médicos y otras pruebas para llevarlas a la Real Federación Andaluza de Fútbol y a las autoridades competentes.",
     "## La versión de la Estrella San Agustín",
-    "La Estrella San Agustín ha respondido con otro comunicado. Reconoce que, como recoge el acta arbitral, al acabar el partido hubo un enfrentamiento entre jugadores de los dos equipos, pero asegura que nadie de su club profirió insultos racistas. Según su relato, varios miembros de la directiva entraron en el terreno de juego solo para separar a los implicados y evitar que el incidente fuera a más, y cuando llegaron los agentes el enfrentamiento ya había terminado.",
+    "La Estrella San Agustín ha respondido con otro comunicado. Reconoce que, como recoge el acta arbitral, al acabar el partido hubo un enfrentamiento entre jugadores de los dos equipos, pero asegura que nadie de su club profirió insultos racistas. Según su relato, varios miembros de la directiva entraron en el terreno de juego solo para separar a los implicados y evitar que el incidente fuera a más, y cuando llegaron los agentes el enfrentamiento ya había terminado. Ha anunciado además que estudiará acciones para defender su imagen ante lo que considera acusaciones falsas.",
     "El club alcalareño expresa su rechazo a cualquier tipo de violencia y a todo comportamiento racista o discriminatorio, y subraya que esos valores deben estar presentes en el deporte, en especial en el fútbol base.",
     "## Al Comité de Competición",
     "Las dos entidades han anunciado que emprenderán acciones por la vía que corresponda y que entregarán al Comité de Competición toda la información de que disponen. Será ese órgano federativo el que valore el acta arbitral y los informes de las partes.",
@@ -394,9 +992,9 @@ window.EP = {
    "fuente_url": "https://www.alcalamasdeporte.com/noticias/8449/alvaro-dominguez-mingorance-se-proclama-campeon-de-andalucia-de-motocross-2026",
    "title": "Álvaro Domínguez Mingorance, campeón de Andalucía de Motocross en 85 cc con nueve victorias en diez carreras",
    "sub": "El piloto alcalareño, de 13 años, se aseguró el título el domingo 22 de noviembre a falta de la última prueba, el 6 de diciembre en Sanlúcar de Barrameda",
-   "caption": "Imagen de archivo de la sección de Deportes.",
-   "foto": "generica-deportes.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "Cartel de Álvaro Domínguez Mingorance como campeón de Andalucía de Motocross 2026 en 85 cc.",
+   "foto": "alvaro-dominguez-campeon-motocross-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
    "claves": [
     "El alcalareño Álvaro Domínguez Mingorance se ha proclamado campeón de Andalucía de Motocross 2026 en la categoría de 85 cc.",
     "Ganó la penúltima prueba el domingo 22 de noviembre y sumó los 50 puntos que le aseguraban el título.",
@@ -426,7 +1024,8 @@ window.EP = {
      "escudería Eduardo Castro",
      "deporte alcalareño"
     ]
-   ]
+   ],
+   "encuadre": "contain"
   },
   {
    "iso": "2026-11-24",
@@ -526,42 +1125,45 @@ window.EP = {
    "id": "jesus-nazareno-ponencia-restauracion-paso-san-juan-museo",
    "sec": "hermandades",
    "kicker": "Patrimonio cofrade",
-   "src": "Hermandad de Jesús Nazareno (Facebook)",
-   "fuente_url": "https://www.facebook.com/1550103000474694/posts/1558051433013184",
-   "title": "Los restauradores del paso de San Juan explicarán su trabajo el jueves en el Museo de Alcalá",
-   "sub": "La ponencia forma parte de las jornadas culturales de la Hermandad de Jesús Nazareno, que mostró las andas restauradas el sábado 21",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10035/la-restauracion-del-retablo-de-la-inmaculada-concepcion-de-la-parroquia-de-santiago-cierra-manana-el-%E2%80%9Cii-ciclo-de-conservacion-preventiva%E2%80%9D",
+   "title": "El paso de San Juan y el retablo de la Inmaculada de Santiago cierran el jueves el ciclo de conservación",
+   "sub": "Sus restauradores explicarán los trabajos en el Museo de Alcalá en la última sesión del II Ciclo de Conservación Preventiva del patrimonio de las hermandades",
    "caption": "Cartel de la ponencia sobre la restauración del paso de San Juan Evangelista.",
    "foto": "jesus-nazareno-ponencia-paso-san-juan-cartel-of.jpg",
    "fotocredito": "Facebook de la Hermandad de Jesús Nazareno",
    "claves": [
-    "El equipo que restauró el paso de San Juan Evangelista de la Hermandad de Jesús Nazareno dará una ponencia el jueves 26 de noviembre en el Museo de Alcalá de Guadaíra.",
-    "La restauración la hicieron entre enero y julio de 2026 Jesús Manuel Lozano Muñoz, María de la Cruz Gabarro Bando y Pablo Tejero Cárdenas, con financiación parcial del Ayuntamiento.",
-    "La hermandad no ha publicado la hora de la ponencia."
+    "El II Ciclo de Conservación Preventiva del patrimonio de las hermandades se cierra el jueves 26 de noviembre en el Museo de Alcalá de Guadaíra.",
+    "Carmen Palacios y María José Cordero presentarán la restauración de elementos del retablo de la Inmaculada Concepción de la parroquia de Santiago.",
+    "Manuel Lozano, María de la Cruz Gabarro y Pablo Tejero explicarán la intervención en el paso de San Juan Evangelista de la Hermandad de Jesús Nazareno.",
+    "El Ayuntamiento sitúa el inicio a las 20.00 y el Consejo de Hermandades, a las 19.30."
    ],
    "body": [
-    "El equipo de conservadores-restauradores que ha devuelto su aspecto original al paso de San Juan Evangelista de la Hermandad de Jesús Nazareno de Alcalá de Guadaíra explicará su trabajo en una ponencia el jueves 26 de noviembre en el Museo de Alcalá. Así lo ha anunciado la hermandad en su perfil de Facebook, dentro de sus jornadas culturales.",
-    "Según la hermandad, la cita servirá para conocer «de primera mano» el proceso al que se han sometido las andas. La cofradía no ha indicado la hora ni si hay que inscribirse para asistir.",
+    "El II Ciclo de Conservación Preventiva del patrimonio de las hermandades de Alcalá de Guadaíra se cierra el jueves 26 de noviembre en el Museo de Alcalá con dos presentaciones: la restauración de elementos del retablo de la Inmaculada Concepción de la parroquia de Santiago y la del paso de San Juan Evangelista de la Hermandad de Jesús Nazareno.",
+    "El ciclo lo organizan la Delegación de Cultura del Ayuntamiento y el Consejo General de Hermandades y Cofradías. Las restauradoras Carmen Palacios y María José Cordero explicarán su trabajo en el retablo, y Manuel Lozano, María de la Cruz Gabarro y Pablo Tejero, el del paso. La hora no coincide en las dos fuentes: el Ayuntamiento la fija a las 20.00 y el Consejo de Hermandades, a las 19.30. El ciclo es de participación libre y gratuita.",
+    "El delegado de Cultura, Patrimonio y Museos, Christopher Rivas (Andalucía Por Sí), defendió la importancia de «dar a conocer todas las intervenciones realizadas sobre bienes patrimoniales». La Delegación de Cultura ha publicado además un vídeo que resume las restauraciones presentadas en esta segunda edición, que empezó en septiembre en la capilla de los Salesianos con el retablo de San Juan Bosco.",
     "La ponencia llega cinco días después de que la hermandad <a href='#jesus-paso-san-juan-cartel-semana-santa-foro-formacion'>abriera su casa de hermandad para mostrar el paso restaurado</a>, el sábado 21 de noviembre, con visitas guiadas por los propios restauradores.",
     "## Seis meses de trabajo",
     "La intervención se hizo entre enero y julio de 2026 y la firmaron Jesús Manuel Lozano Muñoz, María de la Cruz Gabarro Bando y Pablo Tejero Cárdenas. El Ayuntamiento de Alcalá ha financiado una parte del coste, cuya cuantía no se ha detallado. La hermandad se acogió para ello al II Ciclo de Conservación Preventiva que organizan la Delegación de Patrimonio y el Consejo General de Hermandades y Cofradías.",
     "La canastilla nació en las primeras décadas del siglo XX como paso de la Virgen, está ligada a San Juan desde 1943 y recibió en 1980 la reforma neobarroca de Manuel Guzmán Bejarano. Según la hermandad, presentaba ataques de insectos xilófagos, grietas, pérdidas de dorado y barnices oxidados. Los restauradores consolidaron la estructura, limpiaron y fijaron el dorado y recuperaron la policromía de los cuatro ángeles de las esquinas.",
     "El mismo ciclo llevó al Museo en octubre la conferencia del restaurador <a href='#pedro-manzano-conservacion-preventiva'>Pedro Manzano sobre la manipulación de las imágenes</a>, y el 18 de noviembre la presentación de dos pinturas restauradas de la parroquia de San Sebastián.",
-    "<span class='howto'><b>Ponencia sobre la restauración del paso de San Juan.</b> Jueves 26 de noviembre de 2026. Museo de Alcalá de Guadaíra. Organiza: Hermandad de Jesús Nazareno, dentro de sus jornadas culturales. Hora: pendiente de confirmar por la hermandad.</span>"
+    "<span class='howto'><b>Cierre del II Ciclo de Conservación Preventiva.</b> Jueves 26 de noviembre de 2026. Museo de Alcalá de Guadaíra. Hora: 20.00 según el Ayuntamiento; 19.30 según el Consejo de Hermandades. Presentaciones: retablo de la Inmaculada de Santiago y paso de San Juan Evangelista de la Hermandad de Jesús Nazareno. Entrada libre y gratuita.</span>"
    ],
    "seo": [
-    "restauracion-paso-san-juan-jesus-nazareno-museo-alcala",
-    "Restauradores del paso de San Juan, en el Museo de Alcalá",
-    "El equipo que restauró el paso de San Juan de la Hermandad de Jesús Nazareno explica su trabajo el jueves 26 de noviembre en el Museo de Alcalá.",
+    "cierre-ciclo-conservacion-preventiva-retablo-inmaculada-paso-san-juan",
+    "Retablo de Santiago y paso de San Juan, en el Museo",
+    "El ciclo de conservación de las hermandades de Alcalá se cierra el jueves 26 en el Museo con el retablo de la Inmaculada de Santiago y el paso de San Juan.",
     [
+     "Conservación Preventiva",
+     "retablo de la Inmaculada",
+     "parroquia de Santiago",
      "Hermandad de Jesús Nazareno",
      "San Juan Evangelista",
-     "Museo de Alcalá",
-     "restauración",
-     "Conservación Preventiva",
-     "Semana Santa de Alcalá"
+     "Museo de Alcalá"
     ]
    ],
-   "encuadre": "contain"
+   "encuadre": "contain",
+   "actualizada": "2026-11-25T22:09"
   },
   {
    "id": "moreno-mitin-pp-alcala-tranvia-2027-29n",
@@ -797,9 +1399,9 @@ window.EP = {
    "elaboracion": "ia",
    "title": "La alcalareña María Pavón gana el oro y el trofeo a la mejor boxeadora en Antequera",
    "sub": "La deportista, de 11 años, se impuso en la categoría infantil femenina de un campeonato con unos 90 participantes de toda Andalucía y suma ya nueve oros",
-   "caption": "Imagen de archivo de la sección de deportes.",
-   "foto": "generica-deportes.jpg",
-   "fotocredito": "Archivo El Panadero",
+   "caption": "María Pavón, con la medalla de oro y el trofeo a la mejor boxeadora en Antequera.",
+   "foto": "maria-pavon-oro-antequera-of.jpg",
+   "fotocredito": "Alcalá+Deporte",
    "claves": [
     "La boxeadora alcalareña María Pavón Salguero, de 11 años, ganó la medalla de oro en la categoría infantil femenina del Campeonato de Boxeo Formas de Antequera.",
     "También recibió el trofeo a la mejor boxeadora del campeonato, que reunió a unos 90 participantes de 5 a 14 años de varias provincias andaluzas.",
