@@ -182,6 +182,56 @@ window.EP = {
  ],
  "noticias": [
   {
+   "id": "nacimientos-defunciones-alcala-2025-ine",
+   "sec": "alcala",
+   "kicker": "Datos",
+   "iso": "2026-11-25",
+   "hora": "07:53",
+   "src": "Instituto Nacional de Estadística",
+   "fuente_url": "https://www.ine.es/dyngs/Prensa/es/MNP2025.htm",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Alcalá registra 503 nacimientos y 580 defunciones en 2025 y suma cinco años con más muertes que nacimientos",
+   "sub": "Los nacimientos han caído un 55,8 % desde 2009, más que en Dos Hermanas, Utrera y el conjunto de la provincia de Sevilla, según los datos definitivos del INE",
+   "caption": "Gráfico con los nacimientos y las defunciones de vecinos de Alcalá de Guadaíra entre 2009 y 2025, según el INE.",
+   "foto": "nacimientos-defunciones-alcala-2025-ine-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "Alcalá de Guadaíra registró 503 nacimientos y 580 defunciones de vecinos en 2025, con un saldo vegetativo de 77 personas negativo, según el INE.",
+    "Es el quinto año seguido con más defunciones que nacimientos: el saldo es negativo desde 2021.",
+    "Los nacimientos han bajado un 55,8 % desde 2009, cuando hubo 1.139, frente al 33,7 % de Dos Hermanas, el 29,6 % de Utrera y el 40,3 % de la provincia.",
+    "Alcalá tuvo en 2025 una tasa de 6,5 nacimientos por cada 1.000 habitantes, por debajo de Dos Hermanas (8,0) y Utrera (8,2)."
+   ],
+   "body": [
+    "Alcalá de Guadaíra registró en 2025 un total de 503 nacimientos y 580 defunciones de vecinos empadronados en el municipio, según los datos definitivos del Movimiento Natural de la Población que el Instituto Nacional de Estadística (INE) publicó el 18 de noviembre de 2026. El saldo vegetativo, la diferencia entre ambos, fue negativo en 77 personas.",
+    "Es el quinto año seguido en que en Alcalá mueren más vecinos de los que nacen. El saldo pasó a negativo en 2021, con 84 personas, y siguió así en 2022 (88), 2023 (135), 2024 (53) y 2025 (77). En 2009, el primer año de la serie municipal del INE, nacieron 647 vecinos más de los que fallecieron.",
+    "Los 503 nacimientos de 2025 son seis menos que en 2024, un 1,2 % menos, y la segunda cifra más baja de la serie, solo por encima de los 472 de 2023. En 2009 nacieron 1.139 niños de madres residentes en Alcalá: la caída desde entonces es del 55,8 %. Desde 2015, cuando hubo 797, el descenso es del 36,9 %.",
+    "Las defunciones fueron 580, 18 más que en 2024. Son un 17,9 % más que las 492 de 2009. El año con más fallecimientos de la serie fue 2021, con 625.",
+    "## Nacimientos en Alcalá, Dos Hermanas y Utrera",
+    "La caída de la natalidad en Alcalá es mayor que en los municipios de su entorno. Dos Hermanas registró 1.133 nacimientos en 2025, un 33,7 % menos que en 2009, y 924 defunciones, con lo que mantiene un saldo positivo de 209 personas. Utrera tuvo 433 nacimientos, un 29,6 % menos que en 2009, y 422 defunciones: un saldo positivo de 11.",
+    "En el conjunto de la provincia de Sevilla nacieron 14.204 niños en 2025, un 40,3 % menos que en 2009, y murieron 16.895 personas. El saldo provincial fue negativo en 2.691 personas y lleva así desde 2020: es el sexto año consecutivo.",
+    "Para comparar municipios de distinto tamaño, El Panadero ha calculado las tasas con la población del padrón a 1 de enero de 2025 que recoge el Instituto de Estadística y Cartografía de Andalucía (IECA): 77.718 habitantes en Alcalá, 142.463 en Dos Hermanas y 52.489 en Utrera. Alcalá tuvo 6,5 nacimientos por cada 1.000 habitantes, por debajo de Dos Hermanas (8,0) y Utrera (8,2). Su tasa de mortalidad fue de 7,5 por 1.000, frente a 6,5 en Dos Hermanas y 8,0 en Utrera.",
+    "## Qué mide el saldo vegetativo",
+    "La estadística cuenta los nacimientos según el municipio de residencia de la madre y las defunciones según el de residencia del fallecido, aunque el parto o la muerte ocurran en otra localidad, como un hospital de Sevilla. El saldo vegetativo no mide la evolución de la población, porque deja fuera las mudanzas: en 2024, según el IECA, llegaron a vivir a Alcalá 2.519 personas y se marcharon 1.892.",
+    "<span class='howto'><b>De dónde salen los datos.</b> Instituto Nacional de Estadística, Movimiento Natural de la Población, datos definitivos de 2025 publicados el 18 de noviembre de 2026 (tablas de nacimientos y defunciones de capitales y principales municipios). La serie municipal empieza en 2009. La población de 2025 y las migraciones de 2024 proceden del IECA. El INE publica cada año los datos definitivos del año anterior.</span>"
+   ],
+   "seo": [
+    "nacimientos-defunciones-alcala-2025-saldo-vegetativo",
+    "Nacimientos en Alcalá: 503 en 2025 y 580 defunciones",
+    "Alcalá de Guadaíra sumó en 2025 su quinto año con más defunciones que nacimientos: 503 bebés y 580 fallecidos, según el INE. Caída del 55,8 % desde 2009.",
+    [
+     "natalidad",
+     "saldo vegetativo",
+     "INE",
+     "Movimiento Natural de la Población",
+     "Dos Hermanas",
+     "Utrera",
+     "demografía"
+    ]
+   ]
+  },
+  {
    "iso": "2026-11-24",
    "hora": "21:54",
    "firma": "Redacción El Panadero",
