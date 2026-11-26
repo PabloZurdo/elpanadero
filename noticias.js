@@ -56,17 +56,17 @@ window.EP = {
    "hasta": "2026-11-27"
   },
   {
+   "cuando": "Vie 27 nov, 20.30",
+   "que": "«Hamlet», de Guayominí Producciones",
+   "donde": "Teatro Gutiérrez de Alba",
+   "noticia": "hamlet-guayomini-teatro-gutierrez-de-alba-27-noviembre",
+   "hasta": "2026-11-27"
+  },
+  {
    "cuando": "7–28 nov",
    "que": "Flamenco, poesía, comedia y teatro en el Centro San Miguel",
    "donde": "Centro San Miguel",
    "noticia": "agenda-cultural-noviembre-2026",
-   "hasta": "2026-11-28"
-  },
-  {
-   "cuando": "Sáb 28 nov, 13.00",
-   "que": "IV Zambomba de la Hermandad del Rosario",
-   "donde": "Patio del Colegio Salesianos",
-   "noticia": "zambomba-rosario-salesianos-28-noviembre",
    "hasta": "2026-11-28"
   },
   {
@@ -251,6 +251,231 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "id": "comercios-emblematicos-ferreteria-mora-pedro-rusillo",
+   "sec": "economia",
+   "kicker": "Comercio",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10038/las-empresas-de-alcala-ferreteria-mora-y-pedro-rusillo-reconocidas-como-comercios-emblematicos-de-la-provincia",
+   "title": "Ferretería Mora y Pedro Rusillo, distinguidos como comercios emblemáticos de la provincia de Sevilla",
+   "sub": "La Cámara de Comercio de Sevilla reconoce a los dos establecimientos de Alcalá por llevar más de 40 años abiertos",
+   "caption": "Representantes de Ferretería Mora y de Pedro Rusillo, con sus distintivos, junto a la alcaldesa, Ana Isabel Jiménez, y la delegada de Comercio, Paula Fuster, en la Cámara de Comercio de Sevilla.",
+   "foto": "comercios-emblematicos-mora-rusillo-of.jpg",
+   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
+   "claves": [
+    "La Cámara de Comercio de Sevilla ha reconocido a Ferretería Mora y a Pedro Rusillo, de Alcalá de Guadaíra, con el distintivo de Comercios Emblemáticos de la Provincia.",
+    "El distintivo se concede a comercios con más de 40 años de trayectoria y forma parte del programa de apoyo al comercio minorista de la Cámara.",
+    "La alcaldesa, Ana Isabel Jiménez, y la delegada de Comercio, Paula Fuster, asistieron a la entrega el jueves 26 de noviembre."
+   ],
+   "body": [
+    "Dos negocios de Alcalá de Guadaíra, Ferretería Mora y Pedro Rusillo, han recibido este jueves 26 de noviembre el distintivo de Comercios Emblemáticos de la Provincia que concede la Cámara de Comercio de Sevilla a los establecimientos con más de 40 años de actividad, según ha informado el Ayuntamiento.",
+    "A la entrega asistieron la alcaldesa, Ana Isabel Jiménez, y la delegada municipal de Comercio, Paula Fuster. La foto difundida por el Ayuntamiento muestra a representantes de los dos negocios con sus diplomas en la escalera de la sede de la Cámara, en Sevilla.",
+    "## Qué reconoce el distintivo",
+    "La Cámara otorga este reconocimiento junto a los ayuntamientos y las asociaciones empresariales de la provincia. Está reservado a comercios con más de cuatro décadas de trayectoria y se enmarca en su programa de apoyo al comercio minorista, que incluye acciones de promoción, digitalización y campañas para impulsar el consumo responsable, según la nota municipal.",
+    "Según el Ayuntamiento, el distintivo busca también apoyar la consolidación de estos negocios y su continuidad entre generaciones, además de su promoción y modernización.",
+    "La alcaldesa presentó a los dos negocios como un ejemplo del carácter emprendedor de Alcalá y de la perseverancia de los comerciantes frente a las crisis, y destacó, según la nota, su «cercanía y calidad de servicio a la ciudadanía». En su perfil de Facebook, Jiménez añadió que ambos están «muy presentes en la memoria de los alcalareños».",
+    "La Federación de Industriales y Comerciantes de Alcalá (FICA) también ha felicitado a las dos empresas en sus redes sociales por el reconocimiento a «su trayectoria, esfuerzo y compromiso con el comercio local». La federación lleva esta semana una campaña para animar a comprar en las tiendas de la ciudad, como contó El Panadero en <a href='#fica-black-friday-campana-comercio-local'>su llamamiento por el Black Friday</a>.",
+    "La nota municipal no detalla en qué año abrió cada uno de los dos negocios ni cuántos establecimientos de la provincia han recibido el distintivo en esta convocatoria.",
+    "<span class='howto'><b>Comercios Emblemáticos de la Provincia.</b> Lo concede la Cámara de Comercio de Sevilla con ayuntamientos y asociaciones empresariales. Requisito: más de 40 años de trayectoria. Distinguidos en Alcalá este año: Ferretería Mora y Pedro Rusillo (26 de noviembre de 2026).</span>"
+   ],
+   "seo": [
+    "comercios-emblematicos-ferreteria-mora-pedro-rusillo-alcala",
+    "Ferretería Mora y Pedro Rusillo, comercios emblemáticos",
+    "La Cámara de Comercio de Sevilla distingue a Ferretería Mora y Pedro Rusillo, de Alcalá de Guadaíra, como comercios emblemáticos con más de 40 años.",
+    [
+     "Ferretería Mora",
+     "Pedro Rusillo",
+     "Cámara de Comercio de Sevilla",
+     "comercio local",
+     "FICA",
+     "Paula Fuster"
+    ]
+   ],
+   "iso": "2026-11-26",
+   "hora": "22:20",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "ayuda-17-millones-economia-circular-film-plastico-alcala",
+   "sec": "economia",
+   "kicker": "Industria",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=4wuOMIPhO1I&t=535s",
+   "title": "Transición Ecológica propone 1,7 millones para un proyecto de Alcalá que reducirá el plástico virgen",
+   "sub": "La inversión total es de 4,5 millones y busca reducir un 40 % el consumo de plástico virgen",
+   "caption": "Bolsas de plástico en una línea de envasado. Imagen de recurso.",
+   "foto": "ayuda-plastico-economia-circular-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "El Ministerio para la Transición Ecológica ha incluido un proyecto ubicado en Alcalá de Guadaíra entre los beneficiarios de sus ayudas a la economía circular del plástico, con una propuesta de 1,7 millones de euros.",
+    "El proyecto, de 4,5 millones de inversión total, incorpora equipos para reducir un 40 % el consumo de materia prima virgen en la fabricación de film plástico.",
+    "Con esta segunda resolución, la convocatoria suma 117 proyectos en 14 comunidades autónomas y 153 millones de euros en ayudas."
+   ],
+   "body": [
+    "Un proyecto industrial ubicado en Alcalá de Guadaíra figura entre los nuevos beneficiarios de las ayudas del Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO) para impulsar la economía circular en el sector del plástico, con una propuesta de ayuda de 1,7 millones de euros para mejorar la sostenibilidad en la fabricación de film plástico.",
+    "La iniciativa supone una inversión total de 4,5 millones de euros. Prevé incorporar nuevos equipos con los que reducir un 40 % el consumo de materia prima virgen, manteniendo las propiedades mecánicas y la calidad del producto final.",
+    "## Dos proyectos nuevos",
+    "La ayuda llega en una segunda resolución de la convocatoria, que incorpora dos proyectos: el de Alcalá y otro en Sant Boi de Llobregat (Barcelona). Entre los dos recibirán 3,3 millones de euros.",
+    "Con estas incorporaciones, el programa alcanza los 117 proyectos beneficiarios en 14 comunidades autónomas, con 153 millones de euros en ayudas públicas y una inversión pública y privada que puede llegar a los 482 millones.",
+    "En marzo, el Ministerio había anunciado la primera resolución de esta línea, con unos 150 millones para 115 proyectos, según <a href='https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/marzo/el-miteco-impulsa-la-circularidad-en-el-sector-del-plastico-con-.html'>su nota de prensa</a>.",
+    "## Fondos europeos",
+    "Las ayudas forman parte del Proyecto Estratégico para la Recuperación y Transformación Económica (PERTE) de Economía Circular, financiado con fondos europeos Next Generation EU. Su objetivo es reducir residuos y avanzar hacia procesos industriales más sostenibles, en este caso con menos plástico nuevo en los envases y embalajes.",
+    "La información difundida sobre esta segunda resolución no identifica a la empresa que desarrollará el proyecto de Alcalá ni el polígono en el que se ubica.",
+    "<span class='howto'><b>Ayudas a la economía circular del plástico.</b> Convoca: Ministerio para la Transición Ecológica (PERTE de Economía Circular, fondos Next Generation EU). Proyecto de Alcalá: 1,7 millones de ayuda propuesta sobre una inversión de 4,5 millones. Total de la convocatoria: 117 proyectos y 153 millones en ayudas.</span>"
+   ],
+   "seo": [
+    "ayuda-economia-circular-plastico-alcala-film",
+    "Alcalá: 1,7 millones para un proyecto de film plástico",
+    "Transición Ecológica propone 1,7 millones de ayuda a un proyecto de Alcalá de Guadaíra que reducirá un 40 % el plástico virgen en la fabricación de film.",
+    [
+     "economía circular",
+     "plástico",
+     "Ministerio para la Transición Ecológica",
+     "PERTE",
+     "Next Generation EU",
+     "industria"
+    ]
+   ],
+   "iso": "2026-11-26",
+   "hora": "22:20",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "hamlet-guayomini-teatro-gutierrez-de-alba-27-noviembre",
+   "sec": "cultura",
+   "kicker": "Teatro",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10037/la-obra-hamlet-de-shakespeare-llega-este-viernes-al-teatro-gutierrez-de-alba",
+   "title": "El Gutiérrez de Alba acoge el viernes 27 un «Hamlet» con humor, música en directo y participación del público",
+   "sub": "La compañía Guayominí, premiada en el Certamen Barroco Infantil del Festival de Almagro, actúa a las 20.30",
+   "caption": "Público en el patio de butacas del Teatro Gutiérrez de Alba, en una imagen de archivo.",
+   "foto": "hamlet-gutierrez-de-alba-of.jpg",
+   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
+   "claves": [
+    "El Teatro Gutiérrez de Alba de Alcalá de Guadaíra representa el viernes 27 de noviembre, a las 20.30, una versión de «Hamlet» de Guayominí Producciones.",
+    "El montaje cuenta la historia de tres actores que discuten cómo interpretar la tragedia de Shakespeare, con canciones en directo y participación del público.",
+    "Las entradas están a la venta en la web municipal entradas.alcaladeguadaira.es."
+   ],
+   "body": [
+    "El Teatro Gutiérrez de Alba de Alcalá de Guadaíra programa el viernes 27 de noviembre, a las 20.30, «Hamlet», un montaje de la compañía Guayominí Producciones que revisa la tragedia de William Shakespeare con humor, canciones en directo y participación del público, según ha informado el Ayuntamiento.",
+    "La obra, estrenada en 2024, parte de un juego teatral: tres actores con ideas muy distintas sobre cómo debe representarse «Hamlet» se proponen dar al público exactamente lo que quiere y se interrumpen una y otra vez. El cartel de la producción firma la dirección de Patricia Rodríguez y lleva en el reparto a Arantxa Ramos, Hugo Manso y la propia Patricia Rodríguez.",
+    "La pregunta de fondo, según la presentación del montaje, es si los tres intérpretes lograrán terminar la función sin perderse en monólogos interminables y si averiguarán qué espera de un clásico el público del siglo XXI. La compañía lo plantea como una comedia de ritmo rápido sobre el propio oficio teatral.",
+    "## Premiada en Almagro",
+    "Según la nota municipal, la propuesta mezcla locura, tragedia y comedia con momentos de improvisación. El cartel la presenta como ganadora del 14.º Certamen Barroco Infantil del Festival Internacional de Teatro Clásico de Almagro.",
+    "El delegado de Cultura, Christopher Rivas, ha animado a los vecinos a acudir a esta versión «renovada y trepidante» de un clásico, en la que los tres intérpretes defienden maneras opuestas de abordar el texto, según recoge la nota del Ayuntamiento.",
+    "La función se suma a la <a href='#agenda-cultural-noviembre-2026'>agenda cultural de noviembre</a> en Alcalá. La nota municipal no detalla el precio de las entradas, que se consulta en la web de venta.",
+    "<span class='howto'><b>«Hamlet», de Guayominí Producciones.</b> Cuándo: viernes 27 de noviembre de 2026, 20.30. Dónde: Teatro Gutiérrez de Alba, Alcalá de Guadaíra. Entradas: entradas.alcaladeguadaira.es.</span>"
+   ],
+   "seo": [
+    "hamlet-teatro-gutierrez-de-alba-alcala-guayomini",
+    "«Hamlet» en el Teatro Gutiérrez de Alba de Alcalá",
+    "El Teatro Gutiérrez de Alba de Alcalá de Guadaíra acoge el viernes 27 a las 20.30 un «Hamlet» de Guayominí con humor, música en directo y público activo.",
+    [
+     "Teatro Gutiérrez de Alba",
+     "Hamlet",
+     "Guayominí Producciones",
+     "Christopher Rivas",
+     "teatro",
+     "Festival de Almagro"
+    ]
+   ],
+   "iso": "2026-11-26",
+   "hora": "22:20",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "cautivo-vestidor-david-del-toro-nombramientos-capataces",
+   "sec": "hermandades",
+   "kicker": "Hermandades",
+   "src": "Hermandad Servita de Jesús Cautivo (Facebook)",
+   "fuente_url": "https://www.facebook.com/1160162549992960/posts/1170997605576121",
+   "title": "La Hermandad del Cautivo nombra a David del Toro vestidor de sus dolorosas tras renovar sus cargos",
+   "sub": "Las hermandades de Alcalá anuncian también nuevos capataces y el pregonero de la meditación ante el Cristo del Amor",
+   "caption": "David del Toro Ríos, nuevo vestidor de María Santísima de los Dolores y Nuestra Señora de la Esperanza.",
+   "foto": "cautivo-vestidor-david-del-toro-of.jpg",
+   "fotocredito": "Facebook de la Hermandad Servita de Jesús Cautivo",
+   "claves": [
+    "La Hermandad Servita de Jesús Cautivo de Alcalá de Guadaíra ha designado a David del Toro Ríos vestidor de María Santísima de los Dolores y Nuestra Señora de la Esperanza.",
+    "Su Junta de Gobierno acordó nuevos nombramientos en el Cabildo de Oficiales del miércoles 25 de noviembre.",
+    "José Luis Jiménez Díaz ha sido nombrado capataz del paso de Nuestro Padre Jesús Cautivo y Rescatado."
+   ],
+   "body": [
+    "La Hermandad Servita de Jesús Cautivo de Alcalá de Guadaíra ha designado a David del Toro Ríos vestidor de sus dos titulares marianas, María Santísima de los Dolores y Nuestra Señora de la Esperanza, según ha publicado la propia hermandad en su perfil de Facebook este jueves 26 de noviembre.",
+    "Del Toro es natural de Morón de la Frontera y tiene trayectoria en el mundo cofrade y en la decoración floral para Semana Santa y eventos. Ha sido prioste segundo de la Hermandad de la Redención de Sevilla. Según la hermandad, viste ya a 12 imágenes, entre ellas María Santísima del Rocío Coronada, de Sevilla, y el Dulce Nombre de Bellavista, además de varias dolorosas de Morón, Bollullos Par del Condado, Ronda, Tocina y La Rinconada.",
+    "## Nuevos cargos",
+    "El nombramiento llega un día después de que la Junta de Gobierno, reunida en Cabildo de Oficiales el miércoles 25, acordara los nuevos cargos para esta etapa, según ha comunicado la hermandad. La hermandad eligió en octubre como hermano mayor a José David Cobos, como contó El Panadero en <a href='#cautivo-elecciones-jose-david-cobos'>la información sobre sus elecciones</a>.",
+    "Uno de esos relevos se ha conocido por otra hermandad: la Asociación Parroquial de la Divina Pastora ha felicitado en Facebook a su hermano José Luis Jiménez Díaz, miembro de la cuadrilla de capataces de la Virgen, por su nombramiento como capataz del paso de Nuestro Padre Jesús Cautivo y Rescatado.",
+    "La Hermandad de Jesús, por su parte, ha felicitado en sus redes a su hermano Enrique Pavón Arroyo por su designación como capataz de la Virgen de la Esperanza.",
+    "## Meditación y Adviento",
+    "La Hermandad de la Amargura ha anunciado que la Meditación ante el Santísimo Cristo del Amor del sábado 20 de febrero correrá a cargo de su hermano Roberto Portillo Hartillo, auxiliar de la Junta de Gobierno y miembro del equipo de capataces.",
+    "La Hermandad del Soberano Poder ha presentado a María Santísima de la Caridad ataviada para el Adviento, con saya de brocado azul y manto malva. La dolorosa estrena una mantilla de tul bordado donada por un hermano.",
+    "<span class='howto'><b>Hermandad Servita de Jesús Cautivo.</b> Casa hermandad: calle San Sebastián, 25. Atención a los hermanos: miércoles, de 19.30 a 21.00. Meditación ante el Cristo del Amor (Amargura): sábado 20 de febrero de 2027.</span>"
+   ],
+   "seo": [
+    "cautivo-vestidor-david-del-toro-capataces-alcala",
+    "El Cautivo nombra vestidor a David del Toro en Alcalá",
+    "La Hermandad del Cautivo de Alcalá de Guadaíra nombra a David del Toro Ríos vestidor de sus dolorosas y José Luis Jiménez, capataz del paso del Señor.",
+    [
+     "Hermandad del Cautivo",
+     "David del Toro Ríos",
+     "vestidor",
+     "capataces",
+     "Hermandad de la Amargura",
+     "Soberano Poder"
+    ]
+   ],
+   "iso": "2026-11-26",
+   "hora": "22:20",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "coste-crianza-andalucia-828-euros-save-the-children",
+   "sec": "economia",
+   "kicker": "Familias",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=4wuOMIPhO1I&t=432s",
+   "title": "Criar a un hijo en Andalucía cuesta de media 828 euros al mes, un 3 % más que hace dos años",
+   "sub": "El gasto llega a 930 euros en la adolescencia; más de 194.000 hogares andaluces con hijos no llegan a cubrirlo",
+   "caption": "Un niño juega en casa. Imagen de recurso.",
+   "foto": "coste-crianza-andalucia-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "Criar a un hijo en Andalucía cuesta una media de 828 euros al mes, un 3 % más que hace dos años, según el último informe de Save the Children.",
+    "La alimentación es el principal gasto, con 249 euros al mes, y la vivienda ha pasado de 98 a 119 euros por hijo en dos años.",
+    "Más de 194.000 hogares andaluces con hijos no tienen ingresos suficientes para cubrir el coste de la crianza."
+   ],
+   "body": [
+    "Criar a un hijo en Andalucía, y por tanto también en Alcalá de Guadaíra, cuesta una media de 828 euros al mes, un 3 % más que hace dos años, según el último informe de Save the Children sobre el coste de la crianza. La organización advierte de que miles de familias andaluzas no llegan a cubrir esos gastos básicos.",
+    "El informe calcula lo necesario para garantizar el bienestar de niños y adolescentes. La alimentación es la partida principal, con unos 249 euros al mes por hijo.",
+    "## La vivienda pesa más",
+    "La vivienda gana peso: el gasto atribuible a cada hijo ha pasado de 98 a 119 euros mensuales en dos años y puede llegar a 146 euros si se suman los suministros y otros gastos del hogar.",
+    "El coste crece con la edad. En los tres primeros años de vida ronda los 600 euros al mes y en la adolescencia alcanza los 930 euros.",
+    "Según Save the Children, más de 194.000 hogares andaluces con hijos no tienen ingresos suficientes para cubrir el coste de la crianza aunque dedicaran a ello toda su renta disponible, y cerca de la mitad de las familias destina al menos la mitad de sus ingresos a estos gastos.",
+    "La organización pide reforzar las políticas públicas de apoyo a las familias, adaptar las ayudas al coste real de criar a un hijo y facilitar el acceso a una vivienda adecuada. El informe ofrece datos para el conjunto de Andalucía, sin desglose por municipios.",
+    "<span class='howto'><b>Coste de la crianza en Andalucía (Save the Children).</b> Media: 828 euros al mes por hijo. De 0 a 3 años: unos 600 euros. Adolescencia: 930 euros. Alimentación: 249 euros. Vivienda: 119 euros (146 con suministros).</span>"
+   ],
+   "seo": [
+    "coste-criar-hijo-andalucia-save-the-children",
+    "Criar a un hijo en Andalucía cuesta 828 euros al mes",
+    "Criar a un hijo en Andalucía cuesta 828 euros al mes de media, un 3 % más en dos años, y 930 en la adolescencia, según el informe de Save the Children.",
+    [
+     "Save the Children",
+     "crianza",
+     "familias",
+     "pobreza infantil",
+     "vivienda",
+     "Andalucía"
+    ]
+   ],
+   "iso": "2026-11-26",
+   "hora": "22:20",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
   {
    "id": "pp-tribuna-tranvia-vive-bomberos-apagones-san-rafael",
    "sec": "politica",
@@ -829,19 +1054,20 @@ window.EP = {
    "fotocredito": "Facebook de la Hermandad de la Tercera Palabra",
    "claves": [
     "La Hermandad de la Tercera Palabra celebra el triduo a la Madre de Dios de los Ángeles los días 25, 26 y 27 de noviembre a las 20.30, y la función principal y el besamanos el domingo 29 a las 11.00.",
-    "La Hermandad del Rosario celebra el sábado 28 su IV Zambomba en el patio del Colegio Salesianos desde las 16.30.",
+    "La Hermandad del Rosario celebra el sábado 28 su IV Zambomba en el patio del Colegio Salesianos desde las 16.30, con Juan Tejero, el grupo Tiritrán y DJ; la entrada cuesta 5 euros con consumición.",
     "El Consejo General de Hermandades y Cofradías abre el 1 de diciembre su Foro de Formación con una ponencia del arcipreste, José Antonio Martínez Jiménez."
    ],
    "body": [
     "La Hermandad de la Tercera Palabra de Alcalá de Guadaíra celebra del miércoles 25 al viernes 27 de noviembre, a las 20.30, el triduo a la Madre de Dios de los Ángeles. La función principal será el domingo 29 a las 11.00 y terminará con devoto besamanos, según ha publicado la hermandad en su perfil de Facebook.",
     "La cofradía ha abierto además un horario para fotógrafos y devotos que quieran fotografiar a la dolorosa: de 19.00 a 20.00 los días del triduo.",
     "## Zambomba del Rosario",
-    "La Hermandad del Rosario, que ya <a href='#zambomba-rosario-salesianos-28-noviembre'>anunció a primeros de mes</a> su IV Zambomba en el patio del Colegio Salesianos el sábado 28 de noviembre, ha publicado en Facebook el orden de actuaciones. El programa empieza a las 16.30 con la zambomba de Juan Tejero; a las 18.30 actúa el grupo Flamenquito y a las 20.00, DJ Alejandroff. La hermandad vende también adornos navideños con sus titulares a beneficio de su bolsa de caridad, a 3 euros la unidad y 5 la pareja.",
+    "La Hermandad del Rosario, que ya <a href='#zambomba-rosario-salesianos-28-noviembre'>anunció a primeros de mes</a> su IV Zambomba en el patio del Colegio Salesianos el sábado 28 de noviembre, ha publicado en Facebook el orden de actuaciones. El programa empieza a las 16.30 con la zambomba de Juan Tejero; a las 18.30 actúa el grupo flamenco Tiritrán y a las 20.00, DJ Alejandroff. La hermandad vende también adornos navideños con sus titulares a beneficio de su bolsa de caridad, a 3 euros la unidad y 5 la pareja.",
+    "La entrada cuesta 5 euros e incluye una consumición, un plato de garbanzos, según explicó la hermandad a El Panadero. Se vende en la casa hermandad, a través de los miembros de la junta y en línea. La jornada lleva por lema «Que suenen los villancicos y se encienda la Navidad», tendrá ambigú a precios populares y lo recaudado ayuda a financiar la bolsa de caridad, la restauración de enseres y los estrenos de la cofradía.",
     "Ese mismo sábado, a las 17.30, la Hermandad de la Borriquita celebra su retiro de Adviento en la parroquia de San Agustín, dirigido por el párroco, José Antonio Martínez Jiménez.",
     "## Foro de Formación",
     "El Consejo General de Hermandades y Cofradías de Alcalá abre el martes 1 de diciembre su Foro de Formación con la ponencia «El desafío de evangelizar hoy desde nuestras Hermandades a la luz de la visita del Papa a España». La imparte José Antonio Martínez Jiménez, arcipreste de la ciudad y director espiritual del Consejo, según ha publicado este en Facebook. La inscripción se hace a través de un formulario en línea.",
     "El jueves 26, el Consejo y el Ayuntamiento cierran en el Museo el ciclo de conservación del patrimonio con <a href='#jesus-nazareno-ponencia-restauracion-paso-san-juan-museo'>la presentación del retablo de la Inmaculada y del paso de San Juan</a>.",
-    "<span class='howto'><b>Agenda.</b> Triduo a la Madre de Dios de los Ángeles: 25, 26 y 27 de noviembre, 20.30; función y besamanos: domingo 29, 11.00. IV Zambomba del Rosario: sábado 28, desde las 16.30, Colegio Salesianos. Retiro de Adviento de la Borriquita: sábado 28, 17.30, San Agustín. Foro de Formación del Consejo: martes 1 de diciembre, inscripción en forms.gle/FMRBp1FkAi8b4gne8.</span>"
+    "<span class='howto'><b>Agenda.</b> Triduo a la Madre de Dios de los Ángeles: 25, 26 y 27 de noviembre, 20.30; función y besamanos: domingo 29, 11.00. IV Zambomba del Rosario: sábado 28, desde las 16.30, Colegio Salesianos; entrada, 5 euros con consumición. Retiro de Adviento de la Borriquita: sábado 28, 17.30, San Agustín. Foro de Formación del Consejo: martes 1 de diciembre, inscripción en forms.gle/FMRBp1FkAi8b4gne8.</span>"
    ],
    "seo": [
     "triduo-madre-de-dios-angeles-zambomba-rosario-foro-consejo",
@@ -859,7 +1085,8 @@ window.EP = {
    "iso": "2026-11-25",
    "hora": "22:09",
    "firma": "Redacción El Panadero",
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "actualizada": "2026-11-26T22:20"
   },
   {
    "id": "fica-black-friday-campana-comercio-local",
