@@ -1,6 +1,6 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-25",
+  "actualizado": "2026-11-26",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia. El destacado se renueva cada día en el turno de mañana (decisión de Pablo, 25/11/2026): solo una pieza lo lleva y meta.destacado_historial guarda los últimos para no repetirlos en 7 días.",
   "apertura": 2,
@@ -12,6 +12,10 @@ window.EP = {
    {
     "id": "documental-entre-el-pan-y-el-olvido-jornadas-memoria-democratica",
     "fecha": "2026-11-25"
+   },
+   {
+    "id": "cabalgata-reyes-2027-construccion-carrozas-taller-grinch",
+    "fecha": "2026-11-26"
    }
   ]
  },
@@ -198,6 +202,13 @@ window.EP = {
    "hasta": "2026-12-27"
   },
   {
+   "cuando": "Lun 28 dic, 9.00",
+   "que": "Actividades Multideportivas de Navidad (también 29 y 30 dic y 4, 7 y 8 ene)",
+   "donde": "Complejos deportivos Malasmañanas y Distrito Sur",
+   "noticia": "campus-navidad-multideportivas-malasmananas-distrito-sur",
+   "hasta": "2027-01-08"
+  },
+  {
    "cuando": "30 dic",
    "que": "Comienza el LXXV aniversario del Dulce Nombre con la presentación del cartel",
    "donde": "Parroquia de San Sebastián",
@@ -240,6 +251,154 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "id": "pp-tribuna-tranvia-vive-bomberos-apagones-san-rafael",
+   "sec": "politica",
+   "kicker": "La Tribuna",
+   "iso": "2026-11-26",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=7I9r5MzRdAE&t=0s",
+   "title": "El PP de Alcalá propone generadores para los cortes de luz y atribuye el retraso del tranvía a su complejidad",
+   "sub": "Su portavoz, Esaú Pérez, reclama más medios para los bomberos y critica que VIVE Alcalá dependa de los préstamos del Ayuntamiento",
+   "caption": "Esaú Pérez, portavoz del grupo municipal del PP, en el plató del programa La Tribuna.",
+   "foto": "pp-la-tribuna-25-noviembre-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "El portavoz del PP en Alcalá de Guadaíra, Esaú Pérez, defendió el miércoles 25 de noviembre que el retraso del tranvía hasta 2027 se debe a la complejidad técnica de la puesta en servicio.",
+    "Pérez propuso que el Ayuntamiento disponga de entre 25 y 30 generadores para atender a vecinos que dependen de aparatos eléctricos durante los cortes de luz, con un coste que cifró en menos de 20.000 euros.",
+    "El PP reclamó más personal y medios para los bomberos y sostuvo que la sociedad municipal VIVE Alcalá incumple su objetivo de limitar la responsabilidad económica del Ayuntamiento.",
+    "Sobre las 84 viviendas de alquiler del Zacatín, cuyas obras ya han empezado, el portavoz dijo que el PP no celebrará nada hasta que estén entregadas y habitadas."
+   ],
+   "body": [
+    "El portavoz del grupo municipal del PP en Alcalá de Guadaíra, Esaú Pérez, propuso el miércoles 25 de noviembre que el Ayuntamiento compre generadores para atender a los vecinos que dependen de aparatos eléctricos durante los cortes de luz, reclamó más medios para los bomberos y defendió el nuevo retraso del tranvía. Lo hizo en el programa La Tribuna.",
+    "Sobre el tranvía, Pérez se refirió al <a href='#moreno-mitin-pp-alcala-tranvia-2027-29n'>mitin de Juanma Moreno en Alcalá</a>, en el que el presidente de la Junta situó en 2027 la puesta en servicio. Hasta ahora la fecha anunciada era el último trimestre de 2026. El portavoz atribuyó el cambio a la complejidad de la segunda fase, la de sistemas, comunicaciones y seguridad, y sostuvo que es preferible esperar unos meses a poner en marcha una instalación que luego dé problemas. Recordó que los seis trenes ya están en las cocheras.",
+    "## Generadores y bomberos",
+    "Pérez aseguró que en las últimas semanas se repiten los cortes de luz en distintos barrios, según las quejas de los vecinos en redes sociales. Admitió que el suministro no depende del Ayuntamiento, pero propuso que el municipio disponga de entre 25 y 30 generadores para atender a personas conectadas a respiradores o que usan sillas de ruedas eléctricas. Según sus cálculos, costarían menos de 20.000 euros. El PP ya lo planteó, dijo, tras el apagón general.",
+    "En cuanto a los bomberos, el portavoz consideró prioritario atender la petición de más personal y medios que <a href='#bomberos-alcala-denuncian-falta-plantilla-vehiculo-altura'>hicieron públicas los representantes del colectivo</a>. Según esa denuncia, el servicio llega en unos cinco minutos a cualquier emergencia de la ciudad, pero si hace falta el camión de altura la respuesta sube a 15. Pérez recordó que los propietarios de viviendas pagan una tasa municipal para sostener el servicio de extinción de incendios.",
+    "## Vivienda y VIVE Alcalá",
+    "Sobre las <a href='#zacatin-84-viviendas-alquiler-adjudicacion-31-diciembre'>84 viviendas de alquiler del Zacatín</a>, cuyas obras ya han empezado, el portavoz dijo que el PP no celebrará nada hasta que estén entregadas y habitadas, y atribuyó el calendario a la cercanía de las elecciones municipales de 2027. Criticó además los nuevos préstamos a la sociedad municipal VIVE Alcalá <a href='#pleno-noviembre-led-vive-piscina-cabeza-hermosa'>aprobados en el Pleno de noviembre</a>: a su juicio, la empresa se creó para limitar la responsabilidad económica del Ayuntamiento y ese objetivo no se cumple si el Consistorio la financia. El gobierno municipal ha defendido en el Pleno que el préstamo de las 107 viviendas de VIVE se trasladará a los compradores.",
+    "Pérez se refirió también al <a href='#pleno-noviembre-mociones-tomillar-protocolo-obras'>protocolo para reparar el entorno de las grandes obras</a>, aprobado por unanimidad a propuesta del PP, y puso como ejemplo el deterioro del acerado y los alcorques de la calle San Francisco tras las obras de la plaza del Duque. Pidió además que los delegados del gobierno expliquen sus propuestas en el primer turno de los debates del Pleno.",
+    "## San Rafael y preguntas",
+    "El portavoz reclamó para la barriada de San Rafael los mismos servicios que el resto de la ciudad, en limpieza, recogida de basura y atención a las quejas vecinales. A la pregunta de la portavoz del PSOE, Mª Ángeles Ballesteros, sobre la división interna de su partido, respondió que el trabajo de los seis concejales populares no se ve afectado.",
+    "El PP dejó sus preguntas para los demás grupos, que responderán en las próximas semanas. Al PSOE le pregunta qué hará para buscar consenso en los presupuestos de 2027, que aún no se han presentado.",
+    "<span class='howto'><b>La Tribuna.</b> Programa semanal de debate con los grupos municipales de Alcalá de Guadaíra, los miércoles por la noche. La próxima semana participa el PSOE.</span>"
+   ],
+   "seo": [
+    "pp-alcala-generadores-apagones-bomberos-tranvia",
+    "PP de Alcalá: generadores para apagones y tranvía en 2027",
+    "El portavoz del PP de Alcalá, Esaú Pérez, propone generadores para los cortes de luz, pide más medios para bomberos y defiende el retraso del tranvía.",
+    [
+     "PP de Alcalá",
+     "Esaú Pérez",
+     "La Tribuna",
+     "tranvía de Alcalá",
+     "VIVE Alcalá",
+     "bomberos",
+     "cortes de luz",
+     "San Rafael"
+    ]
+   ],
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "hora": "07:54"
+  },
+  {
+   "id": "participacion-alcala-generales-secciones-guia-29n",
+   "sec": "politica",
+   "kicker": "Elecciones 29N",
+   "iso": "2026-11-26",
+   "hora": "07:55",
+   "src": "Ministerio del Interior",
+   "fuente_url": "https://infoelectoral.interior.gob.es/es/elecciones-celebradas/area-de-descargas/",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Alcalá votó menos que la provincia en las cuatro últimas generales y 11 secciones bajaron del 60 % en 2023",
+   "sub": "En julio de 2023 participó el 66,0 % del censo, frente al 70,2 % provincial; el domingo 29 se vota de 9.00 a 20.00 y sirve el DNI digital",
+   "caption": "Participación en Alcalá de Guadaíra y en la provincia de Sevilla en las elecciones generales de 2016, abril de 2019, noviembre de 2019 y julio de 2023.",
+   "foto": "participacion-alcala-generales-secciones-guia-29n-gfx.jpg",
+   "fotocredito": "Gráfico El Panadero",
+   "encuadre": "contain",
+   "claves": [
+    "Alcalá de Guadaíra tuvo una participación inferior a la de la provincia de Sevilla en las generales de 2016, abril de 2019, noviembre de 2019 y julio de 2023, según el Ministerio del Interior.",
+    "En julio de 2023 votó en Alcalá el 66,0 % del censo de residentes, frente al 70,2 % del conjunto de la provincia.",
+    "Once de las 49 secciones censales de Alcalá quedaron por debajo del 60 % de participación en 2023, con 12.849 electores; en abril de 2019 fueron cuatro.",
+    "Las elecciones generales se celebran el domingo 29 de noviembre de 2026, de 9.00 a 20.00, y la Junta Electoral Central ha autorizado identificarse con el DNI digital."
+   ],
+   "body": [
+    "Alcalá de Guadaíra votó menos que el conjunto de la provincia de Sevilla en las cuatro elecciones generales celebradas entre 2016 y 2023. En julio de 2023 participó el 66,0 % de su censo, frente al 70,2 % provincial, y 11 de sus 49 secciones censales quedaron por debajo del 60 %, según los datos del Ministerio del Interior.",
+    "El análisis de El Panadero llega a tres días de las generales del domingo 29 de noviembre y completa <a href='#alcala-generales-secciones-2016-2023'>el mapa del voto por secciones publicado el 23 de noviembre</a>. Una sección censal agrupa a los electores de unas calles concretas, que votan en una o varias mesas.",
+    "## Unos cuatro puntos por debajo de la provincia",
+    "La distancia con la provincia apenas ha variado. En junio de 2016 votó en Alcalá el 65,5 % del censo, frente al 69,4 % provincial. En abril de 2019 fue el 71,4 %, frente al 75,2 %. En noviembre de 2019, el 66,9 %, frente al 70,6 %. En julio de 2023, el 66,0 %, frente al 70,2 %.",
+    "Entre los municipios cercanos de tamaño similar, Dos Hermanas superó a Alcalá en 2023, con el 68,7 %, y Utrera se quedó en el 65,9 %. De los 59.569 electores residentes de Alcalá, 20.246 no votaron en las últimas generales.",
+    "## Del 45 % al 82 % según la sección",
+    "En 2023, las 11 secciones de Alcalá con una participación inferior al 60 % sumaban 12.849 electores, el 21,6 % del censo municipal. En abril de 2019, la cita con más participación de las cuatro, solo cuatro secciones bajaron de ese umbral.",
+    "Las diferencias se repiten de una elección a otra. La sección de las calles Pino Blanco, Pino Real y Pino Piñonero fue la de mayor participación en las tres últimas generales, siempre por encima del 77 %, y en 2023 llegó al 81,9 %. La de la avenida de Salud Gutiérrez y las calles Pintor Luna Rubio y Maestro José Gandulfo no pasó del 52 % en ninguna y en 2023 se quedó en el 45,4 %.",
+    "De las 40 secciones que han conservado un tamaño parecido en las cuatro citas, 39 votaron menos en 2023 que en abril de 2019 y 24 votaron menos que en 2016.",
+    "El domingo, el Ministerio del Interior ofrecerá dos avances de participación, a las 14.00 y a las 18.00. En julio de 2023 había votado en Alcalá el 42,3 % del censo a las 14.00 y el 51,6 % a las 18.00.",
+    "Las cifras se calculan sobre el censo de residentes en España y no incluyen el voto de los alcalareños que viven en el extranjero. El dato municipal de 2016 (65,5 %) procede del fichero de resultados por municipio de Interior; la suma de las secciones de la pieza del 23 de noviembre, que no recoge una parte del censo de aquel año, daba un 66,2 %.",
+    "<span class='howto'><b>Para votar el domingo 29 de noviembre.</b> Horario: de 9.00 a 20.00; quien esté a esa hora en el colegio o en su acceso todavía puede votar. Identificación: DNI físico o digital (aplicación MiDNI), pasaporte o permiso de conducir, originales y con fotografía; el pasaporte y el permiso de conducir valen aunque estén caducados. No sirven las fotocopias ni el resguardo del DNI en trámite. Dónde votar: lo indica la tarjeta censal, que se envía desde el 2 de noviembre; también se consulta en la sede electrónica del INE con Cl@ve y en el teléfono de la Oficina del Censo Electoral, 900 343 232. Quien trabaje el domingo tiene derecho a hasta cuatro horas retribuidas para votar. Quien pidió el voto por correo debe entregarlo en Correos dentro del plazo fijado por la Junta Electoral Central (<a href='#voto-correo-plazo-ampliado-jueves-26-noviembre-29n'>plazo de entrega en Alcalá</a>). Fuentes: Ministerio del Interior y Junta Electoral Central. Datos de participación: Infoelectoral, resultados por municipio y por mesa de 2016 a 2023. Próxima actualización: el lunes 30 de noviembre, con los resultados del 29N en Alcalá.</span>"
+   ],
+   "seo": [
+    "participacion-alcala-generales-secciones-29n",
+    "Participación en Alcalá: generales de 2016 a 2023 y guía 29N",
+    "Alcalá de Guadaíra votó menos que la provincia en las generales de 2016 a 2023 y 11 secciones bajaron del 60 % en 2023. Cómo votar el domingo 29N.",
+    [
+     "participación electoral",
+     "elecciones generales 29N",
+     "secciones censales",
+     "Ministerio del Interior",
+     "DNI digital",
+     "cómo votar"
+    ]
+   ]
+  },
+  {
+   "id": "campus-navidad-multideportivas-malasmananas-distrito-sur",
+   "sec": "deportes",
+   "kicker": "Deporte base",
+   "iso": "2026-11-26",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/agenda/2026/december/2163/actividades-multideportivas-de-navidad",
+   "title": "Alcalá abre la inscripción del campus deportivo de Navidad para 100 niños de 4 a 14 años",
+   "sub": "Las Actividades Multideportivas se celebran seis días entre el 28 de diciembre y el 8 de enero en los complejos de Malasmañanas y Distrito Sur",
+   "caption": "Cartel del Campus de Navidad de la Delegación de Deportes de Alcalá de Guadaíra.",
+   "foto": "campus-navidad-multideportivas-cartel-of.jpg",
+   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
+   "encuadre": "contain",
+   "claves": [
+    "El Ayuntamiento de Alcalá de Guadaíra tiene abierta la inscripción de las Actividades Multideportivas de Navidad, para niños y niñas de entre 4 y 14 años.",
+    "El campus se celebra los días 28, 29 y 30 de diciembre y 4, 7 y 8 de enero en los complejos deportivos Malasmañanas y Distrito Sur, con 50 plazas en cada uno.",
+    "El horario es de 9.00 a 14.00, con aula matinal de 8.00 a 9.00 y aula de recogida de 14.00 a 15.00."
+   ],
+   "body": [
+    "El Ayuntamiento de Alcalá de Guadaíra ha abierto la inscripción de las Actividades Multideportivas de Navidad, un campus para niños y niñas de entre 4 y 14 años que se celebrará seis días de las vacaciones escolares en los complejos deportivos Malasmañanas y Distrito Sur, con 50 plazas en cada instalación.",
+    "El programa lo organiza la Delegación de Deportes, que dirige Pedro Gracia, y ocupa los días 28, 29 y 30 de diciembre y 4, 7 y 8 de enero. Son días laborables de las vacaciones escolares de Navidad. En total, el Ayuntamiento ofrece 100 plazas entre las dos sedes.",
+    "## Qué incluye",
+    "Según la información municipal, la programación combina talleres, manualidades, juegos tradicionales y distintas disciplinas deportivas. El Ayuntamiento la presenta como una alternativa educativa y de ocio para el periodo navideño.",
+    "Cada jornada va de 9.00 a 14.00. Las familias pueden usar además un aula matinal de 8.00 a 9.00 y un aula lúdica o de recogida de 14.00 a 15.00, de modo que la actividad puede cubrir de 8.00 a 15.00.",
+    "La información municipal no detalla el precio de la inscripción, si las aulas matinal y de recogida tienen un coste aparte ni la fecha en que se cierra el plazo. Todo ello debe consultarse en el formulario de inscripción en línea.",
+    "## Las dos sedes",
+    "El complejo de Malasmañanas acoge también la piscina cubierta Los Alcores, que el Ayuntamiento reabrió tras una puesta a punto en agosto. El Distrito Sur reunió el 20 de noviembre a cientos de escolares en la <a href='#jornada-infancia-xii-paz-y-bien-20-noviembre'>XII Jornada por la Infancia</a>.",
+    "El campus se suma a las Escuelas Deportivas Alcalareñas, que este curso ofrecen 19 disciplinas para unos 4.000 menores con la colaboración de 21 clubes y entidades de la ciudad, según el Ayuntamiento.",
+    "<span class='howto'><b>Actividades Multideportivas de Navidad.</b> Para niños y niñas de 4 a 14 años. Días: 28, 29 y 30 de diciembre y 4, 7 y 8 de enero. Sedes: complejos deportivos Malasmañanas y Distrito Sur (50 plazas en cada uno). Horario: 9.00 a 14.00; aula matinal de 8.00 a 9.00 y aula de recogida de 14.00 a 15.00. Inscripción en línea: alcalaguadaira.procesasistemas.com/cgi-bin/inFini. Organiza: Delegación de Deportes del Ayuntamiento de Alcalá de Guadaíra.</span>"
+   ],
+   "seo": [
+    "campus-navidad-actividades-multideportivas-alcala",
+    "Campus de Navidad en Alcalá: inscripción para 4 a 14 años",
+    "Alcalá de Guadaíra abre la inscripción de sus Actividades Multideportivas de Navidad: 100 plazas para niños de 4 a 14 años en Malasmañanas y Distrito Sur.",
+    [
+     "Actividades Multideportivas de Navidad",
+     "campus de Navidad",
+     "Delegación de Deportes",
+     "Malasmañanas",
+     "Distrito Sur",
+     "deporte base"
+    ]
+   ],
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "hora": "07:54"
+  },
   {
    "id": "25n-acto-institucional-centro-igualdad-marchas-escolares",
    "sec": "alcala",
@@ -654,7 +813,8 @@ window.EP = {
    "iso": "2026-11-25",
    "hora": "22:09",
    "firma": "Redacción El Panadero",
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "destacado": true
   },
   {
    "id": "agenda-cofrade-triduo-angeles-zambomba-rosario-foro-consejo",
@@ -1252,8 +1412,7 @@ window.EP = {
      "José María García Márquez",
      "Auditorio Riberas del Guadaíra"
     ]
-   ],
-   "destacado": true
+   ]
   },
   {
    "id": "ofrenda-inmaculada-2026-capilla-santo-entierro",
@@ -1370,7 +1529,7 @@ window.EP = {
     "El plan prevé también la instalación de carteles que informen de las sanciones administrativas y de las posibles consecuencias penales de los vertidos, y campañas dirigidas a los dueños de perros para que recojan los excrementos de sus animales en la vía pública.",
     "El Ayuntamiento no ha detallado cuántas cámaras comprará, cuánto costarán ni cuándo empezarán a funcionar.",
     "## Casos recientes",
-    "En octubre, la Policía Local <a href='#vertidos-pirotecnia-denunciado'>identificó y denunció al autor de los vertidos de aceites y sustancias tóxicas en La Pirotecnia</a>, junto a una casa abandonada, tras la queja de un vecino. El responsable admitió los hechos y el Ayuntamiento le abrió un expediente sancionador. A finales de septiembre, la Policía Local tenía a doce personas y empresas investigadas por vertidos en polígonos y caminos del término.",
+    "En octubre, la Policía Local identificó y denunció al autor de los vertidos de aceites y sustancias tóxicas en La Pirotecnia, junto a una casa abandonada, tras la queja de un vecino. El responsable admitió los hechos y el Ayuntamiento le abrió un expediente sancionador. A finales de septiembre, la Policía Local tenía a doce personas y empresas investigadas por vertidos en polígonos y caminos del término.",
     "<span class='howto'><b>Dónde dejar los residuos.</b> El punto limpio de San Juan, gestionado por AIRA, recibe aceites y otros residuos que no pueden ir al contenedor, y abre también los sábados y los domingos. AIRA retira además muebles y enseres a domicilio de forma gratuita.</span>"
    ],
    "seo": [
@@ -8269,7 +8428,7 @@ window.EP = {
    ],
    "body": [
     "La Junta de Gobierno Local de Alcalá de Guadaíra aprobó el viernes 23 de octubre el nuevo contrato del servicio de ayuda a domicilio, por 15 millones de euros para los dos próximos años, y la licitación de las obras que deben terminar la Ronda Sur, una carretera que llevaba años parada por una tubería de agua.",
-    "Lo explicó la segunda teniente de alcaldesa y portavoz del gobierno municipal, Mª de los Ángeles Ballesteros Núñez (PSOE), en la rueda de prensa posterior. La Junta de Gobierno aprobó además la cesión de un terreno a la empresa municipal Aira Gestión Ambiental para el punto limpio de San Mateo y dio cuenta de la sanción por los <a href='#vertidos-pirotecnia-denunciado'>vertidos en La Pirotecnia</a>.",
+    "Lo explicó la segunda teniente de alcaldesa y portavoz del gobierno municipal, Mª de los Ángeles Ballesteros Núñez (PSOE), en la rueda de prensa posterior. La Junta de Gobierno aprobó además la cesión de un terreno a la empresa municipal Aira Gestión Ambiental para el punto limpio de San Mateo y dio cuenta de la sanción por los vertidos en La Pirotecnia.",
     "## Ayuda a domicilio: nueva empresa y las mismas trabajadoras",
     "El servicio atiende a más de mil usuarios, en su mayoría personas mayores o en situación de dependencia. Según Ballesteros, la adjudicataria es una empresa nueva, Arquisocial, y el contrato obliga a subrogar a las 400 trabajadoras que prestan hoy el servicio, es decir, a mantener sus contratos.",
     "La portavoz enumeró las mejoras que, según el gobierno, incluye el contrato: una subida del precio por hora que repercute en el salario, el paso a diez coordinadoras y una nueva distribución del servicio por zonas, que según explicó era una petición de la plantilla.",
@@ -8462,85 +8621,6 @@ window.EP = {
      "Semana Santa de Alcalá"
     ]
    ]
-  },
-  {
-   "id": "vertidos-pirotecnia-denunciado",
-   "sec": "sucesos",
-   "kicker": "Medio ambiente",
-   "iso": "2026-10-26",
-   "src": "El Panadero",
-   "title": "La Policía Local denuncia al autor de los vertidos de aceites y sustancias tóxicas en La Pirotecnia",
-   "sub": "El responsable, que admitió los hechos, tendrá que retirar los residuos que tiró junto a una casa abandonada; el Ayuntamiento le ha abierto un expediente sancionador",
-   "caption": "Cómo se llegó a la denuncia por los vertidos en La Pirotecnia, de la queja vecinal al expediente sancionador.",
-   "foto": "vertidos-pirotecnia-denunciado-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "La Policía Local de Alcalá de Guadaíra ha identificado y denunciado al responsable de verter aceites y sustancias tóxicas junto a una casa abandonada en La Pirotecnia.",
-    "La investigación empezó por la denuncia de un vecino, que la Delegación de Medio Ambiente trasladó a Gobernación para que se vigilara la zona.",
-    "El responsable admitió los vertidos. El Ayuntamiento le ha abierto un expediente sancionador y le obliga a retirar y gestionar los residuos."
-   ],
-   "body": [
-    "La Policía Local de Alcalá de Guadaíra ha identificado y denunciado a la persona que vertía aceites y sustancias tóxicas junto a una casa abandonada en la zona de La Pirotecnia. El responsable admitió los hechos. El Ayuntamiento le ha abierto un expediente sancionador y le obliga a retirar los residuos y a gestionarlos de forma adecuada.",
-    "El caso empezó con la denuncia de un vecino. La Delegación de Medio Ambiente, que dirige Luisa Campos, la trasladó a la Delegación de Gobernación, que dirige Pedro Gracia, y pidió un dispositivo de vigilancia y control en la zona para acabar con los vertidos. Tras ese operativo, los agentes localizaron al responsable.",
-    "## Lo que no se sabe",
-    "La identidad del responsable no se ha hecho pública.",
-    "Los aceites usados y otros líquidos de este tipo son residuos que deben entregarse en instalaciones autorizadas. En Alcalá, el punto limpio de San Juan, gestionado por la empresa municipal Aira, recibe más de 25.000 entradas al año, y el Ayuntamiento prepara un segundo punto limpio en San Mateo, con espacios específicos para residuos peligrosos. La alcaldesa, Ana Isabel Jiménez, presentó esa obra como parte de la lucha contra los vertidos ilegales en caminos, solares y junto a los contenedores.",
-    "## No es un caso aislado",
-    "La Policía Local investiga también otros vertidos ilegales en polígonos y caminos del término. A finales de septiembre tenía a doce personas y empresas investigadas por este tipo de hechos.",
-    "<span class='howto'>Dónde dejar el aceite y los residuos peligrosos: punto limpio de San Juan, de la empresa municipal Aira, abierto también los sábados y los domingos. Aira recoge además muebles y enseres a domicilio de forma gratuita.</span>"
-   ],
-   "seo": [
-    "vertidos-aceites-pirotecnia-policia-local-denuncia",
-    "Vertidos en La Pirotecnia: denunciado el responsable",
-    "La Policía Local de Alcalá denuncia al autor de vertidos de aceites y sustancias tóxicas en La Pirotecnia, que deberá retirarlos y afronta una sanción.",
-    [
-     "La Pirotecnia",
-     "Policía Local de Alcalá",
-     "vertidos ilegales",
-     "Medio Ambiente",
-     "Pedro Gracia",
-     "Luisa Campos",
-     "Aira"
-    ]
-   ],
-   "fuente_url": "https://www.youtube.com/watch?v=r6Tcwaf9mgU&t=451s"
-  },
-  {
-   "id": "agresion-celador-don-paulino",
-   "sec": "sucesos",
-   "kicker": "Sanidad",
-   "iso": "2026-10-26",
-   "src": "El Panadero",
-   "title": "Un celador del centro de salud Don Paulino, herido en la nariz por un puñetazo durante su guardia",
-   "sub": "El Sindicato Médico de Sevilla ha hecho pública la agresión, que le rompió las gafas, y la ha condenado",
-   "caption": "Entrada del centro de salud Don Paulino García Donas, en Alcalá de Guadaíra.",
-   "foto": "agresion-celador-don-paulino-tv.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "Un celador que estaba de guardia en el centro de salud Don Paulino García Donas de Alcalá de Guadaíra recibió un puñetazo en la cara.",
-    "El golpe le rompió las gafas y le causó heridas en la nariz.",
-    "El Sindicato Médico de Sevilla ha condenado la agresión; no se conocen la identidad del agresor ni las circunstancias."
-   ],
-   "body": [
-    "Un celador del centro de salud Don Paulino García Donas, en Alcalá de Guadaíra, ha sufrido una agresión mientras estaba de guardia. Recibió un puñetazo en la cara que le rompió las gafas y le causó heridas en la nariz. El Sindicato Médico de Sevilla hizo pública la agresión el domingo 25 de octubre y la condenó.",
-    "El comunicado del sindicato no da más detalles sobre cómo ocurrió ni sobre la persona que le golpeó. Tampoco consta si el trabajador ha presentado denuncia, si hubo intervención policial o si el Servicio Andaluz de Salud (SAS) ha adoptado alguna medida en el centro.",
-    "El Sindicato Médico de Sevilla suele hacer públicas las agresiones a profesionales de los centros sanitarios de la provincia y reclamar medidas de seguridad, como sistemas de alarma, cámaras o personal de vigilancia.",
-    "El Don Paulino es uno de los centros de atención primaria de la zona básica de salud de Alcalá, dentro del Área de Gestión Sanitaria Sur de Sevilla."
-   ],
-   "seo": [
-    "agresion-celador-centro-salud-don-paulino-alcala",
-    "Agreden a un celador en el centro de salud Don Paulino",
-    "Un celador de guardia del centro de salud Don Paulino de Alcalá recibió un puñetazo que le rompió las gafas; el Sindicato Médico de Sevilla lo condena.",
-    [
-     "Centro de Salud Don Paulino",
-     "Sindicato Médico de Sevilla",
-     "agresiones a sanitarios",
-     "SAS",
-     "Área Sur de Sevilla"
-    ]
-   ],
-   "fuente_url": "https://www.youtube.com/watch?v=r6Tcwaf9mgU&t=944s"
   },
   {
    "id": "opinion-pan-relevo",
