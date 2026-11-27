@@ -59,10 +59,10 @@ window.EP = {
    "hasta": "2026-11-28"
   },
   {
-   "cuando": "Sáb 28 nov, 20.00",
-   "que": "Rancapino Chico, «El cante por Navidad»",
-   "donde": "Auditorio Riberas del Guadaíra",
-   "noticia": "agenda-cultural-noviembre-2026",
+   "cuando": "Sáb 28 nov, 11.00",
+   "que": "Reparto de papeletas de beduino de ReyeSilos",
+   "donde": "Sede de la Cabalgata ReyeSilos",
+   "noticia": "cabalgata-campo-beatas-coronacion-zambra-reyesilos-papeletas-beduinos",
    "hasta": "2026-11-28"
   },
   {
@@ -70,6 +70,13 @@ window.EP = {
    "que": "IV Zambomba del Rosario",
    "donde": "Colegio Salesianos",
    "noticia": "agenda-cofrade-triduo-angeles-zambomba-rosario-foro-consejo",
+   "hasta": "2026-11-28"
+  },
+  {
+   "cuando": "Sáb 28 nov, 20.00",
+   "que": "Rancapino Chico, «El cante por Navidad»",
+   "donde": "Auditorio Riberas del Guadaíra",
+   "noticia": "agenda-cultural-noviembre-2026",
    "hasta": "2026-11-28"
   },
   {
@@ -87,6 +94,13 @@ window.EP = {
    "hasta": "2026-11-29"
   },
   {
+   "cuando": "Dom 29 nov, 11.00",
+   "que": "Función y besamanos a la Madre de Dios de los Ángeles",
+   "donde": "Hermandad de la Tercera Palabra",
+   "noticia": "agenda-cofrade-triduo-angeles-zambomba-rosario-foro-consejo",
+   "hasta": "2026-11-29"
+  },
+  {
    "cuando": "Dom 29 nov, 12.00",
    "que": "Concierto de Santa Cecilia de la Asociación Musical Nuestra Señora del Águila (entrada, 5 euros)",
    "donde": "Auditorio Riberas del Guadaíra",
@@ -94,17 +108,24 @@ window.EP = {
    "hasta": "2026-11-29"
   },
   {
+   "cuando": "Dom 29 nov, 12.00",
+   "que": "Teatro «Voces invisibles», a beneficio de Bulanda",
+   "donde": "Teatro Gutiérrez de Alba",
+   "noticia": "voces-invisibles-bulanda-teatro-divertido-gutierrez-de-alba-29-noviembre",
+   "hasta": "2026-11-29"
+  },
+  {
+   "cuando": "Dom 29 nov, 13.00",
+   "que": "Coronación de la Cabalgata del Campo de las Beatas",
+   "donde": "Restaurante Zambra",
+   "noticia": "cabalgata-campo-beatas-coronacion-zambra-reyesilos-papeletas-beduinos",
+   "hasta": "2026-11-29"
+  },
+  {
    "cuando": "Vie 27 a dom 29 nov",
    "que": "XVII Concurso-Exposición Local de Palomas de Raza",
    "donde": "CD Colombicultura Hienipa, avenida de Portugal",
    "noticia": "concurso-exposicion-palomas-raza-hienipa-25-29-noviembre",
-   "hasta": "2026-11-29"
-  },
-  {
-   "cuando": "Dom 29 nov, 11.00",
-   "que": "Función y besamanos a la Madre de Dios de los Ángeles",
-   "donde": "Hermandad de la Tercera Palabra",
-   "noticia": "agenda-cofrade-triduo-angeles-zambomba-rosario-foro-consejo",
    "hasta": "2026-11-29"
   },
   {
@@ -191,13 +212,6 @@ window.EP = {
    "hasta": "2026-12-27"
   },
   {
-   "cuando": "Lun 28 dic, 9.00",
-   "que": "Actividades Multideportivas de Navidad (también 29 y 30 dic y 4, 7 y 8 ene)",
-   "donde": "Complejos deportivos Malasmañanas y Distrito Sur",
-   "noticia": "campus-navidad-multideportivas-malasmananas-distrito-sur",
-   "hasta": "2027-01-08"
-  },
-  {
    "cuando": "30 dic",
    "que": "Comienza el LXXV aniversario del Dulce Nombre con la presentación del cartel",
    "donde": "Parroquia de San Sebastián",
@@ -210,6 +224,13 @@ window.EP = {
    "donde": "VIVE Alcalá y sede electrónica",
    "noticia": "zacatin-84-viviendas-alquiler-adjudicacion-31-diciembre",
    "hasta": "2026-12-31"
+  },
+  {
+   "cuando": "Lun 28 dic, 9.00",
+   "que": "Actividades Multideportivas de Navidad (también 29 y 30 dic y 4, 7 y 8 ene)",
+   "donde": "Complejos deportivos Malasmañanas y Distrito Sur",
+   "noticia": "campus-navidad-multideportivas-malasmananas-distrito-sur",
+   "hasta": "2027-01-08"
   },
   {
    "cuando": "Dom 17 ene, 13.00",
@@ -241,31 +262,304 @@ window.EP = {
  ],
  "noticias": [
   {
+   "id": "junta-gobierno-tranvia-linea-alta-tension-procesadora-carnaval",
+   "sec": "alcala",
+   "kicker": "Junta de Gobierno",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=PLwjQl8HJbk&t=300s",
+   "title": "La Junta de Gobierno autoriza a la Junta a llevar por terrenos de Alcalá la línea de alta tensión del tranvía",
+   "sub": "El órgano municipal aprueba también el mantenimiento de La Procesadora, sanciones de la Policía Local y una ayuda a los talleres del Carnaval",
+   "caption": "Una sesión de la Junta de Gobierno Local en el Ayuntamiento de Alcalá de Guadaíra.",
+   "foto": "junta-gobierno-tranvia-alta-tension-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La Junta de Gobierno Local de Alcalá de Guadaíra ha autorizado a la Junta de Andalucía a instalar en terrenos municipales la línea de alta tensión que necesita el tranvía.",
+    "La misma sesión aprobó los servicios de mantenimiento general y control de accesos del Complejo Ideal-La Procesadora.",
+    "También dio luz verde a sanciones de la Policía Local por ocupar la vía pública y por incumplir la ordenanza de limpieza viaria, y a una subvención a la Asociación Alcalareña de Carnaval para sus talleres."
+   ],
+   "body": [
+    "La Junta de Gobierno Local de Alcalá de Guadaíra ha autorizado a la Junta de Andalucía a instalar en terrenos municipales la línea de alta tensión que necesita el tranvía. Es una de las obras pendientes para completar las instalaciones eléctricas del futuro servicio, que la Junta construye en la ciudad.",
+    "El acuerdo forma parte de los aprobados en la última sesión del órgano de gobierno municipal, que la alcaldesa, Ana Isabel Jiménez, ha resumido en su perfil de Facebook y ha fechado el 20 de noviembre. Ni ese resumen ni la información municipal difundida hasta ahora detallan el trazado de la línea, los terrenos afectados ni el plazo de los trabajos.",
+    "## Tranvía, mantenimiento y sanciones",
+    "El tranvía de Alcalá es una infraestructura de la Junta de Andalucía. Su calendario ha estado presente en la campaña de las generales del 29 de noviembre: el presidente andaluz, Juanma Moreno, <a href='#moreno-mitin-pp-alcala-tranvia-2027-29n'>situó en 2027 su puesta en servicio en un mitin en la ciudad</a>, y el proyecto de presupuesto autonómico para 2027 <a href='#tranvia-presupuesto-junta-2027-25-millones'>le reserva 25,9 millones de euros</a>.",
+    "La Junta de Gobierno aprobó además los servicios de mantenimiento general y de control de accesos del Complejo Ideal-La Procesadora, con el objetivo de atender el funcionamiento y la conservación de estas instalaciones municipales. El acuerdo publicado no recoge el importe ni la duración de esos servicios.",
+    "En materia de convivencia y espacio público, el órgano dio luz verde a sanciones propuestas por la Policía Local por la ocupación indebida de la vía pública y por incumplimientos de la Ordenanza de Limpieza Viaria. No se ha informado del número de expedientes ni de la cuantía de las multas.",
+    "## Ayuda a los talleres del Carnaval",
+    "El último de los acuerdos destacados es una subvención a la Asociación Alcalareña de Carnaval para el desarrollo de sus talleres, una actividad ligada a la formación y a la continuidad de esta fiesta en la ciudad. El Ayuntamiento no ha detallado la cantidad concedida.",
+    "La Junta de Gobierno Local es el órgano que reúne a la alcaldesa y a los tenientes de alcaldesa para aprobar asuntos de gestión ordinaria, como contratos, licencias, sanciones y subvenciones, que no tienen que pasar por el Pleno.",
+    "<span class='howto'><b>Acuerdos de la Junta de Gobierno Local.</b> Autorización a la Junta de Andalucía para instalar en terrenos municipales la línea de alta tensión del tranvía; servicios de mantenimiento y control de accesos del Complejo Ideal-La Procesadora; sanciones por ocupación de la vía pública y por la ordenanza de limpieza viaria; subvención a la Asociación Alcalareña de Carnaval para sus talleres.</span>"
+   ],
+   "seo": [
+    "junta-gobierno-tranvia-linea-alta-tension-alcala",
+    "Tranvía de Alcalá: luz verde a la línea de alta tensión",
+    "La Junta de Gobierno de Alcalá de Guadaíra autoriza a la Junta a instalar la línea de alta tensión del tranvía y aprueba sanciones y ayudas al Carnaval.",
+    [
+     "tranvía de Alcalá",
+     "Junta de Gobierno Local",
+     "Junta de Andalucía",
+     "La Procesadora",
+     "Policía Local",
+     "Asociación Alcalareña de Carnaval"
+    ]
+   ],
+   "iso": "2026-11-27",
+   "hora": "22:35",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "cajas-nido-aves-insectivoras-refugios-murcielagos-diputacion",
+   "sec": "alcala",
+   "kicker": "Medio ambiente",
+   "src": "Ayuntamiento de Alcalá de Guadaíra (Facebook)",
+   "fuente_url": "https://www.facebook.com/1605699894935684/posts/1617877087051298",
+   "title": "Alcalá instala 95 cajas nido para aves insectívoras y 13 refugios para murciélagos en sus zonas verdes",
+   "sub": "La actuación la han hecho la Diputación de Sevilla y Tragsatec para dar a estas especies lugares de refugio y cría",
+   "caption": "Una técnica con casco y chaleco muestra una de las cajas nido durante la instalación en una zona verde de Alcalá de Guadaíra.",
+   "foto": "cajas-nido-murcielagos-of.jpg",
+   "fotocredito": "Facebook del Ayuntamiento de Alcalá de Guadaíra",
+   "claves": [
+    "En distintos espacios verdes de Alcalá de Guadaíra se han colocado 95 cajas nido para aves insectívoras y 13 refugios para murciélagos.",
+    "La actuación la han realizado la Diputación de Sevilla y el equipo de Tragsatec, según el Ayuntamiento.",
+    "El objetivo es ofrecer a estas especies nuevos lugares de refugio y reproducción; el Ayuntamiento destaca su papel en el control natural de insectos."
+   ],
+   "body": [
+    "Alcalá de Guadaíra cuenta con 95 cajas nido para aves insectívoras y 13 refugios para murciélagos repartidos por distintos espacios verdes de la ciudad, según ha informado el Ayuntamiento en su perfil de Facebook. La instalación la han hecho la Diputación de Sevilla y el equipo de Tragsatec.",
+    "El objetivo, según la información municipal, es dar a estas especies nuevos lugares donde refugiarse y criar. Las cajas nido son pequeñas casetas de madera que se cuelgan de árboles o postes y sustituyen a los huecos naturales que muchas aves necesitan para anidar; los refugios para murciélagos cumplen la misma función para estos mamíferos.",
+    "## Control natural de insectos",
+    "El Ayuntamiento subraya que aves y murciélagos cumplen un papel en el equilibrio de los ecosistemas y en el control natural de los insectos, y presenta la actuación como parte del cuidado del entorno y de una ciudad más sostenible.",
+    "Las aves insectívoras, como carboneros y herrerillos, se alimentan sobre todo de insectos durante la cría, y los murciélagos cazan de noche insectos voladores. Por eso este tipo de instalaciones se usa en parques y zonas arboladas como complemento de otros métodos de control de plagas.",
+    "La publicación municipal no detalla en qué parques o zonas concretas se han colocado las cajas, cuánto ha costado la actuación ni si habrá un seguimiento de su ocupación. Tragsatec es una empresa pública del Grupo Tragsa que trabaja para las administraciones en proyectos de medio ambiente.",
+    "<span class='howto'><b>Cajas nido y refugios en Alcalá.</b> 95 cajas para aves insectívoras y 13 refugios para murciélagos en distintos espacios verdes. Ejecución: Diputación de Sevilla y Tragsatec.</span>"
+   ],
+   "seo": [
+    "cajas-nido-aves-refugios-murcielagos-alcala",
+    "Alcalá coloca 95 cajas nido y 13 refugios de murciélagos",
+    "La Diputación de Sevilla y Tragsatec han instalado 95 cajas nido para aves y 13 refugios para murciélagos en zonas verdes de Alcalá de Guadaíra.",
+    [
+     "cajas nido",
+     "murciélagos",
+     "Diputación de Sevilla",
+     "Tragsatec",
+     "zonas verdes",
+     "biodiversidad"
+    ]
+   ],
+   "iso": "2026-11-27",
+   "hora": "22:35",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "jornadas-cuando-atender-tambien-es-proteger-centro-igualdad",
+   "sec": "alcala",
+   "kicker": "Igualdad",
+   "src": "Ayuntamiento de Alcalá de Guadaíra",
+   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10041/profesionales-del-ambito-de-atencion-a-las-mujeres-victimas-de-violencia-de-genero-reflexionan-en-alcala-sobre-la-atencion-adecuada-y-coordinada-para-evitar-la-revictimizacion",
+   "title": "Policías, sanitarios y juristas se forman en Alcalá para no revictimizar a las víctimas de violencia de género",
+   "sub": "El Centro de la Igualdad acoge las jornadas «Cuando atender también es proteger», con ponentes de tres universidades y del Instituto de Emergencias",
+   "caption": "Participantes en las Jornadas Técnicas Interprofesionales «Cuando atender también es proteger», en el Centro de la Igualdad de Alcalá de Guadaíra.",
+   "foto": "jornadas-violencia-genero-centro-igualdad-of.jpg",
+   "fotocredito": "Facebook del Ayuntamiento de Alcalá de Guadaíra",
+   "claves": [
+    "El Centro de la Igualdad de Alcalá de Guadaíra ha acogido las Jornadas Técnicas Interprofesionales «Cuando atender también es proteger», dentro de la programación municipal del 25N.",
+    "Han participado profesionales de la justicia, la abogacía, las fuerzas de seguridad, la sanidad, la salud mental, los servicios sociales y la educación.",
+    "Las ponencias corrieron a cargo de especialistas de las universidades de Sevilla, Granada y Loyola y del Instituto de Emergencias y Seguridad Pública de Andalucía."
+   ],
+   "body": [
+    "El Centro de la Igualdad de Alcalá de Guadaíra ha reunido a profesionales que atienden a mujeres víctimas de violencia de género en las Jornadas Técnicas Interprofesionales «Cuando atender también es proteger», según ha informado este viernes 27 de noviembre el Ayuntamiento. El objetivo es mejorar la primera atención para evitar la revictimización.",
+    "Las jornadas forman parte de la programación municipal por el 25 de noviembre, Día Internacional de la Eliminación de la Violencia contra la Mujer. En ellas han participado la delegada municipal de Igualdad, Abril Castillo Sarmiento, y el teniente de alcaldesa Jesús Mora.",
+    "## Quién ha participado",
+    "Según el Ayuntamiento, han asistido profesionales de la justicia y la abogacía, de las fuerzas y cuerpos de seguridad, de la atención sanitaria y la salud mental, de los servicios sociales, de la coeducación y la orientación educativa, y de los servicios que acompañan y protegen a las víctimas.",
+    "Las ponencias las han impartido especialistas en derecho, psicología, neurociencia e intervención social de las universidades de Sevilla, Granada y Loyola y del Instituto de Emergencias y Seguridad Pública de Andalucía.",
+    "La delegada de Igualdad explicó, según la nota municipal, que la jornada busca crear «un espacio interprofesional de sensibilización, formación y reflexión práctica» sobre el impacto de la violencia de género. Castillo defendió que una primera respuesta «adecuada, coordinada y libre de revictimización» es clave para proteger a las mujeres, y que hay que entender sus reacciones en situaciones de crisis e identificar las necesidades de cada una.",
+    "## Programa financiado por el Pacto de Estado",
+    "Las jornadas se enmarcan en el programa municipal «Alcalá Actúa contra la Violencia de Género», financiado con fondos que transfiere el Ministerio de Igualdad a través del Pacto de Estado contra la Violencia de Género. Incluye talleres, conferencias y encuentros para centros educativos, jóvenes, asociaciones y familias.",
+    "La programación del 25N incluyó el miércoles el <a href='#25n-acto-institucional-centro-igualdad-marchas-escolares'>acto institucional en el Centro de la Igualdad, con marchas de escolares</a>, en el que se reclamó un juzgado especializado para Alcalá.",
+    "<span class='howto'><b>Ayuda a víctimas de violencia de género.</b> Teléfono 016, gratuito y que no deja rastro en la factura; también por WhatsApp en el 600 000 016. Emergencias: 112. En Alcalá, el Centro de la Igualdad atiende a mujeres durante todo el año.</span>"
+   ],
+   "seo": [
+    "jornadas-violencia-genero-revictimizacion-centro-igualdad-alcala",
+    "Jornadas contra la revictimización en Alcalá",
+    "Profesionales de justicia, sanidad, policía y educación se forman en el Centro de la Igualdad de Alcalá para atender sin revictimizar a las mujeres.",
+    [
+     "violencia de género",
+     "Centro de la Igualdad",
+     "revictimización",
+     "Abril Castillo",
+     "Pacto de Estado",
+     "25N"
+    ]
+   ],
+   "iso": "2026-11-27",
+   "hora": "22:35",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "cautivo-david-cobos-proyectos-cristo-virgen-dolores-obra-social",
+   "sec": "hermandades",
+   "kicker": "Hermandades",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=k5pekHWeob0",
+   "title": "El nuevo hermano mayor del Cautivo quiere encargar un Cristo para el regazo de la Virgen de los Dolores",
+   "sub": "David Cobos prioriza poner en marcha una obra social con Cáritas y, tras la Semana Santa, buscar escultor para recuperar la iconografía original",
+   "caption": "José David Cobos, hermano mayor de la Hermandad Servita de Jesús Cautivo, durante una entrevista en Alcalá de Guadaíra.",
+   "foto": "cautivo-david-cobos-proyectos-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La nueva junta de la Hermandad Servita de Jesús Cautivo, presidida por José David Cobos, quiere encargar una talla de Cristo para el regazo de la Virgen de los Dolores.",
+    "Su primera prioridad es poner en marcha una obra social para hermanos necesitados en colaboración con Cáritas Parroquial.",
+    "La hermandad estrenará el techo de palio de la Esperanza el próximo Miércoles Santo y celebrará en 2028 los 50 años de la fusión Servita-Cautivo y en 2030 los 75 de la hechura del Cautivo."
+   ],
+   "body": [
+    "La Hermandad Servita de Jesús Cautivo de Alcalá de Guadaíra quiere encargar una talla de Cristo para el regazo de María Santísima de los Dolores y recuperar así la iconografía original de la imagen. Lo ha explicado a El Panadero su nuevo hermano mayor, José David Cobos, que ganó las elecciones de octubre por 83 votos.",
+    "Cobos aseguró que el proyecto es «un sueño añorado» por los hermanos. Todavía no hay escultor: la junta, que tomó posesión hace pocas semanas, dará los pasos para elegirlo próximamente. La talla, dijo, sería propia y hecha para la Virgen. Después de la Semana Santa, la hermandad se sentará a dar forma a ese proyecto.",
+    "## Primero, la obra social",
+    "La primera tarea, según el hermano mayor, es poner en marcha una obra social dirigida a los hermanos necesitados, en colaboración con Cáritas Parroquial. «Vamos a trabajar muchísimo por cumplir todos los proyectos», afirmó Cobos, que describió su equipo como una mezcla de hermanos de toda la vida y gente joven.",
+    "Sobre la Virgen de los Dolores, que protagonizó una salida extraordinaria en octubre del año pasado, Cobos dijo que la hermandad trabajará para darle «su sitio», aunque no concretó si el objetivo incluye una salida procesional propia en la Semana Santa de Alcalá.",
+    "## Palio, cultos y aniversarios",
+    "Para Nuestra Señora de la Esperanza, la nueva junta estrenará el próximo Miércoles Santo el techo de palio presentado recientemente, un proyecto de la junta anterior. También mantiene el proyecto de un manto y una saya bordados, que se harán con un traje de luces donado por un hermano.",
+    "Los priostes ya preparan el altar de los cultos de la Esperanza, cuyo día es el 18 de diciembre, con su función y su besamanos. El mandato coincidirá con dos aniversarios: en 2028 se cumplen 50 años de la fusión de la Hermandad Servita con la del Cautivo, y en 2030, 75 años de la hechura y bendición del Cautivo.",
+    "Cobos, con 25 años como hermano, fue diputado de cultos y de formación. La entrevista se grabó antes del cabildo de oficiales que nombró <a href='#cautivo-vestidor-david-del-toro-nombramientos-capataces'>al nuevo vestidor y a los capataces</a>. Su candidatura se impuso en <a href='#cautivo-elecciones-jose-david-cobos'>las elecciones de octubre</a>.",
+    "<span class='howto'><b>Próximos cultos del Cautivo.</b> Misa de hermandad el último viernes de cada mes, a las 20.00, en la parroquia de San Sebastián. Cultos de Nuestra Señora de la Esperanza: en torno al 18 de diciembre, con función y besamanos; la hermandad publicará el horario.</span>"
+   ],
+   "seo": [
+    "cautivo-david-cobos-cristo-virgen-dolores-alcala",
+    "Cautivo de Alcalá: un Cristo para la Virgen de los Dolores",
+    "José David Cobos, nuevo hermano mayor del Cautivo de Alcalá, prioriza una obra social con Cáritas y encargar un Cristo para la Virgen de los Dolores.",
+    [
+     "Hermandad del Cautivo",
+     "José David Cobos",
+     "Virgen de los Dolores",
+     "Esperanza",
+     "Cáritas",
+     "Semana Santa de Alcalá"
+    ]
+   ],
+   "iso": "2026-11-27",
+   "hora": "22:35",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "voces-invisibles-bulanda-teatro-divertido-gutierrez-de-alba-29-noviembre",
+   "sec": "cultura",
+   "kicker": "Teatro",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=PLwjQl8HJbk&t=1020s",
+   "title": "«Voces invisibles» lleva el domingo 29 al Gutiérrez de Alba una obra contra el racismo a beneficio de Bulanda",
+   "sub": "La ONG Bulanda y Teatro Divertido destinan los 7 euros de cada entrada a sus proyectos; habrá coloquio con el público al terminar",
+   "caption": "Cartel de la obra «Voces invisibles», de la ONG Bulanda y la Asociación Cultural Teatro Divertido.",
+   "foto": "voces-invisibles-bulanda-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "El Teatro Gutiérrez de Alba de Alcalá de Guadaíra acoge el domingo 29 de noviembre, a las 12.00, la obra «Voces invisibles», de la ONG Bulanda y la Asociación Cultural Teatro Divertido.",
+    "La obra trata de los prejuicios, la discriminación y el racismo a través de cinco personajes con nombre africano.",
+    "La entrada cuesta 7 euros y lo recaudado irá a proyectos de Bulanda, entre ellos un pozo para un colegio de 800 alumnos."
+   ],
+   "body": [
+    "El Teatro Gutiérrez de Alba de Alcalá de Guadaíra acoge el domingo 29 de noviembre, a las 12.00, «Voces invisibles», una obra sobre la discriminación y el racismo que presentan la ONG Bulanda y la Asociación Cultural Teatro Divertido. Lo recaudado con las entradas, a 7 euros, irá a los proyectos de cooperación de la ONG.",
+    "La historia parte de cinco personas convocadas a una sesión sin saber muy bien para qué. Tienen en común que todas llevan un nombre africano. A lo largo de la obra cuentan su trayectoria, los problemas que han vivido y algunas anécdotas.",
+    "## Una obra para pensar",
+    "Un responsable de Bulanda explicó a El Panadero que la obra pretende «hacer pensar» y que el público se pregunte cuál es su posición ante temas como el racismo. Aborda también las desigualdades de trato y los prejuicios sociales. Al terminar, se abrirá un espacio de diálogo para que los asistentes compartan sus impresiones.",
+    "El montaje está producido y dirigido por Teatro Divertido, con la participación de Bulanda, y cuenta con financiación de la Diputación de Sevilla, según los créditos del propio cartel.",
+    "## Un pozo para un colegio",
+    "La recaudación se destinará a los proyectos pendientes de la ONG. El que tienen más avanzado, posiblemente en Guinea Ecuatorial, es la construcción de un pozo para un colegio de 800 alumnos que no tiene agua suficiente y que daría servicio también a una barriada cercana.",
+    "Bulanda trabaja desde 2019 en la República Democrática del Congo, donde ha construido pozos en comunidades rurales y ha rehabilitado centros de salud y orfanatos, además de apoyar proyectos de agricultura y ganadería, según la organización.",
+    "El Gutiérrez de Alba tiene este fin de semana doble cita: el viernes 27 acogió <a href='#hamlet-guayomini-teatro-gutierrez-de-alba-27-noviembre'>un «Hamlet» con humor y música en directo</a>, y el domingo la música se traslada al <a href='#concierto-santa-cecilia-auditorio-riberas-29-noviembre'>Auditorio Riberas del Guadaíra con el concierto de Santa Cecilia</a>.",
+    "<span class='howto'><b>«Voces invisibles».</b> Domingo 29 de noviembre de 2026, a las 12.00. Teatro Gutiérrez de Alba. Entrada: 7 euros, a beneficio de los proyectos de la ONG Bulanda. Venta anticipada en línea, a través de las redes de la ONG, y en taquilla desde media hora antes. Coloquio con el público al final.</span>"
+   ],
+   "seo": [
+    "voces-invisibles-bulanda-teatro-gutierrez-de-alba",
+    "«Voces invisibles», teatro contra el racismo en Alcalá",
+    "El Teatro Gutiérrez de Alba de Alcalá acoge el domingo 29 la obra «Voces invisibles», de Bulanda y Teatro Divertido, a beneficio de un pozo en África.",
+    [
+     "Voces invisibles",
+     "Bulanda",
+     "Teatro Divertido",
+     "Teatro Gutiérrez de Alba",
+     "racismo",
+     "cooperación"
+    ]
+   ],
+   "iso": "2026-11-27",
+   "hora": "22:35",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
+   "id": "cabalgata-campo-beatas-coronacion-zambra-reyesilos-papeletas-beduinos",
+   "sec": "cultura",
+   "kicker": "Cabalgatas",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=PLwjQl8HJbk&t=1196s",
+   "title": "El Campo de las Beatas corona el domingo 29 a su Estrella y ReyeSilos reparte las papeletas de beduino",
+   "sub": "Claudia Ruiz será la Estrella de la Ilusión del barrio; ReyeSilos atiende el sábado 28 de 11.00 a 13.00 en su sede",
+   "caption": "Una carroza de la Cabalgata de Reyes del Campo de las Beatas recorre el barrio en una edición anterior.",
+   "foto": "cabalgatas-beatas-reyesilos-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La Cabalgata de Reyes Magos del Campo de las Beatas celebra el domingo 29 de noviembre, a partir del mediodía, su acto de coronación en el restaurante Zambra.",
+    "Claudia Ruiz será la Estrella de la Ilusión; entre los Reyes Magos de esta edición figuran Francisco Aguilera y Francisco José Chamorro.",
+    "La Cabalgata ReyeSilos reparte papeletas de sitio para beduinos el viernes 27, de 17.00 a 20.00, y el sábado 28, de 11.00 a 13.00, en su sede; la edad mínima es 11 años."
+   ],
+   "body": [
+    "La Cabalgata de Reyes Magos del Campo de las Beatas, en Alcalá de Guadaíra, celebra el domingo 29 de noviembre su acto de coronación, en el que presenta a quienes protagonizarán el cortejo del próximo 5 de enero. Será a partir del mediodía en el restaurante Zambra, con los miembros de la organización y las personas vinculadas a la cabalgata.",
+    "La Estrella de la Ilusión de esta edición será Claudia Ruiz. Entre los Reyes Magos que recorrerán el barrio figuran Francisco Aguilera y Francisco José Chamorro.",
+    "La asociación del Campo de las Beatas ya repartió la semana pasada las <a href='#cabalgatas-beduinos-campo-beatas-almuerzo-coronacion-reyesilos'>papeletas de sitio para sus beduinos</a>, con un precio de 30 euros más otros 30 de fianza.",
+    "## Papeletas de ReyeSilos",
+    "La Cabalgata ReyeSilos, la del barrio de Silos, reparte este fin de semana las papeletas de sitio para los beduinos que quieran acompañar a sus Reyes en 2027, según ha anunciado en sus redes sociales. La primera convocatoria fue el viernes 27, de 17.00 a 20.00, y la segunda es el sábado 28, de 11.00 a 13.00. Las dos se atienden en la sede de la cabalgata.",
+    "La organización fija una edad mínima de 11 años, cumplidos, y no pone límite de edad máxima. En el caso de los menores, la papeleta tiene que tramitarla su padre o su madre. ReyeSilos no ha detallado el precio de la papeleta en la información difundida.",
+    "ReyeSilos coronó el 21 de noviembre a sus Reyes y su Estrella y ya tiene <a href='#cartel-reyesilos-2027-eliseo-leon-rodriguez'>cartel para 2027</a>. La cabalgata colabora además con Cáritas Parroquial de la Inmaculada junto a las hermandades del Perdón y San Mateo.",
+    "Las cabalgatas de barrio completan en Alcalá el desfile principal de la tarde del 5 de enero, que organiza la Asociación de la Cabalgata de Reyes, cuyo taller <a href='#cabalgata-reyes-2027-construccion-carrozas-taller-grinch'>construye más de una docena de carrozas nuevas</a>.",
+    "<span class='howto'><b>Coronación del Campo de las Beatas.</b> Domingo 29 de noviembre, desde el mediodía, restaurante Zambra. <b>Papeletas de beduino de ReyeSilos.</b> Sábado 28 de noviembre, de 11.00 a 13.00, en la sede de la cabalgata. Edad mínima: 11 años; los menores, con su padre o su madre.</span>"
+   ],
+   "seo": [
+    "cabalgata-campo-beatas-coronacion-reyesilos-papeletas",
+    "Cabalgatas de Alcalá: coronación y papeletas de beduino",
+    "La Cabalgata del Campo de las Beatas corona el domingo 29 a su Estrella de la Ilusión y ReyeSilos reparte el sábado 28 las papeletas de beduino.",
+    [
+     "Cabalgata del Campo de las Beatas",
+     "ReyeSilos",
+     "Reyes Magos 2027",
+     "beduinos",
+     "Silos",
+     "cabalgatas de barrio"
+    ]
+   ],
+   "iso": "2026-11-27",
+   "hora": "22:35",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia"
+  },
+  {
    "id": "comercios-emblematicos-ferreteria-mora-pedro-rusillo",
    "sec": "economia",
    "kicker": "Comercio",
-   "src": "Ayuntamiento de Alcalá de Guadaíra",
-   "fuente_url": "https://www.alcaladeguadaira.es/noticias/10038/las-empresas-de-alcala-ferreteria-mora-y-pedro-rusillo-reconocidas-como-comercios-emblematicos-de-la-provincia",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=PLwjQl8HJbk&t=422s",
    "title": "Ferretería Mora y Pedro Rusillo, distinguidos como comercios emblemáticos de la provincia de Sevilla",
    "sub": "La Cámara de Comercio de Sevilla reconoce a los dos establecimientos de Alcalá por llevar más de 40 años abiertos",
    "caption": "Representantes de Ferretería Mora y de Pedro Rusillo, con sus distintivos, junto a la alcaldesa, Ana Isabel Jiménez, y la delegada de Comercio, Paula Fuster, en la Cámara de Comercio de Sevilla.",
    "foto": "comercios-emblematicos-mora-rusillo-of.jpg",
    "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
    "claves": [
-    "La Cámara de Comercio de Sevilla ha reconocido a Ferretería Mora y a Pedro Rusillo, de Alcalá de Guadaíra, con el distintivo de Comercios Emblemáticos de la Provincia.",
+    "La Cámara de Comercio de Sevilla ha reconocido a Ferretería Mora y a Pedro Rusillo, de Alcalá de Guadaíra, como Comercios Emblemáticos de la Provincia, un distintivo que este año reciben 15 negocios de 10 municipios.",
     "El distintivo se concede a comercios con más de 40 años de trayectoria y forma parte del programa de apoyo al comercio minorista de la Cámara.",
+    "Ferretería Mora abrió en 1928 como ferretería de barrio y hoy tiene una nave de exposición de más de 650 metros cuadrados y un almacén de 900.",
     "La alcaldesa, Ana Isabel Jiménez, y la delegada de Comercio, Paula Fuster, asistieron a la entrega el jueves 26 de noviembre."
    ],
    "body": [
-    "Dos negocios de Alcalá de Guadaíra, Ferretería Mora y Pedro Rusillo, han recibido este jueves 26 de noviembre el distintivo de Comercios Emblemáticos de la Provincia que concede la Cámara de Comercio de Sevilla a los establecimientos con más de 40 años de actividad, según ha informado el Ayuntamiento.",
+    "Dos negocios de Alcalá de Guadaíra, Ferretería Mora y Pedro Rusillo, han recibido este jueves 26 de noviembre el distintivo de Comercios Emblemáticos de la Provincia que concede la Cámara de Comercio de Sevilla a los establecimientos con más de 40 años de actividad, según el Ayuntamiento y la información recogida por El Panadero.",
     "A la entrega asistieron la alcaldesa, Ana Isabel Jiménez, y la delegada municipal de Comercio, Paula Fuster. La foto difundida por el Ayuntamiento muestra a representantes de los dos negocios con sus diplomas en la escalera de la sede de la Cámara, en Sevilla.",
     "## Qué reconoce el distintivo",
     "La Cámara otorga este reconocimiento junto a los ayuntamientos y las asociaciones empresariales de la provincia. Está reservado a comercios con más de cuatro décadas de trayectoria y se enmarca en su programa de apoyo al comercio minorista, que incluye acciones de promoción, digitalización y campañas para impulsar el consumo responsable, según la nota municipal.",
     "Según el Ayuntamiento, el distintivo busca también apoyar la consolidación de estos negocios y su continuidad entre generaciones, además de su promoción y modernización.",
     "La alcaldesa presentó a los dos negocios como un ejemplo del carácter emprendedor de Alcalá y de la perseverancia de los comerciantes frente a las crisis, y destacó, según la nota, su «cercanía y calidad de servicio a la ciudadanía». En su perfil de Facebook, Jiménez añadió que ambos están «muy presentes en la memoria de los alcalareños».",
     "La Federación de Industriales y Comerciantes de Alcalá (FICA) también ha felicitado a las dos empresas en sus redes sociales por el reconocimiento a «su trayectoria, esfuerzo y compromiso con el comercio local». La federación lleva esta semana una campaña para animar a comprar en las tiendas de la ciudad, como contó El Panadero en <a href='#fica-black-friday-campana-comercio-local'>su llamamiento por el Black Friday</a>.",
-    "La nota municipal no detalla en qué año abrió cada uno de los dos negocios ni cuántos establecimientos de la provincia han recibido el distintivo en esta convocatoria.",
-    "<span class='howto'><b>Comercios Emblemáticos de la Provincia.</b> Lo concede la Cámara de Comercio de Sevilla con ayuntamientos y asociaciones empresariales. Requisito: más de 40 años de trayectoria. Distinguidos en Alcalá este año: Ferretería Mora y Pedro Rusillo (26 de noviembre de 2026).</span>"
+    "La Cámara ha concedido este año el distintivo a 15 negocios de 10 municipios de la provincia, entre ellos los dos de Alcalá, dentro del Plan de Comercio Minorista 2026. La historia de Ferretería Mora arranca en 1928 como una pequeña ferretería de barrio en el centro de Alcalá; hoy está especializada en suministro industrial y cuenta con una nave de exposición de más de 650 metros cuadrados y un almacén de 900. Pedro Rusillo es otro nombre ligado durante décadas al comercio tradicional de la ciudad.",
+    "<span class='howto'><b>Comercios Emblemáticos de la Provincia.</b> Lo concede la Cámara de Comercio de Sevilla con ayuntamientos y asociaciones empresariales. Requisito: más de 40 años de trayectoria. Distinguidos este año: 15 negocios de 10 municipios; en Alcalá, Ferretería Mora y Pedro Rusillo (26 de noviembre de 2026).</span>"
    ],
    "seo": [
     "comercios-emblematicos-ferreteria-mora-pedro-rusillo-alcala",
@@ -283,7 +577,8 @@ window.EP = {
    "iso": "2026-11-26",
    "hora": "22:20",
    "firma": "Redacción El Panadero",
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "actualizada": "2026-11-27T22:35"
   },
   {
    "id": "ayuda-17-millones-economia-circular-film-plastico-alcala",
