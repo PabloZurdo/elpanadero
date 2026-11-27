@@ -1,6 +1,6 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-26",
+  "actualizado": "2026-11-27",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia. El destacado se renueva cada día en el turno de mañana (decisión de Pablo, 25/11/2026): solo una pieza lo lleva y meta.destacado_historial guarda los últimos para no repetirlos en 7 días.",
   "apertura": 2,
@@ -16,29 +16,18 @@ window.EP = {
    {
     "id": "cabalgata-reyes-2027-construccion-carrozas-taller-grinch",
     "fecha": "2026-11-26"
+   },
+   {
+    "id": "cautivo-vestidor-david-del-toro-nombramientos-capataces",
+    "fecha": "2026-11-27"
    }
   ]
  },
  "agenda": [
   {
-   "cuando": "Jue 26 nov, 20.00",
-   "que": "Cierre del ciclo de conservación: retablo de la Inmaculada y paso de San Juan",
-   "donde": "Museo de Alcalá",
-   "noticia": "jesus-nazareno-ponencia-restauracion-paso-san-juan-museo",
-   "hasta": "2026-11-26"
-  },
-  {
-   "cuando": "Jue 26 nov, 14.00",
-   "que": "Fin del plazo para entregar el voto por correo",
-   "donde": "Oficinas de Correos",
-   "noticia": "voto-correo-plazo-ampliado-jueves-26-noviembre-29n",
-   "hasta": "2026-11-26"
-  },
-  {
    "cuando": "Hasta 27 nov",
    "que": "Plazo de candidaturas para la concesión del Hotel Oromana",
    "donde": "Plataforma de Contratación del Sector Público",
-   "noticia": "hotel-oromana-nueva-licitacion",
    "hasta": "2026-11-27"
   },
   {
@@ -430,7 +419,8 @@ window.EP = {
    "iso": "2026-11-26",
    "hora": "22:20",
    "firma": "Redacción El Panadero",
-   "elaboracion": "ia"
+   "elaboracion": "ia",
+   "destacado": true
   },
   {
    "id": "coste-crianza-andalucia-828-euros-save-the-children",
@@ -1038,8 +1028,7 @@ window.EP = {
    "iso": "2026-11-25",
    "hora": "22:09",
    "firma": "Redacción El Panadero",
-   "elaboracion": "ia",
-   "destacado": true
+   "elaboracion": "ia"
   },
   {
    "id": "agenda-cofrade-triduo-angeles-zambomba-rosario-foro-consejo",
@@ -3398,7 +3387,7 @@ window.EP = {
     "Sobre los bomberos, Loscertales afirmó que el colectivo lleva años pidiendo más efectivos y que la falta de plantilla obliga a pagar horas extra, que a su juicio se abonan con retraso, y provoca cansancio en el servicio. Es la misma reclamación que el <a href='#bomberos-alcala-sindicato-pide-mas-plantilla-oep-2027'>Sindicato Andaluz de Bomberos dirigió al Ayuntamiento a principios de noviembre</a>. El gobierno municipal ha anunciado nuevas plazas para 2027, sin concretar cuántas.",
     "Navarro describió San Rafael como un barrio con carencias de alumbrado, limpieza y mobiliario urbano, con árboles caídos y una sede vecinal en mal estado. Trasladó además la petición de los vecinos de un autobús urbano diario que los conecte con el centro y con los servicios municipales. Según el portavoz, el gobierno argumenta que esa línea sería deficitaria; Vox sostiene que es un servicio público que debe prestarse igualmente.",
     "## Obras, hotel y Casa Ibarra",
-    "El portavoz criticó los retrasos de las obras del centro y de Malas Mañanas, que atribuyó al calendario electoral, y se refirió de nuevo a la <a href='#vox-tala-arboles-castillo-ayuntamiento-88-ejemplares'>tala de árboles en el entorno del Castillo</a>. Loscertales dudó de que haya empresas interesadas en la <a href='#hotel-oromana-nueva-licitacion'>nueva licitación del Hotel Oromana</a> por el coste de las reformas exigidas; el delegado de Turismo, Christopher Rivas, ha defendido que los cambios en los pliegos fueron técnicos. El plazo para presentar candidaturas termina el 27 de noviembre.",
+    "El portavoz criticó los retrasos de las obras del centro y de Malas Mañanas, que atribuyó al calendario electoral, y se refirió de nuevo a la <a href='#vox-tala-arboles-castillo-ayuntamiento-88-ejemplares'>tala de árboles en el entorno del Castillo</a>. Loscertales dudó de que haya empresas interesadas en la nueva licitación del Hotel Oromana por el coste de las reformas exigidas; el delegado de Turismo, Christopher Rivas, ha defendido que los cambios en los pliegos fueron técnicos. El plazo para presentar candidaturas termina el 27 de noviembre.",
     "Sobre el accidente laboral de la Casa Ibarra, en el que murieron dos personas, Loscertales pidió respetar las decisiones judiciales y reclamó que se reactive la comisión municipal creada para informar a los grupos, que según Vox lleva tiempo paralizada.",
     "El programa incluyó preguntas de los demás grupos. La próxima semana participará el Partido Popular."
    ],
@@ -3573,7 +3562,7 @@ window.EP = {
    ],
    "body": [
     "El Pleno del Ayuntamiento de Alcalá de Guadaíra rechazó el martes 17 de noviembre la moción de Alcalá Nos Importa para transformar el Hospital El Tomillar en un hospital público general, y aprobó por unanimidad la propuesta del PP para crear un protocolo de protección y reparación del espacio público en las grandes obras.",
-    "La moción sobre El Tomillar, que el grupo <a href='#alcala-nos-importa-tomillar'>anunció en octubre</a>, pedía estudiar urgencias hospitalarias las 24 horas, una unidad de cuidados intensivos, maternidad, hospitalización general y nuevas especialidades. Su concejal, José Luis Roldán, explicó a El Panadero que no se trataba de evitar un cierre sino de ampliar el centro, que según sus datos ocupa 16.000 de los 46.000 metros cuadrados de una parcela de la Tesorería de la Seguridad Social.",
+    "La moción sobre El Tomillar, que el grupo anunció en octubre, pedía estudiar urgencias hospitalarias las 24 horas, una unidad de cuidados intensivos, maternidad, hospitalización general y nuevas especialidades. Su concejal, José Luis Roldán, explicó a El Panadero que no se trataba de evitar un cierre sino de ampliar el centro, que según sus datos ocupa 16.000 de los 46.000 metros cuadrados de una parcela de la Tesorería de la Seguridad Social.",
     "## Dos modelos para la sanidad",
     "La delegada de Hacienda y portavoz del gobierno, Mª Ángeles Ballesteros (PSOE), dijo que el gobierno quiere que la Junta de Andalucía siga invirtiendo en El Tomillar, pero que su objetivo es pedir la construcción de un nuevo hospital general para Alcalá y Los Alcores. Para ello, recordó, el Ayuntamiento ha ofrecido a la Junta un terreno municipal en el núcleo urbano.",
     "El PP se abstuvo. El concejal popular Esaú Pérez sostuvo que cualquier decisión sobre una infraestructura sanitaria debe estudiarse en el sector sanitario y recordó que El Tomillar forma parte del Área de Gestión Sanitaria Sur. Roldán calificó esa postura de excusa para un asunto que considera «estrictamente político», y el PP replicó este miércoles en Facebook que el futuro del hospital deben decidirlo los profesionales sanitarios.",
@@ -5542,7 +5531,7 @@ window.EP = {
     "## Más paro femenino que masculino",
     "Por sexos, el desempleo sigue afectando más a las mujeres. En octubre había 3.819 mujeres paradas frente a 2.122 hombres, lo que significa que ellas representan algo más del 64 % del total, casi dos de cada tres personas desempleadas.",
     "## Evolución a lo largo del año",
-    "Desde enero de 2026, cuando Alcalá contaba con 6.711 personas paradas, el paro ha bajado en 770 personas, aproximadamente un 11,5 %. La cifra más baja de este periodo se registró en julio, con 5.919 personas. Después hubo un ligero repunte en agosto y septiembre, y en octubre volvió a bajar. El Panadero ya <a href='#paro-alcala-diez-anos'>informó a finales de octubre</a> de que la ciudad se mantenía por debajo de los 6.000 parados.",
+    "Desde enero de 2026, cuando Alcalá contaba con 6.711 personas paradas, el paro ha bajado en 770 personas, aproximadamente un 11,5 %. La cifra más baja de este periodo se registró en julio, con 5.919 personas. Después hubo un ligero repunte en agosto y septiembre, y en octubre volvió a bajar. El Panadero ya informó a finales de octubre de que la ciudad se mantenía por debajo de los 6.000 parados.",
     "Las estadísticas recogen además 9.208 demandantes de empleo en octubre. De ellos, 6.520 son demandantes no ocupados, es decir, personas que buscan trabajo y no tienen empleo. La cifra de demandantes es superior a la de parados registrados.",
     "## Comparación con Sevilla y Andalucía",
     "En la provincia de Sevilla hay 131.745 personas paradas, 14.340 menos que hace un año, lo que supone un descenso del 9,8 %. En el conjunto de Andalucía son 539.041 desempleados frente a los 602.262 de octubre de 2025: 63.221 menos, un 10,5 % de reducción. Con un 11,8 %, Alcalá mejora la evolución de ambos territorios en el último año.",
@@ -7245,7 +7234,7 @@ window.EP = {
     "La delegada argumentó que, si la estabilidad presupuestaria del Ayuntamiento estuviera en peligro, habría sido necesario subir los impuestos. También recordó que todos los grupos de la oposición votaron en contra de las ordenanzas fiscales que congelan el IBI, las tasas y los precios públicos.",
     "## Qué recogen las ordenanzas",
     "Las ordenanzas fiscales de 2027, aprobadas en el Pleno de octubre, mantienen los tipos de los impuestos y tasas municipales. Según Ballesteros, incluyen cambios técnicos para adaptarlas a la normativa y a la jurisprudencia reciente y una nueva bonificación en la tasa por ocupación del dominio público para la construcción de viviendas protegidas, tanto de promoción pública como privada.",
-    "<span class='howto'>Las ordenanzas fiscales de 2027 están en exposición pública: cualquier vecino o entidad puede presentar reclamaciones en el <a href='#ordenanzas-2027-plazo-reclamaciones'>plazo de 30 días abierto tras su publicación en el BOP</a>.</span>"
+    "<span class='howto'>Las ordenanzas fiscales de 2027 están en exposición pública: cualquier vecino o entidad puede presentar reclamaciones en el plazo de 30 días abierto tras su publicación en el BOP.</span>"
    ],
    "seo": [
     "vox-bajada-impuestos-alcala-congelacion-2027",
@@ -7372,7 +7361,7 @@ window.EP = {
     "En el conjunto de Andalucía, el número de ocupados se redujo en 24.900 personas durante el trimestre, hasta 3.656.300. El paro aumentó en 13.400 personas, hasta 640.500, y la tasa subió al 14,9 %.",
     "Por sectores, los servicios y la industria crearon empleo en la comunidad, pero las pérdidas en la agricultura y la construcción hicieron bajar la ocupación total. En la comparación anual, Andalucía cuenta con 44.100 ocupados más y 10.400 parados menos que hace un año, una evolución mejor que la de la provincia de Sevilla.",
     "## Qué dice de Alcalá",
-    "La EPA es una encuesta del Instituto Nacional de Estadística y no ofrece datos por municipios. Para Alcalá, la referencia más cercana es el paro registrado en las oficinas de empleo, que publica cada mes el Servicio Público de Empleo Estatal. Según esa estadística, <a href='#paro-alcala-diez-anos'>Alcalá encadena tres meses por debajo de 6.000 parados</a>, una cifra que no veía desde 2008.",
+    "La EPA es una encuesta del Instituto Nacional de Estadística y no ofrece datos por municipios. Para Alcalá, la referencia más cercana es el paro registrado en las oficinas de empleo, que publica cada mes el Servicio Público de Empleo Estatal. Según esa estadística, Alcalá encadena tres meses por debajo de 6.000 parados, una cifra que no veía desde 2008.",
     "Las dos estadísticas miden cosas distintas. El paro registrado solo cuenta a quienes se inscriben como demandantes de empleo, mientras que la EPA pregunta a una muestra de hogares por su situación laboral, estén inscritos o no."
    ],
    "seo": [
@@ -8540,312 +8529,6 @@ window.EP = {
      "escritores de Alcalá",
      "Casa de la Juventud",
      "suspense"
-    ]
-   ]
-  },
-  {
-   "id": "paro-alcala-diez-anos",
-   "sec": "economia",
-   "kicker": "Empleo",
-   "iso": "2026-10-27",
-   "src": "SEPE",
-   "fuente_url": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2026_csv.csv",
-   "firma": "Redacción El Panadero",
-   "elaboracion": "ia",
-   "title": "Alcalá encadena tres meses por debajo de 6.000 parados, una cifra que no veía desde 2008",
-   "sub": "El paro registrado ha caído un 42 % en diez años, pero las mujeres de 45 años o más son ya casi cuatro de cada diez desempleados",
-   "caption": "Paro registrado en Alcalá de Guadaíra cada mes de septiembre entre 2006 y 2026, según el SEPE.",
-   "foto": "paro-alcala-diez-anos-gfx2.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "Alcalá de Guadaíra tenía 5.946 parados registrados en septiembre de 2026, según el Servicio Público de Empleo Estatal (SEPE).",
-    "El paro del municipio no bajaba de 6.000 personas desde mayo de 2008; en 2026 lo ha hecho en julio, agosto y septiembre.",
-    "En diez años el paro ha bajado un 42 %: había 10.245 parados en septiembre de 2016.",
-    "Las mujeres de 45 años o más suman 2.285 paradas, el 38,4 % del total, frente al 27,7 % de hace diez años."
-   ],
-   "body": [
-    "Alcalá de Guadaíra cerró septiembre de 2026 con 5.946 parados registrados, según los datos abiertos del Servicio Público de Empleo Estatal (SEPE). Es el tercer mes seguido por debajo de 6.000, una cifra de la que no bajaba desde mayo de 2008. Hace diez años, en septiembre de 2016, había 10.245 parados en el municipio.",
-    "El descenso en una década es de 4.299 personas, un 42 %. En el último año, el paro ha bajado en 813 personas, un 12 % menos que en septiembre de 2025, cuando la cifra era de 6.759.",
-    "La bajada se concentra en el verano. En julio el SEPE contabilizó 5.919 parados, en agosto 5.944 y en septiembre dos más. La última vez que Alcalá había estado por debajo de 6.000 fue en mayo de 2008, con 5.914. Desde junio de ese año, el paro se mantuvo por encima de esa cifra hasta este verano.",
-    "## Del máximo de 2014 al nivel más bajo desde 2008",
-    "El paro registrado llegó a 12.162 personas en enero de 2014, el dato más alto de la serie municipal que publica el SEPE desde 2006. Los ficheros abiertos del organismo no incluyen los meses de mayo a diciembre de 2013, así que no se puede afirmar que ese fuera el máximo absoluto. Si se comparan solo los meses de septiembre, el de 2026 es el más bajo desde 2007, cuando había 5.554 parados.",
-    "La evolución de Alcalá es parecida a la de su entorno. Dos Hermanas ha reducido su paro un 41,4 % en diez años y Utrera, un 41,5 %. En el conjunto de la provincia de Sevilla, sumando los datos de todos sus municipios, la caída es del 40,3 %. En el último año, Alcalá ha bajado algo más que la provincia: un 12 % frente a un 9,6 %.",
-    "## Más peso de las mujeres mayores de 45 años",
-    "El paro no ha bajado igual en todos los grupos. Las mujeres son 3.817 de los 5.946 parados, el 64,2 %. En 2016 eran el 60,1 %. El cambio más claro está en las mujeres de 45 años o más: son 2.285, un 19,6 % menos que hace diez años, mientras que el paro de los hombres de esa edad ha caído un 36,9 %. Ellas suponen ya el 38,4 % de todos los parados de Alcalá, frente al 27,7 % de 2016.",
-    "Entre los 25 y los 44 años la reducción ha sido mucho mayor: un 63,3 % en los hombres y un 56,3 % en las mujeres. En conjunto, los mayores de 45 años son el 57,3 % de los parados del municipio. Los menores de 25 años suman 605 parados, frente a 906 en 2016.",
-    "Por sectores, los servicios reúnen 4.337 parados, el 72,9 % del total. La industria y la construcción son los que más han reducido su desempleo en diez años: la industria ha pasado de 1.230 a 456 parados y la construcción, de 1.007 a 387. Otros 636 parados no habían tenido un empleo anterior.",
-    "El paro registrado cuenta a las personas inscritas como demandantes de empleo en las oficinas públicas. No es la tasa de paro de la Encuesta de Población Activa, que no se publica por municipios, y por sí solo no indica cuánto empleo nuevo se ha creado en Alcalá.",
-    "<span class='howto'>Los datos de octubre se publicarán a principios de noviembre. Quien busque trabajo o formación en Alcalá puede inscribirse hasta el 30 de octubre en la tercera convocatoria de cursos del programa RELANZA-T. Datos de esta pieza: ficheros de paro registrado por municipios del SEPE, de enero de 2006 a septiembre de 2026.</span>"
-   ],
-   "seo": [
-    "paro-alcala-guadaira-diez-anos-sepe",
-    "Paro en Alcalá: tres meses bajo 6.000, lo menos desde 2008",
-    "Alcalá de Guadaíra tenía 5.946 parados en septiembre de 2026, un 42 % menos que hace diez años, según el SEPE. Las mujeres mayores de 45, más peso.",
-    [
-     "paro registrado",
-     "SEPE",
-     "empleo",
-     "mujeres mayores de 45 años",
-     "Dos Hermanas",
-     "provincia de Sevilla"
-    ]
-   ]
-  },
-  {
-   "id": "hotel-oromana-nueva-licitacion",
-   "sec": "economia",
-   "kicker": "Contratos",
-   "iso": "2026-10-27",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=r6Tcwaf9mgU&t=139s",
-   "title": "Nuevo concurso para el Hotel Oromana tras el recurso: 40 años de concesión y plazo hasta el 27 de noviembre",
-   "sub": "El Ayuntamiento concreta los criterios de los pliegos tras la resolución del tribunal de contratos de la Junta y mantiene un canon mínimo de 40.000 euros al año",
-   "caption": "Fachada del Hotel Oromana, de titularidad municipal, en el Monumento Natural Riberas del Guadaíra.",
-   "foto": "hotel-oromana-nueva-licitacion-of.jpg",
-   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha publicado una nueva licitación para la concesión del Hotel Oromana, con plazo de candidaturas hasta el 27 de noviembre de 2026.",
-    "La concesión durará 40 años y exige un canon mínimo de 40.000 euros anuales a la empresa que rehabilite y gestione el hotel.",
-    "La licitación anterior se paró después de que el Tribunal Administrativo de Recursos Contractuales de la Junta de Andalucía estimara en parte un recurso contra los pliegos.",
-    "El procedimiento es restringido: tras la fase de candidaturas, solo las empresas seleccionadas podrán presentar oferta."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha vuelto a sacar a concurso la concesión del Hotel Oromana, el establecimiento de titularidad municipal situado en el Monumento Natural Riberas del Guadaíra. Las empresas tienen hasta el viernes 27 de noviembre para presentar su candidatura. La primera licitación se paró tras un recurso que el tribunal de contratos de la Junta estimó en parte.",
-    "La nueva convocatoria está publicada en la Plataforma de Contratación del Sector Público y la aprobó la Junta de Gobierno Local el viernes 16 de octubre, según el Ayuntamiento. Mantiene lo esencial del proyecto: una concesión de 40 años, con un canon mínimo de 40.000 euros al año, para que una empresa rehabilite, modernice, estudie la ampliación y gestione el hotel. El objetivo municipal es que pase a tener cuatro estrellas.",
-    "## Qué ha cambiado tras el recurso",
-    "El Tribunal Administrativo de Recursos Contractuales de la Junta de Andalucía estimó de forma parcial el recurso presentado contra la licitación anterior. Según explicó el Ayuntamiento en una <a href='https://www.alcaladeguadaira.es/noticias/9846/el-ayuntamiento-continua-con-la-licitacion-del-hotel-oromana-cuya-modificacion-no-afectara-a-los-plazos-de-ejecucion-del-proyecto'>nota del 18 de septiembre</a>, la resolución obligaba a concretar los criterios para seleccionar candidatos, la valoración de la experiencia del director del hotel y la definición de las mejoras arquitectónicas y de las inversiones complementarias que dan puntos.",
-    "Esa misma nota sostiene que el tribunal dio por buena la fórmula de concesión de servicios, el procedimiento restringido, el objeto del contrato, la solvencia técnica básica exigida y los estudios previos. Por eso, según el gobierno municipal, no ha hecho falta repetirlos.",
-    "La Delegación de Turismo, que dirige el tercer teniente de alcaldesa Christopher Rivas (Andalucía Por Sí), ha redactado una memoria justificativa reformada. Detalla qué mejoras arquitectónicas pueden ofrecer las empresas, con qué límites y cómo se puntúan, y acota las inversiones y servicios complementarios que se valoran. Rivas defiende en la <a href='https://www.alcaladeguadaira.es/noticias/9949/aprobada-la-nueva-licitacion-de-la-concesion-del-servicio-de-explotacion-del-hotel-oromana-de-alcala-de-guadaira'>nota municipal</a> que los cambios «vienen a mejorar los pliegos» y no alteran la finalidad del contrato.",
-    "## Próximos pasos",
-    "Al ser un procedimiento restringido, primero se seleccionan las empresas candidatas y solo después las admitidas presentan su oferta, de modo que tras el 27 de noviembre quedará todavía esa segunda fase antes de adjudicar.",
-    "La anterior concesión del hotel, de 25 años, ya terminó, y el Ayuntamiento encargó después un estudio previo de obras para su rehabilitación y posible ampliación. El próximo dato será cuántas empresas se presentan antes del 27 de noviembre.",
-    "<span class='howto'>Las candidaturas se presentan a través de la Plataforma de Contratación del Sector Público hasta el viernes 27 de noviembre de 2026. La concesión es de 40 años, con un canon mínimo de 40.000 euros anuales.</span>"
-   ],
-   "seo": [
-    "hotel-oromana-nueva-licitacion-concesion-40-anos",
-    "Hotel Oromana: nueva licitación tras el recurso en Alcalá",
-    "Alcalá de Guadaíra vuelve a licitar la concesión del Hotel Oromana por 40 años, con canon mínimo de 40.000 euros y candidaturas hasta el 27 de noviembre.",
-    [
-     "Hotel Oromana",
-     "contratación pública",
-     "Christopher Rivas",
-     "Tribunal de Recursos Contractuales",
-     "Riberas del Guadaíra",
-     "turismo"
-    ]
-   ]
-  },
-  {
-   "id": "ayuda-domicilio-15-millones-ronda-sur",
-   "sec": "economia",
-   "kicker": "Junta de Gobierno",
-   "iso": "2026-10-27",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=r6Tcwaf9mgU&t=293s",
-   "title": "Alcalá adjudica la ayuda a domicilio por 15 millones para dos años y vuelve a licitar el final de la Ronda Sur",
-   "sub": "El nuevo contrato subroga a las 400 trabajadoras y atiende a más de mil personas; la carretera estaba parada por una tubería del Huéznar",
-   "caption": "La portavoz del gobierno municipal, Ángeles Ballesteros, en la rueda de prensa sobre los acuerdos de la Junta de Gobierno Local.",
-   "foto": "ayuda-domicilio-15-millones-ronda-sur.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "La Junta de Gobierno Local de Alcalá de Guadaíra aprobó el nuevo contrato del servicio de ayuda a domicilio por 15 millones de euros para dos años.",
-    "El contrato mantiene a las 400 trabajadoras del servicio y atiende a más de mil personas mayores o dependientes.",
-    "El Ayuntamiento licitará las obras para terminar la Ronda Sur, un vial de 1.730 metros entre la A-392 y la A-3204, tras resolver el desvío de la tubería del Huéznar."
-   ],
-   "body": [
-    "La Junta de Gobierno Local de Alcalá de Guadaíra aprobó el viernes 23 de octubre el nuevo contrato del servicio de ayuda a domicilio, por 15 millones de euros para los dos próximos años, y la licitación de las obras que deben terminar la Ronda Sur, una carretera que llevaba años parada por una tubería de agua.",
-    "Lo explicó la segunda teniente de alcaldesa y portavoz del gobierno municipal, Mª de los Ángeles Ballesteros Núñez (PSOE), en la rueda de prensa posterior. La Junta de Gobierno aprobó además la cesión de un terreno a la empresa municipal Aira Gestión Ambiental para el punto limpio de San Mateo y dio cuenta de la sanción por los vertidos en La Pirotecnia.",
-    "## Ayuda a domicilio: nueva empresa y las mismas trabajadoras",
-    "El servicio atiende a más de mil usuarios, en su mayoría personas mayores o en situación de dependencia. Según Ballesteros, la adjudicataria es una empresa nueva, Arquisocial, y el contrato obliga a subrogar a las 400 trabajadoras que prestan hoy el servicio, es decir, a mantener sus contratos.",
-    "La portavoz enumeró las mejoras que, según el gobierno, incluye el contrato: una subida del precio por hora que repercute en el salario, el paso a diez coordinadoras y una nueva distribución del servicio por zonas, que según explicó era una petición de la plantilla.",
-    "El gobierno municipal sostiene que buena parte de los usuarios son personas que esperan la prestación de la Ley de Dependencia, que corresponde a la Junta de Andalucía, y que el Ayuntamiento los atiende mientras se resuelve ese retraso.",
-    "Con los datos oficiales, el gasto del nuevo contrato ronda los 7,5 millones de euros al año.",
-    "## La Ronda Sur, otra vez a licitación",
-    "La Ronda Sur es un vial de 1.730 metros, con mediana y dos carriles por sentido, que unirá la carretera A-392, hacia Dos Hermanas, con la A-3204, hacia Utrera, por detrás del Campo de las Beatas. Continúa la carretera del Puente del Dragón (A-8033) y completa la circunvalación de Alcalá por el sur.",
-    "La obra empezó hace años y quedó interrumpida cuando apareció bajo su trazado la tubería del Huéznar. Según el Ayuntamiento, el problema se ha resuelto con un desvío acordado con las partes implicadas, y ahora sale a licitación la fase que debe culminar la carretera. El gobierno municipal la presenta como una vía para sacar tráfico de la travesía urbana y del centro, dentro del Plan de Movilidad Urbana.",
-    "El presupuesto y el plazo de esta fase se conocerán cuando el anuncio se publique en la Plataforma de Contratación del Sector Público."
-   ],
-   "seo": [
-    "ayuda-domicilio-15-millones-ronda-sur-alcala",
-    "Ayuda a domicilio: 15 millones y la Ronda Sur, en Alcalá",
-    "La Junta de Gobierno de Alcalá aprueba el contrato de ayuda a domicilio por 15 millones para dos años y licita las obras que deben terminar la Ronda Sur.",
-    [
-     "ayuda a domicilio",
-     "Ronda Sur",
-     "Junta de Gobierno Local",
-     "Ángeles Ballesteros",
-     "dependencia",
-     "tubería del Huéznar"
-    ]
-   ]
-  },
-  {
-   "id": "alcala-nos-importa-tomillar",
-   "sec": "politica",
-   "kicker": "Sanidad",
-   "iso": "2026-10-27",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=r6Tcwaf9mgU&t=666s",
-   "title": "Alcalá Nos Importa pedirá en el Pleno convertir El Tomillar en hospital general con UCI y maternidad",
-   "sub": "La formación calcula que la obra costaría unos 115 millones y propone ampliar el hospital existente en vez de esperar uno nuevo",
-   "caption": "Fachada del Hospital El Tomillar, en Alcalá de Guadaíra.",
-   "foto": "alcala-nos-importa-tomillar.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "Alcalá Nos Importa llevará al Pleno ordinario de noviembre una moción para transformar el Hospital El Tomillar en un hospital público general.",
-    "La propuesta incluye estudiar urgencias hospitalarias 24 horas, una unidad de cuidados intensivos, maternidad, hospitalización general y nuevas especialidades.",
-    "La formación estima en unos 115 millones de euros la obra y unos 90 millones al año el funcionamiento; son cálculos propios, sin estudio técnico.",
-    "La competencia sanitaria es de la Junta de Andalucía, que tendría que valorar la viabilidad."
-   ],
-   "body": [
-    "Alcalá Nos Importa llevará al Pleno ordinario de noviembre una moción para que el Hospital El Tomillar, en Alcalá de Guadaíra, se amplíe y se convierta en un hospital público general, con urgencias las 24 horas, unidad de cuidados intensivos y maternidad. La formación sostiene que es más rápido ampliar lo que ya existe que esperar un hospital nuevo.",
-    "El grupo municipal, que tiene un concejal en el Pleno, ha presentado ya una instancia en el Ayuntamiento para que se estudie esta alternativa. Además, ha enviado la propuesta a la alcaldesa, Ana Isabel Jiménez, a los alcaldes de Dos Hermanas, Mairena y El Viso del Alcor, y a representantes institucionales y parlamentarios para buscar apoyos ante la Junta de Andalucía, que tiene la competencia sanitaria.",
-    "## «Nadie ha propuesto ampliar el que ya tenemos»",
-    "Desde la formación explicaron a El Panadero que los partidos y los vecinos llevan décadas pidiendo a la Junta un hospital para Alcalá, pero que nunca se ha planteado ampliar El Tomillar. Recuerdan que el primer teniente de alcaldesa y delegado de Urbanismo, Jesús Mora (PSOE), anunció en el Pleno que el Ayuntamiento cederá terrenos para que la Junta pueda construir un hospital.",
-    "Alcalá Nos Importa asegura que le han confirmado que el suelo de El Tomillar es de la Tesorería General de la Seguridad Social y que el centro depende de la Junta de Andalucía, de modo que, a su juicio, la petición de ampliarlo está dirigida a quien debe. También afirma que el hospital está catalogado como hospital general y que nada impide que crezca.",
-    "## Lo que propone y lo que costaría",
-    "La iniciativa plantea estudiar urgencias hospitalarias las 24 horas, una unidad de cuidados intensivos, maternidad, hospitalización general y nuevas especialidades médicas. Según la formación, El Tomillar daría servicio a la comarca y descongestionaría el Hospital de Valme, al que hoy acuden los alcalareños.",
-    "El grupo calcula que la obra costaría unos 115 millones de euros y que el funcionamiento rondaría los 90 millones al año, cifras que compara con los cerca de 17.000 millones que, según dice, destinará la Junta a la sanidad en 2027. Son estimaciones del propio partido: la moción reconoce que la propuesta necesita estudios técnicos, económicos, urbanísticos y sanitarios, además de planificar el personal.",
-    "Por eso, Alcalá Nos Importa pide que la Junta reserve una partida para los estudios iniciales. La moción se debatirá en el Pleno de noviembre. La transformación del hospital, en cualquier caso, depende de la Consejería de Sanidad y no del Ayuntamiento.",
-    "La línea metropolitana M-104, que une Alcalá con el Hospital de Valme, tiene parada en El Tomillar."
-   ],
-   "seo": [
-    "alcala-nos-importa-tomillar-hospital-general",
-    "El Tomillar: Alcalá Nos Importa pide un hospital general",
-    "Alcalá Nos Importa llevará al Pleno de noviembre una moción para convertir el Hospital El Tomillar en hospital general con urgencias, UCI y maternidad.",
-    [
-     "Hospital El Tomillar",
-     "Alcalá Nos Importa",
-     "sanidad pública",
-     "Junta de Andalucía",
-     "Hospital de Valme",
-     "moción"
-    ]
-   ]
-  },
-  {
-   "id": "ordenanzas-2027-plazo-reclamaciones",
-   "sec": "economia",
-   "kicker": "Impuestos",
-   "iso": "2026-10-27",
-   "src": "BOP de Sevilla",
-   "fuente_url": "https://bopsevilla.dipusevilla.es/publica/buscador-anuncios/anuncio/Aprobacion-inicial-de-la-modificacion-de-las-ordenanzas-fiscales-para-2027/",
-   "title": "Se abre el plazo de 30 días para reclamar contra las ordenanzas fiscales de 2027 en Alcalá",
-   "sub": "El BOP publica el acuerdo provisional del Pleno; si nadie reclama, las nuevas reglas de impuestos y tasas quedarán aprobadas sin volver a votarse",
-   "caption": "El plazo de reclamaciones contra las ordenanzas fiscales de Alcalá de Guadaíra para 2027.",
-   "foto": "ordenanzas-2027-plazo-reclamaciones-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "El Boletín Oficial de la Provincia de Sevilla publicó el 27 de octubre de 2026 la aprobación provisional de las ordenanzas fiscales de Alcalá de Guadaíra para 2027.",
-    "Los vecinos y las empresas tienen 30 días para examinar el expediente y presentar reclamaciones.",
-    "Si no hay reclamaciones, el acuerdo del Pleno del 20 de octubre quedará aprobado de forma definitiva sin nueva votación."
-   ],
-   "body": [
-    "Los vecinos y las empresas de Alcalá de Guadaíra pueden reclamar desde esta semana contra las ordenanzas fiscales de 2027. El Boletín Oficial de la Provincia (BOP) de Sevilla publicó el martes 27 de octubre el acuerdo del Pleno que las aprobó de forma provisional y abrió un plazo de 30 días para examinar el expediente y presentar alegaciones.",
-    "El Pleno votó la modificación el 20 de octubre, con el rechazo de la oposición, sobre el proyecto que la Junta de Gobierno Local había aprobado el 9 de octubre. El expediente incluye un informe técnico económico sobre la tasa por el servicio de extinción de incendios, una de las tasas que se revisan.",
-    "## Qué se puede reclamar",
-    "Las ordenanzas mantienen los tipos de los impuestos y las tasas, pero cambian algunas reglas. Como contó El Panadero, en el impuesto sobre actividades económicas el Ayuntamiento tendrá seis meses en lugar de tres para resolver las bonificaciones y, si no contesta, se entenderán denegadas. Además, desaparece la exención de algunas tasas de ocupación de la vía pública que se aplicó en la pandemia, entre ellas la de veladores.",
-    "El Consejo Económico y Social de la ciudad se negó a dictaminar las ordenanzas porque, según sus miembros, se le consultó cuando el gobierno ya había aprobado el proyecto.",
-    "## Si nadie reclama, quedan aprobadas",
-    "El anuncio, firmado el 21 de octubre por el secretario general del Ayuntamiento, recoge que las reclamaciones las resolverá la Corporación. Si no se presenta ninguna en el plazo, el acuerdo provisional se convertirá en definitivo sin necesidad de un nuevo acuerdo del Pleno. Si las hay, el Pleno tendrá que votarlas antes de aprobar el texto final.",
-    "El plazo se cuenta desde el día siguiente a la publicación del anuncio en el tablón municipal, en el BOP y en un diario de los de mayor difusión de la provincia, como exige la Ley Reguladora de las Haciendas Locales.",
-    "<span class='howto'>Dónde ver el expediente: en el tablón de anuncios (apartado Ordenanzas) de la sede electrónica municipal, ciudadalcala.sedelectronica.es. Plazo: 30 días desde la publicación del anuncio. Las reclamaciones pueden presentarse en los registros del Ayuntamiento, incluida su sede electrónica.</span>"
-   ],
-   "seo": [
-    "ordenanzas-fiscales-2027-plazo-reclamaciones-alcala",
-    "Ordenanzas fiscales 2027: plazo para reclamar en Alcalá",
-    "El BOP abre el plazo de 30 días para reclamar contra las ordenanzas fiscales de Alcalá de Guadaíra para 2027, aprobadas de forma provisional por el Pleno.",
-    [
-     "ordenanzas fiscales",
-     "BOP de Sevilla",
-     "impuestos municipales",
-     "IAE",
-     "veladores",
-     "Pleno de Alcalá"
-    ]
-   ]
-  },
-  {
-   "id": "rabesa-edificio-clubes",
-   "sec": "deportes",
-   "kicker": "Instalaciones",
-   "iso": "2026-10-27",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OZZlQUijaSc&t=1140s",
-   "title": "El Ayuntamiento construye por 432.938 euros un edificio para las sedes del CD Rabesa y el CD ADA",
-   "sub": "Las obras en el campo de la calle Orense, adjudicadas a Rehabilitaciones Integrales San José, durarán ocho meses",
-   "caption": "La alcaldesa, Ana Isabel Jiménez, y los delegados David Delgado y Pedro Gracia, con representantes de los clubes en el campo de fútbol de Rabesa.",
-   "foto": "rabesa-edificio-clubes-of.jpg",
-   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha empezado a construir un edificio de una planta en el campo de fútbol de Rabesa para las sedes del CD Rabesa y el Club Deportivo ADA.",
-    "La obra cuesta 432.938 euros, IVA incluido, y la ejecuta la empresa Rehabilitaciones Integrales San José S.L.",
-    "El plazo de ejecución previsto es de ocho meses."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha empezado a construir un edificio para las sedes del CD Rabesa y el Club Deportivo ADA en el campo de fútbol de Rabesa, en la calle Orense. La obra cuesta 432.938 euros, IVA incluido, la ejecuta la empresa Rehabilitaciones Integrales San José S.L. y tiene un plazo previsto de ocho meses.",
-    "En el campo entrenan tres clubes. El tercero, el Estrella San Agustín CF, seguirá usando el edificio que ya existe en la instalación, según la <a href='https://www.alcaladeguadaira.es/noticias/9951/el-ayuntamiento-inicia-las-obras-de-un-nuevo-edificio-destinado-a-albergar-las-sedes-de-entidades-deportivas-en-el-campo-de-futbol-de-rabesa'>nota del Ayuntamiento</a>.",
-    "## Una planta, con aislamiento nuevo",
-    "El proyecto, de la Delegación de Hábitat Urbano, contempla un edificio de una sola planta con soluciones de aislamiento adaptadas a las exigencias técnicas actuales, las instalaciones necesarias para su funcionamiento y mejoras en los acabados interiores, como el alicatado de algunas zonas.",
-    "La alcaldesa, Ana Isabel Jiménez (PSOE), visitó el inicio de los trabajos con el delegado de Hábitat Urbano, David Delgado (PSOE); el delegado de Deportes, Pedro Gracia (PSOE), y representantes de los clubes. Jiménez sostuvo que la obra busca «mejorar las instalaciones municipales y ofrecer mejores espacios» a los clubes deportivos. En su perfil de Instagram presentó la actuación como una inversión para dar respuesta a las necesidades de los clubes locales.",
-    "Si se cumplen los ocho meses previstos, el edificio estaría listo hacia el verano de 2027.",
-    "<span class='howto'>Dónde: campo de fútbol municipal de Rabesa, calle Orense. Usuarios del nuevo edificio: CD Rabesa y Club Deportivo ADA. Coste: 432.938 euros con IVA. Plazo previsto: ocho meses.</span>"
-   ],
-   "seo": [
-    "rabesa-edificio-sedes-clubes-deportivos",
-    "Rabesa: 432.938 euros para un edificio de clubes en Alcalá",
-    "Alcalá de Guadaíra construye en el campo de Rabesa un edificio de 432.938 euros para las sedes del CD Rabesa y el CD ADA, con ocho meses de plazo.",
-    [
-     "CD Rabesa",
-     "Club Deportivo ADA",
-     "instalaciones deportivas",
-     "David Delgado",
-     "Pedro Gracia",
-     "contratos de obra"
-    ]
-   ]
-  },
-  {
-   "id": "tercera-palabra-coloca-primera-piedra",
-   "sec": "hermandades",
-   "kicker": "Hermandades",
-   "iso": "2026-10-27",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=r6Tcwaf9mgU&t=1404s",
-   "title": "La Tercera Palabra coloca la primera piedra de su casa hermandad en un solar municipal cedido por 50 años",
-   "sub": "El obispo auxiliar, Teodoro León, presidió el acto en la parcela de 612 metros cuadrados que el Ayuntamiento cedió a la hermandad por 50 años",
-   "caption": "Colocación de la primera piedra de la casa hermandad de la Tercera Palabra, en el Campo de las Beatas.",
-   "foto": "tercera-palabra-coloca-primera-piedra.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "La Hermandad de la Tercera Palabra ha colocado la primera piedra de su futura casa hermandad en la calle Santiago de Chile, en el Campo de las Beatas.",
-    "El solar es municipal, mide 612 metros cuadrados y el Ayuntamiento lo cedió a la hermandad durante 50 años.",
-    "El acto lo presidió el obispo auxiliar de Sevilla, Teodoro León Muñoz, con la alcaldesa, Ana Isabel Jiménez, entre los asistentes."
-   ],
-   "body": [
-    "La Hermandad de la Tercera Palabra ha colocado la primera piedra de su futura casa hermandad en un solar municipal de 612 metros cuadrados de la calle Santiago de Chile, en el Campo de las Beatas, en Alcalá de Guadaíra. Es la primera sede propia de esta corporación, que hoy guarda su patrimonio en la parroquia.",
-    "La hermandad había anunciado el acto para el viernes 23 de octubre. Lo presidió el obispo auxiliar de Sevilla, Teodoro León Muñoz, acompañado del párroco de Santa María y San Miguel, Félix Amo. Asistieron la alcaldesa, Ana Isabel Jiménez, concejales de la Corporación, el presidente del Consejo General de Hermandades y Cofradías, Enrique Ruiz Portillo, y el hermano mayor, Manuel García, con miembros de su junta de gobierno.",
-    "## Un solar cedido por 50 años",
-    "El terreno es de titularidad municipal. La Junta de Gobierno Local aprobó su cesión demanial a la hermandad por un periodo de 50 años, según el <a href='https://www.alcaladeguadaira.es/noticias/9945/la-hermandad-de-la-tercera-palabra-coloca--la-primera-piedra-de-su-futura-casa-hermandad'>Ayuntamiento</a>. Una cesión demanial permite usar el suelo durante ese tiempo, pero no transmite la propiedad, que sigue siendo pública.",
-    "La alcaldesa defendió la cesión en la nota municipal: «La Tercera Palabra es mucho más que una hermandad; es un punto de encuentro para los vecinos, una seña de identidad para el Campo de las Beatas y un motor de convivencia y participación». En su intervención durante el acto, Jiménez agradeció a los hermanos haber creído en el proyecto y les pidió seguir trabajando por el barrio.",
-    "## Para qué servirá",
-    "La casa hermandad acogerá cultos, reuniones y actividades sociales y culturales, y servirá para custodiar un patrimonio que hoy está repartido. El hermano mayor explicó a El Panadero antes del acto que la parihuela ya está hecha y espera un lugar donde guardarse, y que la falta de local frena otros proyectos, como el palio. Su deseo, con un año de mandato por delante, es dejar techada al menos la nave principal.",
-    "La Tercera Palabra recibió el decreto de erección canónica en octubre de 2019 y es una de las 14 hermandades de Alcalá. Tiene su sede en la parroquia de Santa María y San Miguel y organiza la Feria de San Miguel en el barrio.",
-    "Ni la hermandad ni el Ayuntamiento han hecho públicos el presupuesto de la obra ni el plazo previsto para terminarla. El Ayuntamiento aporta el suelo."
-   ],
-   "seo": [
-    "tercera-palabra-primera-piedra-casa-hermandad",
-    "Tercera Palabra: primera piedra de su casa hermandad",
-    "La Hermandad de la Tercera Palabra coloca en Alcalá la primera piedra de su casa hermandad, en un solar municipal de 612 metros cedido por 50 años.",
-    [
-     "Tercera Palabra",
-     "casa hermandad",
-     "Campo de las Beatas",
-     "Teodoro León",
-     "cesión de suelo",
-     "Semana Santa de Alcalá"
     ]
    ]
   },
