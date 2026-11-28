@@ -1,6 +1,6 @@
 window.EP = {
  "meta": {
-  "actualizado": "2026-11-27",
+  "actualizado": "2026-11-28",
   "ventana_dias": 30,
   "nota": "Archivo de datos de El Panadero. Lo actualiza la tarea diaria a partir del Radar informativo (solo Alcalá de Guadaíra), redactando cada pieza con la skill redaccion-el-panadero. Cada noticia: id único, sec (alcala|sucesos|politica|economia|cultura|hermandades|deportes|opinion), iso AAAA-MM-DD, src (medio o fuente), fuente_url, foto (archivo en fotos/), claves (2-4 frases), body (párrafos de 300 a 750 palabras en total; un párrafo que empiece por '## ' es un ladillo; uno que empiece por <span class='howto'> se muestra como recuadro práctico; enlaces internos con <a href='#id'>), seo [slug, titulo<=60, descripcion 140-155, etiquetas]. Las piezas de opinión llevan autor y autor_cargo. Campos de hora (desde el 30/10/2026): hora = hora de publicación en Madrid, «HH:MM» (se pone al crear la pieza, con la hora real de publicación); actualizada = «AAAA-MM-DDTHH:MM», solo si una pieza ya publicada se actualiza con información nueva (no por correcciones de erratas): la firma muestra entonces «Actualización: fecha · hora». No cambies iso ni hora al actualizar. Campo meta.apertura (2, 3 o 4): peso de la apertura de portada, según el sistema de diseño El Panadero. 2 = día normal (por defecto si no se pone); 3 = la noticia principal destaca; 4 = solo para noticias de impacto, con foto original horizontal. La noticia que abre es la primera del array con la fecha más reciente y debe llevar foto propia, no genérica. La sección «Pan de Alcalá» se eliminó el 30 de octubre de 2026: las noticias de pan, panaderías y molinos van a economia, cultura o alcala según su contenido. Campo opcional destacado: true marca la noticia que ocupa la banda «Destacado» de portada (una historia de Alcalá con tinte social, cultural o patrimonial); si ninguna lo lleva, la portada elige la más reciente de alcala, cultura o hermandades con foto propia. El destacado se renueva cada día en el turno de mañana (decisión de Pablo, 25/11/2026): solo una pieza lo lleva y meta.destacado_historial guarda los últimos para no repetirlos en 7 días.",
   "apertura": 2,
@@ -20,37 +20,14 @@ window.EP = {
    {
     "id": "cautivo-vestidor-david-del-toro-nombramientos-capataces",
     "fecha": "2026-11-27"
+   },
+   {
+    "id": "soberano-poder-antonio-leon-hermano-mayor-via-crucis-consejo-reglas",
+    "fecha": "2026-11-28"
    }
   ]
  },
  "agenda": [
-  {
-   "cuando": "Hasta 27 nov",
-   "que": "Plazo de candidaturas para la concesión del Hotel Oromana",
-   "donde": "Plataforma de Contratación del Sector Público",
-   "hasta": "2026-11-27"
-  },
-  {
-   "cuando": "Vie 27 nov, 17.30",
-   "que": "Marcha sufragista de Transformando Entre Mujeres",
-   "donde": "Salida desde la avenida de la Constitución",
-   "noticia": "transformando-entre-mujeres-charla-violencia-vicaria-25n",
-   "hasta": "2026-11-27"
-  },
-  {
-   "cuando": "Vie 27 nov, 18.00",
-   "que": "Teatro infantil «El Grinch»",
-   "donde": "Plaza de los Molinos",
-   "noticia": "cabalgata-reyes-2027-construccion-carrozas-taller-grinch",
-   "hasta": "2026-11-27"
-  },
-  {
-   "cuando": "Vie 27 nov, 20.30",
-   "que": "«Hamlet», de Guayominí Producciones",
-   "donde": "Teatro Gutiérrez de Alba",
-   "noticia": "hamlet-guayomini-teatro-gutierrez-de-alba-27-noviembre",
-   "hasta": "2026-11-27"
-  },
   {
    "cuando": "7–28 nov",
    "que": "Flamenco, poesía, comedia y teatro en el Centro San Miguel",
@@ -147,6 +124,13 @@ window.EP = {
    "que": "Día de la Bandera: reconocimientos y concierto de Alba Molina (5 €)",
    "donde": "Auditorio Riberas del Guadaíra",
    "noticia": "paseo-matematico-al-andalus-dia-bandera-alba-molina",
+   "hasta": "2026-12-04"
+  },
+  {
+   "cuando": "Vie 4 dic",
+   "que": "Zambomba de la Hermandad del Soberano Poder con Cáritas parroquial de San Mateo",
+   "donde": "Parroquia de San Mateo",
+   "noticia": "soberano-poder-antonio-leon-hermano-mayor-via-crucis-consejo-reglas",
    "hasta": "2026-12-04"
   },
   {
@@ -261,6 +245,104 @@ window.EP = {
   }
  ],
  "noticias": [
+  {
+   "id": "ies-hienipa-bioclimatizacion-fotovoltaica-adjudicacion-392341-euros",
+   "sec": "alcala",
+   "kicker": "Educación",
+   "iso": "2026-11-28",
+   "src": "Junta de Andalucía",
+   "fuente_url": "https://www.juntadeandalucia.es/organismos/educacion/servicios/actualidad/noticias/detalle/698326.html",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "La Junta adjudica por 392.341 euros la refrigeración y la ampliación solar del IES Hienipa de Alcalá",
+   "sub": "Las obras, de cuatro meses, enfriarán 42 dependencias del instituto y elevarán su instalación fotovoltaica de 60 a 100 kilovatios",
+   "caption": "Alumnado del IES Hienipa de Alcalá de Guadaíra durante una clase, en una imagen de archivo.",
+   "foto": "hienipa-construccion-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "claves": [
+    "La Agencia Pública Andaluza de Educación ha adjudicado a Vivendio Sostenibilidad Energética S.L. las obras de bioclimatización del IES Hienipa por 392.341,21 euros.",
+    "El plazo de ejecución es de cuatro meses y la actuación refrigerará 3.363,69 metros cuadrados repartidos en 42 dependencias que hoy no tienen climatización.",
+    "La instalación fotovoltaica del centro pasará de 60 a 100 kilovatios y producirá unos 164.000 kWh al año para autoconsumo.",
+    "La obra forma parte de la segunda fase del programa andaluz de Bioclimatización y Energías Renovables, cofinanciado con fondos FEDER 2021-2027."
+   ],
+   "body": [
+    "La Consejería de Educación ha adjudicado por 392.341,21 euros las obras para instalar refrigeración y ampliar las placas solares del IES Hienipa de Alcalá de Guadaíra. La empresa Vivendio Sostenibilidad Energética S.L. tendrá cuatro meses para ejecutarlas, según la nota publicada el viernes 27 de noviembre por la Junta de Andalucía.",
+    "La adjudicación la ha hecho pública la Agencia Pública Andaluza de Educación, que es el organismo que contrata y ejecuta las obras en los centros educativos públicos, en el <a href='https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc-front-publico/perfiles-licitaciones/detalle-licitacion?idExpediente=1013860'>Perfil del Contratante</a> de la Junta.",
+    "## Refrigeración en 42 dependencias",
+    "La obra instalará refrigeración adiabática en los espacios del instituto que hoy no tienen climatización. Este sistema enfría el aire mediante la evaporación de agua. En total, la actuación alcanzará 3.363,69 metros cuadrados repartidos en 42 dependencias, entre ellas aulas, talleres, laboratorios, la biblioteca y el gimnasio.",
+    "La segunda parte del contrato afecta a la energía. El centro ya tiene una instalación fotovoltaica de 60 kilovatios de potencia, que se ampliará hasta los 100 kilovatios con las placas y las adaptaciones que hagan falta. La Junta calcula que producirá unos 164.000 kilovatios hora al año, que se destinarán al consumo del propio instituto, con la posibilidad de verter a la red la energía sobrante.",
+    "La actuación está incluida en la segunda fase del programa de Bioclimatización y Energías Renovables de los centros educativos públicos de Andalucía, que ejecuta la Agencia Pública Andaluza de Educación. Cuenta con cofinanciación europea del marco FEDER 2021-2027.",
+    "## Calendario sin concretar",
+    "La nota de la Junta no indica cuándo empezarán los trabajos ni cómo se compaginarán con la actividad del centro durante el curso.",
+    "El IES Hienipa es uno de los institutos públicos de la ciudad e imparte formación profesional, como el <a href='#ies-hienipa-ciclo-construccion-alcala'>ciclo de Técnico en Construcción</a> del que informó El Panadero a principios de mes.",
+    "<span class='howto'><b>Obras en el IES Hienipa.</b> Adjudicataria: Vivendio Sostenibilidad Energética S.L. Importe: 392.341,21 euros. Plazo: cuatro meses, sin fecha de inicio publicada. Alcance: refrigeración adiabática en 42 dependencias (3.363,69 m²) y ampliación de la fotovoltaica de 60 a 100 kW. Financiación: Junta de Andalucía con fondos FEDER 2021-2027. Expediente en el Perfil del Contratante de la Junta (número 1013860).</span>"
+   ],
+   "seo": [
+    "ies-hienipa-bioclimatizacion-placas-solares-adjudicacion",
+    "IES Hienipa: 392.341 euros en refrigeración y placas solares",
+    "La Junta adjudica a Vivendio la refrigeración adiabática y la ampliación fotovoltaica del IES Hienipa de Alcalá de Guadaíra, con cuatro meses de plazo.",
+    [
+     "IES Hienipa",
+     "bioclimatización",
+     "Agencia Pública Andaluza de Educación",
+     "placas solares",
+     "fondos FEDER",
+     "centros educativos"
+    ]
+   ],
+   "hora": "06:57"
+  },
+  {
+   "id": "soberano-poder-antonio-leon-hermano-mayor-via-crucis-consejo-reglas",
+   "sec": "hermandades",
+   "kicker": "Hermandades",
+   "iso": "2026-11-28",
+   "src": "El Panadero",
+   "fuente_url": "https://www.youtube.com/watch?v=bFA4T7YZ-lI&t=25s",
+   "firma": "Redacción El Panadero",
+   "elaboracion": "ia",
+   "title": "Antonio León fija sus prioridades en el Soberano Poder: el Vía Crucis del Consejo, las reglas y el paso",
+   "sub": "El nuevo hermano mayor, del grupo fundador de la hermandad, gobierna con una junta de 34 personas y no prevé cambios de capataz ni de vestidor",
+   "caption": "Antonio León Donoso, hermano mayor de la Hermandad del Soberano Poder, durante la entrevista en el programa Alcalá Cofrade.",
+   "foto": "soberano-poder-antonio-leon-tv.jpg",
+   "fotocredito": "MiGuadaíraTV",
+   "destacado": true,
+   "claves": [
+    "Antonio León Donoso es hermano mayor de la Hermandad del Soberano Poder desde la toma de posesión del 15 de noviembre de 2026.",
+    "Su primera prioridad es el Vía Crucis del Consejo de Hermandades de la próxima Cuaresma, que irá acompañado de un proyecto de caridad que la hermandad presentará en enero.",
+    "La junta quiere actualizar las reglas, aprobadas en 2008, y seguir con el paso del Señor y el palio sin cambiar la línea artística aprobada.",
+    "León mantiene a los capataces y al vestidor y no prevé optar a un segundo mandato."
+   ],
+   "body": [
+    "Antonio León Donoso, hermano mayor de la Hermandad del Soberano Poder de Alcalá de Guadaíra desde el 15 de noviembre, tiene como primeras tareas el Vía Crucis del Consejo de Hermandades, la reforma de las reglas de 2008 y el paso del Señor. Lo explicó en el programa Alcalá Cofrade del jueves 26 de noviembre.",
+    "León forma parte del grupo que fundó la corporación de la barriada de Pablo VI. Entró por primera vez en la junta hacia 1998, cuando todavía era una asociación cultural, y ha sido mayordomo, conciliario y teniente de hermano mayor. Los últimos cuatro años, con Jaime Otero al frente, llevó el estandarte en la cofradía. «Para mí, sobre todo, esto es un privilegio», dijo a El Panadero sobre el cargo.",
+    "El relevo se pactó entre los dos, que son compadres. Según León, hace cuatro años no se presentó por sus condiciones de trabajo y Otero dio el paso; esta vez le preguntó si pensaba seguir y Otero le cedió el turno. En la hermandad ningún hermano mayor ha repetido mandato, y León tampoco tiene intención de hacerlo, aunque las reglas lo permiten.",
+    "## El Vía Crucis del Consejo",
+    "La cita más cercana es el Vía Crucis del Consejo General de Hermandades y Cofradías, que esta Cuaresma corresponde al Soberano Poder. La hermandad ha creado una comisión para organizarlo y quiere que participen, además de los costaleros, el resto de los hermanos. Por coincidir con ese acto, no celebrará este año su vía crucis externo, aunque prepara otro culto para el sábado que le tocaba.",
+    "El Vía Crucis irá acompañado de un proyecto de caridad, como ya hizo la hermandad la vez anterior que le correspondió. Lo presentará a los hermanos en enero.",
+    "## Reglas, archivo y patrimonio",
+    "León gobierna con una junta de 34 personas entre oficiales y auxiliares, organizada en diputaciones que trabajan por separado y ponen en común sus propuestas. Entre los planes figuran actualizar las reglas, aprobadas en 2008, y recopilar la historia de la corporación de cara a su futuro 25 aniversario.",
+    "En patrimonio, al paso del Señor le quedan el dorado, el juego de luces, los candelabros auxiliares, las cartelas y la imaginería de la canastilla. El palio seguirá el proyecto de David Calleja aprobado por los hermanos: «hasta ahora no tenemos motivo para cambiarla», afirmó sobre la línea artística. La junta quiere dedicar también parte de la inversión a conservar lo que ya tiene.",
+    "No habrá cambios en los cargos de confianza: siguen los mismos capataces y el mismo vestidor. Otero, según León, quiere volcarse ahora en su cuadrilla como capataz. León quiere que la carga se reparta para que nadie se desgaste: «Si el listón lo subes muy alto, todo el mundo no está dispuesto a hipotecar su vida».",
+    "## Más citas cofrades",
+    "Un grupo de 83 personas de la hermandad viaja este fin de semana a Fátima, y el 4 de diciembre la corporación organiza una zambomba con Cáritas parroquial de San Mateo. En otras hermandades, la de San Mateo ha informado en su perfil de Facebook de que se reunió con el delegado diocesano de Hermandades y Cofradías, Marcelino Manzano, para tratar la futura incorporación de una nueva imagen de San Fernando. La Divina Misericordia celebra este sábado su XIII zambomba en el Cortijo Payar, y el Santo Entierro traslada a este sábado 28 su misa de hermandad, que coincide con la de San Judas Tadeo.",
+    "<span class='howto'><b>Hermandad del Soberano Poder.</b> Sede: parroquia de San Mateo (Pablo VI). Hermano mayor: Antonio León Donoso, desde el 15 de noviembre de 2026. Próximas citas: zambomba con Cáritas parroquial de San Mateo, 4 de diciembre; primera reunión con el resto de hermanos mayores, 17 de diciembre. La toma de posesión, en <a href='#cautivo-soberano-poder-toma-posesion-juntas'>esta información</a>. Entrevista completa en el canal de YouTube de MiGuadaíraTV (Alcalá Cofrade, 26 de noviembre, parte 3).</span>"
+   ],
+   "seo": [
+    "soberano-poder-antonio-leon-hermano-mayor-prioridades",
+    "Soberano Poder: las prioridades de Antonio León",
+    "Antonio León, nuevo hermano mayor del Soberano Poder de Alcalá, prepara el Vía Crucis del Consejo, la reforma de las reglas de 2008 y el paso del Señor.",
+    [
+     "Hermandad del Soberano Poder",
+     "Antonio León Donoso",
+     "Vía Crucis del Consejo",
+     "Pablo VI",
+     "Semana Santa de Alcalá",
+     "parroquia de San Mateo"
+    ]
+   ],
+   "hora": "06:57"
+  },
   {
    "id": "junta-gobierno-tranvia-linea-alta-tension-procesadora-carnaval",
    "sec": "alcala",
@@ -714,8 +796,7 @@ window.EP = {
    "iso": "2026-11-26",
    "hora": "22:20",
    "firma": "Redacción El Panadero",
-   "elaboracion": "ia",
-   "destacado": true
+   "elaboracion": "ia"
   },
   {
    "id": "coste-crianza-andalucia-828-euros-save-the-children",
@@ -1072,7 +1153,7 @@ window.EP = {
     "Las tres fuentes miden cosas distintas: el barómetro estima el valor residencial, Idealista recoge lo que piden los vendedores en sus anuncios y el Ministerio, el valor de tasación. Por eso las cifras no coinciden, aunque todas reflejan una subida de dos dígitos.",
     "## Debate en campaña",
     "El dato ha entrado en la campaña. El PP de Alcalá ha publicado en su perfil de Facebook que la subida se debe a que no se ha construido vivienda pública en una década, una crítica al gobierno de Ana Isabel Jiménez (PSOE). El Ayuntamiento sostiene que proyectos como el de Los Cercadillos, con 600 viviendas protegidas, buscan facilitar el acceso a la vivienda.",
-    "El Panadero ya informó en octubre de la <a href='#vivienda-compraventas-precio-2026'>evolución de las compraventas y los precios en la ciudad</a>.",
+    "El Panadero ya informó en octubre de la evolución de las compraventas y los precios en la ciudad.",
     "<span class='howto'>Datos: barómetro del mercado residencial de Andalucía de Global Analytics (tercer trimestre de 2026), Idealista (septiembre de 2026) y Ministerio de Vivienda (valor tasado, segundo trimestre de 2026).</span>"
    ],
    "seo": [
@@ -1537,7 +1618,7 @@ window.EP = {
     "La delegada de Monumento Natural, Medioambiente y Sostenibilidad, Luisa Campos, ha explicado que el objetivo de la campaña es «recuperar el arbolado que se ha perdido y llevar nuevos ejemplares a aquellos lugares donde hacen falta». Campos ha defendido que el aumento de la masa arbórea ayudará a reducir la temperatura en el entorno de cada ejemplar durante los veranos.",
     "## Dónde se plantará",
     "El programa reúne varias actuaciones. Una de ellas es la plantación de 115 árboles en 16 colegios públicos para crear sombra en los patios, un proyecto que El Panadero ya contó cuando el Ayuntamiento <a href='#arbolado-colegios-115-arboles-16-centros'>lo sacó a licitación</a> el 17 de noviembre.",
-    "También seguirá la reposición de árboles en alcorques vacíos de calles y espacios públicos y habrá nuevas plantaciones en el Monumento Natural Riberas del Guadaíra. La nota municipal cita además otras ubicaciones urbanas: la entrada al túnel, el carril bici, la calle Malasmañanas y el futuro <a href='#parque-cerro-de-la-era'>parque del Cerro de la Era</a>. El Ayuntamiento no ha detallado cuántos ejemplares irán a cada punto ni el presupuesto total de la temporada.",
+    "También seguirá la reposición de árboles en alcorques vacíos de calles y espacios públicos y habrá nuevas plantaciones en el Monumento Natural Riberas del Guadaíra. La nota municipal cita además otras ubicaciones urbanas: la entrada al túnel, el carril bici, la calle Malasmañanas y el futuro parque del Cerro de la Era. El Ayuntamiento no ha detallado cuántos ejemplares irán a cada punto ni el presupuesto total de la temporada.",
     "## El plan Alcalá Más Verde",
     "Todas estas plantaciones se enmarcan en el Plan de Reforestación 2024-2027 «Alcalá Más Verde», que se marcó como objetivo plantar 5.000 árboles y 10.000 arbustos entre espacios urbanos, parques, colegios y enclaves naturales. Según los datos que el propio Ayuntamiento dio al cerrar la campaña 2025-2026, el plan sumaba entonces más de 4.200 árboles plantados desde 2024.",
     "El Ayuntamiento trabaja además en el primer Plan Director del Arbolado de Alcalá, un documento técnico para conocer el estado de los árboles municipales, elegir las especies adecuadas para cada sitio y fijar criterios de conservación y mantenimiento. No hay fecha pública para su aprobación.",
@@ -4092,7 +4173,7 @@ window.EP = {
     "Agustín Gómez Arcos, nacido en Enix (Almería) en 1933 y fallecido en París en 1998, desarrolló buena parte de su obra en Francia y en francés, después de exiliarse durante el franquismo. «Ana no» es el título con el que se conoce en español su novela «Ana non», publicada en 1977, la historia de una mujer mayor que emprende un viaje a pie a través de España en busca de su hijo, preso.",
     "Para Paz Vega, «Ana no» llega después de «Rita», el largometraje con el que debutó como directora. En la nueva película dirige a Ángela Molina, que encarna el papel principal.",
     "## Alcalá, escenario de rodajes",
-    "No es la primera grabación de cine en la ciudad este otoño. A finales de octubre, otro equipo de cine trabajó junto a los molinos de la Aceña y del Algarrobo, en el parque de Oromana, con cortes intermitentes del paso en los senderos, como ya <a href='#rodaje-pelicula-oromana-molinos'>informó El Panadero</a>. El Ayuntamiento no ha precisado si se trataba de la misma producción.",
+    "No es la primera grabación de cine en la ciudad este otoño. A finales de octubre, otro equipo de cine trabajó junto a los molinos de la Aceña y del Algarrobo, en el parque de Oromana, con cortes intermitentes del paso en los senderos, como ya informó El Panadero. El Ayuntamiento no ha precisado si se trataba de la misma producción.",
     "La alcaldesa cerraba su publicación con la idea de que la ciudad sigue «sumando historias, cultura y cine». La historia aborda la posguerra a través del viaje de una mujer y trata la represión, la memoria y la dignidad de los vencidos."
    ],
    "seo": [
@@ -4823,7 +4904,7 @@ window.EP = {
     "El Ayuntamiento no ha detallado todavía el sistema con el que se ordenará a los solicitantes ni la fecha en la que se conocerán los adjudicatarios.",
     "## Cómo son las viviendas",
     "Las 84 viviendas se reparten en tres bloques en la calle Castillo de Marchenilla. Según VIVE Alcalá, todas tienen dos dormitorios, plaza de garaje y trastero, y se levantan con madera contralaminada, una técnica de construcción industrializada.",
-    "Las obras empezaron en octubre, adjudicadas a BILBA Construcción e Infraestructuras por 12,2 millones de euros, con un plazo anunciado de 14 meses. La promoción tiene una inversión total de 15,9 millones, de los que la Diputación de Sevilla aporta 7,97 millones y los fondos europeos Next Generation EU, 3,79 millones. La financiación municipal del proyecto ha sido objeto de debate: Izquierda Alcalareña <a href='#vive-84-viviendas-financiacion-ia'>pidió un informe público</a> sobre cómo afecta a las cuentas del Ayuntamiento.",
+    "Las obras empezaron en octubre, adjudicadas a BILBA Construcción e Infraestructuras por 12,2 millones de euros, con un plazo anunciado de 14 meses. La promoción tiene una inversión total de 15,9 millones, de los que la Diputación de Sevilla aporta 7,97 millones y los fondos europeos Next Generation EU, 3,79 millones. La financiación municipal del proyecto ha sido objeto de debate: Izquierda Alcalareña pidió un informe público sobre cómo afecta a las cuentas del Ayuntamiento.",
     "<span class='howto'><b>Cómo participar.</b> Si ya está inscrito en el Registro Municipal de Demandantes de Vivienda en modalidad de alquiler, participa directamente. Si no ha presentado la documentación, tiene hasta el 31 de diciembre. Inscripción: por vía telemática en la sede electrónica o con cita presencial en la oficina de VIVE Alcalá (plaza de la Plazuela, 10; teléfono 854 52 62 32). Más información en <a href='https://vivealcaladeguadaira.es/'>vivealcaladeguadaira.es</a>.</span>"
    ],
    "seo": [
@@ -6224,7 +6305,7 @@ window.EP = {
     "El Consejo de Ministros ha abordado hoy un Real Decreto específico para los afectados, que toma como referencia las ayudas aprobadas tras el accidente de Adamuz. Según el paquete anunciado por el presidente del Gobierno, Pedro Sánchez, incluye cuatro medidas.",
     "La primera es duplicar las cuantías del seguro obligatorio de viajeros. La segunda, un mecanismo para anticipar las indemnizaciones, de modo que familias y heridos puedan recibir una primera compensación sin esperar a que terminen todos los procedimientos. La tercera, un procedimiento específico de incapacidad temporal con mejor cobertura para quienes sufrieron lesiones. La cuarta, la creación de oficinas de atención integral y personalizada en las delegaciones y subdelegaciones del Gobierno de las comunidades donde residan las víctimas. Los detalles definitivos sobre cuantías, requisitos y procedimientos se conocerán cuando se apruebe y se publique la norma.",
     "## La investigación sigue abierta",
-    "Con las 69 víctimas identificadas se cierra una etapa para las familias, pero la investigación judicial continúa para esclarecer las causas del accidente, como se detalla en <a href='#urda-investigacion-juzgado-orgaz-guardia-civil'>el secreto de sumario decretado por la jueza de Orgaz</a>. Para el resto de la cronología del suceso, <a href='#accidente-tren-urda-ave-iryo'>la crónica de los dos primeros días</a> recoge la evolución desde los primeros días."
+    "Con las 69 víctimas identificadas se cierra una etapa para las familias, pero la investigación judicial continúa para esclarecer las causas del accidente, como se detalla en el secreto de sumario decretado por la jueza de Orgaz. Para el resto de la cronología del suceso, <a href='#accidente-tren-urda-ave-iryo'>la crónica de los dos primeros días</a> recoge la evolución desde los primeros días."
    ],
    "seo": [
     "urda-69-victimas-identificadas-decreto-ayudas",
@@ -6311,7 +6392,7 @@ window.EP = {
     "Con carácter general, la ley electoral establece que cada mesa la forman un presidente y dos vocales, con dos suplentes para cada puesto. La designación es obligatoria y el incumplimiento puede acarrear sanciones. Quien reciba la notificación puede presentar alegaciones ante la junta electoral de zona, con su causa y la documentación que la acredite, en los siete días siguientes a recibirla. La presentación de alegaciones no exime por sí sola de ejercer el cargo: decide la junta.",
     "<span class='howto'><b>Si le llega la notificación:</b> compruebe el colegio y la mesa que le corresponden, la hora de constitución que figura en la carta y el plazo de siete días para alegar una causa justificada, si fuera su caso.</span>",
     "## El contexto de la cita con las urnas",
-    "Los comicios generales se celebrarán el domingo 29 de noviembre. La campaña llega marcada por el accidente ferroviario de Urda, que llevó a varios partidos a suspender sus actos, como recoge <a href='#urda-oposicion-reacciones-campana'>la información sobre las reacciones de PP, PSOE y Vox</a>. El Ayuntamiento no ha detallado cuántas mesas ni cuántas personas se han designado en el sorteo."
+    "Los comicios generales se celebrarán el domingo 29 de noviembre. La campaña llega marcada por el accidente ferroviario de Urda, que llevó a varios partidos a suspender sus actos, como recoge la información sobre las reacciones de PP, PSOE y Vox. El Ayuntamiento no ha detallado cuántas mesas ni cuántas personas se han designado en el sorteo."
    ],
    "seo": [
     "mesas-electorales-sorteo-pleno-alcala-29-noviembre",
@@ -6868,7 +6949,7 @@ window.EP = {
     "El LZB se está sustituyendo por el sistema europeo ERTMS. En la línea Madrid-Sevilla la instalación está terminada, pero el nuevo sistema todavía no funciona porque tiene que superar las fases de pruebas, explicó el ministro. Puente abrió además la posibilidad de cortar temporalmente la línea Madrid-Barcelona para acelerar su modernización, una medida que está en estudio y no se ha decidido.",
     "## «No me voy a esconder detrás de nadie»",
     "Puente descartó dimitir. «No me voy a esconder detrás de nadie», dijo, y aseguró que seguirá adelante con el respaldo del presidente del Gobierno, Pedro Sánchez. Solo dejaría el cargo, explicó, si su continuidad perjudicara al proyecto político del Gobierno. Recordó que el PSOE no pidió la dimisión de la ministra de Fomento Ana Pastor tras el accidente de Angrois de 2013.",
-    "El ministro dijo que seguirá viajando en tren y expresó su «absoluta desolación» por la muerte de la exministra Fátima Báñez, que viajaba en el Iryo. Comparecerá a petición propia el martes 3 de noviembre a las 17:00 ante la Diputación Permanente del Congreso. Sus primeras explicaciones, del día del accidente, están en <a href='#urda-puente-centro-control-adif'>la pieza sobre la orden del centro de control</a>.",
+    "El ministro dijo que seguirá viajando en tren y expresó su «absoluta desolación» por la muerte de la exministra Fátima Báñez, que viajaba en el Iryo. Comparecerá a petición propia el martes 3 de noviembre a las 17:00 ante la Diputación Permanente del Congreso. Sus primeras explicaciones, del día del accidente, están en la pieza sobre la orden del centro de control.",
     "## Más de 70 muertos, previsiblemente",
     "El Gobierno de Castilla-La Mancha mantiene en 69 los muertos verificados, aunque su presidente, Emiliano García-Page, admitió el viernes que la cifra superará previsiblemente los 70. Hay 70 denuncias de desaparición y 31 bolsas con restos parciales pendientes de identificar. «Cuando hablamos de fallecidos estamos hablando de cuerpos completos», explicó. La emergencia ha bajado al nivel 1.",
     "La alta velocidad entre Madrid y Andalucía, la que usan los vecinos de Alcalá de Guadaíra desde Sevilla-Santa Justa, sigue cortada sin fecha de reapertura. El balance y la situación en Alcalá están en <a href='#accidente-tren-urda-ave-iryo'>la noticia principal del accidente</a>, y las alternativas para viajar, en <a href='#urda-viajar-sevilla-madrid-sin-ave'>la guía para ir a Madrid sin AVE</a>."
@@ -6970,13 +7051,13 @@ window.EP = {
     "El ministro de Transportes, Óscar Puente, sitúa el origen en la orden del centro de control de Adif en Atocha de reanudar la marcha tras una avería del sistema de control LZB hacia las 8:30.",
     "Las grabaciones de las comunicaciones del centro de control, difundidas el miércoles por la noche, recogen que a las 8:36 Atocha ordenó al maquinista del AVE reanudar «con marcha normal» y que a las 8:48 la maquinista del Iryo avisó de que seguía parada. <a href='#urda-audios-centro-control-adif'>Qué dicen los audios</a>.",
     "<img src='fotos/urda-gfx-secuencia.jpg' alt='Gráfico: secuencia del accidente de Urda, de la avería del sistema LZB al descarrilamiento de dos coches del Iryo' loading='lazy' style='display:block;width:100%;height:auto;margin:6px 0'>",
-    "La jueza de Orgaz (Toledo) que instruye la causa ha decretado el secreto de sumario y ha ordenado incautar las cajas negras de los trenes. La Guardia Civil ha interrogado al operario que autorizó la reanudación, como recoge <a href='#urda-investigacion-juzgado-orgaz-guardia-civil'>la información sobre la investigación</a>.",
+    "La jueza de Orgaz (Toledo) que instruye la causa ha decretado el secreto de sumario y ha ordenado incautar las cajas negras de los trenes. La Guardia Civil ha interrogado al operario que autorizó la reanudación, como recoge la información sobre la investigación.",
     "<img src='fotos/urda-gfx-terraplen.jpg' alt='Gráfico: sección transversal del terraplén por el que cayeron dos coches del Iryo' loading='lazy' style='display:block;width:100%;height:auto;margin:6px 0'>",
     "## Alta velocidad cortada y luto en Alcalá",
     "Adif mantiene cortada sin fecha la alta velocidad entre Madrid y Andalucía. Renfe ha retrasado al martes 3 de noviembre, como pronto, el plan alternativo de transporte que iba a activar este viernes 30, porque el sindicato de maquinistas Semaf exige el plazo reglamentario de 96 horas para cambiar los cuadros de servicio. La venta de billetes en esa relación sigue parada hasta el 13 de diciembre. Las opciones están en <a href='#urda-viajar-sevilla-madrid-sin-ave'>la guía para viajar a Madrid sin AVE</a>.",
     "Los dos trenes iban a Sevilla-Santa Justa, la estación que usan los vecinos de Alcalá de Guadaíra para ir a Madrid.",
     "El Ayuntamiento de Alcalá ha decretado tres días de luto y ha suspendido todos sus actos hasta la medianoche del sábado 31, entre ellos <a href='#panarrafest-suspendido-luto-oficial'>el PanarraFest</a>.",
-    "La Guardia Civil ha confirmado la muerte de uno de sus agentes, un sevillano de 31 años destinado en Madrid que viajaba en el AVE. La CEOE y el PP confirmaron el jueves la muerte de <a href='#urda-fatima-banez-exministra'>la exministra Fátima Báñez</a>, presidenta de la Fundación CEOE, que viajaba en el Iryo.",
+    "La Guardia Civil ha confirmado la muerte de uno de sus agentes, un sevillano de 31 años destinado en Madrid que viajaba en el AVE. La CEOE y el PP confirmaron el jueves la muerte de la exministra Fátima Báñez, presidenta de la Fundación CEOE, que viajaba en el Iryo.",
     "Sánchez prometió el jueves aclarar «hasta el último detalle» y reforzar la seguridad ferroviaria. El ministro de Transportes, Óscar Puente, comparecerá el martes 3 de noviembre a las 17:00 ante la Diputación Permanente del Congreso. El luto oficial rige en toda España hasta el sábado 31.",
     "Es el segundo accidente grave del año en esta línea, tras el descarrilamiento de Adamuz (Córdoba), que causó 46 muertos en enero.",
     "<span class='howto'>Familiares de viajeros: Renfe, 900 10 10 20; Iryo, 900 001 403; juzgado de Orgaz, 925 317 020. Familiares de primer grado de personas no localizadas: oficinas de la Guardia Civil para muestras de ADN en Madrid, Sevilla, Córdoba y Toledo. Las identificaciones solo se comunican en persona; ante mensajes o llamadas sospechosas, Guardia Civil (062) o INCIBE (017). Emergencias: 112.</span>",
@@ -7105,7 +7186,7 @@ window.EP = {
     "La Junta de Gobierno Local de Alcalá de Guadaíra aprobó el viernes 30 de octubre el expediente de contratación para plantar árboles en los centros educativos de la ciudad, según ha publicado la alcaldesa, Ana Isabel Jiménez, en su perfil de Instagram. La sesión dio luz verde también a un convenio con Cruz Roja y a trabajos de limpieza en espacios públicos.",
     "La aprobación del expediente es el paso previo a la licitación: con él, el Ayuntamiento puede sacar a concurso el contrato. La alcaldesa no ha detallado el importe, el número de árboles, las especies ni en qué colegios se plantarán. Cuando se publique la licitación, esos datos deberán figurar en el perfil del contratante municipal.",
     "## Convenio para la feria de empleo",
-    "El segundo acuerdo es el convenio con Cruz Roja para celebrar la <a href='#feria-empleo-cruz-roja-10-noviembre'>feria de empleo del lunes 10 de noviembre</a>, la IV edición de «Creando Oportunidades para el Empleo». El Ayuntamiento ya había anunciado que reunirá a más de 40 empresas en la Caseta Municipal. El convenio formaliza la colaboración entre las dos entidades.",
+    "El segundo acuerdo es el convenio con Cruz Roja para celebrar la feria de empleo del lunes 10 de noviembre, la IV edición de «Creando Oportunidades para el Empleo». El Ayuntamiento ya había anunciado que reunirá a más de 40 empresas en la Caseta Municipal. El convenio formaliza la colaboración entre las dos entidades.",
     "La Junta de Gobierno aprobó además actuaciones de mantenimiento, conservación y limpieza de espacios públicos y de zonas ajardinadas junto a edificios municipales.",
     "La Junta de Gobierno Local es el órgano que, con la alcaldesa y los concejales que ella designa, aprueba buena parte de los contratos y convenios del Ayuntamiento entre plenos.",
     "La sesión coincidió con los días de luto oficial por el <a href='#accidente-tren-urda-ave-iryo'>accidente de Urda</a>, durante los que el Ayuntamiento ha suspendido sus actos públicos, pero no la actividad administrativa.",
@@ -7289,7 +7370,7 @@ window.EP = {
    ],
    "body": [
     "El Ayuntamiento de Alcalá de Guadaíra ha suspendido el PrePanarraFest del viernes 30 de octubre y el PanarraFest del sábado 31, los dos conciertos previstos en la explanada del Auditorio Riberas del Guadaíra, por el luto oficial decretado tras el accidente ferroviario de Urda (Toledo). El importe de las entradas se devolverá íntegro.",
-    "La suspensión de los festivales forma parte de una medida más amplia. Según ha comunicado el Ayuntamiento, quedan anulados todos los actos y actividades que organiza el Consistorio desde las 00.00 del jueves 29 hasta las 24.00 del sábado 31 de octubre, los tres días de <a href='#urda-sanchez-luto-oficial'>luto oficial decretados por el Gobierno de España</a>.",
+    "La suspensión de los festivales forma parte de una medida más amplia. Según ha comunicado el Ayuntamiento, quedan anulados todos los actos y actividades que organiza el Consistorio desde las 00.00 del jueves 29 hasta las 24.00 del sábado 31 de octubre, los tres días de luto oficial decretados por el Gobierno de España.",
     "## Cómo se devuelven las entradas",
     "Las entradas de los dos conciertos se reembolsarán por el mismo canal por el que se compraron, y cada comprador recibirá un correo electrónico de aviso. La Delegación de Cultura calcula que las devoluciones estarán completas en unas 96 horas, es decir, cuatro días. Si pasado ese plazo el dinero no ha llegado, el Ayuntamiento ha habilitado un teléfono y un correo electrónico para revisar cada caso.",
     "El PrePanarraFest tenía en su cartel a LosPicy, Original Elías, Javi Torres y Óscar Herrera, con entradas a dos euros. El PanarraFest iba a reunir el sábado a Nebulossa y Ladilla Rusa, junto a Carmen Xía, Karmento y Tú Peleas Como Una Vaca. Para las dos noches, el Ayuntamiento había preparado un dispositivo de tráfico y aparcamiento con cortes en la rotonda del Auditorio desde las 17.00.",
@@ -7389,9 +7470,9 @@ window.EP = {
     "A las 8:41, la maquinista del Iryo, que circulaba varios kilómetros por delante, informó de que también había perdido la transmisión y de que estaba detenida en la señal de entrada de Urda. Recibió la misma instrucción que el AVE: reiniciar el LZB y seguir.",
     "A las 8:48 volvió a llamar al centro de control. No podía restablecer el sistema y seguía parada. El operador le respondió que volviera a llamar si el problema continuaba. Las grabaciones difundidas no recogen ninguna orden al AVE para que se detuviera o redujera la velocidad. Seis minutos después, el AVE alcanzó al Iryo en el punto kilométrico 118, entre Los Yébenes y Urda.",
     "## Las versiones del ministro y de Iryo",
-    "El ministro de Transportes, Óscar Puente, había atribuido el accidente a la orden del centro de control de reanudar la marcha, que calificó de «inexplicable» y «errónea», y dijo que la señal estaba en rojo. Su comparecencia está en <a href='#urda-puente-centro-control-adif'>la pieza sobre las explicaciones del ministro</a>.",
+    "El ministro de Transportes, Óscar Puente, había atribuido el accidente a la orden del centro de control de reanudar la marcha, que calificó de «inexplicable» y «errónea», y dijo que la señal estaba en rojo. Su comparecencia está en la pieza sobre las explicaciones del ministro.",
     "Iryo había sostenido que su tren seguía parado porque no había recibido la orden de reanudar la marcha, que el AVE sí tenía. Según las grabaciones, su maquinista recibió la instrucción de reiniciar el sistema y seguir, pero no pudo restablecerlo y no llegó a ponerse en marcha. Adif no ha comentado el contenido de las grabaciones.",
-    "La jueza de Orgaz que instruye la causa ha decretado el secreto de sumario y ha ordenado incautar las cajas negras de los trenes. La Guardia Civil ha interrogado al operario que dio la orden y a todo su turno, como recoge <a href='#urda-investigacion-juzgado-orgaz-guardia-civil'>la información sobre la investigación</a>. El balance oficial está en <a href='#accidente-tren-urda-ave-iryo'>la noticia principal</a>.",
+    "La jueza de Orgaz que instruye la causa ha decretado el secreto de sumario y ha ordenado incautar las cajas negras de los trenes. La Guardia Civil ha interrogado al operario que dio la orden y a todo su turno, como recoge la información sobre la investigación. El balance oficial está en <a href='#accidente-tren-urda-ave-iryo'>la noticia principal</a>.",
     "<span class='howto'>Qué es el LZB: es el sistema de control de trenes de la línea de alta velocidad Madrid-Sevilla. Transmite a la cabina la velocidad máxima permitida y la distancia hasta el tren de delante, y frena el tren si el maquinista no lo hace. Cuando falla, la circulación depende de las órdenes del centro de control y de las señales de la vía.</span>"
    ],
    "seo": [
@@ -7439,7 +7520,7 @@ window.EP = {
     "Iberia ha limitado hasta el domingo 8 de noviembre el precio de sus vuelos entre Madrid y Andalucía a 99 euros por trayecto en clase turista y 149 euros en business. El miércoles añadió 520 plazas a sus rutas con Málaga y Sevilla, 158 de ellas en la de Sevilla, y la compañía dice que trabaja para ampliar la oferta en los próximos días. Air Europa también ha añadido vuelos entre Madrid y Sevilla.",
     "Las empresas de autobús han reforzado sus servicios entre Sevilla y Madrid, pero la demanda ha provocado colas y falta de plazas en algunas salidas, por lo que conviene comprobar la disponibilidad antes de ir a la estación. La Dirección General de Tráfico prevé además que parte de los viajeros que iban a usar el tren se pasen al autobús o al coche durante el <a href='#dgt-puente-todos-los-santos-2026'>puente de Todos los Santos</a>, lo que aumentará la circulación en la A-4 y la A-92.",
     "## Sin fecha para reabrir",
-    "Adif no ha dado fecha para reabrir la línea. La jueza de Orgaz que investiga el accidente ha prohibido el acceso a la zona y la retirada de elementos para preservar las pruebas, como recoge <a href='#urda-investigacion-juzgado-orgaz-guardia-civil'>la información sobre la investigación</a>.",
+    "Adif no ha dado fecha para reabrir la línea. La jueza de Orgaz que investiga el accidente ha prohibido el acceso a la zona y la retirada de elementos para preservar las pruebas, como recoge la información sobre la investigación.",
     "<span class='howto'>Renfe: cambios y anulaciones sin coste en los trenes afectados por el corte y por la huelga; consulte el estado de su tren antes de ir a la estación. Iryo: cambios y devoluciones gratis. Iberia: cambios de billete en el 900 111 500. Familiares de viajeros del accidente: Renfe, 900 10 10 20; Iryo, 900 001 403.</span>"
    ],
    "seo": [
@@ -7870,7 +7951,7 @@ window.EP = {
    ],
    "body": [
     "El Consejo de Hermandades de Alcalá de Guadaíra ha suspendido la exposición y la conferencia sobre la restauración del «Santo Cristo de Burgos» y del «Cristo de los Desamparados» que estaban previstas para la tarde del jueves 29 de octubre en el Museo de la Ciudad, por el luto oficial decretado tras el accidente ferroviario de Urda (Toledo).",
-    "Los dos actos formaban parte del II Ciclo de Conservación Preventiva, que organizan el Ayuntamiento y el Consejo de Hermandades. Según ha informado el Consejo en su web, quedan suspendidos por los tres días de <a href='#urda-sanchez-luto-oficial'>luto oficial</a> que ha decretado el Gobierno de España, del jueves 29 al sábado 31 de octubre.",
+    "Los dos actos formaban parte del II Ciclo de Conservación Preventiva, que organizan el Ayuntamiento y el Consejo de Hermandades. Según ha informado el Consejo en su web, quedan suspendidos por los tres días de luto oficial que ha decretado el Gobierno de España, del jueves 29 al sábado 31 de octubre.",
     "## Nueva fecha prevista",
     "El conservador de obras de arte Alejandro Redondo, que firma la restauración de las dos pinturas, explicó a El Panadero que la presentación queda aplazada y que se celebrará previsiblemente en la segunda quincena de noviembre. Redondo atendió a este periódico en la parroquia de San Sebastián, a la que pertenece el «Santo Cristo de Burgos».",
     "Redondo defendió que las hermandades piensen en cómo guardar y manipular cada pieza antes de comprarla o restaurarla, y propuso que cada una tenga un responsable de conservación preventiva. «No es lo mismo intervenir cada 15 años que intervenir cada 100», afirmó. El ciclo continúa el sábado 7 de noviembre con una conferencia sobre la conservación de Santa María Magdalena, de la Hermandad del Santo Entierro, y una jornada de puertas abiertas para ver el paso de San Juan.",
@@ -7990,840 +8071,6 @@ window.EP = {
      "PSOE de Alcalá",
      "Ayuntamiento de Alcalá de Guadaíra",
      "La Tribuna"
-    ]
-   ]
-  },
-  {
-   "id": "urda-investigacion-juzgado-orgaz-guardia-civil",
-   "sec": "sucesos",
-   "kicker": "Accidente de Urda",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "title": "La jueza de Orgaz decreta el secreto de sumario del choque de Urda y los forenses empiezan las autopsias",
-   "sub": "La Guardia Civil ha interrogado al operario de Adif que autorizó al AVE a reanudar la marcha; los institutos forenses de Toledo y Ciudad Real han recibido 54 cuerpos",
-   "caption": "Una portavoz de la Guardia Civil pide a los familiares de primer grado de los pasajeros que acudan a dar muestras de ADN.",
-   "foto": "urda-guardia-civil-portavoz-tv.jpg",
-   "fotocredito": "Guardia Civil (vía MiGuadaíraTV)",
-   "rel": [],
-   "claves": [
-    "La jueza de la plaza 2 del Tribunal de Instancia de Orgaz, que investiga el choque de trenes de Urda (Toledo) del 28 de octubre de 2026, ha decretado el secreto de sumario, ha prohibido el acceso a la zona y ha ordenado incautar las cajas negras.",
-    "La Guardia Civil ha tomado declaración al operario del centro de control de Adif que autorizó a reanudar la marcha antes del accidente y al resto de su turno. No se han fijado responsabilidades individuales.",
-    "Los institutos de Medicina Legal de Toledo y Ciudad Real trabajan sin interrupción en la identificación de 54 cuerpos. Las familias reciben la noticia en persona; el Centro de Integración de Datos alerta de mensajes falsos que suplantan a la Guardia Civil.",
-    "La Comisión de Investigación de Accidentes Ferroviarios (CIAF) investiga por su cuenta las causas técnicas, con apoyo de la Guardia Civil."
-   ],
-   "body": [
-    "La jueza que investiga en Orgaz (Toledo) el choque de un AVE de Renfe y un Iryo en Urda, que dejó al menos 68 muertos el miércoles 28 de octubre de 2026, ha decretado el secreto de sumario. Este jueves 29 empiezan las autopsias, y la Guardia Civil ha interrogado al operario de Adif que autorizó la reanudación de la marcha.",
-    "Según el Tribunal Superior de Justicia de Castilla-La Mancha (TSJCM), la causa corresponde a la plaza número 2 de la Sección Civil y de Instrucción del Tribunal de Instancia de Orgaz, que estaba de guardia. Su titular se ha desplazado a la zona del accidente, entre Los Yébenes y Urda.",
-    "En una providencia dictada a las 21:10 del miércoles, la jueza prohibió el acceso de personas ajenas a la zona del accidente y la retirada de elementos para preservar las pruebas. También decretó el secreto de sumario y ordenó incautar las cajas negras de los trenes.",
-    "<img src='fotos/urda-investigacion-gfx.jpg' alt='Gráfico: quién investiga el accidente de Urda: el juzgado de Orgaz, la Guardia Civil y la CIAF' loading='lazy' style='display:block;width:100%;height:auto;margin:6px 0'>",
-    "## Cinco equipos judiciales",
-    "La Sala de Gobierno del TSJCM acordó un dispositivo extraordinario de cinco equipos judiciales. Cada uno lo forman un magistrado, un letrado de la Administración de Justicia y un médico forense. Su trabajo es autorizar y coordinar las diligencias sobre el terreno, empezando por el levantamiento de los cuerpos.",
-    "El Instituto de Medicina Legal de Toledo, donde han empezado a llegar los cuerpos, ha activado su protocolo para grandes catástrofes. La Unidad Militar de Emergencias (UME) ha levantado junto a él una morgue auxiliar, y 12 forenses harán las autopsias, según García-Page. El Instituto Nacional de Toxicología y Ciencias Forenses obtiene los perfiles genéticos. El TSJCM ha activado también un Centro de Integración de Datos, formado por forenses y miembros de las Fuerzas y Cuerpos de Seguridad del Estado, que reúne la información sobre autopsias e identificaciones.",
-    "A última hora del miércoles, el Instituto de Medicina Legal de Toledo había recibido 52 cuerpos y el de Ciudad Real, otros dos. Las autopsias empiezan este jueves. El Centro de Integración de Datos es el único organismo autorizado para certificar las identificaciones y dar información oficial sobre ellas.",
-    "## El operario del centro de control",
-    "La Guardia Civil ha tomado declaración en el centro de control de alta velocidad de Madrid-Puerta de Atocha al operario que, según el ministro de Transportes, Óscar Puente, autorizó al AVE a reanudar la marcha tras la avería del sistema de control de trenes, y también al resto de su turno. No ha precisado en calidad de qué declararon y no se han establecido responsabilidades individuales. Sus explicaciones están en <a href='#urda-puente-centro-control-adif'>la comparecencia del ministro</a>, y las grabaciones de esas comunicaciones, en <a href='#urda-audios-centro-control-adif'>la pieza sobre los audios</a>.",
-    "Vox ha presentado una querella ante el juzgado de Orgaz contra los responsables de Adif, en particular contra los operadores del puesto de mando de Atocha que autorizaron reanudar la marcha tras el fallo del LZB, por presuntos delitos de homicidio y lesiones imprudentes. Actúa como acusación popular y pide que se conserven las grabaciones y los registros del centro de control.",
-    "Además de la causa judicial, la Comisión de Investigación de Accidentes Ferroviarios (CIAF), el organismo que analiza las causas técnicas de los accidentes de tren, ha abierto su propia investigación. Con ella colaboran las unidades de la Guardia Civil que trabajan en el caso: la Unidad Central Operativa (UCO), la Unidad Técnica, la Policía Judicial y la Comandancia de Toledo.",
-    "Para identificar a los fallecidos, la Guardia Civil toma muestras de ADN a familiares de primer grado de las personas no localizadas en oficinas de Madrid, Sevilla, Córdoba y Toledo. La Guardia Civil había recogido 64 denuncias de desaparición hasta el jueves por la mañana. Las identificaciones solo se comunican en persona: el Centro de Integración de Datos alertó el jueves de mensajes falsos que se hacen pasar por la Guardia Civil para anunciar identificaciones. El balance oficial está en <a href='#accidente-tren-urda-ave-iryo'>la noticia principal del accidente</a>.",
-    "<span class='howto'>Familiares: centro de atención del juzgado de Orgaz, 925 317 020. Las identificaciones solo se comunican en persona; ante mensajes sospechosos, Guardia Civil (062) o INCIBE (017). Teléfonos de las compañías: Renfe, 900 10 10 20; Iryo, 900 001 403. Muestras de ADN para familiares de primer grado: oficinas de la Guardia Civil en Madrid, Sevilla, Córdoba y Toledo. Emergencias: 112.</span>",
-    "Rectificación, 29 de octubre de 2026: la cifra de 29 denuncias de desaparición publicada a primera hora correspondía al miércoles por la noche; la Guardia Civil había recogido 64 hasta el jueves por la mañana."
-   ],
-   "seo": [
-    "investigacion-accidente-urda-juzgado-orgaz-guardia-civil",
-    "Urda: secreto de sumario y empiezan las autopsias",
-    "La jueza de Orgaz decreta el secreto de sumario del choque de trenes de Urda (Toledo) y ordena incautar las cajas negras. Empiezan las autopsias.",
-    [
-     "accidente ferroviario",
-     "Urda",
-     "juzgado de Orgaz",
-     "Guardia Civil",
-     "Adif",
-     "CIAF",
-     "TSJCM",
-     "identificación de víctimas"
-    ]
-   ],
-   "encuadre": "center 20%"
-  },
-  {
-   "id": "urda-puente-centro-control-adif",
-   "sec": "sucesos",
-   "kicker": "Accidente de Urda",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "title": "Puente atribuye el choque de Urda a una orden «errónea» del centro de control de Adif y descarta dimitir",
-   "sub": "El ministro de Transportes explica que el AVE recorrió 25 kilómetros tras recibir permiso para reanudar la marcha con la señal en rojo",
-   "caption": "Equipos de rescate junto a los coches del AVE y del Iryo, entre olivos, en el lugar del choque de Urda (Toledo).",
-   "foto": "urda-puente-restos-tv.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "rel": [],
-   "claves": [
-    "El ministro de Transportes, Óscar Puente, atribuye el accidente de Urda (Toledo) del 28 de octubre de 2026 a la decisión del centro de control de Adif en Atocha de autorizar al AVE a reanudar la marcha, que calificó de «errónea» e «inexplicable».",
-    "Según Puente, el sistema de control LZB dejó de funcionar hacia las 8:30 en un tramo de 63 kilómetros; a las 8:36 se autorizó la reanudación y el AVE recorrió 25 kilómetros hasta alcanzar al Iryo.",
-    "Puente ha descartado dimitir y comparecerá el martes 3 de noviembre ante la Diputación Permanente del Congreso.",
-    "Fuentes de Iryo sostienen que su tren seguía detenido porque no había recibido la orden de reanudar la marcha; el Gobierno cree que también recibió alguna instrucción para seguir."
-   ],
-   "body": [
-    "El ministro de Transportes, Óscar Puente, atribuye el choque de trenes de Urda (Toledo), que dejó al menos 68 muertos el miércoles 28 de octubre de 2026, a una orden «errónea» del centro de control de Adif en Atocha, que autorizó al AVE a reanudar la marcha. Puente ha descartado dimitir.",
-    "En su comparecencia, Puente calificó de «inverosímil» un accidente por alcance en la red ferroviaria española y de «inexplicable» la decisión tomada en el centro de control. Según su relato, la persona que dio la orden está identificada. Las responsabilidades, dijo, las fijará la investigación.",
-    "<img src='fotos/urda-puente-gfx.jpg' alt='Gráfico: cronología del accidente de Urda según el ministro de Transportes, Óscar Puente' loading='lazy' style='display:block;width:100%;height:auto;margin:6px 0'>",
-    "## Del fallo del LZB al alcance",
-    "El ministro explicó que hacia las 8:30 un fallo dejó sin servicio el LZB, el sistema que vigila desde la cabina la velocidad de los trenes y la distancia entre ellos, en un tramo de unos 63 kilómetros. Los trenes que circulaban por ese tramo se detuvieron de forma automática, entre ellos el AVE 2080, que había salido de Madrid-Puerta de Atocha a las 8:00 hacia Sevilla-Santa Justa.",
-    "A las 8:36, seis minutos después de la avería, el centro de control autorizó al AVE a reanudar la marcha, aunque la señal de la vía estaba en rojo. El tren recorrió unos 25 kilómetros hasta alcanzar por detrás al Iryo 6076, que estaba detenido delante, en el punto kilométrico 118. Dos coches del Iryo cayeron por un terraplén.",
-    "Puente aseguró que todavía no ha hablado con el operario que dio la autorización. La Guardia Civil ya lo ha interrogado, como recoge <a href='#urda-investigacion-juzgado-orgaz-guardia-civil'>la investigación que dirige el juzgado de Orgaz</a>.",
-    "## La versión de Iryo",
-    "Iryo ha confirmado en un comunicado que su tren 6076 recibió un golpe en la parte trasera a la altura de Urda, por causas que dice desconocer. Fuentes de la compañía sostienen que el tren seguía parado porque su maquinista aún hablaba con el centro de control de Atocha y no había recibido la orden de reanudar la marcha, que el AVE sí tenía. El Gobierno sostiene, en cambio, que el Iryo también recibió alguna instrucción para seguir, aunque Puente admitió no saber con precisión por qué continuaba detenido.",
-    "Las grabaciones del centro de control, difundidas el miércoles por la noche, recogen que la maquinista del Iryo recibió a las 8:41 la misma instrucción que el AVE, reiniciar el LZB y seguir, y que a las 8:48 avisó de que no podía hacerlo y continuaba parada. Seis minutos después, el AVE la alcanzó. <a href='#urda-audios-centro-control-adif'>Qué dicen los audios</a>.",
-    "## «No estoy pensando en mí»",
-    "Preguntado por su continuidad, el ministro respondió: «En estos momentos no estoy pensando en mí, sino en gestionar la situación». También dijo que están «absolutamente devastados» y que es uno de los momentos más duros que se pueden vivir.",
-    "Puente comparecerá el martes 3 de noviembre a las 17:00 ante la Diputación Permanente del Congreso. Según Transportes, lo hace por voluntad propia, después de que Sumar, Podemos y ERC registraran peticiones para que explicara el accidente. El jueves participó en Toledo en la reunión del centro de coordinación de la emergencia con Sánchez y García-Page.",
-    "El presidente del Gobierno, Pedro Sánchez, que no ha querido adelantar responsabilidades, ha dicho que todo indica que el origen de este accidente no tiene que ver con el de Adamuz (Córdoba) de enero. Sus declaraciones están en <a href='#urda-sanchez-luto-oficial'>la pieza sobre el luto oficial</a>.",
-    "Adif mantiene suspendida hasta nuevo aviso la alta velocidad entre Madrid y Andalucía, la línea que usan los viajeros de Alcalá de Guadaíra desde Sevilla-Santa Justa. El balance oficial y los teléfonos para familias están en <a href='#accidente-tren-urda-ave-iryo'>la noticia principal</a>.",
-    "El ministro volvió a dar explicaciones el viernes 30 en una rueda de prensa: <a href='#puente-rueda-prensa-urda-centro-control'>Puente atribuye el choque a un fallo del centro de control y se niega a dimitir</a>."
-   ],
-   "seo": [
-    "oscar-puente-accidente-urda-centro-control-adif",
-    "Puente culpa del choque de Urda al control de Adif",
-    "Óscar Puente atribuye el accidente de Urda (Toledo) a la orden «errónea» de Adif de reanudar la marcha del AVE con la señal en rojo y descarta dimitir.",
-    [
-     "Óscar Puente",
-     "accidente ferroviario",
-     "Urda",
-     "Adif",
-     "sistema LZB",
-     "Ministerio de Transportes",
-     "AVE Madrid-Sevilla"
-    ]
-   ]
-  },
-  {
-   "id": "urda-fatima-banez-exministra",
-   "sec": "sucesos",
-   "kicker": "Accidente de Urda",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "title": "Muere la exministra Fátima Báñez en el choque de trenes de Urda",
-   "sub": "La CEOE y el PP confirmaron el jueves su fallecimiento; la presidenta de la Fundación CEOE viajaba a Sevilla en el Iryo para participar en el Día de la Empresa de la patronal andaluza",
-   "caption": "Los coches del AVE y del Iryo, entre olivos, tras el choque en Urda (Toledo).",
-   "foto": "urda-banez-trenes-tv.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "rel": [],
-   "claves": [
-    "La exministra de Empleo Fátima Báñez, presidenta de la Fundación CEOE, murió en el choque de trenes de Urda (Toledo) del 28 de octubre de 2026, a los 59 años.",
-    "La CEOE y el presidente del PP, Alberto Núñez Feijóo, confirmaron su fallecimiento el jueves 29.",
-    "Báñez viajaba a Sevilla en el Iryo 6076 para participar en el Día de la Empresa de la Confederación de Empresarios de Andalucía (CEA)."
-   ],
-   "body": [
-    "La exministra de Empleo Fátima Báñez, presidenta de la Fundación CEOE, murió en el choque de trenes de Urda (Toledo) del miércoles 28 de octubre de 2026. La CEOE y el presidente del PP, Alberto Núñez Feijóo, confirmaron su fallecimiento el jueves 29, después de un día y medio sin noticias oficiales sobre ella. Tenía 59 años.",
-    "La CEOE fue la primera en informar, a mediodía del miércoles, de que Báñez iba en uno de los trenes. Durante la tarde circuló la noticia de su muerte, que la patronal y el PP no confirmaron entonces. El jueves por la mañana la CEOE seguía sin noticias; por la tarde comunicó su fallecimiento tras recibir confirmación oficial y expresó «su más profunda tristeza».",
-    "<img src='fotos/urda-banez-gfx.jpg' alt='Gráfico: la exministra Fátima Báñez viajaba en el Iryo accidentado en Urda' loading='lazy' style='display:block;width:100%;height:auto;margin:6px 0'>",
-    "Feijóo, que el miércoles había dicho que el partido seguía «sin noticias confirmadas», anunció en las redes sociales que le habían confirmado que Báñez estaba entre las fallecidas.",
-    "## Rumbo a Sevilla",
-    "Báñez se dirigía a Sevilla para participar en el Día de la Empresa de la Confederación de Empresarios de Andalucía (CEA). Viajaba en el Iryo 6076, el tren que circulaba delante en la misma dirección y del que dos coches cayeron por un terraplén tras el impacto. Según el primer desglose del presidente de Castilla-La Mancha, Emiliano García-Page, 44 de los muertos viajaban en el Iryo. El balance oficial es de al menos 69.",
-    "Nacida en San Juan del Puerto (Huelva) en 1967, Báñez fue diputada del PP en el Congreso entre 2000 y 2019 y ministra de Empleo y Seguridad Social en los gobiernos de Mariano Rajoy desde finales de 2011 hasta junio de 2018. Desde su ministerio se aprobó la reforma laboral de 2012. Tras dejar la política preside la Fundación CEOE.",
-    "La identificación de las víctimas corresponde al Centro de Integración de Datos, que coordina el trabajo de los forenses de Toledo y Ciudad Real. El balance oficial y la información para familias están en <a href='#accidente-tren-urda-ave-iryo'>la noticia principal del accidente</a>."
-   ],
-   "seo": [
-    "fatima-banez-exministra-accidente-urda-iryo",
-    "Muere Fátima Báñez en el accidente de trenes de Urda",
-    "La exministra de Empleo Fátima Báñez, presidenta de la Fundación CEOE, murió en el choque de trenes de Urda (Toledo). La CEOE y el PP lo confirmaron.",
-    [
-     "Fátima Báñez",
-     "accidente ferroviario",
-     "Urda",
-     "Iryo",
-     "Fundación CEOE",
-     "CEA",
-     "PP"
-    ]
-   ]
-  },
-  {
-   "id": "urda-sanchez-luto-oficial",
-   "sec": "politica",
-   "kicker": "Accidente de Urda",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "title": "Sánchez decreta tres días de luto por Urda: «Si ha habido negligencias, se sabrá»",
-   "sub": "El presidente del Gobierno admite desde el lugar del accidente que «no es asumible» sufrir dos accidentes de alta velocidad en un mismo año",
-   "caption": "Pedro Sánchez, en el puesto de mando avanzado de Urda (Toledo), junto al ministro del Interior, Fernando Grande-Marlaska (a la izquierda).",
-   "foto": "urda-moncloa-page.jpg",
-   "fotocredito": "Pool Moncloa / Sandra Armada",
-   "rel": [],
-   "claves": [
-    "El presidente del Gobierno, Pedro Sánchez, ha decretado tres días de luto oficial en España, del jueves 29 al sábado 31 de octubre de 2026, por el accidente ferroviario de Urda (Toledo).",
-    "Sánchez habló desde el puesto de mando avanzado de Urda, junto a Emiliano García-Page, en una declaración sin preguntas: «Si ha habido negligencias, se sabrá, y si ha habido fallos en el sistema de seguridad se responderá con total contundencia».",
-    "La Junta de Andalucía ha decretado luto hasta las 14:00 del sábado 31 de octubre y el Ayuntamiento de Sevilla, tres días. Su presidente, Juanma Moreno, pide una «inmediata revisión» de las vías andaluzas."
-   ],
-   "body": [
-    "El presidente del Gobierno, Pedro Sánchez, ha decretado tres días de luto oficial en toda España, del jueves 29 al sábado 31 de octubre de 2026, por el choque de trenes de Urda (Toledo), que dejó al menos 68 muertos. Sánchez prometió llegar «hasta el final» para aclarar las causas.",
-    "Este jueves 29, tras reunirse en Toledo con García-Page y los ministros del Interior, Fernando Grande-Marlaska, y de Transportes, Óscar Puente, en el centro de coordinación de la emergencia, Sánchez prometió aclarar «hasta el último detalle» de la tragedia y reforzar la seguridad ferroviaria. Los Reyes tenían previsto visitar a los heridos en el Hospital Universitario de Toledo.",
-    "Sánchez habló el miércoles 28 desde el puesto de mando avanzado instalado junto a las vías, acompañado por el presidente de Castilla-La Mancha, Emiliano García-Page, en una declaración sin preguntas. «Si ha habido negligencias, se sabrá, y si ha habido fallos en el sistema de seguridad se responderá con total contundencia», afirmó.",
-    "El presidente reconoció que «no es asumible» para un país como España «sufrir dos accidentes ferroviarios de alta velocidad en un mismo año», en referencia al descarrilamiento de Adamuz (Córdoba) de enero, que causó 46 muertos. Añadió, sin embargo, que «muy probablemente» el origen de los dos accidentes «nada tiene que ver».",
-    "## Investigación y medidas",
-    "Sánchez evitó atribuir responsabilidades antes de que concluyan las investigaciones. Las causas las estudiarán la Comisión de Investigación de Accidentes Ferroviarios (CIAF), la Justicia y las propias Adif y Renfe. El ministro de Transportes, Óscar Puente, sí ha señalado <a href='#urda-puente-centro-control-adif'>la orden del centro de control de Adif</a> como origen del choque.",
-    "El presidente aseguró que el Gobierno tomará las medidas necesarias para reforzar la seguridad y recuperar la confianza en la alta velocidad, sin concretarlas. «Detrás de cada una de las personas que hoy ha fallecido hay vidas rotas, familias quebradas», dijo.",
-    "## Luto en Andalucía y en Sevilla",
-    "Al luto nacional se suman los decretados en Andalucía y en Sevilla, destino de los dos trenes. El presidente de la Junta, Juanma Moreno, ha decretado tres días de luto oficial, desde las 14:00 del miércoles 28 hasta las 14:00 del sábado 31 de octubre. El alcalde de Sevilla, José Luis Sanz, ha decretado otros tres días y ha suspendido los actos oficiales del Ayuntamiento.",
-    "Moreno, en una declaración institucional por la tarde, exigió al Gobierno «transparencia, rigor y verdad» y pidió una «inmediata revisión de todas las vías férreas en Andalucía», sobre todo de la línea de alta velocidad con Madrid. Sostuvo que el AVE Madrid-Andalucía «ha dejado de ser un medio de transporte seguro» y recordó que al menos 114 personas han muerto en dos accidentes en esa línea en nueve meses.",
-    "El accidente ha frenado además la precampaña de las elecciones generales del 29 de noviembre: <a href='#urda-oposicion-reacciones-campana'>la mayoría de los partidos ha suspendido sus actos</a>. El balance oficial y la información para familias están en <a href='#accidente-tren-urda-ave-iryo'>la noticia principal</a>."
-   ],
-   "seo": [
-    "sanchez-luto-oficial-accidente-urda",
-    "Sánchez decreta tres días de luto por el accidente de Urda",
-    "Pedro Sánchez decreta luto oficial del 29 al 31 de octubre por el choque de trenes de Urda (Toledo) y promete que, si hubo negligencias, «se sabrá».",
-    [
-     "Pedro Sánchez",
-     "luto oficial",
-     "accidente ferroviario",
-     "Urda",
-     "Emiliano García-Page",
-     "Junta de Andalucía",
-     "Sevilla"
-    ]
-   ]
-  },
-  {
-   "id": "urda-oposicion-reacciones-campana",
-   "sec": "politica",
-   "kicker": "Accidente de Urda",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "title": "El accidente de Urda frena la precampaña: PP y PSOE suspenden sus actos y Vox mantiene los suyos",
-   "sub": "Feijóo pide una investigación del Gobierno «inmediata» y otra judicial; Vox culpa al Gobierno y se querella contra responsables de Adif",
-   "caption": "Qué han hecho los partidos tras el accidente ferroviario de Urda (Toledo), a un mes de las elecciones generales del 29 de noviembre.",
-   "foto": "urda-partidos-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "rel": [],
-   "claves": [
-    "El accidente de trenes de Urda (Toledo) del 28 de octubre de 2026 ha llevado al PSOE, al PP y a otros partidos a suspender sus actos de precampaña de las elecciones generales del 29 de noviembre. Vox es el único que mantiene su agenda.",
-    "El presidente del PP, Alberto Núñez Feijóo, pide dos investigaciones en paralelo: una del Gobierno, inmediata, y otra judicial, sin interferencias.",
-    "El líder de Vox, Santiago Abascal, atribuye el accidente a la gestión del Gobierno y a la degradación de las infraestructuras. Su partido se ha querellado contra los responsables de Adif por presuntos homicidio y lesiones imprudentes."
-   ],
-   "body": [
-    "El choque de trenes de Urda (Toledo), que dejó al menos 68 muertos el miércoles 28 de octubre de 2026, ha frenado la precampaña de las elecciones generales del 29 de noviembre. El PSOE, el PP y otras formaciones han suspendido sus actos. Vox es el único partido que mantiene su agenda.",
-    "El presidente del Gobierno y candidato socialista, Pedro Sánchez, canceló su agenda a primera hora y se desplazó a la zona del accidente, desde donde <a href='#urda-sanchez-luto-oficial'>decretó tres días de luto oficial</a>. El PSOE suspendió su actividad pública del día. El PP anunció la suspensión de todos sus actos de precampaña en España y su presidente, Alberto Núñez Feijóo, también suspendió su agenda.",
-    "## Feijóo pide dos investigaciones",
-    "Feijóo compareció por la tarde en la sede del PP en Madrid. Pidió dos investigaciones en paralelo: una del Gobierno, que sea inmediata, y otra judicial, sin interferencias. Sostuvo que los españoles tienen derecho a saber en qué estado están las vías y las infraestructuras ferroviarias. No pidió la dimisión del ministro de Transportes, Óscar Puente.",
-    "El líder del PP se refirió también a la exministra Fátima Báñez, que viajaba en el Iryo accidentado: dijo que el partido seguía «sin noticias confirmadas» sobre ella. Su situación se explica en <a href='#urda-fatima-banez-exministra'>la pieza dedicada a la exministra</a>.",
-    "## Vox mantiene su campaña",
-    "El líder de Vox, Santiago Abascal, rechazó suspender la campaña y atribuyó el accidente a la gestión del Gobierno de Sánchez y a la degradación de las infraestructuras. Abascal reprochó a Sánchez y a Puente sus bromas sobre Renfe y sostuvo que eso es lo que deberían suspender, y no los actos electorales.",
-    "Vox ha presentado además una querella ante el juzgado de Orgaz contra los responsables de Adif y, en particular, contra los operadores del puesto de mando de Atocha que autorizaron a los trenes a reanudar la marcha, por presuntos delitos de homicidio y lesiones imprudentes. El partido actúa como acusación popular y pide que se conserven las grabaciones y los registros del centro de control. La causa la instruye <a href='#urda-investigacion-juzgado-orgaz-guardia-civil'>el juzgado de Orgaz</a>.",
-    "Sumar, Podemos y ERC registraron el jueves peticiones para que Puente explicara el accidente en el Congreso. El ministro comparecerá el martes 3 de noviembre a las 17:00 ante la Diputación Permanente, por voluntad propia según su departamento.",
-    "Desde el Gobierno, la vicepresidenta segunda, Yolanda Díaz, trasladó sus condolencias a las familias de los fallecidos y agradeció el trabajo de los equipos de emergencia.",
-    "Puente ha atribuido el choque a <a href='#urda-puente-centro-control-adif'>una orden «errónea» del centro de control de Adif</a> y ha descartado dimitir. El balance oficial y los teléfonos para familias están en <a href='#accidente-tren-urda-ave-iryo'>la noticia principal del accidente</a>."
-   ],
-   "seo": [
-    "accidente-urda-partidos-precampana-29n",
-    "Urda frena la precampaña: PP y PSOE paran y Vox sigue",
-    "El accidente de Urda (Toledo) frena la precampaña del 29-N: PSOE y PP suspenden actos, Feijóo pide investigar y Vox mantiene su agenda y culpa al Gobierno.",
-    [
-     "accidente ferroviario",
-     "Urda",
-     "elecciones generales 29-N",
-     "Alberto Núñez Feijóo",
-     "Santiago Abascal",
-     "Pedro Sánchez",
-     "PP",
-     "Vox"
-    ]
-   ]
-  },
-  {
-   "id": "parque-cerro-de-la-era",
-   "sec": "alcala",
-   "kicker": "Zonas verdes",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OZZlQUijaSc&t=984s",
-   "title": "Las obras del nuevo parque del Cerro de la Era convertirán en zona verde un solar sin uso desde los años 80",
-   "sub": "El Ayuntamiento presentó a los vecinos un proyecto de más de 600.000 euros para 3.600 metros cuadrados junto a la calle Profesor Esteban Palacios",
-   "caption": "Vecinos del Cerro de la Era en la reunión informativa sobre el proyecto del nuevo parque.",
-   "foto": "parque-cerro-de-la-era.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha empezado las obras de un parque en un solar municipal de 3.600 metros cuadrados del Cerro de la Era, sin uso desde la década de 1980.",
-    "La inversión supera los 600.000 euros y el plazo de ejecución previsto es de seis meses, según el Ayuntamiento.",
-    "El parque tendrá medio centenar de árboles, juegos infantiles, aparatos biosaludables, zona de calistenia y un espacio para perros.",
-    "Mientras duren las obras solo los vecinos con garaje pueden acceder a la calle Maestro Francisco Rodríguez Cordero."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha empezado a construir un parque en un solar municipal de 3.600 metros cuadrados del barrio del Cerro de la Era, junto a la calle Profesor Esteban Palacios, que no tenía uso desde los años 80. La obra supera los 600.000 euros y tiene un plazo previsto de seis meses.",
-    "El proyecto se presentó a los vecinos el lunes 26 de octubre en una reunión informativa en el auditorio. Asistieron residentes del barrio y del entorno, la junta directiva de la Asociación de Vecinos Cerro de la Era y representantes de la Fundación Girasol, Alwadi-ira y Transformando entre Mujeres. También estuvo el arquitecto autor del proyecto, Juan Bosco Ruiz Heras.",
-    "Por parte del gobierno municipal participaron la delegada de Monumento Natural, Medio Ambiente y Sostenibilidad, Luisa Campos; el responsable del Área de Identidad, Christopher Rivas, y la delegada del distrito Centro Oeste, Lidia Ballesteros.",
-    "## Una petición vecinal",
-    "Campos explicó a El Panadero que la actuación responde a una propuesta de los vecinos para dar uso al solar y que el objetivo es crear una zona verde con más sombra y un espacio de convivencia. En sus declaraciones situó el coste en unos 661.000 euros y la duración de la obra entre seis y ocho meses; la nota oficial del Ayuntamiento habla de más de 600.000 euros y seis meses.",
-    "Rivas sostuvo que lo que «era un vacío urbano» se convertirá en un parque para el barrio y para el resto de la ciudad, y destacó que el diseño incluye la recogida de agua de lluvia para reutilizarla en el riego.",
-    "## Qué tendrá el parque",
-    "Según el Ayuntamiento, el proyecto adecúa los accesos y los aparcamientos existentes, crea itinerarios peatonales adaptados a la pendiente del terreno y zonas de estancia, y planta medio centenar de árboles, además de arbustos y parterres. El alumbrado será LED.",
-    "El riego será inteligente y el parque contará con Sistemas Urbanos de Drenaje Sostenible (SUDS) para gestionar el agua de lluvia. Tendrá mobiliario urbano, juegos infantiles, aparatos biosaludables, una zona de calistenia y un espacio de esparcimiento para animales de compañía.",
-    "Mientras duren los trabajos, el aparcamiento está restringido en la calle Maestro Francisco Rodríguez Cordero, donde solo se permite el acceso de los vecinos para entrar y salir de sus garajes.",
-    "<span class='howto'>Dónde: solar municipal del Cerro de la Era, entorno de la calle Profesor Esteban Palacios. Superficie: 3.600 metros cuadrados. Inversión: más de 600.000 euros. Plazo previsto: seis meses. Tráfico: aparcamiento restringido en la calle Maestro Francisco Rodríguez Cordero durante la obra, salvo acceso a garajes.</span>"
-   ],
-   "seo": [
-    "parque-cerro-de-la-era-solar-obras-alcala",
-    "Parque del Cerro de la Era: obras en Alcalá por 600.000 €",
-    "Alcalá de Guadaíra construye un parque de 3.600 m² en un solar del Cerro de la Era sin uso desde los 80: árboles, juegos, calistenia y zona canina.",
-    [
-     "Cerro de la Era",
-     "Luisa Campos",
-     "zonas verdes",
-     "parques",
-     "Christopher Rivas",
-     "Lidia Ballesteros"
-    ]
-   ]
-  },
-  {
-   "id": "vive-84-viviendas-financiacion-ia",
-   "sec": "politica",
-   "kicker": "Vivienda",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OZZlQUijaSc&t=584s",
-   "title": "Izquierda Alcalareña pide un informe público sobre cómo pagará el Ayuntamiento las 84 viviendas de alquiler de VIVE",
-   "sub": "La formación apoya la promoción del Zacatín, pero cuestiona que la aportación municipal suba de 5,7 a más de 7,7 millones bajo un plan económico-financiero",
-   "caption": "Una máquina trabaja en la parcela de la Cornisa del Zacatín donde VIVE construye las 84 viviendas de alquiler.",
-   "foto": "vive-84-viviendas-financiacion-ia.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "Izquierda Alcalareña reclama un informe público sobre el impacto en la deuda y la estabilidad presupuestaria de las 84 viviendas de alquiler que construye VIVE Alcalá en el Zacatín.",
-    "Según la formación, la aportación municipal a la promoción pasa de 5,7 millones a más de 7,7 millones de euros.",
-    "La ayuda europea Next Generation de cerca de 3,8 millones exige que las obras empiecen antes del 31 de diciembre de 2026.",
-    "El Ayuntamiento sostiene que la financiación europea evita endeudarse y ahorra cerca de 4,9 millones en costes financieros."
-   ],
-   "body": [
-    "Izquierda Alcalareña ha pedido al Ayuntamiento de Alcalá de Guadaíra un informe público que detalle cómo afectará a la deuda y a la estabilidad presupuestaria la financiación de las 84 viviendas de alquiler asequible que construye la empresa pública VIVE Alcalá en la Cornisa del Zacatín. La formación dice que apoya la promoción, pero no la fórmula para pagarla.",
-    "Las obras empezaron este mes, adjudicadas a BILBA Construcción e Infraestructuras. La inversión total anunciada es de 15,9 millones de euros, con 7,97 millones de la Diputación de Sevilla y 3,79 millones de fondos europeos Next Generation EU.",
-    "## Dos millones más de aportación municipal",
-    "El principal reparo de Izquierda Alcalareña es el aumento de la aportación municipal, que según sus cálculos pasa de 5,7 millones de euros a más de 7,7 millones, algo más de dos millones adicionales. La formación recuerda que el Ayuntamiento está sometido a un plan económico-financiero y cita informes económicos municipales que, según su lectura, advierten de un margen de equilibrio presupuestario muy reducido.",
-    "Esos informes, sostiene la formación, plantean la posibilidad de un nuevo incumplimiento si no se produce la inejecución de gasto prevista, es decir, si el Ayuntamiento acaba gastando más de lo que calcula que dejará sin ejecutar.",
-    "El segundo punto es el calendario. La ayuda Next Generation vinculada al proyecto, de cerca de 3,8 millones de euros, está condicionada a que las obras comiencen antes del 31 de diciembre de 2026, según la documentación que cita Izquierda Alcalareña. Por eso pide un plan alternativo por si no se cumplen los plazos de la financiación europea.",
-    "## La versión del Ayuntamiento",
-    "El Ayuntamiento defiende que recurrir a la financiación europea permite evitar endeudamiento y ahorrar cerca de 4,9 millones de euros en costes financieros.",
-    "Izquierda Alcalareña insiste en que no cuestiona la necesidad de construir vivienda pública en Alcalá, sino la forma elegida para financiarla y sus posibles consecuencias para las cuentas municipales.",
-    "Las 84 viviendas son de dos dormitorios y se alquilarán por 350 euros al mes más garaje y trastero, según el Ayuntamiento. Es una de las promociones con las que el gobierno municipal quiere ampliar el parque público, junto a las 107 viviendas protegidas en venta que VIVE sorteará a principios de diciembre."
-   ],
-   "seo": [
-    "izquierda-alcalarena-vive-84-viviendas-financiacion",
-    "Izquierda Alcalareña pide un informe sobre las 84 viviendas",
-    "Izquierda Alcalareña apoya las 84 viviendas de alquiler de VIVE en Alcalá, pero pide aclarar la subida de la aportación municipal y el plazo europeo.",
-    [
-     "Izquierda Alcalareña",
-     "VIVE Alcalá",
-     "Cornisa del Zacatín",
-     "vivienda pública",
-     "Next Generation EU",
-     "plan económico-financiero"
-    ]
-   ]
-  },
-  {
-   "id": "robo-perros-fundacion-mehnert",
-   "sec": "sucesos",
-   "kicker": "Sucesos",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "title": "Roban 13 perros del refugio de la Fundación Benjamín Mehnert en Alcalá, algunos enfermos y a punto de ser adoptados",
-   "sub": "Los autores rompieron la parte superior de una valla durante la madrugada del martes; la protectora pide ayuda para localizarlos",
-   "caption": "Uno de los galgos robados del refugio de la Fundación Benjamín Mehnert, en una imagen difundida por la entidad.",
-   "foto": "robo-perros-fundacion-mehnert-tv.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "La Fundación Benjamín Mehnert ha denunciado que le han robado 13 perros de su refugio de Alcalá de Guadaíra durante la madrugada del martes 27 de octubre.",
-    "Los autores entraron tras romper la parte superior de una valla.",
-    "Algunos de los animales tienen leishmaniosis, todos están castrados y varios iban a ser adoptados en los próximos días."
-   ],
-   "body": [
-    "La Fundación Benjamín Mehnert, que rescata y recupera galgos y otros perros de caza abandonados, ha denunciado que le han robado 13 perros de su refugio de Alcalá de Guadaíra durante la madrugada del martes 27 de octubre. Según la protectora, los autores entraron en el recinto tras romper la parte superior de una valla y dejaron vacías las jaulas.",
-    "Entre los animales sustraídos hay perros enfermos de leishmaniosis, que necesitan atención veterinaria, y varios que ya tenían una familia esperando para adoptarlos. Todos están castrados.",
-    "## «No tienen valor económico»",
-    "Un miembro de la fundación difundió un vídeo con las jaulas vacías para pedir ayuda. «Son animales que están castrados, algunos de ellos enfermos de leishmaniosis y que no sirven para la caza», explicó. La protectora insiste en que los perros no tienen valor económico, solo emocional, y pide que sean devueltos lo antes posible.",
-    "Su principal preocupación es el estado de salud de los animales, sobre todo de los que siguen tratamiento.",
-    "## Llamamiento a la colaboración",
-    "La fundación ha pedido la máxima difusión del caso entre protectoras, clínicas veterinarias y particulares, y que cualquier persona que haya visto algo sospechoso o tenga información sobre el paradero de los perros se ponga en contacto con su equipo.",
-    "La Fundación Benjamín Mehnert es una organización sin ánimo de lucro con sede en Alcalá de Guadaíra. La creó en el año 2000 Gisela Mehnert y tiene un centro de recuperación en el que los perros reciben cuidados veterinarios y rehabilitación antes de buscarles un hogar. Además de la acogida y la adopción, hace campañas de concienciación sobre bienestar animal y tenencia responsable.",
-    "<span class='howto'>Si tienes información sobre los perros robados, puedes contactar con la Fundación Benjamín Mehnert a través de su web, fundacionbm.com, o de sus redes sociales.</span>"
-   ],
-   "seo": [
-    "robo-13-perros-fundacion-benjamin-mehnert-alcala",
-    "Roban 13 perros de la Fundación Benjamín Mehnert en Alcalá",
-    "Roban 13 perros del refugio de la Fundación Benjamín Mehnert en Alcalá de Guadaíra; algunos están enfermos y la protectora pide ayuda para encontrarlos.",
-    [
-     "Fundación Benjamín Mehnert",
-     "galgos",
-     "protectoras",
-     "perros robados",
-     "bienestar animal",
-     "adopción"
-    ]
-   ],
-   "fuente_url": "https://www.youtube.com/watch?v=5Hy5Ze-ndJw&t=964s"
-  },
-  {
-   "id": "plazas-empleo-asesor-juridico-mantenimiento",
-   "sec": "economia",
-   "kicker": "Empleo público",
-   "iso": "2026-10-28",
-   "src": "Ayuntamiento de Alcalá de Guadaíra",
-   "fuente_url": "https://www.alcaladeguadaira.es/noticias/9954/el-ayuntamiento-ha-abierto-el-plazo-para-dos-plazas-de-empleo",
-   "title": "El Ayuntamiento convoca dos plazas fijas: un asesor jurídico para el centro de la mujer y un oficial de mantenimiento",
-   "sub": "Las solicitudes se presentan por vía electrónica en un plazo de 20 días hábiles; la tasa es de 24,67 y 9,82 euros",
-   "caption": "Datos de las dos plazas de personal laboral fijo convocadas por el Ayuntamiento de Alcalá de Guadaíra.",
-   "foto": "plazas-empleo-asesor-juridico-mantenimiento-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra convoca una plaza de asesor o asesora jurídica para el Centro Municipal de Información a la Mujer y otra de oficial de primera de mantenimiento, ambas de personal laboral fijo.",
-    "El plazo es de 20 días hábiles a partir del día siguiente a la publicación del extracto en el Boletín Oficial del Estado.",
-    "La plaza jurídica exige grado en Derecho, 200 horas de formación en igualdad y un año de experiencia; la de mantenimiento, graduado escolar o ESO."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra ha convocado dos plazas de personal laboral fijo por turno libre, de la Oferta de Empleo Público de 2024: una de asesor o asesora jurídica para el Centro Municipal de Información a la Mujer y otra de oficial de primera de mantenimiento. Las solicitudes se presentan por vía electrónica en un plazo de 20 días hábiles.",
-    "Según las bases, ese plazo cuenta desde el día siguiente a la publicación del extracto de la convocatoria en el Boletín Oficial del Estado (BOE). El Ayuntamiento informó el lunes 26 de octubre de que las convocatorias ya están publicadas en los boletines oficiales, sin precisar la fecha del BOE de la que depende el cierre.",
-    "## Asesor jurídico: Derecho y formación en igualdad",
-    "La plaza de asesoría jurídica es del grupo A, subgrupo A1, y se cubre por concurso-oposición. Exige el título de licenciado o graduado en Derecho. Además, conforme al decreto andaluz que regula los centros municipales de información a la mujer, hay que acreditar al menos 200 horas de formación en igualdad entre mujeres y hombres, incluida la violencia contra las mujeres, y un año de experiencia en entidades públicas o privadas.",
-    "La Junta de Gobierno Local aprobó sus bases el 16 de octubre. La tasa de examen es de 24,67 euros, o 12,34 euros para quienes acrediten estar en paro con una antigüedad mínima de seis meses.",
-    "## Oficial de mantenimiento: por oposición",
-    "La plaza de oficial de primera de mantenimiento es del grupo C, subgrupo C2, y se cubre por oposición. Se pide graduado escolar, ESO, Formación Profesional de primer grado o equivalente. Sus bases las aprobó la Junta de Gobierno Local el 2 de octubre. La tasa es de 9,82 euros, o 4,87 euros para personas desempleadas con seis meses de antigüedad.",
-    "En los dos procesos la solicitud, el pago de la tasa y la documentación se presentan obligatoriamente a través del portal de convocatorias del Ayuntamiento. Terminado el plazo, el Ayuntamiento tiene hasta dos meses para publicar las listas provisionales de admitidos y excluidos.",
-    "<span class='howto'>Dónde inscribirse: alcalaguadaira.convoca.online, apartado «Convocatorias». Plazo: 20 días hábiles desde el día siguiente al extracto en el BOE. Asesor/a jurídico/a: grado en Derecho, 200 horas de formación en igualdad y un año de experiencia; tasa 24,67 € (12,34 € en paro). Oficial 1.ª de mantenimiento: graduado escolar o ESO; tasa 9,82 € (4,87 € en paro). Bases completas: sede electrónica del Ayuntamiento.</span>"
-   ],
-   "seo": [
-    "plazas-empleo-ayuntamiento-asesor-juridico-mantenimiento",
-    "Empleo en el Ayuntamiento de Alcalá: dos plazas fijas",
-    "El Ayuntamiento de Alcalá de Guadaíra convoca una plaza fija de asesor jurídico del centro de la mujer y otra de oficial de mantenimiento. Requisitos.",
-    [
-     "empleo público",
-     "oposiciones",
-     "Centro Municipal de Información a la Mujer",
-     "oficial de mantenimiento",
-     "OPE 2024",
-     "personal laboral fijo"
-    ]
-   ]
-  },
-  {
-   "id": "feria-empleo-cruz-roja-10-noviembre",
-   "sec": "economia",
-   "kicker": "Empleo",
-   "iso": "2026-10-28",
-   "src": "Ayuntamiento de Alcalá de Guadaíra",
-   "fuente_url": "https://www.alcaladeguadaira.es/noticias/9953/alcala-reune-a-mas-de-40-empresas-en-la--iv-feria-%E2%80%98creando-oportunidades-para-el-empleo%E2%80%99",
-   "title": "Más de 40 empresas buscarán trabajadores el 10 de noviembre en la feria de empleo de la Caseta Municipal",
-   "sub": "La IV feria ‘Creando Oportunidades para el Empleo’, de Cruz Roja, permitirá entregar el currículum en mano y hacer entrevistas en el momento",
-   "caption": "La delegada de Empleo, Paula Fuster, y la coordinadora provincial del Plan de Empleo de Cruz Roja Sevilla, Carmen de la Corte, en la presentación de la feria.",
-   "foto": "feria-empleo-cruz-roja-of.jpg",
-   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "La IV feria ‘Creando Oportunidades para el Empleo’ se celebra el martes 10 de noviembre, de 9:30 a 14:00, en la Caseta Municipal del recinto ferial de San Juan de Alcalá de Guadaíra.",
-    "Participan más de 40 empresas, además de oficinas del Servicio Andaluz de Empleo y del Servicio Público de Empleo Estatal.",
-    "La organiza Cruz Roja con la colaboración del Ayuntamiento y financiación del Fondo Social Europeo; la entrada es libre."
-   ],
-   "body": [
-    "Más de 40 empresas participarán el martes 10 de noviembre en la IV feria ‘Creando Oportunidades para el Empleo’ de Alcalá de Guadaíra, que se celebrará de 9:30 a 14:00 en la Caseta Municipal del recinto ferial de San Juan. La organiza Cruz Roja, con la colaboración del Ayuntamiento y financiación del Fondo Social Europeo, y está abierta a toda la población.",
-    "Las personas que busquen trabajo podrán hablar directamente con los responsables de selección de las empresas, entregar su currículum en mano y, cuando sea posible, hacer una entrevista en el momento. También habrá información sobre ofertas y necesidades de contratación.",
-    "## SAE, SEPE y orientación",
-    "En la feria estarán oficinas del Servicio Andaluz de Empleo (SAE) y del Servicio Público de Empleo Estatal (SEPE), y habrá servicios de orientación personalizada y asesoramiento para mejorar la búsqueda de empleo y preparar los procesos de selección.",
-    "La delegada municipal de Empleo, Paula Fuster, animó a participar y destacó que esta edición se traslada a la Caseta Municipal, un espacio más amplio que el del año pasado.",
-    "La coordinadora provincial del Plan de Empleo de Cruz Roja Sevilla, Carmen de la Corte Granado, explicó que la organización repite en Alcalá por el número de empresas y el potencial laboral de la ciudad. «Algo que valoran mucho las empresas es que pueden ver cara a cara a los candidatos», señaló, y añadió que para los asistentes la ventaja es poder dar el currículum en mano.",
-    "## La oficina de Cruz Roja",
-    "Cruz Roja tiene en Alcalá una oficina local en la calle Barrio Obrero, 3, desde la que desarrolla programas de orientación y acompañamiento para personas que necesitan apoyo para mejorar su empleabilidad.",
-    "La feria coincide con otras iniciativas de empleo en marcha en la ciudad, como los cursos gratuitos de RELANZA-T y la <a href='#plazas-empleo-asesor-juridico-mantenimiento'>convocatoria de dos plazas fijas en el Ayuntamiento</a>.",
-    "<span class='howto'>Cuándo: martes 10 de noviembre, de 9:30 a 14:00. Dónde: Caseta Municipal del recinto ferial de San Juan. Precio: entrada libre. Qué llevar: currículum impreso. Organiza: Cruz Roja, con el Ayuntamiento de Alcalá de Guadaíra.</span>"
-   ],
-   "seo": [
-    "feria-empleo-cruz-roja-caseta-municipal-alcala",
-    "Feria de empleo en Alcalá el 10 de noviembre: 40 empresas",
-    "Más de 40 empresas participan el 10 de noviembre en la IV feria de empleo de Cruz Roja en la Caseta Municipal de Alcalá: currículum en mano y entrevistas.",
-    [
-     "feria de empleo",
-     "Cruz Roja",
-     "Paula Fuster",
-     "Caseta Municipal",
-     "SAE",
-     "Fondo Social Europeo"
-    ]
-   ]
-  },
-  {
-   "id": "huertos-urbanos-zona-norte",
-   "sec": "alcala",
-   "kicker": "Barrios",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OZZlQUijaSc&t=1182s",
-   "title": "Alcalá construye en la zona norte su segundo espacio de huertos urbanos, con 10 parcelas y 156.000 euros",
-   "sub": "Las obras, entre las calles Francisco de Calatrava y Plaza de Rota, durarán tres meses e incluyen un edificio con aseo y almacén",
-   "caption": "Visita municipal a las obras de los nuevos huertos urbanos de la zona norte de Alcalá.",
-   "foto": "huertos-urbanos-zona-norte-of.jpg",
-   "fotocredito": "Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "El Ayuntamiento de Alcalá de Guadaíra construye 10 parcelas de huertos urbanos en la zona norte, entre las calles Francisco de Calatrava y Plaza de Rota.",
-    "La obra cuesta 156.000 euros y tiene un plazo de ejecución de tres meses.",
-    "Será el segundo espacio municipal de huertos urbanos, tras el de la avenida de Santa Lucía."
-   ],
-   "body": [
-    "El Ayuntamiento de Alcalá de Guadaíra está construyendo en la zona norte de la ciudad su segundo espacio de huertos urbanos, con 10 parcelas de cultivo, entre las calles Francisco de Calatrava y Plaza de Rota. El proyecto tiene un presupuesto de 156.000 euros y un plazo de ejecución de tres meses.",
-    "Hasta ahora la ciudad solo tenía huertos urbanos municipales en la avenida de Santa Lucía, en la zona este. Según el Ayuntamiento, la nueva instalación responde a una demanda de los vecinos de la zona norte.",
-    "## Qué incluye",
-    "El recinto tendrá una zona de mesas de cultivo junto al acceso principal, las parcelas de huerto en la parte central, pasillos de circulación y un espacio para el compostaje. La única edificación será un área de servicio de 15,93 metros cuadrados construidos, más 61 metros entre porche y accesos, con aseo, almacén y armario de herramientas.",
-    "Las parcelas tendrán agua para riego, saneamiento de aguas grises e instalación de luz y fuerza para el aseo y el almacén. La actuación se completará con el refuerzo del vallado y mejoras de accesibilidad en el entorno.",
-    "## Mayores y vecindad",
-    "La alcaldesa, Ana Isabel Jiménez, visitó las obras con el delegado de Hábitat Urbano, David Delgado. Jiménez vinculó los huertos a los programas de envejecimiento activo, a las relaciones entre vecinos y generaciones y a la recuperación de espacios urbanos.",
-    "La delegada de Participación Ciudadana, Teresa García Cruz, destacó la experiencia de los huertos de Santa Lucía, donde el Ayuntamiento ha hecho desde el verano labores de limpieza, pintura y mantenimiento. García Cruz aspira a que Alcalá sea «pionera» en esta actividad en la provincia.",
-    "El Ayuntamiento no ha informado todavía de cómo se adjudicarán las nuevas parcelas ni de los requisitos para optar a una.",
-    "<span class='howto'>Dónde: entre las calles Francisco de Calatrava y Plaza de Rota, zona norte. Parcelas: 10. Presupuesto: 156.000 euros. Plazo de obra: tres meses.</span>"
-   ],
-   "seo": [
-    "huertos-urbanos-zona-norte-alcala",
-    "Huertos urbanos en la zona norte de Alcalá: 10 parcelas",
-    "Alcalá de Guadaíra construye su segundo espacio de huertos urbanos, con 10 parcelas en la zona norte, por 156.000 euros y con tres meses de obra.",
-    [
-     "huertos urbanos",
-     "zona norte",
-     "David Delgado",
-     "Teresa García Cruz",
-     "Santa Lucía",
-     "envejecimiento activo"
-    ]
-   ]
-  },
-  {
-   "id": "vivienda-compraventas-precio-2026",
-   "sec": "economia",
-   "kicker": "Vivienda",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OZZlQUijaSc&t=455s",
-   "title": "La vivienda en venta se anuncia en Alcalá a 1.704 euros el metro cuadrado, un 13,4 % más que hace un año",
-   "sub": "La ciudad cerró 2025 con 1.028 compraventas de viviendas, nueve de cada diez de segunda mano",
-   "caption": "Bloques de viviendas en Alcalá de Guadaíra.",
-   "foto": "vivienda-compraventas-precio-2026.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "Alcalá de Guadaíra registró 1.028 compraventas de viviendas en 2025: 968 de segunda mano y 60 nuevas, según el Sistema de Información Multiterritorial de Andalucía.",
-    "El precio medio de oferta llegó en septiembre de 2026 a 1.704 euros por metro cuadrado, un 13,4 % más que un año antes, según el portal idealista.",
-    "Ese precio es el de los anuncios, no necesariamente el que se paga al cerrar la compra.",
-    "En la provincia de Sevilla se vendieron 1.867 viviendas en agosto de 2026, un 5,18 % más que en agosto de 2025."
-   ],
-   "body": [
-    "El precio medio al que se anuncian las viviendas en venta en Alcalá de Guadaíra llegó en septiembre de 2026 a 1.704 euros por metro cuadrado, un 13,4 % más que en el mismo mes de 2025 y un 1,3 % más que en agosto, según los datos del portal inmobiliario idealista.",
-    "Con ese precio medio, una vivienda de 90 metros cuadrados se anunciaría en torno a 153.000 euros. Hace un año, con la subida del 13,4 %, el metro cuadrado se ofertaba en torno a 1.500 euros, por lo que la misma vivienda costaría unos 18.000 euros menos.",
-    "## Nueve de cada diez, de segunda mano",
-    "Los últimos datos municipales disponibles sobre operaciones son de 2025. Ese año se registraron en Alcalá 1.028 compraventas de viviendas, según el Sistema de Información Multiterritorial de Andalucía (SIMA). De ellas, 968 fueron de vivienda usada y 60 de vivienda nueva: la segunda mano concentró el 94 % del mercado.",
-    "El dato de idealista mide el precio de oferta, es decir, lo que piden los vendedores en sus anuncios. No es necesariamente el importe final que se paga cuando se cierra la operación, que suele negociarse.",
-    "## La provincia también vende más",
-    "En el conjunto de la provincia de Sevilla se vendieron 1.867 viviendas en agosto de 2026, un 5,18 % más que en agosto del año anterior, según los últimos datos publicados por la Diputación de Sevilla a partir de la estadística del Instituto Nacional de Estadística (INE).",
-    "El número de operaciones y la evolución de los precios miden dos cosas distintas: cuántas viviendas cambian de dueño y cuánto cuesta a quien busca comprar.",
-    "La subida llega mientras el Ayuntamiento y su empresa pública VIVE Alcalá preparan nuevas promociones protegidas. VIVE sorteará a principios de diciembre 107 viviendas protegidas en venta y ha empezado a construir 84 viviendas de alquiler asequible en el Zacatín, que se alquilarán por 350 euros al mes más garaje y trastero."
-   ],
-   "seo": [
-    "precio-vivienda-alcala-compraventas-2026",
-    "Precio de la vivienda en Alcalá: 1.704 €/m², un 13,4 % más",
-    "La vivienda en venta se anuncia en Alcalá de Guadaíra a 1.704 euros el metro cuadrado, un 13,4 % más que hace un año; en 2025 hubo 1.028 compraventas.",
-    [
-     "precio de la vivienda",
-     "compraventas",
-     "idealista",
-     "SIMA",
-     "mercado inmobiliario",
-     "VIVE Alcalá"
-    ]
-   ]
-  },
-  {
-   "id": "huelga-general-ccoo-asamblea",
-   "sec": "economia",
-   "kicker": "Huelga general",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OZZlQUijaSc&t=712s",
-   "title": "CCOO explica en Alcalá los motivos de la huelga general del 11 de noviembre: salarios, vivienda y precios",
-   "sub": "El sindicato celebró una asamblea informativa para animar a secundar el paro convocado junto a UGT en los sectores público y privado",
-   "caption": "Asamblea informativa de Comisiones Obreras en Alcalá de Guadaíra sobre la huelga general del 11 de noviembre.",
-   "foto": "huelga-general-ccoo-asamblea.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "Comisiones Obreras celebró el lunes 26 de octubre en Alcalá de Guadaíra una asamblea informativa sobre la huelga general del 11 de noviembre.",
-    "La huelga la convocan CCOO y UGT para trabajadores de los sectores público y privado.",
-    "El sindicato reclama subidas salariales, vivienda asequible, control de los precios básicos y servicios públicos de calidad."
-   ],
-   "body": [
-    "Comisiones Obreras (CCOO) celebró el lunes 26 de octubre en Alcalá de Guadaíra una asamblea informativa para explicar los motivos de la huelga general convocada para el miércoles 11 de noviembre y animar a secundarla. El paro lo impulsan CCOO y UGT y llama a trabajadores de los sectores público y privado.",
-    "La asamblea de Alcalá forma parte de las decenas que el sindicato celebra cada semana en la provincia de Sevilla y en el resto del país, según explicó a El Panadero el responsable de CCOO que la dirigió. El objetivo, dijo, es «debatir con la gente trabajadora» y que el mensaje llegue a las empresas de localidades como Alcalá y de la comarca de Los Alcores.",
-    "## Las reivindicaciones",
-    "El sindicato sostiene que el crecimiento económico y los beneficios empresariales no se están trasladando lo suficiente al poder adquisitivo de los trabajadores. Sus demandas se agrupan en tres bloques: subidas salariales, acceso a una vivienda digna y asequible, y medidas para frenar el efecto de la subida de precios en la economía de las familias.",
-    "Según el representante sindical, la vivienda ocupa un lugar central en la convocatoria: CCOO reclama que se pueda acceder a un techo, en alquiler o en propiedad, a un precio asequible. También pide control sobre el precio de bienes como el combustible, la luz o el agua, y servicios públicos de calidad en sanidad y educación.",
-    "En cuanto a los salarios, el sindicato considera que, por mucho que se negocien convenios colectivos, los sueldos no consiguen evitar la pérdida de poder adquisitivo.",
-    "## A quién llama a parar",
-    "CCOO dirige la convocatoria a trabajadores en activo, pensionistas y estudiantes. «Quien trabaje, que no vaya a trabajar. Quien no trabaje, que participe de los piquetes, de las asambleas y sobre todo de las manifestaciones», resumió el responsable sindical.",
-    "<span class='howto'>Qué: huelga general convocada por CCOO y UGT. Cuándo: miércoles 11 de noviembre de 2026. A quién afecta: trabajadores de los sectores público y privado.</span>"
-   ],
-   "seo": [
-    "huelga-general-11-noviembre-ccoo-alcala",
-    "Huelga general del 11 de noviembre: CCOO informa en Alcalá",
-    "CCOO celebró en Alcalá de Guadaíra una asamblea sobre la huelga general del 11 de noviembre, convocada con UGT por salarios, vivienda y precios.",
-    [
-     "huelga general",
-     "CCOO",
-     "UGT",
-     "11 de noviembre",
-     "salarios",
-     "vivienda asequible"
-    ]
-   ]
-  },
-  {
-   "id": "pp-axsi-reglamento-organico",
-   "sec": "politica",
-   "kicker": "Pleno",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OZZlQUijaSc&t=884s",
-   "title": "El PP acusa a Andalucía Por Sí de cambiar de postura al votar contra revisar el reglamento del Pleno",
-   "sub": "Los populares recuerdan que el partido andalucista apoyó en 2023, desde la oposición, crear una comisión para estudiar el Reglamento Orgánico Municipal",
-   "caption": "Concejales de la corporación municipal durante el último Pleno ordinario.",
-   "foto": "pp-axsi-reglamento-organico.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El PP de Alcalá de Guadaíra critica que Andalucía Por Sí votara en el último Pleno contra su propuesta de revisar el Reglamento Orgánico Municipal.",
-    "Los populares recuerdan que en febrero de 2023 Andalucía Por Sí votó a favor de una comisión especial para estudiar mejoras en ese reglamento.",
-    "El PP pide al portavoz andalucista, Christopher Rivas, que explique el cambio de postura."
-   ],
-   "body": [
-    "El Partido Popular de Alcalá de Guadaíra ha acusado a Andalucía Por Sí, socio del gobierno municipal, de cambiar de postura sobre el Reglamento Orgánico Municipal (ROM), la norma que regula el funcionamiento del Pleno. Los andalucistas votaron en contra de la propuesta del PP para revisarlo, debatida en el último Pleno.",
-    "La presidenta local del PP y candidata a la alcaldía, Sandra González, considera contradictorio que la formación andalucista defendiera cambios en el reglamento cuando estaba en la oposición y ahora, desde el gobierno, rechace una iniciativa para modificarlo.",
-    "## La comisión de 2023",
-    "Los populares recuerdan que en febrero de 2023 Andalucía Por Sí votó a favor de crear una comisión especial para estudiar posibles mejoras del reglamento. Entre ellas figuraban nuevas fórmulas de participación ciudadana, como la figura del «concejal 26», que permitiría a vecinos y colectivos intervenir en las sesiones.",
-    "Según el PP, revisar el ROM permitiría mejorar la transparencia, facilitar el control de la oposición y ampliar la participación de los vecinos. Por eso reclama al portavoz de Andalucía Por Sí, Christopher Rivas, que explique los motivos del cambio.",
-    "El partido sostiene que la norma de funcionamiento del Ayuntamiento debe poder revisarse con independencia de quién gobierne y anuncia que mantendrá su propuesta para reforzar la participación y el control democrático.",
-    "## El contexto",
-    "Andalucía Por Sí gobierna en Alcalá en coalición con el PSOE de la alcaldesa, Ana Isabel Jiménez. Rivas es responsable del Área de Identidad y delegado de Cultura en el gobierno municipal. La formación anunció este mes que no se presentará a las elecciones generales.",
-    "La crítica del PP llega a siete meses de las elecciones municipales de mayo de 2027, para las que el partido ya ha presentado a Sandra González como candidata."
-   ],
-   "seo": [
-    "pp-andalucia-por-si-reglamento-organico-pleno",
-    "El PP critica a Andalucía Por Sí por el reglamento del Pleno",
-    "El PP de Alcalá de Guadaíra acusa a Andalucía Por Sí de cambiar de postura al votar contra revisar el Reglamento Orgánico Municipal, que apoyó en 2023.",
-    [
-     "PP de Alcalá",
-     "Andalucía Por Sí",
-     "Sandra González",
-     "Christopher Rivas",
-     "Reglamento Orgánico Municipal",
-     "Pleno"
-    ]
-   ]
-  },
-  {
-   "id": "villalba-homenaje-consejo",
-   "sec": "hermandades",
-   "kicker": "Patrimonio cofrade",
-   "iso": "2026-10-28",
-   "src": "Consejo de Hermandades de Alcalá",
-   "fuente_url": "https://www.consejohermandadesalcala.es/2026/10/26/homenaje-de-la-cabalgata-a-isidoro-villalba-corzo/",
-   "title": "El Consejo de Hermandades se suma al homenaje a Isidoro Villalba, autor del primer cartel de la Semana Santa de Alcalá",
-   "sub": "El artista, director artístico de la Cabalgata durante cuatro décadas, pintó los carteles de 1982 y 1984 y firma desde 1990 los pergaminos de los pregoneros",
-   "caption": "Asistentes al homenaje de la Cabalgata de Reyes Magos a Isidoro Villalba Corzo, el domingo 25 de octubre.",
-   "foto": "villalba-homenaje-consejo-of.jpg",
-   "fotocredito": "Consejo de Hermandades de Alcalá",
-   "claves": [
-    "El Consejo de Hermandades de Alcalá de Guadaíra participó el domingo 25 de octubre en el homenaje de la Cabalgata de Reyes Magos a Isidoro Villalba Corzo.",
-    "Villalba pintó en 1982 el primer cartel anunciador de la Semana Santa de Alcalá y el tercero, en 1984.",
-    "Desde 1990 realiza el pergamino oficial con el que el Consejo reconoce a cada pregonero de la Semana Santa."
-   ],
-   "body": [
-    "El Consejo de Hermandades y Cofradías de Alcalá de Guadaíra se sumó el domingo 25 de octubre al homenaje que la Cabalgata de Reyes Magos dedicó a Isidoro Villalba Corzo, su director artístico durante cuatro décadas. El presidente del Consejo, Enrique Ruiz Portillo, felicitó personalmente al artista, según ha informado la institución cofrade.",
-    "La Cabalgata había anunciado que el reconocimiento sería durante su Almuerzo de Convivencia Real en la Hacienda de la Andrada.",
-    "## El primer cartel de la Semana Santa",
-    "Villalba está muy vinculado al mundo de las hermandades como cofrade y como artista. En 1982 pintó el primer cartel anunciador de la Semana Santa de Alcalá y en 1984, el tercero, con lo que abrió la serie de carteles oficiales que edita el Consejo.",
-    "Además, formó parte de la Junta Permanente del Consejo como secretario entre 1980 y 1988 y pronunció el pregón de la Semana Santa alcalareña en 1987.",
-    "## Los pergaminos de los pregoneros",
-    "Desde 1990, el Consejo le encarga el pergamino oficial con el que homenajea a cada pregonero de la Semana Santa. Son piezas personalizadas para cada pregonero, en las que la institución destaca la tipografía y la carga simbólica.",
-    "En 2023 el Consejo volvió a contar con él para ilustrar el Cartel de las Glorias de Alcalá de Guadaíra, dedicado ese año a la Hermandad del Rocío de la localidad.",
-    "Fuera del ámbito cofrade, Villalba ha diseñado desde 1987 las carrozas, el vestuario y los personajes de la Cabalgata de Reyes Magos que recorre Alcalá cada 5 de enero, además de su logotipo oficial."
-   ],
-   "seo": [
-    "isidoro-villalba-homenaje-consejo-hermandades",
-    "Homenaje a Isidoro Villalba, autor del primer cartel cofrade",
-    "El Consejo de Hermandades de Alcalá se suma al homenaje a Isidoro Villalba, autor del primer cartel de Semana Santa (1982) y de los pergaminos del pregón.",
-    [
-     "Isidoro Villalba",
-     "Consejo de Hermandades",
-     "Cabalgata de Reyes Magos",
-     "Semana Santa de Alcalá",
-     "Enrique Ruiz Portillo",
-     "cartel"
-    ]
-   ]
-  },
-  {
-   "id": "concurso-ornitologico-alguira",
-   "sec": "deportes",
-   "kicker": "Ornitología",
-   "iso": "2026-10-28",
-   "src": "Alcalá+Deporte",
-   "fuente_url": "https://www.alcalamasdeporte.com/noticias/8419/la-caseta-municipal-reune-mas-de-2000-ejemplares-de-aves-que-compiten-en-belleza",
-   "title": "El concurso ornitológico de Algüira reúne 2.130 aves en la Caseta Municipal, abierto al público del 29 al 31",
-   "sub": "La 42.ª edición, con entrada gratuita, muestra cientos de variedades de canarios, aves exóticas e híbridos criados en cautividad",
-   "caption": "Cartel del XLII Concurso Ornitológico Algüira en la Caseta Municipal de Alcalá de Guadaíra.",
-   "foto": "concurso-ornitologico-alguira-of.jpg",
-   "fotocredito": "Alcalá+Deporte",
-   "encuadre": "contain",
-   "claves": [
-    "El XLII Concurso Ornitológico de la Asociación Algüira reúne 2.130 aves en la Caseta Municipal de Alcalá de Guadaíra.",
-    "Se puede visitar gratis el jueves 29 y el viernes 30 de octubre de 17:30 a 21:00 y el sábado 31 de 10:00 a 14:00 y de 16:00 a 20:00.",
-    "La mayoría de los ejemplares son canarios, que se juzgan por su color o por su postura."
-   ],
-   "body": [
-    "La Caseta Municipal de Alcalá de Guadaíra acoge el XLII Concurso Ornitológico de la Asociación Algüira, con 2.130 aves inscritas. La exposición se puede visitar gratis del jueves 29 al sábado 31 de octubre, después de que los jueces hayan puntuado cada ejemplar.",
-    "El concurso es la culminación del trabajo de cría y selección de todo el año. Los criadores presentan sus mejores ejemplares, todos criados en cautividad, y los jueces determinan la puntuación de cada uno y los premios. Según el cartel, el enjuiciamiento fue el domingo 25, la inauguración es el jueves 29 a las 17:30 y la entrega de trofeos, el sábado 31 a las 12:30. Hay 200 euros para el mejor criador de cada monográfico.",
-    "## Canarios de color y de postura",
-    "Los canarios son, con mucho, las aves más numerosas. Se dividen en dos grandes grupos según la característica que se juzga: de color y de postura. Entre los de color hay cientos de variedades, del rojo intenso al blanco o el amarillo, y combinaciones con pigmentos oscuros que dan ejemplares bronces, verdes o grises. Algunas mutaciones toman el nombre de piedras como el topacio, el ópalo o el cobalto.",
-    "En los de postura, cada raza suele proceder de la selección de los criadores de una región o país. España aporta el Giboso, el raza española o el Melado Tinerfeño; Francia, el rizado; Italia, los Gibber, Fiorino o Padovano; los Países Bajos, los Rizados del Norte y del Sur, y Japón, el Hosso.",
-    "La muestra se completa con aves exóticas, ejemplares de fauna europea criados en cautividad e híbridos entre especies. Como novedad, este año hay una sala de exposición y cesión de aves.",
-    "La Asociación Ornitológica Algüira es una de las más importantes del país, con una larga trayectoria y socios con premios nacionales y mundiales, según el portal deportivo municipal.",
-    "<span class='howto'>Dónde: Caseta Municipal del recinto ferial. Horario de visita: jueves 29 y viernes 30 de octubre, de 17:30 a 21:00; sábado 31, de 10:00 a 14:00 y de 16:00 a 20:00. Entrega de trofeos: sábado 31, a las 12:30. Precio: entrada gratuita.</span>"
-   ],
-   "seo": [
-    "concurso-ornitologico-alguira-caseta-municipal",
-    "Concurso ornitológico Algüira: 2.130 aves en Alcalá",
-    "El XLII Concurso Ornitológico Algüira expone 2.130 aves en la Caseta Municipal de Alcalá de Guadaíra del 29 al 31 de octubre, con entrada gratuita.",
-    [
-     "Asociación Algüira",
-     "ornitología",
-     "canarios",
-     "Caseta Municipal",
-     "concurso ornitológico",
-     "aves"
-    ]
-   ]
-  },
-  {
-   "id": "rodaje-pelicula-oromana-molinos",
-   "sec": "alcala",
-   "kicker": "Rodajes",
-   "iso": "2026-10-28",
-   "src": "Ayuntamiento de Alcalá de Guadaíra (Instagram)",
-   "fuente_url": "https://www.instagram.com/aytoalcaladeguadaira/p/De_zqPCANGu/",
-   "title": "Un rodaje de cine cortará de forma intermitente el paso junto a los molinos de la Aceña y del Algarrobo",
-   "sub": "La grabación ocupa el entorno del parque de Oromana durante todo el día el miércoles 28 y el jueves 29 de octubre",
-   "caption": "Un grupo de personas junto al río Guadaíra, en el entorno de Oromana, en una imagen difundida por el Ayuntamiento.",
-   "foto": "rodaje-pelicula-oromana-of.jpg",
-   "fotocredito": "Instagram del Ayuntamiento de Alcalá de Guadaíra",
-   "claves": [
-    "Un equipo rueda una película en el entorno del parque de Oromana, en Alcalá de Guadaíra, los días 28 y 29 de octubre.",
-    "El miércoles 28 el rodaje es en el molino de la Aceña y el jueves 29, en el molino del Algarrobo.",
-    "Habrá cortes temporales del paso para caminantes y otros usuarios de los caminos."
-   ],
-   "body": [
-    "Un equipo de cine rueda una película el miércoles 28 y el jueves 29 de octubre en el entorno del parque de Oromana, en Alcalá de Guadaíra, según ha informado el Ayuntamiento en su perfil de Instagram. El rodaje se desarrolla durante toda la jornada: el miércoles en el molino de la Aceña y el jueves en el molino del Algarrobo.",
-    "Durante la grabación habrá zonas acotadas y cortes intermitentes del paso, por lo que los caminantes y demás usuarios de los senderos pueden verse afectados de forma puntual.",
-    "## Cortes temporales",
-    "Según el Ayuntamiento, los cortes serán temporales: se irá dejando pasar a la gente al terminar cada toma o cuando las condiciones del rodaje lo permitan, para que puedan seguir su recorrido.",
-    "Los dos son antiguos molinos harineros de la ribera del Guadaíra, en una de las zonas de paseo más frecuentadas de la ciudad.",
-    "El Ayuntamiento no ha dado el título de la película ni el nombre de la productora. La web de turismo municipal ofrece un servicio de oficina de rodajes, Alcalá Film Office, para las producciones que quieran grabar en la ciudad.",
-    "<span class='howto'>Cuándo: miércoles 28 de octubre, molino de la Aceña; jueves 29 de octubre, molino del Algarrobo. Durante toda la jornada. Afecta a: caminos del entorno del parque de Oromana, con cortes intermitentes del paso.</span>"
-   ],
-   "seo": [
-    "rodaje-pelicula-oromana-molino-acena-algarrobo",
-    "Rodaje en Oromana: cortes junto a los molinos de Alcalá",
-    "Un rodaje de cine corta de forma intermitente el paso junto a los molinos de la Aceña y del Algarrobo, en Oromana, el 28 y el 29 de octubre en Alcalá.",
-    [
-     "rodajes",
-     "Oromana",
-     "molino de la Aceña",
-     "molino del Algarrobo",
-     "Riberas del Guadaíra",
-     "Alcalá Film Office"
-    ]
-   ]
-  },
-  {
-   "id": "premios-juventud-andaluza-2026",
-   "sec": "alcala",
-   "kicker": "Convocatorias",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=OZZlQUijaSc&t=1235s",
-   "title": "Los jóvenes de 14 a 35 años pueden presentar candidaturas a los Premios Juventud Andaluza hasta el 10 de noviembre",
-   "sub": "La Junta reconoce el emprendimiento, la cultura, el deporte o la ciencia en siete modalidades y con una mención al municipio joven del año",
-   "caption": "Datos de la convocatoria de los Premios Juventud Andaluza 2026.",
-   "foto": "premios-juventud-andaluza-2026-gfx.jpg",
-   "fotocredito": "Gráfico El Panadero",
-   "encuadre": "contain",
-   "claves": [
-    "La Junta de Andalucía ha convocado los Premios Juventud Andaluza 2026, abiertos a jóvenes de 14 a 35 años andaluces o residentes en Andalucía y a colectivos formados mayoritariamente por jóvenes.",
-    "El plazo es de 10 días hábiles desde el 27 de octubre, por lo que termina el 10 de noviembre.",
-    "Los premios son honoríficos, sin dotación económica, y se reparten en siete modalidades."
-   ],
-   "body": [
-    "Los jóvenes de Alcalá de Guadaíra de entre 14 y 35 años, y los colectivos y entidades formados mayoritariamente por jóvenes, pueden presentar su candidatura a los Premios Juventud Andaluza 2026, que convoca el Instituto Andaluz de la Juventud. El plazo, de 10 días hábiles, empezó el 27 de octubre y termina el 10 de noviembre.",
-    "La convocatoria se publicó el lunes 26 de octubre en el <a href='https://www.juntadeandalucia.es/boja/2026/207/3.html'>Boletín Oficial de la Junta de Andalucía</a>. Pueden participar personas andaluzas o residentes en Andalucía que tengan entre 14 y 35 años al terminar el plazo. No pueden presentarse quienes ya hayan ganado en ediciones anteriores.",
-    "## Siete modalidades",
-    "Los premios tienen siete modalidades: emprendimiento juvenil, arte y cultura, deporte, ciencia e investigación, innovación y tecnología, respeto a la igualdad y a la diversidad sexual y de género, desarrollo sostenible y promoción de la inclusión sociolaboral de jóvenes con discapacidad. Cada candidatura solo puede optar a una.",
-    "El emprendimiento se divide en dos categorías: una para negocios de hasta tres años de antigüedad y otra para iniciativas con más trayectoria.",
-    "La Junta concede además la mención «Municipio Joven del año», que propone el jurado entre los municipios reconocidos como Municipio Joven de Andalucía que no la hayan recibido antes.",
-    "## Cómo se presenta",
-    "La candidatura se presenta con el modelo de solicitud del anexo y una memoria de hasta cuatro páginas que justifique los méritos, junto al currículum y el material que los acredite. Se pueden añadir cartas de recomendación de entidades públicas o privadas, centros educativos o asociaciones juveniles.",
-    "Los premios son honoríficos: no tienen dotación económica y consisten en una escultura. El jurado fallará en el plazo de un mes desde el cierre de la convocatoria. La entrega está prevista para el 2 de diciembre en Granada.",
-    "<span class='howto'>Quién: jóvenes de 14 a 35 años andaluces o residentes en Andalucía, y colectivos de mayoría joven. Plazo: hasta el 10 de noviembre. Cómo: preferentemente por el Registro Electrónico de la Junta de Andalucía; las entidades, obligatoriamente por esa vía. Premio: escultura honorífica, sin dinero.</span>"
-   ],
-   "seo": [
-    "premios-juventud-andaluza-2026-candidaturas",
-    "Premios Juventud Andaluza 2026: plazo hasta el 10/11",
-    "Los jóvenes de 14 a 35 años de Alcalá pueden optar a los Premios Juventud Andaluza 2026 en siete modalidades. Las candidaturas, hasta el 10 de noviembre.",
-    [
-     "Premios Juventud Andaluza",
-     "Instituto Andaluz de la Juventud",
-     "Junta de Andalucía",
-     "BOJA",
-     "jóvenes",
-     "emprendimiento"
-    ]
-   ]
-  },
-  {
-   "id": "david-munoz-silencio-y-ruido",
-   "sec": "cultura",
-   "kicker": "Libros",
-   "iso": "2026-10-28",
-   "src": "El Panadero",
-   "fuente_url": "https://www.youtube.com/watch?v=sw5p-k1cUfg&t=22s",
-   "title": "El alcalareño David Muñoz Álvarez publica ‘Silencio y ruido’, una novela de suspense con un detective en Nueva York",
-   "sub": "Su primera novela, de 16 capítulos, se presentó en la Casa de la Juventud y ya se vende en las grandes plataformas",
-   "caption": "David Muñoz Álvarez, autor de ‘Silencio y ruido’, durante la entrevista en el programa Directo a la Tarde.",
-   "foto": "david-munoz-silencio-y-ruido.jpg",
-   "fotocredito": "MiGuadaíraTV",
-   "claves": [
-    "El escritor de Alcalá de Guadaíra David Muñoz Álvarez ha publicado su primera novela, ‘Silencio y ruido’, una historia de suspense ambientada en Nueva York.",
-    "El protagonista es Ryan Ramsey, un detective privado con oficina en Queens al que un caso le cambia la vida.",
-    "La presentación oficial fue en la Casa de la Juventud de Alcalá, con más de 40 asistentes."
-   ],
-   "body": [
-    "El escritor alcalareño David Muñoz Álvarez ha publicado ‘Silencio y ruido’, su primera novela, una historia de suspense e intriga ambientada en Nueva York. La presentó oficialmente hace alrededor de una semana y media en la Casa de la Juventud de Alcalá de Guadaíra, ante más de 40 personas en una sala con aforo para 50.",
-    "El título nace del contraste entre la oficina aburrida y silenciosa del protagonista y el ruido de una ciudad que nunca duerme, explicó Muñoz en declaraciones a El Panadero en el programa Directo a la Tarde.",
-    "## Un detective aburrido en Queens",
-    "La novela sigue a Ryan Ramsey, un detective privado de padres ingleses con una pequeña oficina en el barrio neoyorquino de Queens. Ramsey está cansado de casos rutinarios de infidelidades y dinero hasta que aparece Kimberly Sinclair con un encargo que cambia su percepción de la realidad y pone su vida patas arriba.",
-    "El libro tiene 16 capítulos, que el autor no escribió en orden. Lo más difícil, dijo, fue el final: «Vamos a intentar que guste más o menos a todo el mundo y que quede algo decente». La historia tiene principio y fin, aunque Muñoz no descarta nuevos casos del detective: o se queda en uno, o hace una trilogía.",
-    "## Diez años de idea, cuatro meses de escritura",
-    "Muñoz cuenta que escribir no tiene nada que ver con sus estudios ni con su trabajo, pero que siempre le ha gustado. La idea surgió hace unos diez años, mientras estudiaba Derecho Administrativo, y la escribió en serio este año, en unos cuatro meses, durante una mudanza. No se lo contó a nadie hasta tenerla terminada.",
-    "En marzo la envió a varias editoriales y firmó con la primera que le respondió, al mes y medio. «Es un proceso muy lento», resumió.",
-    "<span class='howto'>Dónde comprarla: en Amazon y Fnac; según el autor, llegará a Casa del Libro, El Corte Inglés y librerías. También la vende él mismo con dedicatoria.</span>"
-   ],
-   "seo": [
-    "david-munoz-alvarez-novela-silencio-y-ruido",
-    "‘Silencio y ruido’, la primera novela de David Muñoz",
-    "El alcalareño David Muñoz Álvarez publica ‘Silencio y ruido’, su primera novela, un thriller con el detective Ryan Ramsey en Nueva York. Dónde comprarla.",
-    [
-     "David Muñoz Álvarez",
-     "Silencio y ruido",
-     "novela",
-     "escritores de Alcalá",
-     "Casa de la Juventud",
-     "suspense"
     ]
    ]
   },
